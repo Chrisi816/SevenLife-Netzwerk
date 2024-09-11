@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<title>Document</title>
+		<link rel="stylesheet" href="index.css" />
+	</head>
+	<body>
+		<div class="nuifocus">
+			<div class="left"></div>
+			<div class="right"></div>
+			<h1 class="zoohandlungtext">TIERHEIM</h1>
+			<div class="tiercontainer">
+				<div
+					class="container-buyanimal"
+					types="1"
+					zahle="1000"
+					name="Rotweiler"
+				>
+					<div class="inside-container">
+						<img
+							src="items/A_C_Retriever.png"
+							class="emoji"
+							alt=""
+						/>
+					</div>
+					<h1 class="text-tier">ROTWEILER</h1>
+					<h1 class="text-zahlen">1000$</h1>
+				</div>
+				<div
+					class="container-buyanimal"
+					types="2"
+					zahle="1500"
+					name="Pudel"
+				>
+					<div class="inside-container">
+						<img
+							src="items/A_C_Retriever.png"
+							class="emoji"
+							alt=""
+						/>
+					</div>
+					<h1 class="text-tier">PUDEL</h1>
+					<h1 class="text-zahlen">1500$</h1>
+				</div>
+				<div
+					class="container-buyanimal"
+					types="3"
+					zahle="2000"
+					name="Mops"
+				>
+					<div class="inside-container">
+						<img
+							src="items/A_C_Retriever.png"
+							class="emoji"
+							alt=""
+						/>
+					</div>
+					<h1 class="text-tier">MOPS</h1>
+					<h1 class="text-zahlen">2000$</h1>
+				</div>
+				<div
+					class="container-buyanimal"
+					types="4"
+					zahle="2000"
+					name="G.Retriever"
+				>
+					<div class="inside-container">
+						<img
+							src="items/A_C_Retriever.png"
+							class="emoji"
+							alt=""
+						/>
+					</div>
+					<h1 class="text-tier">G.RETRIEVER</h1>
+					<h1 class="text-zahlen">2000$</h1>
+				</div>
+				<div
+					class="container-buyanimal"
+					types="5"
+					zahle="3500"
+					name="Bolognerser"
+				>
+					<div class="inside-container">
+						<img
+							src="items/A_C_Retriever.png"
+							class="emoji"
+							alt=""
+						/>
+					</div>
+					<h1 class="text-tier">BOLOGNERSER</h1>
+					<h1 class="text-zahlen">3500$</h1>
+				</div>
+				<div
+					class="container-buyanimal"
+					types="6"
+					zahle="3500"
+					name="G.hirte"
+				>
+					<div class="inside-container">
+						<img
+							src="items/A_C_Retriever.png"
+							class="emoji"
+							alt=""
+						/>
+					</div>
+					<h1 class="text-tier">S.HIRTE</h1>
+					<h1 class="text-zahlen">3500$</h1>
+				</div>
+				<div
+					class="container-buyanimal"
+					types="7"
+					zahle="4000"
+					name="Huski"
+				>
+					<div class="inside-container">
+						<img
+							src="items/A_C_Retriever.png"
+							class="emoji"
+							alt=""
+						/>
+					</div>
+					<h1 class="text-tier">HUSKI</h1>
+					<h1 class="text-zahlen">4000$</h1>
+				</div>
+			</div>
+			<div class="container-buying">
+				<h1 class="information">Information:</h1>
+				<h1 class="insgesamt">Insgesamt:</h1>
+				<h1 class="text-zahlense" id="text-zahlense" data-value="0">
+					0$
+				</h1>
+				<button
+					type="button"
+					id="submitbutton1"
+					class="submitbutton"
+					types="1"
+					price="100"
+					recipt="false"
+				>
+					<img
+						src="items/outline_done_white_24dp.png"
+						class="done"
+						alt=""
+					/>
+					Kaufen
+				</button>
+				<img
+					src="items/outline_shopping_cart_white_48dp.png"
+					class="Shoppingcar"
+					alt=""
+				/>
+				<h1 class="warenkorb">Ihr Warenkorb...</h1>
+				<div class="warenkorb-container" id="warenkorb-container"></div>
+			</div>
+		</div>
+	</body>
+	<script src="index.js"></script>
+</html>

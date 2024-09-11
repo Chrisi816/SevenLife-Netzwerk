@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+body {
+	padding: 0;
+	overflow: hidden;
+	margin: 0;
+}
+
+.hud-container {
+	position: relative;
+	width: 40vw;
+	height: 15vh;
+	background-color: rgba(255, 0, 0, 0);
+	left: 36vw;
+	top: 88vh;
+}
+.rechtsbox {
+	position: relative;
+	width: 15.4vw;
+	height: 6vh;
+	left: 15.7vw;
+	top: -2.28vh;
+	background: linear-gradient(
+		to right,
+		rgba(0, 0, 0, 0.794),
+		70%,
+		rgba(255, 255, 255, 0)
+	);
+	border-bottom: 0.2vh solid rgb(153, 0, 89);
+}
+.linksbox {
+	position: relative;
+	width: 15vw;
+	height: 6vh;
+	left: 0.55vw;
+	top: -8.5vh;
+	background: linear-gradient(
+		to left,
+		rgba(0, 0, 0, 0.794),
+		70%,
+		rgba(255, 255, 255, 0)
+	);
+	border-bottom: 0.2vh solid rgb(153, 0, 89);
+}
+.kmh {
+	position: absolute;
+	font-family: "Bebas Neue", cursive;
+	color: white;
+	font-size: 2vw;
+	left: 10.4vw;
+	top: 2.1vh;
+}
+.kmhzahl {
+	position: absolute;
+	font-family: "Bebas Neue", cursive;
+	color: white;
+	font-size: 3.1vw;
+	left: 6.6vw;
+	top: 0vh;
+}
+.gang {
+	position: absolute;
+	font-family: "Bebas Neue", cursive;
+	color: white;
+	font-size: 1.35vw;
+	letter-spacing: 1px;
+	left: 0vw;
+	top: 0.3vh;
+}
+.liter {
+	position: absolute;
+	font-family: "Bebas Neue", cursive;
+	color: white;
+	font-size: 1.35vw;
+	letter-spacing: 1px;
+	left: 0vw;
+	top: 3.1vh;
+}
+.anzahlgang {
+	position: absolute;
+	color: rgb(192, 0, 250);
+	font-size: 1.6vw;
+	top: -0.2vh;
+	left: 2.5vw;
+}
+.anzahlliter {
+	position: absolute;
+	color: rgb(192, 0, 250);
+	font-size: 1.6vw;
+	top: -0.2vh;
+	left: 2.6vw;
+}
+.imgs {
+	position: relative;
+	width: 1.8vw;
+	top: 1vh;
+	margin-left: 0.3vw;
+}
+#motor {
+	width: 2.55vw;
+}
+.links {
+	position: relative;
+	width: 8.85vw;
+	height: 2.3vh;
+	left: 6.75vw;
+	top: 0vh;
+	background: linear-gradient(
+		to left,
+		rgba(0, 0, 0, 0.794),
+		70%,
+		rgba(255, 255, 255, 0)
+	);
+	border-top: 2px solid rgb(153, 0, 89);
+}
+.rechts {
+	position: relative;
+	width: 8.85vw;
+	height: 2.3vh;
+	left: 15.6vw;
+	top: -2.5vh;
+	background: linear-gradient(
+		to right,
+		rgba(0, 0, 0, 0.794),
+		70%,
+		rgba(255, 255, 255, 0)
+	);
+	border-top: 2px solid rgb(153, 0, 89);
+}
+.streetname {
+	position: absolute;
+	font-family: "Bebas Neue", cursive;
+	color: rgb(255, 255, 255);
+	font-size: 1.1vw;
+	letter-spacing: 0.05vw;
+	text-align: center;
+	background-color: rgba(255, 0, 0, 0);
+	left: -10vw;
+	top: 0px;
+	width: 20vw;
+}

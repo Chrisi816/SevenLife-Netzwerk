@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="de">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="index.css" />
+	</head>
+	<body>
+		<div class="garage-container">
+			<div class="garage-left">
+				<img src="src/garage.png" class="bild" alt="" />
+				<h1 class="garage-schrift">SevenLife Garage</h1>
+				<button
+					type="button"
+					id="reiter-button-garage-einlagern"
+					class="garage-auswählen"
+				>
+					Einparken
+				</button>
+				<button
+					type="button"
+					id="reiter-button-garage-auslagern"
+					class="garage-auswählen"
+				>
+					Ausparken
+				</button>
+			</div>
+			<img src="src/closeing.png" class="close" alt="" />
+			<div class="garage-einparken">
+				<div class="garage-list"></div>
+			</div>
+			<div class="garage-ausparken">
+				<div
+					class="garage-list-ausparken"
+					id="garage-list-ausparken"
+				></div>
+			</div>
+		</div>
+		<div class="garagen-container-real">
+			<img
+				src="src/wallpaperuse.com-black-desktop-wallpaper-hd-654174.jpg"
+				class="background-container"
+				alt=""
+			/>
+			<div class="kringel">
+				<img src="src/sevenlife.png" class="sevenlifelogo" alt="" />
+			</div>
+			<h1 class="text-1container">Auto</h1>
+			<h2 class="text-2container">Garage</h2>
+			<input
+				class="inputt"
+				id="inputts"
+				placeholder="Suche nach Autos"
+				onkeyup="searchanimasauslager()"
+			/>
+			<input class="inputt2" id="inputts2"maxlength="10" placeholder="Name eingeben" />
+			<div class="einlager-container">
+				<h1 class="autos-einlagerntext">Autos - Einparken</h1>
+
+				<img
+					src="src/outline_search_black_24dp.png"
+					class="searchicon"
+					alt=""
+				/>
+				<div class="container-showcarseinlager"></div>
+			</div>
+			<div class="ausparken-container">
+				<h1 class="autos-einlagerntext">Autos - Ausparken</h1>
+				<img
+					src="src/outline_search_black_24dp.png"
+					class="searchicon"
+					alt=""
+				/>
+				<div class="container-showcarsauslager"></div>
+			</div>
+			<div class="auswahlcontainer">
+				<button
+					type="button"
+					id="einparkenbutton"
+					class="einparkenbutton"
+				>
+					Einlagern
+				</button>
+				<button
+					type="button"
+					id="ausparkenbutton"
+					class="ausparkenbutton"
+				>
+					Ausparken
+				</button>
+			</div>
+		</div>
+	</body>
+	<script src="index.js"></script>
+</html>

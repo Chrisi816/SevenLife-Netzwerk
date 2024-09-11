@@ -1,0 +1,817 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Estonia&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hurricane&display=swap");
+
+@font-face {
+	font-family: "Lato";
+	src: url("text/Lato-Black.ttf");
+}
+@font-face {
+	font-family: "Goldman";
+	src: url("text/Goldman-Regular.ttf");
+}
+@font-face {
+	font-family: "Abel";
+	src: url("text/Abel-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Aldrich";
+	src: url("text/Aldrich-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Roboto";
+	src: url("text/Roboto-MediumItalic.ttf");
+}
+@font-face {
+	font-family: "Khula";
+	src: url("text/Khula-Regular.ttf");
+}
+body {
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+.kaufen {
+	display: none;
+}
+.notify {
+	position: absolute;
+	width: 32vw;
+	height: 30vh;
+	left: 71vw;
+	top: 71vh;
+	background: linear-gradient(to top, rgb(45, 0, 35), rgba(33, 0, 39, 0));
+}
+
+.unten {
+	position: absolute;
+	width: 35vw;
+	height: 30vh;
+	background-color: rgba(255, 0, 0, 0);
+	left: 71vw;
+	top: 74.1vh;
+}
+.header {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	font-size: 3vw;
+	letter-spacing: 0.1vw;
+	left: 1vw;
+	top: 1.1vh;
+	z-index: 1;
+	text-align: center;
+	font-family: "Bebas Neue", cursive;
+}
+.besitzer {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	font-size: 2vw;
+	letter-spacing: 0.1vw;
+	left: 1vw;
+	top: 5vh;
+	z-index: 1;
+	text-align: center;
+	font-family: "Bebas Neue", cursive;
+}
+.text2 {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	font-size: 2vw;
+	letter-spacing: 0.1vw;
+	left: 8.5vw;
+	top: 7.5vh;
+	z-index: 1;
+	text-align: center;
+	font-family: "Bebas Neue", cursive;
+}
+.Liter {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	font-size: 2vw;
+	letter-spacing: 0.1vw;
+	left: 1vw;
+	top: 9vh;
+	z-index: 1;
+	text-align: center;
+	font-family: "Bebas Neue", cursive;
+}
+.text3 {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	font-size: 2vw;
+	letter-spacing: 0.1vw;
+	left: 6vw;
+	top: 11.5vh;
+	z-index: 1;
+	text-align: center;
+	font-family: "Bebas Neue", cursive;
+}
+.Wert {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	font-size: 2vw;
+	letter-spacing: 0.1vw;
+	left: 1vw;
+	top: 13vh;
+	z-index: 1;
+	text-align: center;
+	font-family: "Bebas Neue", cursive;
+}
+.Nummer {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	font-size: 2vw;
+	letter-spacing: 0.1vw;
+	left: 1vw;
+	top: 16.9vh;
+	z-index: 1;
+	text-align: center;
+	font-family: "Bebas Neue", cursive;
+}
+.text4 {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	font-size: 2vw;
+	letter-spacing: 0.1vw;
+	left: 6vw;
+	top: 15.3vh;
+	z-index: 1;
+	text-align: center;
+	font-family: "Bebas Neue", cursive;
+}
+.text5 {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	font-size: 2vw;
+	letter-spacing: 0.1vw;
+	left: 10vw;
+	top: 19.2vh;
+	z-index: 1;
+	text-align: center;
+	font-family: "Bebas Neue", cursive;
+}
+.leftside-tank {
+	position: absolute;
+	left: 31vw;
+	top: 19vh;
+	background-color: rgba(27, 27, 27, 0.503);
+	width: 15vw;
+	height: 50vh;
+}
+
+.righside-tank {
+	position: absolute;
+	left: 47vw;
+	top: 19vh;
+	background-color: rgba(17, 17, 17, 0.87);
+	width: 25vw;
+	height: 50vh;
+	border-radius: 1vw;
+}
+
+.gasstatiom {
+	position: absolute;
+	width: 7vw;
+	left: 4.4vw;
+	top: 1vh;
+}
+
+.tankname {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	font-size: 2vw;
+	letter-spacing: 0.1vw;
+	left: 1.3vw;
+	top: 10.5vh;
+	z-index: 1;
+	text-align: center;
+	font-family: "Hurricane", cursive;
+}
+
+.linieunten-tank {
+	position: absolute;
+	width: 13vw;
+	background-color: white;
+	height: 0.2vh;
+	top: 30vh;
+	left: 1vw;
+}
+
+.payline {
+	position: absolute;
+	left: 1vw;
+	width: 3vw;
+	top: 24vh;
+}
+
+.preislich {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	font-size: 1.6vw;
+	letter-spacing: 0.1vw;
+	left: 4.5vw;
+	top: 23vh;
+	z-index: 1;
+	text-align: center;
+	font-family: "Bebas Neue", cursive;
+}
+
+.gasavaileble {
+	position: absolute;
+	left: 1vw;
+	width: 3vw;
+	top: 31vh;
+}
+
+.Literirch {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	font-size: 1.6vw;
+	letter-spacing: 0.1vw;
+	left: 4.5vw;
+	top: 30.1vh;
+	z-index: 1;
+	text-align: center;
+	font-family: "Bebas Neue", cursive;
+}
+
+.literich-preis {
+	position: absolute;
+	color: rgb(64, 0, 0);
+	font-size: 1.6vw;
+	letter-spacing: 0.1vw;
+	left: 8.5vw;
+	top: 30vh;
+	z-index: 1;
+	text-align: center;
+	font-family: "Bebas Neue", cursive;
+}
+
+.preislich-preis {
+	position: absolute;
+	color: rgb(64, 0, 0);
+	font-size: 1.6vw;
+	letter-spacing: 0.1vw;
+	left: 11vw;
+	top: 23vh;
+	z-index: 1;
+	text-align: center;
+	font-family: "Bebas Neue", cursive;
+}
+
+.autoauftankentext {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	font-size: 1.6vw;
+	letter-spacing: 0.1vw;
+	left: 2.1vw;
+	top: 1.1vh;
+	z-index: 1;
+	font-family: "Montserrat", sans-serif;
+}
+
+.paygasnumber-container {
+	position: absolute;
+	width: 23vw;
+	height: 7vh;
+	background-color: rgb(31, 31, 31);
+	top: 17vh;
+	left: 1vw;
+	border-left: 0.1vw solid rgb(113, 0, 81);
+	border-right: 0.1vw solid rgb(113, 0, 81);
+}
+.preistext {
+	position: absolute;
+	color: rgb(150, 123, 0);
+	font-size: 1.4vw;
+	left: 1vw;
+	top: 11.8vh;
+	z-index: 1;
+	font-family: "Roboto", sans-serif;
+}
+
+.paygasnumber {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	font-size: 2.5vw;
+	letter-spacing: 0.1vw;
+	left: 6.1vw;
+	width: 10vw;
+	text-align: center;
+	background-color: rgba(255, 0, 0, 0);
+	top: -2.1vh;
+	z-index: 1;
+	font-family: "Montserrat", sans-serif;
+}
+
+.gasnumber-container {
+	position: absolute;
+	width: 23vw;
+	height: 7vh;
+	background-color: rgb(31, 31, 31);
+	top: 29.5vh;
+	left: 1vw;
+	border-left: 0.1vw solid rgb(113, 0, 81);
+	border-right: 0.1vw solid rgb(113, 0, 81);
+}
+
+.gasnumber {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	font-size: 2.5vw;
+	letter-spacing: 0.1vw;
+	left: 6.1vw;
+	width: 10vw;
+	text-align: center;
+	background-color: rgba(255, 0, 0, 0);
+	top: -2.1vh;
+	z-index: 1;
+	font-family: "Montserrat", sans-serif;
+}
+
+.gastext {
+	position: absolute;
+	color: rgb(150, 123, 0);
+	font-size: 1.4vw;
+	left: 1vw;
+	top: 24.2vh;
+	z-index: 1;
+	font-family: "Roboto", sans-serif;
+}
+
+.strichavaileble {
+	position: absolute;
+	height: 9vh;
+	width: 0.2vw;
+	background-color: rgb(113, 0, 81);
+	left: 1vw;
+	top: 2vh;
+}
+
+.container-innen {
+	position: absolute;
+	left: 1vw;
+	top: 9vh;
+	height: 18vh;
+	width: 23vw;
+	background-color: rgb(29, 29, 29);
+	border-radius: 1vw;
+}
+
+.picture {
+	position: absolute;
+	width: 3vw;
+	left: 0.7vw;
+	top: 2vh;
+}
+.pictures {
+	position: absolute;
+	width: 3vw;
+	left: 0.7vw;
+	top: 10vh;
+}
+.liters {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	font-size: 1.6vw;
+	letter-spacing: 0.1vw;
+	left: 4vw;
+	top: 1.3vh;
+	z-index: 1;
+	text-align: center;
+	font-family: "Bebas Neue", cursive;
+}
+.preis {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	font-size: 1.6vw;
+	letter-spacing: 0.1vw;
+	left: 4vw;
+	top: 8.8vh;
+	z-index: 1;
+	text-align: center;
+	font-family: "Bebas Neue", cursive;
+}
+.submit-btn {
+	position: absolute;
+	top: 39vh;
+	left: 1vw;
+	height: 8vh;
+	margin-left: auto;
+	border: none;
+	color: white;
+	outline: none;
+	background: #242424;
+	font-size: 1.5vw;
+	text-transform: uppercase;
+	letter-spacing: 0.1vw;
+	font-family: "Bebas Neue", cursive;
+	width: 23vw;
+	padding: 10px 10px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.submit-btn:hover {
+	background: #383838;
+}
+.literzahl {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	font-size: 2vw;
+	letter-spacing: 0.1vw;
+	left: 14.2vw;
+	top: 2.6vh;
+	z-index: 1;
+	text-align: center;
+	font-family: "Bebas Neue", cursive;
+}
+.preiszahl {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	font-size: 2vw;
+	letter-spacing: 0.1vw;
+	left: 8.1vw;
+	top: 10.2vh;
+	z-index: 1;
+	text-align: center;
+	font-family: "Bebas Neue", cursive;
+}
+.kaufcontainer {
+	position: absolute;
+	display: inline-block;
+	width: 21vw;
+	height: 55vh;
+	left: 41vw;
+	top: 11.6vh;
+	background-color: rgba(27, 27, 27, 0.801);
+}
+#left {
+	position: absolute;
+	width: 5vw;
+	top: 10vh;
+	left: 36vw;
+	z-index: 2;
+	background-color: rgba(7, 7, 7, 0.89);
+	transform: skewY(20deg);
+}
+#right {
+	position: absolute;
+	width: 5vw;
+	top: 10vh;
+	left: 62vw;
+	z-index: 2;
+	background-color: rgba(7, 7, 7, 0.89);
+	transform: skewY(-20deg);
+}
+.obens {
+	position: relative;
+	width: 21vw;
+	top: 0vw;
+	text-align: center;
+	height: 7vh;
+	background-color: rgba(10, 0, 9, 0);
+	border-bottom: 0.2vw solid rgba(79, 0, 82, 0);
+}
+.textoben {
+	position: absolute;
+	font-family: "Bebas Neue", cursive;
+	color: white;
+	left: 1vw;
+	top: -2.2vh;
+	letter-spacing: 0.1vw;
+	font-size: 2.5vw;
+}
+.untens {
+	position: relative;
+	width: 20.5vw;
+	height: 45vh;
+	top: 1vh;
+	overflow-y: scroll;
+	background-color: rgba(255, 0, 0, 0);
+	left: 0.2vw;
+}
+.textniv {
+	position: relative;
+	color: white;
+	font-family: "Bebas Neue", cursive;
+	letter-spacing: 2px;
+	font-size: 2vw;
+	top: 10px;
+	left: 20px;
+}
+.beschreibungs {
+	font-family: "Shippori Antique", sans-serif;
+	font-size: 30px;
+}
+.submitbuttonsees {
+	position: relative;
+	left: 11vw;
+	top: -1.1vh;
+	width: 6.3vw;
+	height: 3.3vh;
+	z-index: 29;
+	padding: 0.5vw;
+	font-size: 0.75vw;
+	background-color: rgba(190, 0, 0, 0.808);
+	outline: none;
+	cursor: pointer;
+	border-radius: 1vw;
+	border: none;
+	border: none;
+	color: #ffffff;
+	border-radius: 0.4vw;
+	outline: none;
+	z-index: 29;
+}
+.submitbuttonsees:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	background-color: rgba(63, 0, 0, 0.808);
+}
+.close {
+	position: relative;
+	left: 2.4vw;
+	top: 0.1vh;
+	width: 2.5vw;
+	cursor: pointer;
+	z-index: 15;
+	transform: skewY(20deg);
+}
+.angebot {
+	position: relative;
+	width: 19.4vw;
+	height: 12vh;
+	left: 0.1vw;
+	cursor: pointer;
+	margin-top: 1.5vh;
+	border-radius: 1.5vw;
+	background-color: rgba(2, 2, 2, 0.479);
+}
+.untens::-webkit-scrollbar {
+	width: 0.7vw;
+	height: 2vw;
+}
+
+.untens::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background-color: rgba(255, 255, 255, 0.294);
+}
+
+.untens::-webkit-scrollbar-thumb {
+	background-color: #202020;
+	border-radius: 2vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.185) 0 3px 13px 1px;
+}
+.ids {
+	position: absolute;
+	color: white;
+	font-family: "Bebas Neue", cursive;
+	letter-spacing: 0.1vw;
+	top: -1.2vh;
+	font-size: 1.6vw;
+	left: 0.5vw;
+}
+.idspreis {
+	position: absolute;
+	color: white;
+	font-family: "Bebas Neue", cursive;
+	letter-spacing: 0.1vw;
+	font-size: 1.6vw;
+	top: 2vh;
+	left: 0.5vw;
+}
+.untense {
+	position: relative;
+	width: 19.4vw;
+	height: 4vh;
+	background-color: black;
+	top: 8vh;
+	border-top: 0.2vw solid rgb(119, 119, 119);
+	border-bottom-left-radius: 1vw;
+	border-bottom-right-radius: 1vw;
+}
+.marker {
+	position: relative;
+	width: 1.2vw;
+	left: 0.3vw;
+	cursor: pointer;
+	top: 0.2vh;
+}
+.text {
+	position: absolute;
+	color: white;
+	font-family: "Bebas Neue", cursive;
+	letter-spacing: 0.1vw;
+	font-size: 1.3vw;
+	top: -1vh;
+	left: 2vw;
+}
+.left1 {
+	position: absolute;
+	left: 0vw;
+	top: 0vw;
+	height: 100%;
+	width: 100vw;
+	background: linear-gradient(
+		to right,
+		rgb(63, 0, 49),
+		rgba(0, 0, 255, 0) 90.71%
+	);
+}
+.right1 {
+	position: absolute;
+	right: 0vw;
+	top: 0vw;
+	height: 100%;
+	width: 100vw;
+	background: linear-gradient(
+		to left,
+		rgb(66, 1, 52),
+		rgba(0, 0, 255, 0) 90.71%
+	);
+}
+.text-rental {
+	position: absolute;
+	color: rgba(137, 137, 137, 0.408);
+	left: -20.5vw;
+	top: 40vh;
+	letter-spacing: 0.1vw;
+	font-size: 4.5vw;
+	transform: rotate(270deg);
+	font-family: "Goldman", cursive;
+}
+.container-info {
+	position: absolute;
+	width: 88vw;
+	z-index: 1;
+	height: 88vh;
+	overflow-y: scroll;
+	background-color: rgba(255, 0, 0, 0);
+	left: 9vw;
+	top: 10vh;
+}
+.container-info::-webkit-scrollbar {
+	width: 0.6vw;
+}
+
+.container-info::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background-color: rgba(255, 255, 255, 0.294);
+}
+
+.container-info::-webkit-scrollbar-thumb {
+	background-color: #202020;
+	border-radius: 2vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.185) 0 3px 13px 1px;
+}
+.container-information {
+	position: relative;
+	width: 27.5vw;
+	height: 30vh;
+	border-radius: 0.2vw;
+	margin-left: 1vw;
+	margin-top: 1vh;
+	background-color: rgba(29, 29, 29, 0.43);
+	display: inline-block;
+}
+.Item-Name-Logistik2 {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 1vw;
+	top: -0.6vh;
+	z-index: 1;
+	border-bottom: 0.2vw solid white;
+	letter-spacing: 0.1vw;
+	font-size: 1.5vw;
+	overflow: hidden;
+	text-align: left;
+	width: 25.5vw;
+	line-height: 4vh;
+	font-family: "Lato";
+}
+.Button-BuyShop {
+	position: absolute;
+	height: 5vh;
+	width: 25.5vw;
+	font-family: "Goldman", cursive;
+	font-size: 1.3vw;
+	left: -1vw;
+	top: 23.5vh;
+	margin-left: 2vw;
+	border: none;
+	outline: none;
+	z-index: 1;
+	color: white;
+	cursor: pointer;
+	background-color: rgb(164, 0, 167);
+	border-radius: 0.2vw;
+}
+
+.Button-BuyShop:hover {
+	transition: 1s all;
+	background-color: rgb(110, 0, 112);
+}
+.preistxt {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 1vw;
+	top: 4.5vh;
+	z-index: 1;
+
+	letter-spacing: 0.1vw;
+	font-size: 1.7vw;
+	overflow: hidden;
+	text-align: left;
+
+	font-family: "Lato";
+}
+.img-shopbuy {
+	position: absolute;
+	width: 3vw;
+	right: 0.3vw;
+}
+.locationtxt {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 1vw;
+	top: 9vh;
+	z-index: 1;
+
+	letter-spacing: 0.1vw;
+	font-size: 1.4vw;
+	overflow: hidden;
+	text-align: left;
+
+	font-family: "Lato";
+}
+.img-location {
+	position: absolute;
+	width: 13vw;
+	height: 7vh;
+	border-radius: 0.2vw;
+	top: 15vh;
+	left: 1vw;
+	cursor: pointer;
+}
+.preistxt2 {
+	position: absolute;
+	color: rgb(70, 209, 0);
+	left: 6.5vw;
+	top: 4.5vh;
+	z-index: 1;
+
+	letter-spacing: 0.1vw;
+	font-size: 1.7vw;
+	overflow: hidden;
+	text-align: right;
+	width: 20vw;
+	background-color: rgba(255, 0, 0, 0);
+
+	font-family: "Lato";
+}
+.text-impounder2 {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 10vw;
+	top: -0.3vh;
+	letter-spacing: 0.1vw;
+	font-size: 2vw;
+
+	font-family: "Lato";
+}
+.line-unter {
+	position: absolute;
+	width: 88vw;
+	height: 0.2vh;
+	top: 6.8vh;
+	left: 10vw;
+	border-top-right-radius: 1vw;
+	border-bottom-right-radius: 1vw;
+	background-color: rgb(185, 32, 86);
+}
+.esctext {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	right: 3vw;
+	top: 1.6vh;
+	letter-spacing: 0.1vw;
+	font-size: 1.2vw;
+	transform: rotate(0deg);
+	font-family: "Lato", sans-serif;
+}
+.streifen {
+	position: absolute;
+	width: 0.1vw;
+	height: 100%;
+	left: 6vw;
+	background-color: white;
+}

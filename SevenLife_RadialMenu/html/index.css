@@ -1,0 +1,794 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Estonia&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Radio+Canada&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hurricane&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Goldman&family=Radio+Canada&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap");
+body {
+	padding: 0;
+	margin: 0;
+
+	overflow: hidden;
+}
+.container-menu-laufen {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.core {
+	position: absolute;
+	width: 5.5vw;
+	height: 10vh;
+	top: 41vh;
+	left: 47vw;
+	transform: rotate(50deg);
+	border-radius: 1.5vw;
+	background: linear-gradient(20deg, rgb(45, 0, 49), rgba(43, 0, 35, 0) 100%),
+		linear-gradient(200deg, rgba(114, 0, 89), rgba(153, 0, 120, 0.013) 100%);
+}
+.homie {
+	position: absolute;
+	top: 1vh;
+	left: 0.5vw;
+	width: 4.1vw;
+	transform: rotate(-50deg);
+}
+.outline-first {
+	position: absolute;
+	top: 24vh;
+	left: 39.4vw;
+	width: 22vw;
+	height: 7vh;
+	cursor: pointer;
+	border-radius: 5vw;
+	background: linear-gradient(20deg, rgb(45, 0, 49), rgba(43, 0, 35, 0) 100%),
+		linear-gradient(200deg, rgba(114, 0, 89), rgba(153, 0, 120, 0.013) 100%);
+}
+.outline-first:hover {
+	transition: 2s;
+	background: linear-gradient(rgba(114, 0, 89), rgba(153, 0, 120, 0.013) 100%),
+		linear-gradient(0deg, rgb(45, 0, 49), rgba(43, 0, 35, 0) 100%);
+}
+.picture1 {
+	position: absolute;
+	width: 2.5vw;
+	left: 1.3vw;
+	top: 0.8vh;
+}
+.innentext {
+	position: absolute;
+	left: 4.5vw;
+	top: 0vh;
+	font-size: 1.5vw;
+	color: white;
+	font-family: "Goldman", cursive;
+}
+.outline-second {
+	position: absolute;
+	top: 35vh;
+	left: 25vw;
+	width: 18.3vw;
+	cursor: pointer;
+	height: 7vh;
+	border-radius: 5vw;
+	background: linear-gradient(20deg, rgb(45, 0, 49), rgba(43, 0, 35, 0) 100%),
+		linear-gradient(200deg, rgba(114, 0, 89), rgba(153, 0, 120, 0.013) 100%);
+}
+.outline-second:hover {
+	transition: 2s;
+	background: linear-gradient(rgba(114, 0, 89), rgba(153, 0, 120, 0.013) 100%),
+		linear-gradient(0deg, rgb(45, 0, 49), rgba(43, 0, 35, 0) 100%);
+}
+.picture2 {
+	position: absolute;
+	width: 2.5vw;
+	left: 1.3vw;
+	top: 1.2vh;
+}
+.innentext2 {
+	position: absolute;
+	left: 5vw;
+	top: -0.76vh;
+	font-size: 1.8vw;
+	color: white;
+	font-family: "Goldman", cursive;
+}
+.outline-third {
+	position: absolute;
+	top: 47vh;
+	left: 20vw;
+	width: 20vw;
+	height: 7vh;
+	cursor: pointer;
+	border-radius: 5vw;
+	background: linear-gradient(20deg, rgb(45, 0, 49), rgba(43, 0, 35, 0) 100%),
+		linear-gradient(200deg, rgba(114, 0, 89), rgba(153, 0, 120, 0.013) 100%);
+}
+.innentext22 {
+	position: absolute;
+	left: 6vw;
+	top: -0.76vh;
+	font-size: 1.8vw;
+	color: white;
+	font-family: "Goldman", cursive;
+}
+.outline-third:hover {
+	transition: 2s;
+	background: linear-gradient(rgba(114, 0, 89), rgba(153, 0, 120, 0.013) 100%),
+		linear-gradient(0deg, rgb(45, 0, 49), rgba(43, 0, 35, 0) 100%);
+}
+.innentext3 {
+	position: absolute;
+	left: 4.3vw;
+	top: 0.6vh;
+	font-size: 1.3vw;
+	color: white;
+	font-family: "Goldman", cursive;
+}
+.outline-fourth {
+	position: absolute;
+	top: 35vh;
+	left: 56vw;
+	width: 20vw;
+	height: 7vh;
+	cursor: pointer;
+	border-radius: 5vw;
+	background: linear-gradient(20deg, rgb(45, 0, 49), rgba(43, 0, 35, 0) 100%),
+		linear-gradient(200deg, rgba(114, 0, 89), rgba(153, 0, 120, 0.013) 100%);
+}
+.outline-fourth:hover {
+	transition: 2s;
+	background: linear-gradient(rgba(114, 0, 89), rgba(153, 0, 120, 0.013) 100%),
+		linear-gradient(0deg, rgb(45, 0, 49), rgba(43, 0, 35, 0) 100%);
+}
+.outline-six {
+	position: absolute;
+	top: 59vh;
+	left: 51vw;
+	width: 23vw;
+	height: 7vh;
+	cursor: pointer;
+	border-radius: 5vw;
+	background: linear-gradient(20deg, rgb(45, 0, 49), rgba(43, 0, 35, 0) 100%),
+		linear-gradient(200deg, rgba(114, 0, 89), rgba(153, 0, 120, 0.013) 100%);
+}
+.outline-six:hover {
+	transition: 2s;
+	background: linear-gradient(rgba(114, 0, 89), rgba(153, 0, 120, 0.013) 100%),
+		linear-gradient(0deg, rgb(45, 0, 49), rgba(43, 0, 35, 0) 100%);
+}
+.outline-fifth {
+	position: absolute;
+	top: 47vh;
+	left: 61vw;
+	width: 20vw;
+	height: 7vh;
+	cursor: pointer;
+	border-radius: 5vw;
+	background: linear-gradient(20deg, rgb(45, 0, 49), rgba(43, 0, 35, 0) 100%),
+		linear-gradient(200deg, rgba(114, 0, 89), rgba(153, 0, 120, 0.013) 100%);
+}
+.outline-fifth:hover {
+	transition: 2s;
+	background: linear-gradient(rgba(114, 0, 89), rgba(153, 0, 120, 0.013) 100%),
+		linear-gradient(0deg, rgb(45, 0, 49), rgba(43, 0, 35, 0) 100%);
+}
+.innentext20 {
+	position: absolute;
+	left: 5vw;
+	top: -0.3vh;
+	font-size: 1.6vw;
+	color: white;
+	font-family: "Goldman", cursive;
+}
+.picture2222 {
+	position: absolute;
+	width: 2.35vw;
+	left: 1.5vw;
+	top: 1vh;
+}
+.innentext322 {
+	position: absolute;
+	left: 4.8vw;
+	top: -0.5vh;
+	font-size: 1.8vw;
+	color: white;
+	font-family: "Goldman", cursive;
+}
+.innentext3232 {
+	position: absolute;
+	left: 4.8vw;
+	top: 0vh;
+	font-size: 1.5vw;
+	color: white;
+	font-family: "Goldman", cursive;
+}
+.text2 {
+	font-size: 1.6vw;
+	top: -0.3vh;
+	left: 4.4vw;
+}
+.text3 {
+	font-size: 1.4vw;
+	top: 0.2vh;
+	left: 4.4vw;
+}
+.persos {
+	position: absolute;
+	width: 24vw;
+	height: 25vh;
+	border-radius: 0.3vw;
+	border: 0.1vw solid white;
+	background: linear-gradient(rgba(114, 0, 89), rgba(153, 0, 120, 0.013) 100%),
+		linear-gradient(0deg, rgb(45, 0, 49), rgba(43, 0, 35, 0) 100%);
+	right: 0.9vw;
+	top: 34vh;
+}
+.img-back {
+	position: absolute;
+	width: 8vw;
+	left: 8.5vw;
+	top: 5vh;
+}
+.img-holder {
+	position: absolute;
+	width: 6vw;
+	height: 15vh;
+	box-shadow: 0.1vw 0.1vw 0.1vw black;
+	border-radius: 1vw;
+	overflow: hidden;
+}
+.img-sil {
+	position: absolute;
+	width: 6vw;
+	left: 0.2vw;
+	top: 3.9vh;
+}
+.persotext {
+	position: absolute;
+	left: 6.5vw;
+	top: -1.56vh;
+	font-size: 1.7vw;
+	color: white;
+	font-family: "Goldman", cursive;
+}
+.frame {
+	position: absolute;
+	width: 3vw;
+	left: 0.7vw;
+	top: 16.8vh;
+}
+.copyright {
+	position: absolute;
+	left: 6.5vw;
+	top: 2.9vh;
+	font-size: 0.85vw;
+	color: white;
+	font-family: "Roboto", sans-serif;
+}
+.name-nachname {
+	position: absolute;
+	top: -0.3vh;
+	width: 17vw;
+	background-color: rgba(255, 0, 0, 0);
+	text-align: center;
+	font-size: 1.85vw;
+	color: rgb(255, 255, 255);
+	font-family: "Oswald", sans-serif;
+}
+.box-leas {
+	position: absolute;
+	width: 17vw;
+	height: 5vh;
+	top: 7vh;
+	left: 6.5vw;
+	border-radius: 1vw;
+	overflow: hidden;
+	background-color: rgba(176, 176, 176, 0.216);
+}
+.unterschrift {
+	position: absolute;
+	width: 19vw;
+	top: 19vh;
+	height: 5vh;
+	left: 4.5vw;
+	border-bottom: 0.3vh solid black;
+	background-color: rgba(176, 176, 176, 0.216);
+	overflow: hidden;
+}
+.unterschrift-name {
+	position: absolute;
+	font-family: "Dancing Script", cursive;
+	color: white;
+	font-size: 2.3vw;
+	top: -2.7vh;
+	left: 0.2vw;
+}
+.höhe {
+	position: absolute;
+	left: 6.5vw;
+	top: 11.1vh;
+	font-size: 1.15vw;
+	color: white;
+	font-family: "Roboto", sans-serif;
+}
+.geburtsdatum {
+	position: absolute;
+	left: 15.5vw;
+	top: 11.1vh;
+	font-size: 1.15vw;
+	color: white;
+	font-family: "Roboto", sans-serif;
+}
+.geburtsdatums {
+	position: absolute;
+	left: 15.5vw;
+	top: 13.8vh;
+	width: 8vw;
+	text-align: left;
+	background-color: rgba(255, 0, 0, 0);
+	font-size: 1.15vw;
+	color: white;
+	font-family: "Roboto", sans-serif;
+}
+.größeanzahl {
+	position: absolute;
+	left: 6.5vw;
+	top: 13.8vh;
+	width: 8vw;
+	text-align: left;
+	background-color: rgba(255, 0, 0, 0);
+	font-size: 0.9vw;
+	color: white;
+	font-family: "Roboto", sans-serif;
+}
+
+.lizenzbuch-container {
+	position: absolute;
+	width: 24vw;
+	height: 25vh;
+	border-radius: 0.4vw;
+	border: 0.1vw solid white;
+	background: linear-gradient(rgb(54, 1, 49), rgb(15, 15, 15) 100%),
+		linear-gradient(0deg, rgb(15, 0, 10), rgba(43, 0, 35, 0) 100%);
+	right: 0.9vw;
+	top: 34vh;
+	z-index: 12;
+	overflow: hidden;
+}
+.oben {
+	position: absolute;
+	width: 24vw;
+	background-color: rgba(24, 24, 24, 0.616);
+	height: 5vh;
+	border-bottom: 0.1vh solid white;
+}
+.lossantoslogo {
+	position: absolute;
+	width: 2.5vw;
+	left: 0.45vw;
+	top: 0.2vh;
+}
+.führerschreintext {
+	position: absolute;
+	left: 5.2vw;
+	top: -1.6vh;
+	font-size: 1.9vw;
+	color: white;
+	font-family: "Goldman", cursive;
+}
+.lossantoslogo1 {
+	position: absolute;
+	width: 2.5vw;
+	right: 0.45vw;
+	top: 0.2vh;
+}
+.name12 {
+	position: absolute;
+	left: 1vw;
+	top: 5vh;
+	width: 8vw;
+	text-align: left;
+	background-color: rgba(255, 0, 0, 0);
+	font-size: 1.5vw;
+	color: white;
+	font-family: "Goldman", cursive;
+}
+.name23 {
+	position: absolute;
+	left: 1vw;
+	top: 9vh;
+	width: 12.5vw;
+	overflow: hidden;
+	text-align: left;
+	background-color: rgba(255, 0, 0, 0);
+	font-size: 1.2vw;
+	color: white;
+	font-family: "Roboto", sans-serif;
+}
+.geburtsdatum12 {
+	position: absolute;
+	left: 1vw;
+	top: 12.5vh;
+	width: 8vw;
+	text-align: left;
+	background-color: rgba(255, 0, 0, 0);
+	font-size: 1.4vw;
+	color: white;
+	font-family: "Goldman", cursive;
+}
+.geburtsdatum23 {
+	position: absolute;
+	left: 1vw;
+	top: 16.1vh;
+	width: 12vw;
+	text-align: left;
+	background-color: rgba(255, 0, 0, 0);
+	font-size: 1.2vw;
+	color: white;
+	font-family: "Roboto", sans-serif;
+}
+.background23 {
+	position: absolute;
+	width: 10vw;
+	left: 6.5vw;
+	z-index: 0;
+	top: 6vh;
+}
+.copyright1 {
+	position: absolute;
+	left: 1.1vw;
+	top: 19.9vh;
+	font-size: 1.1vw;
+	color: white;
+	font-family: "Roboto", sans-serif;
+}
+.lizenzen {
+	position: absolute;
+	left: 15vw;
+	top: 5.4vh;
+	width: 8vw;
+	text-align: left;
+	background-color: rgba(255, 0, 0, 0);
+	font-size: 1.4vw;
+	color: white;
+	font-family: "Goldman", cursive;
+}
+.erlaubniscontainer {
+	position: absolute;
+	left: 15vw;
+	top: 11vh;
+	font-size: 1.1vw;
+	height: 14vh;
+	width: 10vw;
+	background-color: rgba(255, 0, 0, 0);
+	color: white;
+	text-align: left;
+	font-family: "Roboto", sans-serif;
+}
+.listing {
+	position: relative;
+	margin-top: -0.7vh;
+	font-size: 1.1vw;
+	font-family: "Roboto", sans-serif;
+}
+
+.wave {
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	top: 0vw;
+	padding-bottom: 100%;
+	vertical-align: middle;
+	overflow: hidden;
+}
+
+.wave.svg {
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.frames {
+	position: absolute;
+	z-index: 1;
+	top: 1vh;
+	right: 0.5vw;
+	width: 2.5vw;
+}
+.textamerika {
+	position: absolute;
+	top: 0.2vh;
+	left: 0.2vw;
+	width: 17vw;
+	background-color: rgba(255, 0, 0, 0);
+	text-align: center;
+	font-size: 1.1vw;
+	letter-spacing: 0.1vw;
+	color: rgb(255, 255, 255);
+	font-family: "Abyssinica SIL", serif;
+}
+.textdrivinglicense {
+	position: absolute;
+	top: 3.2vh;
+	left: -0.3vw;
+	width: 17vw;
+	background-color: rgba(255, 0, 0, 0);
+	text-align: center;
+	font-size: 1vw;
+	letter-spacing: 0.3vw;
+	color: rgb(255, 255, 255);
+	font-family: "Nanum Myeongjo", serif;
+}
+.container-bild {
+	position: absolute;
+	width: 5.5vw;
+	height: 12vh;
+	background-color: rgba(152, 0, 122, 0.503);
+	overflow: hidden;
+	border-radius: 0.7vw;
+	left: 1vw;
+	top: 8vh;
+}
+.img-holding {
+	position: absolute;
+	width: 5.5vw;
+	left: 0vw;
+	top: 2vh;
+}
+
+.unterschrift-name2 {
+	position: absolute;
+	font-family: "Dancing Script", cursive;
+	color: rgb(114, 114, 114);
+	font-size: 1.6vw;
+	top: 18.3vh;
+	width: 5.5vw;
+	background-color: rgba(255, 0, 0, 0);
+	left: 1vw;
+	text-align: center;
+}
+
+.erlaubnis-container {
+	position: absolute;
+	width: 16vw;
+	height: 15.5vh;
+	background-color: rgba(255, 0, 0, 0);
+	top: 8vh;
+	left: 7.5vw;
+}
+.Mittelstrich {
+	position: absolute;
+	width: 0.1vw;
+	left: 8vw;
+	top: 0vh;
+	height: 15vh;
+	background-color: rgb(89, 0, 65);
+}
+.text1-erlaubnis {
+	position: relative;
+
+	top: -3vh;
+	left: 0.2vw;
+	background-color: rgba(255, 0, 0, 0);
+	font-size: 1vw;
+	letter-spacing: 0.1vw;
+	color: rgb(140, 140, 140);
+	font-family: "Roboto", sans-serif;
+	margin-top: 3vh;
+}
+.text2-erlaubnis {
+	position: relative;
+
+	top: -32.2vh;
+	left: 9vw;
+	background-color: rgba(255, 0, 0, 0);
+	font-size: 1vw;
+	letter-spacing: 0.1vw;
+	color: rgb(140, 140, 140);
+	font-family: "Roboto", sans-serif;
+	margin-top: 3.7vh;
+}
+.text3-erlaubnis {
+	position: relative;
+
+	top: -15.8vh;
+	left: 0.2vw;
+	background-color: rgba(255, 0, 0, 0);
+	font-size: 1vw;
+	letter-spacing: 0.1vw;
+	color: rgb(206, 206, 206);
+	font-family: "Roboto", sans-serif;
+	margin-top: 3vh;
+}
+.text4-erlaubnis {
+	position: relative;
+
+	top: -40.9vh;
+	left: 9vw;
+	background-color: rgba(255, 0, 0, 0);
+	font-size: 1vw;
+	letter-spacing: 0.1vw;
+	color: rgb(206, 206, 206);
+	font-family: "Roboto", sans-serif;
+	margin-top: 3.7vh;
+}
+.container-menu-pets {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.changeingmenu {
+	position: absolute;
+	width: 13vw;
+	height: 34vh;
+	left: 0.5vw;
+	top: 15vh;
+	border-radius: 0.3vw;
+	background-color: rgba(19, 19, 19, 0.639);
+}
+.text-mechanikermenu {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	font-size: 1.2vw;
+	z-index: 2;
+	top: 2vh;
+	letter-spacing: 0.1vw;
+	left: 3.1vw;
+	background-color: rgba(255, 0, 0, 0);
+	font-family: "Commissioner", sans-serif;
+}
+.interaktiontext {
+	position: absolute;
+	color: rgb(206, 206, 206);
+	font-size: 0.7vw;
+	z-index: 2;
+	top: 6vh;
+	letter-spacing: 0.1vw;
+	left: 3.8vw;
+	background-color: rgba(255, 0, 0, 0);
+	font-family: "Roboto", sans-serif;
+}
+.container-listing {
+	position: absolute;
+	width: 12vw;
+	height: 23vh;
+	background-color: rgba(255, 0, 0, 0);
+	left: 0.5vw;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	top: 10vh;
+}
+.container-listing::-webkit-scrollbar {
+	width: 0.6vw;
+}
+
+.container-listing::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background-color: rgba(255, 255, 255, 0.294);
+}
+
+.container-listing::-webkit-scrollbar-thumb {
+	background-color: #202020;
+	border-radius: 2vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.185) 0 3px 13px 1px;
+}
+.container-pet {
+	position: relative;
+	width: 11vw;
+	height: 6vh;
+	cursor: pointer;
+	border-radius: 0.3vw;
+	margin-top: 0.5vh;
+	background-color: rgba(85, 85, 85, 0.706);
+}
+.text-mechanikermenu1 {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	font-size: 1vw;
+	z-index: 2;
+	top: -0.5vh;
+	letter-spacing: 0.1vw;
+	left: 0.5vw;
+	background-color: rgba(255, 0, 0, 0);
+	font-family: "Commissioner", sans-serif;
+}
+.interaktiontext1 {
+	position: absolute;
+	color: rgb(206, 206, 206);
+	font-size: 0.9vw;
+	z-index: 2;
+	top: 2.3vh;
+	letter-spacing: 0vw;
+	left: 0.5vw;
+	background-color: rgba(255, 0, 0, 0);
+	font-family: "Roboto", sans-serif;
+}
+.pngofdog {
+	position: absolute;
+	width: 4vw;
+	left: 7vw;
+}
+.innentext10 {
+	position: absolute;
+	left: 4.3vw;
+	top: 0.8vh;
+	font-size: 1.2vw;
+	color: white;
+	font-family: "Goldman", cursive;
+}
+.innentext3222 {
+	position: absolute;
+	left: 4.5vw;
+	top: 0.3vh;
+	font-size: 1.4vw;
+	color: white;
+	font-family: "Goldman", cursive;
+}
+.innentext32222 {
+	position: absolute;
+	left: 4.5vw;
+	top: 0.3vh;
+	font-size: 1.4vw;
+	color: white;
+	font-family: "Goldman", cursive;
+}
+.outline-fith {
+	position: absolute;
+	top: 47vh;
+	left: 60vw;
+	width: 20vw;
+	height: 7vh;
+	cursor: pointer;
+	border-radius: 5vw;
+	background: linear-gradient(20deg, rgb(45, 0, 49), rgba(43, 0, 35, 0) 100%),
+		linear-gradient(200deg, rgba(114, 0, 89), rgba(153, 0, 120, 0.013) 100%);
+}
+.outline-fith:hover {
+	transition: 2s;
+	background: linear-gradient(rgba(114, 0, 89), rgba(153, 0, 120, 0.013) 100%),
+		linear-gradient(0deg, rgb(45, 0, 49), rgba(43, 0, 35, 0) 100%);
+}
+.innentext3233 {
+	position: absolute;
+	left: 4.6vw;
+	top: 0.5vh;
+	font-size: 1.3vw;
+	color: white;
+	font-family: "Goldman", cursive;
+}
+.pillen {
+	width: 26vw;
+	left: 16vw;
+}
+.tragencarry {
+	width: 23vw;
+}
+.tragencarrytext {
+	font-size: 2vw;
+	left: 5vw;
+	top: -1vh;
+}
+.Medikamente {
+	width: 32vw;
+}
+.rechnungenmedic {
+	width: 22vw;
+}

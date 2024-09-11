@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgba(255, 0, 0, 0);
+}
+.kaufvertrag-body {
+    position: absolute;
+    left: 38vw;
+    height: 70vh;
+    background-color: #ffffff00;
+    width:25vw;
+    top: 10vh;
+}
+.kaufvertrag-card {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0vw 0vw 0.6vw 0vw black;
+}
+.kaufvertrag-card:before, .kaufvertrag-card:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0vw 0vw 0.9vw black;
+    background-color: white;
+}
+.kaufvertrag-card:before {
+    transform: rotate(3deg);
+}
+.überschrift {
+    font-family: 'DM Mono', monospace;
+    position: absolute;
+    left: 2.7vw;
+    top: -1vh;
+    font-size: 2vw;
+    width: 20vw;
+    text-align: center;
+    color: rgb(145, 145, 145);
+    border-bottom: solid 0.1vw rgb(83, 83, 83);
+}
+.information-card {
+    position: absolute;
+    width: 21vw;
+    height: 40vh;
+    top: 1vh;
+    background-color: rgba(255, 0, 0, 0);
+    left: -2vw;
+}
+.text1 {
+    position: absolute;
+    font-family: 'DM Mono', monospace;
+    font-size: 0.8vw;
+    top: 5vh;
+    left: 2vw;
+    color: black;
+    text-align: center;
+}
+.text2 {
+    position: absolute;
+    font-family: 'DM Mono', monospace;
+    font-size: 0.8vw;
+    top: 15vh;
+    left: 2vw;
+    color: black;
+    text-align: center;
+}
+.kauf {
+    position: absolute;
+    font-family: 'DM Mono', monospace;
+    font-size: 0.8vw;
+    top: 37vh;
+    width: 12vw;
+    left: 5.5vw;
+    color: black;
+    text-align: center;
+    margin-top: 5px; border-top: 1px solid #2f3037;
+}
+.verkauf {
+    position: absolute;
+    font-family: 'DM Mono', monospace;
+    font-size: 0.8vw;
+    top: 45vh;
+    width: 12vw;
+    left: 5.5vw;
+    color: black;
+    text-align: center;
+    margin-top: 5px; border-top: 1px solid #2f3037;
+}
+.nameverkauf {
+    position: absolute;
+    font-family: 'Square Peg', cursive;
+    font-size: 1.7vw;
+    top: 40vh;
+    width: 12vw;
+    left: 5.5vw;
+    color: black;
+    text-align: center;
+}
+.namekauf {
+    position: absolute;
+    font-family: 'Square Peg', cursive;
+    font-size: 1.7vw;
+    top: 31.8vh;
+    width: 12vw;
+    left: 5.5vw;
+    color: black;
+    text-align: center;
+}
+.btn {
+    position: absolute;
+    top: 54vh;
+    left: 0vw;
+	width: 11vw;
+    height: 5vh;
+    background-color: red;
+    border-radius: 0.5vw;
+	font-size: 1vw;
+	padding: 13px 17px;
+	border: none;
+    cursor: pointer;
+    color: white;
+	transition: color 0.2s linear, background-color 0.2s linear;
+	letter-spacing: 0.2px;
+}
+.btns{
+    position: absolute;
+    top: 54vh;
+    cursor: pointer;
+    left: 12vw;
+	width: 11vw;
+    height: 5vh;
+    background-color: rgb(17, 0, 255);
+    border-radius: 0.5vw;
+	font-size: 1vw;
+	padding: 13px 17px;
+	border: none;
+    color: white;
+	transition: color 0.2s linear, background-color 0.2s linear;
+	letter-spacing: 0.2px;
+}
+/*Abfrage Test*/
+
+.abfrage{
+    position: absolute;
+    left: 43vw;
+    height:30vh;
+    background-color: #ffffff00;
+    width:16vw;
+    top: 25vh;
+}
+.abfrage-body {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0vw 0vw 0.6vw 0vw black;
+}
+.kaufvertrag-card:before, .kaufvertrag-card:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0vw 0vw 0.9vw black;
+    background-color: white;
+}
+.kaufvertrag-card:before {
+    transform: rotate(3deg);
+}
+.überschrifts {
+    font-family: 'DM Mono', monospace;
+    position: absolute;
+    left: 1.5vw;
+    top: -1vh;
+    font-size: 1.7vw;
+    width: 13vw;
+    text-align: center;
+    color: rgb(145, 145, 145);
+    border-bottom: solid 0.1vw rgb(83, 83, 83);
+}
+.inputtesese {
+	border: none;
+	-webkit-appearance: none;
+	padding: 0.1vw;
+	position: absolute;
+	left: 1.5vw;
+	width: 13vw;
+	top: 10vh;
+	color: white;
+	font-family: "Bebas Neue", cursive;
+	height: 6.7vh;
+	text-align: center;
+	z-index: 29;
+	display: block;
+	font-size: 2vw;
+    border-radius: 0.4vw;
+	background-color: rgba(129, 129, 129, 0.287);
+	outline: none;
+}
+.inputtesese:hover {
+	box-shadow: 0.05vw 0.05vw 0.05vw black;
+	background-color: rgba(78, 78, 78, 0.5);
+	transition: color 0.6 ease;
+}
+.inputtesese:focus::placeholder {
+	color: transparent;
+}
+.inputtesese::placeholder {
+	color: white;
+	transition: color 0.3s ease;
+}
+.text3 {
+    position: absolute;
+    font-family: 'DM Mono', monospace;
+    font-size: 1vw;
+    top: 5vh;
+    left: 6vw;
+    color: black;
+    text-align: center;
+}
+.btnse{
+    position: absolute;
+    top: 20vh;
+    cursor: pointer;
+    left: 1.5vw;
+	width: 13.2vw;
+    height: 5.5vh;
+    background-color: rgb(17, 0, 255);
+    border-radius: 0.5vw;
+	font-size: 1.2vw;
+	padding: 13px 17px;
+	border: none;
+    color: white;
+	transition: color 0.2s linear, background-color 0.2s linear;
+	letter-spacing: 0.2px;
+}

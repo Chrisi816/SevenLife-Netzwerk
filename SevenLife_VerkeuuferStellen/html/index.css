@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Goldman&family=Radio+Canada&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+body {
+	padding: 0;
+	margin: 0;
+}
+
+.left {
+	position: absolute;
+	width: 75vw;
+	height: 100%;
+	background: linear-gradient(
+		to right,
+		rgba(114, 0, 89),
+		rgba(0, 0, 255, 0) 95.71%
+	);
+}
+
+.right {
+	position: absolute;
+	width: 75vw;
+	height: 100%;
+	right: 0vw;
+	background: linear-gradient(
+		to left,
+		rgba(114, 0, 89),
+		rgba(0, 0, 255, 0) 95.71%
+	);
+}
+.verkeufertext {
+	position: absolute;
+	color: rgba(64, 64, 64, 0.408);
+	left: -9vw;
+	top: 30.3vh;
+	letter-spacing: 0.1vw;
+	font-size: 6.5vw;
+	transform: rotate(90deg);
+	font-family: "Goldman", cursive;
+}
+.titelText {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 12.5vw;
+	top: 3.3vh;
+	letter-spacing: 0.1vw;
+	font-size: 2.5vw;
+	transform: rotate(0deg);
+	font-family: "Goldman", cursive;
+}
+.strich {
+	position: absolute;
+	width: 0.6vw;
+	height: 8vh;
+	left: 11vw;
+	top: 5vh;
+	background-color: rgb(175, 0, 114);
+}
+.strichunten {
+	position: absolute;
+	width: 77vw;
+	height: 0.5vh;
+	top: 20vh;
+	left: 11vw;
+	background-color: rgba(29, 29, 29, 0.798);
+}
+.textprodukte {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 11vw;
+	top: 14.2vh;
+	letter-spacing: 0.1vw;
+	font-size: 1.1vw;
+	transform: rotate(0deg);
+	font-family: "Lato", sans-serif;
+}
+.container-verkauf {
+	position: absolute;
+	width: 77vw;
+	height: 70vh;
+	background-color: rgba(255, 0, 0, 0);
+	top: 22vh;
+	left: 11vw;
+	overflow-y: scroll;
+}
+.container-verkauf::-webkit-scrollbar {
+	width: 0.6vw;
+}
+
+.container-verkauf::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background-color: rgba(255, 255, 255, 0.294);
+}
+
+.container-verkauf::-webkit-scrollbar-thumb {
+	background-color: #202020;
+	border-radius: 2vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.185) 0 3px 13px 1px;
+}
+.container-bild {
+	position: absolute;
+	width: 5.5vw;
+	top: 0.5vh;
+	left: 0.3vw;
+	height: 9vh;
+	border-radius: 1vw;
+	background-color: rgba(34, 34, 34, 0.363);
+}
+.container-container {
+	position: relative;
+	width: 76vw;
+	background-color: rgba(44, 44, 44, 0.528);
+	border-radius: 0.1vw;
+	height: 10vh;
+	margin-top: 1vh;
+}
+.esctext {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	right: 12vw;
+	top: 6.5vh;
+	letter-spacing: 0.1vw;
+	font-size: 1.1vw;
+	transform: rotate(0deg);
+	font-family: "Lato", sans-serif;
+}
+.fleisch {
+	position: absolute;
+	width: 5.5vw;
+	top: 1vh;
+}
+.textinfo {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 7vw;
+	width: 40vw;
+	top: -1.5vh;
+	background-color: rgba(255, 0, 0, 0);
+	letter-spacing: 0.1vw;
+	font-size: 1.8vw;
+	transform: rotate(0deg);
+	font-family: "Goldman", cursive;
+}
+.verkaufenbutton {
+	position: absolute;
+	width: 10vw;
+	height: 6vh;
+	background-color: rgba(27, 27, 27, 0.508);
+	right: 1vw;
+	border-radius: 0.3vw;
+	cursor: pointer;
+	top: 2vh;
+}
+.verkaufenbutton:hover {
+	transition: 1s all;
+	background-color: rgba(49, 49, 49, 0.638);
+}
+.verkaufentext {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	right: 2.3vw;
+	top: 0.5vh;
+	letter-spacing: 0.1vw;
+	font-size: 1.1vw;
+	transform: rotate(0deg);
+	font-family: "Lato", sans-serif;
+}
+.preistext {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	right: 13vw;
+	top: 0.2vh;
+	background-color: rgba(255, 0, 0, 0);
+	letter-spacing: 0.1vw;
+	font-size: 2.1vw;
+	transform: rotate(0deg);
+	font-family: "Goldman", cursive;
+}
+.strichuntername {
+	position: absolute;
+	width: 30vw;
+	height: 0.1vh;
+	background-color: white;
+	top: 5vh;
+	left: 7vw;
+}
+.anzahltext {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 7vw;
+	width: 40vw;
+	top: 4.5vh;
+	background-color: rgba(255, 0, 0, 0);
+	letter-spacing: 0.1vw;
+	font-size: 1.3vw;
+	transform: rotate(0deg);
+	font-family: "Goldman", cursive;
+}
+.lether {
+	position: absolute;
+	width: 5vw;
+	top: 1.5vh;
+	left: 0.3vw;
+}
+.inputt {
+	position: absolute;
+	border: none;
+	-webkit-appearance: none;
+	padding: 0.1vw 1vw;
+
+	right: 13vw;
+	border-radius: 0.1vw;
+	top: 14.4vh;
+	width: 10vw;
+	color: rgb(225, 225, 225);
+	font-family: "Poppins", sans-serif;
+	height: 4vh;
+	text-align: left;
+	z-index: 29;
+	font-size: 1vw;
+	background-color: rgba(34, 31, 31, 0.483);
+	outline: none;
+	border: 0.1vh solid rgb(82, 82, 82);
+	text-align: center;
+}
+.inputt:hover {
+	background-color: rgba(40, 40, 40, 0.454);
+	transition: color 0.6 ease;
+}
+.inputt:focus::placeholder {
+	color: transparent;
+}
+.inputt::placeholder {
+	color: rgb(218, 218, 218);
+	transition: color 0.3s ease;
+}

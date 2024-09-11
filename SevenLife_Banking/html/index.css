@@ -1,0 +1,1074 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+body {
+	padding: 0;
+	overflow: hidden;
+	margin: 0;
+}
+.normalerframe {
+	position: relative;
+	left: 350px;
+	top: 75px;
+	width: 1200px;
+	height: 800px;
+	background-color: rgb(26, 26, 32);
+	border-radius: 12px;
+}
+.leftframe {
+	position: relative;
+	z-index: 1;
+	width: 280px;
+	height: 800px;
+	background-color: rgb(24, 23, 34);
+	border-top-left-radius: 12px;
+	border-bottom-left-radius: 12px;
+}
+.imgs {
+	position: relative;
+	width: 280px;
+	height: 130px;
+	border-top-left-radius: 12px;
+	background-color: rgb(24, 18, 36);
+}
+.bild {
+	position: relative;
+	width: 140px;
+	cursor: pointer;
+	left: 70px;
+}
+.aktionen {
+	position: relative;
+	background-color: rgb(26, 25, 32);
+	box-shadow: 1.5px 1.5px 2px 2px black;
+	left: 17px;
+	top: 5px;
+	width: 250px;
+	border-radius: 2px;
+	height: 370px;
+}
+.aktionenunten {
+	position: relative;
+	background-color: rgb(26, 25, 32);
+	box-shadow: 1.5px 1.5px 2px 2px black;
+	left: 17px;
+	top: 10px;
+	width: 250px;
+	border-radius: 2px;
+	height: 170px;
+}
+.ausloggen {
+	position: relative;
+	background-color: rgb(112, 0, 0);
+	width: 250px;
+	box-shadow: 1.5px 1.5px 2px 2px black;
+	height: 50px;
+	cursor: pointer;
+	top: 10px;
+	border-radius: 7px;
+	left: 17px;
+}
+.textausloggen {
+	position: relative;
+	color: white;
+	font-family: "Shippori Antique", sans-serif;
+	letter-spacing: 0.5px;
+	left: 65px;
+	top: 8px;
+	font-size: 21px;
+}
+#aktionens {
+	position: relative;
+	width: 230px;
+	height: 60px;
+	top: 10px;
+	left: 10px;
+	background-color: rgb(29, 30, 36);
+	margin-top: 20px;
+	cursor: pointer;
+}
+#aktionens:hover {
+	transition: all 1s ease;
+	background-color: rgb(20, 12, 41);
+	color: white;
+	box-shadow: 1.5px 1.5px 2px 2px black;
+}
+.linksdiese {
+	position: relative;
+	width: 10px;
+	height: 60px;
+	background-color: rgb(95, 1, 83);
+}
+#kontoinfos {
+	position: absolute;
+	font-family: "Bebas Neue", cursive;
+	color: rgb(92, 92, 92);
+	top: -1px;
+	background: none;
+	left: 15px;
+	letter-spacing: 1px;
+	font-size: 20px;
+}
+#kontoinfose {
+	position: absolute;
+	font-family: "Bebas Neue", cursive;
+	color: rgb(92, 92, 92);
+	top: -10px;
+	background: none;
+	left: 15px;
+	letter-spacing: 1px;
+	font-size: 25px;
+}
+#schnellaktionen {
+	position: relative;
+	width: 230px;
+	height: 60px;
+	top: 10px;
+	left: 10px;
+	background-color: rgb(29, 30, 36);
+	margin-top: 10px;
+	cursor: pointer;
+}
+#schnellaktionen:hover {
+	transition: all 1s ease;
+	background-color: rgb(20, 12, 41);
+	color: white;
+	box-shadow: 1.5px 1.5px 2px 2px black;
+}
+.linksdieses {
+	position: relative;
+	width: 10px;
+	height: 60px;
+	background-color: rgb(143, 0, 124);
+}
+.mainframe {
+	position: absolute;
+	width: 927px;
+	border-top-right-radius: 12px;
+	left: 270px;
+	top: 0px;
+	height: 800px;
+	background-color: rgba(0, 0, 195, 0);
+}
+.willkommen {
+	position: relative;
+	font-family: "Shippori Antique", sans-serif;
+	color: rgb(211, 211, 211);
+	top: 5px;
+	background: none;
+	left: 30px;
+	letter-spacing: 1px;
+	font-size: 30px;
+}
+#names {
+	position: relative;
+	font-family: "Shippori Antique", sans-serif;
+	color: rgb(211, 211, 211);
+	top: -68px;
+	background: none;
+	left: 230px;
+	letter-spacing: 1px;
+	font-size: 30px;
+}
+.beschreibungsspan {
+	position: relative;
+	font-family: "Shippori Antique", sans-serif;
+	color: rgb(211, 211, 211);
+	top: -90px;
+	background: none;
+	left: 30px;
+	letter-spacing: 1px;
+	font-size: 14px;
+}
+#boxen {
+	position: relative;
+	width: 400px;
+	margin-left: 20px;
+	display: inline-block;
+	height: 200px;
+	box-shadow: 1px 1px 1px 1px black;
+	top: -78px;
+	margin-top: 20px;
+	border-radius: 10px;
+	background-color: rgba(44, 44, 44, 0.589);
+}
+.links h1 {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	top: -5px;
+	left: 20px;
+	font-size: 25px;
+	font-family: "Shippori Antique", sans-serif;
+}
+.geld {
+	position: absolute;
+	color: green;
+	top: 20px;
+	left: 20px;
+	font-size: 42px;
+	font-family: "Bebas Neue", cursive;
+	letter-spacing: 2px;
+}
+.infogeld {
+	position: absolute;
+	color: green;
+	left: 20px;
+	top: 125px;
+	font-size: 13.5px;
+	font-family: "Shippori Antique", sans-serif;
+}
+.rechts h1 {
+	position: absolute;
+	color: rgb(250, 250, 250);
+	top: -5px;
+	left: 20px;
+	font-size: 25px;
+	font-family: "Shippori Antique", sans-serif;
+}
+.inflation {
+	position: absolute;
+	color: rgb(185, 0, 0);
+	top: 20px;
+	left: 20px;
+	font-size: 42px;
+	font-family: "Bebas Neue", cursive;
+	letter-spacing: 2px;
+}
+.infoinflation {
+	position: absolute;
+	color: rgb(128, 0, 0);
+	left: 20px;
+	top: 125px;
+	font-size: 13.5px;
+	font-family: "Shippori Antique", sans-serif;
+}
+.linksunten h1 {
+	position: absolute;
+	color: rgb(250, 250, 250);
+	top: -5px;
+	left: 20px;
+	font-size: 25px;
+	font-family: "Shippori Antique", sans-serif;
+}
+.Kredit {
+	position: absolute;
+	color: green;
+	top: 30px;
+	left: 20px;
+	font-size: 32px;
+	font-family: "Bebas Neue", cursive;
+	letter-spacing: 2px;
+}
+.Kreditinfo {
+	position: absolute;
+	color: green;
+	left: 20px;
+	top: 115px;
+	font-size: 13.5px;
+	font-family: "Shippori Antique", sans-serif;
+}
+.Cryptokonto {
+	position: relative;
+	top: -60px;
+	left: 120px;
+	width: 700px;
+	height: 175px;
+	box-shadow: 1.5px 1.5px 2px 2px black;
+	background-color: rgb(34, 34, 34);
+	border-radius: 12px;
+}
+.Cryptokonto h1 {
+	position: relative;
+	color: white;
+	left: 105px;
+	top: 10px;
+	font-family: "Bebas Neue", cursive;
+	letter-spacing: 2px;
+}
+.submitbuttons {
+	position: relative;
+	left: 0%;
+	top: 55px;
+	width: 400px;
+	height: 60px;
+	z-index: 29;
+	padding: 10px;
+	font-size: 20px;
+	background-color: rgba(41, 1, 21, 0.808);
+	outline: none;
+	cursor: pointer;
+	border-radius: 10vh;
+	border: none;
+	border: none;
+	color: #646464;
+	border-radius: 5px;
+	outline: none;
+	z-index: 29;
+}
+.submitbuttons:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	background-color: rgba(20, 24, 36, 0.808);
+}
+.boxses {
+	position: relative;
+	width: 1000px;
+	height: 800px;
+	background-color: #00000000;
+	left: 200px;
+	top: -800px;
+}
+.boxentext {
+	position: relative;
+	width: 1000px;
+	height: 70px;
+	background-color: rgb(24, 18, 36);
+	border-top-right-radius: 12px;
+}
+.textes {
+	position: absolute;
+	color: rgb(114, 114, 114);
+	font-family: "Bebas Neue", cursive;
+	letter-spacing: 0.5px;
+	left: 425px;
+	top: -22px;
+	letter-spacing: 2px;
+	font-size: 45px;
+}
+.boxunten {
+	position: relative;
+	width: 450px;
+	top: 50px;
+	left: 100px;
+	height: 100px;
+	background-color: rgb(34, 34, 34);
+}
+.textinfos {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	font-family: "Bebas Neue", cursive;
+	letter-spacing: 0.5px;
+	left: 10px;
+	top: 10px;
+	letter-spacing: 1px;
+	font-size: 20px;
+}
+#gleiches {
+	position: relative;
+	width: 200px;
+	margin-top: 20px;
+	height: 150px;
+	cursor: pointer;
+	top: 70px;
+	margin-left: 20px;
+	left: 80px;
+	background-color: #222222;
+	display: inline-block;
+	box-shadow: 1px 1px 1px 1px black;
+}
+#gleiches:hover {
+	box-shadow: 2px 2px 2px 2px black;
+	transition: all 0.5s;
+}
+.boxuntens {
+	position: absolute;
+	width: 45.6vw;
+	height: 17vh;
+	background-color: #222222;
+	top: 20vh;
+	left: 6vw;
+}
+.gelds {
+	position: absolute;
+	color: green;
+	top: 10px;
+	left: 40px;
+	font-size: 52px;
+	font-family: "Bebas Neue", cursive;
+	letter-spacing: 2px;
+}
+.gelds:after {
+	content: "*";
+	color: white;
+	position: relative;
+	font-size: 32px;
+	top: -15px;
+}
+#geldes {
+	position: absolute;
+	left: 60px;
+}
+.inputt {
+	border: none;
+	-webkit-appearance: none;
+	padding: 3px;
+	position: relative;
+	left: 0%;
+	width: 870px;
+	color: white;
+	font-family: "Bebas Neue", cursive;
+	height: 165px;
+	text-align: center;
+	z-index: 29;
+	font-size: 100px;
+	background-color: rgba(105, 105, 105, 0);
+	outline: none;
+}
+.inputt:hover {
+	box-shadow: 3px 3px 3px black;
+	background-color: rgba(20, 24, 36, 0.5);
+	transition: color 0.6 ease;
+}
+.inputt:focus::placeholder {
+	color: transparent;
+}
+.inputt::placeholder {
+	color: white;
+	transition: color 0.3s ease;
+}
+.submitbutton {
+	position: relative;
+	left: 20%;
+	top: 10px;
+	width: 400px;
+	height: 75px;
+	z-index: 29;
+	padding: 10px;
+	font-size: 20px;
+	background-color: rgba(37, 1, 1, 0.87);
+	outline: none;
+	cursor: pointer;
+	border-radius: 10vh;
+	border: none;
+	border: none;
+	color: #2e2e2e;
+	border-radius: 5px;
+	outline: none;
+	z-index: 29;
+}
+.submitbutton:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	background-color: rgba(20, 24, 36, 0.808);
+}
+.infotextes {
+	position: relative;
+	color: rgb(255, 255, 255);
+	font-family: "Bebas Neue", cursive;
+	letter-spacing: 0.5px;
+	left: 100px;
+	top: 685px;
+	letter-spacing: 1px;
+	font-size: 20px;
+}
+.infotextes:before {
+	content: "*";
+}
+.inputtee {
+	border: none;
+	-webkit-appearance: none;
+	padding: 3px;
+	position: relative;
+	left: 30%;
+	width: 400px;
+	top: 70px;
+	color: white;
+	font-family: "Bebas Neue", cursive;
+	height: 75px;
+	text-align: center;
+	z-index: 29;
+	display: block;
+	margin-top: 30px;
+	font-size: 70px;
+	background-color: rgba(105, 105, 105, 0.287);
+	outline: none;
+}
+.inputtee:hover {
+	box-shadow: 3px 3px 3px black;
+	background-color: rgba(20, 24, 36, 0.5);
+	transition: color 0.6 ease;
+}
+.inputtee:focus::placeholder {
+	color: transparent;
+}
+.inputtee::placeholder {
+	color: white;
+	transition: color 0.3s ease;
+}
+.rechteck {
+	position: relative;
+	transform: skew(20deg);
+	border-left: 2px solid rgb(143, 0, 124);
+	border-right: 2px solid rgb(143, 0, 124);
+	width: 600px;
+	top: 50px;
+	height: 80px;
+	left: 200px;
+	background-color: #252525;
+}
+.rechtecktext {
+	position: relative;
+	font-family: "Shippori Antique", sans-serif;
+	color: rgb(211, 211, 211);
+	top: 5px;
+	width: 560px;
+	background: none;
+	left: 15px;
+	letter-spacing: 1px;
+	transform: skew(-20deg);
+	font-size: 15px;
+}
+#zweiterrechteck {
+	top: 120px;
+	transform: skew(-20deg);
+}
+#zweitertext {
+	transform: skew(20deg);
+	top: 15px;
+	width: 600px;
+	font-size: 17px;
+}
+.submitbuttonsees {
+	position: relative;
+	left: 29%;
+	top: 160px;
+	width: 450px;
+	height: 65px;
+	z-index: 29;
+	padding: 10px;
+	font-size: 20px;
+	background-color: rgba(41, 1, 21, 0.808);
+	outline: none;
+	cursor: pointer;
+	border-radius: 10vh;
+	border: none;
+	border: none;
+	color: #646464;
+	border-radius: 5px;
+	outline: none;
+	z-index: 29;
+}
+.submitbuttonsees:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	background-color: rgba(20, 24, 36, 0.808);
+}
+.umklammer {
+	position: absolute;
+	width: 700px;
+	left: 150px;
+	top: 100px;
+	height: 620px;
+	border-radius: 20px;
+	background-color: #22222288;
+}
+.textestest {
+	position: relative;
+	color: rgb(255, 255, 255);
+	font-family: "Bebas Neue", cursive;
+	letter-spacing: 0.5px;
+	left: 250px;
+	top: 115px;
+	letter-spacing: 1px;
+	font-size: 40px;
+}
+.textestestes {
+	position: relative;
+	color: rgb(255, 255, 255);
+	font-family: "Bebas Neue", cursive;
+	letter-spacing: 0.5px;
+	left: 175px;
+	top: 185px;
+	letter-spacing: 1px;
+	font-size: 25px;
+}
+/* -----------------------------------------------------------------------------------------------
+                                    Erstelle Karten Frame
+   ----------------------------------------------------------------------------------------------- */
+
+.firstframekarte {
+	position: absolute;
+	width: 45vw;
+	top: 13vh;
+	background-color: rgb(26, 26, 32);
+	height: 60vh;
+	left: 28vw;
+	border-radius: 1vw;
+}
+.willkomensnachricht {
+	position: relative;
+	font-family: "Shippori Antique", sans-serif;
+	color: rgb(211, 211, 211);
+	top: 0.2vh;
+	background: none;
+	left: 1.0vw;
+	letter-spacing: 0.1vw;
+	font-size: 1.7vw;
+}
+#zweiteerstellung {
+	position: absolute;
+	height: 60vh;
+	width: 14.5vw;
+}
+.infotext {
+	position: relative;
+	font-family: "Shippori Antique", sans-serif;
+	color: rgb(211, 211, 211);
+	top: 0.2vh;
+	width: 0.3vw;
+	background: none;
+	left: 1vw;
+	letter-spacing: 0.1vw;
+	font-size: 0.85vw;
+}
+.kreditkarte {
+	position: absolute;
+	left: 2vw;
+	top: 6vh;
+	background-color: rgb(18, 17, 27);
+	height: 25vh;
+	width: 23.5vw;
+	box-shadow: 0.1vw 0.1vw 0.1vw 0.1vw black;
+	border-radius: 1vw;
+}
+.rightframe {
+	position: absolute;
+	width: 31vw;
+	top: 0px;
+	background-color: rgba(0, 0, 255, 0);
+	height: 60vh;
+	left: 14vw;
+	border-radius: 1vw;
+}
+.rightbla {
+	position: relative;
+	width: 10vw;
+	height: 7.5vh;
+	top: 1vh;
+	border-top-right-radius: 0.7vw;
+	border-bottom-right-radius: 0.7vw;
+	background-color: #222222;
+}
+.chips {
+	width: 3.7vw;
+	position: relative;
+	left: 6vw;
+	top: 1vh;
+}
+.logos {
+	position: relative;
+	width: 3.8vw;
+	left: 0.3vw;
+	top: 0.5vh;
+}
+.logotext {
+	position: absolute;
+	font-family: "Shippori Antique", sans-serif;
+	color: rgb(211, 211, 211);
+	top: 0px;
+	width: 10vw;
+	background: none;
+	left: 4.3vw;
+	letter-spacing: 0.1vw;
+	font-size: 0.9vw;
+}
+.inputtses {
+	border: none;
+	-webkit-appearance: none;
+	padding: 0.2vw;
+	position: relative;
+	left: 2vw;
+	top: 32vh;
+	width: 23vw;
+	color: white;
+	font-family: "Bebas Neue", cursive;
+	height: 4.5vh;
+	display: block;
+	margin-top: 2.2vh;
+	text-align: center;
+	z-index: 29;
+	font-size: 2.3vw;
+	background-color: rgba(105, 105, 105, 0.52);
+	outline: none;
+	border-radius: 0.3vw;
+}
+.inputtses:hover {
+	box-shadow: 0.1vw 0.1vw 0.1vw black;
+	background-color: rgba(20, 24, 36, 0.5);
+	transition: color 0.6 ease;
+}
+.inputtses:focus::placeholder {
+	color: transparent;
+}
+.inputtses::placeholder {
+	color: white;
+	transition: color 0.3s ease;
+}
+.submitbuttonse {
+	position: absolute;
+	left: 0.7vw;
+	top: 52vh;
+	width: 13vw;
+	height: 6.5vh;
+	z-index: 29;
+	padding: 0.1vw;
+	font-size: 1.5vw;
+	background-color: rgba(41, 1, 21, 0.808);
+	outline: none;
+	cursor: pointer;
+	border-radius: 10vh;
+	border: none;
+	border: none;
+	color: #adadad;
+	border-radius: 0.4vw;
+	outline: none;
+	z-index: 29;
+}
+.submitbuttonse:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	background-color: rgba(20, 24, 36, 0.808);
+}
+.infostextes {
+	position: relative;
+	font-family: "Shippori Antique", sans-serif;
+	color: rgb(211, 211, 211);
+	top: 1vw;
+	width: 13vw;
+	background: none;
+	left: 0vw;
+	letter-spacing: 1px;
+	font-size: 0.83vw;
+}
+/* -----------------------------------------------------------------------------------------------
+                                     Normale Bank Frame
+   ----------------------------------------------------------------------------------------------- */
+.boxe {
+	position: absolute;
+	width: 57.3vw;
+	height: 61vh;
+	top: 13vh;
+	left: 22vw;
+	background-color: rgb(10, 2, 32);
+}
+.boxesobendreiecks {
+	position: absolute;
+	width: 26.0vw;
+	height: 8.5vh;
+	background-color: #11092a;
+	transform: skew(25deg);
+	left: -1vw;
+	cursor: pointer;
+}
+.boxesobendreieck {
+	position: absolute;
+	width: 26vw;
+	height: 8.5vh;
+	display: inline-block;
+	background-color: #11092a;
+	transform: skew(-25deg);
+	left: 32.23vw;
+	cursor: pointer;
+	top: 0px;
+}
+.boxesobendreieck:hover {
+	width: 26.5vw;
+	height: 9vh;
+	transition: all 1s;
+	background-color: rgb(24, 16, 53);
+}
+.boxesobendreiecks:hover {
+	width: 26.5vw;
+	height: 9vh;
+	transition: all 1s;
+	background-color: rgb(24, 16, 53);
+}
+.bildchen {
+	position: absolute;
+	width: 5.1vw;
+	top: -0.1vw;
+	left: 13vw;
+	cursor: pointer;
+}
+.oben {
+	position: relative;
+	width: 57.3vw;
+	height: 8.5vh;
+	background-color: #341662;
+}
+.auszahlengeldnormalframe {
+	position: absolute;
+	color: rgb(119, 119, 119);
+	font-family: "Bebas Neue", cursive;
+	left: 6vw;
+	top: -1.3vh;
+	letter-spacing: 0.1vw;
+	font-size: 2.2vw;
+	transform: skew(25deg);
+}
+.einzahelngelnormalframe {
+	position: absolute;
+	color: rgb(119, 119, 119);
+	font-family: "Bebas Neue", cursive;
+	left: 7vw;
+	top: -1.3vh;
+	letter-spacing: 0.1vw;
+	font-size: 2.2vw;
+	transform: skew(-25deg);
+}
+.bonen {
+	position: relative;
+	width: 400px;
+	height: 300px;
+	left: 75px;
+	top: 50px;
+	background-color: rgb(39, 0, 36);
+	display: inline-block;
+	border-radius: 20px;
+	border-left: 2px solid rgb(102, 0, 77);
+	border-right: 2px solid rgb(102, 0, 77);
+	margin-left: 50px;
+}
+.Kontostands {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	top: 5vh;
+	left: 1vw;
+	font-size: 1.4vw;
+	font-family: "Shippori Antique", sans-serif;
+}
+.Kontostandse {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	top: 17.5vh;
+	left: 1vw;
+	font-size: 1.4vw;
+	font-family: "Shippori Antique", sans-serif;
+}
+.infogelds {
+	position: absolute;
+	color: green;
+	left: 1vw;
+	top: 20vh;
+	font-size: 15vw;
+	font-family: "Shippori Antique", sans-serif;
+}
+.geldse {
+	position: absolute;
+	color: green;
+	top: 16vh;
+	left: 1vw;
+	font-size: 3.7vw;
+	font-family: "Bebas Neue", cursive;
+	letter-spacing: 0.2vw;
+}
+
+
+.geldses {
+	position: absolute;
+	color: green;
+	top: 4vh;
+	left: 1vw;
+	font-size: 3.5vw;
+	font-family: "Bebas Neue", cursive;
+	letter-spacing: 2px;
+}
+#inflatiom {
+	color: rgb(136, 1, 1);
+}
+.geldses:after {
+	content: "*";
+	color: white;
+	position: relative;
+	font-size: 1.7vw;
+	top: -2.3vh;
+}
+.textuntenbemerkung {
+	position: absolute;
+	color: rgb(77, 77, 77);
+	top: 32vh;
+	width: 26vw;
+	left: 1vw;
+	font-size: 0.95vw;
+	font-family: "Shippori Antique", sans-serif;
+}
+#iu {
+	font-size: 17vw;
+}
+.textobenhah {
+	position: absolute;
+	font-family: "Shippori Antique", sans-serif;
+	color: rgb(211, 211, 211);
+	top: 8vh;
+	width: 45vw;
+	background: none;
+	left: 20.6vw;
+	letter-spacing: 0.05vw;
+	font-size: 2.2vw;
+}
+.inputtesese {
+	border: none;
+	-webkit-appearance: none;
+	padding: 0.1vw;
+	position: absolute;
+	left: 0vw;
+	width: 45.4vw;
+	top: 0vh;
+	color: white;
+	font-family: "Bebas Neue", cursive;
+	height: 16.7vh;
+	text-align: center;
+	z-index: 29;
+	display: block;
+	font-size: 6vw;
+	background-color: rgba(75, 0, 68, 0.287);
+	outline: none;
+}
+.inputtesese:hover {
+	box-shadow: 0.1vw 0.1vw 0.1vw black;
+	background-color: rgba(46, 1, 42, 0.5);
+	transition: color 0.6 ease;
+}
+.inputtesese:focus::placeholder {
+	color: transparent;
+}
+.inputtesese::placeholder {
+	color: white;
+	transition: color 0.3s ease;
+}
+.submitbuttonseesses {
+	position: absolute;
+	left: 0vw;
+	top: 21vh;
+	width: 21vw;
+	height: 6.5vh;
+	z-index: 29;
+	padding: 1vw;
+	font-size: 1.1vw;
+	background-color: rgba(41, 1, 21, 0.808);
+	outline: none;
+	cursor: pointer;
+	border-radius: 10vh;
+	border: none;
+	border: none;
+	color: #ffffff;
+	border-radius: 0.2vw;
+	outline: none;
+	z-index: 29;
+}
+.submitbuttonseesses:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	background-color: rgba(20, 24, 36, 0.808);
+}
+.inputtssesees {
+	border: none;
+	-webkit-appearance: none;
+	padding: 0.2vw;
+	position: absolute;
+	left: 0vw;
+	width: 45.2vw;
+	top: 0vh;
+	color: white;
+	font-family: "Bebas Neue", cursive;
+	height: 16.2vh;
+	text-align: center;
+	z-index: 29;
+	display: block;
+	margin-top:0;
+	font-size: 6vw;
+	background-color: rgba(75, 0, 68, 0.287);
+	outline: none;
+}
+.inputtssesees:hover {
+	box-shadow: 0.1vw  0.1vw  0.1vw black;
+	background-color: rgba(20, 24, 36, 0.5);
+	transition: color 0.6 ease;
+}
+.inputtssesees:focus::placeholder {
+	color: transparent;
+}
+.inputtssesees::placeholder {
+	color: white;
+	transition: color 0.3s ease;
+}
+.submitbuttonessSs {
+	position: absolute;
+	left: 0vw;
+	top: 21vh;
+	width: 21vw;
+	height: 6.5vh;
+	z-index: 29;
+	padding: 1vw;
+	font-size: 1.1vw;
+	background-color: rgba(41, 1, 21, 0.808);
+	outline: none;
+	cursor: pointer;
+	border: none;
+	color: #f6f6f6;
+	border-radius: 0.2vw;
+	outline: none;
+	z-index: 29;
+}
+.submitbuttonessSs:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	background-color: rgba(20, 24, 36, 0.808);
+}
+.infotextesese {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	font-family: "Bebas Neue", cursive;
+	left: 12vw;
+	top: 42vh;
+	width:25vw;
+	letter-spacing: 0.08vw;
+	font-size: 1.2vw;
+}
+.infotextesese:before {
+	content: "*";
+}
+.boxmittse {
+	position: absolute;
+	top: 11vh;
+	left: 1vw;
+	width: 26.5vw;
+	box-shadow: 0.1vw 0.1vw 0.1vw 0.1vw black;
+	height: 47vh;
+	background-color: #18181888;
+	border-radius: 1vw;
+}
+.boxmittses {
+	position: absolute;
+	top: 11vh;
+	left: 29vw;
+	width: 26.5vw;
+	box-shadow:0.1vw 0.1vw 0.1vw 0.1vw black;
+	height: 47vh;
+	background-color: #18181888;
+	border-radius: 1vw;
+}
+.willkommenstext {
+	position: absolute;
+	color: rgb(219, 219, 219);
+	top: -2vh;
+	left: 1vw;
+	font-size: 1.8vw;
+	font-family: "Shippori Antique", sans-serif;
+}
+.nameses {
+	position: absolute;
+	color: rgb(219, 219, 219);
+	top: 1vh;
+	left: 12.5vw;
+	font-size: 1.8vw;
+	font-family: "Shippori Antique", sans-serif;
+}
+/* -----------------------------------------------------------------------------------------------
+                                     Einstellungs Frame
+   ----------------------------------------------------------------------------------------------- */

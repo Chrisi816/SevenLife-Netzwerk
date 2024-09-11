@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="index.css" />
+		<link rel="stylesheet" href="logistik.css" />
+		<link rel="stylesheet" href="shop.css" />
+	</head>
+	<body>
+		<div class="container-shop">
+			<div class="leftshop"></div>
+			<div class="rightshop"></div>
+			<h1 class="text-impounder3" id="shopnamepers">Chrisis Laden</h1>
+			<div class="line-unter3"></div>
+			<div class="streifen"></div>
+			<h1 class="text-shop">Shop - Zentrum</h1>
+			<h1 class="esctext">Drücke ESC um zu verlassen</h1>
+
+			<div class="container-rechnungdetails">
+				<h1 class="idkaufdetails">Ihre Kaufdetails:</h1>
+				<div class="line-unter5"></div>
+				<h1 class="idkaufdetails2">Informationen:</h1>
+				<div class="line-unter6"></div>
+				<div class="warenkorb-shop"></div>
+				<h1 class="idkaufdetails3">Warenkorb:</h1>
+				<div class="container-rechnungsdetails2">
+					<h1 class="steuern">Steuern:</h1>
+					<h1 class="steuern-nummer">2%</h1>
+					<div class="line-unter7"></div>
+					<h1 class="preis">Preis:</h1>
+					<h1 class="preis-nummer" id="warenkorb-2" data-value="0">
+						0$
+					</h1>
+				</div>
+				<div class="line-unter4"></div>
+				<button class="Button-Buy-Shop" name="">Kaufen</button>
+			</div>
+			<div class="container-right-line"></div>
+			<div class="insert-container-shop">
+				<div class="container-item">
+					<div class="container-bild-waren">
+						<img src="src/burger.png" class="img-ware" alt="" />
+					</div>
+					<input
+						class="Inputt-Shop"
+						id="Inputt-Shop"
+						placeholder="0"
+					/>
+					<h1 class="steuern2">Stück:</h1>
+					<h1 class="steuern-nummer2">1Stk.</h1>
+					<div class="line-unter9"></div>
+					<h1 class="preis2">Preis:</h1>
+					<h1 class="preis-nummer2" id="preis-nummer2">0$</h1>
+					<button class="Button-addtocard" name="">Hinzufügen</button>
+				</div>
+			</div>
+		</div>
+		<div class="kaufen">
+			<div class="left1">
+				<div class="streifen"></div>
+				<h1 class="text-rental">Makler - Shops</h1>
+			</div>
+			<h1 class="text-impounder2">Shops - Kaufen</h1>
+			<div class="line-unter"></div>
+			<div class="right1"></div>
+			<h1 class="esctext">Drücke ESC um zu verlassen</h1>
+			<div class="container-info">
+				<div class="container-information">
+					<h1 class="Item-Name-Logistik2">Shop ID: 1</h1>
+					<img
+						src="src/outline_house_siding_white_48dp.png"
+						class="img-shopbuy"
+						alt=""
+					/>
+					<h1 class="preistxt">Preis:</h1>
+					<h1 class="preistxt2">1000$</h1>
+					<h1 class="locationtxt">Location Markieren:</h1>
+					<img
+						src="src/Screenshot_174.png"
+						class="img-location"
+						alt=""
+					/>
+					<button class="Button-BuyShop" name="">Shop Kaufen</button>
+				</div>
+				<div class="container-information"></div>
+				<div class="container-information"></div>
+			</div>
+		</div>
+		<div class="logistik">
+			<div class="leftlogistik"></div>
+			<div class="rightlogistik"></div>
+			<h1 class="text-impounder2">Items - Kaufen</h1>
+			<div class="line-unter"></div>
+			<div class="streifen"></div>
+			<h1 class="text-impounder">Logistik - Zentrum</h1>
+			<h1 class="esctext">Drücke ESC um zu verlassen</h1>
+			<button class="button-down" id="Lebensmittel">Lebensmittel</button>
+			<button class="button-down" id="Baustellen">
+				Baustellen Teile
+			</button>
+			<button class="button-down" id="Elektronik">Elektronik</button>
+			<button class="button-down" id="Mechaniker">Mechaniker</button>
+			<div class="insert-container">
+				<div class="insert-container-result">
+					<h1 class="Item-Name-Logistik">Bremsen</h1>
+					<img
+						src="src/baseline_category_white_48dp.png"
+						class="Item-Picture"
+						alt=""
+					/>
+					<img src="src/burger.png" class="bilds" alt="" />
+					<div class="container-informationen">
+						<h1 class="Info-Logistik">Preis pro:</h1>
+						<h1 class="Info-Logistik">I.Kosten:</h1>
+						<h1 class="Info-Logistik2" id="kennzeichen">10$</h1>
+						<h1 class="Info-Logistik2" id="benzin">7$</h1>
+					</div>
+					<input
+						class="Inputt-Logistik"
+						id="Inputt-Logistik"
+						placeholder="Anzahl"
+					/>
+					<button class="Button-Buy" name="">Kaufen</button>
+				</div>
+				<div class="insert-container-result">
+					<h1 class="Item-Name-Logistik">Bremsen</h1>
+					<img
+						src="src/baseline_category_white_48dp.png"
+						class="Item-Picture"
+						alt=""
+					/>
+					<img src="src/burger.png" class="bilds" alt="" />
+					<div class="container-informationen">
+						<h1 class="Info-Logistik">Preis pro:</h1>
+						<h1 class="Info-Logistik">I.Kosten:</h1>
+						<h1 class="Info-Logistik2" id="kennzeichen">10$</h1>
+						<h1 class="Info-Logistik2" id="benzin">7$</h1>
+					</div>
+					<input
+						class="Inputt-Logistik"
+						id="Inputt-Logistik"
+						placeholder="Anzahl"
+					/>
+					<button class="Button-Buy" name="">Kaufen</button>
+				</div>
+				<div class="insert-container-result">
+					<h1 class="Item-Name-Logistik">Bremsen</h1>
+					<img
+						src="src/baseline_category_white_48dp.png"
+						class="Item-Picture"
+						alt=""
+					/>
+					<img src="src/burger.png" class="bilds" alt="" />
+					<div class="container-informationen">
+						<h1 class="Info-Logistik">Preis pro:</h1>
+						<h1 class="Info-Logistik">I.Kosten:</h1>
+						<h1 class="Info-Logistik2" id="kennzeichen">10$</h1>
+						<h1 class="Info-Logistik2" id="benzin">7$</h1>
+					</div>
+					<input
+						class="Inputt-Logistik"
+						id="Inputt-Logistik"
+						placeholder="Anzahl"
+					/>
+					<button class="Button-Buy" name="">Kaufen</button>
+				</div>
+				<div class="insert-container-result">
+					<h1 class="Item-Name-Logistik">Bremsen</h1>
+					<img
+						src="src/baseline_category_white_48dp.png"
+						class="Item-Picture"
+						alt=""
+					/>
+					<img src="src/burger.png" class="bilds" alt="" />
+					<div class="container-informationen">
+						<h1 class="Info-Logistik">Preis pro:</h1>
+						<h1 class="Info-Logistik">I.Kosten:</h1>
+						<h1 class="Info-Logistik2" id="kennzeichen">10$</h1>
+						<h1 class="Info-Logistik2" id="benzin">7$</h1>
+					</div>
+					<input
+						class="Inputt-Logistik"
+						id="Inputt-Logistik"
+						placeholder="Anzahl"
+					/>
+					<button class="Button-Buy" name="">Kaufen</button>
+				</div>
+				<div class="insert-container-result">
+					<h1 class="Item-Name-Logistik">Bremsen</h1>
+					<img
+						src="src/baseline_category_white_48dp.png"
+						class="Item-Picture"
+						alt=""
+					/>
+					<img src="src/burger.png" class="bilds" alt="" />
+					<div class="container-informationen">
+						<h1 class="Info-Logistik">Preis pro:</h1>
+						<h1 class="Info-Logistik">I.Kosten:</h1>
+						<h1 class="Info-Logistik2" id="kennzeichen">10$</h1>
+						<h1 class="Info-Logistik2" id="benzin">7$</h1>
+					</div>
+					<input
+						class="Inputt-Logistik"
+						id="Inputt-Logistik"
+						placeholder="Anzahl"
+					/>
+					<button class="Button-Buy" name="">Kaufen</button>
+				</div>
+				<div class="insert-container-result">
+					<h1 class="Item-Name-Logistik">Bremsen</h1>
+					<img
+						src="src/baseline_category_white_48dp.png"
+						class="Item-Picture"
+						alt=""
+					/>
+					<img src="src/burger.png" class="bilds" alt="" />
+					<div class="container-informationen">
+						<h1 class="Info-Logistik">Preis pro:</h1>
+						<h1 class="Info-Logistik">I.Kosten:</h1>
+						<h1 class="Info-Logistik2" id="kennzeichen">10$</h1>
+						<h1 class="Info-Logistik2" id="benzin">7$</h1>
+					</div>
+					<input
+						class="Inputt-Logistik"
+						id="Inputt-Logistik"
+						placeholder="Anzahl"
+					/>
+					<button class="Button-Buy" name="">Kaufen</button>
+				</div>
+				<div class="insert-container-result">
+					<h1 class="Item-Name-Logistik">Bremsen</h1>
+					<img
+						src="src/baseline_category_white_48dp.png"
+						class="Item-Picture"
+						alt=""
+					/>
+					<img src="src/burger.png" class="bilds" alt="" />
+					<div class="container-informationen">
+						<h1 class="Info-Logistik">Preis pro:</h1>
+						<h1 class="Info-Logistik">I.Kosten:</h1>
+						<h1 class="Info-Logistik2" id="kennzeichen">10$</h1>
+						<h1 class="Info-Logistik2" id="benzin">7$</h1>
+					</div>
+					<input
+						class="Inputt-Logistik"
+						id="Inputt-Logistik"
+						placeholder="Anzahl"
+					/>
+					<button class="Button-Buy" name="">Kaufen</button>
+				</div>
+				<div class="insert-container-result">
+					<h1 class="Item-Name-Logistik">Bremsen</h1>
+					<img
+						src="src/baseline_category_white_48dp.png"
+						class="Item-Picture"
+						alt=""
+					/>
+					<img src="src/burger.png" class="bilds" alt="" />
+					<div class="container-informationen">
+						<h1 class="Info-Logistik">Preis pro:</h1>
+						<h1 class="Info-Logistik">I.Kosten:</h1>
+						<h1 class="Info-Logistik2" id="kennzeichen">10$</h1>
+						<h1 class="Info-Logistik2" id="benzin">7$</h1>
+					</div>
+					<input
+						class="Inputt-Logistik"
+						id="Inputt-Logistik"
+						placeholder="Anzahl"
+					/>
+					<button class="Button-Buy" name="">Kaufen</button>
+				</div>
+			</div>
+			<div class="lines"></div>
+			<div class="lines2"></div>
+		</div>
+	</body>
+	<script src="index.js"></script>
+</html>

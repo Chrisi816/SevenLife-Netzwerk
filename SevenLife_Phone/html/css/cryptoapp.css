@@ -1,0 +1,667 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Estonia&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Radio+Canada&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hurricane&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Goldman&family=Radio+Canada&display=swap");
+
+.background {
+	position: absolute;
+	left: 0vw;
+	top: 0vh;
+	height: 81vh;
+	border-radius: 1vw;
+	width: 21.1vw;
+	z-index: 1;
+	background-image: url(https://cdn.discordapp.com/attachments/954476483651461120/972825921532862474/OIP.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	filter: blur(2vw);
+}
+.loginsymbol {
+	position: absolute;
+	width: 7vw;
+	left: 7vw;
+	top: 10vh;
+	z-index: 3;
+}
+.crypto-name {
+	position: absolute;
+	font-family: "Goldman", cursive;
+	color: white;
+	top: 23vh;
+	margin-top: vh;
+	z-index: 3;
+	display: block;
+	left: 5vw;
+	font-size: 1.7vw;
+}
+.inputbenutzer {
+	border: none;
+	-webkit-appearance: none;
+	padding: 3px;
+	position: absolute;
+	left: 2vw;
+	width: 17vw;
+	top: 31.5vh;
+	color: white;
+	font-family: "Bebas Neue", cursive;
+	height: 3.9vh;
+	text-align: center;
+	z-index: 29;
+	font-size: 1.7vw;
+	background-color: rgba(51, 51, 51, 0.192);
+	outline: none;
+	border-radius: 0.2vw;
+}
+.inputbenutzer:hover {
+	transition: color 0.6 ease;
+}
+.inputbenutzer:focus::placeholder {
+	color: transparent;
+}
+.inputbenutzer::placeholder {
+	color: white;
+	transition: color 0.3s ease;
+}
+.inputps {
+	border: none;
+	-webkit-appearance: none;
+	padding: 3px;
+	position: absolute;
+	left: 2vw;
+	width: 17vw;
+	top: 38vh;
+	color: white;
+	font-family: "Bebas Neue", cursive;
+	height: 3.9vh;
+	text-align: center;
+	z-index: 29;
+	font-size: 1.7vw;
+	background-color: rgba(51, 51, 51, 0.192);
+	outline: none;
+	border-radius: 0.2vw;
+}
+.inputps:hover {
+	transition: color 0.6 ease;
+}
+.inputps:focus::placeholder {
+	color: transparent;
+}
+.inputps::placeholder {
+	color: white;
+	transition: color 0.3s ease;
+}
+.removebarunten {
+	position: absolute;
+	width: 15vw;
+	top: 78.5vh;
+	left: 3.5vw;
+	border-radius: 20vw;
+	height: 1vh;
+	z-index: 2;
+	cursor: pointer;
+	background-color: rgb(206, 206, 206);
+}
+.removebarunten:hover {
+	animation: untenline-nachoben;
+	animation-duration: 1.5s;
+}
+.SubmitbuttonLoginCrypto {
+	position: absolute;
+	left: 4.5vw;
+	top: 44.5vh;
+	width: 12.25vw;
+	height: 5vh;
+
+	padding: 3px;
+	z-index: 29;
+	display: inline-block;
+	font-size: 1.3vw;
+	background-color: rgba(66, 66, 66, 0.575);
+	outline: none;
+	cursor: pointer;
+	border-radius: 0.6vw;
+	color: #ffffff;
+	border: none;
+	border-radius: 5px;
+	outline: none;
+	z-index: 29;
+}
+.SubmitbuttonLoginCrypto:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	background-color: rgba(87, 87, 87, 0.808);
+}
+.word {
+	position: absolute;
+	z-index: 1;
+	top: 66vh;
+	left: 1vw;
+	margin: auto;
+	height: 10vh;
+	width: 19vw;
+	background-color: rgba(255, 0, 0, 0);
+	color: white;
+	text-align: center;
+	font-size: 1.7vw;
+	font-family: "Goldman", cursive;
+}
+.account-create-text {
+	position: absolute;
+	z-index: 1;
+	color: white;
+	font-size: 1.1vw;
+	top: 53vh;
+	left: 5vw;
+	cursor: pointer;
+	font-family: "Goldman", cursive;
+}
+.account-create-text:hover {
+	border-bottom: 0.1vw solid white;
+}
+.register {
+	position: absolute;
+	font-family: "Goldman", cursive;
+	color: white;
+	top: 27.5vh;
+	margin-top: vh;
+	z-index: 3;
+	display: block;
+	left: 5.7vw;
+	font-size: 1.4vw;
+}
+.inputbenutzerregist {
+	border: none;
+	-webkit-appearance: none;
+	padding: 3px;
+	position: absolute;
+	left: 2vw;
+	width: 17vw;
+	top: 33.5vh;
+	color: white;
+	font-family: "Bebas Neue", cursive;
+	height: 3.9vh;
+	text-align: center;
+	z-index: 29;
+	font-size: 1.7vw;
+	background-color: rgba(51, 51, 51, 0.192);
+	outline: none;
+	border-radius: 0.2vw;
+}
+.inputbenutzerregist:hover {
+	transition: color 0.6 ease;
+}
+.inputbenutzerregist:focus::placeholder {
+	color: transparent;
+}
+.inputbenutzerregist::placeholder {
+	color: white;
+	transition: color 0.3s ease;
+}
+.inputpsregist {
+	border: none;
+	-webkit-appearance: none;
+	padding: 3px;
+	position: absolute;
+	left: 2vw;
+	width: 17vw;
+	top: 40vh;
+	color: white;
+	font-family: "Bebas Neue", cursive;
+	height: 3.9vh;
+	text-align: center;
+	z-index: 29;
+	font-size: 1.7vw;
+	background-color: rgba(51, 51, 51, 0.192);
+	outline: none;
+	border-radius: 0.2vw;
+}
+.inputpsregist:hover {
+	transition: color 0.6 ease;
+}
+.inputpsregist:focus::placeholder {
+	color: transparent;
+}
+.inputpsregist::placeholder {
+	color: white;
+	transition: color 0.3s ease;
+}
+.SubmitbuttonRegisterCrypto {
+	position: absolute;
+	left: 4.5vw;
+	top: 46.5vh;
+	width: 12.25vw;
+	height: 5vh;
+
+	padding: 3px;
+	z-index: 29;
+	display: inline-block;
+	font-size: 1.3vw;
+	background-color: rgba(66, 66, 66, 0.575);
+	outline: none;
+	cursor: pointer;
+	border-radius: 0.6vw;
+	color: #ffffff;
+	border: none;
+	border-radius: 5px;
+	outline: none;
+	z-index: 29;
+}
+.SubmitbuttonRegisterCrypto:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	background-color: rgba(87, 87, 87, 0.808);
+}
+
+.account-anmelde-text {
+	position: absolute;
+	z-index: 1;
+	color: white;
+	font-size: 1.25vw;
+	top: 52vh;
+	left: 7.2vw;
+	cursor: pointer;
+	font-family: "Goldman", cursive;
+}
+.account-anmelde-text:hover {
+	border-bottom: 0.1vw solid white;
+}
+
+.container-animationtext {
+	position: absolute;
+	z-index: 1;
+	left: 2vw;
+	top: 30vh;
+}
+.animate-charcter {
+	position: absolute;
+	z-index: 2;
+	text-transform: uppercase;
+	background-image: linear-gradient(
+		-225deg,
+		#200096 0%,
+		#44107a 29%,
+		#00645f 67%,
+		#800059 100%
+	);
+	background-size: auto auto;
+	background-clip: border-box;
+	background-size: 200% auto;
+	color: #fff;
+	background-clip: text;
+	text-fill-color: transparent;
+	font-family: "Goldman", cursive;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: textclip 2s linear infinite;
+	font-size: 2.5vw;
+	left: 2vw;
+}
+
+@keyframes textclip {
+	to {
+		background-position: 200% center;
+	}
+}
+.error {
+	position: absolute;
+	z-index: 1;
+	color: white;
+	font-size: 2.5vw;
+	top: 16vh;
+	left: 6.5vw;
+	font-family: "Goldman", cursive;
+}
+.question {
+	position: absolute;
+	z-index: 1;
+	width: 4vw;
+	left: 8.1vw;
+	top: 10vh;
+}
+.text-erroe {
+	position: absolute;
+	z-index: 1;
+	color: white;
+	font-size: 2.1vw;
+	top: 26vh;
+	text-align: center;
+	left: 1vw;
+	width: 19vw;
+	font-family: "Goldman", cursive;
+}
+#demo {
+	position: absolute;
+	z-index: 1;
+	color: white;
+	font-size: 2.1vw;
+	top: 40vh;
+	text-align: center;
+	left: 0.5vw;
+
+	font-family: "Goldman", cursive;
+}
+.texthey {
+	position: absolute;
+	z-index: 1;
+	color: white;
+	font-size: 1.8vw;
+	top: 10.4vh;
+	text-align: center;
+	left: 1.1vw;
+
+	font-family: "Roboto", sans-serif;
+}
+.text-deashboard {
+	position: absolute;
+	z-index: 1;
+	color: white;
+	font-size: 2.5vw;
+	top: 3.5vh;
+	text-align: center;
+	left: 1vw;
+	letter-spacing: 0vw;
+	font-family: "Goldman", cursive;
+}
+.slider-container {
+	position: absolute;
+	top: 22.5vh;
+	left: 0.5vw;
+	height: 20vh;
+	z-index: 1;
+	overflow-x: hidden;
+	width: 20vw;
+	background-color: rgba(255, 0, 0, 0);
+}
+.sliders {
+	z-index: 2;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	overflow: auto;
+	scroll-snap-type: x mandatory;
+	scroll-behavior: smooth;
+}
+.sliders::-webkit-scrollbar {
+	width: 0vw;
+	height: 0px;
+}
+
+.sliders::-webkit-scrollbar-track {
+	border-radius: 0vw;
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+.sliders::-webkit-scrollbar-thumb {
+	background-color: #202020;
+	border-radius: 2vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.12) 0 3px 13px 1px;
+}
+.sliders .element {
+	min-width: calc((150% - 05px) / 2);
+	border-radius: 1vw;
+	height: 17vh;
+	margin-right: 1vw;
+	scroll-snap-align: start;
+	background-color: rgba(5, 5, 5, 0.288);
+}
+.sliders .element:last-of-type {
+	margin-right: 0;
+}
+.slider-arrows-parent {
+	position: relative;
+	width: 100%;
+}
+.arrows {
+	position: absolute;
+	width: 1vw;
+	height: 1vh;
+	cursor: pointer;
+	font-size: 3.5vw;
+	font-family: "Goldman", cursive;
+	color: rgba(255, 255, 255, 0.212);
+	top: 4vh;
+}
+.arrows:hover {
+	color: white;
+}
+.arrows.left {
+	left: 0.5vw;
+}
+.arrows.right {
+	right: 1.8vw;
+}
+.text-kontostand {
+	position: absolute;
+	z-index: 1;
+	color: white;
+	font-size: 1.4vw;
+	top: 17.4vh;
+	text-align: center;
+	left: 1.1vw;
+	font-family: "Roboto", sans-serif;
+}
+.wallet-stand {
+	font-size: 3vw;
+	font-family: "Bebas Neue", cursive;
+	color: rgba(173, 173, 173, 0.753);
+	margin-top: -2vh;
+	margin-left: 1vw;
+	letter-spacing: 0.2vw;
+}
+.coinname {
+	margin-top: 1vh;
+	margin-left: 1vw;
+	font-size: 1.5vw;
+	font-family: "Goldman", cursive;
+	color: rgb(255, 255, 255);
+}
+.name-coin {
+	margin-top: -9.8vh;
+	margin-left: 8.5vw;
+	font-size: 2.5vw;
+	font-family: "Goldman", cursive;
+	color: rgb(255, 255, 255);
+}
+
+.sign {
+	position: absolute;
+	z-index: 1;
+	color: white;
+	font-size: 1.1vw;
+	top: 73.5vh;
+	text-align: center;
+	left: 4.7vw;
+	font-family: "Roboto", sans-serif;
+}
+.wachstum {
+	margin-top: -2vh;
+	margin-left: 1vw;
+	font-size: 2.1vw;
+	font-family: "Goldman", cursive;
+	color: rgb(255, 255, 255);
+}
+.markers {
+	margin-top: -8vh;
+	margin-left: 12vw;
+	font-size: 2.8vw;
+	cursor: pointer;
+	font-family: "Goldman", cursive;
+	color: rgb(255, 255, 255);
+}
+.walletadress {
+	position: absolute;
+	z-index: 1;
+	color: white;
+	font-size: 1.4vw;
+	top: 41.4vh;
+	left: 1.1vw;
+	font-family: "Roboto", sans-serif;
+}
+.addres {
+	position: absolute;
+	z-index: 1;
+	color: white;
+	font-size: 1.4vw;
+	width: 20vw;
+	top: 44.4vh;
+	text-align: center;
+	left: 0.6vw;
+	background-color: rgba(255, 0, 0, 0);
+	overflow: hidden;
+	font-family: "Roboto", sans-serif;
+}
+.qrcode {
+	position: absolute;
+	z-index: 1;
+	width: 10vw;
+	font-size: 1.4vw;
+	top: 51.4vh;
+	left: 1.1vw;
+	font-family: "Roboto", sans-serif;
+}
+.texteqr {
+	position: absolute;
+	z-index: 1;
+	color: white;
+	font-size: 1.4vw;
+	top: 52.4vh;
+	left: 12.1vw;
+	font-family: "Roboto", sans-serif;
+}
+.transaktion {
+	margin-top: -7.8vh;
+	margin-left: 10.5vw;
+	font-size: 2.3vw;
+	cursor: pointer;
+	font-family: "Goldman", cursive;
+	color: rgb(255, 255, 255);
+}
+.überschrift-trans {
+	position: absolute;
+	z-index: 1;
+	color: white;
+	font-size: 1.4vw;
+	top: 40.4vh;
+	left: 0.1vw;
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+}
+.background-transaktion {
+	position: absolute;
+	height: 33vh;
+	z-index: 1;
+	border-radius: 2vw;
+	width: 20vw;
+	top: 40.5vh;
+	left: 0.5vw;
+	background-color: rgba(0, 0, 27, 0.171);
+}
+.Inputt-Wallet {
+	border: none;
+	-webkit-appearance: none;
+	padding: 0vw;
+	position: relative;
+	left: 1vw;
+	width: 19vw;
+	top: 45vh;
+	color: rgb(0, 0, 0);
+	font-family: "Bebas Neue", cursive;
+	height: 6.4vh;
+	text-align: center;
+	z-index: 29;
+	font-size: 1.7vw;
+	background-color: rgba(0, 0, 0, 0.247);
+	outline: none;
+	border-radius: 0.6vw;
+}
+.Inputt-Wallet:focus::placeholder {
+	color: transparent;
+}
+.Inputt-Wallet::placeholder {
+	color: white;
+	transition: color 0.3s ease;
+}
+.Inputt-wieviel {
+	border: none;
+	-webkit-appearance: none;
+	padding: 0vw;
+	position: relative;
+	left: 1vw;
+	width: 19vw;
+	top: 46vh;
+	color: rgb(0, 0, 0);
+	font-family: "Bebas Neue", cursive;
+	height: 6.4vh;
+	text-align: center;
+	z-index: 29;
+	font-size: 1.7vw;
+	background-color: rgba(0, 0, 0, 0.247);
+	outline: none;
+	border-radius: 0.6vw;
+}
+.Inputt-wieviel:focus::placeholder {
+	color: transparent;
+}
+.Inputt-wieviel::placeholder {
+	color: white;
+	transition: color 0.3s ease;
+}
+.Submit-Wallet {
+	position: relative;
+	left: 1vw;
+	top: 48vh;
+	width: 19vw;
+	height: 5vh;
+	z-index: 29;
+	font-size: 1.4vw;
+	background-color: rgba(34, 31, 31, 0.719);
+	outline: none;
+	cursor: pointer;
+	border-radius: 0.6vw;
+	color: #ffffff;
+	border: none;
+	border-radius: 5px;
+	outline: none;
+	z-index: 29;
+}
+.Submit-Wallet:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	background-color: rgba(87, 87, 87, 0.808);
+}
+#demos {
+	position: absolute;
+	z-index: 1;
+	color: white;
+	font-size: 2.1vw;
+	top: 40vh;
+	text-align: center;
+	left: 0.5vw;
+	font-family: "Goldman", cursive;
+}
+#demoss {
+	position: absolute;
+	z-index: 1;
+	color: white;
+	font-size: 2.1vw;
+	top: 40vh;
+	text-align: center;
+	left: 0.5vw;
+	font-family: "Goldman", cursive;
+}
+#demosss {
+	position: absolute;
+	z-index: 1;
+	color: white;
+	font-size: 2.1vw;
+	top: 40vh;
+	text-align: center;
+	left: 0.5vw;
+	font-family: "Goldman", cursive;
+}

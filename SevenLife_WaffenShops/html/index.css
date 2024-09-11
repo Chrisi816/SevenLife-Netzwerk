@@ -1,0 +1,423 @@
+@font-face {
+	font-family: "Unbounded";
+	src: url("fonts/Unbounded-ExtraLight.ttf");
+}
+@font-face {
+	font-family: "Lato";
+	src: url("fonts/Lato-Black.ttf");
+}
+@font-face {
+	font-family: "Goldman";
+	src: url("fonts/Goldman-Regular.ttf");
+}
+@font-face {
+	font-family: "Abel";
+	src: url("fonts/Abel-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Aldrich";
+	src: url("fonts/Aldrich-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Roboto";
+	src: url("fonts/Roboto-MediumItalic.ttf");
+}
+@font-face {
+	font-family: "Khula";
+	src: url("fonts/Khula-Regular.ttf");
+}
+.waffenladen-container {
+	display: none;
+}
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+}
+.left {
+	position: absolute;
+	left: 0vw;
+	top: 0vw;
+	height: 100%;
+	width: 100vw;
+	background: linear-gradient(
+		to right,
+		rgb(63, 0, 49),
+		rgba(0, 0, 255, 0) 90.71%
+	);
+}
+.right {
+	position: absolute;
+	right: 0vw;
+	top: 0vw;
+	height: 100%;
+	width: 100vw;
+	background: linear-gradient(
+		to left,
+		rgb(66, 1, 52),
+		rgba(0, 0, 255, 0) 90.71%
+	);
+}
+.left-line {
+	position: absolute;
+	width: 0.5vw;
+	height: 7vh;
+	border-radius: 0.2vw;
+
+	background-color: rgb(192, 0, 202);
+	left: 1vw;
+	top: 2vh;
+}
+.textwaschanlage {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 2.8vw;
+	top: 0vh;
+	letter-spacing: 0.1vw;
+	font-size: 2.3vw;
+	transform: rotate(0deg);
+	font-family: "Lato", sans-serif;
+}
+.container-left {
+	position: absolute;
+	width: 22vw;
+	z-index: 1;
+	direction: rtl;
+	height: 88vh;
+	overflow-y: scroll;
+	background-color: rgba(255, 0, 0, 0);
+	left: 1vw;
+	top: 10vh;
+}
+.container-left::-webkit-scrollbar {
+	width: 0.4vw;
+}
+
+.container-left::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background-color: rgba(255, 255, 255, 0.294);
+}
+
+.container-left::-webkit-scrollbar-thumb {
+	background-color: #202020;
+	border-radius: 2vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.185) 0 3px 13px 1px;
+}
+.container-item {
+	position: relative;
+	width: 21vw;
+	height: 15vh;
+	left: 0vw;
+	margin-top: 2.6vh;
+	top: -3vh;
+	cursor: pointer;
+	border-radius: 0.2vw;
+	background-color: rgba(24, 24, 24, 0.422);
+}
+.container-item:hover {
+	transition: 1s all;
+	background-color: rgba(84, 0, 68, 0.717);
+}
+.obenrechtsitem {
+	position: absolute;
+	width: 6vw;
+	border-bottom-left-radius: 1vw;
+	border-top-right-radius: 0.2vw;
+	height: 3.5vh;
+	background-color: rgba(192, 0, 202, 0.678);
+}
+.obenrechtsuntenitem {
+	position: absolute;
+	width: 12.5vw;
+	border-top-left-radius: 1vw;
+	border-bottom-right-radius: 0.2vw;
+	height: 3.5vh;
+	bottom: 0vw;
+	background-color: rgba(192, 0, 202, 0.678);
+}
+.preis {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 0vw;
+	top: -0.85vh;
+	width: 5.5vw;
+	background-color: rgba(255, 0, 0, 0);
+	letter-spacing: 0.1vw;
+	font-size: 1.1vw;
+	text-align: right;
+	transform: rotate(0deg);
+	font-family: "Abel", sans-serif;
+}
+.img-item {
+	position: absolute;
+	width: 18vw;
+	left: 1vw;
+	top: 3vh;
+}
+.img-item2 {
+	position: absolute;
+	width: 18vw;
+	left: 1vw;
+	top: 5vh;
+	height: 7vh;
+	transform: rotate(180deg);
+}
+.img-item3 {
+	position: absolute;
+	width: 18vw;
+	left: 1vw;
+	top: 4.4vh;
+	height: 6vh;
+}
+.informationname {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 0.5vw;
+	top: -1.1vh;
+
+	background-color: rgba(255, 0, 0, 0);
+	letter-spacing: 0.1vw;
+	font-size: 1.3vw;
+	text-align: right;
+	transform: rotate(0deg);
+	font-family: "Abel", sans-serif;
+}
+.kg {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	right: 0.4vw;
+	top: -0.85vh;
+	background-color: rgba(255, 0, 0, 0);
+	letter-spacing: 0.1vw;
+	font-size: 1.1vw;
+	text-align: right;
+	transform: rotate(0deg);
+	font-family: "Abel", sans-serif;
+}
+.munition {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 0.4vw;
+	top: -0.85vh;
+	background-color: rgba(255, 0, 0, 0);
+	letter-spacing: 0.1vw;
+	font-size: 1.1vw;
+	text-align: right;
+	transform: rotate(0deg);
+	font-family: "Abel", sans-serif;
+}
+.container-detail {
+	position: absolute;
+
+	width: 73vw;
+	height: 65vh;
+	left: 25vw;
+	margin-top: 3vh;
+	top: 10vh;
+
+	cursor: pointer;
+	border-radius: 0.1vw;
+	background-color: rgba(24, 24, 24, 0.422);
+}
+.button-down {
+	position: absolute;
+	height: 7.5vh;
+	width: 21vw;
+	font-family: "Goldman", cursive;
+	font-size: 2vw;
+	left: 20vw;
+	bottom: -16.5vh;
+	border: none;
+	outline: none;
+	z-index: 1;
+	color: white;
+	cursor: pointer;
+	background-color: rgb(164, 0, 167);
+	border-radius: 0.2vw;
+}
+
+.button-down:hover {
+	transition: 1s all;
+	background-color: rgb(110, 0, 112);
+}
+.preisende {
+	position: absolute;
+	color: rgb(30, 227, 0);
+	left: 24.5vw;
+	width: 12vw;
+	text-align: center;
+	background-color: rgba(255, 0, 0, 0);
+	top: 65vh;
+	letter-spacing: 0.1vw;
+	font-size: 2vw;
+	transform: rotate(0deg);
+	font-family: "Aldrich", sans-serif;
+}
+.preis-lineie {
+	position: absolute;
+	width: 18vw;
+	height: 0.5vh;
+	border-radius: 0.2vw;
+
+	background-color: rgb(192, 0, 202);
+	left: 25vw;
+	top: 94.3vh;
+}
+.preis-lineie2 {
+	position: absolute;
+	width: 30vw;
+	height: 0.5vh;
+	border-radius: 0.2vw;
+
+	background-color: rgb(192, 0, 202);
+	left: 68vw;
+	top: 94.3vh;
+}
+
+.preis-lineie4 {
+	position: absolute;
+	width: 30vw;
+	height: 0.5vh;
+	border-radius: 0.2vw;
+
+	background-color: rgb(192, 0, 202);
+	left: 68vw;
+	top: 9vh;
+}
+.esctext {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	right: 3vw;
+	top: 2.5vh;
+	letter-spacing: 0.1vw;
+	font-size: 1.2vw;
+	transform: rotate(0deg);
+	font-family: "Lato", sans-serif;
+}
+.left-line2 {
+	position: absolute;
+	width: 0.5vw;
+	height: 5vh;
+	border-radius: 0.2vw;
+
+	background-color: rgb(192, 0, 202);
+	left: 1vw;
+	top: 1.5vh;
+}
+.textwaschanlage2 {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 2.8vw;
+	top: 0.2vh;
+	letter-spacing: 0.1vw;
+	font-size: 1.6vw;
+	transform: rotate(0deg);
+	font-family: "Khula", sans-serif;
+}
+.obenrechtsitem2 {
+	position: absolute;
+	width: 17vw;
+	right: 0vw;
+	border-bottom-left-radius: 1vw;
+	border-top-right-radius: 0.2vw;
+	height: 6vh;
+	background-color: rgba(192, 0, 202, 0.678);
+}
+.preis2 {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 0.1vw;
+	top: -0.45vh;
+	width: 16.5vw;
+	background-color: rgba(255, 0, 0, 0);
+	letter-spacing: 0.1vw;
+	font-size: 1.4vw;
+	text-align: right;
+	transform: rotate(0deg);
+	font-family: "Abel", sans-serif;
+}
+.color {
+	color: rgb(30, 227, 0);
+}
+.bigimg {
+	position: absolute;
+	width: 60vw;
+	left: 6vw;
+	top: 10vh;
+}
+.line {
+	position: absolute;
+	width: 0.2vw;
+	height: 20vh;
+
+	background-color: rgb(192, 0, 202);
+	left: 0vw;
+	top: 40.5vh;
+}
+.infos-item {
+	position: relative;
+	color: rgb(255, 255, 255);
+	left: 1.1vw;
+	top: 40.45vh;
+	width: 16.5vw;
+	background-color: rgba(255, 0, 0, 0);
+	letter-spacing: 0.1vw;
+	font-size: 1.6vw;
+	text-align: left;
+	margin-top: 2vh;
+	transform: rotate(0deg);
+	font-family: "Abel", sans-serif;
+}
+.infos-item2 {
+	position: relative;
+	color: rgb(255, 255, 255);
+	left: 10.1vw;
+	top: 23.45vh;
+	width: 16.5vw;
+	background-color: rgba(255, 0, 0, 0);
+	letter-spacing: 0.1vw;
+	font-size: 1.6vw;
+	text-align: right;
+	margin-top: 2vh;
+	transform: rotate(0deg);
+	font-family: "Abel", sans-serif;
+}
+.information-detail {
+	position: absolute;
+	width: 3.5vw;
+	right: 1vw;
+	bottom: 2.5vh;
+}
+.linie2 {
+	position: absolute;
+	width: 12vh;
+	height: 0.2vw;
+
+	background-color: rgb(192, 0, 202);
+	right: 0vw;
+	top: 64.9vh;
+}
+.linie3 {
+	position: absolute;
+	width: 0.2vw;
+	height: 12vh;
+
+	background-color: rgb(192, 0, 202);
+	right: 0vw;
+	top: 53vh;
+}
+.infotmation {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	right: 5vw;
+	bottom: 1vh;
+	width: 20vw;
+	background-color: rgba(255, 0, 0, 0);
+	letter-spacing: 0.1vw;
+	font-size: 1vw;
+	text-align: right;
+	transform: rotate(0deg);
+	font-family: "Abel", sans-serif;
+}

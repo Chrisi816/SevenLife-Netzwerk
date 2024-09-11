@@ -1,0 +1,320 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Estonia&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Radio+Canada&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hurricane&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Goldman&family=Radio+Canada&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap");
+body {
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+.left {
+	position: absolute;
+	width: 75vw;
+	height: 100%;
+	background: linear-gradient(
+		to right,
+		rgba(114, 0, 89),
+		rgba(0, 0, 255, 0) 95.71%
+	);
+}
+.right {
+	position: absolute;
+	width: 75vw;
+	height: 100%;
+	right: 0vw;
+	background: linear-gradient(
+		to left,
+		rgba(114, 0, 89),
+		rgba(0, 0, 255, 0) 95.71%
+	);
+}
+.nui-apotheke {
+	position: absolute;
+	width: 65vw;
+	height: 62vh;
+	left: 20vw;
+	overflow: hidden;
+	top: 15vh;
+	border-radius: 3vw;
+	background-color: rgba(5, 5, 5, 0.913);
+}
+.heal {
+	position: absolute;
+	width: 5vw;
+	left: 2vw;
+	top: 2.8vh;
+}
+.Apotheketext {
+	position: absolute;
+	top: 0.6vh;
+	left: 8.3vw;
+	background-color: rgba(255, 0, 0, 0);
+	text-align: center;
+	font-size: 2vw;
+	letter-spacing: 0.05vw;
+	color: rgb(152, 0, 137);
+	font-family: "Dancing Script", cursive;
+}
+.innerecircle {
+	position: absolute;
+	width: 16vw;
+	background-color: rgba(27, 27, 27, 0.41);
+	height: 49vh;
+	left: 2vw;
+	border-radius: 3vw;
+	border: 0.1vw solid black;
+	top: 10vh;
+}
+.right1 {
+	position: absolute;
+	width: 13vw;
+	background-color: rgb(20, 20, 20);
+	right: 0vw;
+	height: 100%;
+}
+.close {
+	position: absolute;
+	right: 1vw;
+	width: 3vw;
+	top: 2vh;
+}
+.innerecircle2 {
+	position: absolute;
+	width: 27vh;
+	background-color: rgba(27, 27, 27, 0.41);
+	height: 13.5vw;
+	border: 0.1vw solid black;
+	left: 19vw;
+	border-radius: 3vw;
+	top: 9.7vh;
+}
+.innerecircle3 {
+	position: absolute;
+	width: 27vh;
+	background-color: rgba(27, 27, 27, 0.41);
+	height: 13.5vw;
+	border: 0.1vw solid black;
+	left: 19vw;
+	border-radius: 3vw;
+	top: 34.5vh;
+}
+.innerecircle4 {
+	position: absolute;
+	width: 27vh;
+	background-color: rgba(27, 27, 27, 0.41);
+	height: 13.5vw;
+	border: 0.1vw solid black;
+	left: 35.5vw;
+	border-radius: 3vw;
+	top: 9.7vh;
+}
+.innerecircle5 {
+	position: absolute;
+	width: 27vh;
+	background-color: rgba(27, 27, 27, 0.41);
+	height: 13.5vw;
+	border: 0.1vw solid black;
+	left: 35.5vw;
+	border-radius: 3vw;
+	top: 34.5vh;
+}
+.ping1 {
+	position: absolute;
+	right: 2.5vw;
+	width: 11vw;
+	top: 4vh;
+}
+.ping2 {
+	position: absolute;
+	left: 1vw;
+	width: 12vw;
+	top: 0.5vh;
+}
+.ping22 {
+	position: absolute;
+	left: 4.5vw;
+	width: 5.5vw;
+	top: 4.5vh;
+}
+.ping23 {
+	position: absolute;
+	left: 4.5vw;
+	width: 5.5vw;
+	top: 6.5vh;
+}
+.text1 {
+	position: absolute;
+	top: 24.2vh;
+	left: -0.5vw;
+	width: 17vw;
+	background-color: rgba(255, 0, 0, 0);
+	text-align: center;
+	font-size: 1.5vw;
+	letter-spacing: 0.3vw;
+	color: rgb(255, 255, 255);
+	font-family: "Nanum Myeongjo", serif;
+}
+.text2 {
+	position: absolute;
+	top: 13.1vh;
+	left: -1vw;
+	width: 17vw;
+	background-color: rgba(255, 0, 0, 0);
+	text-align: center;
+	font-size: 1.3vw;
+	letter-spacing: 0.3vw;
+	color: rgb(255, 255, 255);
+	font-family: "Goldman", cursive;
+}
+.money {
+	position: absolute;
+	top: 31vh;
+	left: 1.5vw;
+
+	background-color: rgba(255, 0, 0, 0);
+	text-align: center;
+	font-size: 1.3vw;
+	letter-spacing: 0.3vw;
+	color: rgb(255, 255, 255);
+	font-family: "Goldman", cursive;
+}
+.money1 {
+	position: absolute;
+	top: 0.1vh;
+	right: 1.5vw;
+
+	background-color: rgba(114, 114, 114, 0);
+	text-align: center;
+	font-size: 1.3vw;
+	letter-spacing: 0.3vw;
+	color: rgb(161, 161, 161);
+	font-family: "Goldman", cursive;
+}
+.rezept {
+	position: absolute;
+	top: 31vh;
+	left: 7vw;
+
+	background-color: rgba(255, 0, 0, 0);
+	text-align: center;
+	font-size: 1.3vw;
+	letter-spacing: 0.3vw;
+	color: rgb(255, 255, 255);
+	font-family: "Goldman", cursive;
+}
+.rezept1 {
+	position: absolute;
+	top: 0.1vh;
+	left: 1.5vw;
+
+	background-color: rgba(255, 0, 0, 0);
+	text-align: center;
+	font-size: 1.3vw;
+	letter-spacing: 0.2vw;
+	color: rgb(161, 161, 161);
+	font-family: "Goldman", cursive;
+}
+.submitbutton {
+	position: absolute;
+	width: 12.1vw;
+	height: 4vh;
+	font-family: "Nunito Sans", sans-serif;
+	font-size: 1.6vw;
+	left: 1.6vw;
+	top: 18.5vh;
+	border: none;
+	outline: none;
+	z-index: 1;
+	color: white;
+	cursor: pointer;
+	background-color: rgba(185, 32, 85, 0.521);
+	border-radius: 0.3vw;
+}
+.submitbutton:hover {
+	transition: all 1s;
+	background-color: #5e1931;
+}
+#submitbutton1 {
+	position: absolute;
+	width: 13.6vw;
+	height: 6vh;
+	font-family: "Nunito Sans", sans-serif;
+	font-size: 1.6vw;
+	left: 1.3vw;
+	top: 39.5vh;
+	border: none;
+	outline: none;
+	z-index: 1;
+	color: white;
+	cursor: pointer;
+	background-color: rgba(185, 32, 85, 0.521);
+	border-radius: 0.3vw;
+}
+#submitbutton1:hover {
+	transition: all 1s;
+	background-color: #5e1931;
+}
+.container-rezept {
+	position: absolute;
+	width: 12vw;
+	border-radius: 1vw;
+	left: 0.5vw;
+	height: 50vh;
+	top: 9vh;
+	background-color: rgba(36, 36, 36, 0.79);
+}
+.rezeptinfo {
+	position: absolute;
+	top: 0.2vh;
+	left: 2.6vw;
+	background-color: rgba(255, 0, 0, 0);
+	text-align: center;
+	font-size: 2vw;
+	letter-spacing: 0.2vw;
+	color: rgb(255, 255, 255);
+	font-family: "Goldman", cursive;
+}
+.rezepteinfos {
+	position: absolute;
+	top: -1.2vh;
+	left: 1vw;
+	background-color: rgba(255, 0, 0, 0);
+	text-align: center;
+	font-size: 1.6vw;
+	width: 10vw;
+	border-bottom: 0.1vw solid white;
+	letter-spacing: 0.1vw;
+	color: rgb(255, 255, 255);
+	font-family: "Goldman", cursive;
+}
+.rezeptefinfos2 {
+	position: absolute;
+	top: 4.2vh;
+	left: 0.6vw;
+	width: 11vw;
+	background-color: rgba(255, 0, 0, 0);
+	text-align: center;
+	font-size: 1.25vw;
+	overflow: hidden;
+	letter-spacing: 0.2vw;
+	color: rgb(255, 255, 255);
+	font-family: "Nanum Myeongjo", serif;
+}

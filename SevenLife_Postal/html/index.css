@@ -1,0 +1,458 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Estonia&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hurricane&display=swap");
+@font-face {
+	font-family: "Unbounded";
+	src: url("fonts/Unbounded-ExtraLight.ttf");
+}
+@font-face {
+	font-family: "Lato";
+	src: url("fonts/Lato-Black.ttf");
+}
+@font-face {
+	font-family: "Montserrat";
+	src: url("fonts/Montserrat-Medium.ttf");
+}
+@font-face {
+	font-family: "Goldman";
+	src: url("fonts/Goldman-Regular.ttf");
+}
+@font-face {
+	font-family: "Abel";
+	src: url("fonts/Abel-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Aldrich";
+	src: url("fonts/Aldrich-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Roboto";
+	src: url("fonts/Roboto-MediumItalic.ttf");
+}
+@font-face {
+	font-family: "Khula";
+	src: url("fonts/Khula-Regular.ttf");
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+.left {
+	position: absolute;
+	left: 0vw;
+	top: 0vw;
+	height: 100%;
+	width: 40vw;
+	background: linear-gradient(
+		to right,
+		rgba(114, 0, 89),
+		rgba(0, 0, 255, 0) 80.71%
+	);
+}
+.right {
+	position: absolute;
+	right: 0vw;
+	top: 0vw;
+	height: 100%;
+	width: 40vw;
+	background: linear-gradient(
+		to left,
+		rgba(114, 0, 89),
+		rgba(0, 0, 255, 0) 80.71%
+	);
+}
+.mitte {
+	position: absolute;
+	width: 60vw;
+	height: 60vh;
+	border-radius: 1vw;
+	background-color: rgba(0, 0, 0, 0.404);
+	left: 20vw;
+	top: 15vh;
+}
+.postamttext {
+	position: absolute;
+	color: white;
+	font-size: 3.2vw;
+	left: -4vw;
+	top: 16vh;
+	width: 40vw;
+	text-align: right;
+	background-color: rgba(255, 0, 0, 0);
+
+	font-family: "Bebas Neue", cursive;
+	letter-spacing: 0.4vw;
+}
+.streifen {
+	position: absolute;
+	width: 0.1vw;
+	height: 100%;
+	left: 4vw;
+	background-color: white;
+}
+.friseurtext {
+	position: absolute;
+	color: white;
+	font-size: 4vw;
+	left: -21.3vw;
+	top: 26vh;
+	width: 40vw;
+	text-align: right;
+	background-color: rgba(255, 0, 0, 0);
+	transform: rotate(270deg);
+	font-family: "Bebas Neue", cursive;
+	letter-spacing: 0.4vw;
+}
+.friseurtexts {
+	position: absolute;
+	color: white;
+	font-size: 3.6vw;
+	left: -22vw;
+	top: -4vh;
+	width: 40vw;
+	text-align: right;
+	background-color: rgba(255, 0, 0, 0);
+	font-family: "Bebas Neue", cursive;
+	letter-spacing: 0.4vw;
+}
+.box {
+	position: absolute;
+	width: 52vw;
+	height: 50vh;
+	background-color: rgba(255, 0, 0, 0);
+	top: 7vh;
+	border-top: 0.2vw solid white;
+	border-left: 0.2vw solid white;
+	border-right: 0.2vw solid white;
+	left: 4vw;
+}
+.Pakete {
+	position: absolute;
+	color: white;
+	font-size: 2.3vw;
+	left: 40vw;
+	top: -1vh;
+	text-align: right;
+	background-color: rgba(255, 0, 0, 0);
+	font-family: "Roboto", sans-serif;
+	letter-spacing: 0.4vw;
+}
+.container-box {
+	position: absolute;
+	height: 50vh;
+	background-color: rgba(255, 0, 0, 0);
+	width: 51vw;
+	overflow-y: scroll;
+	top: 1vh;
+	left: 0.5vw;
+}
+.container-box::-webkit-scrollbar {
+	width: 0.6vw;
+}
+
+.container-box::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background-color: rgba(255, 255, 255, 0.294);
+}
+
+.container-box::-webkit-scrollbar-thumb {
+	background-color: #202020;
+	border-radius: 2vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.185) 0 3px 13px 1px;
+}
+.container-nachricht {
+	position: relative;
+	width: 49vw;
+	height: 8vh;
+	top: 1vh;
+	margin-top: 1vh;
+	border-radius: 1vw;
+	background-color: rgba(24, 24, 24, 0.562);
+}
+.mail-bild {
+	position: absolute;
+	width: 4vw;
+	top: 0.5vh;
+	left: 0.5vw;
+}
+.text-absender {
+	position: absolute;
+	color: white;
+	font-size: 2vw;
+	left: 6vw;
+	top: 2vh;
+	text-align: right;
+	background-color: rgba(19, 19, 19, 0);
+	font-family: "Roboto", sans-serif;
+	letter-spacing: 0.1vw;
+}
+.button {
+	position: absolute;
+	border: none;
+	width: 10vw;
+	top: 1.5vh;
+	border-radius: 2vw;
+	color: white;
+	font-family: "Roboto", sans-serif;
+	font-size: 1.5vw;
+	height: 5vh;
+	cursor: pointer;
+	background-color: rgba(44, 44, 44, 0.658);
+	left: 38vw;
+}
+.button:hover {
+	background-color: rgba(0, 0, 0, 0.527);
+	transition: 1s;
+}
+.container-warnung {
+	position: absolute;
+	width: 37vw;
+	height: 20vh;
+	left: 32vw;
+	top: 37vh;
+	border-radius: 0.4vw;
+	background-color: rgb(27, 27, 27);
+}
+.submitbuttonseedsf {
+	position: absolute;
+	left: 1vw;
+	bottom: 2vh;
+	width: 18vw;
+	height: 6vh;
+	z-index: 29;
+	padding: 0;
+	font-size: 1vw;
+	background-color: rgba(63, 63, 63, 0.287);
+	outline: none;
+	cursor: pointer;
+	border-radius: 0.2vw;
+	border: none;
+	color: #ffffff;
+	font-family: "Aldrich", cursive;
+	letter-spacing: 0.1vw;
+	transform: translate(-1deg);
+	z-index: 29;
+}
+.submitbuttonseedsf:hover {
+	color: #ffffff;
+	transition: 0.5s all;
+	background-color: rgba(198, 10, 164, 0.808);
+}
+.submitbuttonseeds {
+	position: absolute;
+	left: 19.5vw;
+	bottom: 2vh;
+	width: 16.5vw;
+	height: 6vh;
+	z-index: 29;
+	padding: 0;
+	font-size: 1vw;
+	background-color: rgba(63, 63, 63, 0.287);
+	outline: none;
+	cursor: pointer;
+	border-radius: 0.2vw;
+	border: none;
+	color: #ffffff;
+	font-family: "Aldrich", cursive;
+	letter-spacing: 0.1vw;
+	transform: translate(-1deg);
+	z-index: 29;
+}
+.submitbuttonseeds:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	background-color: rgba(198, 10, 164, 0.808);
+}
+.informationbild {
+	position: absolute;
+	width: 1.6vw;
+	top: 1.3vh;
+	left: 1.2vw;
+}
+.textinformation {
+	position: absolute;
+	color: #ffffff;
+	font-size: 1.3vw;
+	font-family: "Aldrich", cursive;
+	left: 3.5vw;
+	font-weight: 100;
+}
+.textdetailinformation {
+	position: absolute;
+	color: #ffffff;
+	font-size: 0.9vw;
+	font-family: "Aldrich", cursive;
+	left: 3.5vw;
+	width: 31vw;
+	top: 5vh;
+	font-weight: 100;
+}
+.logogta {
+	position: absolute;
+	width: 3vw;
+	left: 1vw;
+	top: 1vh;
+}
+.linielogo {
+	position: absolute;
+	width: 97%;
+	height: 0.2vh;
+	background-color: rgb(255, 255, 255);
+	left: 1vw;
+	top: 9vh;
+}
+.gradientlogo {
+	position: absolute;
+	top: 0vh;
+	width: 100%;
+	height: 15vh;
+	left: 0vw;
+	z-index: -1;
+	background: rgb(0, 0, 0);
+	background: linear-gradient(
+		180deg,
+		rgba(0, 0, 0, 0.702) 0%,
+		rgba(0, 212, 255, 0) 100%
+	);
+}
+.detailtextabout {
+	position: absolute;
+	color: #ffffff;
+	font-size: 1.2vw;
+	font-family: "Unbounded", cursive;
+	left: 5vw;
+	width: 31vw;
+	top: 2vh;
+	letter-spacing: 0.2vw;
+	font-weight: 1000;
+}
+.textüberischt {
+	position: absolute;
+	color: #ffffff;
+	font-size: 1.2vw;
+	font-family: "Unbounded", cursive;
+	left: 48vw;
+	width: 31vw;
+	top: 2vh;
+	letter-spacing: 0.2vw;
+	font-weight: 1000;
+}
+.loslegens {
+	position: absolute;
+	left: 1vw;
+	bottom: 2vh;
+	width: 20.5vw;
+	height: 6vh;
+	z-index: 29;
+	padding: 0;
+	font-size: 1vw;
+	background-color: rgba(63, 63, 63, 0.287);
+	outline: none;
+	cursor: pointer;
+	border-radius: 0.2vw;
+	border: none;
+	color: #ffffff;
+	font-family: "Aldrich", cursive;
+	letter-spacing: 0.1vw;
+	transform: translate(-1deg);
+	z-index: 29;
+}
+.loslegens:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	background-color: rgba(198, 10, 164, 0.808);
+}
+.container-info {
+	position: absolute;
+	width: 15vw;
+	height: 5vh;
+	border-radius: 0.2vw;
+	top: 24vh;
+	left: 1vw;
+	background-color: rgba(255, 255, 255, 0.578);
+}
+.jobgradetext {
+	position: absolute;
+	color: #000000;
+	font-size: 0.8vw;
+	font-family: "Unbounded", cursive;
+	left: 1vw;
+	width: 31vw;
+	top: 0.7vh;
+	letter-spacing: 0.2vw;
+	font-weight: 1000;
+}
+.textinformationve {
+	position: absolute;
+	color: #ffffff;
+	font-size: 1vw;
+	font-family: "Abel", cursive;
+	left: 1vw;
+	width: 21vw;
+	top: 11vh;
+	letter-spacing: 0.2vw;
+	font-weight: 1200;
+}
+.container-info2 {
+	position: absolute;
+	width: 20.5vw;
+	height: 10vh;
+	border-radius: 0.2vw;
+	top: 80vh;
+	left: 1vw;
+	background-color: rgba(255, 255, 255, 0.578);
+}
+.inputt {
+	position: absolute;
+	-webkit-appearance: none;
+	left: 2.1vw;
+	width: 16vw;
+	color: white;
+	font-family: "Bebas Neue", cursive;
+	height: 5.5vh;
+	text-align: center;
+	z-index: 29;
+	top: 2vh;
+	border-radius: 0.1vw;
+	font-size: 3vw;
+	border: none;
+	background-color: rgba(29, 29, 29, 0.185);
+	outline: none;
+}
+.inputt:hover {
+	background-color: rgba(20, 24, 36, 0.5);
+	transition: color 0.6 ease;
+}
+.inputt:focus::placeholder {
+	color: transparent;
+}
+.inputt::placeholder {
+	color: white;
+	transition: color 0.3s ease;
+}
+.textpeketmenge {
+	position: absolute;
+	color: #ffffff;
+	font-size: 1vw;
+	font-family: "Abel", cursive;
+	left: 1vw;
+	width: 21vw;
+	top: 72vh;
+	letter-spacing: 0.2vw;
+	font-weight: 1200;
+}
+.logoour {
+	position: absolute;
+	width: 5vw;
+	top: 0.6vh;
+	right: 0.7vw;
+}

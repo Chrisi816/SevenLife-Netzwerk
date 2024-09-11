@@ -1,0 +1,32 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+.Target-Container {
+	display: none;
+	z-index: 2;
+}
+
+.Target-Container1 {
+	display: none;
+}
+
+.img-eye1 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 2vw;
+	z-index: 2;
+	transform: translateY(-50%) translateX(-50%);
+	font-size: 3vh;
+}
+.img-eye2 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 2vw;
+	z-index: 1;
+	transform: translateY(-50%) translateX(-50%);
+	font-size: 3vh;
+}

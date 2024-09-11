@@ -1,0 +1,1447 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="index.css" />
+	</head>
+	<body>
+		<div class="container-garage">
+			<div class="mainpage">
+				<h1 class="garagescrift">WERKSTATT</h1>
+				<h1 class="infoschrift">Wähle deinen nächsten Schritt</h1>
+				<div class="linie"></div>
+				<div class="background-ausparken">
+					<h1 class="autoausparkentext">FAHRZEUG - AUSPARKEN</h1>
+				</div>
+				<div class="background-kaufen">
+					<h1 class="autokaufentext">FAHRZEUG - KAUFEN</h1>
+				</div>
+				<h1 class="texteinfose">
+					Manage deine Fahrzeuge in deiner Werkstatt!
+				</h1>
+				<h1 class="texteinfosew">
+					Kaufe neue Fahrzeuge für deine Werkstatt!
+				</h1>
+				<div class="placeeins"></div>
+				<div class="pacezwei"></div>
+			</div>
+			<div class="kaufenpage">
+				<div class="backtomain">
+					<img src="" alt="" />
+				</div>
+				<h1 class="garagescrift">WERKSTATT</h1>
+				<h1 class="infoschrift">Kaufe deine Autos</h1>
+				<div class="autos-liste"></div>
+			</div>
+			<div class="garagepage">
+				<h1 class="garagescrift">WERKSTATT</h1>
+				<h1 class="infoschrift">Parke deine Werkstatt Autos aus</h1>
+				<div class="autos-listes"></div>
+			</div>
+			<img src="src/dreick.png" class="dreickbildeins" alt="" />
+			<img src="src/dreick.png" class="dreickbildzwei" alt="" />
+			<img src="src/dreick.png" class="dreickbilddrei" alt="" />
+			<img src="src/dreick.png" class="dreickbilvier" alt="" />
+			<img src="src/dreick.png" class="dreickbildfuenf" alt="" />
+			<img src="src/dreick.png" class="dreickbildsechs" alt="" />
+			<div class="leftunten"></div>
+			<div class="rightunten"></div>
+			<div class="lignsobenleft">
+				<div class="einsline"></div>
+				<div class="zweiline"></div>
+				<div class="dreiline"></div>
+			</div>
+			<div class="rechtsobenleft">
+				<div class="einseline"></div>
+				<div class="zweieline"></div>
+				<div class="dreieline"></div>
+			</div>
+		</div>
+		<div class="Mechaniker-Laggerraum">
+			<div class="strich-lagger">
+				<h1 class="text-laggers">Werkstatt - Lager</h1>
+			</div>
+			<img
+				src="src/black_twist_schwarz-design.jpg"
+				class="backgroundteil"
+				alt=""
+			/>
+			<div class="left-lagger"></div>
+			<div class="right-lagger"></div>
+			<div class="mainlagerseite">
+				<h1 class="text-lagger-hilfe">Geräte</h1>
+				<div class="utils-container">
+					<div class="sourounding">
+						<img src="src/fixkit.png" class="bild-lager" alt="" />
+						<div class="strichmitteeins"></div>
+						<h1 class="name-lagerrepaire">Repair Kit (Klein)</h1>
+						<h1 class="stückzahl" id="anzahleins">Anzahl: 0</h1>
+						<button type="button" class="button-lager">
+							Nehmen
+						</button>
+					</div>
+					<div class="sourounding">
+						<img
+							src="src/fixkit_large.png"
+							class="bild-lager"
+							alt=""
+						/>
+						<div class="strichmitteeins"></div>
+						<h1 class="name-lagerrepaire">Repair Kit (Groß)</h1>
+						<h1 class="stückzahl" id="anzahlzwei">Anzahl: 0</h1>
+						<button type="button" class="button-lager">
+							Nehmen
+						</button>
+					</div>
+					<div class="sourounding">
+						<img
+							src="src/farbe.png"
+							class="bild-lager"
+							id="farbebild"
+							alt=""
+						/>
+						<div class="strichmitteeins"></div>
+						<h1 class="name-lagerrepaire">Lakierung</h1>
+						<h1 class="stückzahl" id="anzahldrei">Anzahl: 0</h1>
+						<button type="button" class="button-lager">
+							Nehmen
+						</button>
+					</div>
+				</div>
+				<div class="rechtsdings">
+					<div class="box-tren"></div>
+					<h1 class="tuningtext">Tuning Teile</h1>
+					<div class="container-items">
+						<div class="sourounding-item">
+							<img
+								src="src/farbe.png"
+								class="bild-lager"
+								id="farbebild"
+								alt=""
+							/>
+							<div class="strichmitteeins"></div>
+							<h1 class="name-lagername">Wagenheber</h1>
+							<h1 class="stückzahl">Anzahl: 0</h1>
+							<button type="button" class="button-lager">
+								Nehmen
+							</button>
+						</div>
+					</div>
+					<button type="button" class="button-lager-einlagern">
+						Sachen Einlagern
+					</button>
+				</div>
+			</div>
+			<div class="einlagernitems-lager">
+				<h1>Sachen - Einlagern</h1>
+				<button type="button" class="button-lager-auslagern">
+					Sachen ansehen
+				</button>
+				<div class="sourrounding-inventory-itemseins"></div>
+				<div class="sourrounding-inventory-itemszwei"></div>
+				<div class="einlagern-items-inventory">
+					<div class="inventory-item">
+						<img
+							src="src/outline_category_white_48dp.png"
+							class="invitem"
+							alt=""
+						/>
+						<div class="strichmittezwei"></div>
+						<h1 class="nameofinventoryitem">Fortnite</h1>
+						<h1 class="itemstrück">Anzahl: 0</h1>
+						<button type="button" class="button-lagereinlager">
+							Nehmen
+						</button>
+					</div>
+					<div class="inventory-item"></div>
+					<div class="inventory-item"></div>
+				</div>
+			</div>
+		</div>
+		<div class="SprayMenu">
+			<div class="left-sprayroom"></div>
+
+			<div class="ideashow">
+				<div class="main-farbemenu">
+					<div class="boxrefreash"></div>
+					<h1 class="karshow">Fahrzeug - Lackierung</h1>
+					<div class="prmearfarbe">
+						<img
+							src="src/outline_palette_white_48dp.png"
+							class="farbe"
+							alt=""
+						/>
+						<h1 class="text-farben">Primäre Farbe</h1>
+						<h1 class="costs-farbe">100$</h1>
+					</div>
+					<div class="sekundärfarbe">
+						<img
+							src="src/outline_palette_white_48dp.png"
+							class="farbe"
+							alt=""
+						/>
+						<h1 class="text-farben">Sekundäre Farbe</h1>
+						<h1 class="costs-farbe">100$</h1>
+					</div>
+					<div class="pearlfarbe">
+						<img
+							src="src/outline_palette_white_48dp.png"
+							class="farbe"
+							alt=""
+						/>
+						<h1 class="text-farben">Pearl Farbe</h1>
+						<h1 class="costs-farbe">100$</h1>
+					</div>
+				</div>
+				<div class="primär">
+					<div class="boxrefreash"></div>
+					<h1 class="karshow">Fahrzeug - Primär</h1>
+					<h1 class="farbeauswählentext">Farbe Auswählen:</h1>
+					<input
+						type="color"
+						id="headcolor"
+						class="colopicker"
+						name="head"
+						value="#FFFFFF"
+					/>
+					<h1 class="farbevarauswählentext">Farbe Variation:</h1>
+					<div class="box-checkbox">
+						<input
+							type="checkbox"
+							id="coding"
+							name="0"
+							value="coding"
+						/>
+						<input
+							type="checkbox"
+							id="coding"
+							name="1"
+							value="coding"
+						/>
+						<input
+							type="checkbox"
+							id="coding"
+							name="3"
+							value="coding"
+						/>
+						<input
+							type="checkbox"
+							id="coding"
+							name="4"
+							value="coding"
+						/>
+						<input
+							type="checkbox"
+							id="coding"
+							name="5"
+							value="coding"
+						/>
+						<h1 class="text-farbe-var">Normal</h1>
+						<h1 class="text-farbe-var">Metallic</h1>
+						<h1 class="text-farbe-var">Matt</h1>
+						<h1 class="text-farbe-var">Metal</h1>
+						<h1 class="text-farbe-var">Chrome</h1>
+					</div>
+					<button type="button" class="button-mechanikreset">
+						Reset
+					</button>
+					<button type="button" class="button-mechanikfarbe">
+						Kaufen
+					</button>
+					<h1 class="costs-farbezwei">100$</h1>
+				</div>
+				<div class="sekundär">
+					<div class="boxrefreash"></div>
+					<h1 class="karshow">Fahrzeug - Primär</h1>
+					<h1 class="farbeauswählentext">Farbe Auswählen:</h1>
+					<input
+						type="color"
+						id="headcolor"
+						class="colopicker"
+						name="head"
+						value="#FFFFFF"
+					/>
+					<h1 class="farbevarauswählentext">Farbe Variation:</h1>
+					<div class="box-checkbox">
+						<input
+							type="checkbox"
+							id="coding"
+							name="0"
+							value="coding"
+						/>
+						<input
+							type="checkbox"
+							id="coding"
+							name="1"
+							value="coding"
+						/>
+						<input
+							type="checkbox"
+							id="coding"
+							name="3"
+							value="coding"
+						/>
+						<input
+							type="checkbox"
+							id="coding"
+							name="4"
+							value="coding"
+						/>
+						<input
+							type="checkbox"
+							id="coding"
+							name="5"
+							value="coding"
+						/>
+						<h1 class="text-farbe-var">Normal</h1>
+						<h1 class="text-farbe-var">Metallic</h1>
+						<h1 class="text-farbe-var">Matt</h1>
+						<h1 class="text-farbe-var">Metal</h1>
+						<h1 class="text-farbe-var">Chrome</h1>
+					</div>
+					<button type="button" class="button-mechanikreset">
+						Reset
+					</button>
+					<button type="button" class="button-mechaniksekundär">
+						Kaufen
+					</button>
+					<h1 class="costs-farbezwei">100$</h1>
+				</div>
+				<div class="pearl">
+					<div class="boxrefreash"></div>
+					<h1 class="karshow">Fahrzeug - Pearl</h1>
+
+					<h1 class="farbevarauswählentext" id="vari">
+						Pearl Variation:
+					</h1>
+
+					<div class="box-containerpearlvar">
+						<div class="container-pearl-box">
+							<div class="container-pearl-auswähle" type="0">
+								<h1 class="name-pear-brush">Schwarz</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="147">
+								<h1 class="name-pear-brush">Carbon Schwarz</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="1">
+								<h1 class="name-pear-brush">Graphite</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="11">
+								<h1 class="name-pear-brush">
+									Anhracit Schwarz
+								</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="2">
+								<h1 class="name-pear-brush">Schwarzer Stahl</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="3">
+								<h1 class="name-pear-brush">Dunkler Stahl</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="4">
+								<h1 class="name-pear-brush">Silber</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="5">
+								<h1 class="name-pear-brush">Blaues Silber</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="6">
+								<h1 class="name-pear-brush">Rundes Silber</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="7">
+								<h1 class="name-pear-brush">Schaten Silber</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="8">
+								<h1 class="name-pear-brush">Stein Silber</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="9">
+								<h1 class="name-pear-brush">
+									Mitternachts Silber
+								</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="10">
+								<h1 class="name-pear-brush">
+									Gisendes Eisen Silber
+								</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="27">
+								<h1 class="name-pear-brush">Rot</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="28">
+								<h1 class="name-pear-brush">Torino Rot</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="29">
+								<h1 class="name-pear-brush">Formula Rot</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="30">
+								<h1 class="name-pear-brush">Lava Rot</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="31">
+								<h1 class="name-pear-brush">Gnade Rot</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="32">
+								<h1 class="name-pear-brush">Garnet Rot</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="33">
+								<h1 class="name-pear-brush">Sunset Rot</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="34">
+								<h1 class="name-pear-brush">Cabernet Rot</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="143">
+								<h1 class="name-pear-brush">Wine Rot</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="35">
+								<h1 class="name-pear-brush">Candy Rot</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="135">
+								<h1 class="name-pear-brush">Hot Pink</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="137">
+								<h1 class="name-pear-brush">Pfsiter Pink</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="136">
+								<h1 class="name-pear-brush">Lachs Pink</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="36">
+								<h1 class="name-pear-brush">Sunrise Orange</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="38">
+								<h1 class="name-pear-brush">Orange</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="138">
+								<h1 class="name-pear-brush">Heller Orange</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="99">
+								<h1 class="name-pear-brush">Gold</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="90">
+								<h1 class="name-pear-brush">Bronze</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="88">
+								<h1 class="name-pear-brush">Gelb</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="89">
+								<h1 class="name-pear-brush">Jagt Gelb</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="91">
+								<h1 class="name-pear-brush">Dew Gelb</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="49">
+								<h1 class="name-pear-brush">Dunkel Grün</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="50">
+								<h1 class="name-pear-brush">Jagt Grün</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="51">
+								<h1 class="name-pear-brush">See Grün</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="52">
+								<h1 class="name-pear-brush">Oliven Grün</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="53">
+								<h1 class="name-pear-brush">Helles Grün</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="54">
+								<h1 class="name-pear-brush">Benzin Grün</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="141">
+								<h1 class="name-pear-brush">
+									Mitternacht Blau
+								</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="61">
+								<h1 class="name-pear-brush">Galaxy Blau</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="62">
+								<h1 class="name-pear-brush">Dunkel Blau</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="63">
+								<h1 class="name-pear-brush">Saxon Blau</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="64">
+								<h1 class="name-pear-brush">Blau</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="65">
+								<h1 class="name-pear-brush">Marine Blau</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="66">
+								<h1 class="name-pear-brush">Harbor Blau</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="67">
+								<h1 class="name-pear-brush">Diamond Blau</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="68">
+								<h1 class="name-pear-brush">Surf Blau</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="69">
+								<h1 class="name-pear-brush">Nautical Blau</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="73">
+								<h1 class="name-pear-brush">Jagt Blau</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="70">
+								<h1 class="name-pear-brush">Ultra Blau</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="74">
+								<h1 class="name-pear-brush">Helles Blau</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="96">
+								<h1 class="name-pear-brush">Chocolate Brown</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="101">
+								<h1 class="name-pear-brush">Bison Brown</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="95">
+								<h1 class="name-pear-brush">Creeen Brown</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="94">
+								<h1 class="name-pear-brush">Feltzer Brown</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="97">
+								<h1 class="name-pear-brush">Maple Brown</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="103">
+								<h1 class="name-pear-brush">Beechwood Brown</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="104">
+								<h1 class="name-pear-brush">Sienna Brown</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="98">
+								<h1 class="name-pear-brush">Saddle Brown</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="100">
+								<h1 class="name-pear-brush">Moss Brown</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="102">
+								<h1 class="name-pear-brush">Woodbeech Brown</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="99">
+								<h1 class="name-pear-brush">Straw Brown</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="105">
+								<h1 class="name-pear-brush">Sandy Brown</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="106">
+								<h1 class="name-pear-brush">Bleached Brown</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="71">
+								<h1 class="name-pear-brush">Schafter Purple</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="72">
+								<h1 class="name-pear-brush">
+									Spinnaker Purple
+								</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="142">
+								<h1 class="name-pear-brush">Midnight Purple</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="145">
+								<h1 class="name-pear-brush">Bright Purple</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="107">
+								<h1 class="name-pear-brush">Cream</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="111">
+								<h1 class="name-pear-brush">Eis Weiß</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="12">
+								<h1 class="name-pear-brush">Matt Schwarz</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="13">
+								<h1 class="name-pear-brush">Matt Grau</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="14">
+								<h1 class="name-pear-brush">Matt Grau</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="131">
+								<h1 class="name-pear-brush">Matt Weiß</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="83">
+								<h1 class="name-pear-brush">Matt Blau</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="82">
+								<h1 class="name-pear-brush">Matt Blau</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="84">
+								<h1 class="name-pear-brush">Matt Blau</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="149">
+								<h1 class="name-pear-brush">Matt Lila</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="148">
+								<h1 class="name-pear-brush">Matt Lila</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="39">
+								<h1 class="name-pear-brush">Matt Rot</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="40">
+								<h1 class="name-pear-brush">Matt Rot</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="41">
+								<h1 class="name-pear-brush">Matt Orange</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="42">
+								<h1 class="name-pear-brush">Matt Gelb</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="42">
+								<h1 class="name-pear-brush">Matt Grün</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="55">
+								<h1 class="name-pear-brush">Matt Grün</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="128">
+								<h1 class="name-pear-brush">Matt Grün</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="151">
+								<h1 class="name-pear-brush">Matt Grün</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="155">
+								<h1 class="name-pear-brush">Matt Grün</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="152">
+								<h1 class="name-pear-brush">Matt Olive</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="153">
+								<h1 class="name-pear-brush">Matt Erde</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="154">
+								<h1 class="name-pear-brush">Matt Tangens</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="117">
+								<h1 class="name-pear-brush">Stahl</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="118">
+								<h1 class="name-pear-brush">Svhwarzer Stahl</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="119">
+								<h1 class="name-pear-brush">Aluminium</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="158">
+								<h1 class="name-pear-brush">Gold</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+							<div class="container-pearl-auswähle" type="159">
+								<h1 class="name-pear-brush">Gold</h1>
+								<img
+									src="src/outline_palette_white_48dp.png"
+									class="palette"
+									alt=""
+								/>
+							</div>
+						</div>
+					</div>
+
+					<button type="button" class="button-mechanikreset">
+						Reset
+					</button>
+					<button type="button" class="button-mechanikfarbepearl">
+						Kaufen
+					</button>
+					<h1 class="costs-farbezwei">100$</h1>
+				</div>
+			</div>
+		</div>
+		<div class="changemenu">
+			<h1 class="text-mechanikermenu">Mechaniker</h1>
+			<h1 class="interaktiontext">INTERAKTION</h1>
+			<div class="box-container-menu">
+				<div class="apteil-menu" typeofaction="1">
+					<h1 class="textmenu-container">Abschleppen</h1>
+				</div>
+				<div class="apteil-menu" typeofaction="2">
+					<h1 class="textmenu-container">Rechnung Austellen</h1>
+				</div>
+				<div class="apteil-menu" typeofaction="3">
+					<h1 class="textmenu-container">Aufsperren</h1>
+				</div>
+				<div class="apteil-menu" typeofaction="4">
+					<h1 class="textmenu-container">Space</h1>
+				</div>
+			</div>
+		</div>
+		<div class="changeingmenu">
+			<h1 class="text-mechanikermenu">Mechaniker</h1>
+			<h1 class="interaktiontext">INTERAKTION</h1>
+			<div class="box-container-menus">
+				<div class="apteil-menu" typeofaction="1">
+					<h1 class="textmenu-container">Arbeitskleidung an / aus</h1>
+				</div>
+				<div class="apteil-menu" typeofaction="2">
+					<h1 class="textmenu-container">In / Aus dienst gehen</h1>
+				</div>
+				<div class="apteil-menu" typeofaction="3">
+					<h1 class="textmenu-container">Space</h1>
+				</div>
+				<div class="apteil-menu" typeofaction="4">
+					<h1 class="textmenu-container">Boss Menu</h1>
+				</div>
+			</div>
+		</div>
+		<div class="bos-menu-mechaniker">
+			<h1 class="mechaniker-bosstext">Dein Business</h1>
+			<div class="rec-boss"></div>
+			<div class="mainpage-boss">
+				<h1 class="guthaben-boss">Dein Guthaben:</h1>
+				<h1 class="geld-boss" id="geld-boss">1000000$</h1>
+				<img
+					src="src/Screenshot_304.png"
+					class="mechanikerbild"
+					alt=""
+				/>
+				<div class="übersicht-boss">
+					<h1 class="text-übersichtboss">Business ID: 1</h1>
+					<h1 class="text-übersichtboss">Name: Mechaniker</h1>
+					<h1 class="text-übersichtboss">
+						Location : Los Santos - Stadt
+					</h1>
+					<h1 class="text-übersichtboss">Steuern: 5$ pro 1000$</h1>
+				</div>
+				<div class="activemembers">
+					<h1 class="activememberscount" id="membercount">1</h1>
+					<h1 class="text-bos" id="textbos2">Angstellte</h1>
+				</div>
+				<div class="offlinemembers">
+					<h1 class="offlinememberscount">1</h1>
+					<h1 class="text-bos">Business Owner</h1>
+				</div>
+				<div class="mitglieder-ränge">
+					<h1 class="text-übersichträngeheadline">Ränge:</h1>
+					<h1 class="text-rängeübersicht">5. Chef</h1>
+					<h1 class="text-rängeübersicht">4. Meister</h1>
+					<h1 class="text-rängeübersicht">3. Geselle</h1>
+					<h1 class="text-rängeübersicht">2. Lehrling</h1>
+					<h1 class="text-rängeübersicht">1. Praktikant</h1>
+				</div>
+				<div class="buttons-boss">
+					<div class="button-container-boss" id="angestellte">
+						<img
+							src="src/outline_people_white_36dp.png"
+							class="symbols-boss"
+							alt=""
+						/>
+						<h1 class="text-button-boss">Angestellte</h1>
+					</div>
+					<div class="button-container-boss" id="rechnungen-boss">
+						<img
+							src="src/outline_format_list_bulleted_white_36dp.png"
+							class="symbols-boss"
+							alt=""
+						/>
+						<h1 class="text-button-boss">Rechnungen</h1>
+					</div>
+					<div class="button-container-boss" id="lohn">
+						<img
+							src="src/outline_attach_money_white_36dp.png"
+							class="symbols-boss"
+							alt=""
+						/>
+						<h1 class="text-button-boss">Lohn</h1>
+					</div>
+					<div class="button-container-boss" id="geld-bosstaken">
+						<img
+							src="src/outline_attach_money_white_36dp.png"
+							class="symbols-boss"
+							alt=""
+						/>
+						<h1 class="text-button-boss">Geld</h1>
+					</div>
+				</div>
+			</div>
+			<div class="Rechnungen">
+				<button type="button" class="buton-reset">Zurück</button>
+				<h1 class="aktiverechnungentext">Aktive Rechnungen:</h1>
+				<div class="rechnungen-container">
+					<div class="rechnungen-container-id">
+						<img
+							src="src/outline_category_white_48dp.png"
+							class="imgscript"
+							alt=""
+						/>
+						<h1 class="resoun-bill">Paid</h1>
+						<h1 class="titel-bill">Mechaniker Tuning Auto</h1>
+						<h1 class="haumany">10000$</h1>
+					</div>
+				</div>
+			</div>
+			<div class="lohnsite">
+				<button type="button" class="buton-reset">Zurück</button>
+				<h1 class="aktiverechnungentext">Stelle deine Löhne ein:</h1>
+				<div class="container-lohn">
+					<div class="container-lohn-manage">
+						<h1 class="text-rängeübersichtlohn">5. Chef</h1>
+						<input
+							class="inputt-Iban"
+							id="cheflohn"
+							placeholder="Lohn"
+						/>
+						<button type="button" name="chef" class="buton-apply">
+							Bestätigen
+						</button>
+					</div>
+					<div class="container-lohn-manage">
+						<h1 class="text-rängeübersichtlohn">4. Meister</h1>
+						<input
+							class="inputt-Iban"
+							id="meisterlohn"
+							placeholder="Lohn"
+						/>
+						<button
+							type="button"
+							name="meister"
+							class="buton-apply"
+						>
+							Bestätigen
+						</button>
+					</div>
+					<div class="container-lohn-manage">
+						<h1 class="text-rängeübersichtlohn">3. Geselle</h1>
+						<input
+							class="inputt-Iban"
+							id="gesellelohn"
+							placeholder="Lohn"
+						/>
+						<button
+							type="button"
+							name="geselle"
+							class="buton-apply"
+						>
+							Bestätigen
+						</button>
+					</div>
+					<div class="container-lohn-manage">
+						<h1 class="text-rängeübersichtlohn">2. Lehrling</h1>
+						<input
+							class="inputt-Iban"
+							id="lehrlinglohn"
+							placeholder="Lohn"
+						/>
+						<button
+							type="button"
+							name="lehrling"
+							class="buton-apply"
+						>
+							Bestätigen
+						</button>
+					</div>
+					<div class="container-lohn-manage">
+						<h1 class="text-rängeübersichtlohn">1. Praktikant</h1>
+						<input
+							class="inputt-Iban"
+							id="praktilohn"
+							placeholder="Lohn"
+						/>
+						<button
+							type="button"
+							name="praktikant"
+							class="buton-apply"
+						>
+							Bestätigen
+						</button>
+					</div>
+				</div>
+			</div>
+			<div class="angestellte-list">
+				<button type="button" class="buton-reset">Zurück</button>
+				<h1 class="aktiverechnungentext">Manage deine Angestellten:</h1>
+				<div class="container-angestellte">
+					<div class="container-angestellte-id">
+						<h1 class="name-manage">Chrisi Espasito</h1>
+						<h1 class="rank">1</h1>
+						<button type="button" class="button-rankup">
+							Uprank
+						</button>
+						<button type="button" class="button-rankdown">
+							Downrank
+						</button>
+						<button type="button" class="button-feuern">
+							Feuern
+						</button>
+					</div>
+					<div class="container-angestellte-id">
+						<h1 class="name-manage">Jack der Kek</h1>
+						<button type="button" class="button-rankup">
+							Uprank
+						</button>
+						<button type="button" class="button-rankdown">
+							Downrank</button
+						><button type="button" class="button-feuern">
+							Feuern
+						</button>
+					</div>
+					<div class="container-angestellte-id"></div>
+					<div class="container-angestellte-id"></div>
+					<div class="container-angestellte-id"></div>
+					<div class="container-angestellte-id"></div>
+				</div>
+			</div>
+			<div class="geld-taken">
+				<button type="button" class="buton-reset">Zurück</button>
+				<h1 class="aktiverechnungentext">Manage dein Geld:</h1>
+				<div class="input-field">
+					<h1 class="geld-texteingeben">Betrag fürs Einzahlen</h1>
+					<img src="src/wallet.png" class="wallet" alt="" />
+					<input
+						class="inputt"
+						id="auszahlinputt1"
+						placeholder="0$"
+					/>
+					<img src="src/circle.png" class="circle2" alt="" />
+					<img src="src/circle.png" class="circle3" alt="" />
+				</div>
+				<button type="button" class="auszahlbutton1" id="submitbutton">
+					Bestätigen
+				</button>
+				<div class="input-field2">
+					<h1 class="geld-texteingeben2">Betrag fürs Auszahlen</h1>
+					<img src="src/wallet.png" class="wallet" alt="" />
+					<input
+						class="inputt"
+						id="auszahlinputt12"
+						placeholder="0$"
+					/>
+					<img src="src/circle.png" class="circle2" alt="" />
+					<img src="src/circle.png" class="circle3" alt="" />
+				</div>
+				<button
+					type="button"
+					class="auszahlbutton12"
+					id="submitbutton2"
+				>
+					Bestätigen
+				</button>
+			</div>
+		</div>
+		<div class="tuning">
+			<div class="left"></div>
+			<div class="bottom"></div>
+			<div class="obenlinks">
+				<h1 class="tuningtext">Auto Tuning</h1>
+				<div class="bardown"></div>
+				<div class="box-container-tuning">
+					<div class="tuning-container">
+						<img
+							src="src/outline_directions_car_filled_white_36dp.png"
+							class="imgs"
+							alt=""
+						/>
+						<h1 class="text-detail">Bumper</h1>
+					</div>
+					<div class="tuning-container"></div>
+					<div class="tuning-container"></div>
+				</div>
+			</div>
+
+			<div class="unten">
+				<div class="container-tuning-teile"></div>
+				<button type="button" class="auszahlbutton123" id="submit">
+					Bestätigen
+				</button>
+			</div>
+		</div>
+		<div class="rechnung">
+			<h1 class="rechnung-text">RECHNUNG</h1>
+			<img src="src/wallet.png" class="walletimg" alt="" />
+			<input class="inputt2" id="inputitel" placeholder="Titel" />
+			<input class="inputt3" id="inputreason" placeholder="Grund" />
+			<input
+				class="inputt4"
+				id="inputamount"
+				placeholder="Höhe der Rechnung"
+			/>
+			<button type="button" name="praktikant" class="buton-connect">
+				Bestätigen
+			</button>
+			<button type="button" name="praktikant" class="buton-abbrechen">
+				Abbrechen
+			</button>
+		</div>
+	</body>
+	<script src="index.js"></script>
+</html>

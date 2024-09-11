@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="index.css" />
+	</head>
+	<body>
+		<div class="hud-container">
+			<div class="straßennahme">
+				<div class="links"></div>
+				<div class="rechts">
+					<div class="streetname" id="streetname">
+						St Peters Street
+					</div>
+				</div>
+			</div>
+			<div class="rechtsbox">
+				<img class="imgs" id="links" src="src/Arrows-Left.png" />
+				<img class="imgs" id="rechts" src="src/Arrows-Right.png" />
+				<img class="imgs" id="anschnall" src="src/BELT.png" />
+				<img class="imgs" id="tempomat" src="src/cruise.png" />
+				<img class="imgs" id="motor" src="src/Engin_PS.png" />
+				<img class="imgs" id="manualgear" src="src/gear.png" />
+			</div>
+			<div class="linksbox">
+				<span class="kmhzahl" id="kmhs">69</span>
+				<span class="kmh">Km/h</span>
+				<span class="gang"
+					>Gang
+					<span class="anzahlgang" id="gearanzahl">6</span></span
+				>
+				<span class="liter"
+					>Liter<span class="anzahlliter" id="literanzahl"
+						>100</span
+					></span
+				>
+			</div>
+		</div>
+	</body>
+	<script src="index.js"></script>
+</html>

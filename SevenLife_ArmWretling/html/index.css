@@ -1,0 +1,141 @@
+@font-face {
+	font-family: "Open Sans";
+	src: url("fonts/OpenSans-VariableFont_wdth\,wght.ttf");
+}
+@font-face {
+	font-family: "Nunito Sans";
+	src: url("fonts/NunitoSans-Regular.ttf");
+}
+@font-face {
+	font-family: "Khula";
+	src: url("fonts/Khula-Regular.ttf");
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+
+.container-hilfe{
+    display: none;
+}
+
+.container1 {
+	position: absolute;
+	width: 10vw;
+	height: 5vh;
+	background-image: linear-gradient(
+		to right,
+		#d475e384,
+		#a7529a77,
+		#73365c71,
+		#3c1e2c7a,
+		#00000084
+	);
+	border-radius: 1vw;
+	bottom: 1.5vh;
+	right: 1vw;
+}
+.container-innen {
+	position: absolute;
+	width: 3vw;
+	height: 5vh;
+	background-image: linear-gradient(
+		to right,
+		#d475e384,
+		#a7529a77,
+		#73365c71,
+		#3c1e2c7a,
+		#00000084
+	);
+	border-radius: 1vw;
+	left: 0vw;
+}
+.KeyHinweis {
+	position: absolute;
+	color: #ffffff9c;
+	font-family: "Open Sans", sans-serif;
+	left: 1.1vw;
+	font-size: 1.4vw;
+	text-align: center;
+	z-index: 10;
+	top: -1vh;
+	background-color: rgba(255, 0, 0, 0);
+}
+.KeyHinweisInfo {
+	position: absolute;
+	color: #ffffff;
+	font-family: "Khula", sans-serif;
+	left: 3vw;
+	font-size: 0.9vw;
+	text-align: center;
+	z-index: 10;
+	width: 7vw;
+	top: 0.2vh;
+	background-color: rgba(255, 0, 0, 0);
+}
+.container2 {
+	position: absolute;
+	width: 10vw;
+	height: 5vh;
+	background-image: linear-gradient(
+		to right,
+		#d475e384,
+		#a7529a77,
+		#73365c71,
+		#3c1e2c7a,
+		#00000084
+	);
+	border-radius: 1vw;
+	bottom: 1.5vh;
+	right: 12vw;
+}
+.container3 {
+	position: absolute;
+	width: 10vw;
+	height: 5vh;
+	background-image: linear-gradient(
+		to right,
+		#d475e384,
+		#a7529a77,
+		#73365c71,
+		#3c1e2c7a,
+		#00000084
+	);
+	border-radius: 1vw;
+	bottom: 1.5vh;
+	right: 23vw;
+}
+.container4 {
+	position: absolute;
+	width: 10vw;
+	height: 5vh;
+	background-image: linear-gradient(
+		to right,
+		#d475e384,
+		#a7529a77,
+		#73365c71,
+		#3c1e2c7a,
+		#00000084
+	);
+	border-radius: 1vw;
+	bottom: 1.5vh;
+	right: 34vw;
+}
+.container5 {
+	position: absolute;
+	width: 10vw;
+	height: 5vh;
+	background-image: linear-gradient(
+		to right,
+		#d475e384,
+		#a7529a77,
+		#73365c71,
+		#3c1e2c7a,
+		#00000084
+	);
+	border-radius: 1vw;
+	bottom: 1.5vh;
+	right: 45vw;
+}

@@ -1,0 +1,836 @@
+@font-face {
+	font-family: "Unbounded";
+	src: url("fonts/Unbounded-ExtraLight.ttf");
+}
+@font-face {
+	font-family: "Lato";
+	src: url("fonts/Lato-Black.ttf");
+}
+@font-face {
+	font-family: "Montserrat";
+	src: url("fonts/Montserrat-Medium.ttf");
+}
+@font-face {
+	font-family: "Goldman";
+	src: url("fonts/Goldman-Regular.ttf");
+}
+@font-face {
+	font-family: "Abel";
+	src: url("fonts/Abel-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Aldrich";
+	src: url("fonts/Aldrich-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Roboto";
+	src: url("fonts/Roboto-MediumItalic.ttf");
+}
+@font-face {
+	font-family: "Khula";
+	src: url("fonts/Khula-Regular.ttf");
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+.left {
+	position: absolute;
+	left: 0vw;
+	top: 0vw;
+	height: 100%;
+	width: 42vw;
+	background: linear-gradient(
+		to right,
+		rgba(114, 0, 89),
+		rgba(0, 0, 255, 0) 90.71%
+	);
+}
+.right {
+	position: absolute;
+	right: 0vw;
+	top: 0vw;
+	height: 100%;
+	width: 42vw;
+	background: linear-gradient(
+		to left,
+		rgba(114, 0, 89),
+		rgba(0, 0, 255, 0) 90.71%
+	);
+}
+.strich {
+	position: absolute;
+	width: 0.1vw;
+	height: 100vh;
+	background-color: white;
+	left: 4.5vw;
+}
+.text {
+	position: absolute;
+	color: white;
+	font-size: 4vw;
+	left: -21.7vw;
+	top: 30vh;
+	width: 40vw;
+	text-align: right;
+	background-color: rgba(255, 0, 0, 0);
+	transform: rotate(270deg);
+	font-family: "Goldman", cursive;
+	letter-spacing: 0.4vw;
+}
+.infobox {
+	position: absolute;
+	width: 40vw;
+	height: 8vh;
+	background-color: rgba(211, 5, 215, 0.391);
+	top: 70vh;
+	left: 30vw;
+	border-radius: 0.1vw;
+}
+.text-infobox {
+	position: absolute;
+	color: white;
+	font-size: 1.1vw;
+	left: 0.7vw;
+	top: -0.8vh;
+	font-family: "Aldrich", sans-serif;
+}
+.submitbuttonseedsf {
+	position: absolute;
+	left: 30vw;
+	top: 79vh;
+	width: 20vw;
+	height: 6vh;
+	z-index: 29;
+	padding: 0;
+	font-size: 1vw;
+	background-color: rgba(31, 31, 31, 0.287);
+	outline: none;
+	cursor: pointer;
+	border-radius: 0.2vw;
+	border: none;
+	color: #ffffff;
+	font-family: "Aldrich", cursive;
+	letter-spacing: 0.1vw;
+	transform: translate(-1deg);
+	z-index: 29;
+}
+.submitbuttonseedsf:hover {
+	color: #ffffff;
+	transition: 0.5s all;
+	background-color: rgba(198, 10, 164, 0.808);
+}
+.submitbuttonseeds {
+	position: absolute;
+	left: 50.5vw;
+	top: 79vh;
+	width: 19.5vw;
+	height: 6vh;
+	z-index: 29;
+	padding: 0;
+	font-size: 1.1vw;
+	background-color: rgba(31, 31, 31, 0.287);
+	outline: none;
+	cursor: pointer;
+	border-radius: 0.2vw;
+	border: none;
+	color: #ffffff;
+	font-family: "Aldrich", cursive;
+	letter-spacing: 0.1vw;
+	transform: translate(-1deg);
+	z-index: 29;
+}
+.submitbuttonseeds:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	background-color: rgba(23, 23, 23, 0.808);
+}
+.barname {
+	position: absolute;
+	width: 30vw;
+	height: 0.1vh;
+	background-color: rgba(36, 36, 36, 0.436);
+	top: 69vh;
+	left: -26vw;
+}
+.name-anfang {
+	position: absolute;
+	color: white;
+	font-size: 1.5vw;
+	left: -25.7vw;
+	top: 63.5vh;
+
+	text-align: right;
+
+	background-color: rgba(255, 0, 0, 0);
+	font-family: "Goldman", cursive;
+	letter-spacing: 0.4vw;
+}
+.esctext {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	right: 3vw;
+	top: 2.5vh;
+	letter-spacing: 0.1vw;
+	font-size: 1.2vw;
+	transform: rotate(0deg);
+	font-family: "Lato", sans-serif;
+}
+.container-quests {
+	position: absolute;
+	width: 23vw;
+	right: 0vw;
+	height: 8vh;
+	background: linear-gradient(
+		to left,
+		rgba(114, 0, 89, 0.52),
+		rgba(0, 0, 255, 0) 90.71%
+	);
+	top: 16vh;
+}
+.TitelTextQuests {
+	position: absolute;
+	color: white;
+	font-size: 0.9vw;
+	right: 3.4vw;
+	top: -0.3vh;
+	z-index: 1;
+	letter-spacing: 0.08vw;
+	font-family: "Montserrat", sans-serif;
+}
+.DescTextQuests {
+	position: absolute;
+	color: white;
+	letter-spacing: 0.05vw;
+	font-size: 0.7vw;
+	text-align: right;
+	right: 0.7vw;
+	background-color: rgba(255, 0, 0, 0);
+	top: 2.9vh;
+	width: 15vw;
+	font-family: "Montserrat", sans-serif;
+}
+.neulingsquest {
+	position: absolute;
+	color: white;
+	font-size: 0.8vw;
+	left: 0.7vw;
+	top: 3vh;
+	z-index: 1;
+	font-family: "Montserrat", sans-serif;
+}
+.bottomtop {
+	position: absolute;
+	left: 0vw;
+	top: -2vh;
+	height: 9vh;
+	width: 100%;
+	border-bottom: 0.2vh solid rgb(217, 1, 177);
+	background: linear-gradient(
+		to top,
+		rgba(114, 0, 89, 0.744),
+		rgba(0, 0, 255, 0) 90.71%
+	);
+}
+.container-check {
+	position: absolute;
+	width: 1.3vw;
+	height: 2vh;
+	top: 12vh;
+	left: 0.7vw;
+	background-color: rgba(128, 128, 128, 0.395);
+}
+.zahlindex {
+	position: absolute;
+	color: white;
+	font-size: 0.9vw;
+	right: 1vw;
+	top: -0.3vh;
+	z-index: 1;
+	font-family: "Montserrat", sans-serif;
+}
+.left {
+	position: absolute;
+	left: 0vw;
+	top: 0vw;
+	height: 100%;
+	width: 100vw;
+	z-index: 1;
+	background: linear-gradient(
+		to right,
+		rgba(114, 0, 0, 0.245),
+		rgba(0, 0, 255, 0) 80.71%
+	);
+}
+.right {
+	position: absolute;
+	right: 0vw;
+	top: 0vw;
+	height: 100%;
+	width: 100vw;
+	z-index: 1;
+	background: linear-gradient(
+		to left,
+		rgba(114, 0, 89, 0.367),
+		rgba(0, 0, 255, 0) 80.71%
+	);
+}
+.left1 {
+	position: absolute;
+	left: 0vw;
+	top: 0vw;
+	height: 100%;
+	width: 100vw;
+	z-index: 1;
+	background: linear-gradient(
+		to right,
+		rgba(114, 0, 0, 0.637),
+		rgba(0, 0, 255, 0) 80.71%
+	);
+}
+.right1 {
+	position: absolute;
+	right: 0vw;
+	top: 0vw;
+	height: 100%;
+	width: 100vw;
+	z-index: 1;
+	background: linear-gradient(
+		to left,
+		rgba(114, 0, 89, 0.73),
+		rgba(0, 0, 255, 0) 80.71%
+	);
+}
+.esctext {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	right: 4vw;
+	top: 7.5vh;
+	z-index: 2;
+	letter-spacing: 0.1vw;
+	font-size: 1.1vw;
+	transform: rotate(0deg);
+	font-family: "Lato", sans-serif;
+}
+
+.interaktionen {
+	position: absolute;
+	border: 0.1vh solid rgb(89, 89, 89);
+	width: 19.8vw;
+	top: 37vh;
+	background-color: rgba(42, 42, 42, 0.059);
+	border-radius: 0.1vw;
+	left: 52vw;
+	height: 35vh;
+	z-index: 2;
+}
+
+.wert {
+	position: absolute;
+	border: 0.1vh solid rgb(89, 89, 89);
+	width: 18.8vw;
+	top: 16vh;
+	background-color: rgba(42, 42, 42, 0.059);
+	border-radius: 0.1vw;
+	left: 32vw;
+	height: 19.3vh;
+	z-index: 2;
+}
+.information {
+	position: absolute;
+	border: 0.1vh solid rgb(89, 89, 89);
+	width: 18.8vw;
+	top: 37vh;
+	background-color: rgba(42, 42, 42, 0.059);
+	border-radius: 0.1vw;
+	left: 32vw;
+	height: 57vh;
+	z-index: 2;
+}
+.verwalten {
+	position: absolute;
+	border: 0.1vh solid rgb(89, 89, 89);
+	width: 19.8vw;
+	top: 74vh;
+	background-color: rgba(42, 42, 42, 0.059);
+	border-radius: 0.1vw;
+	left: 52vw;
+	height: 20vh;
+	z-index: 2;
+}
+.aktionen {
+	color: rgb(208, 208, 208);
+	position: absolute;
+	font-size: 1.3vw;
+	width: 15vw;
+	z-index: 2;
+	top: 1vh;
+	text-align: left;
+	background-color: rgba(255, 0, 0, 0);
+	left: 2vw;
+	letter-spacing: 0.1vw;
+	font-family: "Roboto", sans-serif;
+}
+.aktionentext {
+	color: rgb(144, 144, 144);
+	position: absolute;
+	font-size: 0.95vw;
+	width: 15vw;
+	z-index: 2;
+	top: 5vh;
+	text-align: left;
+	background-color: rgba(255, 0, 0, 0);
+	left: 2vw;
+	letter-spacing: 0.1vw;
+	font-family: "Roboto", sans-serif;
+}
+.verwaltens {
+	color: rgb(208, 208, 208);
+	position: absolute;
+	font-size: 1.3vw;
+	width: 15vw;
+	z-index: 2;
+	top: 1vh;
+	text-align: left;
+	background-color: rgba(255, 0, 0, 0);
+	left: 2vw;
+	letter-spacing: 0.1vw;
+	font-family: "Roboto", sans-serif;
+}
+.verwaltentext {
+	color: rgb(144, 144, 144);
+	position: absolute;
+	font-size: 0.95vw;
+	width: 15vw;
+	z-index: 2;
+	top: 5vh;
+	text-align: left;
+	background-color: rgba(255, 0, 0, 0);
+	left: 2vw;
+	letter-spacing: 0.1vw;
+	font-family: "Roboto", sans-serif;
+}
+.werts {
+	color: rgb(208, 208, 208);
+	position: absolute;
+	font-size: 1.3vw;
+	width: 15vw;
+	z-index: 2;
+	top: 1vh;
+	text-align: left;
+	background-color: rgba(255, 0, 0, 0);
+	left: 2vw;
+	letter-spacing: 0.1vw;
+	font-family: "Roboto", sans-serif;
+}
+.werttext {
+	color: rgb(144, 144, 144);
+	position: absolute;
+	font-size: 0.95vw;
+	width: 15vw;
+	z-index: 2;
+	top: 5vh;
+	text-align: left;
+	background-color: rgba(255, 0, 0, 0);
+	left: 2vw;
+	letter-spacing: 0.1vw;
+	font-family: "Roboto", sans-serif;
+}
+.informations {
+	color: rgb(208, 208, 208);
+	position: absolute;
+	font-size: 1.3vw;
+	width: 15vw;
+	z-index: 2;
+	top: 1vh;
+	text-align: left;
+	background-color: rgba(255, 0, 0, 0);
+	left: 2vw;
+	letter-spacing: 0.1vw;
+	font-family: "Roboto", sans-serif;
+}
+.informationtext {
+	color: rgb(144, 144, 144);
+	position: absolute;
+	font-size: 0.95vw;
+	width: 15vw;
+	z-index: 2;
+	top: 5vh;
+	text-align: left;
+	background-color: rgba(255, 0, 0, 0);
+	left: 2vw;
+	letter-spacing: 0.1vw;
+	font-family: "Roboto", sans-serif;
+}
+.button-verwalten {
+	position: absolute;
+	width: 16vw;
+	height: 6vh;
+	font-family: "Roboto", sans-serif;
+	font-size: 1.1vw;
+	left: 1.5vw;
+	top: 10vh;
+	border: none;
+	letter-spacing: 0.1vw;
+	outline: none;
+	z-index: 1;
+	color: white;
+	cursor: pointer;
+	background-color: rgba(165, 0, 77, 0.402);
+}
+.button-verwalten:hover {
+	transition: 1s all;
+	background-color: rgb(110, 0, 112);
+}
+.button-betreten {
+	position: absolute;
+	width: 15vw;
+	height: 6vh;
+	font-family: "Commissioner", sans-serif;
+	font-size: 1.1vw;
+	left: 2vw;
+	top: 12vh;
+	border: none;
+	letter-spacing: 0.1vw;
+	outline: none;
+	z-index: 1;
+	color: rgb(173, 173, 173);
+	cursor: pointer;
+	border-radius: 0.1vw;
+	border: solid 0.1vh rgb(55, 55, 55);
+	background-color: rgba(75, 75, 75, 0.629);
+}
+.button-betreten:hover {
+	transition: 1s all;
+	background-color: rgba(21, 21, 21, 0.567);
+}
+.kosten {
+	position: absolute;
+	color: rgb(22, 135, 22);
+	font-size: 1.8vw;
+	width: 15vw;
+	z-index: 2;
+	top: 9.4vh;
+	text-align: left;
+	background-color: rgba(255, 0, 0, 0);
+	left: 5.5vw;
+	letter-spacing: 0.2vw;
+	font-family: "Goldman", cursive;
+}
+.card {
+	position: absolute;
+	width: 3vw;
+	left: 1.7vw;
+	top: 11vh;
+}
+.container-info {
+	position: absolute;
+	background-color: rgba(255, 0, 0, 0);
+	width: 15vw;
+	height: 43vh;
+	top: 11vh;
+	left: 2vw;
+}
+.container-infos {
+	position: relative;
+	width: 15vw;
+	height: 6vh;
+	border: solid 0.1vh rgb(109, 109, 109);
+	background-color: rgba(89, 89, 89, 0.514);
+	margin-top: 1vh;
+	border-radius: 0.1vw;
+}
+.containerinfotext {
+	color: rgb(208, 208, 208);
+	position: absolute;
+	font-size: 1vw;
+
+	z-index: 2;
+	top: 0.7vh;
+	text-align: left;
+	background-color: rgba(255, 0, 0, 0);
+	left: 1vw;
+	letter-spacing: 0.1vw;
+	font-family: "Goldman", cursive;
+}
+.informationright {
+	color: rgb(208, 208, 208);
+	position: absolute;
+	font-size: 1vw;
+	width: 7vw;
+	z-index: 2;
+	top: 0.6vh;
+	height: 2vh;
+	text-align: right;
+	background-color: rgba(255, 0, 0, 0);
+	right: 1vw;
+	overflow: hidden;
+	letter-spacing: 0.1vw;
+	font-family: "Goldman", cursive;
+}
+.interaktionen1 {
+	position: absolute;
+	border: 0.1vh solid rgb(89, 89, 89);
+	width: 19.8vw;
+	top: 31vh;
+	background-color: rgba(42, 42, 42, 0.059);
+	border-radius: 0.1vw;
+	left: 40vw;
+	height: 35vh;
+	z-index: 2;
+}
+.aktionen1 {
+	color: rgb(208, 208, 208);
+	position: absolute;
+	font-size: 1.3vw;
+	width: 15vw;
+	z-index: 2;
+	top: 1vh;
+	text-align: left;
+	background-color: rgba(255, 0, 0, 0);
+	left: 2vw;
+	letter-spacing: 0.1vw;
+	font-family: "Roboto", sans-serif;
+}
+.aktionentext1 {
+	color: rgb(144, 144, 144);
+	position: absolute;
+	font-size: 0.95vw;
+	width: 15vw;
+	z-index: 2;
+	top: 5vh;
+	text-align: left;
+	background-color: rgba(255, 0, 0, 0);
+	left: 2vw;
+	letter-spacing: 0.1vw;
+	font-family: "Roboto", sans-serif;
+}
+.button-betreten1 {
+	position: absolute;
+	width: 15vw;
+	height: 6.5vh;
+	font-family: "Commissioner", sans-serif;
+	font-size: 1.1vw;
+	left: 2vw;
+	top: 13vh;
+	border: none;
+	letter-spacing: 0.1vw;
+	outline: none;
+	z-index: 1;
+	color: rgb(173, 173, 173);
+	cursor: pointer;
+	border-radius: 0.1vw;
+	border: solid 0.1vh rgb(55, 55, 55);
+	background-color: rgba(75, 75, 75, 0.629);
+}
+.button-betreten1:hover {
+	transition: 1s all;
+	background-color: rgba(21, 21, 21, 0.567);
+}
+.button-verwalten1 {
+	position: absolute;
+	width: 15vw;
+	height: 6.5vh;
+	font-family: "Roboto", sans-serif;
+	font-size: 1.1vw;
+	left: 2vw;
+	top: 22vh;
+	border: none;
+	letter-spacing: 0.1vw;
+	outline: none;
+	z-index: 1;
+	color: rgb(173, 173, 173);
+	cursor: pointer;
+	border: solid 0.1vh rgb(55, 55, 55);
+	background-color: rgba(165, 0, 77, 0.402);
+}
+.button-verwalten1:hover {
+	transition: 1s all;
+	background-color: rgb(110, 0, 112);
+}
+.hausnummer {
+	color: rgb(208, 208, 208);
+	position: absolute;
+	font-size: 1.3vw;
+
+	z-index: 2;
+	top: 1vh;
+	text-align: left;
+	background-color: rgba(255, 0, 0, 0);
+	right: 3vw;
+	letter-spacing: 0.1vw;
+	font-family: "Roboto", sans-serif;
+}
+.kaufvertrag-body {
+	position: absolute;
+	left: 38vw;
+	height: 70vh;
+	background-color: #ffffff00;
+	width: 25vw;
+	top: 10vh;
+}
+.kaufvertrag-card {
+	height: 100%;
+	width: 100%;
+	background-color: white;
+	box-shadow: 0vw 0vw 0.6vw 0vw black;
+}
+.kaufvertrag-card:before,
+.kaufvertrag-card:after {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	box-shadow: 0vw 0vw 0.9vw black;
+	background-color: white;
+}
+.kaufvertrag-card:before {
+	transform: rotate(3deg);
+}
+.überschrift {
+	font-family: "DM Mono", monospace;
+	position: absolute;
+	left: 1.5vw;
+	top: -1vh;
+	font-size: 1.6vw;
+	width: 22vw;
+
+	text-align: center;
+	color: rgb(145, 145, 145);
+	border-bottom: solid 0.1vw rgb(83, 83, 83);
+}
+.überschrifts {
+	font-family: "DM Mono", monospace;
+	position: absolute;
+	left: 6.7vw;
+	top: 19vh;
+	font-size: 1.2vw;
+	width: 15vw;
+
+	text-align: center;
+	color: rgb(145, 145, 145);
+	border-bottom: solid 0.1vw rgb(83, 83, 83);
+}
+.überschrifts1 {
+	font-family: "DM Mono", monospace;
+	position: absolute;
+	left: 6.7vw;
+	top: 37vh;
+	font-size: 1.2vw;
+	width: 15vw;
+
+	text-align: center;
+	color: rgb(145, 145, 145);
+	border-bottom: solid 0.1vw rgb(83, 83, 83);
+}
+.information-card {
+	position: absolute;
+	width: 21vw;
+	height: 40vh;
+	top: 1vh;
+	background-color: rgba(255, 0, 0, 0);
+	left: -2vw;
+}
+.text1 {
+	position: absolute;
+	font-family: "DM Mono", monospace;
+	font-size: 1.3vw;
+	top: 5.5vh;
+	font-weight: 100;
+	left: 4.5vw;
+	width: 20vw;
+	background-color: rgba(255, 0, 0, 0);
+	color: black;
+	text-align: center;
+}
+.text2 {
+	position: absolute;
+	font-family: "DM Mono", monospace;
+	font-size: 0.85vw;
+	top: 24vh;
+	left: 4.5vw;
+	width: 20vw;
+	color: black;
+	text-align: center;
+}
+.text3 {
+	position: absolute;
+	font-family: "DM Mono", monospace;
+	font-size: 0.85vw;
+	top: 43vh;
+	left: 4.5vw;
+	width: 20vw;
+	color: black;
+	text-align: center;
+}
+.kauf {
+	position: absolute;
+	font-family: "DM Mono", monospace;
+	font-size: 0.8vw;
+	top: 37vh;
+	width: 12vw;
+	left: 5.5vw;
+	color: black;
+	text-align: center;
+	margin-top: 5px;
+	border-top: 1px solid #2f3037;
+}
+.verkauf {
+	position: absolute;
+	font-family: "DM Mono", monospace;
+	font-size: 0.8vw;
+	top: 45vh;
+	width: 12vw;
+	left: 5.5vw;
+	color: black;
+	text-align: center;
+	margin-top: 5px;
+	border-top: 1px solid #2f3037;
+}
+.nameverkauf {
+	position: absolute;
+	font-family: "Square Peg", cursive;
+	font-size: 1.7vw;
+	top: 40vh;
+	width: 12vw;
+	left: 5.5vw;
+	color: black;
+	text-align: center;
+}
+.namekauf {
+	position: absolute;
+	font-family: "Square Peg", cursive;
+	font-size: 1.7vw;
+	top: 31.8vh;
+	width: 12vw;
+	left: 5.5vw;
+	color: black;
+	text-align: center;
+}
+.btn {
+	position: absolute;
+	top: 61vh;
+	left: 4vw;
+	width: 21vw;
+	height: 5vh;
+	background-color: rgba(68, 68, 68, 0.52);
+	border-radius: 0.2vw;
+	font-size: 1vw;
+	padding: 13px 17px;
+	border: none;
+	cursor: pointer;
+	color: white;
+	transition: color 0.2s linear, background-color 0.2s linear;
+	letter-spacing: 0.2px;
+}
+
+.seveninfo {
+	width: 100%;
+	height: 100%;
+	background-color: red;
+}

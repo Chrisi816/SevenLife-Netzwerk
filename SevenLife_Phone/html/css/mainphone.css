@@ -1,0 +1,584 @@
+body {
+	padding: 0;
+	overflow: hidden;
+	margin: 0;
+}
+
+.handy-rahmen {
+	position: absolute;
+	left: 77.7vw;
+	top: 14.5vh;
+	height: 85vh;
+	width: 22vw;
+	background-color: transparent !important;
+	z-index: 150;
+	overflow: hidden;
+	min-width: 10vw;
+	min-height: 40vh;
+	pointer-events: none;
+	--width: 85vh;
+	--height: 22vw;
+	--width1: 85vh;
+	--height1: 22vw;
+}
+
+.phone-container {
+	position: fixed;
+	left: 78.3vw;
+	top: 16vh;
+	border-radius: 1vw;
+	height: 81.5vh;
+	width: 21.1vw;
+	z-index: 1;
+	min-width: 10vw;
+	min-height: 40vh;
+	overflow: hidden;
+	background-color: rgba(255, 0, 0, 0);
+}
+.phone-container.anim {
+	animation-duration: 1.5s;
+	animation-fill-mode: both;
+
+	animation-name: fadeInBottom;
+}
+.handy-rahmen.anim {
+	animation-duration: 1.5s;
+	animation-fill-mode: both;
+	animation-name: fadeInBottom;
+}
+.phonebackground {
+	position: absolute;
+	left: 0vw;
+	top: 0vh;
+	height: 100%;
+	border-radius: 1vw;
+	width: 100%;
+	z-index: 1;
+	background-image: url(https://cdn.discordapp.com/attachments/954476483651461120/954477111429726218/back001.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.phonebackgrounds {
+	position: absolute;
+	left: 0vw;
+	top: 0vh;
+	height: 100%;
+	border-radius: 1vw;
+	width: 100%;
+	z-index: 1;
+	background-image: url(https://cdn.discordapp.com/attachments/954476483651461120/954477111429726218/back001.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.phone-header {
+	position: relative;
+	width: 21vw;
+	z-index: 10049;
+	height: 4vh;
+	border-top-left-radius: 1vh;
+	border-top-right-radius: 1vh;
+	background-color: rgba(255, 0, 0, 0);
+}
+.phone-zeit {
+	position: absolute;
+	left: 1vw;
+	top: 1.9vh;
+	font-size: 1.1vw;
+	color: white;
+	font-family: "Montserrat", sans-serif;
+}
+.batterie {
+	position: absolute;
+	left: 14.5vw;
+	top: 1.7vh;
+	width: 1.3vw;
+}
+.wifi {
+	position: absolute;
+	left: 13.3vw;
+	top: 1.7vh;
+	width: 1.3vw;
+}
+.air {
+	position: absolute;
+	left: 13.3vw;
+	top: 1.7vh;
+	width: 1.3vw;
+}
+.gps {
+	position: absolute;
+	left: 20.3%;
+	top: 1.7vh;
+	width: 1.3vw;
+}
+.phone-seiteauswählen {
+	position: absolute;
+	height: 4vh;
+	width: 4vw;
+	border-radius: 2vw;
+	background-color: rgba(68, 68, 68, 0.185);
+	z-index: 153;
+	left: 8.5vw;
+	top: 73vh;
+	transition-duration: 1s;
+}
+.punkt {
+	position: relative;
+	width: 0.5vw;
+	top: 49.5vh;
+	left: 8.5vw;
+	border-radius: 1000vw;
+	height: 1vh;
+	margin-left: 0.8vw;
+	z-index: 253;
+	display: inline-block;
+	cursor: pointer;
+	background-color: rgba(83, 83, 83, 0.514);
+	transition-duration: 1s;
+}
+.punkt:hover {
+	background-color: rgb(255, 255, 255);
+}
+.punkt2 {
+	position: relative;
+	width: 0.5vw;
+	top: 64.8vh;
+	left: 8.5vw;
+	border-radius: 1000vw;
+	height: 1vh;
+	margin-left: 0.8vw;
+	z-index: 253;
+	display: inline-block;
+	cursor: pointer;
+	background-color: rgba(255, 255, 255, 0.212);
+	transition-duration: 1s;
+}
+.punkt2:hover {
+	background-color: rgb(255, 255, 255);
+}
+.weißermainpunkt {
+	position: absolute;
+	width: 1.5vw;
+	top: 65.1vh;
+	left: 8.4vw;
+	border-radius: 1000vw;
+	height: 1.1vh;
+	margin-left: 0.4vw;
+	z-index: 253;
+	display: inline-block;
+	cursor: pointer;
+	background-color: rgb(255, 255, 255);
+	transition-duration: 1s;
+}
+
+.weißermainpunkt2 {
+	position: absolute;
+	width: 1.5vw;
+	top: 65.1vh;
+	left: 10.4vw;
+	border-radius: 1000vw;
+	height: 1.1vh;
+	margin-left: 0.4vw;
+	z-index: 253;
+	display: inline-block;
+	cursor: pointer;
+	background-color: rgb(255, 255, 255);
+	transition-duration: 1s;
+}
+
+.phone-seiteauswählen:hover {
+	background-color: rgba(19, 18, 18, 0.39);
+}
+.untenlinie {
+	position: absolute;
+	width: 15vw;
+	top: 78.5vh;
+	left: 3.5vw;
+	border-radius: 20vw;
+	height: 1vh;
+	z-index: 2;
+	cursor: pointer;
+	background-color: rgb(206, 206, 206);
+}
+.untenlinie:hover {
+	animation: untenline-nachoben;
+	animation-duration: 1.5s;
+}
+
+.phone-apps {
+	position: relative;
+	height: 76vh;
+	display: inline-block;
+	width: 21vw;
+	background-color: rgba(101, 101, 101, 0);
+	z-index: 3;
+
+	overflow: hidden;
+	left: 0.1vw;
+	top: 1vh;
+}
+.apps {
+	position: relative;
+	display: inline-block;
+	width: 3vw;
+	margin-left: 2vw;
+	left: -2vh;
+	top: 1.5vh;
+
+	background-color: rgba(255, 0, 0, 0);
+	cursor: pointer;
+	margin-top: 2vh;
+	animation: showapps;
+	animation-duration: 0.7s;
+	transition: 0.5s;
+}
+.call:hover {
+	width: 3.32vw;
+}
+.einstellungen:hover {
+	width: 3.32vw;
+}
+.kontakte:hover {
+	width: 3.32vw;
+}
+.lifeinvader:hover {
+	width: 3.32vw;
+}
+.dispatch:hover {
+	width: 3.32vw;
+}
+.crypto:hover {
+	width: 3.32vw;
+}
+.bank:hover {
+	width: 3.32vw;
+}
+.bill:hover {
+	width: 3.32vw;
+}
+.garage:hover {
+	width: 3.32vw;
+}
+.appstores:hover {
+	width: 3.32vw;
+}
+.funkapps:hover {
+	width: 3.32vw;
+}
+.businessapp:hover {
+	width: 3.32vw;
+}
+.notizen:hover {
+	width: 3.32vw;
+}
+.photo:hover {
+	width: 3.32vw;
+}
+.galerie:hover {
+	width: 3.32vw;
+}
+@keyframes untenline-nachoben {
+	0% {
+		top: 78.5vh;
+	}
+	50% {
+		top: 77.5vh;
+	}
+	100% {
+		top: 78.5vh;
+	}
+}
+@keyframes showapps {
+	0% {
+		width: 0vw;
+	}
+	100% {
+		width: 3vw;
+	}
+}
+@keyframes fadeInBottomphone {
+	0% {
+		opacity: 0;
+		transform: translateY(50vw);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0%);
+	}
+}
+@keyframes fadeInBottomphone1 {
+	0% {
+		opacity: 0;
+		transform: translateY(50vw);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0%);
+	}
+}
+@keyframes fadeInBottomphone2 {
+	0% {
+		opacity: 0;
+		transform: translateY(50vw);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(12vw);
+	}
+}
+@keyframes fadeInBottomphone3 {
+	0% {
+		opacity: 0;
+		transform: translateY(50vw);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(13vw);
+	}
+}
+@keyframes fadeInBottomphone4 {
+	0% {
+		opacity: 0;
+		transform: translateY(50vw);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0%);
+	}
+}
+@keyframes fadeInBottomphone5 {
+	0% {
+		opacity: 0;
+		transform: translateY(50vw);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0%);
+	}
+}
+@keyframes fadeInBottomphone6 {
+	0% {
+		opacity: 0;
+		transform: translateY(50vw);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0%);
+	}
+}
+@keyframes fadeInBottomphone7 {
+	0% {
+		opacity: 0;
+		transform: translateY(50vw);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0%);
+	}
+}
+@keyframes fadeInBottomphone8 {
+	0% {
+		opacity: 0;
+		transform: translateY(50vw);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0%);
+	}
+}
+@keyframes fadeInBottomphone9 {
+	0% {
+		opacity: 0;
+		transform: translateY(50vw);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0%);
+	}
+}
+
+@keyframes fadeInBottomphones {
+	0% {
+		opacity: 0;
+		transform: translateY(50vw);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0%);
+	}
+}
+@keyframes fadeInBottomphone1s {
+	0% {
+		opacity: 0;
+		transform: translateY(50vw);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0%);
+	}
+}
+@keyframes fadeInBottomphone2s {
+	0% {
+		opacity: 0;
+		transform: translateY(50vw);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(11.7vw);
+	}
+}
+@keyframes fadeInBottomphone3s {
+	0% {
+		opacity: 0;
+		transform: translateY(50vw);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(13vw);
+	}
+}
+@keyframes fadeInBottomphone4s {
+	0% {
+		opacity: 0;
+		transform: translateY(50vw);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0%);
+	}
+}
+@keyframes fadeInBottomphone5s {
+	0% {
+		opacity: 0;
+		transform: translateY(50vw);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0%);
+	}
+}
+@keyframes fadeInBottomphone6s {
+	0% {
+		opacity: 0;
+		transform: translateY(50vw);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0%);
+	}
+}
+@keyframes fadeInBottomphone7s {
+	0% {
+		opacity: 0;
+		transform: translateY(50vw);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0%);
+	}
+}
+@keyframes fadeInBottomphone8s {
+	0% {
+		opacity: 0;
+		transform: translateY(50vw);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0%);
+	}
+}
+@keyframes fadeInBottomphone9s {
+	0% {
+		opacity: 0;
+		transform: translateY(50vw);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0%);
+	}
+}
+.message-container {
+	position: relative;
+	box-shadow: black 0.2vw 0.2vw 0.3vw;
+	background-color: rgba(255, 255, 255, 0.684);
+	width: 20vw;
+	height: 8vh;
+	z-index: 2000;
+	top: 1.4vh;
+	margin-top: 1vh;
+	cursor: pointer;
+	border-radius: 1vw;
+	left: 0.5vw;
+}
+.image-message {
+	position: absolute;
+	width: 3vw;
+	top: 1.5vh;
+	left: 0.7vw;
+}
+.nachricht-message {
+	position: absolute;
+	left: 4.7vw;
+	top: -1vh;
+	background-color: rgba(255, 0, 0, 0);
+	font-size: 1.2vw;
+	color: rgb(26, 26, 26);
+	font-family: "Goldman", cursive;
+}
+.beschreibung-message {
+	font-family: "Roboto", sans-serif;
+	position: absolute;
+	left: 0.7vw;
+	top: -1.1vh;
+	font-size: 1.1vw;
+	color: rgb(26, 26, 26);
+}
+.beschreibungs-container {
+	position: absolute;
+	width: 15vw;
+	left: 4vw;
+	top: 2.5vh;
+	height: 5vh;
+	overflow: hidden;
+	background-color: rgba(255, 0, 0, 0);
+}
+.message {
+	position: absolute;
+	width: 21.1vw;
+	overflow: hidden;
+	height: 20vh;
+	background-color: rgba(255, 0, 0, 0);
+}
+.container-appsunten {
+	position: absolute;
+	width: 100%;
+	height: 9vh;
+	z-index: 0;
+	background-color: rgba(255, 0, 0, 0);
+	top: 38vw;
+}
+.appunten {
+	position: relative;
+	display: inline-block;
+	width: 3.3vw;
+	margin-left: 1.5vw;
+	left: -0.5vh;
+	top: -2vh;
+
+	background-color: rgba(255, 0, 0, 0);
+	cursor: pointer;
+	margin-top: 2vh;
+
+	animation-duration: 0.7s;
+	transition: 0.5s;
+}
+
+@keyframes fadeInBottom {
+	from {
+		opacity: 0;
+		transform: translateY(100%);
+	}
+	to {
+		opacity: 1;
+	}
+}

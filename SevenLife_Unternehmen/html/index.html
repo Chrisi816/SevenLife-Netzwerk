@@ -1,0 +1,1095 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="index.css" />
+		<link rel="stylesheet" href="job.css" />
+		<link
+			rel="stylesheet"
+			href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+			integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+			crossorigin=""
+		/>
+		<script
+			src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+			integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+			crossorigin=""
+		></script>
+	</head>
+	<body>
+		<div class="HaveUnternehmen">
+			<div class="left"></div>
+			<div class="right"></div>
+			<h1 class="esctext">Drücke ESC um zu verlassen</h1>
+			<img src="src/background.webp" class="background" alt="" />
+			<h1 class="hoteltext">Unternehmens Menu</h1>
+			<h1 class="hoteltext2">
+				Ran ans Unternehmen. Das Geld kommt nicht von alleine!
+			</h1>
+			<div class="interaktionen">
+				<h1 class="aktionen">Aktionen</h1>
+				<h1 class="aktionentext">Interagiere mit deinem Unternehmen</h1>
+				<button type="button" class="button-betreten">Verlassen</button>
+				<button
+					type="button"
+					class="button-betreten2"
+					id="GarageBetreten"
+				>
+					Garage betreten
+				</button>
+				<button
+					type="button"
+					class="button-betreten3"
+					id="EnterDachFromApartment"
+				>
+					Dach betreten
+				</button>
+			</div>
+
+			<div class="wert">
+				<h1 class="werts">Wert:</h1>
+				<h1 class="werttext">Sehe den Wert deines Unternehmens an</h1>
+				<h1 class="kosten">$15000</h1>
+				<img src="src/card.png" class="card" alt="" />
+			</div>
+			<div class="information">
+				<h1 class="informations">Informationen:</h1>
+				<h1 class="informationtext">
+					Sehe die Information deines Zimmers an
+				</h1>
+				<div class="container-info">
+					<div class="container-infos">
+						<h1 class="containerinfotext">INHABER:</h1>
+						<h1 class="informationright" id="name">Chrisi</h1>
+					</div>
+					<div class="container-infos">
+						<h1 class="containerinfotext">Adresse:</h1>
+						<h1 class="informationright">Alta ST.</h1>
+					</div>
+					<div class="container-infos">
+						<h1 class="containerinfotext">Mietpreis:</h1>
+						<h1 class="informationright">100$</h1>
+					</div>
+					<div class="container-infos">
+						<h1 class="containerinfotext">Garage:</h1>
+						<h1 class="informationright">Nicht</h1>
+					</div>
+					<div class="container-infos">
+						<h1 class="containerinfotext">Lager:</h1>
+						<h1 class="informationright">Nicht</h1>
+					</div>
+					<div class="container-infos">
+						<h1 class="containerinfotext">Preis:</h1>
+						<h1 class="informationright">0$</h1>
+					</div>
+				</div>
+			</div>
+			<div class="verwalten">
+				<h1 class="verwaltens">Verwalten</h1>
+				<h1 class="verwaltentext">Verwalte dein Hotel Zimmer</h1>
+				<button type="button" class="button-verwalten">
+					Unternehmen schließen
+				</button>
+			</div>
+			<img src="src/hotel.webp" class="hotelpng" alt="" />
+		</div>
+		<div class="gointohotel">
+			<div class="left1"></div>
+			<div class="right1"></div>
+			<h1 class="esctext">Drücke ESC um zu verlassen</h1>
+			<div class="interaktionen1">
+				<h1 class="aktionen1">Aktionen</h1>
+				<h1 class="hausnummer">Nr. 100</h1>
+				<h1 class="aktionentext1">
+					Interagiere mit deinem Unternehmen
+				</h1>
+				<button
+					type="button"
+					class="button-betreten14"
+					id="GoIntoGarage"
+				>
+					Garage betreten
+				</button>
+				<button type="button" class="button-betreten13" id="EnterDach">
+					Dach betreten
+				</button>
+				<button
+					type="button"
+					class="button-betreten11"
+					id="gointounternehmen"
+				>
+					Dein Unternehmen betreten
+				</button>
+			</div>
+		</div>
+		<div class="gofromgarage">
+			<div class="left1"></div>
+			<div class="right1"></div>
+			<h1 class="esctext">Drücke ESC um zu verlassen</h1>
+			<div class="interaktionen1">
+				<h1 class="aktionen1">Aktionen</h1>
+				<h1 class="hausnummer">Nr. 100</h1>
+				<h1 class="aktionentext1">
+					Interagiere mit deinem Unternehmen
+				</h1>
+				<button
+					type="button"
+					class="button-betreten14"
+					id="EnterApartmentFromGarage"
+				>
+					Dein Unternehmen betreten
+				</button>
+				<button type="button" class="button-betreten13" id="EnterDach">
+					Dach betreten
+				</button>
+				<button
+					type="button"
+					class="button-betreten11"
+					id="Leavegarage"
+				>
+					Garage verlassen
+				</button>
+			</div>
+		</div>
+		<div class="leavedach">
+			<div class="left1"></div>
+			<div class="right1"></div>
+			<h1 class="esctext">Drücke ESC um zu verlassen</h1>
+			<div class="interaktionen1">
+				<h1 class="aktionen1">Aktionen</h1>
+				<h1 class="hausnummer">Nr. 100</h1>
+				<h1 class="aktionentext1">
+					Interagiere mit deinem Unternehmen
+				</h1>
+				<button
+					type="button"
+					class="button-betreten14"
+					id="EnterAppartmentFromDach"
+				>
+					Dein Unternehmen betreten
+				</button>
+				<button
+					type="button"
+					class="button-betreten13"
+					id="GoIntoGarageFromDach"
+				>
+					Garage betreten
+				</button>
+				<button type="button" class="button-betreten11" id="LeaveDach">
+					Dach Verlassen
+				</button>
+			</div>
+		</div>
+		<div class="besuchen">
+			<div class="left1"></div>
+			<div class="right1"></div>
+			<h1 class="esctext">Drücke ESC um zu verlassen</h1>
+			<div class="interaktionen1">
+				<h1 class="aktionen1">Aktionen</h1>
+				<h1 class="hausnummer">Alta ST.</h1>
+				<h1 class="aktionentext12">
+					Interagiere mit den vorliegenden Unternehmen, indem du die
+					Hausnummer des Unternehmens eingibst
+				</h1>
+				<input class="Inputt-Shop" id="Inputt-Shop" placeholder="0" />
+				<button type="button" class="button-betreten12">
+					Besuchen
+				</button>
+			</div>
+		</div>
+		<div class="computer">
+			<img src="src/computer_frame.png" class="Computer-Bild" alt="" />
+			<img src="src/Business.webp" class="Img-BackGroundPC" alt="" />
+			<div class="Computer-Frame">
+				<div class="LeftComputerBar">
+					<img
+						src="src/baseline_business_white_48dp.png"
+						class="business"
+						alt=""
+					/>
+					<h1 class="deinunternehmentext">Dein Unter - nehmen</h1>
+					<h1 class="StartSeiteTXT">STARTSEITE</h1>
+					<div class="ErsteButton-Table">
+						<div class="Button-Table" id="Übersicht">
+							Übersicht
+							<img
+								src="src/information.png"
+								class="right-img"
+								alt=""
+							/>
+						</div>
+						<div class="Button-Table" id="aktuelles">
+							Aktuelles
+							<img
+								src="src/information.png"
+								class="right-img"
+								alt=""
+							/>
+						</div>
+					</div>
+					<h1 class="Allgemeintxt">ALLGEMEIN</h1>
+					<div class="ZweiteButton-Table">
+						<div class="Button-Table" id="shops">
+							Shops
+							<img
+								src="src/information.png"
+								class="right-img"
+								alt=""
+							/>
+						</div>
+						<div class="Button-Table" id="tanken">
+							Tankstellen
+							<img
+								src="src/information.png"
+								class="right-img"
+								alt=""
+							/>
+						</div>
+						<div class="Button-Table" id="AutoKaufen">
+							Autos Kaufen
+							<img
+								src="src/information.png"
+								class="right-img"
+								alt=""
+							/>
+						</div>
+						<div class="Button-Table">
+							Herstellen
+							<img
+								src="src/information.png"
+								class="right-img"
+								alt=""
+							/>
+						</div>
+						<div class="Button-Table">
+							Werkstatt
+							<img
+								src="src/information.png"
+								class="right-img"
+								alt=""
+							/>
+						</div>
+					</div>
+				</div>
+				<div class="Übersicht">
+					<h1 class="TitelTXT">Übersicht:</h1>
+					<div class="Frame-Übersicht">
+						<div class="Container-Umsatz">
+							<h1 class="FirmenTXT">Firmen Konto:</h1>
+							<h1 class="UmsatzTXTGeld" id="CashFirma">8.888$</h1>
+							<h1 class="DetailTXT">
+								Hier wird das gesamte Konto deiner Firma
+								angezeigt.
+							</h1>
+						</div>
+						<div class="Container-Autos">
+							<h1 class="FirmenTXT">Autos:</h1>
+							<h1 class="AutosTXTGeld" id="CarsFirma">
+								10 Stück
+							</h1>
+							<h1 class="DetailTXT">
+								Hier wird die Anzahl deiner Autos angezeigt die
+								du besitzt.
+							</h1>
+						</div>
+						<div class="Container-Shops">
+							<h1 class="FirmenTXT">Shops im Besitz:</h1>
+							<h1 class="AutosTXTGeld" id="ShopsStück">
+								2 Stück
+							</h1>
+							<h1 class="DetailTXT">
+								Hier wird die Anzahl deiner Shops angezeigt die
+								du besitzt.
+							</h1>
+						</div>
+						<div class="Container-Tankstellen">
+							<h1 class="FirmenTXT2">Tankstellen Information:</h1>
+							<div class="KleinereComntainer-Tankstellen">
+								<h1 class="FuelTXT">Sprit in L:</h1>
+								<h1 class="LiterTXTGeld" id="LiterTanke">
+									2 Liter
+								</h1>
+								<h1 class="DetailTXT2">
+									Hier werden die Liter angezeigt die in
+									deiner Tankstelle sind
+								</h1>
+							</div>
+							<div class="KleinereComntainer-Tankstellen2">
+								<h1 class="FuelTXT">Wert deiner Tankstelle:</h1>
+								<h1 class="LiterTXTGeld2" id="WertTanke">
+									8.888.888$
+								</h1>
+								<h1 class="DetailTXT2">
+									Hier wird der Wert deiner Tankstelle
+									angezeigt
+								</h1>
+							</div>
+							<div class="KleinereComntainer-Tankstellen3">
+								<h1 class="FuelTXT">Preis pro Liter:</h1>
+								<h1 class="LiterTXTGeld" id="LiterPreisTanke">
+									20$
+								</h1>
+								<h1 class="DetailTXT2">
+									Hier wird der Preis angezeigt die in deiner
+									Tankstelle ist
+								</h1>
+							</div>
+						</div>
+						<div class="Container-Herstellung">
+							<h1 class="FirmenTXT">Herstellung:</h1>
+							<h1 class="UmsatzTXTGeld" id="herstellung">
+								10 Teile
+							</h1>
+							<h1 class="DetailTXT">
+								Hier wird die Anzahl der Hergestellten Sachen
+								angezeigt
+							</h1>
+						</div>
+						<div class="Container-Angestellte">
+							<h1 class="FirmenTXT">Angstellte:</h1>
+							<h1 class="AutosTXTGeld" id="Angestellte">10</h1>
+							<h1 class="DetailTXT">
+								Hier wird die Anzahl deiner Angestellten
+								angezeigt die du besitzt.
+							</h1>
+						</div>
+						<div class="Container-Löhne">
+							<h1 class="FirmenTXT">Löhne:</h1>
+							<h1 class="AutosTXTGeld">0$</h1>
+							<h1 class="DetailTXT3">
+								Hier wird die Höhe der Löhne die du an deine
+								Angestellten auszahlen musst angezeigt
+							</h1>
+						</div>
+					</div>
+				</div>
+				<div class="aktuelles">
+					<h1 class="TitelTXT">Aktuelles:</h1>
+					<div class="container-news">
+						<div class="container-update">
+							<h1 class="infosunternehmensupdate">
+								Unternehmens Update V. 1.0.0
+							</h1>
+							<div class="linie"></div>
+							<h1 class="infounternehmensupdate">
+								Mit dem ersten Update der SevenLife Geschichte
+								werden jegliche funktionen für Unternehmen
+								hinzugefügt welche das Spielerlebnis bereichern
+							</h1>
+						</div>
+					</div>
+				</div>
+				<div class="Shops">
+					<div class="hauptseite-shops">
+						<h1 class="TitelTXT">Deine Shop Übersicht:</h1>
+						<div
+							class="container-background-shops-auswahl"
+							id="container-background-shops-auswahl"
+						></div>
+						<div class="Seite-Shop">
+							<h1 class="DescText" id="DescText">Shop #1:</h1>
+							<div class="Container-ShopDetail">
+								<h1 class="FirmenTXT">Eingelagerte Items:</h1>
+								<h1 class="UmsatzTXTGeld" id="Iteminit">
+									0 Items
+								</h1>
+								<h1 class="DetailTXT">
+									Hier wird dir die Anzahl an Items angezeigt
+									die in deinem Laden vorhanden sind!
+								</h1>
+							</div>
+							<div class="Container-ShopDetail2">
+								<h1 class="FirmenTXT">Shop Umsatz:</h1>
+								<h1
+									class="UmsatzTXTGeld"
+									id="CashInCurrentShop"
+								>
+									0$
+								</h1>
+								<h1 class="DetailTXT">
+									Hier wird dir der Umsatz von diesem
+									spezifischen Shop angezeigt!
+								</h1>
+							</div>
+							<h1 class="Detailtxte">Item Verkaufs History:</h1>
+							<div class="line-unterdetail"></div>
+							<div class="container-scroll-itemsellder">
+								<div class="containerhistory">
+									<h1 class="itemandamount">Bread x10</h1>
+									<div class="strichabgrenzung"></div>
+									<h1 class="itemandamountmoney">100$</h1>
+									<div class="strichabgrenzung2"></div>
+									<h1 class="itemandamountzeit">
+										20:20:2000: 20:20:20
+									</h1>
+								</div>
+								<div class="containerhistory">
+									<h1 class="itemandamount">Bread x10</h1>
+									<div class="strichabgrenzung"></div>
+									<h1 class="itemandamountmoney">100$</h1>
+									<div class="strichabgrenzung2"></div>
+									<h1 class="itemandamountzeit">
+										20:20:2000: 20:20:20
+									</h1>
+								</div>
+							</div>
+
+							<div
+								class="container-background-shops-informationen"
+							>
+								<h1 class="DescText2">Deine Interaktionen:</h1>
+								<div
+									class="container-background-shops-Interaktionen"
+								>
+									<button
+										type="button"
+										class="Button-Option"
+										id="preisevergeben"
+									>
+										Preise vergeben
+									</button>
+									<button
+										type="button"
+										class="Button-Option"
+										id="sacheneinlagern"
+									>
+										Sachen einlagern
+									</button>
+									<button
+										type="button"
+										class="Button-Option"
+										id="sachenauslagern"
+									>
+										Sachen auslagern
+									</button>
+									<button
+										type="button"
+										class="Button-Option"
+										id="GeldAbheben"
+									>
+										Geld abheben
+									</button>
+									<button
+										type="button"
+										class="Button-Options"
+										id="verkaufshops"
+									>
+										Shop verkaufen
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="items-shops"></div>
+					<div class=""></div>
+				</div>
+				<div class="SachenEinlagern">
+					<h1 class="TitelTXT">Sachen einlagern:</h1>
+					<img
+						src="src/outline_keyboard_backspace_white_48dp.png"
+						class="backgoing"
+						alt=""
+					/>
+					<div class="strichaussen"></div>
+					<div class="strichinnen"></div>
+					<div class="container-einlagern">
+						<div class="container-einlagern-root">
+							<h1 class="text_name">Bread</h1>
+							<input
+								class="Inputt-item"
+								id="Inputt-item"
+								placeholder="0"
+							/>
+							<button class="Button-Einlagern" name="">
+								Einlagern
+							</button>
+						</div>
+					</div>
+				</div>
+				<div class="SachenAuslagern">
+					<img
+						src="src/outline_keyboard_backspace_white_48dp.png"
+						class="backgoing"
+						alt=""
+					/>
+					<h1 class="TitelTXT">Sachen auslagern:</h1>
+					<div class="strichaussen"></div>
+					<div class="strichinnen"></div>
+					<div class="container-auslagern">
+						<div class="container-auslagern-root">
+							<h1 class="text_name">Bread</h1>
+							<input
+								class="Inputt-item"
+								id="Inputt-einlagern"
+								placeholder="0"
+							/>
+							<button class="Button-Einlagern" name="">
+								Einlagern
+							</button>
+						</div>
+					</div>
+				</div>
+				<div class="Geldabheben">
+					<img
+						src="src/outline_keyboard_backspace_white_48dp.png"
+						class="backgeld"
+						alt=""
+					/>
+					<h1 class="TitelTXT2">Geld abheben:</h1>
+					<div class="strichaussen2"></div>
+					<div class="strichinnen2"></div>
+					<h1 class="TextDetails">
+						Hier kannst du das Geld abheben welches durch einkäufe
+						in deiner Tankstelle erfolgt sind. Du kannst jedoch
+						nichts einzahlen weshalb du genau gucken sollst dass du
+						nicht zu viel Abhebst
+					</h1>
+					<input
+						class="Inputt-Money"
+						id="Inputt-Money"
+						placeholder="Geld($)"
+					/>
+					<button class="geld-abheben" id="geld-abheben">
+						Abheben
+					</button>
+				</div>
+				<div class="PreiseItems">
+					<img
+						src="src/outline_keyboard_backspace_white_48dp.png"
+						class="backgoing"
+						alt=""
+					/>
+					<h1 class="TitelTXT">Preis vergeben:</h1>
+					<div class="strichaussen"></div>
+					<div class="strichinnen"></div>
+					<div class="container-preise">
+						<div class="container-itempreise">
+							<h1 class="nameofitempreis">Bread</h1>
+							<div class="container-strich"></div>
+							<input
+								class="Inputt-PreisEingeben"
+								id="Inputt-PreisEingeben"
+								placeholder="0"
+							/>
+							<button
+								class="Geld-Preismachen"
+								id="Geld-Preismachen"
+							>
+								<img
+									src="src/outline_done_white_48dp.png"
+									class="akzept"
+									alt=""
+								/>
+							</button>
+						</div>
+						<div class="container-itempreise"></div>
+					</div>
+				</div>
+				<div class="ShopVerkaufen">
+					<img
+						src="src/outline_keyboard_backspace_white_48dp.png"
+						class="backgoing"
+						alt=""
+					/>
+					<h1 class="TitelTXT">Shop verkaufen:</h1>
+					<div class="strichaussen"></div>
+					<div class="strichinnen"></div>
+					<h1 class="informationtextcontainer">
+						Die einzige möglichkeit um dein Shop zu verkaufen, ist
+						der Auktionshaus. Wähle passende optionen aus um dein
+						Shop zu verkaufen!
+					</h1>
+					<div class="linieruntertinformation"></div>
+					<select
+						class="selectfraktion"
+						name="Senden An"
+						aria-placeholder="TExt"
+					>
+						<option value="" disabled selected hidden>
+							Wähle eine Verkaufs möglichkeit aus
+						</option>
+						<option>Auktion</option>
+						<option>Sofort Kauf</option>
+					</select>
+					<select
+						class="selectfraktion2"
+						name="Senden An"
+						aria-placeholder="TExt"
+					>
+						<option value="" disabled selected hidden>
+							Zeit der Auktion / des Kaufes
+						</option>
+						<option>1h</option>
+						<option>2h</option>
+						<option>3h</option>
+						<option>4h</option>
+						<option>5h</option>
+						<option>6h</option>
+						<option>12h</option>
+						<option>24h</option>
+					</select>
+					<div class="linieruntertinformation2"></div>
+					<input
+						class="Inputt-PaymentStart"
+						id="Inputt-PaymentStart"
+						placeholder="Preis ( $ )"
+					/>
+					<button class="button-down2" id="Veröffentlichen">
+						Veröffentlichen
+					</button>
+					<div class="linieruntertinformation3"></div>
+					<h1 class="informationtextcontainer2">
+						Sobald du auf den Veröffentlichen Button drückst wird
+						dein Shop im Auktionshaus verkauft. Dieser Prozess ist
+						nicht umkehrbar, also überlege dir genau ob du diesen
+						Schritt gehen willst
+					</h1>
+				</div>
+				<div class="Tankstellen">
+					<div class="hauptseite-shops">
+						<h1 class="TitelTXT">Deine Tankstellen Übersicht:</h1>
+						<div
+							class="container-background-tankstellen-auswahl"
+							id="container-background-tankstellen-auswahl"
+						></div>
+					</div>
+					<div class="Seite-Tankstellen">
+						<h1 class="DescText" id="DescText">Tankstellen #1:</h1>
+						<div class="Container-ShopDetail">
+							<h1 class="FirmenTXT">Inhalt Tankstelle:</h1>
+							<h1 class="UmsatzTXTGeld" id="TankeLiterInit">
+								0 Liter
+							</h1>
+							<h1 class="DetailTXT">
+								Hier wird die Anzahl angezeigt die sich momentan
+								in deiner Tankstelle befindet
+							</h1>
+						</div>
+						<div class="Container-ShopDetail2">
+							<h1 class="FirmenTXT">Tankstellen Umsatz:</h1>
+							<h1
+								class="UmsatzTXTGeld"
+								id="CashCurrentTankstelle"
+							>
+								0$
+							</h1>
+							<h1 class="DetailTXT">
+								Hier wird dir der Umsatz von diesem spezifischen
+								Tankstelle angezeigt!
+							</h1>
+						</div>
+						<h1 class="Detailtxte">Benzin Verkaufs History:</h1>
+						<div class="line-unterdetail"></div>
+						<div class="container-scroll-itemselldertanke">
+							<div class="containerhistory">
+								<h1 class="itemandamount">Bread x10</h1>
+								<div class="strichabgrenzung"></div>
+								<h1 class="itemandamountmoney">100$</h1>
+								<div class="strichabgrenzung2"></div>
+								<h1 class="itemandamountzeit">
+									20:20:2000: 20:20:20
+								</h1>
+							</div>
+							<div class="containerhistory">
+								<h1 class="itemandamount">Bread x10</h1>
+								<div class="strichabgrenzung"></div>
+								<h1 class="itemandamountmoney">100$</h1>
+								<div class="strichabgrenzung2"></div>
+								<h1 class="itemandamountzeit">
+									20:20:2000: 20:20:20
+								</h1>
+							</div>
+						</div>
+
+						<div class="container-background-shops-informationen">
+							<h1 class="DescText2">Deine Interaktionen:</h1>
+							<div
+								class="container-background-shops-Interaktionen"
+							>
+								<button
+									type="button"
+									class="Button-Option1"
+									id="GeldAbhebenTanke"
+								>
+									Geld abheben
+								</button>
+								<button
+									type="button"
+									class="Button-Option1"
+									id="HolenBenzin"
+								>
+									Benzin holen
+								</button>
+								<button
+									type="button"
+									class="Button-Options1"
+									id="verkaufshops"
+								>
+									Tankstelle verkaufen
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="GeldabhebenTanke">
+					<img
+						src="src/outline_keyboard_backspace_white_48dp.png"
+						class="backgeld2"
+						alt=""
+					/>
+					<h1 class="TitelTXT2">Geld abheben:</h1>
+					<div class="strichaussen2"></div>
+					<div class="strichinnen2"></div>
+					<h1 class="TextDetails">
+						Hier kannst du das Geld abheben welches durch einkäufe
+						in deiner Tankstelle erfolgt sind. Du kannst jedoch
+						nichts einzahlen weshalb du genau gucken sollst dass du
+						nicht zu viel Abhebst
+					</h1>
+					<input
+						class="Inputt-Money"
+						id="Inputt-Money2"
+						placeholder="Geld($)"
+					/>
+					<button class="geld-abheben" id="geld-abhebentanke">
+						Abheben
+					</button>
+				</div>
+				<div class="TankeVerkaufen">
+					<img
+						src="src/outline_keyboard_backspace_white_48dp.png"
+						class="backgoing"
+						alt=""
+					/>
+					<h1 class="TitelTXT">Tankstelle verkaufen:</h1>
+					<div class="strichaussen"></div>
+					<div class="strichinnen"></div>
+					<h1 class="informationtextcontainer">
+						Die einzige möglichkeit um deine Tanke zu verkaufen, ist
+						der Auktionshaus. Wähle passende optionen aus um deine
+						Tanke zu verkaufen!
+					</h1>
+					<div class="linieruntertinformation"></div>
+					<select
+						class="selectfraktion3"
+						name="Senden An"
+						aria-placeholder="TExt"
+					>
+						<option value="" disabled selected hidden>
+							Wähle eine Verkaufs möglichkeit aus
+						</option>
+						<option>Auktion</option>
+						<option>Sofort Kauf</option>
+					</select>
+					<select
+						class="selectfraktion4"
+						name="Senden An"
+						aria-placeholder="TExt"
+					>
+						<option value="" disabled selected hidden>
+							Zeit der Auktion / des Kaufes
+						</option>
+						<option>1h</option>
+						<option>2h</option>
+						<option>3h</option>
+						<option>4h</option>
+						<option>5h</option>
+						<option>6h</option>
+						<option>12h</option>
+						<option>24h</option>
+					</select>
+					<div class="linieruntertinformation2"></div>
+					<input
+						class="Inputt-PaymentStart"
+						id="Inputt-PaymentStartTanke"
+						placeholder="Preis ( $ )"
+					/>
+					<button class="button-down2" id="VeröffentlichenTanke">
+						Veröffentlichen
+					</button>
+					<div class="linieruntertinformation3"></div>
+					<h1 class="informationtextcontainer2">
+						Sobald du auf den Veröffentlichen Button drückst wird
+						deine Tanke im Auktionshaus verkauft. Dieser Prozess ist
+						nicht umkehrbar, also überlege dir genau ob du diesen
+						Schritt gehen willst
+					</h1>
+				</div>
+				<div class="BenzinKaufen">
+					<img
+						src="src/outline_keyboard_backspace_white_48dp.png"
+						class="backgoing5"
+						alt=""
+					/>
+					<h1 class="TitelTXT">Benzin kaufen:</h1>
+					<div class="strichaussen"></div>
+					<div class="strichinnen"></div>
+					<h1 class="informationtextcontainer">
+						Dadurch das Leute von deiner Tankstelle Benzin kaufen,
+						musst du diese immer wieder auffüllen um Geld zu
+						verdienen
+					</h1>
+					<div class="linieruntertinformation"></div>
+					<h1 class="mutter-text">Liter Auswählen:</h1>
+					<h1 class="literauswählen" id="literauswählen">0 Liter</h1>
+					<div class="range-slider">
+						<input
+							type="range"
+							min="0"
+							max="5000"
+							value="0"
+							class="slider"
+						/>
+						<div class="slider-thumb"></div>
+						<div class="progress"></div>
+					</div>
+					<div class="linieruntertinformation5"></div>
+					<div class="container-map">
+						<img
+							src="src/full_map2.png"
+							class="map"
+							id="map"
+							alt=""
+						/>
+						<div class="pin1" id="pin1">
+							<div class="pin1bottom" id="pin1bottom"></div>
+						</div>
+
+						<div class="pin2" id="pin2">
+							<div class="pin2bottom" id="pin2bottom"></div>
+						</div>
+
+						<div class="pin3" id="pin3">
+							<div class="pin3bottom" id="pin3bottom"></div>
+						</div>
+
+						<div class="pin4" id="pin4">
+							<div class="pin4bottom" id="pin4bottom"></div>
+						</div>
+					</div>
+
+					<div class="linieruntertinformation6"></div>
+					<button class="button-down5" id="AuftragStarten">
+						Auftrag starten
+					</button>
+				</div>
+				<div class="Autoskaufen">
+					<h1 class="TitelTXT">Dein Autohaus:</h1>
+					<div class="strichaussen4"></div>
+					<div class="strichinnen4"></div>
+					<div class="scrollinnenline">
+						<div class="container-car-line">
+							<div class="container-picture">
+								<img
+									src="src/Screenshot_423.png"
+									class="imgpicture"
+									alt=""
+								/>
+							</div>
+							<h1 class="container-car-line-text">
+								Car Name Hund
+							</h1>
+							<h1 class="container-car-line-price">100$</h1>
+							<div class="container-car-line-textline"></div>
+							<button class="Button-Buy-Car" name="">
+								Kaufen
+							</button>
+						</div>
+						<div class="container-car-line"></div>
+						<div class="container-car-line"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="Bohrer">
+			<div class="leftlogistik"></div>
+
+			<div class="strichliniem"></div>
+			<h1 class="textbenzin">Benzin - Farming</h1>
+			<h1 class="detailtextbenzin">
+				Hover mit deiner Maus auf die Symbole um Benzin zu Farmen
+			</h1>
+			<div class="circle" id="circle"></div>
+			<div class="circle1" id="circle1"></div>
+			<div class="circle2" id="circle2"></div>
+			<div class="circle3" id="circle3"></div>
+			<div class="rechteck1"></div>
+			<div class="rechteck2"></div>
+			<div class="rechteck3"></div>
+			<div class="rechteck4"></div>
+			<div class="rechteck5"></div>
+			<div class="rechteck6"></div>
+			<div class="rechteck7"></div>
+			<div class="rechteck8"></div>
+			<img
+				src="src/outline_oil_barrel_white_48dp.png"
+				class="barrel1"
+				alt=""
+			/><img
+				src="src/outline_oil_barrel_white_48dp.png"
+				class="barrel2"
+				alt=""
+			/><img
+				src="src/outline_oil_barrel_white_48dp.png"
+				class="barrel3"
+				alt=""
+			/><img
+				src="src/outline_oil_barrel_white_48dp.png"
+				class="barrel4"
+				alt=""
+			/>
+		</div>
+		<div class="container-shop">
+			<div class="leftshop"></div>
+			<div class="rightshop"></div>
+			<h1 class="text-impounder3" id="shopnamepers">Cocktail Bar</h1>
+			<div class="line-unter3"></div>
+			<div class="streifen"></div>
+			<h1 class="text-shop">Shop - Zentrum</h1>
+			<h1 class="esctext">Drücke ESC um zu verlassen</h1>
+
+			<div class="container-rechnungdetails">
+				<h1 class="idkaufdetails">Ihre Kaufdetails:</h1>
+				<div class="line-unter5"></div>
+				<h1 class="idkaufdetails2">Informationen:</h1>
+				<div class="line-unter6"></div>
+				<div class="warenkorb-shop"></div>
+				<h1 class="idkaufdetails3">Warenkorb:</h1>
+				<div class="container-rechnungsdetails2">
+					<h1 class="steuern">Steuern:</h1>
+					<h1 class="steuern-nummer">2%</h1>
+					<div class="line-unter7"></div>
+					<h1 class="preis">Preis:</h1>
+					<h1 class="preis-nummer" id="warenkorb-2" data-value="0">
+						0$
+					</h1>
+				</div>
+				<div class="line-unter4"></div>
+				<button class="Button-Buy-Shop" name="">Kaufen</button>
+			</div>
+			<div class="container-right-line"></div>
+			<div class="insert-container-shop">
+				<div class="container-item">
+					<div class="container-bild-waren">
+						<img
+							src="src/${item.src}.png"
+							class="img-ware"
+							alt=""
+						/>
+					</div>
+
+					<h1 class="steuern2">Name:</h1>
+					<h1 class="steuern-nummer2">Vodka</h1>
+					<div class="line-unter9"></div>
+					<h1 class="preis2">Preis:</h1>
+					<h1 class="preis-nummer2" id="preis-nummer2">10$</h1>
+					<div class="untens">
+						<input
+							class="Inputt-Shop"
+							id="Inputt-Shop"
+							placeholder="0"
+						/>
+						<button
+							class="Button-addtocard"
+							name="Vodka"
+							item="casino_vodka"
+							names="10"
+							count="10000"
+							src="${item.src}"
+						>
+							Hinzufügen
+						</button>
+					</div>
+				</div>
+				<div class="container-item">
+					<div class="container-bild-waren">
+						<img
+							src="src/${item.src}.png"
+							class="img-ware"
+							alt=""
+						/>
+					</div>
+
+					<h1 class="steuern2">Name:</h1>
+					<h1 class="steuern-nummer2">Wein</h1>
+					<div class="line-unter9"></div>
+					<h1 class="preis2">Preis:</h1>
+					<h1 class="preis-nummer2" id="preis-nummer2">10$</h1>
+					<div class="untens">
+						<input
+							class="Inputt-Shop"
+							id="Inputt-Shop"
+							placeholder="0"
+						/>
+						<button
+							class="Button-addtocard"
+							name="Wein"
+							item="casino_wein"
+							names="10"
+							count="10000"
+							src="${item.src}"
+						>
+							Hinzufügen
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="Josie-Container">
+			<div class="left">
+				<div class="strich">
+					<h1 class="text">Josie</h1>
+				</div>
+			</div>
+			<div class="right">
+				<h1 class="name-anfang">Assistent - Unternehmen</h1>
+				<div class="barname"></div>
+				<div class="infobox">
+					<h1 class="text-infobox">
+						Hey, wie kann ich dir helfen. Wähle einfach eine Option
+						aus!
+					</h1>
+				</div>
+				<h1 class="esctext">Drücke ESC um zu verlassen</h1>
+				<button
+					type="button"
+					id="submitbuttonsesse"
+					class="submitbuttonseedsf"
+				>
+					Snacks Shopen?
+				</button>
+				<button type="button" id="submitjobs" class="submitjobs">
+					Jobs angucken
+				</button>
+			</div>
+		</div>
+		<div class="container-jobs">
+			<h1 class="textaktivejobs">Aktive Jobs:</h1>
+			<div class="strichinfo"></div>
+			<img
+				src="src/outline_clear_white_48dp.png"
+				class="closejobs"
+				alt=""
+			/>
+			<div class="scroll-container-jobs">
+				<div class="container-detail-job">
+					<h1 class="textdetailjob">Auftrag - Öll liefern</h1>
+					<div class="strichtxtjob"></div>
+					<button
+						type="button"
+						class="Button-Annehmen"
+						id="preisevergeben"
+					>
+						Annehmen
+					</button>
+					<h1 class="GeldFürAuftrag">100$</h1>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="index.js"></script>
+</html>

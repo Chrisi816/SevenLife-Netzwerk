@@ -1,0 +1,421 @@
+@font-face {
+	font-family: "Open Sans";
+	src: url("fonts/OpenSans-VariableFont_wdth\,wght.ttf");
+}
+@font-face {
+	font-family: "Nunito Sans";
+	src: url("fonts/NunitoSans-Regular.ttf");
+}
+@font-face {
+	font-family: "Khula";
+	src: url("fonts/Khula-Regular.ttf");
+}
+@font-face {
+	font-family: "Lato";
+	src: url("fonts/Lato-Black.ttf");
+}
+@font-face {
+	font-family: "Goldman";
+	src: url("fonts/Goldman-Regular.ttf");
+}
+@font-face {
+	font-family: "Abel";
+	src: url("fonts/Abel-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Aldrich";
+	src: url("fonts/Aldrich-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Roboto";
+	src: url("fonts/Roboto-MediumItalic.ttf");
+}
+@font-face {
+	font-family: "Khula";
+	src: url("fonts/Khula-Regular.ttf");
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+.container-background {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgb(231, 12, 154);
+	background: linear-gradient(
+		90deg,
+		rgba(231, 12, 154, 1) 0%,
+		rgba(0, 0, 0, 1) 100%
+	);
+}
+.leftlinie {
+	position: absolute;
+	height: 160vh;
+	background-color: white;
+	width: 0.2vw;
+	left: 5.3vw;
+}
+.limbotext {
+	position: absolute;
+	color: rgba(255, 255, 255, 0.463);
+	transform: rotate(270deg);
+	font-size: 5vw;
+	left: -17.2vw;
+	top: 35vh;
+	font-family: Goldman;
+}
+.container-previousplayers {
+	position: absolute;
+	height: 95vh;
+	border: 0.2vh solid rgba(128, 128, 128, 0.297);
+	background-color: rgba(26, 26, 26, 0.311);
+	width: 20vw;
+	left: 7vw;
+	top: 2vh;
+}
+.container-maincontainer {
+	position: absolute;
+	height: 65vh;
+	border: 0.2vh solid rgba(128, 128, 128, 0.297);
+	background-color: rgba(26, 26, 26, 0.311);
+	width: 70vw;
+	left: 28vw;
+	top: 10vh;
+}
+.esctext {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	right: 2.1vw;
+	top: 2.5vh;
+	letter-spacing: 0.1vw;
+	font-size: 1.1vw;
+	transform: rotate(0deg);
+	font-family: "Lato", sans-serif;
+}
+.betammount {
+	position: absolute;
+	height: 20vh;
+	border: 0.2vh solid rgba(128, 128, 128, 0.297);
+	background-color: rgba(26, 26, 26, 0.311);
+	width: 70vw;
+	left: 28vw;
+	top: 77vh;
+}
+.container-money {
+	position: absolute;
+	height: 7vh;
+	border: 0.2vh solid rgba(128, 128, 128, 0.297);
+	background-color: rgba(26, 26, 26, 0.311);
+	width: 4vw;
+	left: 28vw;
+	top: 2vh;
+}
+.money-bag {
+	position: absolute;
+	width: 2.5vw;
+	top: 1.3vh;
+	left: 0.7vw;
+}
+.money {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 33vw;
+	top: 2.3vh;
+	letter-spacing: 0.1vw;
+	font-size: 1.5vw;
+	transform: rotate(0deg);
+	font-family: "Lato", sans-serif;
+}
+.container-scroll {
+	position: absolute;
+	width: 19.5vw;
+	height: 93vh;
+	background-color: rgba(255, 0, 0, 0);
+	top: 1vh;
+	left: 0.2vw;
+	overflow-y: scroll;
+}
+.container-scroll::-webkit-scrollbar {
+	width: 0.3vw;
+}
+
+.container-scroll::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background-color: rgba(255, 255, 255, 0.294);
+}
+
+.container-scroll::-webkit-scrollbar-thumb {
+	background-color: #202020;
+	border-radius: 2vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.185) 0 3px 13px 1px;
+}
+
+.container-player {
+	position: relative;
+	display: inline-block;
+	margin-top: 1vh;
+	width: 4vw;
+	height: 7vh;
+	left: 0.4vw;
+	background: linear-gradient(
+		90deg,
+		rgba(231, 12, 154, 0.556) 0%,
+		rgba(80, 0, 63, 0.544) 100%
+	);
+	top: -1vh;
+}
+.person-img {
+	position: absolute;
+	width: 2.5vw;
+	top: 1.3vh;
+	left: 0.65vw;
+}
+.container-durch {
+	position: relative;
+	display: inline-block;
+	margin-top: 1vh;
+	width: 13.6vw;
+	height: 7vh;
+	left: 1vw;
+	background: linear-gradient(
+		90deg,
+		rgba(231, 12, 154, 0.556) 0%,
+		rgba(80, 0, 63, 0.544) 100%
+	);
+	top: -1vh;
+}
+.namegewinner {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 0.5vw;
+	top: -0.5vh;
+	letter-spacing: 0.1vw;
+	font-size: 1vw;
+	transform: rotate(0deg);
+	font-family: "Aldrich", sans-serif;
+}
+.container-multiplayer {
+	position: absolute;
+
+	width: 12.6vw;
+	height: 3vh;
+	left: 0.5vw;
+	background-color: rgba(28, 28, 28, 0.462);
+	top: 3.3vh;
+}
+.item-text-multi {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	top: -0.7vh;
+	left: 0.3vw;
+	width: 12vw;
+	text-align: center;
+	background-color: rgba(255, 0, 0, 0);
+	letter-spacing: 0.1vw;
+	font-size: 1vw;
+	transform: rotate(0deg);
+	font-family: "Aldrich", sans-serif;
+}
+.multi-maker {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 0vw;
+	width: 70vw;
+	text-align: center;
+	background-color: rgba(255, 0, 0, 0);
+	top: 12.3vh;
+	letter-spacing: 0.1vw;
+	font-size: 7.5vw;
+	transform: rotate(0deg);
+	font-family: "Lato", sans-serif;
+}
+.limbo-text-multi {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	top: 0.3vh;
+	left: 4.3vw;
+
+	text-align: center;
+	background-color: rgba(255, 0, 0, 0);
+	letter-spacing: 0.1vw;
+	font-size: 1.5vw;
+	transform: rotate(0deg);
+	font-family: "Aldrich", sans-serif;
+}
+.payment {
+	position: absolute;
+	width: 2.5vw;
+	top: 1.3vh;
+	left: 0.65vw;
+}
+.greencircle {
+	position: absolute;
+	background-color: rgb(0, 222, 0);
+	width: 1.2vw;
+	border-radius: 1vw;
+	height: 2.1vh;
+	top: 60.2vh;
+	left: 1vw;
+}
+.gameislivetext {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	top: 58.8vh;
+	left: 3.3vw;
+
+	text-align: center;
+	background-color: rgba(255, 0, 0, 0);
+	letter-spacing: 0.1vw;
+	font-size: 1vw;
+
+	font-family: "Khula", sans-serif;
+}
+.container-strichmitte {
+	position: absolute;
+	width: 0.1vw;
+	height: 18vh;
+	background-color: white;
+	left: 35vw;
+	top: 1vh;
+}
+.textwetten {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	top: 0.3vh;
+	left: 1.3vw;
+
+	text-align: center;
+	background-color: rgba(255, 0, 0, 0);
+	letter-spacing: 0.1vw;
+	font-size: 1.2vw;
+	transform: rotate(0deg);
+	font-family: "Aldrich", sans-serif;
+}
+.textwetten2 {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	top: 0.3vh;
+	left: 36.5vw;
+
+	text-align: center;
+	background-color: rgba(255, 0, 0, 0);
+	letter-spacing: 0.1vw;
+	font-size: 1.2vw;
+	transform: rotate(0deg);
+	font-family: "Aldrich", sans-serif;
+}
+.inputttitelunterschrift1 {
+	position: absolute;
+	top: 5.6vh;
+	left: 1.2vw;
+	height: 5vh;
+	width: 32vw;
+	font-family: "Aldrich", sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 1.1vw;
+	padding-left: 0.5vw;
+	text-align: left;
+	background-color: #23242754;
+	border: none;
+	color: rgb(255, 255, 255);
+
+	-webkit-appearance: none;
+	padding-top: 0.4vh;
+	outline: none;
+}
+.inputttitelunterschrift1:hover {
+	transition: color 0.6 ease;
+}
+.inputttitelunterschrift1:focus::placeholder {
+	color: transparent;
+	border: none;
+}
+.inputttitelunterschrift1::placeholder {
+	color: rgb(255, 255, 255);
+	transition: color 0.3s ease;
+}
+.btn {
+	position: absolute;
+	top: 13vh;
+	left: 1.2vw;
+	width: 21vw;
+	height: 5vh;
+	background-color: rgb(142, 0, 167);
+	border-radius: 0.2vw;
+	font-size: 1vw;
+	padding: 13px 17px;
+	border: none;
+	cursor: pointer;
+	color: white;
+	transition: color 0.2s linear, background-color 0.2s linear;
+	letter-spacing: 0.2px;
+}
+.inputttitelunterschrift2 {
+	position: absolute;
+	top: 5.6vh;
+	left: 36.4vw;
+	height: 5vh;
+	width: 32vw;
+	font-family: "Aldrich", sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 1.1vw;
+	padding-left: 0.5vw;
+	text-align: left;
+	background-color: #23242754;
+	border: none;
+	color: rgb(255, 255, 255);
+
+	-webkit-appearance: none;
+	padding-top: 0.4vh;
+	outline: none;
+}
+.inputttitelunterschrift2:hover {
+	transition: color 0.6 ease;
+}
+.inputttitelunterschrift2:focus::placeholder {
+	color: transparent;
+	border: none;
+}
+.inputttitelunterschrift2::placeholder {
+	color: rgb(255, 255, 255);
+	transition: color 0.3s ease;
+}
+.btn2 {
+	position: absolute;
+	top: 13vh;
+	left: 36.5vw;
+	width: 21vw;
+	height: 5vh;
+	background-color: rgb(142, 0, 167);
+	border-radius: 0.2vw;
+	font-size: 1vw;
+	padding: 13px 17px;
+	border: none;
+	cursor: pointer;
+	color: white;
+	transition: color 0.2s linear, background-color 0.2s linear;
+	letter-spacing: 0.2px;
+}
+.btn3 {
+	position: absolute;
+	top: 2.6vh;
+	left: 59vw;
+	width: 21vw;
+	height: 5vh;
+	background-color: rgb(142, 0, 167);
+	border-radius: 0.1vw;
+	font-size: 1.2vw;
+	padding: 13px 17px;
+	border: none;
+	cursor: pointer;
+	color: white;
+	transition: color 0.2s linear, background-color 0.2s linear;
+	letter-spacing: 0.2px;
+}

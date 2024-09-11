@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<title>Document</title>
+		<link rel="stylesheet" href="index.css" />
+	</head>
+	<body>
+		<div class="maskshop">
+			<div class="left">
+				<h1 class="headline">Masken - Shop</h1>
+				<div class="cosmetik">
+					<div class="strichoben"></div>
+					<div class="langstrich"></div>
+					<div class="strichunten"></div>
+				</div>
+				<h1 class="maske1">Maske:</h1>
+				<div class="maskenapteil">
+					<h1 class="maske3">Artikel Nummer:</h1>
+					<div class="infonummerlist">
+						<h1 class="infornummernummer" id="artikelnummer">10</h1>
+					</div>
+					<button type="button" class="button-lagerleft1"><</button>
+					<button type="button" class="button-lagerright1">></button>
+					<h1 class="maske4">Kosten: 100$</h1>
+				</div>
+				<h1 class="maske2">Maske - Variation:</h1>
+				<div class="maskenapteilvariation">
+					<h1 class="maske3">Artikel Nummer:</h1>
+					<div class="infonummerlist">
+						<h1 class="infornummernummer" id="artikelnummer2">
+							10
+						</h1>
+					</div>
+					<button type="button" class="button-lagerleft2"><</button>
+					<button type="button" class="button-lagerright2">></button>
+					<h1 class="maske4">Kosten: 100$</h1>
+				</div>
+				<button type="button" class="button-lager">Kaufen</button>
+			</div>
+		</div>
+		<div class="kleidungsladen">
+			<img src="Screenshot_354.png" class="background" alt="" />
+			<div class="lefts"></div>
+			<div class="rights"></div>
+			<div class="streifenoben"></div>
+			<div class="streifen"></div>
+			<div class="streifenunten"></div>
+			<div class="mainpage">
+				<h1 class="textkleidungsladen">Kleidungsladen</h1>
+				<div class="strichdrunter"></div>
+				<div class="container-kategorie">
+					<div class="box-auswahl" id="hut">
+						<img src="src/hat.svg" class="images" alt="" />
+					</div>
+					<div class="box-auswahl" id="torso">
+						<img src="src/jacket.svg" class="images" alt="" />
+					</div>
+					<div class="box-auswahl" id="shirt">
+						<img src="src/shirt.svg" class="images" alt="" />
+					</div>
+					<div class="box-auswahl" id="hose">
+						<img src="src/pants.svg" class="images" alt="" />
+					</div>
+					<div class="box-auswahl" id="schuhe">
+						<img src="src/shoes.svg" class="images" alt="" />
+					</div>
+					<div class="box-auswahl" id="arme">
+						<img src="src/jacket.svg" class="images" alt="" />
+					</div>
+				</div>
+				<button type="button" id="buttonoutfits" class="buttonoutfits">
+					Outfits
+				</button>
+				<div class="container-zahlen">
+					<h1 class="ganzerpreitstext">Ganzer Preis:</h1>
+					<h2 class="preistotal" id="preistotal" data-value="0">
+						$0
+					</h2>
+					<div class="listofitems"></div>
+				</div>
+				<button type="button" id="buttonkaufen" class="buttonkaufen">
+					Kaufen
+				</button>
+				<button
+					type="button"
+					id="buttonspeichern"
+					class="buttonspeichern"
+				>
+					Speichern
+				</button>
+			</div>
+			<div class="hut">
+				<div class="streifenoben1"></div>
+				<div class="streifen1"></div>
+				<div class="streifenunten1"></div>
+				<h1 class="textkleidungsladen1">Kopfbedeckung</h1>
+				<div class="strichdrunter1"></div>
+				<div class="auswahlfirst">
+					<h1 class="textinfo">Kopfbedeckung - Auswahl</h1>
+					<div class="strichdrunter2"></div>
+					<h1 class="artikelnummer">Artikel Nummer</h1>
+					<div class="infonummerlist1">
+						<h1 class="infornummernummer1" id="artikelnummerhut1">
+							0
+						</h1>
+					</div>
+					<button
+						type="button"
+						class="button-lagerleft3"
+						id="buttonhutleft1"
+					>
+						<
+					</button>
+					<button
+						type="button"
+						class="button-lagerright3"
+						id="buttonhutright1"
+					>
+						>
+					</button>
+					<h1 class="artikelnummer5">Kosten: 100$</h1>
+				</div>
+				<div class="auswahlscond">
+					<h1 class="textinfo">Kopfbedeckung - Varriante</h1>
+					<div class="strichdrunter2"></div>
+					<h1 class="artikelnummer">Artikel Nummer</h1>
+					<div class="infonummerlist1">
+						<h1 class="infornummernummer1" id="artikelnummerhut2">
+							0
+						</h1>
+					</div>
+					<button
+						type="button"
+						class="button-lagerleft3"
+						id="buttonhutleft2"
+					>
+						<
+					</button>
+					<button
+						type="button"
+						class="button-lagerright3"
+						id="buttonhutright2"
+					>
+						>
+					</button>
+					<h1 class="artikelnummer5">Kosten: 100$</h1>
+				</div>
+				<button
+					type="button"
+					id="buttonanwendenhut"
+					class="buttonanwenden"
+				>
+					Anwenden
+				</button>
+			</div>
+			<div class="torso">
+				<div class="streifenoben1"></div>
+				<div class="streifen1"></div>
+				<div class="streifenunten1"></div>
+				<h1 class="textkleidungsladen1">Torso</h1>
+				<div class="strichdrunter1"></div>
+				<div class="auswahlfirst">
+					<h1 class="textinfo">Torso - Auswahl</h1>
+					<div class="strichdrunter2"></div>
+					<h1 class="artikelnummer">Artikel Nummer</h1>
+					<div class="infonummerlist1">
+						<h1 class="infornummernummer1" id="artikelnummertorso1">
+							0
+						</h1>
+					</div>
+					<button
+						type="button"
+						class="button-lagerleft3"
+						id="buttontorsoleft1"
+					>
+						<
+					</button>
+					<button
+						type="button"
+						class="button-lagerright3"
+						id="buttontorsoright1"
+					>
+						>
+					</button>
+					<h1 class="artikelnummer5">Kosten: 100$</h1>
+				</div>
+				<div class="auswahlscond">
+					<h1 class="textinfo">Torso - Varriante</h1>
+					<div class="strichdrunter2"></div>
+					<h1 class="artikelnummer">Artikel Nummer</h1>
+					<div class="infonummerlist1">
+						<h1 class="infornummernummer1" id="artikelnummertorso2">
+							0
+						</h1>
+					</div>
+					<button
+						type="button"
+						class="button-lagerleft3"
+						id="buttontorsoleft2"
+					>
+						<
+					</button>
+					<button
+						type="button"
+						class="button-lagerright3"
+						id="buttontorsoright2"
+					>
+						>
+					</button>
+					<h1 class="artikelnummer5">Kosten: 100$</h1>
+				</div>
+				<button
+					type="button"
+					id="buttonanwendentorso"
+					class="buttonanwenden"
+				>
+					Anwenden
+				</button>
+			</div>
+			<div class="shirt">
+				<div class="streifenoben1"></div>
+				<div class="streifen1"></div>
+				<div class="streifenunten1"></div>
+				<h1 class="textkleidungsladen1">T - Shirt</h1>
+				<div class="strichdrunter1"></div>
+				<div class="auswahlfirst">
+					<h1 class="textinfo">T - Shirt - Auswahl</h1>
+					<div class="strichdrunter2"></div>
+					<h1 class="artikelnummer">Artikel Nummer</h1>
+					<div class="infonummerlist1">
+						<h1 class="infornummernummer1" id="artikelnummershirt1">
+							0
+						</h1>
+					</div>
+					<button
+						type="button"
+						class="button-lagerleft3"
+						id="buttonshirtleft1"
+					>
+						<
+					</button>
+					<button
+						type="button"
+						class="button-lagerright3"
+						id="buttonshirtright1"
+					>
+						>
+					</button>
+					<h1 class="artikelnummer5">Kosten: 100$</h1>
+				</div>
+				<div class="auswahlscond">
+					<h1 class="textinfo">T - Shirt - Varriante</h1>
+					<div class="strichdrunter2"></div>
+					<h1 class="artikelnummer">Artikel Nummer</h1>
+					<div class="infonummerlist1">
+						<h1 class="infornummernummer1" id="artikelnummershirt2">
+							0
+						</h1>
+					</div>
+					<button
+						type="button"
+						class="button-lagerleft3"
+						id="buttonshirtleft2"
+					>
+						<
+					</button>
+					<button
+						type="button"
+						class="button-lagerright3"
+						id="buttonshirtright2"
+					>
+						>
+					</button>
+					<h1 class="artikelnummer5">Kosten: 100$</h1>
+				</div>
+				<button
+					type="button"
+					id="buttonanwendenshirt"
+					class="buttonanwenden"
+				>
+					Anwenden
+				</button>
+			</div>
+			<div class="pants">
+				<div class="streifenoben1"></div>
+				<div class="streifen1"></div>
+				<div class="streifenunten1"></div>
+				<h1 class="textkleidungsladen1">Hose</h1>
+				<div class="strichdrunter1"></div>
+				<div class="auswahlfirst">
+					<h1 class="textinfo">Hose - Auswahl</h1>
+					<div class="strichdrunter2"></div>
+					<h1 class="artikelnummer">Artikel Nummer</h1>
+					<div class="infonummerlist1">
+						<h1 class="infornummernummer1" id="artikelnummerhose1">
+							0
+						</h1>
+					</div>
+					<button
+						type="button"
+						class="button-lagerleft3"
+						id="buttonhoseleft1"
+					>
+						<
+					</button>
+					<button
+						type="button"
+						class="button-lagerright3"
+						id="buttonhoseright1"
+					>
+						>
+					</button>
+					<h1 class="artikelnummer5">Kosten: 100$</h1>
+				</div>
+				<div class="auswahlscond">
+					<h1 class="textinfo">Hose - Varriante</h1>
+					<div class="strichdrunter2"></div>
+					<h1 class="artikelnummer">Artikel Nummer</h1>
+					<div class="infonummerlist1">
+						<h1 class="infornummernummer1" id="artikelnummerhose2">
+							0
+						</h1>
+					</div>
+					<button
+						type="button"
+						class="button-lagerleft3"
+						id="buttonhoseleft2"
+					>
+						<
+					</button>
+					<button
+						type="button"
+						class="button-lagerright3"
+						id="buttonhoseright2"
+					>
+						>
+					</button>
+					<h1 class="artikelnummer5">Kosten: 100$</h1>
+				</div>
+				<button
+					type="button"
+					id="buttonanwendenhose"
+					class="buttonanwenden"
+				>
+					Anwenden
+				</button>
+			</div>
+			<div class="shoes">
+				<div class="streifenoben1"></div>
+				<div class="streifen1"></div>
+				<div class="streifenunten1"></div>
+				<h1 class="textkleidungsladen1">Schuhe</h1>
+				<div class="strichdrunter1"></div>
+				<div class="auswahlfirst">
+					<h1 class="textinfo">Schuhe - Auswahl</h1>
+					<div class="strichdrunter2"></div>
+					<h1 class="artikelnummer">Artikel Nummer</h1>
+					<div class="infonummerlist1">
+						<h1
+							class="infornummernummer1"
+							id="artikelnummerschuhe1"
+						>
+							0
+						</h1>
+					</div>
+					<button
+						type="button"
+						class="button-lagerleft3"
+						id="buttonschuheleft1"
+					>
+						<
+					</button>
+					<button
+						type="button"
+						class="button-lagerright3"
+						id="buttonschuheright1"
+					>
+						>
+					</button>
+					<h1 class="artikelnummer5">Kosten: 100$</h1>
+				</div>
+				<div class="auswahlscond">
+					<h1 class="textinfo">Schuhe - Varriante</h1>
+					<div class="strichdrunter2"></div>
+					<h1 class="artikelnummer">Artikel Nummer</h1>
+					<div class="infonummerlist1">
+						<h1
+							class="infornummernummer1"
+							id="artikelnummerschuhe2"
+						>
+							0
+						</h1>
+					</div>
+					<button
+						type="button"
+						class="button-lagerleft3"
+						id="buttonschuheleft2"
+					>
+						<
+					</button>
+					<button
+						type="button"
+						class="button-lagerright3"
+						id="buttonschuheright2"
+					>
+						>
+					</button>
+					<h1 class="artikelnummer5">Kosten: 100$</h1>
+				</div>
+				<button
+					type="button"
+					id="buttonanwendenschuhe"
+					class="buttonanwenden"
+				>
+					Anwenden
+				</button>
+			</div>
+			<div class="arme">
+				<div class="streifenoben1"></div>
+				<div class="streifen1"></div>
+				<div class="streifenunten1"></div>
+				<h1 class="textkleidungsladen1">Arme</h1>
+				<div class="strichdrunter1"></div>
+				<div class="auswahlfirst">
+					<h1 class="textinfo">Arme - Auswahl</h1>
+					<div class="strichdrunter2"></div>
+					<h1 class="artikelnummer">Artikel Nummer</h1>
+					<div class="infonummerlist1">
+						<h1 class="infornummernummer1" id="artikelnummerarme1">
+							0
+						</h1>
+					</div>
+					<button
+						type="button"
+						class="button-lagerleft3"
+						id="buttonarmeleft1"
+					>
+						<
+					</button>
+					<button
+						type="button"
+						class="button-lagerright3"
+						id="buttonarmeright1"
+					>
+						>
+					</button>
+					<h1 class="artikelnummer5">Kosten: 100$</h1>
+				</div>
+				<button
+					type="button"
+					id="buttonanwendenschuhe"
+					class="buttonanwenden"
+				>
+					Anwenden
+				</button>
+			</div>
+			<div class="saveoutifit" id="focus">
+				<div class="strichlinksoben"></div>
+				<div class="strichrechtsunten"></div>
+				<div class="boxinnen"></div>
+
+				<h1 class="outfitspeicherntext">Outfit - Speichern</h1>
+				<div class="strichdrunterspeichern"></div>
+				<h1 class="outfitspeicherntextifno">
+					Du brauchst für dein Outfit einen Namen damit man diese
+					Unterscheiden kann
+				</h1>
+				<input
+					class="inputt"
+					id="inputtsoutfit"
+					placeholder="Name des Outfits"
+				/>
+				<button
+					type="button"
+					id="buttonspeichern2"
+					class="buttonspeichern2"
+				>
+					Speichern
+				</button>
+				<button
+					type="button"
+					id="buttonabbrechen"
+					class="buttonabbrechen"
+				>
+					Abbrechen
+				</button>
+			</div>
+			<div class="outfitpage">
+				<h1 class="textkleidungsladen2">Outfit - Auswahl</h1>
+				<div class="strichdrunter"></div>
+				<div class="container-outfit">
+					<div class="container-innerercontainer">
+						<h1 class="outfittext">Outfit #1</h1>
+						<button
+							type="button"
+							id="buttondelete"
+							class="buttondelete"
+						>
+							<img
+								src="src/outline_delete_white_36dp.png"
+								class="bildimgage"
+								alt=""
+							/>
+						</button>
+					</div>
+				</div>
+				<button type="button" id="buttonzurück" class="buttonzurück">
+					Zurück
+				</button>
+			</div>
+		</div>
+	</body>
+	<script src="index.js"></script>
+</html>

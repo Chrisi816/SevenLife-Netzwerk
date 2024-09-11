@@ -1,0 +1,433 @@
+@font-face {
+	font-family: "NotoSansMiao";
+	src: url("text/NotoSansMiao-Regular.ttf");
+}
+@font-face {
+	font-family: "Kanit";
+	src: url("text/Kanit-Regular.ttf");
+}
+@font-face {
+	font-family: "Lato";
+	src: url(text/Lato-Black.ttf);
+}
+.businnessapp {
+	position: absolute;
+	background-color: rgb(24, 24, 24);
+	height: 100%;
+	width: 100%;
+	top: 0vh;
+	left: 0vw;
+}
+
+.businessappraus {
+	position: absolute;
+	width: 15vw;
+	bottom: 1.5vh;
+	z-index: 50;
+	left: 3.5vw;
+	border-radius: 20vw;
+	height: 1vh;
+	z-index: 155;
+	cursor: pointer;
+	background-color: rgb(206, 206, 206);
+}
+.businesstext {
+	position: absolute;
+	width: 2.5vw;
+	left: 1.5vw;
+	top: 9vh;
+	background-color: rgba(255, 0, 0, 0);
+	height: 10vh;
+	font-family: "RobotoLight";
+	font-style: normal;
+	font-weight: 1000;
+	letter-spacing: 0.1vw;
+	font-size: 1.7vw;
+	z-index: 2;
+	line-height: 2vw;
+	text-align: left;
+	cursor: none;
+	color: #ebebe3;
+	pointer-events: none;
+}
+.bubble {
+	position: absolute;
+	width: 15vw;
+	z-index: 1;
+	top: 6vh;
+	left: -5vw;
+	height: 25vh;
+	background-color: #8e006f99;
+	border-radius: 20vw;
+}
+.imgbildbusiness {
+	position: absolute;
+	bottom: 0vh;
+	z-index: 2;
+	width: 165%;
+}
+.backgroundnice {
+	position: absolute;
+	height: 100%;
+}
+.inputt-business {
+	border: none;
+	-webkit-appearance: none;
+	position: absolute;
+	left: 2vw;
+	height: 4vh;
+	width: 16.8vw;
+	top: 34.5vh;
+	color: rgb(255, 255, 255);
+	font-family: "Khula";
+	font-style: normal;
+	padding-top: 0.5vh;
+	font-weight: 500;
+	font-size: 1vw;
+	padding-left: 0.4vw;
+	line-height: 3vh;
+	border-radius: 0.2vw;
+	resize: none;
+	z-index: 29;
+	text-align: center;
+	background-color: #20202074;
+	outline: none;
+}
+.inputt-business:hover {
+	transition: color 0.6 ease;
+	background-color: #202020b7;
+}
+.inputt-business:focus::placeholder {
+	color: transparent;
+}
+.inputt-business::placeholder {
+	color: rgb(255, 255, 255);
+	transition: color 0.3s ease;
+}
+.submitbusiness {
+	position: relative;
+	left: 2vw;
+	padding: 0.2vw;
+	top: 41vh;
+	width: 17.2vw;
+	height: 4.5vh;
+	z-index: 29;
+	font-family: "Aldrich", sans-serif;
+	font-size: 1vw;
+	background-color: rgb(196, 0, 186);
+	outline: none;
+	cursor: pointer;
+	border-radius: 0.6vw;
+	color: #ffffff;
+	border: none;
+	border-radius: 0.3vw;
+	outline: none;
+	z-index: 29;
+}
+.submitbusiness:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	background-color: rgba(87, 87, 87, 0.808);
+}
+.barobenbusiness {
+	position: absolute;
+	width: 100%;
+	height: 10vh;
+	background-color: rgb(34, 34, 34);
+}
+.leftsidebusiness {
+	position: absolute;
+	width: 8.3vw;
+	cursor: pointer;
+	background-color: rgba(153, 153, 153, 0);
+	height: 100%;
+}
+.textmitglieder {
+	position: relative;
+	font-size: 1vw;
+
+	letter-spacing: 0.1vw;
+	top: 3.7vh;
+
+	text-align: left;
+	left: 0.8vw;
+
+	font-family: "NotoSansMiao", sans-serif;
+	color: rgb(255, 255, 255);
+	font-weight: 100;
+	margin-top: 1.6vh;
+	width: 7vw;
+	line-height: 3.2vh;
+}
+
+.textmitglieder:hover {
+	border-bottom: 0.3vh solid white;
+}
+.rightsidebusiness {
+	position: absolute;
+	width: 4.9vw;
+	background-color: rgba(255, 0, 0, 0);
+	height: 100%;
+	cursor: pointer;
+	left: 8vw;
+}
+.textmitglieder2 {
+	position: relative;
+	font-size: 1vw;
+
+	letter-spacing: 0.1vw;
+	top: 3.7vh;
+
+	text-align: center;
+	left: 0.5vw;
+
+	font-family: "NotoSansMiao", sans-serif;
+	color: rgb(255, 255, 255);
+	font-weight: 100;
+	margin-top: 1.6vh;
+	width: 3.8vw;
+	line-height: 3.2vh;
+}
+
+.textmitglieder2:hover {
+	border-bottom: 0.3vh solid white;
+}
+
+.textmitglieder.activebusiness {
+	border-bottom: 0.3vh solid white;
+}
+
+.textmitglieder2.activebusiness {
+	border-bottom: 0.3vh solid white;
+}
+
+.mitglieder-scroll {
+	position: relative;
+	height: 66vh;
+	overflow-x: hidden;
+	width: 20.5vw;
+	overflow-y: scroll;
+	background-color: rgba(14, 0, 206, 0);
+	left: 0.2vw;
+	top: 11vh;
+}
+.mitglieder-scroll::-webkit-scrollbar {
+	width: 0.3vw;
+}
+
+.mitglieder-scroll::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background-color: rgba(255, 255, 255, 0.294);
+}
+
+.mitglieder-scroll::-webkit-scrollbar-thumb {
+	background-color: #202020;
+	border-radius: 2vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.185) 0 3px 13px 1px;
+}
+.logoutbusiness {
+	position: absolute;
+	width: 2vw;
+	left: 18vw;
+	top: 5vh;
+	cursor: pointer;
+}
+.container-mitgliederinsight {
+	position: relative;
+	width: 19.7vw;
+	left: 0.2vw;
+	height: 6vh;
+	margin-top: 1vh;
+	top: -1vh;
+	border-radius: 0.3vw;
+	background-color: rgb(48, 48, 48);
+}
+.nameofinsgith {
+	position: absolute;
+	font-size: 1vw;
+	background-color: rgba(255, 0, 0, 0);
+	letter-spacing: 0.1vw;
+	top: -0.2vh;
+	left: -0.5vw;
+	text-align: center;
+
+	font-family: "NotoSansMiao", sans-serif;
+	color: rgb(255, 255, 255);
+	font-weight: 100;
+	width: 18vw;
+}
+.seeifadmin {
+	position: absolute;
+	width: 2vw;
+	left: 0.5vw;
+	top: 1.1vh;
+}
+.nummerofinsight {
+	position: absolute;
+	font-size: 1vw;
+	background-color: rgba(255, 0, 0, 0);
+	letter-spacing: 0.1vw;
+	top: 2.2vh;
+	left: -1vw;
+	text-align: center;
+
+	font-family: "NotoSansMiao", sans-serif;
+	color: rgb(255, 255, 255);
+	font-weight: 100;
+	width: 18vw;
+}
+.deletefromchat {
+	position: absolute;
+	width: 2vw;
+	right: 0.5vw;
+	top: 1.2vh;
+	cursor: pointer;
+}
+.codevonchat {
+	position: absolute;
+	font-size: 1.2vw;
+	background-color: rgba(255, 0, 0, 0);
+	letter-spacing: 0.1vw;
+	top: 4.2vh;
+	left: 12.5vw;
+	text-align: center;
+
+	font-family: "NotoSansMiao", sans-serif;
+	color: rgb(255, 255, 255);
+	font-weight: 100;
+	width: 5vw;
+}
+.mitglieder-scrollbusiness {
+	position: relative;
+	height: 60vh;
+	overflow-x: hidden;
+	width: 20.5vw;
+	overflow-y: scroll;
+	background-color: rgba(14, 0, 206, 0);
+	left: 0.2vw;
+	top: 11vh;
+}
+.mitglieder-scrollbusiness::-webkit-scrollbar {
+	width: 0.3vw;
+}
+
+.mitglieder-scrollbusiness::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background-color: rgba(255, 255, 255, 0.294);
+}
+
+.mitglieder-scrollbusiness::-webkit-scrollbar-thumb {
+	background-color: #202020;
+	border-radius: 2vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.185) 0 3px 13px 1px;
+}
+.container-chatbussiness {
+	position: absolute;
+	width: 19.7vw;
+	left: 0.8vw;
+	bottom: 4.4vh;
+	border-radius: 0.4vw;
+	height: 5vh;
+	background-color: rgb(39, 39, 39);
+}
+.inputt-chatbussiness {
+	border: none;
+	-webkit-appearance: none;
+	position: absolute;
+	left: 0.3vw;
+	height: 3.5vh;
+	width: 14.8vw;
+	top: 0.8vh;
+	color: rgb(255, 255, 255);
+	font-family: "Khula";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1vw;
+	padding-left: 0.4vw;
+	line-height: 5.3vh;
+	resize: none;
+	z-index: 29;
+	text-align: left;
+	background-color: #18294500;
+	outline: none;
+}
+.inputt-chatbussiness:hover {
+	transition: color 0.6 ease;
+}
+.inputt-chatbussiness:focus::placeholder {
+	color: transparent;
+}
+.inputt-chatbussiness::placeholder {
+	color: rgb(255, 255, 255);
+	transition: color 0.3s ease;
+}
+.startnachrichtbusinnes {
+	position: relative;
+	width: 13vw;
+	height: 7vh;
+	border-radius: 0.4vw;
+	background-color: rgba(44, 44, 44, 0.716);
+	left: 3.7vw;
+	top: 0.5vh;
+}
+.starttextchatbusinnes {
+	border: none;
+	-webkit-appearance: none;
+	position: absolute;
+	left: 0.3vw;
+	height: 3.5vh;
+	width: 12.2vw;
+	top: -0.3vh;
+	color: rgb(255, 255, 255);
+	font-family: "Khula";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 0.73vw;
+	padding-left: 0.2vw;
+
+	resize: none;
+	z-index: 29;
+	text-align: center;
+	background-color: #18294500;
+	outline: none;
+}
+.meinenachrichtbusinnes {
+	position: relative;
+	width: 14vw;
+	background-color: rgba(6, 49, 0, 0.676);
+
+	left: 6vw;
+	z-index: 3;
+	min-height: 3vh;
+	margin-top: 2vh;
+	border-radius: 0.3vw;
+
+	display: flex;
+}
+.nachrichtchatbusinnes {
+	color: rgb(255, 255, 255);
+	font-family: "Khula";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 0.73vw;
+	left: 0.5vw;
+
+	margin-top: 1.2vh;
+	padding: 0.5vw;
+	padding-top: 0vh;
+	padding-left: 0.5vw;
+	flex: 1;
+}
+.seinenachrichtbusinnes {
+	position: relative;
+	width: 14vw;
+	background-color: rgba(39, 39, 39, 0.474);
+
+	left: 0.4vw;
+	z-index: 3;
+	min-height: 3vh;
+	margin-top: 2vh;
+	border-radius: 0.3vw;
+
+	display: flex;
+}

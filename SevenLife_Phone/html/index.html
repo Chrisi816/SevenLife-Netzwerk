@@ -1,0 +1,2668 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Phone by Chrisi</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.1.1/howler.min.js"
+			type="text/javascript"
+		></script>
+		<script type="module" src="nui://utk_render/script.js"></script>
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+		<link rel="stylesheet" href="css/mainphone.css" />
+		<link rel="stylesheet" href="css/phonecall.css" />
+		<link rel="stylesheet" href="css/einstellungsapp.css" />
+		<link rel="stylesheet" href="css/cryptoapp.css" />
+		<link rel="stylesheet" href="css/lifeinvader.css" />
+		<link rel="stylesheet" href="css/bank.css" />
+		<link rel="stylesheet" href="css/bil.css" />
+		<link rel="stylesheet" href="css/garage.css" />
+		<link rel="stylesheet" href="css/dispatch.css" />
+		<link rel="stylesheet" href="css/appstore.css" />
+		<link rel="stylesheet" href="css/notizen.css" />
+		<link rel="stylesheet" href="css/camera.css" />
+		<link rel="stylesheet" href="css/galerie.css" />
+		<link rel="stylesheet" href="css/sevendrop.css" />
+		<link rel="stylesheet" href="css/chatapp.css" />
+		<link rel="stylesheet" href="css/funk.css" />
+		<link rel="stylesheet" href="css/business.css" />
+	</head>
+	<body>
+		<div class="phonecontainer" id="container-phone">
+			<img
+				src="../src/samsung-s10.png"
+				class="handy-rahmen"
+				id="handy-rahmen"
+				alt=""
+				preserveAspectRatio="xMinYMin meet"
+			/>
+			<div class="phone-container" id="container-phones">
+				<div class="phone-header">
+					<div class="phone-zeit" id="phone-zeit">19.05</div>
+					<div class="icons">
+						<img
+							class="batterie"
+							src="../src/tools/batterie.png"
+							alt=""
+						/>
+						<img class="wifi" src="../src/tools/wifi.png" alt="" />
+						<img src="../src/tools/gps.png" class="gps" alt="" />
+						<img src="../src/tools/air.png" class="air" alt="" />
+					</div>
+				</div>
+				<div class="message"></div>
+				<div class="phone-hauptseite">
+					<div class="phonebackground" alt=""></div>
+
+					<div class="phone-apps ersteseite" id="apps-container">
+						<img
+							src="../src/appsymbols/call.png"
+							class="apps call"
+							alt=""
+						/>
+
+						<img
+							src="../src/appsymbols/bankAmerica.png"
+							class="apps bank"
+							alt=""
+						/>
+						<img
+							src="../src/appsymbols/bill.png"
+							class="apps bill"
+							alt=""
+						/>
+
+						<img
+							src="../src/appsymbols/garage.png"
+							class="apps garage"
+							alt=""
+						/>
+						<img
+							src="../src/appsymbols/crypto.png"
+							class="apps crypto"
+							alt=""
+						/>
+						<img
+							src="../src/appsymbols/lifeinvader11.png"
+							class="apps lifeinvader"
+							alt=""
+						/>
+						<img
+							src="../src/appsymbols/emergancy.png"
+							class="apps dispatch"
+							alt=""
+						/><img
+							src="../src/appsymbols/Notizen.png"
+							class="apps notizen"
+							alt=""
+						/><img
+							src="../src/appsymbols/galerie.png"
+							class="apps galerie"
+							alt=""
+						/>
+						<img
+							src="../src/appsymbols/appstore.png"
+							class="apps appstores"
+							alt=""
+						/>
+						<img
+							src="../src/appsymbols/Funk.png"
+							class="apps funkapps"
+							alt=""
+						/>
+						<img
+							src="../src/appsymbols/Business.png"
+							class="apps businessapp"
+							alt=""
+						/>
+						<div class="container-appsunten">
+							<img
+								src="../src/appsymbols/whatsapp.png"
+								class="appunten chatapps"
+								alt=""
+							/>
+							<img
+								src="../src/appsymbols/contacts1.png"
+								class="appunten kontakte"
+								alt=""
+							/>
+							<img
+								src="../src/appsymbols/photo.png"
+								class="appunten photo"
+								alt=""
+							/>
+							<img
+								src="../src/appsymbols/Einstellungen.png"
+								class="appunten einstellungen"
+								alt=""
+							/>
+						</div>
+					</div>
+				</div>
+				<div class="einstellungsapp" id="einstellungsapp">
+					<div class="header">
+						<h1 class="Schriftoben">Einstellungen</h1>
+					</div>
+					<div class="einstellungsmöglichkeiten">
+						<div class="möglichkeit allgemein">
+							<img
+								src="../src/tools/outline_phone_white_24dp.png"
+								class="wifizeichen"
+								alt=""
+							/>
+							<h1 class="text">Allgemein</h1>
+							<span class="beschreibungstext"> Flugmodus </span>
+							<img
+								src="../src/tools/outline_chevron_right_white_24dp.png"
+								class="arrow"
+								alt=""
+							/>
+						</div>
+						<div class="möglichkeit wlan">
+							<img
+								src="../src/tools/wifi.png"
+								class="wifizeichen"
+								alt=""
+							/>
+							<h1 class="text">Wlan</h1>
+							<span class="beschreibungstext">
+								Dein Wlan Netzwerk
+							</span>
+							<img
+								src="../src/tools/outline_chevron_right_white_24dp.png"
+								class="arrow"
+								alt=""
+							/>
+						</div>
+						<div class="möglichkeit anzeige">
+							<img
+								src="../src/tools/outline_smartphone_white_24dp.png"
+								class="wifizeichen"
+								alt=""
+							/>
+							<h1 class="text">Anzeige</h1>
+							<span class="beschreibungstext">
+								Anzeige ändern
+							</span>
+							<img
+								src="../src/tools/outline_chevron_right_white_24dp.png"
+								class="arrow"
+								alt=""
+							/>
+						</div>
+						<div class="möglichkeit hintergrund">
+							<img
+								src="../src/tools/outline_wallpaper_white_24dp.png"
+								class="wifizeichen"
+								alt=""
+							/>
+							<h1 class="text">Hintergrund</h1>
+							<span class="beschreibungstext"> Wallpaper </span>
+							<img
+								src="../src/tools/outline_chevron_right_white_24dp.png"
+								class="arrow"
+								alt=""
+							/>
+						</div>
+						<div class="möglichkeit nachrichten">
+							<img
+								src="../src/tools/outline_phonelink_erase_white_24dp.png"
+								class="wifizeichen"
+								alt=""
+							/>
+							<h1 class="text">Nachrichten</h1>
+							<span class="beschreibungstext">
+								Benachrichtigungen
+							</span>
+							<img
+								src="../src/tools/outline_chevron_right_white_24dp.png"
+								class="arrow"
+								alt=""
+							/>
+						</div>
+						<div class="möglichkeit information">
+							<img
+								src="../src/tools/outline_question_mark_white_24dp.png"
+								class="wifizeichen"
+								alt=""
+							/>
+							<h1 class="text">Informationen</h1>
+							<span class="beschreibungstext">
+								Infos übers Handy
+							</span>
+							<img
+								src="../src/tools/outline_chevron_right_white_24dp.png"
+								class="arrow"
+								alt=""
+							/>
+						</div>
+						<div class="möglichkeit credit">
+							<img
+								src="../src/tools/outline_browser_updated_white_24dp.png"
+								class="wifizeichen"
+								alt=""
+							/>
+							<h1 class="text">Credits</h1>
+							<span class="beschreibungstext">
+								Credits (Design)
+							</span>
+							<img
+								src="../src/tools/outline_chevron_right_white_24dp.png"
+								class="arrow"
+								alt=""
+							/>
+						</div>
+					</div>
+					<div class="linieunten"></div>
+				</div>
+				<div class="hintergrundapp">
+					<img
+						src="../src/tools/outline_chevron_right_white_24dp.png"
+						class="backhintergrund"
+						alt=""
+					/>
+					<h1 class="Schriftobens">Hintergründe</h1>
+					<span class="hintergrundurl">HINTERGRUND - URL</span>
+					<div class="url-container">
+						<input class="inputt" id="inputts" placeholder="URL" />
+						<button
+							type="button"
+							id="submitbuttonsese"
+							class="submitbuttonsees"
+						>
+							Bestätigen
+						</button>
+					</div>
+					<span class="hintergrundurlcustom"
+						>HINTERGRUND - EMPFOHLEN</span
+					>
+					<div class="vorgefertigtehintergründe">
+						<div class="vorgefertigt-unsichtbar">
+							<div class="background-auswähl">
+								<div class="first">
+									<img
+										src="../src/background/images.jpg"
+										class="first"
+										alt=""
+									/>
+								</div>
+							</div>
+							<div class="background-auswähl">
+								<div class="second">
+									<img
+										src="../src/background/5f847ab817e9334a7beecf4feb1dad54.jpg"
+										class="second"
+										alt=""
+									/>
+								</div>
+							</div>
+							<div class="background-auswähl">
+								<img
+									src="../src/background/screen-2.jpg"
+									class="dritte"
+									alt=""
+								/>
+							</div>
+							<div class="background-auswähl">
+								<img
+									src="../src/background/screen-4.jpg"
+									class="vierte"
+									alt=""
+								/>
+							</div>
+							<div class="background-auswähl">
+								<img
+									src="../src/background/wp2550668.jpg"
+									class="fünfte"
+									alt=""
+								/>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="allgeimeins">
+					<img
+						src="../src/tools/outline_chevron_right_white_24dp.png"
+						class="backallgemein"
+						alt=""
+					/>
+					<h1 class="Schriftobens">Allgemein</h1>
+					<span class="hintergrundurl">EINSTELLUNGEN</span>
+					<div class="allgemein-container">
+						<img
+							src="../src/tools/air.png"
+							class="wifizeichen"
+							alt=""
+						/>
+						<img
+							src="../src/tools/gps.png"
+							class="wifizeichen"
+							alt=""
+						/>
+						<img
+							src="../src/tools/call.png"
+							class="wifizeichen"
+							alt=""
+						/>
+
+						<div class="line1-allgemein"></div>
+						<div class="line2-allgemein"></div>
+						<span class="beschreibungstext2">Flugmodus </span>
+						<span class="beschreibungstext2">GPS </span>
+						<span class="beschreibungstext2">
+							Anrufe Kontakte
+						</span>
+						<h1 class="text-einstellungen">Unsichtbar</h1>
+						<h1 class="text-einstellungen">Orten</h1>
+						<h1 class="text-einstellungen">Kontakte</h1>
+						<div class="container">
+							<div class="toggle">
+								<div class="toggle-button"></div>
+							</div>
+						</div>
+						<div class="container-gps">
+							<div class="toggle-gps">
+								<div class="toggle-button-gps"></div>
+							</div>
+						</div>
+						<div class="container-kontakte">
+							<div class="toggle-kontakte">
+								<div class="toggle-button-kontakte"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="wlans">
+					<img
+						src="../src/tools/outline_chevron_right_white_24dp.png"
+						class="backwlan"
+						alt=""
+					/>
+					<h1 class="Schriftobens">Wlan</h1>
+					<div class="einstellungsmöglichs">
+						<span class="hintergrundurl2">EINSTELLUNGEN</span>
+						<div class="allgemein-container2">
+							<img
+								src="../src/tools/wifi.png"
+								class="wifizeichen1"
+								alt=""
+							/>
+							<h1 class="text-einstellungen2">Wlan</h1>
+							<span class="beschreibungstext3">
+								Wlan Aktivieren
+							</span>
+							<div class="container-wlan">
+								<div class="toggle-wlan">
+									<div class="toggle-button-wlan"></div>
+								</div>
+							</div>
+						</div>
+						<span class="hintergrundurl3">NETZWERK</span>
+						<div class="allgemein-container3">
+							<img
+								src="../src/tools/wifi.png"
+								class="wifizeichen1"
+								alt=""
+							/>
+							<h1 class="text-einstellungen2">Wlan</h1>
+							<span class="beschreibungstext3">
+								Registriert
+							</span>
+							<h1 class="mainnetzwerk">7net</h1>
+						</div>
+					</div>
+				</div>
+				<div class="anzeiges">
+					<img
+						src="../src/tools/outline_chevron_right_white_24dp.png"
+						class="backanzeige"
+						alt=""
+					/>
+					<h1 class="Schriftobens">Anzeige</h1>
+					<div class="einstellungsmöglichse">
+						<div class="möglichkeitens">
+							<h1 class="text-klein">Links & Rechts</h1>
+							<div class="range">
+								<div class="sliderValue">
+									<span class="spannig">100</span>
+								</div>
+								<div class="field">
+									<div class="value left">0</div>
+									<input
+										class="inputig"
+										type="range"
+										min="0"
+										max="100"
+										value="100"
+										steps="3"
+									/>
+									<div class="value right">100</div>
+								</div>
+							</div>
+							<button
+								type="button"
+								id="submitbuttonsese"
+								class="submitbuttonseese"
+							>
+								Bestätigen
+							</button>
+						</div>
+						<div class="möglichkeitens">
+							<h1 class="text-klein">Oben & Unten</h1>
+							<div class="range">
+								<div class="sliderValue">
+									<span class="spannige">100</span>
+								</div>
+								<div class="field">
+									<div class="value left">0</div>
+									<input
+										class="inputige"
+										type="range"
+										min="0"
+										max="100"
+										value="100"
+										steps="3"
+									/>
+									<div class="value right">100</div>
+								</div>
+							</div>
+							<button
+								type="button"
+								id="submitbuttonsese"
+								class="submitbuttonseeses"
+							>
+								Bestätigen
+							</button>
+						</div>
+						<div class="möglichkeitens">
+							<h1 class="text-klein">Größe</h1>
+							<div class="range">
+								<div class="sliderValue">
+									<span class="spanniges">100</span>
+								</div>
+								<div class="field">
+									<div class="value left">50</div>
+									<input
+										class="inputiges"
+										id="inputiges"
+										type="range"
+										min="50"
+										max="100"
+										value="100"
+										steps="3"
+									/>
+									<div class="value right">100</div>
+								</div>
+							</div>
+							<button
+								type="button"
+								id="submitbuttonsese"
+								class="submitbuttonseesese"
+							>
+								Bestätigen
+							</button>
+						</div>
+					</div>
+				</div>
+				<div class="credits">
+					<img
+						src="../src/tools/outline_chevron_right_white_24dp.png"
+						class="backcred"
+						alt=""
+					/>
+					<h1 class="Schriftobens">Credits</h1>
+					<div class="einstellungsmöglichses">
+						<div class="möglichkeiteness">
+							<h1 class="text-oben">Credits und Infos</h1>
+							<span class="infos">
+								<p class="big">Designer:</p>
+								Chrisi // ꧁☬ℭ𝔥𝔯𝔦𝔰𝔦☬꧂#6411
+								<p class="big">Programmierer:</p>
+								Chrisi // ꧁☬ℭ𝔥𝔯𝔦𝔰𝔦☬꧂#6411
+								<p class="big">Tester:</p>
+								Patrick // vAzoniq#8038
+								<p class="big">Besitzer:</p>
+								Noxans UG // SevenLifeRP // Chrisi //
+								꧁☬ℭ𝔥𝔯𝔦𝔰𝔦☬꧂#6411
+							</span>
+						</div>
+						<div class="möglichkeitenesse">
+							<span class="infose">
+								Wer diese Ressource DUMPT oder anderweitig auf
+								nicht legale Art bekommt und diese auf einen
+								Server packt, inwelchem mögliche Kontakt
+								Informationen verändert wurden worden sind macht
+								sicht Strafbar. Ohne eine Erlaubnis der Noxans
+								UG darf diese Ressource nirgends aufgezeigt
+								werden, anderseits werden rechtliche Wege
+								eingeleitet.
+							</span>
+						</div>
+					</div>
+				</div>
+				<div class="nachrichtens">
+					<img
+						src="../src/tools/outline_chevron_right_white_24dp.png"
+						class="backnachricht"
+						alt=""
+					/>
+					<h1 class="Schriftobens">Nachrichten</h1>
+					<div class="einstellungsmöglichsese">
+						<span class="hintergrundurl23">EINSTELLUNGEN</span>
+
+						<div class="möglichkeitenaktivieren">
+							<img
+								src="../src/tools/msg.png"
+								class="wifizeichennachrichtenaktivieren"
+								alt=""
+							/>
+
+							<h1 class="text-einstellungen3">Push -</h1>
+							<span class="beschreibungstext"> Nachrichten </span>
+							<div class="container-push">
+								<div class="toggle-push">
+									<div class="toggle-button-push"></div>
+								</div>
+							</div>
+						</div>
+						<span class="hintergrundurl234">LAUTSTÄRKE</span>
+						<div class="möglichkeitens5">
+							<h1 class="text-klein">Lautstärke (Call)</h1>
+							<div class="range">
+								<div class="sliderValue">
+									<span class="spannigese">50</span>
+								</div>
+								<div class="field">
+									<div class="value left">0</div>
+									<input
+										class="inputigese"
+										type="range"
+										min="0"
+										max="100"
+										value="50"
+										steps="3"
+									/>
+									<div class="value right">100</div>
+								</div>
+							</div>
+							<button
+								type="button"
+								id="submitbuttonsese"
+								class="submitbuttonseeseses"
+							>
+								Bestätigen
+							</button>
+						</div>
+						<span class="hintergrundurl2345">AUSWAHL</span>
+						<div class="möglichkeitense">
+							<div class="töneunsichtbaer">
+								<div class="töne 1sound">
+									<h1 class="tontext">Blue(Da Ba Dee)</h1>
+									<img
+										src="../src/tools/check.png"
+										class="check 1check"
+										alt=""
+									/>
+								</div>
+								<div class="töne 2sound">
+									<h1 class="tontext">Bum Bum Bum</h1>
+									<img
+										src="../src/tools/check.png"
+										class="check 2check"
+										alt=""
+									/>
+								</div>
+								<div class="töne 3sound">
+									<h1 class="tontext">Despacito</h1>
+									<img
+										src="../src/tools/check.png"
+										class="check 3check"
+										alt=""
+									/>
+								</div>
+								<div class="töne 4sound">
+									<h1 class="tontext">Highway to Hell</h1>
+									<img
+										src="../src/tools/check.png"
+										class="check 4check"
+										alt=""
+									/>
+								</div>
+								<div class="töne 5sound">
+									<h1 class="tontext">Faded</h1>
+									<img
+										src="../src/tools/check.png"
+										class="check 5check"
+										alt=""
+									/>
+								</div>
+								<div class="töne 6sound">
+									<h1 class="tontext">Grüner Tee</h1>
+									<img
+										src="../src/tools/check.png"
+										class="check 6check"
+										alt=""
+									/>
+								</div>
+								<div class="töne 7sound">
+									<h1 class="tontext">
+										Fortnite Floss Sound
+									</h1>
+									<img
+										src="../src/tools/check.png"
+										class="check 7check"
+										alt=""
+									/>
+								</div>
+								<div class="töne 8sound">
+									<h1 class="tontext">Okey Let's Go</h1>
+									<img
+										src="../src/tools/check.png"
+										class="check 8check"
+										alt=""
+									/>
+								</div>
+								<div class="töne 9sound">
+									<h1 class="tontext">BangBang</h1>
+									<img
+										src="../src/tools/check.png"
+										class="check 9check"
+										alt=""
+									/>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="informations">
+					<img
+						src="../src/tools/outline_chevron_right_white_24dp.png"
+						class="backinformation"
+						alt=""
+					/>
+					<h1 class="Schriftobens">Informationen</h1>
+					<div class="einstellungsmöglichses">
+						<div class="möglichkeiteness">
+							<h1 class="text-oben">Handy Informationen</h1>
+							<span class="infos">
+								<p class="big">7L Version:</p>
+								1.0.1
+								<p class="big">Modell:</p>
+								Samsung p20s
+								<p class="big">Build Nummer:</p>
+								12.0.0.220(C432QE5ER6P2ST)
+								<p class="big">Prozessor:</p>
+								7L Turbo Kirin 810
+								<p class="big">RAM:</p>
+								12,0 GB
+							</span>
+						</div>
+					</div>
+				</div>
+				<div class="callapp" id="calling">
+					<div class="obenlinie">
+						<h1 class="texttelefon">Telefon</h1>
+					</div>
+					<div class="containernummer">
+						<span class="nummer" id="nummer"></span>
+						<button type="button" class="buttonnumber" id="1ziffer">
+							1
+						</button>
+						<button type="button" class="buttonnumber" id="2ziffer">
+							2
+						</button>
+						<button type="button" class="buttonnumber" id="3ziffer">
+							3
+						</button>
+						<button type="button" class="buttonnumber" id="4ziffer">
+							4
+						</button>
+						<button type="button" class="buttonnumber" id="5ziffer">
+							5
+						</button>
+						<button type="button" class="buttonnumber" id="6ziffer">
+							6
+						</button>
+						<button type="button" class="buttonnumber" id="7ziffer">
+							7
+						</button>
+						<button type="button" class="buttonnumber" id="8ziffer">
+							8
+						</button>
+						<button type="button" class="buttonnumber" id="9ziffer">
+							9
+						</button>
+						<button
+							type="button"
+							class="buttonnumber"
+							id="outziffer"
+						>
+							#
+						</button>
+						<button type="button" class="buttonnumber" id="0ziffer">
+							0
+						</button>
+						<button
+							type="button"
+							class="buttonnumber"
+							id="doutziffer"
+						>
+							*
+						</button>
+						<button type="button" class="buttonnumber" id="bin">
+							<img
+								class="bin"
+								src="../src/tools/bin.png"
+								alt=""
+							/>
+						</button>
+						<button type="button" class="buttonnumber" id="calls">
+							<img
+								class="calling"
+								src="../src/tools/calling.png"
+								alt=""
+							/>
+						</button>
+						<button type="button" class="buttonnumber" id="last">
+							<img
+								class="back"
+								src="../src/tools/back.png"
+								alt=""
+							/>
+						</button>
+					</div>
+					<div class="containerunten">
+						<div class="containerunteninfos">
+							<span class="auswahl telefon" id="telefon">
+								Telefon
+							</span>
+							<span class="auswahl letzte"> Letzte </span>
+							<span class="auswahl kontakteses"> Kontakte </span>
+						</div>
+					</div>
+					<div class="calloutunten"></div>
+				</div>
+				<div class="kontaktes">
+					<div class="obenlinie">
+						<h1 class="texttelefon">Kontakte</h1>
+					</div>
+					<img
+						src="../src/tools/outline_add_white_24dp.png"
+						class="add"
+						alt=""
+					/>
+					<div class="containeruntens">
+						<div class="scroll">
+							<div class="EigeneNummer">
+								<h1 class="eigenenummertext">Meine Nummer</h1>
+								<div class="eigenenummerstrich"></div>
+								<div class="eigenenummercontainer">
+									<img
+										src="../src/appsymbols/contacts1.png"
+										class="contactbild"
+										alt=""
+									/>
+									<h2
+										class="nummerse"
+										id="nummers"
+										number="0"
+									>
+										9293-3020200
+									</h2>
+									<img
+										src="../src/tools/airdrop.png"
+										class="dropair"
+										alt=""
+									/>
+								</div>
+							</div>
+							<div class="vips">
+								<h1 class="viptext">VIP's</h1>
+								<div class="vipanzahl" id="vipanzahl">0</div>
+								<div class="VIPstrich"></div>
+								<div class="vipcontainerall"></div>
+							</div>
+							<div class="Kontaktese">
+								<h1 class="kontaktetext">Meine Kontakte</h1>
+								<div class="kontaktanzahl" id="kontaktanzahl">
+									0
+								</div>
+								<div class="kontakestrich"></div>
+								<div class="kontakteall"></div>
+							</div>
+						</div>
+						<div class="containerunteninfoss">
+							<span class="auswahl telefon" id="telefon">
+								Telefon
+							</span>
+							<span class="auswahl letzte"> Letzte </span>
+							<span class="auswahl kontaktese"> Kontakte </span>
+						</div>
+					</div>
+					<div class="calloutuntens"></div>
+				</div>
+				<div class="einspeichern" id="removeeinspeichern">
+					<div class="topdiv">
+						<img
+							src="../src/tools/outline_add_white_24dp.png"
+							class="backtomain"
+							alt=""
+						/>
+						<h1 class="neuerkontakt">Neuer Kontakt</h1>
+					</div>
+					<div class="firstcontainer">
+						<img
+							src="../src/appsymbols/contacts1.png"
+							class="profilbildcall"
+							alt=""
+						/>
+					</div>
+					<div class="container-bottom">
+						<h1 class="textinformation">Informationen</h1>
+
+						<input
+							class="inputtname"
+							id="nameeinste"
+							placeholder="Name"
+						/>
+						<input
+							class="Inputtnummer"
+							id="telefonnummer"
+							placeholder="Telefonnummer"
+						/>
+						<h1 class="biotext">Biographie</h1>
+						<textarea
+							maxlength="110"
+							autofocus
+							id="Inputtfieldall"
+							class="Inputtfield"
+						></textarea>
+
+						<button
+							type="button"
+							id="SubmitNummer"
+							class="SubmitNummer"
+						>
+							Bestätigen
+						</button>
+					</div>
+				</div>
+				<div class="container-talephoto" id="container-talephoto">
+					<img
+						src="../src/tools/outline_add_white_24dp.png"
+						class="backtomainzwei"
+						alt=""
+					/>
+					<div class="container-downloko">
+						<button
+							type="button"
+							id="SubmitGalarie"
+							class="SubmitGalarie"
+						>
+							Aus Galarie Auswählen
+						</button>
+						<div class="strich-downloko"></div>
+						<input
+							class="InputtURL"
+							id="inputturl"
+							placeholder="Profilbild URL"
+						/>
+						<button type="button" id="SubmitURL" class="SubmitURL">
+							Bestätigen
+						</button>
+					</div>
+				</div>
+				<div class="seitecall">
+					<div class="phonebackgrounds" alt=""></div>
+					<div class="backgroundbild">
+						<div class="left12"></div>
+						<div class="right12"></div>
+					</div>
+				</div>
+				<div class="letztese">
+					<div class="obenlinie">
+						<h1 class="textkontaktemissed">Verlauf</h1>
+					</div>
+					<div class="containeruntense">
+						<div class="containerunteninfose">
+							<span class="auswahl telefon" id="telefon">
+								Telefon
+							</span>
+							<span class="auswahl letztes"> Letzte </span>
+							<span class="auswahl kontakteses"> Kontakte </span>
+						</div>
+					</div>
+					<div class="calloutuntense"></div>
+				</div>
+				<div class="Lifeinvader">
+					<div class="normaleleiste">
+						<div class="obensleiste">
+							<img
+								src="../src/appsymbols/lifeinvader11.png"
+								class="logo"
+								alt=""
+							/>
+							<div class="logotext">
+								Life<strong>invader</strong>
+							</div>
+							<img
+								src="../src/tools/outline_account_circle_white_24dp.png"
+								class="logoaccount"
+								alt=""
+							/>
+						</div>
+						<div class="firstsseite">
+							<h1 class="werbungsfeedtext">Werbungs-Feed</h1>
+							<div class="firstseite"></div>
+						</div>
+						<div class="werbungschalten">
+							<h1 class="werbungsfeedtext">Werbung schalten</h1>
+						</div>
+						<div class="top-liveinvader">
+							<h1 class="werbungsfeedtext">Top-Werbung</h1>
+							<div class="liveinvadertop"></div>
+						</div>
+						<div class="werbungschalten">
+							<h1 class="werbungsfeedtext">Werbung schalten</h1>
+							<textarea
+								maxlength="30"
+								autofocus
+								id="inputtwasdsese"
+								class="inputtwasdsee"
+								name="description"
+							>
+							</textarea>
+							<textarea
+								maxlength="150"
+								autofocus
+								id="inputtwasdses"
+								class="inputtwasdse"
+								name="description"
+							>
+							</textarea>
+							<div class="buttons-container">
+								<div class="buttonses" id="eoffentlich">
+									<h1 class="names">Öffentlich</h1>
+								</div>
+								<div class="buttonse" id="anonym">
+									<h1 class="names">Anonym</h1>
+								</div>
+							</div>
+							<button
+								type="button"
+								id="submitbuttonsese"
+								class="submitbuttonseesesesse"
+							>
+								Absenden
+							</button>
+						</div>
+						<div class="leisteunten">
+							<button id="submit-btns" class="submit-btnses">
+								Werbung
+							</button>
+							<button id="submit-btne" class="submit-btnses">
+								Top-Feed
+							</button>
+							<button id="submit-btnd" class="submit-btnses">
+								Schalten
+							</button>
+						</div>
+					</div>
+					<div class="anmeldeleiste">
+						<div class="obensleiste">
+							<img
+								src="../src/appsymbols/lifeinvader11.png"
+								class="logo"
+								alt=""
+							/>
+							<div class="logotext">
+								Life<strong>invader</strong>
+							</div>
+							<img
+								src="../src/tools/back.png"
+								class="backs"
+								alt=""
+							/>
+						</div>
+						<h1 class="erstelleeinenAccount">Account Erstellen</h1>
+						<img
+							src="../src/appsymbols/contacts1.png"
+							class="profilbild"
+							alt=""
+						/>
+						<input
+							class="inputtwse"
+							id="icon"
+							placeholder="Profilbild URL"
+						/>
+						<input
+							class="inputtws"
+							id="benutzer"
+							placeholder="Benutzername"
+						/>
+						<input
+							class="inputts"
+							id="passwort"
+							placeholder="Passwort"
+						/>
+						<button
+							type="button"
+							id="submitbuttonsese"
+							class="submitbuttonseesesess"
+						>
+							Bestätigen
+						</button>
+					</div>
+					<div class="calloutuntenses"></div>
+				</div>
+				<div class="cryptos">
+					<div class="background"></div>
+					<div class="loginseite">
+						<img
+							src="../src/appsymbols/crypto.png"
+							class="loginsymbol"
+							alt=""
+						/>
+						<h1 class="crypto-name">CRYPTONIC</h1>
+						<input
+							class="inputbenutzer"
+							id="inputbenutzer"
+							placeholder="Benutzername"
+						/>
+						<input
+							type="password"
+							class="inputps"
+							id="inputps"
+							placeholder="Passwort"
+						/>
+						<button
+							type="button"
+							id="submitbuttonsese"
+							class="SubmitbuttonLoginCrypto"
+						>
+							Bestätigen
+						</button>
+						<h1 class="account-create-text">Noch kein Account?</h1>
+						<div class="word"></div>
+						<div class="calloutuntensess"></div>
+					</div>
+					<div class="registerseite">
+						<img
+							src="../src/appsymbols/crypto.png"
+							class="loginsymbol"
+							alt=""
+						/>
+						<h1 class="crypto-name">CRYPTONIC</h1>
+						<h1 class="register">Registrieren</h1>
+						<input
+							class="inputbenutzerregist"
+							id="inputbenutzerregist"
+							placeholder="Benutzername"
+						/>
+						<input
+							type="password"
+							class="inputpsregist"
+							id="inputpsregist"
+							placeholder="Passwort"
+						/>
+						<button
+							type="button"
+							id="submitbuttonseseregister"
+							class="SubmitbuttonRegisterCrypto"
+						>
+							Bestätigen
+						</button>
+						<h1 class="account-anmelde-text">Anmelden?</h1>
+						<div class="word"></div>
+					</div>
+					<div class="hauptseite-crypto"></div>
+					<div class="loadingsitecrypto">
+						<div class="container-animationtext">
+							<div class="row">
+								<div class="col-md-12 text-center">
+									<h3 class="animate-charcter">Loading..</h3>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="youdonthaveanaccount">
+						<img
+							src="../src/tools/outline_question_mark_white_24dp.png"
+							class="question"
+							alt=""
+						/>
+						<h1 class="error">Fehler</h1>
+						<span class="text-erroe">
+							Account nicht vorhanden
+						</span>
+						<p id="demo"></p>
+					</div>
+					<div class="walletdidntexists">
+						<img
+							src="../src/tools/outline_question_mark_white_24dp.png"
+							class="question"
+							alt=""
+						/>
+						<h1 class="error">Fehler</h1>
+						<span class="text-erroe"> Wallet nicht vorhanden </span>
+						<p id="demos"></p>
+					</div>
+					<div class="zuwenigmoney">
+						<img
+							src="../src/tools/outline_question_mark_white_24dp.png"
+							class="question"
+							alt=""
+						/>
+						<h1 class="error">Fehler</h1>
+						<span class="text-erroe"> Zu wenig Coins </span>
+						<p id="demoss"></p>
+					</div>
+					<div class="erfolg">
+						<img
+							src="../src/tools/outline_question_mark_white_24dp.png"
+							class="question"
+							alt=""
+						/>
+						<h1 class="error">Success</h1>
+						<span class="text-erroe"> Transfer erfolgreich </span>
+						<p id="demosss"></p>
+					</div>
+					<div class="youhaveannacccount">
+						<img
+							src="../src/tools/outline_question_mark_white_24dp.png"
+							class="question"
+							alt=""
+						/>
+						<h1 class="error">Fehler</h1>
+						<span class="text-erroe">
+							Du hast schon ein Account
+						</span>
+						<p id="demo"></p>
+					</div>
+					<div class="deashboard">
+						<h1 class="text-deashboard">Dashboard</h1>
+						<h1 class="texthey" id="texthey">Hallo Christian</h1>
+						<span class="text-kontostand">
+							Dein Wallet Stand:
+						</span>
+						<div class="slider-container">
+							<div class="slider-arrows-parent">
+								<div class="sliders">
+									<div class="element">
+										<h1 class="coinname">BITCOIN :</h1>
+										<h1 class="wallet-stand" id="bitcoin">
+											0.00
+										</h1>
+										<h1 class="name-coin">BTC</h1>
+										<h2 class="wachstum">0.00%</h2>
+
+										<h3 class="transaktion btctrans">X</h3>
+									</div>
+									<div class="element">
+										<h1 class="coinname">ETHEREUM :</h1>
+										<h1 class="wallet-stand" id="ether">
+											0.00
+										</h1>
+										<h1 class="name-coin">ETH</h1>
+										<h2 class="wachstum">0.00%</h2>
+
+										<h3 class="transaktion ethtrans">X</h3>
+									</div>
+									<div class="element">
+										<h1 class="coinname">SEVENCOIN :</h1>
+										<h1 class="wallet-stand">0.00</h1>
+										<h1 class="name-coin">SVC</h1>
+										<h2 class="wachstum">0.00%</h2>
+
+										<h3 class="transaktion seventrans">
+											X
+										</h3>
+									</div>
+								</div>
+								<div class="arrows left">«</div>
+								<div class="arrows right">»</div>
+							</div>
+						</div>
+						<div class="unten-crypto">
+							<span class="walletadress"> Wallet Address : </span>
+							<h1 class="addres">OLJJUWWCFGGCSKOQMMGL</h1>
+							<h1 class="texteqr">
+								QR - Code zum Scannen (Funktioniert wirklich)
+							</h1>
+							<img
+								src="../src/tools/frame.png"
+								class="qrcode"
+								alt=""
+							/>
+						</div>
+						<div class="transbtc">
+							<div class="background-transaktion"></div>
+							<h1 class="überschrift-trans">
+								Hier kannst du deine Kryptos Transferieren
+							</h1>
+							<input
+								class="Inputt-Wallet"
+								id="btcinput1"
+								placeholder="Wallet Addresse"
+							/>
+							<input
+								class="Inputt-wieviel"
+								id="btcinput2"
+								placeholder="Menge"
+							/>
+							<button
+								type="button"
+								id="submitbuttonsese"
+								class="Submit-Wallet btcsubmit"
+							>
+								Bestätigen
+							</button>
+						</div>
+						<div class="transeth">
+							<div class="background-transaktion"></div>
+							<h1 class="überschrift-trans">
+								Hier kannst du deine Kryptos Transferieren
+							</h1>
+							<input
+								class="Inputt-Wallet"
+								id="inputts ethinput1"
+								placeholder="Wallet Addresse"
+							/>
+							<input
+								class="Inputt-wieviel"
+								id="inputts ethinput2"
+								placeholder="Menge"
+							/>
+							<button
+								type="button"
+								id="submitbuttonsese"
+								class="Submit-Wallet ethsubmit"
+							>
+								Bestätigen
+							</button>
+						</div>
+						<h1 class="sign">©Cryptonic 2021 - 2022</h1>
+						<div class="removebarunten"></div>
+					</div>
+					<div class="transseven">
+						<div class="background-transaktion"></div>
+						<h1 class="überschrift-trans">
+							Hier kannst du deine Kryptos Transferieren
+						</h1>
+						<input
+							class="Inputt-Wallet"
+							id="inputts seveninput1"
+							placeholder="Wallet Addresse"
+						/>
+						<input
+							class="Inputt-wieviel"
+							id="inputts seveninput2"
+							placeholder="Menge"
+						/>
+						<button
+							type="button"
+							id="submitbuttonsese"
+							class="Submit-Wallet sevensubmit"
+						>
+							Bestätigen
+						</button>
+					</div>
+				</div>
+				<div class="bankapp">
+					<div class="appbankback"></div>
+					<div class="kreditkarte-appbank">
+						<img
+							src="../src/tools/wifi.png"
+							class="empfang-bank"
+							alt=""
+						/>
+						<img
+							src="../src/tools/Mastercard_2019_logo.svg.png"
+							class="mastercard"
+							alt=""
+						/>
+						<img
+							src="../src/appsymbols/bankAmerica.png"
+							class="bank-image"
+							alt=""
+						/>
+						<h1 class="guthaben-text">Guthaben</h1>
+						<h2 class="guthaben-zahl" id="guthabenon">0$</h2>
+					</div>
+					<img
+						src="../src/tools/Info_Simple.svg.png"
+						class="info-symbol"
+						alt=""
+					/>
+					<h1 class="geldinfo">Geld möglicherweise nicht gesynct</h1>
+					<div class="unten-display">
+						<h1 class="ueberweisungen">Überweisungen</h1>
+						<img
+							src="../src/tools/outline_trending_up_white_24dp.png"
+							class="uptrend"
+							alt=""
+						/>
+						<img
+							src="../src/tools/outline_trending_up_white_24dp.png"
+							class="uptrendrechts"
+							alt=""
+						/>
+						<input
+							class="inputt-anzahl"
+							id="geldanzahl"
+							placeholder="Anzahl"
+						/>
+						<input
+							class="inputt-Iban"
+							id="iban"
+							placeholder="IBAN"
+						/>
+						<button type="button" class="submit-ueberweisung">
+							Bestätigen
+						</button>
+						<h1 class="copyright-chrisi">@CopyRight by Chrisi</h1>
+					</div>
+					<div class="baruntens"></div>
+				</div>
+				<div class="bill-app">
+					<div class="upper">
+						<img
+							src="../src/tools/outline_attach_money_white_36dp.png"
+							class="money"
+							alt=""
+						/>
+						<h1 class="text-rechnungen">Rechnungen</h1>
+					</div>
+					<h1 class="übersichttextbill">Übersicht</h1>
+					<div class="middleinstrument">
+						<h1 class="nummer-bill" id="notpaid">0</h1>
+						<h1 class="texts-bill">Nicht Bezahlt</h1>
+						<div class="strich-bill"></div>
+						<h1 class="nummer-bill1" id="paidnummber">0</h1>
+						<h1 class="texts-bill1">Bezahlt</h1>
+						<div class="strich-bill1"></div>
+						<h1 class="nummer-bill2" id="overdue">0</h1>
+						<h1 class="texts-bill2">Verbindlich - keiten</h1>
+					</div>
+					<div class="unten-containers">
+						<h1 class="rechnungtext">Deine Rechnungen:</h1>
+						<div class="untenbills">
+							<div class="container-bill-app">
+								<img
+									src="../src/appsymbols/bill.png"
+									class="imgscript"
+									alt=""
+								/>
+								<h1 class="resoun-bill">Mechaniker</h1>
+								<h1 class="titel-bill">
+									Mechaniker Tuning Auto
+								</h1>
+								<h1 class="haumany">10000$</h1>
+							</div>
+							<div class="container-bill-app">
+								<img
+									src="../src/appsymbols/bill.png"
+									class="imgscript"
+									alt=""
+								/>
+								<h1 class="resoun-bill">Mechaniker</h1>
+								<h1 class="titel-bill">
+									Mechaniker Tuning Auto
+								</h1>
+								<h1 class="haumany">10000$</h1>
+							</div>
+							<div class="container-bill-app">
+								<img
+									src="../src/appsymbols/bill.png"
+									class="imgscript"
+									alt=""
+								/>
+								<h1 class="resoun-bill">Mechaniker</h1>
+								<h1 class="titel-bill">
+									Mechaniker Tuning Auto
+								</h1>
+								<h1 class="haumany">10000$</h1>
+							</div>
+							<div class="container-bill-app">
+								<img
+									src="../src/appsymbols/bill.png"
+									class="imgscript"
+									alt=""
+								/>
+								<h1 class="resoun-bill">Mechaniker</h1>
+								<h1 class="titel-bill">
+									Mechaniker Tuning Auto
+								</h1>
+								<h1 class="haumany">10000$</h1>
+							</div>
+						</div>
+					</div>
+					<div class="bardown"></div>
+				</div>
+				<div class="appgarage" id="appgarage">
+					<div class="firstsite" id="firstsitecar">
+						<img
+							src="../src/background/car.jpg"
+							class="backgroundfirstsite"
+							alt=""
+						/>
+						<h1 class="garagetext">Garage</h1>
+						<h1 class="garageappstartet">App Startet..</h1>
+						<div class="lds-ellipsis">
+							<div></div>
+							<div></div>
+							<div></div>
+							<div></div>
+						</div>
+					</div>
+					<div class="secondsite" id="secondsite">
+						<div
+							class="backgroundsecondsite"
+							id="backgroundsecondsite"
+						></div>
+						<div class="obenleistecar"></div>
+						<h1 class="garagetext1">Garagen - Auto Ortung</h1>
+						<h1 class="autosdeinetext">Deine Autos:</h1>
+						<div class="scroller"></div>
+					</div>
+					<div class="baruntencar"></div>
+				</div>
+				<div class="appstore" id="appstore">
+					<div class="firstscreen">
+						<div class="topbar"></div>
+						<h1 class="textfivemstore">
+							Willkommen im Next Gen Fivem Store
+						</h1>
+						<div class="middelcornerinfo">
+							<img
+								class="middelbild"
+								src="../src/tools/baseline_shopping_bag_white_24dp.png"
+								alt=""
+							/>
+							<h1 class="middeltext">
+								Stöbere durch 10+ Apps welche dich in deinem
+								Leben bereichern werden. Drücke auf den Button
+								um los zu legen
+							</h1>
+							<button class="button-submit-middel">
+								Starten
+							</button>
+						</div>
+						<img
+							class="imgsevenlife"
+							src="../src/tools/sevenlife.png"
+							alt=""
+						/>
+						<h1 class="copyright-text">
+							© 2022 | NOXANS | GERMANY
+						</h1>
+					</div>
+					<div class="hauptscreen">
+						<div class="hauptseitenhaupt">
+							<h1 class="vorschlagentext">Vorgeschlagen:</h1>
+							<div class="featured-1">
+								<img
+									class="twitterlogo"
+									src="../src/appsymbols/Twitter.png"
+									alt=""
+								/>
+							</div>
+							<div class="featured-2">
+								<img
+									class="twitterlogo"
+									src="../src/background/539157-garagenemblem-mit-motorradkette-vektor.jpg"
+									alt=""
+								/>
+							</div>
+						</div>
+						<div class="allappsdownload">
+							<h1 class="vorschlagentext1">Apps:</h1>
+							<div class="container-appdownload">
+								<div class="container-appcontainerdownload">
+									<h1 class="twitter-container-text">
+										Twitter
+									</h1>
+									<img
+										src="../src/appsymbols/Twitter.png"
+										class="logo-container-app"
+										alt=""
+									/>
+									<div class="container-downloadbutton">
+										<img
+											src="../src/tools/baseline_download_done_white_48dp.png"
+											class="download-img"
+											alt=""
+										/>
+									</div>
+									<img
+										src="../src/tools/outline_sync_white_48dp.png"
+										alt=""
+										class="sync"
+									/>
+								</div>
+							</div>
+						</div>
+						<div class="topbarhaupt">
+							<img
+								src="../src/tools/outline_keyboard_return_white_36dp.png"
+								class="back-appstore"
+								alt=""
+							/>
+							<input
+								class="inputt-searchapp"
+								id="inputts-searchapp"
+								placeholder="Apps Suchen"
+								onkeyup="searchanimApps()"
+							/>
+							<img
+								class="search-img"
+								src="../src/tools/baseline_search_white_48dp.png"
+								alt=""
+							/>
+						</div>
+						<div class="barunten">
+							<div class="section" id="sections1"></div>
+							<div class="section" id="sections2"></div>
+							<div class="section" id="sections3"></div>
+
+							<img
+								src="../src/tools/baseline_featured_play_list_white_48dp.png"
+								alt=""
+								class="img-featured-1"
+							/>
+							<h1 class="img-featured-1-text">Vorgeschlagen</h1>
+							<img
+								src="../src/tools/baseline_download_done_white_48dp.png"
+								alt=""
+								class="img-featured-2"
+							/>
+							<h1 class="img-featured-2-text">Apps</h1>
+							<img
+								src="../src/tools/baseline_apps_white_48dp.png"
+								alt=""
+								class="img-featured-3"
+							/>
+							<h1 class="img-featured-3-text">Installiert</h1>
+						</div>
+						<div class="installedapps">
+							<h1 class="vorschlagentext1">Installiert:</h1>
+							<div class="container-appdownload2">
+								<div class="container-appcontainerdownload2">
+									<h1 class="twitter-container-text1">
+										Twitter
+									</h1>
+									<img
+										src="../src/appsymbols/Twitter.png"
+										class="logo-container-app1"
+										alt=""
+									/>
+									<div class="container-downloadbutton1">
+										<img
+											src="../src/tools/outline_clear_white_48dp.png"
+											class="download-img1"
+											alt=""
+										/>
+									</div>
+									<img
+										src="../src/tools/outline_sync_white_48dp.png"
+										alt=""
+										class="sync"
+									/>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="dispatchapp">
+					<div class="topbardispatch"></div>
+					<div class="dispachbarunten"></div>
+					<div class="frontpage-dispatch">
+						<div class="dispatchuntenbox">
+							<div class="firstdispatchbox"></div>
+							<div class="sekonddispatchbox"></div>
+							<h1 class="text-dispatch1">Dispatch</h1>
+							<h1 class="text-dispatch2">Fraktionen</h1>
+							<img
+								src="../src/tools/outline_smartphone_white_24dp.png"
+								class="dispatchappbild"
+								alt=""
+							/>
+							<img
+								src="../src/tools/airdrop.png"
+								class="dispatchappbild2"
+								alt=""
+							/>
+						</div>
+						<div class="großkreismitte1"></div>
+						<div class="großkreismitte2">
+							<img
+								src="../src/tools/outline_add_white_24dp.png"
+								alt=""
+								class="dispatchplus"
+							/>
+						</div>
+					</div>
+					<div class="frontpage-alldispatches">
+						<h1 class="dispatches-text">Aktive Dispatches:</h1>
+						<div class="dispatch-barunten"></div>
+						<div class="scroll-dispatch">
+							<div class="container-dispatchstatus">
+								<div class="box-container-info">
+									<img
+										src="../src/tools/info.png"
+										class="infozeichen"
+										alt=""
+									/>
+								</div>
+								<h1 class="text-dispach">Lak Scho ya Kalb</h1>
+								<h1 class="infotextdispatch">
+									Lorem ipsum dolor sit amet, consetetur
+									sadipscing elitr, sed diam nonumy eirmod
+									tempor invidunt ut labore et dolore magna
+									aliquyam erat, sed diam voluptua. At vero
+									eos et accusam et justo duo dolores et ea
+									rebum.
+								</h1>
+								<h1 class="statustext2">Nicht Angenommen</h1>
+								<h1 class="InfoFraktion">LSPD</h1>
+							</div>
+							<div class="container-dispatchstatus">
+								<div class="box-container-info">
+									<img
+										src="../src/tools/info.png"
+										class="infozeichen"
+										alt=""
+									/>
+								</div>
+								<h1 class="text-dispach">Lak Scho ya Kalb</h1>
+								<h1 class="infotextdispatch">
+									Lorem ipsum dolor sit amet, consetetur
+									sadipscing elitr, sed diam nonumy eirmod
+									tempor invidunt ut labore et dolore magna
+									aliquyam erat, sed diam voluptua. At vero
+									eos et accusam et justo duo dolores et ea
+									rebum.
+								</h1>
+								<h1 class="statustext2">Nicht Angenommen</h1>
+								<h1 class="InfoFraktion">LSPD</h1>
+							</div>
+							<div class="container-dispatchstatus">
+								<div class="box-container-info">
+									<img
+										src="../src/tools/info.png"
+										class="infozeichen"
+										alt=""
+									/>
+								</div>
+								<h1 class="text-dispach">Lak Scho ya Kalb</h1>
+								<h1 class="infotextdispatch">
+									Lorem ipsum dolor sit amet, consetetur
+									sadipscing elitr, sed diam nonumy eirmod
+									tempor invidunt ut labore et dolore magna
+									aliquyam erat, sed diam voluptua. At vero
+									eos et accusam et justo duo dolores et ea
+									rebum.
+								</h1>
+								<h1 class="statustext2">Nicht Angenommen</h1>
+								<h1 class="InfoFraktion">LSPD</h1>
+							</div>
+						</div>
+					</div>
+					<div class="writeadispatch" id="writeadispatch">
+						<img
+							src="../src/tools/outline_chevron_right_white_24dp.png"
+							class="backdispatchhaupt"
+							alt=""
+						/>
+						<h1 class="dispatchsendentext">Dispatch Senden</h1>
+						<input
+							class="inputttiteldispatch"
+							maxlength="20"
+							id="inputttiteldispatch"
+							placeholder="Titel"
+						/>
+						<textarea
+							maxlength="215"
+							autofocus
+							id="iputt-descriptiondispatch"
+							class="iputt-descriptiondispatch"
+							name="Description Dispatch"
+							placeholder="Beschreibung deines Problems"
+						></textarea>
+						<select
+							class="selectfraktion"
+							name="Senden An"
+							aria-placeholder="TExt"
+						>
+							<option value="" disabled selected hidden>
+								Wähle eine Staatsfraktion aus
+							</option>
+							<option>LSPD</option>
+							<option>LSMC</option>
+							<option>Mechanic</option>
+						</select>
+						<button class="button-senddispatch">Senden</button>
+					</div>
+					<div class="fraktionen-seite">
+						<h1 class="dispatches-text2">
+							Nummern der Fraktionen:
+						</h1>
+						<div class="dispatch-barunten2"></div>
+						<div class="pageinnen-dispatch">
+							<div class="box-container-info2">
+								<img
+									src="../src/tools/info.png"
+									class="infozeichen2"
+									alt=""
+								/>
+							</div>
+
+							<div class="box-container-info2">
+								<img
+									src="../src/tools/info.png"
+									class="infozeichen2"
+									alt=""
+								/>
+							</div>
+
+							<div class="box-container-info2">
+								<img
+									src="../src/tools/info.png"
+									class="infozeichen2"
+									alt=""
+								/>
+							</div>
+							<h1 class="textfraktion-dispatch">LSPD</h1>
+							<h1 class="textfraktion-dispatch">LSMC</h1>
+							<h1 class="textfraktion-dispatch">Mechanic</h1>
+							<h1 class="textfraktion-dispatchnummer">991</h1>
+							<h1 class="textfraktion-dispatchnummer">992</h1>
+							<h1 class="textfraktion-dispatchnummer">888</h1>
+						</div>
+					</div>
+				</div>
+				<div class="notizenapp">
+					<div class="notizenappunten"></div>
+					<div class="topbarnotizen">
+						<h1 class="notizentext">Notizen</h1>
+						<img
+							src="../src/tools/outline_add_white_24dp.png"
+							class="toolsaddnotizen"
+							alt=""
+						/>
+
+						<div class="container-notizen">
+							<div class="container-notizen-root">
+								<div class="container-notizen-root-oben">
+									<input
+										class="inputttitel-notizen"
+										maxlength="20"
+										id="inputttitel-notizen"
+										oninput="check()"
+										placeholder="Titel der Notiz"
+									/>
+									<textarea
+										maxlength="700"
+										autofocus
+										id="inputt-beschreibung"
+										class="inputt-beschreibung"
+										name="Description Dispatch"
+										oninput="check2()"
+										placeholder="Beschreibung deiner Notiz"
+									></textarea>
+									<img
+										src="../src/tools/bin.png"
+										class="binnotizen"
+										alt=""
+									/><img
+										src="../src/tools/outline_save_white_48dp.png"
+										class="savenotizen"
+										alt=""
+									/>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="cameraapp">
+					<div class="camerabild" id="camerabild"></div>
+					<canvas id="camerabild2"></canvas>
+					<div class="circle_takepicture2"></div>
+					<div class="circle-takepictureinnen"></div>
+					<div class="circle_takepicture"></div>
+
+					<div class="umdrehencamera"></div>
+					<div class="umdrehencamerainnen"></div>
+
+					<div class="lichtcamera"></div>
+					<div class="lichtcamerainnen"></div>
+					<div class="cameraappraus"></div>
+
+					<img
+						src="../src/tools/baseline_collections_white_48dp.png"
+						class="photo_flip"
+						alt=""
+					/>
+					<img
+						src="../src/tools/baseline_lightbulb_white_48dp.png"
+						class="photo_lightbulp"
+						alt=""
+					/>
+				</div>
+				<div class="galerieapp">
+					<div class="galerieappraus"></div>
+					<div class="mainpagegalerie">
+						<div class="barobengalerie">
+							<h1 class="galerientext">Galerie</h1>
+							<img
+								src="../src/tools/baseline_collections_white_48dp.png"
+								class="img-galerie"
+								alt=""
+							/>
+						</div>
+						<div class="scrollcontainergalerie">
+							<div class="picturesquere">
+								<img
+									src="https://cdn.discordapp.com/attachments/1067523701635035227/1067850807766171718/screenshot.jpg"
+									alt=""
+									class="img-pictue"
+								/>
+							</div>
+							<div class="picturesquere">
+								<img
+									src="https://cdn.discordapp.com/attachments/1067523701635035227/1067850807766171718/screenshot.jpg"
+									alt=""
+									class="img-pictue"
+								/>
+							</div>
+							<div class="picturesquere">
+								<img
+									src="https://cdn.discordapp.com/attachments/1067523701635035227/1067850807766171718/screenshot.jpg"
+									alt=""
+									class="img-pictue"
+								/>
+							</div>
+						</div>
+					</div>
+					<div class="größerpage">
+						<div class="baroben-galerie">
+							<img
+								src="../src/tools/outline_info_white_48dp.png"
+								class="information-galerie"
+								alt=""
+							/>
+							<h1 class="datum-galerie" id="datum-galerie">
+								2023-01-24 20:19:50
+							</h1>
+							<img
+								src="../src/tools/outline_arrow_back_white_48dp.png"
+								class="information-back"
+								alt=""
+							/>
+						</div>
+						<div class="img-container-mgrößer">
+							<img
+								src="https://cdn.discordapp.com/attachments/1067523701635035227/1067874659325976636/screenshot.jpg"
+								alt=""
+								class="img-fullview"
+							/>
+						</div>
+
+						<div class="barunten-galerie">
+							<div class="container-interaktion-bild">
+								<img
+									src="../src/tools/outline_reply_white_48dp.png"
+									class="share"
+									alt=""
+								/><img
+									src="../src/tools/outline_delete_outline_white_48dp.png"
+									class="deleteimage"
+									alt=""
+								/>
+								<h1 class="text-beschreibung-galerie-löschen">
+									Löschen
+								</h1>
+								<h1 class="text-beschreibung-galerie-teilen">
+									Sevendrop
+								</h1>
+								<div class="container-löschen"></div>
+								<div class="container-teilen"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="chatapp">
+					<div class="containerübersichtoben">
+						<div class="containerauswahl">
+							<div
+								class="auswahlkete auswahl1 active"
+								id="auswahl1"
+							>
+								<h1 class="kategorieinfos">Chats</h1>
+							</div>
+							<div class="auswahlkete auswahl2" id="auswahl2">
+								<h1 class="kategorieinfos">Status</h1>
+							</div>
+						</div>
+						<div class="containerübersichtobenzweiterteil"></div>
+						<input
+							type="text"
+							class="textsearch"
+							id="textsearch"
+							placeholder="Namen Eingeben.."
+							onkeyup="searchanimasauslager()"
+						/>
+					</div>
+					<div class="detailweiß"></div>
+					<div class="chatseite">
+						<img
+							src="../src/tools/baseline_search_white_48dp.png"
+							class="searchplayer"
+							alt=""
+						/>
+						<h1 class="textallechat">Alle Chats</h1>
+						<div class="scroll-chats">
+							<div class="container-chat-scroll">
+								<div class="profilbild">
+									<img
+										src="https://cdn.discordapp.com/attachments/1067523701635035227/1076611137484902441/screenshot.jpg"
+										class="imgprofil"
+										alt=""
+									/>
+								</div>
+								<h1 class="eingespeichertername">
+									Christian Espasito
+								</h1>
+								<h1 class="letztenachricht">
+									Hey Chrisi, wie gehts dir? Lange nichts mehr
+									von dir gehört!
+								</h1>
+							</div>
+							<div class="container-chat-scroll">
+								<div class="profilbild">
+									<img
+										src="https://cdn.discordapp.com/attachments/1067523701635035227/1076611137484902441/screenshot.jpg"
+										class="imgprofil"
+										alt=""
+									/>
+								</div>
+								<h1 class="eingespeichertername">
+									Christian Espasito
+								</h1>
+								<h1 class="letztenachricht">
+									Hey Chrisi, wie gehts dir? Lange nichts mehr
+									von dir gehört!
+								</h1>
+							</div>
+							<div class="container-chat-scroll">
+								<div class="profilbild">
+									<img
+										src="https://cdn.discordapp.com/attachments/1067523701635035227/1076611137484902441/screenshot.jpg"
+										class="imgprofil"
+										alt=""
+									/>
+								</div>
+								<h1 class="eingespeichertername">
+									Christian Espasito
+								</h1>
+								<h1 class="letztenachricht">
+									Hey Chrisi, wie gehts dir? Lange nichts mehr
+									von dir gehört!
+								</h1>
+							</div>
+							<div class="container-chat-scroll">
+								<div class="profilbild">
+									<img
+										src="https://cdn.discordapp.com/attachments/1067523701635035227/1076611137484902441/screenshot.jpg"
+										class="imgprofil"
+										alt=""
+									/>
+								</div>
+								<h1 class="eingespeichertername">
+									Christian Espasito
+								</h1>
+								<h1 class="letztenachricht">
+									Hey Chrisi, wie gehts dir? Lange nichts mehr
+									von dir gehört!
+								</h1>
+							</div>
+							<div class="container-chat-scroll">
+								<div class="profilbild">
+									<img
+										src="https://cdn.discordapp.com/attachments/1067523701635035227/1076611137484902441/screenshot.jpg"
+										class="imgprofil"
+										alt=""
+									/>
+								</div>
+								<h1 class="eingespeichertername">
+									Christian Espasito
+								</h1>
+								<h1 class="letztenachricht">
+									Hey Chrisi, wie gehts dir? Lange nichts mehr
+									von dir gehört!
+								</h1>
+							</div>
+							<div class="container-chat-scroll">
+								<div class="profilbild">
+									<img
+										src="https://cdn.discordapp.com/attachments/1067523701635035227/1076611137484902441/screenshot.jpg"
+										class="imgprofil"
+										alt=""
+									/>
+								</div>
+								<h1 class="eingespeichertername">
+									Christian Espasito
+								</h1>
+								<h1 class="letztenachricht">
+									Hey Chrisi, wie gehts dir? Lange nichts mehr
+									von dir gehört!
+								</h1>
+							</div>
+							<div class="container-chat-scroll">
+								<div class="profilbild">
+									<img
+										src="https://cdn.discordapp.com/attachments/1067523701635035227/1076611137484902441/screenshot.jpg"
+										class="imgprofil"
+										alt=""
+									/>
+								</div>
+								<h1 class="eingespeichertername">
+									Christian Espasito
+								</h1>
+								<h1 class="letztenachricht">
+									Hey Chrisi, wie gehts dir? Lange nichts mehr
+									von dir gehört!
+								</h1>
+							</div>
+							<div class="container-chat-scroll">
+								<div class="profilbild">
+									<img
+										src="https://cdn.discordapp.com/attachments/1067523701635035227/1076611137484902441/screenshot.jpg"
+										class="imgprofil"
+										alt=""
+									/>
+								</div>
+								<h1 class="eingespeichertername">
+									Christian Espasito
+								</h1>
+								<h1 class="letztenachricht">
+									Hey Chrisi, wie gehts dir? Lange nichts mehr
+									von dir gehört!
+								</h1>
+							</div>
+							<div class="container-chat-scroll">
+								<div class="profilbild">
+									<img
+										src="https://cdn.discordapp.com/attachments/1067523701635035227/1076611137484902441/screenshot.jpg"
+										class="imgprofil"
+										alt=""
+									/>
+								</div>
+								<h1 class="eingespeichertername">
+									Christian Espasito
+								</h1>
+								<h1 class="letztenachricht">
+									Hey Chrisi, wie gehts dir? Lange nichts mehr
+									von dir gehört!
+								</h1>
+							</div>
+							<div class="container-chat-scroll">
+								<div class="profilbild">
+									<img
+										src="https://cdn.discordapp.com/attachments/1067523701635035227/1076611137484902441/screenshot.jpg"
+										class="imgprofil"
+										alt=""
+									/>
+								</div>
+								<h1 class="eingespeichertername">
+									Christian Espasito
+								</h1>
+								<h1 class="letztenachricht">
+									Hey Chrisi, wie gehts dir? Lange nichts mehr
+									von dir gehört!
+								</h1>
+							</div>
+							<div class="container-chat-scroll">
+								<div class="profilbild">
+									<img
+										src="https://cdn.discordapp.com/attachments/1067523701635035227/1076611137484902441/screenshot.jpg"
+										class="imgprofil"
+										alt=""
+									/>
+								</div>
+								<h1 class="eingespeichertername">
+									Christian Espasito
+								</h1>
+								<h1 class="letztenachricht">
+									Hey Chrisi, wie gehts dir? Lange nichts mehr
+									von dir gehört!
+								</h1>
+							</div>
+							<div class="container-chat-scroll">
+								<div class="profilbild">
+									<img
+										src="https://cdn.discordapp.com/attachments/1067523701635035227/1076611137484902441/screenshot.jpg"
+										class="imgprofil"
+										alt=""
+									/>
+								</div>
+								<h1 class="eingespeichertername">
+									Christian Espasito
+								</h1>
+								<h1 class="letztenachricht">
+									Hey Chrisi, wie gehts dir? Lange nichts mehr
+									von dir gehört!
+								</h1>
+							</div>
+							<div class="container-chat-scroll">
+								<div class="profilbild">
+									<img
+										src="https://cdn.discordapp.com/attachments/1067523701635035227/1076611137484902441/screenshot.jpg"
+										class="imgprofil"
+										alt=""
+									/>
+								</div>
+								<h1 class="eingespeichertername">
+									Christian Espasito
+								</h1>
+								<h1 class="letztenachricht">
+									Hey Chrisi, wie gehts dir? Lange nichts mehr
+									von dir gehört!
+								</h1>
+							</div>
+							<div class="container-chat-scroll">
+								<div class="profilbild">
+									<img
+										src="https://cdn.discordapp.com/attachments/1067523701635035227/1076611137484902441/screenshot.jpg"
+										class="imgprofil"
+										alt=""
+									/>
+								</div>
+								<h1 class="eingespeichertername">
+									Christian Espasito
+								</h1>
+								<h1 class="letztenachricht">
+									Hey Chrisi, wie gehts dir? Lange nichts mehr
+									von dir gehört!
+								</h1>
+							</div>
+							<div class="container-chat-scroll">
+								<div class="profilbild">
+									<img
+										src="https://cdn.discordapp.com/attachments/1067523701635035227/1076611137484902441/screenshot.jpg"
+										class="imgprofil"
+										alt=""
+									/>
+								</div>
+								<h1 class="eingespeichertername">
+									Christian Espasito
+								</h1>
+								<h1 class="letztenachricht">
+									Hey Chrisi, wie gehts dir? Lange nichts mehr
+									von dir gehört!
+								</h1>
+							</div>
+							<div class="container-chat-scroll">
+								<div class="profilbild">
+									<img
+										src="https://cdn.discordapp.com/attachments/1067523701635035227/1076611137484902441/screenshot.jpg"
+										class="imgprofil"
+										alt=""
+									/>
+								</div>
+								<h1 class="eingespeichertername">
+									Christian Espasito
+								</h1>
+								<h1 class="letztenachricht">
+									Hey Chrisi, wie gehts dir? Lange nichts mehr
+									von dir gehört!
+								</h1>
+							</div>
+							<div class="container-chat-scroll">
+								<div class="profilbild">
+									<img
+										src="https://cdn.discordapp.com/attachments/1067523701635035227/1076611137484902441/screenshot.jpg"
+										class="imgprofil"
+										alt=""
+									/>
+								</div>
+								<h1 class="eingespeichertername">
+									Christian Espasito
+								</h1>
+								<h1 class="letztenachricht">
+									Hey Chrisi, wie gehts dir? Lange nichts mehr
+									von dir gehört!
+								</h1>
+							</div>
+							<div class="container-chat-scroll">
+								<div class="profilbild">
+									<img
+										src="https://cdn.discordapp.com/attachments/1067523701635035227/1076611137484902441/screenshot.jpg"
+										class="imgprofil"
+										alt=""
+									/>
+								</div>
+								<h1 class="eingespeichertername">
+									Christian Espasito
+								</h1>
+								<h1 class="letztenachricht">
+									Hey Chrisi, wie gehts dir? Lange nichts mehr
+									von dir gehört!
+								</h1>
+							</div>
+						</div>
+						<div class="addcontact">
+							<img
+								src="../src/tools/outline_add_white_48dp.png"
+								class="addplayer"
+								alt=""
+							/>
+						</div>
+						<div class="chatappraus"></div>
+					</div>
+					<div class="statusseite">
+						<h1 class="meinstatus">Mein Status:</h1>
+						<div class="containerownstory">
+							<div class="container-addstatus">
+								<img
+									src="../src/tools/outline_add_white_48dp.png"
+									class="addzeichen"
+									alt=""
+								/>
+							</div>
+							<h1 class="nameofmyself" id="nameofmyself">
+								Christian Espasito
+							</h1>
+							<h1 class="infotextstory">
+								Klicke hier um eine Story zu erstellen
+							</h1>
+						</div>
+						<h1 class="anderestatus">Chat Status:</h1>
+						<div class="scroll-status">
+							<div class="containerownstory2">
+								<div class="container-addstatusfremder">
+									<img
+										src="../src/tools/13547334191038217.png"
+										class="imgspieler"
+										alt=""
+									/>
+								</div>
+								<h1 class="nameofmyself">Christian Espasito</h1>
+								<h1 class="infotextstory">11 Uhr</h1>
+							</div>
+							<div class="containerownstory2">
+								<div class="container-addstatusfremder">
+									<img
+										src="../src/tools/13547334191038217.png"
+										class="imgspieler"
+										alt=""
+									/>
+								</div>
+								<h1 class="nameofmyself">Christian Espasito</h1>
+								<h1 class="infotextstory">11 Uhr</h1>
+							</div>
+						</div>
+						<div class="chatappraus"></div>
+					</div>
+					<div class="Addchat">
+						<img
+							src="../src/tools/outline_keyboard_return_white_36dp.png"
+							class="backtofrontchat"
+							alt=""
+						/>
+						<h1 class="textallechat">Wähle Kontakte aus:</h1>
+						<div class="scroll-chats addkontektescoll">
+							<div class="container-chat-scroll addkontakt">
+								<div class="profilbild">
+									<img
+										src="https://cdn.discordapp.com/attachments/1067523701635035227/1076611137484902441/screenshot.jpg"
+										class="imgprofil"
+										alt=""
+									/>
+								</div>
+								<h1 class="eingespeichertername">
+									Christian Espasito
+								</h1>
+								<h1 class="letztenachricht">
+									Hey there! I'm playing on SevenLife RP
+								</h1>
+							</div>
+						</div>
+						<div class="chatappraus"></div>
+					</div>
+					<div class="schreibenseite">
+						<div class="baroben">
+							<img
+								src="../src/tools/outline_arrow_back_white_48dp.png"
+								class="gobackfromchat"
+								alt=""
+							/>
+							<img
+								src="https://cdn.discordapp.com/attachments/1067523701635035227/1076611137484902441/screenshot.jpg"
+								class="profilbildchat"
+								id="profilbildchat"
+								alt=""
+							/>
+							<img
+								src="../src/tools/outline_video_call_white_48dp.png"
+								alt=""
+								class="videocall"
+							/>
+							<h1 class="chatname" id="chatname">
+								Chrisi Espasito
+							</h1>
+							<img
+								src="../src/tools/baseline_phone_white_48dp.png"
+								class="anrufen"
+								alt=""
+							/>
+						</div>
+						<div
+							class="container-scroll-nachrichten"
+							id="containerscrollnachrichtennachunte"
+						>
+							<div class="startnachricht">
+								<h1 class="starttextchat">
+									Das hier ist der beginnt des Chats. Chats
+									sind Ende zu Ende Verschlüsselt.
+								</h1>
+							</div>
+							<div class="meinenachricht">
+								<div class="nachrichtchat">
+									Hallo, wie geht es dir?
+								</div>
+							</div>
+							<div class="seinenachricht">
+								<div class="nachrichtchat">
+									Guten Tag! Mir geht es gut, vielen Dank. Wie
+									kann ich dir helfen?
+								</div>
+							</div>
+
+							<div class="meinenachrichtimg">
+								<img
+									src="https://cdn.discordapp.com/attachments/1067523701635035227/1090725293012041848/screenshot.jpg"
+									class="imginnen"
+									alt=""
+								/>
+							</div>
+							<div class="seinenachrichtimg">
+								<img
+									src="https://cdn.discordapp.com/attachments/1067523701635035227/1090725293012041848/screenshot.jpg"
+									class="imginnen"
+									alt=""
+								/>
+							</div>
+						</div>
+						<div class="baruntenchat">
+							<div class="container-mikrophone">
+								<img
+									src="../src/tools/outline_format_align_justify_black_48dp.png"
+									class="micinit"
+									alt=""
+								/>
+							</div>
+							<div class="moredetails">
+								<img
+									src="../src/tools/outline_keyboard_voice_black_48dp.png"
+									class="makeaudio"
+									alt=""
+								/>
+								<div class="grenzstrich"></div>
+								<img
+									src="../src/tools/outline_photo_camera_black_48dp.png"
+									class="makephoto"
+									id="makephoto"
+									alt=""
+								/>
+							</div>
+							<div class="container-chat">
+								<input
+									type="text"
+									class="inputt-chat"
+									id="inputtchat"
+									maxlength="250"
+									placeholder="Nachricht eingeben..."
+								/>
+							</div>
+						</div>
+					</div>
+					<div class="imgauswahl">
+						<div class="mainpagegalerie">
+							<div class="barobengalerie2">
+								<h1 class="galerientext2">Foto Auswählen</h1>
+								<img
+									src="../src/tools/outline_arrow_back_white_48dp.png"
+									class="backtochat"
+									alt=""
+								/>
+								<img
+									src="../src/tools/outline_done_white_48dp.png"
+									class="acceptimagessend"
+									alt=""
+								/>
+							</div>
+						</div>
+						<div class="scrollcontainergalerie2"></div>
+					</div>
+					<div class="imgauswahl2">
+						<div class="mainpagegalerie">
+							<div class="barobengalerie2">
+								<h1 class="galerientext2">Foto Auswählen</h1>
+								<img
+									src="../src/tools/outline_arrow_back_white_48dp.png"
+									class="backtochat2"
+									alt=""
+								/>
+								<img
+									src="../src/tools/outline_done_white_48dp.png"
+									class="acceptimagessend2"
+									alt=""
+								/>
+							</div>
+						</div>
+						<div class="scrollcontainergalerie3"></div>
+					</div>
+					<div class="showstory">
+						<div class="KastenLoadingVerarbeiter3">
+							<div class="bar-out3">
+								<div class="bar-in3" id="bar-in3"></div>
+							</div>
+						</div>
+						<img
+							src="https://cdn.discordapp.com/attachments/1067523701635035227/1091446803515330580/screenshot.jpg"
+							class="insertimgstory"
+							id="insertimgstory"
+							alt=""
+						/>
+					</div>
+					<div class="VideoCallStarter">
+						<canvas
+							id="container-yourself"
+							class="container-yourself"
+						></canvas>
+
+						<img
+							src="https://cdn.discordapp.com/attachments/1067523701635035227/1091446803515330580/screenshot.jpg"
+							class="imgother"
+							alt=""
+						/>
+						<div class="callboxunten"></div>
+						<div class="großkreismittecall1"></div>
+						<div class="großkreismittecall2">
+							<img
+								src="../src/tools/outline_phone_disabled_white_48dp.png"
+								alt=""
+								class="dispatchplus2"
+							/>
+						</div>
+						<div class="mutecall">
+							<img
+								src="../src/tools/baseline_mic_off_white_48dp.png"
+								alt=""
+								class="dispatchplus54"
+							/>
+						</div>
+						<div class="closevideo">
+							<img
+								src="../src/tools/baseline_videocam_off_white_48dp.png"
+								alt=""
+								class="dispatchplus54"
+							/>
+						</div>
+					</div>
+				</div>
+				<div class="funkapp">
+					<h1 class="textradio">Radio - App</h1>
+					<h1 class="detailversion">v.1.0.1</h1>
+					<div class="linietrennen"></div>
+					<input
+						class="inputt-funkid"
+						id="inputt-funkid"
+						placeholder="Funk Kanal (Bsp. 10)"
+					/>
+					<div class="funkappraus"></div>
+					<button type="button" id="sumbmitfunk" class="sumbmitfunk">
+						Bestätigen
+					</button>
+					<h1 class="textverlauf">Verlauf:</h1>
+					<div class="container-history">
+						<div class="container-historyzusammengefasst">
+							<h1 class="funknachricht">Funk Kanal: 10</h1>
+							<h1 class="textwann">Dienstag 12.20.2000</h1>
+						</div>
+					</div>
+				</div>
+				<div class="businnessapp">
+					<div class="businesscode">
+						<div class="backgroundofbusiness">
+							<img
+								src="../src/tools/wallpaperflare.com_wallpaper__1_-removebg-preview.png"
+								alt=""
+								class="imgbildbusiness"
+							/>
+							<img
+								src="../src/tools/wallpaperflare.com_wallpaper.jpg"
+								alt=""
+								class="backgroundnice"
+							/>
+						</div>
+						<h1 class="businesstext">Trete einem Business bei</h1>
+						<div class="bubble"></div>
+						<input
+							class="inputt-business"
+							id="inputt-business"
+							placeholder="Business ID eingeben (Max. 1000)"
+						/>
+
+						<button
+							type="button"
+							id="submitbusiness"
+							class="submitbusiness"
+						>
+							Bestätigen
+						</button>
+					</div>
+					<div class="businessmainpage">
+						<div class="barobenbusiness">
+							<div class="leftsidebusiness">
+								<h1 class="textmitglieder activebusiness">
+									MITGLIEDER
+								</h1>
+							</div>
+							<div
+								class="rightsidebusiness"
+								id="rightsidebusiness"
+							>
+								<h1 class="textmitglieder2">CHAT</h1>
+							</div>
+							<h1 class="codevonchat" id="codevonchat">C.1</h1>
+							<img
+								src="../src/tools/baseline_logout_white_48dp.png"
+								class="logoutbusiness"
+								id="logoutbusiness"
+								alt=""
+							/>
+						</div>
+						<div class="container-mitglieder">
+							<div class="mitglieder-scroll">
+								<div class="container-mitgliederinsight">
+									<img
+										src="../src/tools/baseline_admin_panel_settings_white_48dp.png"
+										class="seeifadmin"
+										alt=""
+									/>
+									<h1 class="nameofinsgith">
+										Christain Espasito
+									</h1>
+									<h1 class="nummerofinsight">
+										+492020202029
+									</h1>
+									<img
+										src="../src/tools/baseline_exit_to_app_white_48dp.png"
+										class="deletefromchat"
+										alt=""
+									/>
+								</div>
+								<div class="container-mitgliederinsight">
+									<img
+										src="../src/tools/baseline_person_white_48dp.png"
+										class="seeifadmin"
+										alt=""
+									/>
+									<h1 class="nameofinsgith">
+										Christain Espasito
+									</h1>
+									<h1 class="nummerofinsight">
+										+492020202029
+									</h1>
+								</div>
+							</div>
+						</div>
+						<div class="container-chatbusinnes">
+							<div class="mitglieder-scrollbusiness">
+								<div class="startnachrichtbusinnes">
+									<h1 class="starttextchatbusinnes">
+										Das hier ist der beginnt des Chats.
+										Chats sind Ende zu Ende Verschlüsselt.
+									</h1>
+								</div>
+								<div class="meinenachrichtbusinnes">
+									<div class="nachrichtchatbusinnes">
+										Hallo, wie geht es dir?
+									</div>
+								</div>
+								<div class="seinenachrichtbusinnes">
+									<div class="nachrichtchatbusinnes">
+										Guten Tag! Mir geht es gut, vielen Dank.
+										Wie kann ich dir helfen?
+									</div>
+								</div>
+							</div>
+							<div class="container-chatbussiness">
+								<input
+									type="text"
+									class="inputt-chatbussiness"
+									id="inputtbusinesschat"
+									maxlength="250"
+									placeholder="Nachricht eingeben... (Enter)"
+								/>
+							</div>
+						</div>
+					</div>
+					<div class="businessappraus"></div>
+				</div>
+				<div class="sevendrop-image"></div>
+				<div class="sevendrop-kontakte"></div>
+			</div>
+		</div>
+	</body>
+
+	<script src="js/crypto.js"></script>
+	<script src="js/index.js"></script>
+	<script src="js/appstore.js"></script>
+	<script src="js/dispach.js"></script>
+</html>

@@ -1,0 +1,333 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+@font-face {
+	font-family: "Kanit";
+	src: url("text/Kanit-Regular.ttf");
+}
+@font-face {
+	font-family: "Lato";
+	src: url(text/Lato-Black.ttf);
+}
+.left {
+	position: absolute;
+	left: 0vw;
+	top: 0vw;
+	height: 100%;
+	width: 100vw;
+	background: linear-gradient(
+		to right,
+		rgb(63, 0, 49),
+		rgba(0, 0, 255, 0) 90.71%
+	);
+}
+.right {
+	position: absolute;
+	right: 0vw;
+	top: 0vw;
+	height: 100%;
+	width: 100vw;
+	background: linear-gradient(
+		to left,
+		rgb(66, 1, 52),
+		rgba(0, 0, 255, 0) 90.71%
+	);
+}
+.texttäglicheaufgaben {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	font-family: "Kanit", sans-serif;
+	font-size: 2vw;
+	top: -0.7vh;
+
+	background-color: rgba(255, 0, 0, 0);
+	letter-spacing: 0.1vw;
+	left: 1vw;
+}
+.texttäglicheaufgaben1 {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	font-family: "Kanit", sans-serif;
+	font-size: 2vw;
+	top: 2.7vh;
+
+	background-color: rgba(255, 0, 0, 0);
+	letter-spacing: 0.1vw;
+	left: 2vw;
+}
+.linie {
+	position: absolute;
+	width: 69.5vw;
+	height: 0.1vh;
+	background-color: white;
+	left: 12.5vw;
+	top: 6.3vh;
+}
+.esctext {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	right: 1.5vw;
+	top: 3.5vh;
+	letter-spacing: 0.1vw;
+	font-size: 1.1vw;
+	transform: rotate(0deg);
+	font-family: "Lato", sans-serif;
+}
+.container-aufgaben {
+	position: absolute;
+	width: 75.5vw;
+	height: 70vh;
+	background-color: rgba(255, 0, 0, 0);
+	top: 12vh;
+	left: 12.5vw;
+}
+.container-aufgabenreal {
+	position: relative;
+	width: 22.5vw;
+	display: inline-block;
+	left: -1vw;
+	border-radius: 0.2vw;
+	overflow: hidden;
+	height: 55vh;
+	margin-left: 1vw;
+	border: 0.01vw solid white;
+	background-color: rgba(31, 31, 31, 0.226);
+}
+.Textbig {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	font-family: "Kanit", sans-serif;
+	font-size: 1.5vw;
+
+	width: 15vw;
+	top: 9.5vh;
+	right: 1vw;
+	background-color: rgba(255, 0, 0, 0);
+}
+.infotextrehcts {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	font-family: "Kanit", sans-serif;
+	font-size: 1vw;
+	font-weight: 500;
+	width: 15vw;
+	top: 15vh;
+	right: 1vw;
+	background-color: rgba(255, 0, 0, 0);
+}
+.seperatlinie {
+	position: absolute;
+	width: 14vw;
+	height: 0.1vh;
+	top: 15.5vh;
+	right: 2vw;
+	background-color: white;
+}
+.TextAufgabe {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	font-family: "Kanit", sans-serif;
+	font-size: 1vw;
+	font-weight: 500;
+	width: 21vw;
+	text-align: center;
+	top: 45vh;
+	z-index: 2;
+	left: 0.5vw;
+	background-color: rgba(255, 0, 0, 0);
+}
+.gradientunten {
+	position: absolute;
+	height: 20vh;
+	bottom: 0vh;
+	width: 100%;
+	background: rgb(255, 215, 0);
+	background: linear-gradient(
+		to top,
+
+		rgba(255, 217, 0, 0.603) 0%,
+		rgba(234, 255, 0, 0) 100%
+	);
+}
+.gradientunten1 {
+	position: absolute;
+	height: 20vh;
+	bottom: 0vh;
+	width: 100%;
+	background: rgb(0, 111, 27);
+	background: linear-gradient(
+		to top,
+		rgba(0, 111, 27, 1) 0%,
+		rgba(217, 255, 0, 0) 100%
+	);
+}
+.gradientunten2 {
+	position: absolute;
+	height: 20vh;
+	bottom: 0vh;
+	width: 100%;
+	background: rgb(0, 16, 255);
+	background: linear-gradient(
+		to top,
+		rgba(0, 16, 255, 0.603) 0%,
+		rgba(217, 255, 0, 0) 100%
+	);
+}
+.imgmitte {
+	position: absolute;
+	width: 20vw;
+	top: 4vh;
+	left: 7vw;
+}
+.Headlinetext {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	font-family: "Kanit", sans-serif;
+	font-size: 2vw;
+	font-weight: 500;
+	width: 21vw;
+	text-align: center;
+	top: 38vh;
+	z-index: 2;
+	left: 0.5vw;
+	background-color: rgba(255, 0, 0, 0);
+}
+.imgmitte2 {
+	position: absolute;
+	width: 45vw;
+	top: 14vh;
+	left: -11vw;
+}
+.imgmitte3 {
+	position: absolute;
+	width: 45vw;
+	top: 10.5vh;
+	left: -21vw;
+}
+.linie1 {
+	position: absolute;
+	width: 0.05vw;
+	height: 17vh;
+	top: 67.3vh;
+	left: 23.4vw;
+	background-color: white;
+}
+.linie3 {
+	position: absolute;
+	width: 0.05vw;
+	height: 17vh;
+	top: 67.3vh;
+	left: 71.4vw;
+	background-color: white;
+}
+.linie2 {
+	position: absolute;
+	width: 0.05vw;
+	height: 14vh;
+	top: 67.3vh;
+	left: 47.5vw;
+	background-color: white;
+}
+.linie4 {
+	position: absolute;
+	width: 20.05vw;
+	height: 0.1vh;
+	top: 84.3vh;
+	left: 51.4vw;
+	background-color: white;
+}
+
+.linie5 {
+	position: absolute;
+	width: 20.7vw;
+	height: 0.1vh;
+	top: 84.3vh;
+	left: 23.4vw;
+	background-color: white;
+}
+.textbattlepassvorteil {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	font-family: "Kanit", sans-serif;
+	font-size: 1.7vw;
+	font-weight: 500;
+	width: 4vw;
+	text-align: left;
+	top: 79.8vh;
+	z-index: 2;
+	left: 45.1vw;
+	background-color: rgba(255, 0, 0, 0);
+}
+.sevencoin {
+	position: absolute;
+	width: 2.5vw;
+	top: 82vh;
+	left: 48.2vw;
+}
+.button {
+	position: absolute;
+	width: 11vw;
+	height: 5vh;
+	font-family: "Kanit", sans-serif;
+	font-size: 0.9vw;
+	right: 46.5vw;
+	top: 88.5vh;
+	border: none;
+	outline: none;
+	z-index: 1;
+	color: white;
+	cursor: pointer;
+	background-color: rgb(164, 0, 167);
+	border-radius: 0.2vw;
+}
+.button:hover {
+	background-color: rgb(110, 0, 112);
+}
+.fertig {
+	position: absolute;
+	z-index: 10;
+	width: 100%;
+	user-select: none;
+	height: 100%;
+	background-color: rgba(27, 27, 27, 0.726);
+}
+.Headlinetext2 {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	font-family: "Kanit", sans-serif;
+	font-size: 2vw;
+	font-weight: 500;
+	width: 21vw;
+	text-align: center;
+	top: 2vh;
+	z-index: 2;
+	left: 0.5vw;
+	background-color: rgba(255, 0, 0, 0);
+}
+.TextAufgabe2 {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	font-family: "Kanit", sans-serif;
+	font-size: 1vw;
+	font-weight: 500;
+	width: 21vw;
+	text-align: center;
+	top: 10vh;
+	z-index: 2;
+	left: 0.5vw;
+	background-color: rgba(255, 0, 0, 0);
+}
+.infodetail {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	font-family: "Kanit", sans-serif;
+	font-size: 1vw;
+	font-weight: 500;
+	width: 21vw;
+	text-align: center;
+	top: 93vh;
+	z-index: 2;
+	left: 37.5vw;
+	background-color: rgba(255, 0, 0, 0);
+}

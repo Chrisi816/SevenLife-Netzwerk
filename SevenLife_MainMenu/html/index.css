@@ -1,0 +1,2380 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Estonia&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Radio+Canada&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hurricane&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Goldman&family=Radio+Canada&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+@font-face {
+	font-family: "Unbounded";
+	src: url("text/Unbounded-ExtraLight.ttf");
+}
+@font-face {
+	font-family: "Kanit";
+	src: url("text/Kanit-Regular.ttf");
+}
+body {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.left {
+	position: absolute;
+	left: 0vw;
+	top: 0vw;
+	height: 100%;
+	width: 100vw;
+	background: linear-gradient(
+		to right,
+		rgb(63, 0, 49),
+		rgba(0, 0, 255, 0) 90.71%
+	);
+}
+.right {
+	position: absolute;
+	right: 0vw;
+	top: 0vw;
+	height: 100%;
+	width: 100vw;
+	background: linear-gradient(
+		to left,
+		rgb(66, 1, 52),
+		rgba(0, 0, 255, 0) 90.71%
+	);
+}
+.middle {
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.616);
+	width: 75vw;
+	z-index: 1;
+	left: 12vw;
+	top: 10vh;
+	height: 65vh;
+}
+.unten {
+	position: absolute;
+	width: 78vw;
+	height: 25vh;
+	background-color: rgba(255, 0, 0, 0);
+	bottom: 0vh;
+	left: 20vw;
+}
+.option {
+	position: relative;
+	display: inline-block;
+	width: 9vw;
+	height: 17vh;
+	cursor: pointer;
+	margin-left: 0.4vw;
+	top: 8vh;
+	background-color: rgba(0, 0, 0, 0.575);
+	border-top-left-radius: 1vw;
+	border-top-right-radius: 1vw;
+}
+.option:hover {
+	background-color: rgba(70, 70, 70, 0.654);
+	transition: 1s;
+}
+.img-circle {
+	position: absolute;
+	left: 3vw;
+	top: 2.5vh;
+	width: 3vw;
+}
+.text-auswahl {
+	position: absolute;
+	left: 0vw;
+	top: 9vh;
+	letter-spacing: 0.1vw;
+	font-size: 1vw;
+	color: white;
+	width: 9vw;
+	text-align: center;
+	background-color: rgba(255, 0, 0, 0);
+	font-family: "Goldman", cursive;
+}
+.leftside {
+	position: absolute;
+	width: 20vw;
+	height: 65vh;
+	background-color: rgba(13, 13, 13, 0.249);
+}
+.accountname {
+	position: absolute;
+	color: white;
+	font-family: "Goldman", cursive;
+	font-size: 1.7vw;
+	width: 18vw;
+	letter-spacing: 0.05vw;
+	top: 1.5vh;
+	left: 2vw;
+	text-align: left;
+	overflow: hidden;
+	background-color: rgba(255, 0, 0, 0);
+}
+.skillbaumlevel {
+	position: absolute;
+	color: rgba(136, 136, 136, 0.737);
+	font-family: "Radio Canada", sans-serif;
+	font-size: 1.2vw;
+	top: 13.5vh;
+	left: 2vw;
+}
+.skillbaumlevelxp {
+	position: absolute;
+	color: rgba(136, 136, 136, 0.737);
+	font-family: "Radio Canada", sans-serif;
+	font-size: 1.2vw;
+	top: 18vh;
+	left: 2vw;
+}
+.skillbaumlevelpoints {
+	position: absolute;
+	color: rgba(136, 136, 136, 0.737);
+	font-family: "Radio Canada", sans-serif;
+	font-size: 1.2vw;
+	top: 22.5vh;
+	left: 2vw;
+}
+
+.skillbaumlevel2 {
+	position: absolute;
+	color: rgba(195, 195, 195, 0.737);
+	font-family: "Radio Canada", sans-serif;
+	font-size: 1.2vw;
+	background-color: rgba(255, 0, 0, 0);
+	top: 13.5vh;
+	width: 6vw;
+	text-align: right;
+	left: 13vw;
+}
+.skillbaumlevelxp2 {
+	position: absolute;
+	color: rgba(195, 195, 195, 0.737);
+	font-family: "Radio Canada", sans-serif;
+	font-size: 1.2vw;
+	top: 18vh;
+	width: 6vw;
+	text-align: right;
+	left: 13vw;
+}
+.skillbaumlevelpoints2 {
+	position: absolute;
+	color: rgba(195, 195, 195, 0.737);
+	font-family: "Radio Canada", sans-serif;
+	font-size: 1.2vw;
+	top: 22.5vh;
+
+	width: 6vw;
+	text-align: right;
+	left: 13vw;
+}
+
+.status {
+	position: absolute;
+	color: rgba(212, 212, 212, 0.737);
+	font-family: "Radio Canada", sans-serif;
+	font-size: 1.2vw;
+	top: 8.7vh;
+	left: 2vw;
+}
+.vip {
+	position: absolute;
+	color: rgb(171, 145, 0);
+	font-family: "Radio Canada", sans-serif;
+	font-size: 1.1vw;
+	top: 8.7vh;
+	width: 4vw;
+	text-align: center;
+	background-color: rgba(255, 0, 0, 0);
+	left: 16vw;
+}
+.visainfo {
+	position: absolute;
+	background-color: rgba(18, 18, 18, 0.132);
+	height: 34vh;
+	width: 20vw;
+	top: 31vh;
+}
+
+.stufe {
+	position: absolute;
+	left: 2.4vw;
+	width: 4vw;
+	top: 1vh;
+	background-color: rgba(255, 0, 0, 0);
+	text-align: center;
+	font-family: "Goldman", cursive;
+	font-size: 2.6vw;
+	color: rgb(255, 255, 255);
+}
+.warns {
+	position: absolute;
+	color: rgba(255, 0, 0, 0.423);
+	font-family: "Roboto", sans-serif;
+	font-size: 0.8vw;
+	letter-spacing: 0.15vw;
+	top: 26vh;
+	left: 2vw;
+}
+.loader {
+	position: absolute;
+	width: 9vw;
+	top: 10vh;
+	left: 5vw;
+	height: 9vw;
+	user-select: none;
+	box-sizing: border-box;
+}
+
+.loader-bg {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	border: 0.8vw solid rgba(255, 255, 255, 0.1);
+	box-sizing: border-box;
+}
+
+.spiner-holder-one {
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	width: 50%;
+	height: 50%;
+	background: transparent;
+	box-sizing: border-box;
+}
+.spiner-holder-two {
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	background: transparent;
+	box-sizing: border-box;
+}
+.loader-spiner {
+	width: 200%;
+	height: 200%;
+	border-radius: 50%;
+	border: 0.8vw solid rgba(255, 255, 255, 0.3);
+	box-sizing: border-box;
+}
+.animate-0-25-a {
+	transform: rotate(90deg);
+	transform-origin: 100% 100%;
+}
+.animate-0-25-b {
+	transform: rotate(-90deg);
+	transform-origin: 100% 100%;
+}
+.animate-25-50-a {
+	transform: rotate(180deg);
+	transform-origin: 100% 100%;
+}
+.animate-25-50-b {
+	transform: rotate(-90deg);
+	transform-origin: 100% 100%;
+}
+.animate-50-75-a {
+	transform: rotate(270deg);
+	transform-origin: 100% 100%;
+}
+.animate-50-75-b {
+	transform: rotate(-90deg);
+	transform-origin: 100% 100%;
+}
+.animate-75-100-a {
+	transform: rotate(0deg);
+	transform-origin: 100% 100%;
+}
+.animate-75-100-b {
+	transform: rotate(-90deg);
+	transform-origin: 100% 100%;
+}
+.animate-0-25-a {
+	transform: rotate(90deg);
+	transform-origin: 100% 100%;
+}
+.animate-0-25-bs {
+	transform: rotate(-90deg);
+	transform-origin: 100% 100%;
+}
+.animate-25-50-a {
+	transform: rotate(180deg);
+	transform-origin: 100% 100%;
+}
+.animate-25-50-bs {
+	transform: rotate(-90deg);
+	transform-origin: 100% 100%;
+}
+.animate-50-75-a {
+	transform: rotate(270deg);
+	transform-origin: 100% 100%;
+}
+.animate-50-75-bs {
+	transform: rotate(-90deg);
+	transform-origin: 100% 100%;
+}
+.animate-75-100-a {
+	transform: rotate(0deg);
+	transform-origin: 100% 100%;
+}
+.animate-75-100-bs {
+	transform: rotate(-90deg);
+	transform-origin: 100% 100%;
+}
+.text {
+	text-align: center;
+	padding-top: 63%;
+	font-family: "Goldman", cursive;
+	font-size: 1.3vw;
+	color: rgb(78, 78, 78);
+}
+.texts {
+	text-align: center;
+	padding-top: 63%;
+	font-family: "Goldman", cursive;
+	font-size: 1.3vw;
+	color: rgb(78, 78, 78);
+}
+.visastufeinfo {
+	position: absolute;
+	text-align: center;
+	font-family: "Goldman", cursive;
+	font-size: 1.4vw;
+	left: 2vw;
+	top: 0.2vh;
+	letter-spacing: 0.1vw;
+	color: rgb(255, 255, 255);
+}
+.container-infos {
+	position: absolute;
+	width: 55vw;
+	height: 65vh;
+	left: 20vw;
+	top: 6vh;
+	background-color: rgba(255, 0, 0, 0);
+}
+.übersichttext {
+	position: absolute;
+	color: white;
+
+	font-family: "Lato", sans-serif;
+	font-size: 1.4vw;
+	width: 18vw;
+	letter-spacing: 0.05vw;
+	top: -0.2vh;
+	left: 20.7vw;
+	text-align: left;
+	overflow: hidden;
+	background-color: rgba(255, 0, 0, 0);
+}
+.strich-übersicht {
+	position: absolute;
+	width: 53.3vw;
+	height: 0.3vh;
+	left: 20.7vw;
+	top: 5.5vh;
+	background-color: white;
+}
+.strich-übersicht2 {
+	position: absolute;
+	width: 53.3vw;
+	height: 0.3vh;
+	left: 20.7vw;
+	top: 28.5vh;
+	background-color: white;
+}
+.container-infos-ifno {
+	position: relative;
+	width: 12.5vw;
+	margin-left: 1vw;
+	left: -0.5vw;
+	display: inline-block;
+	margin-top: 2vh;
+	top: -0.5vh;
+	height: 19.5vh;
+	border-radius: 0.2vw;
+	background-color: rgba(18, 18, 18, 0.528);
+}
+.text-unten {
+	position: absolute;
+	text-align: left;
+	font-family: "Goldman", cursive;
+	font-size: 1.2vw;
+	width: 11vw;
+	height: 4vh;
+	background-color: rgba(255, 0, 0, 0);
+	left: 3.2vw;
+	top: 14.2vh;
+	letter-spacing: 0.1vw;
+	color: rgba(162, 162, 162, 0.591);
+}
+.homeimg {
+	position: absolute;
+	width: 2vw;
+	top: 15vh;
+	left: 0.7vw;
+}
+.kategorien {
+	position: absolute;
+	color: white;
+	font-family: "Goldman", cursive;
+	font-size: 1.7vw;
+	width: 18vw;
+	letter-spacing: 0.05vw;
+	top: 2vh;
+	left: 2vw;
+	text-align: left;
+	overflow: hidden;
+	background-color: rgba(255, 0, 0, 0);
+}
+.container-spieler-infos {
+	position: absolute;
+	left: 22vw;
+	top: 12vh;
+	overflow-y: scroll;
+	height: 52vh;
+	width: 52vw;
+	background-color: rgba(255, 0, 0, 0);
+}
+.container-spieler-infos::-webkit-scrollbar {
+	width: 0.6vw;
+}
+
+.container-spieler-infos::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background-color: rgba(255, 255, 255, 0.294);
+}
+
+.container-spieler-infos::-webkit-scrollbar-thumb {
+	background-color: #202020;
+	border-radius: 2vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.185) 0 3px 13px 1px;
+}
+.text-spieler-ranking {
+	position: absolute;
+	text-align: center;
+	font-family: "Goldman", cursive;
+	font-size: 1.4vw;
+	left: 25vw;
+	top: 5vh;
+	letter-spacing: 0.1vw;
+	color: rgb(255, 255, 255);
+}
+.text-spieler-Name {
+	position: absolute;
+	text-align: center;
+	font-family: "Goldman", cursive;
+	font-size: 1.4vw;
+	left: 32vw;
+	top: 5vh;
+	letter-spacing: 0.1vw;
+	color: rgb(255, 255, 255);
+}
+.text-spieler-Status {
+	position: absolute;
+	text-align: center;
+	font-family: "Goldman", cursive;
+	font-size: 1.4vw;
+	left: 55vw;
+	top: 5vh;
+	letter-spacing: 0.1vw;
+	color: rgb(255, 255, 255);
+}
+.text-spieler-visastufe {
+	position: absolute;
+	text-align: center;
+	font-family: "Goldman", cursive;
+	font-size: 1.4vw;
+	left: 63vw;
+	top: 5vh;
+	letter-spacing: 0.1vw;
+	color: rgb(255, 255, 255);
+}
+.container-spieler-item {
+	position: relative;
+	width: 50vw;
+	height: 7vh;
+	background-color: rgba(0, 0, 0, 0);
+	border-radius: 1vw;
+	margin-top: 1vh;
+}
+.container-ranking {
+	position: absolute;
+	width: 8.5vw;
+	background-color: rgba(0, 0, 0, 0.645);
+	height: 7vh;
+	border-radius: 1vw;
+}
+.container-middle {
+	position: absolute;
+	width: 31vw;
+	height: 7vh;
+	left: 9vw;
+	border-radius: 1vw;
+	background-color: rgba(0, 0, 0, 0.645);
+}
+.container-rechts {
+	position: absolute;
+	width: 8.5vw;
+	left: 40.5vw;
+	background-color: rgba(0, 0, 0, 0.645);
+	height: 7vh;
+	border-radius: 1vw;
+}
+.number-rankings {
+	position: absolute;
+	text-align: center;
+	font-family: "Goldman", cursive;
+	font-size: 2.1vw;
+	left: 0vw;
+	top: -1.3vh;
+	width: 8.4vw;
+	letter-spacing: 0.1vw;
+	color: rgb(255, 255, 255);
+}
+.number-rankings {
+	position: absolute;
+	text-align: center;
+	font-family: "Goldman", cursive;
+	font-size: 2.1vw;
+	left: 0vw;
+	top: -1.3vh;
+	width: 8.4vw;
+	letter-spacing: 0.1vw;
+	color: rgb(255, 255, 255);
+}
+.name-container-ranking {
+	position: absolute;
+	text-align: left;
+	font-family: "Goldman", cursive;
+	font-size: 1.8vw;
+	left: 0.5vw;
+	top: -0.7vh;
+	width: 24vw;
+	background-color: rgba(255, 0, 0, 0);
+	letter-spacing: 0.1vw;
+	color: rgb(255, 255, 255);
+}
+.status-container-ranking {
+	position: absolute;
+	text-align: center;
+	font-family: "Goldman", cursive;
+	font-size: 1.2vw;
+	left: 23vw;
+	top: 0.5vh;
+	width: 8vw;
+	background-color: rgba(115, 0, 255, 0);
+	letter-spacing: 0.1vw;
+	color: rgb(255, 255, 255);
+}
+.visa-container-ranking {
+	position: absolute;
+	text-align: center;
+	font-family: "Goldman", cursive;
+	font-size: 2.5vw;
+	left: 0.1vw;
+	top: -2.4vh;
+	width: 8vw;
+	background-color: rgba(115, 0, 255, 0);
+	letter-spacing: 0.1vw;
+	color: rgb(255, 255, 255);
+}
+.container-kategorien {
+	position: relative;
+	background-color: rgba(16, 16, 16, 0.526);
+	width: 16.5vw;
+	height: 8vh;
+	display: inline-block;
+	cursor: pointer;
+	top: 9vh;
+	border-radius: 0.1vw;
+	left: 2vw;
+	margin-top: 1.2vh;
+}
+.container-kategorien:hover {
+	transition: 1s;
+	background-color: rgba(17, 17, 17, 0.801);
+}
+.container-kategorien2 {
+	position: relative;
+	background-color: rgba(16, 16, 16, 0.526);
+	width: 16vw;
+	height: 6vh;
+	display: inline-block;
+	cursor: pointer;
+	top: 9vh;
+	border-radius: 0.1vw;
+	left: 2vw;
+	margin-top: 1.2vh;
+}
+.container-kategorien2:hover {
+	transition: 1s;
+	background-color: rgba(17, 17, 17, 0.801);
+}
+.text-container-kato {
+	position: absolute;
+	text-align: right;
+	font-family: "Goldman", cursive;
+	font-size: 1.3vw;
+	left: 3vw;
+	width: 12.4vw;
+	background-color: rgba(255, 0, 0, 0);
+	top: 1vh;
+	letter-spacing: 0.1vw;
+	color: rgb(255, 255, 255);
+}
+.container-ticket-auswahl {
+	position: absolute;
+	width: 75vw;
+	height: 65vh;
+	background-color: rgba(255, 0, 0, 0);
+}
+.dreicontainer-report {
+	position: relative;
+	width: 20vw;
+	height: 45vh;
+	top: 7vw;
+	display: inline-block;
+	border-radius: 2vw;
+	left: 2vw;
+	margin-left: 2.5vw;
+	overflow: hidden;
+
+	cursor: pointer;
+}
+.bild {
+	position: absolute;
+	width: 20vw;
+	height: 45vh;
+	filter: brightness(20%);
+}
+.bild:hover {
+	transition: 2s;
+	filter: brightness(50%);
+}
+.ticket-text {
+	position: absolute;
+	text-align: left;
+	font-family: "Goldman", cursive;
+	font-size: 2vw;
+	left: 2vw;
+	top: 1vh;
+	border-bottom: 0.2vw solid white;
+	letter-spacing: 0.1vw;
+	width: 60vw;
+	color: rgb(255, 255, 255);
+}
+.button {
+	position: absolute;
+	width: 11vw;
+	height: 5vh;
+	font-family: "Goldman", cursive;
+	font-size: 0.9vw;
+	right: 1vw;
+	top: 3.5vh;
+	border: none;
+	outline: none;
+	z-index: 1;
+	color: white;
+	cursor: pointer;
+	background-color: rgb(164, 0, 167);
+	border-radius: 0.2vw;
+}
+.button:hover {
+	background-color: rgb(110, 0, 112);
+}
+.inhalt {
+	position: absolute;
+	color: white;
+	filter: brightness(100%);
+	font-family: "Goldman", cursive;
+	font-size: 2vw;
+	left: 0vw;
+	top: 4vh;
+	width: 20vw;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.299);
+}
+.infotextzuminhalt {
+	position: absolute;
+	color: white;
+	font-size: 1.5vw;
+	left: 3vw;
+	top: 10vw;
+	width: 14vw;
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+}
+.scroll-container {
+	position: absolute;
+	top: 10vh;
+	left: 0.2vw;
+	width: 19vw;
+	height: 53vh;
+	overflow-y: scroll;
+	background-color: rgba(255, 0, 0, 0);
+}
+.scroll-container::-webkit-scrollbar {
+	width: 0.6vw;
+}
+
+.scroll-container::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background-color: rgba(255, 255, 255, 0.294);
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+	background-color: #202020;
+	border-radius: 2vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.185) 0 3px 13px 1px;
+}
+
+.container-hilfe {
+	position: relative;
+	height: 10vh;
+	width: 17vw;
+	left: 0.5vw;
+	cursor: pointer;
+	margin-top: 1vh;
+	background-color: rgba(21, 21, 21, 0.823);
+}
+.thema {
+	position: absolute;
+	color: white;
+	font-size: 1.2vw;
+	left: 2vw;
+	top: 0.5vw;
+	width: 14vw;
+	text-align: left;
+	font-family: "Roboto", sans-serif;
+}
+.punkt {
+	position: absolute;
+	color: white;
+	font-size: 3.5vw;
+	left: 0.5vw;
+	top: -2.8vw;
+	text-align: left;
+	font-family: "Roboto", sans-serif;
+}
+.Headline {
+	position: absolute;
+	text-align: left;
+	font-family: "Goldman", cursive;
+	font-size: 2vw;
+	left: 21vw;
+	top: 1vh;
+	border-bottom: 0.2vw solid white;
+	letter-spacing: 0.1vw;
+	width: 50vw;
+	color: rgb(255, 255, 255);
+}
+.text-faq {
+	position: absolute;
+	left: 20vw;
+	color: white;
+	top: 11vh;
+	left: 21vw;
+	width: 50vw;
+	text-align: left;
+	font-size: 1.3vw;
+	letter-spacing: 0.1vw;
+	font-family: "Roboto", sans-serif;
+	background-color: rgba(255, 0, 0, 0);
+}
+.groß {
+	border-bottom: 0.2vw solid white;
+	width: 2vw;
+}
+.zweis {
+	top: 6vh;
+}
+.text-infos {
+	position: absolute;
+	color: white;
+	font-size: 1.3vw;
+	left: 1vw;
+	text-align: left;
+	top: 0vw;
+	font-family: "Roboto", sans-serif;
+}
+.arbeitsname {
+	position: absolute;
+	color: rgb(167, 167, 167);
+	font-size: 1.3vw;
+	left: 1.1vw;
+	line-height: 3vh;
+	width: 11vw;
+
+	text-align: left;
+	background-color: rgba(255, 0, 0, 0);
+	top: 3.5vw;
+	font-family: "Roboto", sans-serif;
+}
+.Inputt-Wallet {
+	border: none;
+	-webkit-appearance: none;
+	padding: 0vw;
+	position: relative;
+	left: 2vw;
+	width: 23vw;
+	top: 15vh;
+	color: rgb(255, 255, 255);
+	font-family: "Bebas Neue", cursive;
+	height: 6.4vh;
+	text-align: center;
+	z-index: 29;
+	font-size: 1.8vw;
+	background-color: rgba(72, 72, 72, 0.416);
+	outline: none;
+	border-radius: 0.3vw;
+}
+.Inputt-Wallet:focus::placeholder {
+	color: transparent;
+}
+.Inputt-Wallet::placeholder {
+	color: white;
+	transition: color 0.3s ease;
+}
+.bettref {
+	position: absolute;
+	color: white;
+	font-size: 1.3vw;
+	left: 2vw;
+	text-align: left;
+	top: 9vh;
+	font-family: "Roboto", sans-serif;
+}
+.Beschreibung {
+	position: absolute;
+	color: white;
+	font-size: 1.3vw;
+	left: 2vw;
+	text-align: left;
+	top: 23.5vh;
+	font-family: "Roboto", sans-serif;
+}
+.inputtwasdsee {
+	border: none;
+	-webkit-appearance: none;
+	padding: 3px;
+	position: absolute;
+	left: 2vw;
+	width: 30vw;
+	top: 30.5vh;
+	color: rgba(255, 255, 255, 0.397);
+	font-family: "Bebas Neue", cursive;
+	height: 17vh;
+	resize: none;
+	z-index: 29;
+	font-size: 1.2vw;
+	background-color: rgba(72, 72, 72, 0.416);
+	outline: none;
+	border-radius: 0.6vw;
+}
+.inputtwasdsee:hover {
+	box-shadow: 3px 3px 3px black;
+	transition: color 0.6 ease;
+}
+.inputtwasdsee:focus::placeholder {
+	color: transparent;
+}
+.inputtwasdsee::placeholder {
+	color: white;
+	transition: color 0.3s ease;
+}
+.Beschreibungs {
+	position: absolute;
+	color: white;
+	font-size: 0.8vw;
+	left: 2vw;
+	text-align: left;
+	top: 47.8vh;
+	font-family: "Roboto", sans-serif;
+}
+.rights {
+	position: absolute;
+	width: 25vw;
+	background-color: rgba(2, 2, 2, 0.351);
+	height: 50vh;
+	left: 48vw;
+	border-radius: 1vw;
+	top: 11vh;
+}
+.buttons {
+	position: absolute;
+	width: 14vw;
+	height: 6vh;
+	font-family: "Goldman", cursive;
+	font-size: 1.3vw;
+	right: 5.2vw;
+	top: 40vh;
+	border: none;
+	outline: none;
+	z-index: 1;
+	color: white;
+	cursor: pointer;
+	background-color: rgb(164, 0, 167);
+	border-radius: 2vw;
+}
+.buttons:hover {
+	background-color: rgb(110, 0, 112);
+}
+.danke {
+	position: absolute;
+	text-align: center;
+	font-family: "Goldman", cursive;
+	font-size: 2vw;
+	left: 2vw;
+	top: 1vh;
+	border-bottom: 0.2vw solid white;
+	letter-spacing: 0.1vw;
+	width: 20vw;
+	color: rgb(255, 255, 255);
+}
+.missbrauch {
+	position: absolute;
+	color: white;
+	font-size: 1.8vw;
+	left: 5.5vw;
+	text-align: center;
+	top: 18vh;
+	width: 14vw;
+	font-family: "Roboto", sans-serif;
+}
+.statistik {
+	position: absolute;
+	text-align: center;
+	font-family: "Lato", sans-serif;
+	font-family: "Goldman", cursive;
+	font-size: 2.5vw;
+	left: 2vw;
+	top: 0vh;
+	color: rgb(255, 255, 255);
+}
+.name-stats {
+	position: absolute;
+	text-align: center;
+	font-family: "Lato", sans-serif;
+	font-size: 3.5vw;
+	left: 2vw;
+	top: 5vh;
+	color: rgb(255, 255, 255);
+}
+.untenbox {
+	position: absolute;
+	width: 75vw;
+	background-color: rgba(2, 2, 2, 0.297);
+	height: 42vh;
+	left: 0vw;
+	top: 23vh;
+}
+.loaders {
+	position: absolute;
+	width: 9vw;
+	top: 3vh;
+	left: 60vw;
+	height: 9vw;
+	user-select: none;
+	box-sizing: border-box;
+}
+.killbox {
+	position: absolute;
+	width: 30vw;
+	background-color: rgba(23, 23, 23, 0.657);
+	top: 5vh;
+	border-radius: 0.2vw;
+	left: 2vw;
+	height: 30vh;
+}
+.gambostats {
+	position: absolute;
+	text-align: center;
+	font-family: "Lato", sans-serif;
+	font-size: 2vw;
+	left: 1vw;
+	top: -0.5vh;
+	color: rgb(255, 255, 255);
+}
+.kills {
+	position: absolute;
+	color: rgba(108, 108, 108, 0.887);
+	font-size: 1.4vw;
+	left: 1.5vw;
+	text-align: center;
+	top: 6vh;
+	letter-spacing: 0.05vw;
+	font-family: "Roboto", sans-serif;
+}
+.killsanzahl {
+	position: absolute;
+	color: rgba(255, 255, 255, 0.887);
+	font-size: 2.8vw;
+	left: 1.5vw;
+	text-align: left;
+	top: 10.5vh;
+	width: 7vw;
+	background-color: rgba(255, 0, 0, 0);
+	letter-spacing: 0.05vw;
+	font-family: "Roboto", sans-serif;
+}
+.tode {
+	position: absolute;
+	color: rgba(108, 108, 108, 0.887);
+	font-size: 1.4vw;
+	left: 1.5vw;
+	text-align: center;
+	top: 15vh;
+	letter-spacing: 0.05vw;
+	font-family: "Roboto", sans-serif;
+}
+.todeanzahl {
+	position: absolute;
+	color: rgba(255, 255, 255, 0.887);
+	font-size: 2.8vw;
+	left: 1.5vw;
+	text-align: left;
+	top: 20.5vh;
+	width: 7vw;
+	background-color: rgba(255, 0, 0, 0);
+	letter-spacing: 0.05vw;
+	font-family: "Roboto", sans-serif;
+}
+.kd {
+	position: absolute;
+	color: rgba(108, 108, 108, 0.887);
+	font-size: 1.9vw;
+	left: 17vw;
+	text-align: center;
+	top: 5vh;
+	letter-spacing: 0.05vw;
+	font-family: "Roboto", sans-serif;
+}
+.kdanzahl {
+	position: absolute;
+	color: rgba(189, 139, 0, 0.887);
+	font-size: 4.5vw;
+	left: 15vw;
+	text-align: left;
+	top: 12.5vh;
+	width: 10vw;
+	background-color: rgba(255, 0, 0, 0);
+	letter-spacing: 0.05vw;
+	font-family: "Roboto", sans-serif;
+}
+.zeitbox {
+	position: absolute;
+	width: 30vw;
+	background-color: rgba(23, 23, 23, 0.657);
+	top: 5vh;
+	border-radius: 0.2vw;
+	left: 43vw;
+	height: 30vh;
+}
+.accountcreating {
+	position: absolute;
+	color: rgba(108, 108, 108, 0.887);
+	font-size: 1.4vw;
+	left: 1.5vw;
+	text-align: center;
+	top: 6vh;
+	letter-spacing: 0.05vw;
+	font-family: "Roboto", sans-serif;
+}
+.accountcreatingstats {
+	position: absolute;
+	color: rgba(255, 255, 255, 0.887);
+	font-size: 1.6vw;
+	left: 1.5vw;
+	text-align: left;
+	top: 10vh;
+	width: 20vw;
+	background-color: rgba(255, 200, 0, 0);
+	letter-spacing: 0.05vw;
+	font-family: "Roboto", sans-serif;
+}
+.spielzeit {
+	position: absolute;
+	color: rgba(108, 108, 108, 0.887);
+	font-size: 1.4vw;
+	left: 1.5vw;
+	text-align: center;
+	top: 15vh;
+	letter-spacing: 0.05vw;
+	font-family: "Roboto", sans-serif;
+}
+.spielzeitstats {
+	position: absolute;
+	color: rgba(255, 255, 255, 0.887);
+	font-size: 1.5vw;
+	left: 1.5vw;
+	text-align: left;
+	top: 19vh;
+	width: 20vw;
+	background-color: rgba(255, 200, 0, 0);
+	letter-spacing: 0.05vw;
+	font-family: "Roboto", sans-serif;
+}
+.rechts-tickes {
+	position: absolute;
+	width: 40vw;
+	height: 65vh;
+	background-color: rgba(255, 0, 0, 0);
+}
+.linierechts {
+	position: absolute;
+	top: 8vh;
+	width: 1vw;
+	height: 53vh;
+	left: 1vw;
+	border-left: 0.3vw solid white;
+	border-top: 0.3vw solid white;
+	border-bottom: 0.3vw solid white;
+}
+.linielinks {
+	position: absolute;
+	top: 8vh;
+	width: 1vw;
+	height: 53vh;
+	right: 1vw;
+	border-right: 0.2vw solid white;
+	border-top: 0.2vw solid white;
+	border-bottom: 0.2vw solid white;
+}
+.ticket-Aktiv {
+	position: absolute;
+	text-align: left;
+	font-family: "Goldman", cursive;
+	font-size: 2vw;
+	left: 1vw;
+	top: -1vh;
+	letter-spacing: 0.1vw;
+	width: 60vw;
+	color: rgb(255, 255, 255);
+}
+.button1 {
+	position: absolute;
+	width: 11vw;
+	height: 5vh;
+	font-family: "Goldman", cursive;
+	font-size: 1vw;
+	right: 1vw;
+	top: 1.5vh;
+	border: none;
+	outline: none;
+	z-index: 1;
+	color: white;
+	cursor: pointer;
+	background-color: rgb(164, 0, 167);
+	border-radius: 0.2vw;
+}
+.button1:hover {
+	background-color: rgb(110, 0, 112);
+}
+.container-aktiveticket {
+	position: absolute;
+	width: 36vw;
+	height: 50vh;
+	top: 10vh;
+	left: 2vw;
+	background-color: rgba(255, 0, 0, 0);
+}
+.ticket-aktive-display {
+	position: relative;
+	margin-top: 1vh;
+	border-radius: 0.2vw;
+	width: 36vw;
+	height: 5vh;
+	background-color: rgba(19, 19, 19, 0.406);
+}
+.ticketid {
+	position: absolute;
+	color: white;
+	font-family: "Goldman", cursive;
+	left: 0.7vw;
+	top: -1vh;
+	font-size: 1.5vw;
+}
+.tickettitel {
+	position: absolute;
+	color: white;
+	font-family: "Goldman", cursive;
+	left: 5vw;
+	width: 24vw;
+	background-color: rgba(255, 0, 0, 0);
+	height: 3.2vh;
+	top: -0.4vh;
+	font-size: 1.2vw;
+}
+.iddisplay {
+	position: absolute;
+	color: white;
+	left: 2.6vw;
+	top: 7vh;
+	font-size: 1vw;
+	font-family: "Roboto", sans-serif;
+}
+.namedisplay {
+	position: absolute;
+	color: white;
+	left: 7vw;
+	top: 7vh;
+	font-size: 1vw;
+	font-family: "Roboto", sans-serif;
+}
+.Bereichdisplay {
+	position: absolute;
+	color: white;
+	left: 29vw;
+	top: 7vh;
+	font-size: 1vw;
+	font-family: "Roboto", sans-serif;
+}
+.bereichticket {
+	position: absolute;
+	color: white;
+	font-family: "Goldman", cursive;
+	left: 27vw;
+	background-color: rgba(255, 0, 0, 0);
+	top: -0.5vh;
+	font-size: 1.2vw;
+}
+.button2 {
+	position: absolute;
+	width: 1.6vw;
+	height: 4vh;
+	font-family: "Goldman", cursive;
+	font-size: 1vw;
+	right: 3vw;
+	top: 0.5vh;
+	border: none;
+	outline: none;
+	z-index: 1;
+	color: white;
+	cursor: pointer;
+	background-color: rgb(20, 0, 119);
+	border-radius: 2vw;
+}
+.button2:hover {
+	background-color: rgb(110, 0, 112);
+}
+.button3 {
+	position: absolute;
+	width: 1.6vw;
+	height: 4vh;
+	font-family: "Goldman", cursive;
+	font-size: 1vw;
+	right: 1vw;
+	top: 0.5vh;
+	border: none;
+	outline: none;
+	z-index: 1;
+	color: white;
+	cursor: pointer;
+	background-color: rgba(250, 0, 0, 0.436);
+	border-radius: 2vw;
+}
+.button3:hover {
+	background-color: rgb(149, 0, 0);
+}
+.linksdatail {
+	position: absolute;
+	left: 40.5vw;
+	top: 9vh;
+	height: 52vh;
+	width: 33vw;
+	background-color: rgba(255, 0, 0, 0);
+}
+
+.bereichse {
+	position: absolute;
+	width: 33vw;
+	height: 54vh;
+	top: -1vh;
+	border-radius: 0.4vw;
+	background-color: rgba(0, 0, 0, 0.229);
+}
+.titely {
+	position: absolute;
+	color: white;
+	left: 1vw;
+	top: 8vh;
+	width: 31vw;
+	font-size: 1.5vw;
+	border-bottom: 0.2vw solid white;
+	font-family: "Roboto", sans-serif;
+}
+.about {
+	position: absolute;
+	color: white;
+	font-family: "Goldman", cursive;
+	left: 5vw;
+	background-color: rgba(255, 0, 0, 0);
+	top: 8.5vh;
+	overflow: hidden;
+	width: 27vw;
+	font-size: 1.2vw;
+}
+.beschreibung-display {
+	position: absolute;
+	width: 31vw;
+	height: 25vh;
+	border-radius: 1vw;
+	top: 16vh;
+	left: 1vw;
+	background-color: rgba(57, 57, 57, 0.44);
+}
+.abouts {
+	position: absolute;
+	color: white;
+	left: 1vw;
+	top: 0vh;
+	width: 29vw;
+	height: 22vh;
+	background-color: rgba(255, 0, 0, 0);
+	overflow: hidden;
+	font-size: 1.5vw;
+	font-family: "Roboto", sans-serif;
+}
+.statusbear {
+	position: absolute;
+	color: rgb(154, 126, 2);
+	left: 1.5vw;
+	top: 42vh;
+	width: 29vw;
+	height: 22vh;
+	background-color: rgba(255, 0, 0, 0);
+	overflow: hidden;
+	font-size: 2vw;
+	font-family: "Roboto", sans-serif;
+}
+.container-online-infos {
+	position: absolute;
+	left: 22vw;
+	top: 12vh;
+	overflow-y: scroll;
+	height: 52vh;
+	width: 52vw;
+	background-color: rgba(255, 0, 0, 0);
+}
+.container-online-infos::-webkit-scrollbar {
+	width: 0.6vw;
+}
+
+.container-online-infos::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background-color: rgba(255, 255, 255, 0.294);
+}
+
+.container-online-infos::-webkit-scrollbar-thumb {
+	background-color: #202020;
+	border-radius: 2vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.185) 0 3px 13px 1px;
+}
+.name-container-rankingse {
+	position: absolute;
+	text-align: left;
+	font-family: "Goldman", cursive;
+	font-size: 1.8vw;
+	left: 1vw;
+	top: -0.7vh;
+	width: 24vw;
+	background-color: rgba(255, 0, 0, 0);
+	letter-spacing: 0.1vw;
+	color: rgb(255, 255, 255);
+}
+.ping-container-ranking {
+	position: absolute;
+	text-align: center;
+	font-family: "Goldman", cursive;
+	font-size: 2vw;
+	left: 0.3vw;
+	top: -1.2vh;
+	width: 8vw;
+	background-color: rgba(115, 0, 255, 0);
+	letter-spacing: 0.1vw;
+	color: rgb(255, 255, 255);
+}
+.emoji1 {
+	position: absolute;
+	width: 1.6vw;
+	left: 2vw;
+	top: 0.3vh;
+}
+.emoji2 {
+	position: absolute;
+	width: 1.6vw;
+	left: 16vw;
+	top: 0.4vh;
+}
+.emoji3 {
+	position: absolute;
+	width: 1.6vw;
+	left: 30vw;
+	top: 0.4vh;
+}
+.emoji4 {
+	position: absolute;
+	width: 1.6vw;
+	left: 43vw;
+	top: 0.4vh;
+}
+.balkenbackground {
+	position: absolute;
+	width: 49vw;
+	height: 4vh;
+	left: 22.4vw;
+	top: 1.5vh;
+	border-radius: 0.2vw;
+	background-color: rgba(24, 24, 24, 0.592);
+}
+.onlinelist-tier1 {
+	position: absolute;
+	text-align: left;
+	font-family: "Goldman", cursive;
+	font-size: 1.6vw;
+	left: 4.5vw;
+	top: -1.7vh;
+	text-align: left;
+	width: 10vw;
+	background-color: rgba(255, 0, 0, 0);
+	letter-spacing: 0.1vw;
+	color: rgb(255, 255, 255);
+}
+.onlinelist-tier2 {
+	position: absolute;
+	text-align: left;
+	font-family: "Goldman", cursive;
+	font-size: 1.6vw;
+	left: 18.5vw;
+	top: -1.7vh;
+	text-align: left;
+	width: 10vw;
+	background-color: rgba(255, 0, 0, 0);
+	letter-spacing: 0.1vw;
+	color: rgb(255, 255, 255);
+}
+.onlinelist-tier3 {
+	position: absolute;
+	text-align: left;
+	font-family: "Goldman", cursive;
+	font-size: 1.6vw;
+	left: 32.5vw;
+	top: -1.7vh;
+	text-align: left;
+	width: 10vw;
+	background-color: rgba(255, 0, 0, 0);
+	letter-spacing: 0.1vw;
+	color: rgb(255, 255, 255);
+}
+.onlinelist-tier4 {
+	position: absolute;
+	text-align: left;
+	font-family: "Goldman", cursive;
+	font-size: 1.6vw;
+	left: 45.5vw;
+	top: -1.7vh;
+	text-align: left;
+	width: 10vw;
+	background-color: rgba(255, 0, 0, 0);
+	letter-spacing: 0.1vw;
+	color: rgb(255, 255, 255);
+}
+.text-ospieler-ranking {
+	position: absolute;
+	text-align: center;
+	font-family: "Goldman", cursive;
+	font-size: 1.4vw;
+	left: 25vw;
+	top: 6vh;
+	letter-spacing: 0.1vw;
+	color: rgb(255, 255, 255);
+}
+.text-ospieler-Name {
+	position: absolute;
+	text-align: center;
+	font-family: "Goldman", cursive;
+	font-size: 1.4vw;
+	left: 32vw;
+	top: 6vh;
+	letter-spacing: 0.1vw;
+	color: rgb(255, 255, 255);
+}
+
+.text-ospieler-visastufe {
+	position: absolute;
+	text-align: center;
+	font-family: "Goldman", cursive;
+	font-size: 1.4vw;
+	left: 63.5vw;
+	top: 6vh;
+	letter-spacing: 0.1vw;
+	color: rgb(255, 255, 255);
+}
+.arbeitsstufe {
+	position: absolute;
+	color: rgb(167, 167, 167);
+	font-size: 1.5vw;
+	left: 1.3vw;
+	text-align: left;
+	top: 7.5vw;
+	font-family: "Roboto", sans-serif;
+}
+.GreenCard {
+	position: absolute;
+	width: 12vw;
+	height: 32vh;
+	background: linear-gradient(
+		0deg,
+		rgba(0, 255, 26, 0.195) 0%,
+		rgba(0, 212, 35, 0.163) 50%,
+		rgba(238, 130, 238, 0) 100%
+	);
+	left: 21.5vw;
+	border-radius: 0.2vw;
+	top: 32vh;
+}
+.infobelohnung {
+	position: absolute;
+	color: rgba(255, 255, 255, 0.818);
+
+	font-family: "Lato", sans-serif;
+	font-size: 1.3vw;
+	width: 10vw;
+	letter-spacing: 0.05vw;
+	top: 11.2vh;
+	left: 1vw;
+	text-align: center;
+	overflow: hidden;
+	background-color: rgba(255, 0, 0, 0);
+}
+.goldbarren {
+	position: absolute;
+	width: 7vw;
+	left: 2.5vw;
+	top: 1vh;
+}
+.container-id-information {
+	position: absolute;
+	width: 12vw;
+	height: 9vh;
+	background-color: rgba(61, 61, 61, 0.18);
+	right: 1vw;
+	top: 32vh;
+	border-radius: 0.3vw;
+}
+.container-id-information2 {
+	position: absolute;
+	width: 12vw;
+	height: 9vh;
+	background-color: rgba(61, 61, 61, 0.18);
+	right: 1vw;
+	top: 43vh;
+	border-radius: 0.3vw;
+}
+.container-id-information3 {
+	position: absolute;
+	width: 12vw;
+	height: 9vh;
+	background-color: rgba(61, 61, 61, 0.18);
+	right: 1vw;
+	border-radius: 0.3vw;
+	top: 54vh;
+}
+.spieleridtext {
+	position: absolute;
+	color: rgba(231, 231, 231, 0.995);
+	font-family: "Unbounded", sans-serif;
+	font-size: 1vw;
+	top: 1.3vh;
+	left: 1vw;
+}
+.spieleridtextid {
+	position: absolute;
+	color: rgba(231, 231, 231, 0.995);
+	font-family: "Roboto", sans-serif;
+	font-size: 1.8vw;
+	top: 1.8vh;
+	text-align: left;
+	left: 1vw;
+}
+.activatecode {
+	position: absolute;
+	width: 12vw;
+	height: 32vh;
+	background: linear-gradient(
+		0deg,
+		rgba(225, 0, 255, 0.625) 0%,
+		rgba(212, 0, 176, 0.33) 50%,
+		rgba(238, 130, 238, 0) 100%
+	);
+	left: 35vw;
+	border-radius: 0.2vw;
+	top: 32vh;
+}
+.Belohnungaktiviern {
+	position: absolute;
+	color: rgba(255, 255, 255, 0.818);
+
+	font-family: "Lato", sans-serif;
+	font-size: 1.15vw;
+	width: 10vw;
+	letter-spacing: 0.05vw;
+	top: 11.5vh;
+	left: 1vw;
+	text-align: center;
+	overflow: hidden;
+	background-color: rgba(255, 0, 0, 0);
+}
+.juwelen {
+	position: absolute;
+	width: 8vw;
+	left: 2vw;
+	top: 0.5vh;
+}
+.inputt-sendcommand {
+	position: absolute;
+	border: none;
+	-webkit-appearance: none;
+	padding: 0.1vw 1vw;
+	font-family: "Unbounded", sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 1vw;
+	line-height: 4vh;
+	left: 1vw;
+	border-radius: 0.7vw;
+	top: 26.8vh;
+	width: 8vw;
+	color: rgb(255, 255, 255);
+	height: 4vh;
+	text-align: center;
+	text-align: left;
+	z-index: 29;
+	font-size: 0.8vw;
+	background-color: #282b3134;
+	outline: none;
+}
+.inputt-sendcommand:hover {
+	background-color: #282b3134;
+	transition: color 0.6 ease;
+}
+.inputt-sendcommand:focus::placeholder {
+	color: transparent;
+	text-align: center;
+}
+.inputt-sendcommand::placeholder {
+	color: rgb(255, 255, 255);
+	transition: color 0.3s ease;
+	text-align: center;
+}
+.drittecard {
+	position: absolute;
+	width: 12vw;
+	height: 32vh;
+	background: linear-gradient(
+		0deg,
+		rgba(0, 215, 255, 1) 0%,
+		rgba(0, 78, 212, 0.33) 50%,
+		rgba(130, 155, 238, 0) 100%
+	);
+	left: 48.5vw;
+	border-radius: 0.2vw;
+	top: 32vh;
+}
+.inputt-sendcommand2 {
+	position: absolute;
+	border: none;
+	-webkit-appearance: none;
+	padding: 0.1vw 1vw;
+	font-family: "Unbounded", sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 1vw;
+	line-height: 4vh;
+	left: 1vw;
+	border-radius: 0.7vw;
+	top: 26.8vh;
+	width: 8vw;
+	color: rgb(255, 255, 255);
+	height: 4vh;
+	text-align: center;
+	text-align: left;
+	z-index: 29;
+	font-size: 0.8vw;
+	background-color: #282b3134;
+	outline: none;
+}
+.inputt-sendcommand2:hover {
+	background-color: #282b3134;
+	transition: color 0.6 ease;
+}
+.inputt-sendcommand2:focus::placeholder {
+	color: transparent;
+	text-align: center;
+}
+.inputt-sendcommand2::placeholder {
+	color: rgb(255, 255, 255);
+	transition: color 0.3s ease;
+	text-align: center;
+}
+.money {
+	position: absolute;
+	width: 7vw;
+	left: 2.5vw;
+	top: 2vh;
+}
+.img-kategorien {
+	position: absolute;
+	width: 2vw;
+	left: 0.8vw;
+	top: 2.1vh;
+}
+.bugmelden {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+
+	background-image: url(https://cdn.discordapp.com/attachments/954476483651461120/1054096911021379614/pexels-luis-gomes-546819.jpg);
+}
+.frage {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-image: url(https://cdn.discordapp.com/attachments/954476483651461120/1054096937168670862/pexels-pixabay-356079.jpg);
+}
+.spielers {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-image: url(https://cdn.discordapp.com/attachments/954476483651461120/1054096925231681626/pexels-justin-luck-5707182.jpg);
+}
+.img-kategorien2 {
+	position: absolute;
+	width: 2vw;
+	left: 0.8vw;
+	top: 1.2vh;
+}
+.text-container-kato2 {
+	position: absolute;
+	text-align: left;
+	font-family: "Goldman", cursive;
+	font-size: 1vw;
+	left: 3.5vw;
+	width: 12.4vw;
+	background-color: rgba(255, 0, 0, 0);
+	top: -0.4vh;
+	letter-spacing: 0.1vw;
+	color: rgb(255, 255, 255);
+}
+.rechteseite-einstellungen {
+	position: absolute;
+	background-color: rgba(255, 0, 0, 0);
+	width: 55vw;
+	height: 100%;
+	left: 20vw;
+}
+.EinstellungskastenCopyRight {
+	position: absolute;
+	width: 52.8vw;
+	height: 20vh;
+	background-color: rgba(18, 18, 18, 0.558);
+	top: 0vh;
+	left: 0.5vw;
+}
+.container-all {
+	position: absolute;
+	background-color: rgba(255, 0, 0, 0);
+	width: 54.5vw;
+	height: 97%;
+	top: 1vh;
+	overflow-y: scroll;
+	left: 0vw;
+}
+.container-all::-webkit-scrollbar {
+	width: 0.6vw;
+}
+
+.container-all::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background-color: rgba(255, 255, 255, 0.294);
+}
+
+.container-all::-webkit-scrollbar-thumb {
+	background-color: #202020;
+	border-radius: 2vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.185) 0 3px 13px 1px;
+}
+.Überschrift {
+	position: absolute;
+	text-align: left;
+	font-family: "Goldman", cursive;
+	font-size: 1.5vw;
+	left: 1vw;
+	border-bottom: 0.2vh solid white;
+	width: 50.5vw;
+	background-color: rgba(255, 0, 0, 0);
+	top: -1vh;
+	letter-spacing: 0.1vw;
+	color: rgb(255, 255, 255);
+}
+.scrollbereich {
+	position: absolute;
+	left: 0.3vw;
+	top: 0vh;
+	overflow-y: scroll;
+	height: 46vh;
+	width: 32.5vw;
+	background-color: rgba(255, 0, 0, 0);
+}
+.scrollbereich::-webkit-scrollbar {
+	width: 0.3vw;
+}
+
+.scrollbereich::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background-color: rgba(255, 255, 255, 0.294);
+}
+
+.scrollbereich::-webkit-scrollbar-thumb {
+	background-color: #202020;
+	border-radius: 2vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.185) 0 3px 13px 1px;
+}
+.anfangstext {
+	position: relative;
+	color: rgba(231, 231, 231, 0.995);
+	font-family: "Roboto", sans-serif;
+	font-size: 1.1vw;
+	top: 0vh;
+	width: 20vw;
+	text-align: left;
+	left: 1vw;
+}
+.nachrichtcontainer {
+	position: relative;
+	width: 30vw;
+	left: 1vw;
+
+	background-color: rgba(41, 41, 41, 0.356);
+	display: flex;
+	z-index: 3;
+	min-height: 5vh;
+	margin-top: 1vh;
+	border-radius: 0.4vw;
+}
+.textinnencontainernachtricht {
+	color: rgba(153, 153, 153, 0.995);
+	font-family: "Roboto", sans-serif;
+	font-size: 1vw;
+	top: 0vh;
+	margin-top: 1.2vh;
+	padding: 0.5vw;
+	padding-top: 0.5vh;
+	padding-left: 1vw;
+	padding-bottom: 3vh;
+	text-align: left;
+	flex: 1;
+}
+.werhatgesendetamena {
+	position: absolute;
+	color: rgba(109, 109, 109, 0.572);
+	font-family: "Roboto", sans-serif;
+	font-size: 1vw;
+	bottom: -0.5vh;
+	margin-top: 1.2vh;
+	padding-left: 1vw;
+	left: 0vw;
+	padding-bottom: 0.5vh;
+}
+.inputt {
+	position: absolute;
+	border: none;
+	-webkit-appearance: none;
+	padding: 0.1vw 1vw;
+
+	left: 1vw;
+	border-radius: 0.4vw;
+	bottom: 0.5vh;
+	width: 28.5vw;
+	color: rgb(145, 144, 144);
+	font-family: "Poppins", sans-serif;
+	height: 4vh;
+	text-align: left;
+	z-index: 29;
+	font-size: 1vw;
+	background-color: rgba(41, 41, 41, 0.406);
+	outline: none;
+	border: 0.1vh solid rgba(82, 82, 82, 0.481);
+}
+.inputt:hover {
+	background-color: rgba(40, 40, 40, 0.454);
+	transition: color 0.6 ease;
+}
+.inputt:focus::placeholder {
+	color: transparent;
+}
+.inputt::placeholder {
+	color: rgb(74, 74, 74);
+	transition: color 0.3s ease;
+}
+.container-duration {
+	position: absolute;
+	width: 18vw;
+	background-color: rgb(29, 29, 29);
+	height: 5vh;
+	top: 25vh;
+	border-radius: 0.2vw;
+	left: 1vw;
+}
+.container-abholen {
+	position: absolute;
+	width: 11vw;
+	background-color: rgb(29, 29, 29);
+	height: 5vh;
+	top: 25vh;
+	border-radius: 0.2vw;
+	left: 20vw;
+}
+.button-abhoilen {
+	position: absolute;
+	width: 11vw;
+	height: 5vh;
+	font-family: "Lato", sans-serif;
+	font-size: 0.9vw;
+	right: 32vw;
+	top: 25vh;
+	border: none;
+	outline: none;
+	z-index: 1;
+	padding-right: 2.5vw;
+	padding-bottom: 0.2vh;
+	letter-spacing: 0.1vw;
+	color: white;
+	cursor: pointer;
+	background-color: rgb(29, 29, 29);
+	border-radius: 0.2vw;
+}
+.button-abhoilen:hover {
+	transition: 0.2s all;
+	background-color: rgb(110, 0, 112);
+}
+
+.imgsevencoin {
+	position: absolute;
+	width: 1.5vw;
+	left: 8vw;
+	top: 1vh;
+}
+.textdetailhowmany {
+	position: absolute;
+	font-family: "Lato", sans-serif;
+	cursor: pointer;
+	font-size: 0.9vw;
+	font-weight: 500;
+	left: 1.8vw;
+	top: 0.4vh;
+	letter-spacing: 0.1vw;
+	color: white;
+}
+.textdetailhowmanydays {
+	position: absolute;
+	font-family: "Lato", sans-serif;
+	cursor: pointer;
+	font-size: 0.9vw;
+	font-weight: 500;
+	left: 1vw;
+	top: 0.4vh;
+	letter-spacing: 0.1vw;
+	color: rgb(110, 110, 110);
+}
+.passed {
+	position: absolute;
+	font-family: "Lato", sans-serif;
+	cursor: pointer;
+	font-size: 1vw;
+	font-weight: 1000;
+	left: 11.5vw;
+	text-align: center;
+	width: 6vw;
+	background-color: rgba(255, 0, 0, 0);
+	top: 0.1vh;
+	letter-spacing: 0.1vw;
+	color: white;
+}
+
+.scrollseasonpass {
+	position: absolute;
+	left: 1vw;
+	top: 31vh;
+	overflow-x: scroll;
+	height: 33vh;
+	width: 73.8vw;
+
+	background-color: rgba(255, 0, 0, 0);
+}
+.scrollseasonpass::-webkit-scrollbar {
+	width: 0vw;
+	height: 0.5vh;
+}
+
+.scrollseasonpass::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background-color: rgba(34, 34, 34, 0.247);
+}
+
+.scrollseasonpass::-webkit-scrollbar-thumb {
+	background-color: #202020e5;
+	border-radius: 2vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0) 0 3px 13px 1px;
+}
+.normalpass {
+	display: flex;
+}
+.barinfofree {
+	position: absolute;
+	width: 3vw;
+	background-color: rgb(29, 29, 29);
+	height: 15vh;
+	top: 0.5vh;
+	border-radius: 0.2vw;
+	left: 0vw;
+}
+.barinfopremium {
+	position: absolute;
+	width: 3vw;
+	background-color: rgb(29, 29, 29);
+	height: 15vh;
+	top: 16.5vh;
+	border-radius: 0.2vw;
+	left: 0vw;
+}
+.textwhichpass {
+	position: absolute;
+	font-family: "Lato", sans-serif;
+	cursor: pointer;
+	font-size: 1vw;
+	font-weight: 600;
+	left: -1.6vw;
+	transform: rotate(270deg);
+	text-align: center;
+	width: 6vw;
+	background-color: rgba(255, 0, 0, 0);
+	top: 7vh;
+	letter-spacing: 0.1vw;
+	color: white;
+}
+.farbeeinsthema {
+	position: absolute;
+	width: 200vw;
+	top: -80vh;
+	left: -30vw;
+	height: 180vh;
+
+	background: rgb(2, 0, 36);
+	background: radial-gradient(
+		circle,
+		rgba(2, 0, 36, 1) 0%,
+		rgba(221, 237, 5, 0.445) 0%,
+		rgba(98, 223, 145, 0) 33%,
+		rgba(0, 212, 255, 0) 100%
+	);
+}
+.seasonpass {
+	position: absolute;
+	background-color: rgba(255, 0, 0, 0);
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.infotextoben {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	font-family: "Kanit", sans-serif;
+	font-size: 3vw;
+	top: -0.5vh;
+	margin-top: 1.2vh;
+	padding-left: 1vw;
+	letter-spacing: 0.1vw;
+	left: 1.5vw;
+	padding-bottom: 0.5vh;
+}
+.detailtext {
+	position: absolute;
+	font-family: "Roboto", sans-serif;
+	cursor: pointer;
+	font-size: 0.9vw;
+	font-weight: 1000;
+	left: 1.6vw;
+
+	text-align: center;
+	width: 35vw;
+	background-color: rgba(255, 0, 0, 0);
+	top: 15vh;
+	letter-spacing: 0.1vw;
+	color: white;
+}
+.infodetail {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	font-family: "Kanit", sans-serif;
+	font-size: 2.5vw;
+	top: 6.8vh;
+	margin-top: 1.2vh;
+	padding-left: 1vw;
+	letter-spacing: 0.1vw;
+	left: 3.5vw;
+	padding-bottom: 0.5vh;
+}
+.imgcar {
+	position: absolute;
+	width: 20vw;
+	left: 54vw;
+	top: 4vh;
+}
+.farbeeinsthema2 {
+	position: absolute;
+	width: 100vw;
+	top: -90vh;
+	left: -50vw;
+	height: 180vh;
+
+	background: rgb(2, 0, 36);
+	background: radial-gradient(
+		circle,
+		rgba(2, 0, 36, 1) 0%,
+		rgba(221, 237, 5, 0.445) 0%,
+		rgba(98, 223, 145, 0) 33%,
+		rgba(0, 212, 255, 0) 100%
+	);
+}
+.imgsunn {
+	position: absolute;
+	width: 6vw;
+	top: -4vh;
+	filter: blur(3px);
+	right: 15vw;
+}
+.imgsunn2 {
+	position: absolute;
+	width: 7vw;
+	top: 0.5vh;
+	filter: blur(3px);
+	right: 0.5vw;
+}
+.imgsunn3 {
+	position: absolute;
+	width: 7vw;
+	top: 10.5vh;
+	filter: blur(3px);
+	right: 15.5vw;
+}
+.imgsunn4 {
+	position: absolute;
+	width: 4vw;
+	top: 1.4vh;
+	filter: blur(3px);
+	left: 15.5vw;
+}
+.imgsunn5 {
+	position: absolute;
+	width: 4vw;
+	top: 7.4vh;
+	filter: blur(2px);
+	left: 5.2vw;
+}
+.container-normalerpass {
+	position: relative;
+	width: 9vw;
+	background-color: rgba(29, 29, 29, 0.658);
+	height: 15vh;
+	top: 0.5vh;
+	left: 3.5vw;
+	flex-shrink: 0;
+	z-index: 1;
+	cursor: pointer;
+	margin-left: 0.4vw;
+	border-radius: 0.2vw;
+}
+.permiumpass {
+	display: flex;
+}
+.container-premiumpass {
+	position: relative;
+	width: 9vw;
+	background-color: rgba(29, 29, 29, 0.658);
+	height: 15vh;
+	top: 0.5vh;
+	left: 3.5vw;
+	flex-shrink: 0;
+	cursor: pointer;
+	margin-top: 1vh;
+	margin-left: 0.4vw;
+	border-radius: 0.2vw;
+}
+.container-freepasshacken {
+	position: absolute;
+	width: 1.4vw;
+	left: 0.8vw;
+	top: 1vh;
+	border-radius: 1vw;
+	height: 2.5vh;
+	background-color: rgba(110, 0, 112, 0.637);
+}
+.hackeninit {
+	position: absolute;
+	width: 1vw;
+	left: 0.2vw;
+	top: 0.32vh;
+}
+.container-progressbar {
+	position: absolute;
+	width: 30vw;
+	top: 27.4vh;
+	left: 44vw;
+	background-color: rgb(29, 29, 29);
+	height: 2.5vh;
+	border-radius: 0.3vw;
+}
+.progressbarinen {
+	position: absolute;
+	width: 29.2vw;
+	top: 0.6vh;
+	z-index: 1;
+	left: 0.4vw;
+	background: rgb(230, 1, 126);
+	background: rgb(230, 1, 126);
+	background: linear-gradient(
+		90deg,
+		rgba(230, 1, 126, 1) 0%,
+		rgba(62, 7, 122, 1) 100%,
+		rgba(9, 9, 121, 1) 100%
+	);
+	height: 1.4vh;
+	border-radius: 0.3vw;
+}
+.coinsid {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	font-family: "Kanit", sans-serif;
+	font-size: 0.8vw;
+	top: -0.7vh;
+	width: 5.7vw;
+	text-align: center;
+	background-color: rgba(255, 0, 0, 0);
+	letter-spacing: 0.1vw;
+	left: 0vw;
+}
+.container-howmanycoins {
+	position: absolute;
+	width: 7vw;
+	background-color: rgb(29, 29, 29);
+	height: 2.3vh;
+	top: 24.6vh;
+	border-radius: 0.2vw;
+	right: 1vw;
+}
+.sevencoinmini {
+	width: 1vw;
+	position: absolute;
+	left: 5.8vw;
+	top: 0.2vh;
+}
+.gewinndetail {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	font-family: "Roboto", sans-serif;
+	font-size: 0.8vw;
+	width: 100%;
+	background-color: rgba(255, 0, 0, 0);
+	bottom: 0vh;
+	font-weight: 500;
+	user-select: none;
+	text-align: center;
+	pointer-events: none;
+	letter-spacing: 0.1vw;
+	left: 0vw;
+}
+.gewinnbild {
+	position: absolute;
+
+	width: 90%;
+	left: 0.3vw;
+	height: 100%;
+}
+.container-bild {
+	position: absolute;
+	width: 6vw;
+	left: 1.5vw;
+	top: 4.5vh;
+	user-select: none;
+	pointer-events: none;
+	height: 5.7vh;
+	background-color: rgba(255, 0, 0, 0);
+}
+.container-rare {
+	position: absolute;
+	width: 3.5vw;
+	background-color: rgb(29, 29, 29);
+	height: 2.3vh;
+	top: 0.6vh;
+	pointer-events: none;
+	user-select: none;
+	border-radius: 0.2vw;
+	right: 5vw;
+}
+.textrare {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	font-family: "Roboto", sans-serif;
+	font-size: 0.6vw;
+	top: -0.3vh;
+	font-weight: 500;
+	width: 3.5vw;
+	text-align: center;
+	user-select: none;
+	background-color: rgba(255, 0, 0, 0);
+	letter-spacing: 0.1vw;
+	left: 0vw;
+}
+.infolevel {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	font-family: "Roboto", sans-serif;
+	font-size: 0.6vw;
+	top: 0.2vh;
+	pointer-events: none;
+	font-weight: 500;
+	user-select: none;
+	width: 4.5vw;
+	text-align: right;
+	background-color: rgba(255, 0, 0, 0);
+	letter-spacing: 0.1vw;
+	right: 0.5vw;
+}
+.infolevel2 {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	font-family: "Roboto", sans-serif;
+	font-size: 0.8vw;
+	top: 23.8vh;
+	pointer-events: none;
+	font-weight: 500;
+	user-select: none;
+	width: 4.5vw;
+	text-align: right;
+	background-color: rgba(255, 0, 0, 0);
+	letter-spacing: 0.1vw;
+	right: 8.5vw;
+}

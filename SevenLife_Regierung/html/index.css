@@ -1,0 +1,710 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	overflow-y: hidden;
+}
+.wrapper {
+	width: 52.2vw;
+	height: 67.5vh;
+	position: absolute;
+	background: linear-gradient(
+		30deg,
+		rgba(112, 0, 58, 0.63),
+		30%,
+		rgba(68, 68, 68, 0.473)
+	);
+	left: 25vw;
+	top: 12vh;
+	border-radius: 1vw;
+}
+.line {
+	position: absolute;
+	width: 40vw;
+	height: 0.1vh;
+	background: rgb(255, 255, 255);
+	top: 10.8vh;
+	left: 6vw;
+}
+.oben h1 {
+	position: absolute;
+	font-family: "Oswald", sans-serif;
+	color: white;
+	letter-spacing: 0.1vw;
+	left: 15vw;
+	top: 1.5vh;
+	font-size: 2.8vw;
+}
+.oben h2 {
+	position: absolute;
+	font-family: "Oswald", sans-serif;
+	color: white;
+	letter-spacing: 0.1vw;
+	left: 15vw;
+	top: 1.5vh;
+	font-size: 2.8vw;
+}
+.imghes {
+	position: absolute;
+	width: 21vw;
+	filter: brightness(70%);
+	top: 13.2vh;
+	left: -3vw;
+}
+.ecke {
+	position: absolute;
+	width: 37vw;
+	height: 51vh;
+	left: 14vw;
+	top: 16vh;
+	background-color: rgba(255, 242, 242, 0);
+}
+
+.auswählen {
+	position: relative;
+	display: inline-block;
+	width: 16vw;
+	height: 15vh;
+	margin-left: 2.2vw;
+	left: -1vw;
+	top: 10vh;
+	margin-top: 4vh;
+	background-color: rgba(97, 97, 97, 0.356);
+	transform: skewX(-10deg);
+	border-radius: 1vw;
+	cursor: pointer;
+}
+.auswählen:hover {
+	transition: 0.5s;
+	background-color: rgba(47, 47, 47, 0.89);
+}
+
+.auswählen h1 {
+	position: absolute;
+	font-size: 1.4vw;
+	top: 1vh;
+	left: 0vw;
+	color: white;
+	width: 16vw;
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+	transform: skewX(10deg);
+}
+.auswählen p {
+	position: absolute;
+	font-size: 0.9vw;
+	top: 5vh;
+	left: 1.5vw;
+	color: white;
+	background-color: rgba(255, 0, 0, 0);
+	width: 13vw;
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+	transform: skewX(10deg);
+}
+
+.text5 {
+	position: absolute;
+	font-size: 1vw;
+	top: 12.5vh;
+	left: 13vw;
+	color: white;
+	width: 36vw;
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+}
+.inputt {
+	border: none;
+	-webkit-appearance: none;
+	padding: 0.2vw;
+	position: absolute;
+	left: 19vw;
+	top: 46vh;
+	width: 26vw;
+	color: white;
+	border-radius: 1vw;
+	font-size: 1.9vw;
+	height: 6vh;
+	z-index: 29;
+	background-color: rgba(39, 39, 39, 0.295);
+	outline: none;
+}
+.inputt:hover {
+	transition: color 0.6 ease;
+	color: white;
+	background-color: rgba(20, 24, 36, 0.5);
+}
+.inputt::placeholder {
+	color: white;
+}
+
+.submitbutton {
+	position: absolute;
+	left: 19vw;
+	top: 55vh;
+	width: 26vw;
+	height: 7vh;
+	z-index: 29;
+	padding: 0.2vw;
+	font-size: 1.5vw;
+	background-color: rgba(26, 26, 26, 0.356);
+	cursor: pointer;
+	border-radius: 10vh;
+	border: none;
+	font-family: "Roboto", sans-serif;
+	color: #ffffff;
+	border-radius: 1vw;
+	outline: none;
+	z-index: 29;
+}
+.submitbutton:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	background-color: rgba(20, 24, 36, 0.808);
+}
+
+.text5 h3 {
+	position: relative;
+	top: 3vh;
+	text-align: center;
+	width: 30vw;
+	left: 3vw;
+}
+.zurück {
+	width: 2vw;
+	position: absolute;
+	cursor: pointer;
+	left: 0.3vw;
+	top: 0.6vh;
+	transform: rotate(-90deg);
+}
+.box {
+	position: absolute;
+	width: 2.5vw;
+	height: 5vh;
+	left: 0.7vw;
+	top: 0.9vh;
+	background-color: rgba(59, 59, 59, 0.424);
+	box-shadow: 0.1vw 0.1vw 0.1vw black;
+	border-radius: 2vw;
+}
+.box:hover {
+	box-shadow: 0.2vw 0.2vw 0.2vw black;
+	background-color: rgba(59, 59, 59, 0.787);
+}
+.close {
+	position: absolute;
+	cursor: pointer;
+	width: 2.4vw;
+
+	left: 49.7vw;
+}
+.text6 h2 {
+	position: absolute;
+	font-size: 1.5vw;
+	top: 14.4vh;
+	left: 21.5vw;
+	color: white;
+	width: 30vw;
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+}
+.text6 h3 {
+	position: relative;
+	top: 42vh;
+	font-size: 1.3vw;
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+	color: white;
+	width: 25vw;
+	left: 24vw;
+}
+.boxe {
+	position: relative;
+	width: 16vw;
+	height: 42vh;
+	border-radius: 1vw;
+	left: 3vw;
+	background: rgba(54, 54, 54, 0.37);
+}
+.box-scroll {
+	position: absolute;
+	width: 15.5vw;
+	height: 39vh;
+	top: 1.3vh;
+	border-radius: 1vw;
+	left: 0vw;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+.box-scroll::-webkit-scrollbar {
+	position: absolute;
+	width: 0.6vw;
+}
+
+.box-scroll::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background-color: rgba(255, 255, 255, 0.294);
+}
+
+.box-scroll::-webkit-scrollbar-thumb {
+	background-color: #202020;
+	border-radius: 2vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.185) 0.2vw 0.2vw 0.2vw;
+}
+
+.gebäude {
+	position: relative;
+	width: 14vw;
+	border-radius: 1vw;
+	margin-top: 0.7vh;
+	height: 10vh;
+	left: 0.5vw;
+	background: rgba(46, 46, 46, 0.5);
+	cursor: pointer;
+}
+.gebäude:hover {
+	background: rgba(32, 32, 32, 0.678);
+}
+.line1 {
+	position: relative;
+	width: 26vw;
+	height: 0.1vh;
+	background: rgb(255, 255, 255);
+	top: 38.5vh;
+	left: 23vw;
+}
+.gebäude h1 {
+	position: relative;
+	font-family: "Bebas Neue", cursive;
+	color: white;
+	letter-spacing: 0.05vw;
+	font-size: 1.4vw;
+	left: 1vw;
+	top: 0.1vh;
+}
+.gebäude h2 {
+	position: relative;
+	font-family: "Roboto", sans-serif;
+	color: white;
+	letter-spacing: 0.05vw;
+	font-size: 0.8vw;
+	left: 1vw;
+	top: 0vh;
+}
+.cash {
+	position: absolute;
+	width: 20vw;
+	top: 16vh;
+	left: 1vw;
+}
+.oben h3 {
+	position: absolute;
+	font-family: "Oswald", sans-serif;
+	color: white;
+	letter-spacing: 0.05vw;
+	left: 15vw;
+	top: 2vh;
+	font-size: 2.5vw;
+}
+.submitbutton3 {
+	position: absolute;
+	left: 23vw;
+	top: 57vh;
+	width: 26vw;
+	height: 6vh;
+	z-index: 29;
+	padding: 0.5vw;
+	font-size: 1.3vw;
+	background-color: rgba(17, 14, 14, 0.356);
+	outline: none;
+	cursor: pointer;
+	border-radius: 10vh;
+	border: none;
+	border: none;
+	color: #ffffff;
+	border-radius: 0.5vw;
+	outline: none;
+	z-index: 29;
+}
+.submitbutton3:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	background-color: rgba(20, 24, 36, 0.808);
+}
+.impounder-container {
+	position: absolute;
+	width: 62vw;
+	border-radius: 1vw;
+	height: 60vh;
+	background-color: rgba(8, 8, 8, 0.849);
+	left: 22vw;
+	top: 10vh;
+}
+.impounder-container-left {
+	width: 27%;
+	height: 100%;
+	background: linear-gradient(236deg, rgb(0, 0, 0), rgba(255, 0, 0, 0) 100%),
+		linear-gradient(6deg, rgba(114, 0, 89), rgba(153, 0, 120, 0.013) 100%);
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px;
+}
+.impounder-container-left-icons {
+	position: relative;
+	width: 10vw;
+	left: 3.5vw;
+}
+.impounder-container-left-text-überschrift {
+	position: relative;
+	font-family: "Bebas Neue", cursive;
+	color: white;
+	letter-spacing: 0.5vw;
+	font-size: 2.2vw;
+	left: 1.5vw;
+	top: 0vh;
+}
+.impounder-container-left-text-unterschrift {
+	position: absolute;
+	font-family: "Oswald", sans-serif;
+	color: white;
+	letter-spacing: 0.1vw;
+	font-size: 1.3vw;
+	left: 0.1vw;
+	top: 23vh;
+	text-align: center;
+	width: 16.5vw;
+	background-color: rgba(255, 0, 0, 0);
+}
+.impounder-close {
+	width: 2.7vw;
+	cursor: pointer;
+	position: absolute;
+	right: 0.2vw;
+	top: 0.2vh;
+}
+.impounder-container-right-box-list {
+	position: absolute;
+	background-color: rgba(5, 5, 5, 0);
+	height: 54vh;
+	top: 5vh;
+	left: 27%;
+	width: 72%;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+.impounder-container-right-box-list::-webkit-scrollbar {
+	width: 0.9vw;
+	height: 15vh;
+}
+
+.impounder-container-right-box-list::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background-color: rgba(255, 255, 255, 0.294);
+}
+
+.impounder-container-right-box-list::-webkit-scrollbar-thumb {
+	background-color: #202020;
+	border-radius: 2vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.185) 0 3px 13px 1px;
+}
+.impounder-container-right-box-list-appteil {
+	position: relative;
+	background: linear-gradient(
+			30deg,
+			rgba(0, 0, 0, 0.76),
+			rgba(255, 0, 0, 0) 90%
+		),
+		linear-gradient(76deg, rgba(114, 0, 89), rgba(153, 0, 120, 0.239) 100%);
+	width: 31%;
+	margin-top: 1vh;
+	height: 11vh;
+	display: inline-block;
+	border-radius: 0.5vw;
+	margin-left: 0.5vw;
+	cursor: pointer;
+}
+.carname {
+	position: absolute;
+	font-family: "Bebas Neue", cursive;
+	background-color: rgba(90, 0, 90, 0);
+	font-size: 1.3vw;
+	text-align: center;
+	color: white;
+	width: 100%;
+	height: 3.5vh;
+	letter-spacing: 0.2vw;
+	top: 0.5vh;
+	left: 0.1%;
+}
+.kennzeichen {
+	position: absolute;
+	font-family: "Bebas Neue", cursive;
+	background-color: rgba(246, 0, 0, 0);
+	font-size: 1.6vw;
+
+	color: white;
+	width: 100%;
+	height: 2.8vh;
+	letter-spacing: 1px;
+	text-align: center;
+	top: 3.5vh;
+}
+.auto-ausparken {
+	position: relative;
+	display: inline-block;
+	width: 45%;
+	height: 12vh;
+	margin-top: 10px;
+	overflow: hidden;
+	margin-left: 10px;
+	cursor: pointer;
+	box-shadow: 1px 1px 1px 1px black;
+	background-color: rgba(28, 28, 28, 0.785);
+}
+.cars {
+	position: relative;
+	left: 0.5%;
+	width: 34%;
+	top: 1.2vh;
+}
+.fuel {
+	position: relative;
+	left: 3vw;
+	width: 2vw;
+	top: 7vh;
+}
+.fuels {
+	position: absolute;
+	font-family: "Bebas Neue", cursive;
+	background-color: rgba(246, 0, 0, 0);
+	font-size: 1.6vw;
+	text-align: left;
+	color: white;
+	width: 7vw;
+	letter-spacing: 1px;
+	top: 7vh;
+	left: 5vw;
+}
+.anmeldestelle-container {
+	position: absolute;
+	left: 36vw;
+	top: 20vh;
+	background: linear-gradient(
+			236deg,
+			rgb(0, 0, 0),
+			rgba(255, 0, 0, 0.267) 100%
+		),
+		linear-gradient(36deg, rgb(85, 0, 67), rgba(153, 0, 120, 0.013) 70%);
+	height: 50vh;
+	width: 27vw;
+	border-radius: 1vw;
+}
+.anmeldestelle-container-text {
+	position: absolute;
+	font-family: "Bebas Neue", cursive;
+	background-color: rgba(246, 0, 0, 0);
+	font-size: 3vw;
+	text-align: center;
+	color: white;
+	width: 20vw;
+	height: 12vh;
+	letter-spacing: 0.2vw;
+	top: 1.5vh;
+	left: 3.4vw;
+}
+.anmeldestelle-container-box-span {
+	position: absolute;
+	font-family: "Oswald", sans-serif;
+	background-color: rgba(246, 0, 0, 0);
+	font-size: 1.9vw;
+	text-align: center;
+	color: white;
+	width: 25vw;
+	height: 12vh;
+	letter-spacing: 0px;
+	top: 0.5vh;
+	left: 0vw;
+}
+.anmeldestelle-container-box-in {
+	position: relative;
+	left: 0.8vw;
+	width: 25vw;
+	top: 9vh;
+	border: 0.2vw solid rgb(121, 0, 88);
+	border-radius: 1vw;
+	height: 39vh;
+	background-color: rgba(255, 0, 0, 0);
+}
+#anmeldestelle-container-box-inputt {
+	border: none;
+	-webkit-appearance: none;
+	padding: 0.1vw;
+	position: relative;
+	left: 0.8vw;
+	top: 21vh;
+	width: 23.2vw;
+	color: white;
+	border-radius: 0.3vw;
+	font-size: 2vw;
+	height: 6vh;
+	z-index: 29;
+
+	background-color: rgba(20, 20, 20, 0.513);
+	outline: none;
+}
+
+.anmeldestelle-container-box-inputt:focus::placeholder {
+	color: transparent;
+}
+.anmeldestelle-container-box-inputt::placeholder {
+	color: white;
+	text-align: center;
+	transition: color 0.3s ease;
+}
+.anmeldestelle-container-box-submitbutton {
+	position: relative;
+	left: 0.8vw;
+	top: 23vh;
+	width: 23.3vw;
+	height: 5.8vh;
+	z-index: 29;
+	font-family: "Bebas Neue", cursive;
+	padding: 0vw;
+	font-size: 2.5vw;
+	background-color: rgba(19, 24, 27, 0.623);
+	outline: none;
+	cursor: pointer;
+	border: none;
+	color: #ffffff;
+	border-radius: 0.2vw;
+	outline: none;
+	z-index: 29;
+}
+.anmeldestelle-container-box-submitbutton:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	background-color: rgba(19, 29, 20, 0.623);
+}
+
+.left {
+	position: absolute;
+	left: 0vw;
+	top: 0vw;
+	height: 100%;
+	width: 42vw;
+	background: linear-gradient(
+		to right,
+		rgba(114, 0, 89),
+		rgba(0, 0, 255, 0) 90.71%
+	);
+}
+.right {
+	position: absolute;
+	right: 0vw;
+	top: 0vw;
+	height: 100%;
+	width: 42vw;
+	background: linear-gradient(
+		to left,
+		rgba(114, 0, 89),
+		rgba(0, 0, 255, 0) 90.71%
+	);
+}
+.strich {
+	position: absolute;
+	width: 0.1vw;
+	height: 100vh;
+	background-color: white;
+	left: 4.5vw;
+}
+.text {
+	position: absolute;
+	color: white;
+	font-size: 4vw;
+	left: -21.7vw;
+	top: 30vh;
+	width: 40vw;
+	text-align: right;
+	background-color: rgba(255, 0, 0, 0);
+	transform: rotate(270deg);
+	font-family: "Bebas Neue", cursive;
+	letter-spacing: 0.4vw;
+}
+.infobox {
+	position: absolute;
+	width: 25vw;
+	height: 12vh;
+	background-color: rgba(105, 105, 105, 0.705);
+	top: 61vh;
+	left: 15vw;
+	transform: rotate(-1.5deg);
+	border-top-left-radius: 1vw;
+	border-bottom-right-radius: 1vw;
+}
+.text-infobox {
+	position: absolute;
+	color: white;
+	font-size: 1.1vw;
+	left: 0.8vw;
+	top: 2vh;
+	font-family: "Roboto", sans-serif;
+}
+.submitbuttonseedsf {
+	position: absolute;
+	left: 15vw;
+	top: 75vh;
+	width: 13vw;
+	height: 10vh;
+	z-index: 29;
+	padding: 0;
+	font-size: 1.4vw;
+	background-color: rgba(31, 31, 31, 0.287);
+	outline: none;
+	cursor: pointer;
+	border-bottom-left-radius: 1vw;
+	border-top-right-radius: 1vw;
+	border: none;
+	color: #ffffff;
+	font-family: "Bebas Neue", cursive;
+	letter-spacing: 0.1vw;
+	transform: translate(-1deg);
+	border: 0.2vw solid rgb(255, 255, 255);
+	z-index: 29;
+}
+.submitbuttonseedsf:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	background-color: rgba(94, 94, 94, 0.808);
+}
+.submitbuttonseeds {
+	position: relative;
+	left: 28.5vw;
+	top: 75vh;
+	width: 12vw;
+	height: 10vh;
+	z-index: 29;
+	padding: 0;
+
+	font-size: 1.4vw;
+	background-color: rgba(31, 31, 31, 0.287);
+	outline: none;
+	cursor: pointer;
+	border-top-left-radius: 1vw;
+	border-bottom-right-radius: 1vw;
+	border: none;
+	color: #ffffff;
+	outline: none;
+	font-family: "Bebas Neue", cursive;
+	letter-spacing: 0.1vw;
+	border: 0.2vw solid rgb(255, 255, 255);
+	z-index: 29;
+}
+.submitbuttonseeds:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	background-color: rgba(23, 23, 23, 0.808);
+}

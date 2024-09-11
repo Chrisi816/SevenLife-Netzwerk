@@ -1,0 +1,416 @@
+@font-face {
+	font-family: "Open Sans";
+	src: url("fonts/OpenSans-VariableFont_wdth\,wght.ttf");
+}
+@font-face {
+	font-family: "Nunito Sans";
+	src: url("fonts/NunitoSans-Regular.ttf");
+}
+@font-face {
+	font-family: "Lato";
+	src: url("fonts/Lato-Black.ttf");
+}
+@font-face {
+	font-family: "Goldman";
+	src: url("fonts/Goldman-Regular.ttf");
+}
+@font-face {
+	font-family: "Abel";
+	src: url("fonts/Abel-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Aldrich";
+	src: url("fonts/Aldrich-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Roboto";
+	src: url("fonts/Roboto-MediumItalic.ttf");
+}
+@font-face {
+	font-family: "Khula";
+	src: url("fonts/Khula-Regular.ttf");
+}
+body {
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+.body-container {
+	display: none;
+}
+.leftcar {
+	position: absolute;
+	width: 30vw;
+	height: 100%;
+	background: linear-gradient(
+		to right,
+		rgba(114, 0, 89),
+		rgba(0, 0, 255, 0) 95.71%
+	);
+}
+.rightcar {
+	position: absolute;
+	width: 30vw;
+	height: 100%;
+	right: 0vw;
+	background: linear-gradient(
+		to left,
+		rgba(114, 0, 89),
+		rgba(0, 0, 255, 0) 95.71%
+	);
+}
+.esctext {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	right: 3vw;
+	top: 2.5vh;
+	letter-spacing: 0.1vw;
+	font-size: 1.1vw;
+	z-index: 2;
+	transform: rotate(0deg);
+	font-family: "Lato", sans-serif;
+}
+
+.strich {
+	position: absolute;
+	height: 0.2vh;
+	background-color: rgba(96, 1, 75, 0.392);
+	width: 20vw;
+	top: 18vh;
+	left: 2vw;
+}
+.textwhichone {
+	position: absolute;
+	font-family: Goldman;
+	color: white;
+	left: 2vw;
+	top: 2vh;
+	font-size: 2vw;
+	overflow: hidden;
+	background-color: rgba(255, 0, 0, 0);
+	width: 20vw;
+}
+.container-shop {
+	position: absolute;
+	height: 5vh;
+	width: 9vw;
+	background-color: rgba(172, 0, 188, 0.801);
+	top: 10.5vh;
+	border-radius: 1vw;
+	left: 2vw;
+}
+.textheandler {
+	position: absolute;
+	font-family: Aldrich;
+	color: white;
+	left: 2.7vw;
+	font-size: 1vw;
+	top: 0.2vh;
+	overflow: hidden;
+	background-color: rgba(255, 0, 0, 0);
+	width: 20vw;
+}
+.imgvalid {
+	position: absolute;
+	width: 1.6vw;
+	left: 0.6vw;
+	top: 1vh;
+}
+.insertcars {
+	position: absolute;
+	width: 22vw;
+	height: 77vh;
+	overflow: scroll;
+	background-color: rgba(255, 0, 0, 0);
+	left: 2vw;
+	overflow-x: hidden;
+	top: 20vh;
+}
+.insertcars::-webkit-scrollbar {
+	width: 0.6vw;
+	height: 15px;
+}
+
+.insertcars::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+.insertcars::-webkit-scrollbar-thumb {
+	background-color: #202020;
+	border-radius: 2vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.12) 0 3px 13px 1px;
+}
+.insertcars-container {
+	position: relative;
+	display: inline-block;
+	border-radius: 0.2vw;
+	cursor: pointer;
+	margin-top: 1vh;
+	top: -1vh;
+	width: 21vw;
+	height: 10vh;
+	background-color: rgba(28, 28, 28, 0.352);
+}
+.insertcars-container-left {
+	position: absolute;
+	width: 5vw;
+	height: 10vh;
+	border-top-left-radius: 0.2vw;
+	border-bottom-left-radius: 0.2vw;
+	background-color: rgba(43, 43, 43, 0.384);
+}
+.carimg {
+	position: absolute;
+	width: 3vw;
+	left: 0.9vw;
+	top: 2vh;
+}
+.container-price {
+	position: absolute;
+	width: 7vw;
+	height: 3vh;
+	top: 6vh;
+	left: 5.5vw;
+	border-radius: 0.2vw;
+	background-color: rgba(43, 43, 43, 0.384);
+}
+.price-car {
+	position: absolute;
+	font-family: Lato;
+	color: rgba(94, 255, 0, 0.937);
+	left: 0vw;
+	letter-spacing: 0.1vw;
+	font-size: 1vw;
+	text-align: center;
+	top: -0.8vh;
+	overflow: hidden;
+	background-color: rgba(255, 0, 0, 0);
+	width: 7vw;
+}
+.carname-authaus {
+	position: absolute;
+	font-family: Lato;
+	color: rgba(255, 255, 255, 0.937);
+	left: 5.6vw;
+	letter-spacing: 0.1vw;
+	font-size: 1.2vw;
+	text-align: left;
+	top: 0.3vh;
+	overflow: hidden;
+	background-color: rgba(255, 0, 0, 0);
+	width: 17vw;
+}
+.carname-authaus-main {
+	position: absolute;
+	font-family: Goldman;
+	color: rgba(255, 255, 255, 0.937);
+	right: 0vw;
+	letter-spacing: 0.1vw;
+	font-size: 1.9vw;
+	text-align: center;
+	top: 6.3vh;
+	overflow: hidden;
+	background-color: rgba(255, 0, 0, 0);
+	width: 25vw;
+}
+.carname-price {
+	position: absolute;
+	font-family: Goldman;
+	color: rgba(255, 255, 255, 0.937);
+	right: 2vw;
+	letter-spacing: 0.1vw;
+	font-size: 1.3vw;
+	text-align: right;
+	top: 13.3vh;
+	overflow: hidden;
+	background-color: rgba(255, 0, 0, 0);
+	width: 17vw;
+}
+.price-car-main {
+	position: absolute;
+	font-family: Lato;
+	color: rgba(94, 255, 0, 0.937);
+	right: 2vw;
+	letter-spacing: 0.1vw;
+	font-size: 1.4vw;
+	text-align: right;
+	top: 16.8vh;
+	overflow: hidden;
+	background-color: rgba(255, 0, 0, 0);
+	width: 13vw;
+}
+.container-rand {
+	position: absolute;
+	width: 20vw;
+	height: 6vh;
+	border-radius: 0.3vw;
+	background-color: rgba(32, 32, 32, 0.466);
+	right: 2vw;
+	top: 29vh;
+}
+.container-rand2 {
+	position: absolute;
+	width: 20vw;
+	height: 6vh;
+	border-radius: 0.3vw;
+	background-color: rgba(32, 32, 32, 0.466);
+	right: 2vw;
+	top: 43vh;
+}
+.container-rand3 {
+	position: absolute;
+	width: 20vw;
+	height: 6vh;
+	border-radius: 0.3vw;
+	background-color: rgba(32, 32, 32, 0.466);
+	right: 2vw;
+	top: 57vh;
+}
+.container-rand4 {
+	position: absolute;
+	width: 20vw;
+	height: 6vh;
+	border-radius: 0.3vw;
+	background-color: rgba(32, 32, 32, 0.466);
+	right: 2vw;
+	top: 72vh;
+}
+.EngineInformation {
+	position: absolute;
+	width: 2.4vw;
+	right: 19.6vw;
+	top: 23.5vh;
+}
+
+.EngineInformation2 {
+	position: absolute;
+	width: 2.4vw;
+	right: 19.6vw;
+	top: 37vh;
+}
+
+.EngineInformation3 {
+	position: absolute;
+	width: 2.4vw;
+	right: 19.6vw;
+	top: 51vh;
+}
+
+.EngineInformation4 {
+	position: absolute;
+	width: 2.4vw;
+	right: 19.6vw;
+	top: 66vh;
+}
+.nameinformation {
+	position: absolute;
+	font-family: Goldman;
+	color: rgba(255, 255, 255, 0.937);
+	right: 1.5vw;
+	letter-spacing: 0.1vw;
+	font-size: 1.3vw;
+	text-align: left;
+	top: 22.5vh;
+	overflow: hidden;
+	background-color: rgba(255, 0, 0, 0);
+	width: 17vw;
+}
+.nameinformation2 {
+	position: absolute;
+	font-family: Goldman;
+	color: rgba(255, 255, 255, 0.937);
+	right: 1.5vw;
+	letter-spacing: 0.1vw;
+	font-size: 1.3vw;
+	text-align: left;
+	top: 36.5vh;
+	overflow: hidden;
+	background-color: rgba(255, 0, 0, 0);
+	width: 17vw;
+}
+
+.nameinformation3 {
+	position: absolute;
+	font-family: Goldman;
+	color: rgba(255, 255, 255, 0.937);
+	right: 1.5vw;
+	letter-spacing: 0.1vw;
+	font-size: 1.3vw;
+	text-align: left;
+	top: 50.6vh;
+	overflow: hidden;
+	background-color: rgba(255, 0, 0, 0);
+	width: 17vw;
+}
+
+.nameinformation4 {
+	position: absolute;
+	font-family: Goldman;
+	color: rgba(255, 255, 255, 0.937);
+	right: 1.5vw;
+	letter-spacing: 0.1vw;
+	font-size: 1.3vw;
+	text-align: left;
+	top: 65.5vh;
+	overflow: hidden;
+	background-color: rgba(255, 0, 0, 0);
+	width: 17vw;
+}
+.Button-Buy {
+	position: absolute;
+	height: 7vh;
+	width: 19.5vw;
+	font-family: "Goldman", cursive;
+	font-size: 1.3vw;
+	right: 2vw;
+	top: 90vh;
+	margin-left: 2vw;
+	border: none;
+	outline: none;
+	z-index: 1;
+	color: white;
+	cursor: pointer;
+	background-color: rgb(164, 0, 167);
+	border-radius: 0.2vw;
+}
+
+.Button-Buy:hover {
+	transition: 1s all;
+	background-color: rgb(110, 0, 112);
+}
+.corner {
+	position: relative;
+	display: inline-block;
+	background-color: rgba(114, 0, 89, 0.668);
+	width: 2.6vw;
+	border-radius: 0.2vw;
+	height: 4.2vh;
+	top: 0.9vh;
+	margin-left: 0.4vw;
+	left: 0.3vw;
+}
+.Button-ProbeFahren {
+	position: absolute;
+	height: 5vh;
+	width: 19.5vw;
+	font-family: "Goldman", cursive;
+	font-size: 1.3vw;
+	right: 2vw;
+	top: 84vh;
+	margin-left: 2vw;
+	border: none;
+	outline: none;
+	z-index: 1;
+	color: white;
+	cursor: pointer;
+	background-color: rgba(194, 0, 197, 0.376);
+	border-radius: 0.2vw;
+}
+
+.Button-ProbeFahren:hover {
+	transition: 1s all;
+	background-color: rgb(110, 0, 112);
+}

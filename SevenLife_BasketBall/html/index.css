@@ -1,0 +1,264 @@
+@font-face {
+	font-family: "Open Sans";
+	src: url("fonts/OpenSans-VariableFont_wdth\,wght.ttf");
+}
+@font-face {
+	font-family: "Nunito Sans";
+	src: url("fonts/NunitoSans-Regular.ttf");
+}
+@font-face {
+	font-family: "Khula";
+	src: url("fonts/Khula-Regular.ttf");
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+
+.saveoutifit1 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	z-index: 30;
+}
+.outfitspeicherntext1 {
+	position: absolute;
+	color: #ffffff;
+	font-family: "Open Sans", sans-serif;
+	left: 42.8vw;
+	font-size: 2.1vw;
+	text-align: center;
+	z-index: 10;
+	top: 24vh;
+	background-color: rgba(255, 0, 0, 0);
+}
+.buttonabbrechen1 {
+	position: absolute;
+	left: 37.4vw;
+	top: 58.5vh;
+	width: 12vw;
+	height: 7.4vh;
+	z-index: 29;
+	font-size: 1.2vw;
+	background-color: rgba(233, 7, 56, 0.696);
+	outline: none;
+	cursor: pointer;
+	border-radius: 0.2vw;
+	color: #ffffff;
+	border: none;
+	border: 0.1vw solid white;
+	outline: none;
+	z-index: 29;
+}
+.buttonabbrechen1:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	transition: 1s all;
+	border: 0.1vw solid rgba(221, 77, 119, 255);
+	background-color: rgba(21, 21, 21, 0.746);
+}
+
+.buttonspeichernjailtime {
+	position: absolute;
+	left: 50vw;
+	top: 58.5vh;
+	width: 12.8vw;
+	height: 7.4vh;
+	z-index: 29;
+	font-size: 1.2vw;
+	background-color: rgba(34, 31, 31, 0.476);
+	outline: none;
+	cursor: pointer;
+	border-radius: 0.2vw;
+	color: #ffffff;
+	border: none;
+	border: 0.1vw solid white;
+	outline: none;
+	z-index: 29;
+}
+.buttonspeichernjailtime:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	transition: 1s all;
+	border: 0.1vw solid rgba(221, 77, 119, 255);
+	background-color: rgba(21, 21, 21, 0.746);
+}
+.strichlinksoben {
+	position: absolute;
+	width: 10vw;
+	height: 44vh;
+	border-left: 0.1vh solid white;
+	border-top: 0.1vh solid white;
+	left: 36vw;
+	z-index: 2;
+	top: 24.5vh;
+}
+.strichrechtsunten {
+	position: absolute;
+	width: 10vw;
+	height: 44vh;
+	border-right: 0.1vh solid white;
+	border-bottom: 0.1vh solid white;
+	left: 54vw;
+	z-index: 2;
+	top: 24.5vh;
+}
+.boxinnen {
+	position: absolute;
+	width: 32vw;
+	height: 49vh;
+	background-color: rgba(33, 33, 33, 0.61);
+	left: 34vw;
+	z-index: 1;
+	top: 22vh;
+}
+.saveoutifit {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	z-index: 30;
+}
+.strichdrunterspeichern {
+	position: absolute;
+	width: 21vw;
+	height: 0.6vh;
+	background-color: rgba(221, 77, 119, 255);
+	left: 40vw;
+	top: 32.5vh;
+	z-index: 10;
+	border-radius: 1vw;
+}
+.outfitspeicherntextifno {
+	position: absolute;
+	color: #ffffff;
+	font-family: "Open Sans", sans-serif;
+	left: 39.5vw;
+	font-size: 1.3vw;
+	text-align: center;
+	z-index: 10;
+	width: 22vw;
+	top: 34vh;
+	background-color: rgba(255, 0, 0, 0);
+}
+.container1 {
+	position: absolute;
+	width: 10vw;
+	height: 5vh;
+	background-image: linear-gradient(
+		to right,
+		#d475e384,
+		#a7529a77,
+		#73365c71,
+		#3c1e2c7a,
+		#00000084
+	);
+	border-radius: 1vw;
+	bottom: 1.5vh;
+	right: 1vw;
+}
+.container-innen {
+	position: absolute;
+	width: 3vw;
+	height: 5vh;
+	background-image: linear-gradient(
+		to right,
+		#d475e384,
+		#a7529a77,
+		#73365c71,
+		#3c1e2c7a,
+		#00000084
+	);
+	border-radius: 1vw;
+	left: 0vw;
+}
+.KeyHinweis {
+	position: absolute;
+	color: #ffffff9c;
+	font-family: "Open Sans", sans-serif;
+	left: 1.1vw;
+	font-size: 1.4vw;
+	text-align: center;
+	z-index: 10;
+	top: -1vh;
+	background-color: rgba(255, 0, 0, 0);
+}
+.KeyHinweisInfo {
+	position: absolute;
+	color: #ffffff;
+	font-family: "Khula", sans-serif;
+	left: 3vw;
+	font-size: 0.9vw;
+	text-align: center;
+	z-index: 10;
+	width: 7vw;
+	top: 0.2vh;
+	background-color: rgba(255, 0, 0, 0);
+}
+.container2 {
+	position: absolute;
+	width: 10vw;
+	height: 5vh;
+	background-image: linear-gradient(
+		to right,
+		#d475e384,
+		#a7529a77,
+		#73365c71,
+		#3c1e2c7a,
+		#00000084
+	);
+	border-radius: 1vw;
+	bottom: 1.5vh;
+	right: 12vw;
+}
+.container3 {
+	position: absolute;
+	width: 10vw;
+	height: 5vh;
+	background-image: linear-gradient(
+		to right,
+		#d475e384,
+		#a7529a77,
+		#73365c71,
+		#3c1e2c7a,
+		#00000084
+	);
+	border-radius: 1vw;
+	bottom: 1.5vh;
+	right: 23vw;
+}
+.container4 {
+	position: absolute;
+	width: 10vw;
+	height: 5vh;
+	background-image: linear-gradient(
+		to right,
+		#d475e384,
+		#a7529a77,
+		#73365c71,
+		#3c1e2c7a,
+		#00000084
+	);
+	border-radius: 1vw;
+	bottom: 1.5vh;
+	right: 34vw;
+}
+.container5 {
+	position: absolute;
+	width: 10vw;
+	height: 5vh;
+	background-image: linear-gradient(
+		to right,
+		#d475e384,
+		#a7529a77,
+		#73365c71,
+		#3c1e2c7a,
+		#00000084
+	);
+	border-radius: 1vw;
+	bottom: 1.5vh;
+	right: 45vw;
+}

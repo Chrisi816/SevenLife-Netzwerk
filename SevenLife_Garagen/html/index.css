@@ -1,0 +1,606 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Reem+Kufi+Fun&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap");
+
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+}
+.garage-container {
+	position: absolute;
+	width: 55%;
+	height: 70vh;
+	border-radius: 20px;
+	left: 25%;
+	top: 10vh;
+	background: linear-gradient(
+			336deg,
+			rgb(32, 32, 32),
+			rgba(255, 0, 0, 0) 100%
+		),
+		linear-gradient(6deg, rgba(114, 0, 89), rgb(153, 0, 120) 100%);
+}
+.garage-left {
+	width: 33%;
+	height: 70vh;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	background-color: rgba(0, 0, 0, 0.568);
+}
+.close {
+	position: absolute;
+	left: 93%;
+	width: 7%;
+	top: 0vh;
+	z-index: 2;
+	cursor: pointer;
+}
+.bild {
+	position: absolute;
+	left: 8%;
+	top: 5vh;
+	width: 15%;
+}
+.garage-schrift {
+	position: absolute;
+	font-family: "Bebas Neue", cursive;
+	background-color: rgba(246, 0, 0, 0);
+	font-size: 300%;
+	text-align: center;
+	color: white;
+	width: 30%;
+	height: 12vh;
+	letter-spacing: 5px;
+	top: 17vh;
+	left: 1.1%;
+}
+.garage-auswählen {
+	position: relative;
+	left: 4.5%;
+	display: inline-block;
+	top: 42vh;
+	width: 90%;
+	font-family: "Bebas Neue", cursive;
+	height: 9.7vh;
+	z-index: 29;
+	padding: 10px;
+	font-size: 321%;
+	margin-top: 2vh;
+	background-color: rgba(41, 41, 41, 0.589);
+	outline: none;
+	cursor: pointer;
+	border-radius: 10vh;
+	border: none;
+	border: none;
+	color: #ffffff;
+	border-radius: 1px;
+	outline: none;
+	z-index: 29;
+}
+.garage-auswählen:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	background-color: rgba(27, 0, 0, 0.945);
+}
+.garage-list {
+	position: absolute;
+	background-color: rgba(5, 5, 5, 0);
+	height: 62vh;
+	top: 6.5vh;
+	left: 34%;
+	width: 65%;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+.garage-list::-webkit-scrollbar {
+	width: 15px;
+	height: 15px;
+}
+
+.garage-list::-webkit-scrollbar-track {
+	border-radius: 10px;
+	background-color: rgba(255, 255, 255, 0.294);
+}
+
+.garage-list::-webkit-scrollbar-thumb {
+	background-color: #202020;
+	border-radius: 20px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.185) 0 3px 13px 1px;
+}
+
+.garage-list-ausparken {
+	position: absolute;
+	background-color: rgba(5, 5, 5, 0);
+	height: 62vh;
+	top: 6.5vh;
+	left: 34%;
+	width: 65%;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+.garage-list-ausparken::-webkit-scrollbar {
+	width: 15px;
+	height: 15px;
+}
+
+.garage-list-ausparken::-webkit-scrollbar-track {
+	border-radius: 10px;
+	background-color: rgba(255, 255, 255, 0.294);
+}
+
+.garage-list-ausparken::-webkit-scrollbar-thumb {
+	background-color: #202020;
+	border-radius: 20px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.185) 0 3px 13px 1px;
+}
+.auto-einparken {
+	position: relative;
+	display: inline-block;
+	width: 45%;
+	height: 10vh;
+	margin-top: 10px;
+	overflow: hidden;
+	margin-left: 10px;
+	cursor: pointer;
+	box-shadow: 1px 1px 1px 1px black;
+	background-color: rgba(29, 29, 29, 0.781);
+}
+.car {
+	position: relative;
+	left: 1%;
+	width: 30%;
+	top: 0.5vh;
+}
+.carname {
+	position: absolute;
+	font-family: "Bebas Neue", cursive;
+	background-color: rgba(246, 0, 0, 0);
+	font-size: 200%;
+	text-align: center;
+	color: white;
+	width: 65%;
+	height: 12vh;
+	letter-spacing: 5px;
+	top: -1vh;
+	left: 30.1%;
+}
+.kennzeichen {
+	position: absolute;
+	font-family: "Bebas Neue", cursive;
+	background-color: rgba(246, 0, 0, 0);
+	font-size: 170%;
+	text-align: center;
+	color: white;
+	width: 75%;
+	height: 12vh;
+	letter-spacing: 1px;
+	top: 5vh;
+	left: 28.1%;
+}
+.auto-ausparken {
+	position: relative;
+	display: inline-block;
+	width: 45%;
+	height: 12vh;
+	margin-top: 10px;
+	overflow: hidden;
+	margin-left: 10px;
+	cursor: pointer;
+	box-shadow: 1px 1px 1px 1px black;
+	background-color: rgba(29, 29, 29, 0.781);
+}
+.cars {
+	position: relative;
+	left: 0.5%;
+	width: 34%;
+	top: 1.2vh;
+}
+.fuel {
+	position: relative;
+	left: -4%;
+	width: 14%;
+	top: 2.1vh;
+}
+.fuels {
+	position: absolute;
+	font-family: "Bebas Neue", cursive;
+	background-color: rgba(246, 0, 0, 0);
+	font-size: 170%;
+	text-align: center;
+	color: white;
+	width: 75%;
+	height: 12vh;
+	letter-spacing: 1px;
+	top: 6.1vh;
+	left: 24.1%;
+}
+@media (min-width: 2021px) {
+	.garage-schrift {
+		position: absolute;
+		font-family: "Bebas Neue", cursive;
+		background-color: rgba(246, 0, 0, 0);
+		font-size: 400%;
+		text-align: center;
+		color: white;
+		width: 30%;
+		height: 12vh;
+		letter-spacing: 5px;
+		top: 17vh;
+		left: 1.7%;
+	}
+	.carname {
+		position: absolute;
+		font-family: "Bebas Neue", cursive;
+		background-color: rgba(246, 0, 0, 0);
+		font-size: 260%;
+		text-align: center;
+		color: white;
+		width: 65%;
+		height: 12vh;
+		letter-spacing: 5px;
+		top: -1vh;
+		left: 30.1%;
+	}
+	.kennzeichen {
+		position: absolute;
+		font-family: "Bebas Neue", cursive;
+		background-color: rgba(246, 0, 0, 0);
+		font-size: 240%;
+		text-align: center;
+		color: white;
+		width: 75%;
+		height: 12vh;
+		letter-spacing: 1px;
+		top: 5vh;
+		left: 28.1%;
+	}
+	.fuels {
+		position: absolute;
+		font-family: "Bebas Neue", cursive;
+		background-color: rgba(246, 0, 0, 0);
+		font-size: 250%;
+		text-align: center;
+		color: white;
+		width: 75%;
+		height: 12vh;
+		letter-spacing: 1px;
+		top: 5.8vh;
+		left: 24.1%;
+	}
+}
+
+.garagen-container-real {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+}
+.background-container {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	filter: blur(2.5vw);
+}
+.kringel {
+	position: absolute;
+	width: 7vw;
+	height: 12vh;
+	border-radius: 1vw;
+	background-color: rgba(28, 28, 28, 0.28);
+	left: 2vw;
+	top: 4vh;
+}
+.sevenlifelogo {
+	position: absolute;
+	width: 5vw;
+	left: 0.9vw;
+	top: 1.5vh;
+}
+.text-1container {
+	position: absolute;
+	font-family: "Reem Kufi Fun", sans-serif;
+	background-color: rgba(246, 0, 0, 0);
+	font-size: 2.5vw;
+	text-align: center;
+	color: rgba(221, 77, 119, 255);
+	height: 12vh;
+	letter-spacing: 1px;
+	top: 0.4vh;
+	left: 10vw;
+}
+.text-2container {
+	position: absolute;
+	font-family: "Reem Kufi Fun", sans-serif;
+	background-color: rgba(246, 0, 0, 0);
+	font-size: 2.9vw;
+	text-align: center;
+	color: rgb(255, 255, 255);
+	height: 12vh;
+	letter-spacing: 1px;
+	top: 4.2vh;
+	left: 10vw;
+}
+.inputt {
+	position: absolute;
+	border: none;
+	-webkit-appearance: none;
+	padding: 0.1vw 1vw;
+
+	left: 23vw;
+	border-radius: 0.6vw;
+	top: 10.5vh;
+	width: 26vw;
+	color: rgb(78, 78, 78);
+	font-family: "Poppins", sans-serif;
+	height: 4vh;
+	text-align: left;
+	z-index: 29;
+	font-size: 1vw;
+	background-color: rgba(34, 31, 31, 0.483);
+	outline: none;
+	border: 0.1vh solid rgb(82, 82, 82);
+}
+.inputt:hover {
+	background-color: rgba(40, 40, 40, 0.454);
+	transition: color 0.6 ease;
+}
+.inputt:focus::placeholder {
+	color: transparent;
+}
+.inputt::placeholder {
+	color: rgb(74, 74, 74);
+	transition: color 0.3s ease;
+}
+.searchicon {
+	position: absolute;
+	left: 48.5vw;
+	top: 11vh;
+	width: 2vw;
+}
+.container-showcarseinlager {
+	position: absolute;
+	width: 73vw;
+	height: 82vh;
+	background-color: rgba(255, 0, 0, 0);
+	left: 23vw;
+	overflow-y: scroll;
+	top: 16vh;
+}
+.container-showcarseinlager::-webkit-scrollbar {
+	width: 0.6vw;
+}
+
+.container-showcarseinlager::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background-color: rgba(255, 255, 255, 0.294);
+}
+
+.container-showcarseinlager::-webkit-scrollbar-thumb {
+	background-color: #202020;
+	border-radius: 1vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.185) 0 3px 13px 1px;
+}
+.autos-einlagerntext {
+	position: absolute;
+	font-family: "Abyssinica SIL", serif;
+	background-color: rgba(246, 0, 0, 0);
+	font-size: 1.8vw;
+	text-align: center;
+	color: rgb(255, 255, 255);
+	height: 12vh;
+	width: 18vw;
+
+	letter-spacing: 1px;
+	top: 16.2vh;
+	left: 2.2vw;
+}
+.container-car {
+	position: relative;
+	width: 15vw;
+	display: inline-block;
+	height: 27vh;
+	border-radius: 1vw;
+	background-color: rgba(23, 23, 23, 0.35);
+	margin-top: 1vh;
+	margin-left: 2.5vw;
+	left: -2.4vw;
+	border: 0.1vw solid rgb(111, 111, 111);
+}
+.carnames {
+	position: absolute;
+	font-family: "Bebas Neue", cursive;
+	background-color: rgba(246, 0, 0, 0);
+	font-size: 1.7vw;
+	text-align: center;
+	color: white;
+	width: 11.5vw;
+	height: 12vh;
+	left: 1vw;
+	letter-spacing: 0.1vw;
+	top: -1vh;
+}
+.carbild {
+	position: absolute;
+	width: 7vw;
+	left: 3.8vw;
+	top: 4.3vh;
+}
+#submit {
+	position: relative;
+	left: 0.6vw;
+	top: 20.5vh;
+	width: 13.7vw;
+	height: 4.4vh;
+	z-index: 29;
+
+	font-size: 0.8vw;
+	background-color: rgba(34, 31, 31, 0.476);
+	outline: none;
+	cursor: pointer;
+	border-radius: 0.8vw;
+	color: #ffffff;
+	border: none;
+	border: 0.1vw solid white;
+	outline: none;
+	z-index: 29;
+}
+#submit:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	transition: 1s all;
+	border: 0.1vw solid rgba(221, 77, 119, 255);
+	background-color: rgba(21, 21, 21, 0.746);
+}
+.literzahl {
+	position: absolute;
+	font-family: "Bebas Neue", cursive;
+	background-color: rgba(246, 0, 0, 0);
+	font-size: 1.5vw;
+	text-align: center;
+	color: white;
+	width: 7vw;
+	height: 3vh;
+	letter-spacing: 1px;
+	top: 14.1vh;
+	left: 0.4vw;
+}
+.kennzeichens {
+	position: absolute;
+	font-family: "Bebas Neue", cursive;
+	background-color: rgba(246, 0, 0, 0);
+	font-size: 1.5vw;
+	text-align: center;
+	color: white;
+	width: 7vw;
+	height: 3vh;
+	letter-spacing: 1px;
+	top: 14.1vh;
+	left: 7.8vw;
+}
+.auswahlcontainer {
+	position: absolute;
+	width: 20vw;
+	background-color: rgba(255, 0, 0, 0);
+	height: 20vh;
+	top: 24vh;
+}
+.einparkenbutton {
+	position: relative;
+	left: 2vw;
+	top: 1.2vh;
+	width: 18vw;
+	height: 5.4vh;
+	z-index: 29;
+
+	font-size: 1vw;
+	background-color: rgba(34, 31, 31, 0.476);
+	outline: none;
+	cursor: pointer;
+	border-radius: 0.2vw;
+	color: #ffffff;
+	border: none;
+	border: 0.1vw solid white;
+	outline: none;
+	z-index: 29;
+}
+.einparkenbutton:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	transition: 1s all;
+	border: 0.1vw solid rgba(221, 77, 119, 255);
+	background-color: rgba(21, 21, 21, 0.746);
+}
+.ausparkenbutton {
+	position: relative;
+	left: 2vw;
+	top: 3vh;
+	width: 18vw;
+	height: 5.4vh;
+	z-index: 29;
+
+	font-size: 1vw;
+	background-color: rgba(34, 31, 31, 0.476);
+	outline: none;
+	cursor: pointer;
+	border-radius: 0.2vw;
+	color: #ffffff;
+	border: none;
+	border: 0.1vw solid white;
+	outline: none;
+	z-index: 29;
+}
+.ausparkenbutton:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	transition: 1s all;
+	border: 0.1vw solid rgba(221, 77, 119, 255);
+	background-color: rgba(21, 21, 21, 0.746);
+}
+.container-showcarsauslager {
+	position: absolute;
+	width: 73vw;
+	height: 82vh;
+	background-color: rgba(255, 0, 0, 0);
+	left: 23vw;
+	overflow-y: scroll;
+	top: 16vh;
+}
+.container-showcarsauslager::-webkit-scrollbar {
+	width: 0.6vw;
+}
+
+.container-showcarsauslager::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background-color: rgba(255, 255, 255, 0.294);
+}
+
+.container-showcarsauslager::-webkit-scrollbar-thumb {
+	background-color: #202020;
+	border-radius: 1vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.185) 0 3px 13px 1px;
+}
+.rename {
+	position: absolute;
+	width: 2vw;
+	cursor: pointer;
+	right: 0.5vw;
+	top: 1vh;
+}
+.inputt2 {
+	position: absolute;
+	border: none;
+	-webkit-appearance: none;
+	padding: 0.1vw 1vw;
+
+	left: 68vw;
+	border-radius: 0.6vw;
+	top: 10.5vh;
+	width: 26vw;
+	color: rgb(78, 78, 78);
+	font-family: "Poppins", sans-serif;
+	height: 4vh;
+	text-align: left;
+	z-index: 29;
+	font-size: 1vw;
+	background-color: rgba(34, 31, 31, 0.483);
+	outline: none;
+	border: 0.1vh solid rgb(82, 82, 82);
+}
+.inputt2:hover {
+	background-color: rgba(40, 40, 40, 0.454);
+	transition: color 0.6 ease;
+}
+.inputt2:focus::placeholder {
+	color: transparent;
+}
+.inputt2::placeholder {
+	color: rgb(74, 74, 74);
+	transition: color 0.3s ease;
+}

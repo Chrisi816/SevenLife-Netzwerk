@@ -1,0 +1,1008 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Estonia&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Radio+Canada&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hurricane&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Goldman&family=Radio+Canada&display=swap");
+@font-face {
+	font-family: "Unbounded";
+	src: url("fonts/Unbounded-ExtraLight.ttf");
+}
+@font-face {
+	font-family: "Lato";
+	src: url("fonts/Lato-Black.ttf");
+}
+@font-face {
+	font-family: "Montserrat";
+	src: url("fonts/Montserrat-Medium.ttf");
+}
+@font-face {
+	font-family: "Goldman";
+	src: url("fonts/Goldman-Regular.ttf");
+}
+@font-face {
+	font-family: "Abel";
+	src: url("fonts/Abel-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Aldrich";
+	src: url("fonts/Aldrich-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Roboto";
+	src: url("fonts/Roboto-MediumItalic.ttf");
+}
+@font-face {
+	font-family: "Khula";
+	src: url("fonts/Khula-Regular.ttf");
+}
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+}
+.background {
+	width: 100%;
+	height: 100%;
+}
+.left {
+	position: absolute;
+	width: 75vw;
+	height: 100%;
+	background: linear-gradient(
+		to right,
+		rgb(25, 0, 20),
+		rgba(0, 0, 255, 0) 95.71%
+	);
+}
+.right {
+	position: absolute;
+	width: 75vw;
+	height: 100%;
+	right: 0vw;
+	background: linear-gradient(
+		to left,
+		rgb(25, 0, 20),
+		rgba(0, 0, 255, 0) 95.71%
+	);
+}
+.inventoryweight {
+	position: absolute;
+	color: white;
+	font-family: "Bebas Neue", cursive;
+	font-size: 1.8vw;
+	top: 1.5vw;
+	right: 8vw;
+	z-index: 1;
+}
+.weights {
+	position: absolute;
+	width: 3vw;
+	right: 1vw;
+	z-index: 1;
+	top: 2.1vh;
+}
+.kreis {
+	position: absolute;
+	width: 20vw;
+	height: 30vh;
+	right: -13.5vw;
+	top: -17vh;
+	border-bottom-left-radius: 8vw;
+	background-color: rgba(255, 0, 0, 0);
+	border: 0.1vw solid white;
+}
+.inventory-items {
+	position: absolute;
+	width: 43vw;
+	height: 85vh;
+	background-color: rgba(149, 255, 0, 0);
+
+	left: 15vw;
+	top: 1vh;
+}
+.inventory-items-trunk {
+	position: absolute;
+	width: 43vw;
+	height: 85vh;
+	background-color: rgba(149, 255, 0, 0);
+
+	left: 15vw;
+	top: 1vh;
+}
+.inventory-items-gloves {
+	position: absolute;
+	width: 43vw;
+	height: 85vh;
+	background-color: rgba(149, 255, 0, 0);
+
+	left: 15vw;
+	top: 1vh;
+}
+.inventory-items-waffenschrank {
+	position: absolute;
+	width: 43vw;
+	height: 85vh;
+	background-color: rgba(149, 255, 0, 0);
+
+	left: 15vw;
+	top: 1vh;
+}
+.rucksackschriftt {
+	position: absolute;
+	left: 30.5vw;
+	width: 20vw;
+	top: 0vh;
+	background-color: rgba(255, 0, 0, 0);
+	font-size: 1.8vw;
+	color: white;
+	font-family: "Goldman", cursive;
+}
+.playeritems {
+	position: absolute;
+	width: 44vw;
+	background-color: rgba(255, 0, 0, 0);
+
+	height: 87vh;
+	top: 7vh;
+}
+
+.playeritems::-webkit-scrollbar {
+	width: 0.6vw;
+}
+
+.playeritems::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background-color: rgba(255, 255, 255, 0.294);
+}
+
+.playeritems::-webkit-scrollbar-thumb {
+	background-color: #202020;
+	border-radius: 2vw;
+	-webkit-box-shadow: rgba(14, 14, 14, 0.173) 0 3px 13px 1px;
+}
+.item-box {
+	display: inline-flex;
+	width: 13vh;
+	height: 13vh;
+	margin-left: 1vw;
+	z-index: 3;
+	background-color: rgba(23, 23, 23, 0.533);
+	border-radius: 0.2vw;
+	transform: rotate(-90deg);
+	justify-content: center;
+	place-items: center;
+	margin-top: 1vh;
+}
+
+.item-box:before {
+	content: "";
+	height: 20%;
+	position: absolute;
+	right: 0;
+}
+.item-box:after {
+	content: "";
+	height: 20%;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.item-box * {
+	transform: rotate(90deg);
+}
+.item-box:before {
+	bottom: 0;
+	height: 50%;
+}
+.item-box img {
+	position: absolute;
+	width: 60%;
+	height: 60%;
+}
+
+.einsline {
+	position: absolute;
+	width: 0.4vw;
+	height: 80vh;
+	top: -10vh;
+	transform: rotate(40deg);
+	background-color: rgb(255, 0, 195);
+	left: -10vw;
+}
+
+.zweiline {
+	position: absolute;
+	width: 0.4vw;
+	height: 80vh;
+	top: -10vh;
+	transform: rotate(40deg);
+	background-color: rgb(255, 0, 195);
+	left: -6vw;
+}
+
+.dreiline {
+	position: absolute;
+	width: 0.4vw;
+	height: 80vh;
+	top: -10vh;
+	transform: rotate(40deg);
+	background-color: rgb(255, 0, 195);
+	left: -2vw;
+}
+.einslines {
+	position: absolute;
+	width: 0.4vw;
+	height: 80vh;
+	bottom: -17vh;
+	transform: rotate(130deg);
+	background-color: rgb(255, 0, 195);
+	left: -10vw;
+}
+
+.zweilines {
+	position: absolute;
+	width: 0.4vw;
+	height: 80vh;
+	bottom: -15vh;
+	transform: rotate(130deg);
+	background-color: rgb(255, 0, 195);
+	left: -6vw;
+}
+
+.dreilines {
+	position: absolute;
+	width: 0.4vw;
+	height: 80vh;
+	bottom: -15vh;
+	transform: rotate(130deg);
+	background-color: rgb(255, 0, 195);
+	left: 0vw;
+}
+
+.item-amount {
+	position: absolute;
+	left: 9.5vh;
+	font-size: 1.5vh;
+	width: 4.3vh;
+	top: 1.5vh;
+	transform: rotate(90deg);
+	color: white;
+	height: 2vh;
+	background-color: rgba(255, 0, 0, 0);
+	overflow: hidden;
+}
+.usebutton {
+	position: absolute;
+	width: 13vw;
+	height: 9vh;
+	border-radius: 1vw;
+	right: 1vw;
+	top: 30vh;
+	cursor: pointer;
+	background-color: rgba(0, 0, 0, 0.564);
+}
+.usebutton:hover {
+	background-color: rgba(98, 0, 98, 0.564);
+	transition: all 1s;
+}
+.text-benutzen {
+	position: absolute;
+	left: 1.9vw;
+	width: 20vw;
+	top: 0.3vh;
+	background-color: rgba(255, 0, 0, 0);
+	font-size: 1.8vw;
+	color: white;
+	font-family: "Goldman", cursive;
+}
+.design {
+	position: absolute;
+	width: 2vw;
+	height: 3.5vh;
+	top: 2vh;
+	left: 27.3vw;
+	border: 0.1vw solid white;
+	transform: rotate(45deg);
+	background-color: rgba(255, 0, 0, 0);
+	border-radius: 0.4vw;
+}
+.backpack {
+	position: absolute;
+	width: 1.5vw;
+	top: 2.5vh;
+	left: 27.65vw;
+}
+.essentials {
+	position: absolute;
+	width: 27vw;
+	top: 5vh;
+	height: 80vh;
+	left: 14vw;
+	background-color: rgba(255, 0, 0, 0);
+	border-top: 0.1vw solid white;
+	border-left: 0.1vw solid white;
+}
+.essentialss {
+	position: absolute;
+	width: 27vw;
+	top: 17vh;
+	height: 80vh;
+	left: 32vw;
+	background-color: rgba(255, 0, 0, 0);
+	border-bottom: 0.1vw solid white;
+	border-right: 0.1vw solid white;
+}
+.esent {
+	position: absolute;
+	width: 12vw;
+	top: 10vh;
+	height: 50vh;
+	left: 64vw;
+	background-color: rgba(255, 0, 0, 0);
+	border-top: 0.1vw solid white;
+	border-left: 0.1vw solid white;
+}
+.cap {
+	position: absolute;
+	left: 73vw;
+	width: 12vh;
+	top: 12vh;
+	height: 12vh;
+	margin-left: 1vw;
+	background-color: rgba(23, 23, 23, 0.533);
+	border-radius: 0.2vw;
+	margin-top: 1vh;
+}
+.shirt {
+	position: absolute;
+	left: 73vw;
+	width: 12vh;
+	top: 26vh;
+	height: 12vh;
+	margin-left: 1vw;
+	background-color: rgba(23, 23, 23, 0.533);
+	border-radius: 0.2vw;
+	margin-top: 1vh;
+}
+.hoodie {
+	position: absolute;
+	left: 73vw;
+	width: 12vh;
+	top: 40vh;
+	height: 12vh;
+	margin-left: 1vw;
+	background-color: rgba(23, 23, 23, 0.533);
+	border-radius: 0.2vw;
+	margin-top: 1vh;
+}
+.backpacks {
+	position: absolute;
+	left: 73vw;
+	width: 12vh;
+	top: 54vh;
+	height: 12vh;
+	margin-left: 1vw;
+	background-color: rgba(23, 23, 23, 0.533);
+	border-radius: 0.2vw;
+	margin-top: 1vh;
+}
+.hose {
+	position: absolute;
+	left: 73vw;
+	width: 12vh;
+	top: 68vh;
+	height: 12vh;
+	margin-left: 1vw;
+	background-color: rgba(23, 23, 23, 0.533);
+	border-radius: 0.2vw;
+	margin-top: 1vh;
+}
+
+.shuhe {
+	position: absolute;
+	left: 73vw;
+	width: 12vh;
+	top: 82vh;
+	height: 12vh;
+	margin-left: 1vw;
+	background-color: rgba(23, 23, 23, 0.533);
+	border-radius: 0.2vw;
+	margin-top: 1vh;
+}
+
+.glas {
+	position: absolute;
+	left: 65.5vw;
+	width: 10vh;
+	top: 22vh;
+	height: 10vh;
+	margin-left: 1vw;
+	background-color: rgba(23, 23, 23, 0.533);
+	border-radius: 0.2vw;
+	margin-top: 1vh;
+}
+.kette {
+	position: absolute;
+	left: 65.5vw;
+	width: 10vh;
+	top: 34vh;
+	height: 10vh;
+	margin-left: 1vw;
+	background-color: rgba(23, 23, 23, 0.533);
+	border-radius: 0.2vw;
+	margin-top: 1vh;
+}
+.mask {
+	position: absolute;
+	left: 81.5vw;
+	width: 10vh;
+	top: 22vh;
+	height: 10vh;
+	margin-left: 1vw;
+	background-color: rgba(23, 23, 23, 0.533);
+	border-radius: 0.2vw;
+	margin-top: 1vh;
+}
+.earings {
+	position: absolute;
+	left: 81.5vw;
+	width: 10vh;
+	top: 34vh;
+	height: 10vh;
+	margin-left: 1vw;
+	background-color: rgba(23, 23, 23, 0.533);
+	border-radius: 0.2vw;
+	margin-top: 1vh;
+}
+.watch {
+	position: absolute;
+	left: 65.5vw;
+	width: 10vh;
+	top: 62vh;
+	height: 10vh;
+	margin-left: 1vw;
+	background-color: rgba(23, 23, 23, 0.533);
+	border-radius: 0.2vw;
+	margin-top: 1vh;
+}
+.ring {
+	position: absolute;
+	left: 65.5vw;
+	width: 10vh;
+	top: 74vh;
+	height: 10vh;
+	margin-left: 1vw;
+	background-color: rgba(23, 23, 23, 0.533);
+	border-radius: 0.2vw;
+	margin-top: 1vh;
+}
+.vest {
+	position: absolute;
+	left: 81.5vw;
+	width: 10vh;
+	top: 62vh;
+	height: 10vh;
+	margin-left: 1vw;
+	background-color: rgba(23, 23, 23, 0.533);
+	border-radius: 0.2vw;
+	margin-top: 1vh;
+}
+.handschuhe {
+	position: absolute;
+	left: 81.5vw;
+	width: 10vh;
+	top: 74vh;
+	height: 10vh;
+	margin-left: 1vw;
+	background-color: rgba(23, 23, 23, 0.533);
+	border-radius: 0.2vw;
+	margin-top: 1vh;
+}
+#box img {
+	position: absolute;
+	width: 4vw;
+	left: 1.3vw;
+	top: 2vh;
+	z-index: -1;
+}
+#boxs img {
+	position: absolute;
+	width: 3vw;
+	left: 1.25vw;
+	top: 2vh;
+	z-index: -1;
+}
+#context-menu {
+	position: absolute;
+	width: 11vw;
+	height: 25vh;
+	z-index: 10000;
+	background-color: rgb(35, 0, 31);
+	border-radius: 0.2vw;
+	display: none;
+}
+#context-menu.visible {
+	display: block;
+}
+.action {
+	display: inline-flex;
+	width: 13vh;
+	height: 13vh;
+	z-index: 10;
+	background-color: rgba(255, 0, 0, 0);
+	border-radius: 0.2vw;
+}
+.use-button {
+	position: absolute;
+	width: 10vw;
+	height: 5vh;
+	background-color: rgba(40, 40, 40, 0.499);
+	left: 64vw;
+	top: 2.5vh;
+	border-radius: 0.2vw;
+	cursor: pointer;
+}
+.droprange {
+	position: absolute;
+	left: 0vw;
+	height: 50vh;
+	background-color: rgba(255, 0, 0, 0);
+	width: 13vw;
+	top: 23vh;
+	cursor: pointer;
+}
+
+.imgbasd {
+	position: absolute;
+	width: 7vw;
+	top: 16vh;
+}
+.useschrift {
+	position: absolute;
+	left: 1.5vw;
+	top: -0.2vh;
+	background-color: rgba(255, 0, 0, 0);
+	font-size: 1.2vw;
+	color: white;
+	font-family: "Aldrich", cursive;
+}
+.rucksacksschriftt {
+	position: absolute;
+	left: 80.5vw;
+	width: 20vw;
+	top: 6vh;
+	background-color: rgba(255, 0, 0, 0);
+	font-size: 1.8vw;
+	color: white;
+	font-family: "Goldman", cursive;
+}
+.backpacksee {
+	position: absolute;
+	width: 1.5vw;
+	top: 8.6vh;
+	left: 77.55vw;
+}
+.cardown {
+	position: absolute;
+	width: 1.5vw;
+	top: 8.8vh;
+	left: 77.55vw;
+}
+.designs {
+	position: absolute;
+	width: 2vw;
+	height: 3.5vh;
+	top: 8.2vh;
+	left: 77.2vw;
+	border: 0.1vw solid white;
+	transform: rotate(45deg);
+	background-color: rgba(255, 0, 0, 0);
+	border-radius: 0.4vw;
+}
+.nearplayer {
+	position: absolute;
+	width: 30vw;
+	height: 84vh;
+	background-color: rgba(255, 0, 0, 0);
+	left: 65vw;
+	top: 13vh;
+}
+.kofferaum {
+	position: absolute;
+	width: 30vw;
+	height: 84vh;
+	background-color: rgba(255, 0, 0, 0);
+	left: 65vw;
+	top: 13vh;
+}
+.glovesbox {
+	position: absolute;
+	width: 30vw;
+	height: 84vh;
+	background-color: rgba(255, 0, 0, 0);
+	left: 65vw;
+	top: 13vh;
+}
+.waffenschrank {
+	position: absolute;
+	width: 30vw;
+	height: 84vh;
+	background-color: rgba(255, 0, 0, 0);
+	left: 65vw;
+	top: 13vh;
+}
+.waffenschrank {
+	position: absolute;
+	width: 30vw;
+	height: 84vh;
+	background-color: rgba(255, 0, 0, 0);
+	left: 65vw;
+	overflow: scroll;
+	top: 13vh;
+}
+.waffenschrank::-webkit-scrollbar {
+	width: 0.2vw;
+	height: 0.2vw;
+}
+
+.waffenschrank::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background-color: rgba(255, 255, 255, 0.294);
+}
+
+.waffenschrank::-webkit-scrollbar-thumb {
+	background-color: #202020;
+	border-radius: 1vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.185) 0 3px 13px 1px;
+}
+
+.player {
+	position: relative;
+	background-color: rgba(21, 21, 21, 0.485);
+	width: 30vw;
+	height: 10vh;
+	margin-top: 1vh;
+	border-radius: 1vw;
+}
+.backpackseeee {
+	position: absolute;
+	width: 3.5vw;
+	top: 1.7vh;
+	left: 2.5vh;
+}
+
+.leftse {
+	position: absolute;
+	width: 6vw;
+	background-color: rgba(12, 12, 12, 0.455);
+	height: 10vh;
+	border-top-left-radius: 1vw;
+	border-bottom-left-radius: 1vw;
+}
+.nameese {
+	position: absolute;
+	left: 7vw;
+	width: 20vw;
+	top: -0.5vh;
+	background-color: rgba(255, 0, 0, 0);
+	font-size: 2.4vw;
+	color: white;
+	font-family: "Goldman", cursive;
+}
+.item-name {
+	position: absolute;
+	left: -5.4vh;
+	font-size: 1.5vh;
+	width: 13.1vh;
+	top: 5.5vh;
+	transform: rotate(90deg);
+	color: white;
+	text-align: center;
+	height: 2vh;
+	background-color: rgba(255, 0, 0, 0);
+	overflow: hidden;
+	font-family: "Goldman", cursive;
+}
+.item-box-kofferaum {
+	display: inline-flex;
+	width: 13vh;
+	height: 13vh;
+	margin-left: 1.4vw;
+	z-index: 3;
+
+	background-color: rgba(23, 23, 23, 0.533);
+	border-radius: 0.2vw;
+	transform: rotate(-90deg);
+	justify-content: center;
+	place-items: center;
+	margin-top: 1vh;
+}
+
+.item-box-kofferaum:before {
+	content: "";
+	height: 20%;
+	position: absolute;
+	right: 0;
+}
+.item-box-kofferaum:after {
+	content: "";
+	height: 20%;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.item-box-kofferaum * {
+	transform: rotate(90deg);
+}
+.item-box-kofferaum:before {
+	bottom: 0;
+	height: 50%;
+}
+.item-box-kofferaum img {
+	position: absolute;
+	width: 60%;
+	height: 60%;
+}
+.inputt-kofferrum {
+	position: absolute;
+	border: none;
+	-webkit-appearance: none;
+	padding: 0.1vw 1vw;
+
+	left: 64vw;
+	border-radius: 0.1vw;
+	top: 2vh;
+	width: 10.3vw;
+	color: rgb(225, 225, 225);
+	font-family: "Poppins", sans-serif;
+	height: 4.5vh;
+	text-align: left;
+	z-index: 29;
+	font-size: 1.3vw;
+	border-radius: 1vw;
+	background-color: rgba(34, 31, 31, 0.231);
+	outline: none;
+
+	text-align: center;
+}
+.inputt-kofferrum:hover {
+	background-color: rgba(40, 40, 40, 0.454);
+	transition: color 1.6 ease;
+}
+.inputt-kofferrum:focus::placeholder {
+	color: transparent;
+}
+.inputt-kofferrum::placeholder {
+	color: rgb(218, 218, 218);
+	transition: color 0.3s ease;
+}
+.item-box-gloves {
+	display: inline-flex;
+	width: 13vh;
+	height: 13vh;
+	margin-left: 1.4vw;
+	z-index: 3;
+
+	background-color: rgba(23, 23, 23, 0.533);
+	border-radius: 0.2vw;
+	transform: rotate(-90deg);
+	justify-content: center;
+	place-items: center;
+	margin-top: 1vh;
+}
+
+.item-box-gloves:before {
+	content: "";
+	height: 20%;
+	position: absolute;
+	right: 0;
+}
+.item-box-gloves:after {
+	content: "";
+	height: 20%;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.item-box-gloves * {
+	transform: rotate(90deg);
+}
+.item-box-gloves:before {
+	bottom: 0;
+	height: 50%;
+}
+.item-box-gloves img {
+	position: absolute;
+	width: 60%;
+	height: 60%;
+}
+/*Waffenschrank*/
+.item-box-waffenschrank {
+	display: inline-flex;
+	width: 13vh;
+	height: 13vh;
+	margin-left: 1.4vw;
+	z-index: 3;
+
+	background-color: rgba(23, 23, 23, 0.533);
+	border-radius: 0.2vw;
+	transform: rotate(-90deg);
+	justify-content: center;
+	place-items: center;
+	margin-top: 1vh;
+}
+
+.item-box-waffenschrank:before {
+	content: "";
+	height: 20%;
+	position: absolute;
+	right: 0;
+}
+.item-box-waffenschrank:after {
+	content: "";
+	height: 20%;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.item-box-waffenschrank * {
+	transform: rotate(90deg);
+}
+.item-box-waffenschrank:before {
+	bottom: 0;
+	height: 50%;
+}
+.item-box-waffenschrank img {
+	position: absolute;
+	width: 60%;
+	height: 60%;
+}
+
+.container-nearplayer {
+	position: absolute;
+	width: 34vw;
+	background-color: rgba(255, 0, 0, 0);
+	left: 64.6vw;
+	height: 84vh;
+	top: 14vh;
+	overflow-y: scroll;
+}
+
+.container-nearplayer::-webkit-scrollbar {
+	width: 0.2vw;
+}
+
+.container-nearplayer::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background-color: rgba(255, 255, 255, 0.294);
+}
+
+.container-nearplayer::-webkit-scrollbar-thumb {
+	background-color: #202020;
+	border-radius: 2vw;
+	-webkit-box-shadow: rgba(14, 14, 14, 0.173) 0 3px 13px 1px;
+}
+.container-player {
+	position: relative;
+	width: 98%;
+	height: 11vh;
+	border-radius: 0.2vw;
+	background-color: rgba(36, 36, 36, 0.379);
+	margin-top: 1vh;
+	top: -1vh;
+}
+.nameofplayer {
+	position: absolute;
+	color: #ffffff;
+	font-size: 1.2vw;
+	font-family: "Abel", cursive;
+	left: 1vw;
+	width: 31vw;
+	background-color: rgba(255, 0, 0, 0);
+	top: 0vh;
+	letter-spacing: 0.2vw;
+	font-weight: 1200;
+}
+.designundername {
+	position: absolute;
+	width: 31vw;
+	height: 0.1vh;
+	background-color: rgb(255, 255, 255);
+	left: 1vw;
+	top: 4.8vh;
+}
+.distanz {
+	position: absolute;
+	color: #a7a7a7;
+	font-size: 1.2vw;
+	font-family: "Abel", cursive;
+	left: 1vw;
+	width: 21vw;
+	background-color: rgba(255, 0, 0, 0);
+	top: 5vh;
+	letter-spacing: 0.2vw;
+	font-weight: 1200;
+}
+.idthing {
+	position: absolute;
+	color: #a7a7a7;
+	font-size: 1.2vw;
+	font-family: "Abel", cursive;
+	left: 20vw;
+	width: 11vw;
+	background-color: rgba(255, 0, 0, 0);
+	top: 5vh;
+	letter-spacing: 0.2vw;
+	font-weight: 1200;
+}
+.inputt-mainraum {
+	position: absolute;
+	border: none;
+	-webkit-appearance: none;
+	padding: 0.1vw 1vw;
+
+	left: 75vw;
+	border-radius: 0.1vw;
+	top: 2.5vh;
+	width: 7vw;
+	color: rgb(225, 225, 225);
+	font-family: "Poppins", sans-serif;
+	height: 4.5vh;
+	text-align: left;
+	z-index: 29;
+	font-size: 1.3vw;
+	border-radius: 0.3vw;
+	background-color: rgba(34, 31, 31, 0.357);
+	outline: none;
+
+	text-align: center;
+}
+.inputt-mainraum:hover {
+	background-color: rgba(40, 40, 40, 0.454);
+	transition: color 1.6 ease;
+}
+.inputt-mainraum:focus::placeholder {
+	color: transparent;
+}
+.inputt-mainraum::placeholder {
+	color: rgb(218, 218, 218);
+	transition: color 0.3s ease;
+}
+.durchsuchen {
+	position: absolute;
+	width: 30vw;
+	height: 84vh;
+	background-color: rgba(255, 0, 0, 0);
+	left: 65vw;
+	top: 13vh;
+}
+.inventory-items-durchsuchen {
+	position: absolute;
+	width: 43vw;
+	height: 85vh;
+	background-color: rgba(149, 255, 0, 0);
+
+	left: 15vw;
+	top: 1vh;
+}

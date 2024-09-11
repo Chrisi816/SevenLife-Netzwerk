@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="normalbank">
+      <div class="bankcard" id="bankcard">
+         <img src="src/circle.png" class="circle" alt="">
+         <img src="src/circle.png" class="circle1" alt="">
+         <h1 class="name" id="name">Christian Espasito</h1>
+         <img src="src/debit.png" class="debit" alt="">
+         <img src="src/wifi.png" class="wifi" alt="">
+         <img src="src/bankAmerica.png" class="banklogo" alt="">
+      </div>
+      <div class="unterbankcard">
+         <h1 class="guthabentext">Ihr Guthaben</h1>
+         <img src="src/creditcard.png" class="creditcard" alt="">
+          <h1 class="sevencardtext">SevenCard</h1>
+          <h1 class="guthaben" id="guthaben">100000$</h1>
+           <div class="untenlinie">
+
+          </div>
+          <div class="kreis">
+             <h1 class="head">#</h1cla>
+          </div>
+          <h1 class="iban-text">Iban:</h1>
+          <h1 class="iban-nummer" id="iban-nummer">1111-1111</h1>
+          <div class="untenlinie1">
+
+          </div>
+          <div class="kreis1">
+            <h1 class="head1">?</h1cla>
+           </div>
+           <h1 class="zahlart-text">Zahlungsart:</h1>
+          <h1 class="zahlart-nummer">Debit</h1>
+        </div>
+        <div class="rechts">
+           <div class="oben">
+            <h1 class="bankautomattext">Bankautomat</h1>
+            <img src="src/bankAmerica.png" class="banklogo1" alt="">
+           </div>
+           <div class="links">
+              <div class="apteil-container">
+                 <div id="apteil" class="einzahlen">
+                    <div class="leftapteil">
+                        <h1 class="textapteil"> 
+                            Geld Einzahlen
+                        </h1>
+                    </div>
+                 </div>
+                 <div id="apteil" class="auszahlen">
+                    <div class="leftapteil">
+                        <h1 class="textapteil"> 
+                            Geld Auszahlen
+                        </h1>
+                    </div>
+                 </div>
+                   <div id="apteil" class="überweisungen">
+                        <div class="leftapteil">
+                            <h1 class="textapteil"> 
+                                Überweisungen
+                            </h1>
+                        </div>
+                    </div>
+                    
+                 </div>
+              </div>
+           </div>
+           <div class="rechts-einstellungen">
+                <div class="einzahlen-card">
+                    <h1 class="Geldeinzahlentext">
+                        Geld - Einzahlen
+                    </h1>
+                    <div class="input-field">
+                       <h1 class="geld-texteingeben">
+                        Geben sie ihren Betrag ein
+                       </h1>
+                       <img src="src/wallet.png" class="wallet" alt="">
+                       <input class="inputt" id="einzahlengeldinputt" placeholder="0$">
+                       <img src="src/circle.png" class="circle2" alt="">
+                       <img src="src/circle.png" class="circle3" alt="">
+                    </div>
+                    <h1 class="textsteuern" id="textsteuern">Transaktions Gebühren: 15%</h1>
+                    <h1 class="textsteuern2" id="textsteuern">Max Einzahlung 10k $</h1>
+                    <img src="src/Info.png" class="infos" alt="">
+                    <h1 class="textinfo">Möglicherweise Sync der Geldes Fehlgeschlagen</h1>
+                    <button type="button" class="einzahlenbutton" id="submitbutton">Bestätigen</button>
+                </div>
+                <div class="auszahlen-card">
+                    <h1 class="Geldeinzahlentext">
+                        Geld - Auszahlen
+                    </h1>
+                    <div class="input-field">
+                       <h1 class="geld-texteingeben">
+                        Geben sie ihren Betrag ein
+                       </h1>
+                       <img src="src/wallet.png" class="wallet" alt="">
+                       <input class="inputt"  id="auszahlinputt" placeholder="0$">
+                       <img src="src/circle.png" class="circle2" alt="">
+                       <img src="src/circle.png" class="circle3" alt="">
+                    </div>
+                    <h1 class="textsteuern" id="textsteuern1">Transaktions Gebühren: 15%</h1>
+                    <h1 class="textsteuern2" id="textsteuern">Max Auszahlen 5k $</h1>
+                    <img src="src/Info.png" class="infos" alt="">
+                    <h1 class="textinfo">Möglicherweise Sync der Geldes Fehlgeschlagen</h1>
+                    <button type="button" class="auszahlbutton" id="submitbutton">Bestätigen</button>
+                </div>
+                <div class="überweisen-card">
+                    <h1 class="Geldeinzahlentext">
+                        Geld - Überweisen
+                    </h1>
+                    <div class="rechteck">
+                        <h1 class="rechtecktext">Um geld zu überweisen brauchst du die Iban der Person welcher du Geld zusenden willst. Beachte dabei das 5% an Transaktions - gebühren anfallen.</h1>
+                    </div>
+                    <input class="inputtee" id="IbanID"  placeholder="Iban">
+                    <input class="inputteeseses" id="Money"  placeholder="0$">
+                    <button type="button"  class="submitbuttonsees">Accept</button>
+                    <div class="rechteck" id="zweiterrechteck">
+                        <h1 class="rechtecktext" id="zweitertext">Sobald sie auf den Button unten drückst, wird das Überweisen unumkehrbar gemacht.</h1>
+                    </div>
+                </div>
+           </div>
+        </div>
+    </div>
+    <div class="anmeldefenster">
+       <div class="anmeldeframecontainer">
+        <div class="obenreiche">
+            <h1 class="texttitelanmelde">
+                Bank - Konto eröffnen
+             </h1>
+            <img src="src/bankAmerica.png" class="banklogo1" alt="">
+        </div>
+        
+        <div class="bankcard4">
+            <img src="src/circle.png" class="circle" alt="">
+            <img src="src/circle.png" class="circle1" alt="">
+            <h1 class="name" id="name">Max Musterman </h1>
+            <img src="src/debit.png" class="debit" alt="">
+            <img src="src/wifi.png" class="wifi" alt="">
+            <img src="src/bankAmerica.png" class="banklogo" alt="">
+        </div>
+        <div class="infotext">
+           Dadurch das du noch kein Konto hast eröffnest du gerade eins. Sobald du den Button auf der rechten Seite drückst, akzeptierst du unsere Datenschutzerklärung automatisch
+        </div>
+            <input class="inputname" id="IbanID"  placeholder="Name">
+            <input class="inputnachname" id="Money"  placeholder="Nachname">
+            <img src="src/Info.png" class="infose" alt="">
+                    <h1 class="textinfoe">Scherz Namen werden mit einem 7 Tage Bann bestraft und im Register vermerkt</h1>
+            <button type="button" class="kontoanmeldebutton" >Bestätigen</button>
+       </div>
+    </div>
+    <div class="mainbank">
+        <div class="bankcard" id="bankcard1">
+           <img src="src/circle.png" class="circle" alt="">
+           <img src="src/circle.png" class="circle1" alt="">
+           <h1 class="name" id="name1">Christian Espasito</h1>
+           <img src="src/debit.png" class="debit" alt="">
+           <img src="src/wifi.png" class="wifi" alt="">
+           <img src="src/bankAmerica.png" class="banklogo" alt="">
+        </div>
+        <div class="unterbankcard">
+           <h1 class="guthabentext">Ihr Guthaben</h1>
+           <img src="src/creditcard.png" class="creditcard" alt="">
+            <h1 class="sevencardtext">SevenCard</h1>
+            <h1 class="guthaben" id="guthaben1">100000$</h1>
+             <div class="untenlinie">
+  
+            </div>
+            <div class="kreis">
+               <h1 class="head">#</h1cla>
+            </div>
+            <h1 class="iban-text">Iban:</h1>
+            <h1 class="iban-nummer" id="iban-nummer1">1111-1111</h1>
+            <div class="untenlinie1">
+  
+            </div>
+            <div class="kreis1">
+              <h1 class="head1">?</h1cla>
+             </div>
+             <h1 class="zahlart-text">Zahlungsart:</h1>
+            <h1 class="zahlart-nummer">Debit</h1>
+          </div>
+          <div class="rechts">
+             <div class="oben">
+              <h1 class="bankautomattext">Bankautomat</h1>
+              <img src="src/bankAmerica.png" class="banklogo1" alt="">
+             </div>
+             <div class="links">
+                <div class="apteil-container">
+                   <div id="apteil" class="einzahlen">
+                      <div class="leftapteil">
+                          <h1 class="textapteil"> 
+                              Geld Einzahlen
+                          </h1>
+                      </div>
+                   </div>
+                   <div id="apteil" class="auszahlen">
+                      <div class="leftapteil">
+                          <h1 class="textapteil"> 
+                              Geld Auszahlen
+                          </h1>
+                      </div>
+                   </div>
+                    <div id="apteil" class="überweisungen">
+                        <div class="leftapteil">
+                            <h1 class="textapteil"> 
+                                Überweisungen
+                            </h1>
+                        </div>
+                    </div>
+                    <div id="apteil" class="transaktionen">
+                        <div class="leftapteil">
+                            <h1 class="textapteil"> 
+                                Transaktionen
+                            </h1>
+                        </div>
+                    </div>
+                    <div id="apteil" class="kartenauswahl">
+                        <div class="leftapteil">
+                            <h1 class="textapteil"> 
+                                Karte 
+                            </h1>
+                        </div>
+                    </div>
+                    <div id="apteil" class="cryptonicauswahl">
+                        <div class="leftapteil">
+                            <h1 class="textapteil"> 
+                                Cryptonic 
+                            </h1>
+                        </div>
+                    </div>
+                   </div>
+                </div>
+             </div>
+             <div class="rechts-einstellungen">
+                  <div class="einzahlen-card">
+                      <h1 class="Geldeinzahlentext">
+                          Geld - Einzahlen
+                      </h1>
+                      <div class="input-field">
+                         <h1 class="geld-texteingeben">
+                          Geben sie ihren Betrag ein
+                         </h1>
+                         <img src="src/wallet.png" class="wallet" alt="">
+                         <input class="inputt" id="einzahlengeldinputt1" placeholder="0$">
+                         <img src="src/circle.png" class="circle2" alt="">
+                         <img src="src/circle.png" class="circle3" alt="">
+                      </div>
+                      <h1 class="textsteuern" id="textsteuern2">Transaktions Gebühren: 15%</h1>
+                      <img src="src/Info.png" class="infos" alt="">
+                      <h1 class="textinfo">Möglicherweise Sync der Geldes Fehlgeschlagen</h1>
+                      <button type="button" class="einzahlenbutton1" id="submitbutton">Bestätigen</button>
+                  </div>
+                  <div class="auszahlen-card">
+                      <h1 class="Geldeinzahlentext">
+                          Geld - Auszahlen
+                      </h1>
+                      <div class="input-field">
+                         <h1 class="geld-texteingeben">
+                          Geben sie ihren Betrag ein
+                         </h1>
+                         <img src="src/wallet.png" class="wallet" alt="">
+                         <input class="inputt"  id="auszahlinputt1" placeholder="0$">
+                         <img src="src/circle.png" class="circle2" alt="">
+                         <img src="src/circle.png" class="circle3" alt="">
+                      </div>
+                      <h1 class="textsteuern" id="textsteuern12">Transaktions Gebühren: 15%</h1>
+                      <img src="src/Info.png" class="infos" alt="">
+                      <h1 class="textinfo">Möglicherweise Sync der Geldes Fehlgeschlagen</h1>
+                      <button type="button" class="auszahlbutton1" id="submitbutton">Bestätigen</button>
+                  </div>
+                  <div class="überweisen-card">
+                      <h1 class="Geldeinzahlentext">
+                          Geld - Überweisen
+                      </h1>
+                      <div class="rechteck">
+                          <h1 class="rechtecktext">Um geld zu überweisen brauchst du die Iban der Person welcher du Geld zusenden willst. Beachte dabei das 5% an Transaktions - gebühren anfallen.</h1>
+                      </div>
+                      <input class="inputtee" id="IbanID1"  placeholder="Iban">
+                      <input class="inputteeseses" id="Money1"  placeholder="0$">
+                      <button type="button"  class="submitbuttonsees1">Accept</button>
+                      <div class="rechteck" id="zweiterrechteck">
+                          <h1 class="rechtecktext" id="zweitertext">Sobald sie auf den Button unten drückst, wird das Überweisen unumkehrbar gemacht.</h1>
+                      </div>
+                  </div>
+                  <div class="KarteAuswehlen">
+                      <h1 class="Geldeinzahlentext">
+                         Karte - Auswählen 
+                      </h1>
+                      <div class="box-karte-container">
+                        <div class="bankcard1">
+                            <img src="src/circle.png" class="circle" alt="">
+                            <img src="src/circle.png" class="circle1" alt="">
+                            <h1 class="name1" id="name2">Max Mustermann</h1>
+                            <img src="src/debit.png" class="debit" alt="">
+                            <img src="src/wifi.png" class="wifi" alt="">
+                            <img src="src/bankAmerica.png" class="banklogo" alt="">
+                         </div>
+                         <div class="bankcard2">
+                            <img src="src/circle.png" class="circle" alt="">
+                            <img src="src/circle.png" class="circle1" alt="">
+                            <h1 class="name2" id="name3">Max Mustermann</h1>
+                            <img src="src/debit.png" class="debit" alt="">
+                            <img src="src/wifi.png" class="wifi" alt="">
+                            <img src="src/bankAmerica.png" class="banklogo" alt="">
+                         </div>
+                         <div class="bankcard3">
+                            <img src="src/circle.png" class="circle" alt="">
+                            <img src="src/circle.png" class="circle1" alt="">
+                            <h1 class="name3" id="name4">Max Mustermann</h1>
+                            <img src="src/debit.png" class="debit" alt="">
+                            <img src="src/wifi.png" class="wifi" alt="">
+                            <img src="src/bankAmerica.png" class="banklogo" alt="">
+                         </div>
+                         <h1 class="textmain">
+                             SevenCard:
+                         </h1>
+                         <h1 class="vorteil">
+                             + 2% Transaktionsgebühr
+                         </h1>
+                         <h1 class="preises">
+                           Preis: Gratis
+                        </h1>
+                        <button type="button" class="sevencard" id="sevencard" >Bestätigen</button>
+                         <h1 class="textmain1">
+                            BronzeCard:
+                        </h1>
+                        <h1 class="vorteil2">
+                            + 1.2% Transaktionsgebühr
+                        </h1>
+                        <h1 class="preises1">
+                            Preis: 20000$
+                        </h1>
+                        <button type="button" class="bronzecard" id="bronzecard" >Bestätigen</button>
+                        <h1 class="textmain2">
+                            GoldenCard:
+                        </h1>
+                        <h1 class="vorteil3">
+                            + 0.5% Transaktionsgebühr
+                        </h1>
+                        <h1 class="preises2">
+                            Preis: 60000$
+                        </h1>
+                        <button type="button" class="goldecard" id="goldecard">Bestätigen</button>
+                      </div>
+                  </div>
+                  <div class="transaktionen-bild">
+                      <h1 class="Geldeinzahlentext">
+                         Bank - Transaktionen 
+                      </h1>
+                      <img src="src/Info.png" class="infos3" alt="">
+                      <h1 class="textinfo3">Transaktionen können unvollsändig sein</h1>
+                      <div class="outframe">
+                        <img src="src/type.png" class="types" alt="">
+                        <img src="src/money.png" class="money" alt="">
+                        <img src="src/1.png" class="plus" alt="">
+                         <div class="inframe">
+                              <div class="container-frame">
+                                  <div class="transferapteil">
+                                      <img src="src/plus.png" class="bilde" alt="">
+                                      <h1 class="geldfluss">1000$</h1>
+                                      <img src="src/bankAmerica.png" class="banklogos" alt="">
+                                      <h1 class="ibanfluss"></h1>
+                                  </div>
+                              </div> 
+                         </div>
+                      </div>
+                  </div>
+                  <div class="cryptonic-page">
+                    <div class="hauptseite">
+                        <img src="src/crypto.png" class="CryptoBild" alt="">
+                        <h1 class="crypto-name">
+                            CRYPTONIC
+                        </h1>
+                        <input class="inputbenutzer" id="inputbenutzer" placeholder="Benutzername">
+                        <input class="inputps" id="inputps" placeholder="Passwort">
+                        <button type="button" id="submitbuttonsese" class="SubmitbuttonLoginCrypto">Bestätigen</button>
+                        <h1 class="powered">Powered By Bank Of Amerika</h1>
+                    </div>
+                    <div class="mainpage-crypto">
+                       <h1 class="Name-crypto" id="name-crypto">
+                        Hallo Christian
+                       </h1>
+                       <h1 class="übersicht-crypto-text">
+                         Übersicht:
+                       </h1>
+                    
+                    <div class="slider-container">
+                        <div class="slider-arrows-parent">
+                            <div class="sliders">
+                              <div class="element">
+                                  <h1 class="coinname">
+                                      BITCOIN : 
+                                  </h1>
+                                  <h1 class="wallet-stand " id="bitcoin">
+                                      0.00
+                                  </h1>
+                                  <h1 class="name-coin">
+                                    BTC
+                                  </h1>
+                                  <h2 class="wachstum">
+                                       0.00%
+                                  </h2>
+                                 
+                                  <h3 class="kaufen bitcoin">
+                                    +
+                                </h3>
+                                <h3 class="verkaufen bitcoin">
+                                    -
+                                </h3>
+                              </div>
+                              <div class="element">
+                                <h1 class="coinname">
+                                    ETHEREUM : 
+                                </h1>
+                                <h1 class="wallet-stand" id="ether">
+                                    0.00
+                                </h1>
+                                <h1 class="name-coin">
+                                  ETH
+                                 </h1>
+                                 <h2 class="wachstum">
+                                    0.00%
+                                 </h2>
+                                 
+                                <h3 class="kaufen ether">
+                                    +
+                                </h3>
+                                <h3 class="verkaufen ether">
+                                    -
+                                </h3>
+                              </div>
+                              <div class="element">
+                                <h1 class="coinname">
+                                    SEVENCOIN : 
+                                </h1>
+                                <h1 class="wallet-stand">
+                                    0.00
+                                </h1>
+                                <h1 class="name-coin">
+                                  SVC
+                                 </h1>
+                                 <h2 class="wachstum">
+                                    0.00%
+                               </h2>
+                              
+                            <h3 class="kaufen ether">
+                                +
+                            </h3>
+                            <h3 class="verkaufen ">
+                                -
+                            </h3>
+                              </div>
+                            </div>
+                           
+                          </div>
+                       </div>
+                       <div class="arrows left">«</div>
+                        <div class="arrows right">»</div>
+                        <div class="unten-container-crypto">
+                            <div class="btc">
+                              <img src="src/bitcoin.png" class="img-crytpo" alt="">
+                              <h1 class="CryptoBeschreibung">
+                                 Btc
+                              </h1>
+                              <h1 class="kauf" id="btckauf">
+                                  K:1000$
+                              </h1>
+                              <h1 class="verkauf" id="btcverkauf">
+                                  V:1000$
+                              </h1>
+                            </div>
+                            <div class="eth">
+                                <img src="src/6250754.png" class="img-crytpo2" alt="">
+                                <h1 class="CryptoBeschreibung">
+                                    Eth
+                                </h1>
+                                <h1 class="kauf" id="ethkauf">
+                                    K:1000$
+                                </h1>
+                                <h1 class="verkauf" id="ethverkauf">
+                                    V:1000$
+                                </h1>
+                            </div>
+                            <div class="seven">
+                                <img src="src/sevenlife.png" class="img-crytpo1" alt="">
+                                <h1 class="CryptoBeschreibung">
+                                    Svc
+                                </h1>
+                                <h1 class="kauf">
+                                    K: - $
+                                </h1>
+                                <h1 class="verkauf">
+                                    V: - $
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-auszahlenbtc">
+                         <div class="linien-page">
+
+                         </div>
+                         <div class="linien-page2">
+
+                         </div>
+                         <h1 class="Geldeinzahlentext">
+                            BTC - Auszahlen 
+                         </h>
+                         <h1 class="textauszahlencrypto" id="auszahlenbtc">
+                            Willst du deine Bitcoins bei einem Preis von pro 100$ umwandeln?
+                         </h1>
+                         <input class="inputtes" id="auszahlenbtcse"  placeholder="BTC Anzahl">
+                         <button type="button" class="submitbuttonse auszahlenbtcs" >Bestätigen</button>
+                    </div> 
+                    <div class="page-einzahlenbtc">
+                        <div class="linien-page">
+
+                        </div>
+                        <div class="linien-page2">
+
+                        </div>
+                        <h1 class="Geldeinzahlentext">
+                           BTC - Einzahlen 
+                        </h>
+                        <h1 class="textauszahlencrypto" id="einzahlenbtc">
+                          Willst du Bitcoins bei einem Preis von 100$ kaufen?
+                        </h1>
+                        <input class="inputtes" id="einzahlenbtcse" placeholder="BTC Anzahl">
+                        <button type="button" class="submitbuttonse einzahlenbtcs" >Bestätigen</button>
+                   </div> 
+                   <div class="page-auszahleneth">
+                    <div class="linien-page">
+
+                    </div>
+                    <div class="linien-page2">
+
+                    </div>
+                    <h1 class="Geldeinzahlentext">
+                       ETH - Auszahlen 
+                    </h>
+                    <h1 class="textauszahlencrypto" id="auszahleneth">
+                       Willst du deine Bitcoins bei einem Preis von pro 100$ umwandeln?
+                    </h1>
+                    <input class="inputtes" id="auszahlenethese"  placeholder="ETH Anzahl">
+                    <button type="button" class="submitbuttonse auszahleneths" >Bestätigen</button>
+                   </div> 
+                   <div class="page-einzahleneth">
+                   <div class="linien-page">
+
+                   </div>
+                   <div class="linien-page2">
+
+                   </div>
+                   <h1 class="Geldeinzahlentext">
+                      ETH - Einzahlen 
+                   </h>
+                   <h1 class="textauszahlencrypto" id="einzahleneth">
+                     Willst du Bitcoins bei einem Preis von 100$ kaufen?
+                   </h1>
+                   <input class="inputtes" id="einzahleneth" placeholder="ETH Anzahl">
+                   <button type="button" class="submitbuttonse einzahleeths" >Bestätigen</button>
+                   </div> 
+                  </div>
+             </div>
+          </div>
+      </div>
+</body>
+<script src="index.js"></script>
+</html>

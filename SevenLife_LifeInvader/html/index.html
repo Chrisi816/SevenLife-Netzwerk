@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="liveinvader">
+      <div class="top-bar">
+        <img src="src/lifeinvader11.png" class="logo" alt="">
+        <div class="logotext">Life<strong>invader</strong></div>
+      </div>
+      <div class="leftbar">
+        <button id="submit-btns" class="submit-btnses">Werbung </button>
+        <button id="submit-btne" class="submit-btnses">Top-Werbung </button>
+        <button id="submit-btnd" class="submit-btnses">Schalten</button>
+      </div>
+      <div class="normalewerbung-container">
+        <div class="normalewerbungumrandung">
+            <div class="normalewerbung">
+                <h1 class="titelwerbung">
+                    ${werbung.titel}
+                 </h1>
+                 <span class="nachrichtwerbung">
+                      ${werbung.nachricht}
+                 </span>
+                 <h2 class="nachrichtensender">
+                    Geschaltet von ${werbung.benutzername}
+                 </h2>
+            </div>
+        </div>
+      </div>
+      <div class="top-werbungs"> 
+        <div class="premiumwerbungumrandung">
+          <div class="premiumwerbung">
+              <h1 class="titelwerbung">
+                  ${werbung.titel}
+               </h1>
+               <span class="nachrichtwerbung">
+                    ${werbung.nachricht}
+               </span>
+               <h2 class="nachrichtensender">
+                  Premium Werbung von ${werbung.benutzername}
+               </h2>
+          </div>
+      </div>
+      </div>
+      <div class="schalten-container">
+        <h1 class="textareas">
+           Titel
+        </h1>
+        <textarea maxlength="20" autofocus id="inputtwasdsese" class="inputtwasdsee" name = "description">
+        </textarea>
+        <h1 class="textareaeins">
+        Nachricht / Inhalt    
+        </h1>
+        <textarea maxlength="150" autofocus id="inputtwasdses" class="inputtwasdse" name = "description">
+        </textarea>
+        <div class="buttons-container">
+          <div class="buttonses" id="eoffentlich">
+              <h1 class="names">
+                  Öffentlich
+              </h1>
+          </div>
+          <div class="buttonse" id="anonym">
+              <h1 class="names">
+                  Anonym
+              </h1>
+          </div>
+        </div>
+        <div class="buttons-containers">
+          <div class="buttonsese" id="eoffentlich">
+              <h1 class="namese">
+                  Normale Werbung (50$)
+              </h1>
+          </div>
+          <div class="buttonsees" id="premium">
+              <h1 class="namese">
+                  P-Werbung (150$)
+              </h1>
+          </div>
+        </div>
+        <button type="button" id="submitbuttonsese" class="submitbuttonseesesess">Bestätigen </button>
+      </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>

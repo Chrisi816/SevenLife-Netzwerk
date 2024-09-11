@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Estonia&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hurricane&display=swap");
+
+body {
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+.aussen-container {
+	position: absolute;
+	width: 21vw;
+	height: 61vh;
+	background: linear-gradient(46deg, rgb(0, 0, 0), rgba(255, 0, 0, 0) 100%),
+	linear-gradient(200deg, rgba(114, 0, 89), rgba(153, 0, 120, 0.013) 100%);
+	left: 4vw;
+	top: 12vh;
+	border-radius: 1.7vw;
+}
+.close {
+	position: absolute;
+	width: 2.3vw;
+	left: 18.4vw;
+	top: 0.2vh;
+	cursor: pointer;
+    z-index: 10;
+}
+.obentext {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	font-size: 1.5vw;
+	font-family: "Shippori Antique", sans-serif;
+	top: 1vh;
+	border-bottom: 0.15vw solid white;
+	text-align: center;
+	width: 21vw;
+	left: 0vw;
+	z-index: 3;
+}
+.beschreibung {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	font-size: 1vw;
+	font-family: "Shippori Antique", sans-serif;
+	top: 7.5vh;
+	text-align: center;
+	width: 21vw;
+	left: 0vw;
+	z-index: 3;
+}
+.apteil {
+	border-radius: 1.5vw;
+	top: 20vh;
+	left: 1.4vw;
+	margin-top: 1vh;
+	height: 11vh;
+	width: 18vw;
+	position: relative;
+	display: inline-block;
+	background-color: rgba(0, 0, 0, 0.5);
+	cursor: pointer;
+}
+.apteil:hover {
+	background-color: rgba(0, 0, 0, 0.726);
+}
+.klasse {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	font-size: 1.6vw;
+	font-family: "Shippori Antique", sans-serif;
+	top: -2.6vh;
+	border-bottom: 0.15vw solid white;
+	text-align: center;
+	width: 7.5vw;
+	left: 5vw;
+	z-index: 3;
+}
+.spanss {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	font-size: 1.1vw;
+	font-family: "Shippori Antique", sans-serif;
+	top: 5.5vh;
+	text-align: center;
+	width: 10vw;
+	left: 3.5vw;
+	z-index: 3;
+}
+.nachricht-container {
+	position: absolute;
+	width: 33vw;
+	background: linear-gradient(
+		to top,
+		rgba(0, 0, 0, 0.774),
+		70%,
+		rgba(255, 255, 255, 0)
+	);
+	height: 24vh;
+	top: 76vh;
+	border-top-left-radius: 1.2vw;
+	margin-left: 67vw;
+}
+.icon i {
+	position: absolute;
+	top: 5vh;
+	font-size: 8vw;
+	left: 1.4vw;
+	color: white;
+}
+.titel {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	font-size: 2.5vw;
+	font-family: "Bebas Neue", cursive;
+	top: 0vh;
+	text-align: center;
+	letter-spacing: 0.2vw;
+	width: 21vw;
+	left: 11vw;
+	border-bottom: 0.15vw solid white;
+}
+.beschreibungs {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	font-size: 1.4vw;
+	font-family: "Bebas Neue", cursive;
+	top: 0vw;
+	letter-spacing: 0.05vw;
+	left: 0vw;
+}
+.ramne {
+	position: absolute;
+	height: 14.5vh;
+	width: 21vw;
+	text-overflow: hidden;
+	top: 9vh;
+	left: 11vw;
+}

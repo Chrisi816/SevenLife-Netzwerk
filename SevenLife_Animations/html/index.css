@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Estonia&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Radio+Canada&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hurricane&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Goldman&family=Radio+Canada&display=swap");
+@font-face {
+	font-family: "Rubik Light";
+	src: url("../fonts/Rubik-Light.ttf");
+	font-display: swap;
+}
+body {
+	margin: 0;
+	padding: 0;
+	user-select: none;
+}
+.container-anim {
+	position: absolute;
+	width: 65vw;
+	height: 70vh;
+	background-color: rgba(255, 0, 0, 0);
+	left: 18vw;
+	top: 12vh;
+}
+.left-bar {
+	position: absolute;
+	top: 1vh;
+	left: 2vw;
+	height: 60vh;
+	border-radius: 1vw;
+	width: 4.5vw;
+	background-color: rgba(22, 22, 22, 0.631);
+}
+.img-container {
+	position: absolute;
+	height: 55vh;
+	width: 3vw;
+	left: 0.7vw;
+	top: 2vh;
+	background-color: rgba(255, 0, 0, 0) a(255, 0, 0, 0);
+}
+.picture {
+	position: relative;
+	width: 2.3vw;
+	left: 0.4vw;
+	cursor: pointer;
+	margin-top: 4.5vh;
+}
+.home {
+	width: 3vw;
+	top: -1vh;
+	left: -0vw;
+}
+/* Middle Container */
+.middlecontainer {
+	position: absolute;
+	width: 55vw;
+	height: 53vh;
+	background-color: rgba(22, 22, 22, 0.631);
+	left: 5.5vw;
+	top: 7vh;
+	border-radius: 0.6vw;
+}
+.button-oben-rechts {
+	position: absolute;
+	background-color: rgba(92, 0, 0, 0.783);
+	width: 4.5vw;
+	height: 6vh;
+	cursor: pointer;
+	border-radius: 0.6vw;
+	left: 56vw;
+}
+.close {
+	position: absolute;
+	width: 3vw;
+	left: 0.75vw;
+	top: 0.3vh;
+}
+.search {
+	position: absolute;
+	height: 6vh;
+	width: 50vw;
+	background-color: rgba(22, 22, 22, 0.631);
+	left: 5.5vw;
+	border-radius: 0.6vw;
+}
+.search-bar {
+	position: absolute;
+	background: transparent;
+	border: transparent;
+	font-size: 2vw;
+	font-family: "Rubik Light";
+	font-weight: bold;
+	color: #ffffff;
+	top: 0.5vh;
+	left: 1vw;
+	border-bottom: 0.15vh solid white;
+	outline: none;
+	width: 45vw;
+}
+.search-bar::placeholder {
+	color: white;
+}
+.zoom {
+	position: absolute;
+	left: 46.8vw;
+	top: 0.6vh;
+	width: 2.6vw;
+}
+.button-oben-rechts:hover {
+	background-color: rgba(126, 0, 0, 0.783);
+	transition: all 1s;
+}
+.AnimList-box {
+	position: absolute;
+	overflow-y: scroll;
+	height: 50vh;
+	width: 53vw;
+	background-color: rgba(255, 0, 0, 0);
+	left: 1vw;
+	top: 1vh;
+}
+.AnimList-box::-webkit-scrollbar {
+	width: 0.6vw;
+}
+
+.AnimList-box::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background-color: rgba(255, 255, 255, 0.294);
+}
+
+.AnimList-box::-webkit-scrollbar-thumb {
+	background-color: #202020;
+	border-radius: 2vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.185) 0 3px 13px 1px;
+}
+.boxing {
+	position: relative;
+	display: inline-block;
+	width: 16.7vw;
+	margin-top: 1vh;
+
+	height: 11vh;
+	border-radius: 0.6vw;
+	background-color: rgba(27, 27, 27, 0.521);
+	margin-left: 0.5vw;
+	left: -0.5vw;
+}
+.box-anim {
+	position: relative;
+	display: inline-block;
+	width: 16.7vw;
+	margin-top: 1vh;
+	cursor: pointer;
+	height: 11vh;
+	border-radius: 0.6vw;
+	background-color: rgba(27, 27, 27, 0);
+	margin-left: 0.5vw;
+	left: -0.5vw;
+}
+.dancename {
+	position: absolute;
+	font-size: 1.8vw;
+	left: 1vw;
+	top: -1.9vh;
+	font-family: "Goldman", cursive;
+	color: white;
+}
+.tyoeanim {
+	position: absolute;
+	font-size: 1.2vw;
+	left: 1vw;
+	top: 4vh;
+	font-family: "Goldman", cursive;
+	color: rgba(163, 163, 163, 0.761);
+}
+.star {
+	position: absolute;
+	right: 0.6vw;
+	width: 2vw;
+	bottom: 1vh;
+	z-index: 10;
+	cursor: pointer;
+}
+.starfull {
+	position: absolute;
+	right: 0.6vw;
+	width: 2vw;
+	bottom: 1vh;
+	z-index: 10;
+	cursor: pointer;
+}
+.nocursor {
+	position: absolute;
+	background-color: rgba(255, 0, 0, 0);
+	right: 0vw;
+	bottom: 0;
+	height: 5vh;
+
+	width: 3vw;
+}

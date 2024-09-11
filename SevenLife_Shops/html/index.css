@@ -1,0 +1,965 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+html {
+	scroll-behavior: smooth;
+}
+.container-shop {
+	display: none;
+}
+.kaufen {
+	display: none;
+}
+.logistik {
+	display: none;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+.main-container {
+	position: absolute;
+	left: 13vw;
+	top: 7vh;
+	background-color: rgba(0, 0, 0, 0.712);
+	width: 69vw;
+	height: 70vh;
+	border-radius: 1.6vw;
+}
+.left {
+	position: relative;
+	border-top-left-radius: 1.6vw;
+	border-bottom-left-radius: 1.6vw;
+	width: 15.5vw;
+	height: 70vh;
+	background-color: rgba(0, 0, 0, 0.705);
+}
+.right {
+	position: absolute;
+	width: 53vw;
+	height: 61vh;
+	overflow: scroll;
+	background-color: rgba(255, 0, 0, 0);
+	left: 15.5vw;
+	overflow-x: hidden;
+	top: 7vh;
+}
+.right::-webkit-scrollbar {
+	width: 0.6vw;
+	height: 15px;
+}
+
+.right::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+.right::-webkit-scrollbar-thumb {
+	background-color: #202020;
+	border-radius: 2vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.12) 0 3px 13px 1px;
+}
+.top {
+	position: absolute;
+	width: 53.5vw;
+	height: 6vh;
+	background-color: rgba(33, 30, 30, 0.739);
+	left: 15.5vw;
+	top: 0;
+	border-top-right-radius: 1.9vw;
+}
+.toptext {
+	position: absolute;
+	letter-spacing: 0.2vw;
+	font-size: 2.6vw;
+	top: -1.5vw;
+	left: 0px;
+	width: 53.5vw;
+	text-align: center;
+	height: 6vh;
+	background-color: rgba(255, 0, 0, 0);
+	font-family: "Bebas Neue", cursive;
+	color: white;
+}
+
+.oben {
+	position: relative;
+	width: 14vw;
+	left: 0.8vw;
+	top: 2vh;
+
+	background-color: rgba(34, 34, 34, 0.623);
+	height: 12.5vh;
+	border-radius: 2vw;
+}
+.logo {
+	position: absolute;
+	width: 11vw;
+	left: 1.5vw;
+	top: -2.4vh;
+}
+.textunterbild {
+	position: absolute;
+	font-family: "Comforter Brush", cursive;
+	color: white;
+	font-size: 2.3vw;
+	top: 15.1vh;
+	left: 1.2vw;
+}
+.bracked {
+	position: relative;
+	width: 14vw;
+	left: 1vw;
+	height: 5vh;
+	background-color: rgba(36, 36, 36, 0.74);
+	top: 9.6vh;
+}
+.lefts {
+	position: relative;
+	width: 0.6vw;
+	height: 5vh;
+	background-color: rgb(58, 0, 43);
+}
+.kosten {
+	top: 0.2vh;
+	left: 1vw;
+	font-size: 2.1vw;
+	position: absolute;
+	font-family: "Bebas Neue", cursive;
+	color: rgb(184, 184, 184);
+}
+.warenkorb {
+	position: relative;
+	width: 25vw;
+	top: 11vh;
+	left: 1vw;
+	height: 200px;
+	background-color: red;
+}
+.box-waren {
+	position: relative;
+	background-color: rgb(39, 39, 39);
+	width: 14vw;
+	height: 24vh;
+	margin-top: 10.8vh;
+	margin-left: 1vw;
+	box-shadow: 0.2vw 0.2vw 0.2vw black;
+	border-radius: 0.2vw;
+}
+.box-zahl {
+	position: relative;
+	background-color: rgba(32, 32, 32, 0.822);
+	width: 14vw;
+	height: 5vh;
+}
+.box-zahl b {
+	position: relative;
+	color: white;
+	font-family: "Roboto", sans-serif;
+	font-size: 1.7vw;
+	left: 2.6vw;
+	top: 0.4vh;
+}
+.warenkorp-items {
+	position: relative;
+	height: 17vh;
+	overflow-x: hidden;
+	width: 13.5vw;
+	overflow-y: scroll;
+	background-color: rgba(255, 0, 0, 0);
+	left: 0.2vw;
+	top: 0.5vh;
+}
+.warenkorp-items::-webkit-scrollbar {
+	width: 0.6vw;
+	height: 15px;
+}
+
+.warenkorp-items::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background-color: rgba(255, 255, 255, 0.294);
+}
+
+.warenkorp-items::-webkit-scrollbar-thumb {
+	background-color: #202020;
+	border-radius: 2vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.185) 0 3px 13px 1px;
+}
+.einkaufen {
+	position: relative;
+	width: 12.5vw;
+	height: 7.3vh;
+	margin-top: 0.3vh;
+	background-color: rgb(19, 19, 19);
+	border-radius: 1vw;
+}
+.einkaufen h1 {
+	position: absolute;
+	color: white;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	font-size: 1vw;
+	margin-left: 1vw;
+	margin-top: 1vh;
+}
+.einkaufen p {
+	position: absolute;
+	color: white;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	font-size: 1vw;
+	margin-left: 1vw;
+	margin-top: 4vh;
+}
+.box-1 {
+	position: relative;
+	background-color: rgb(39, 39, 39);
+	width: 15.3vw;
+	height: 100px;
+	top: 0.5vh;
+	left: 0.1vw;
+}
+.box2 {
+	position: absolute;
+	background-color: rgb(24, 24, 24);
+	width: 10.5vw;
+	height: 8vh;
+	left: 2.6vw;
+	top: 0.7vh;
+	border-radius: 1vw;
+}
+.steuer {
+	position: absolute;
+	color: white;
+	font-size: 1.4vw;
+	font-family: "Roboto", sans-serif;
+	margin-left: 1vw;
+	margin-top: 0.6vh;
+}
+.summe {
+	position: relative;
+	color: white;
+	font-size: 1.4vw;
+	font-family: "Roboto", sans-serif;
+	margin-left: 1vw;
+	margin-top: 3.9vh;
+}
+.null1 {
+	position: absolute;
+	color: rgb(87, 0, 0);
+	font-size: 1.4vw;
+	font-family: "Roboto", sans-serif;
+	margin-left: 7.5vw;
+	margin-top: 0.8vh;
+}
+.null2 {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	font-size: 1.4vw;
+	font-family: "Roboto", sans-serif;
+	margin-left: 6.5vw;
+	margin-top: -3.2vh;
+}
+.button {
+	background-color: rgb(8, 8, 8);
+	border-left: solid 0.2vw rgb(255, 0, 200);
+	border-right: solid 0.2vw rgb(255, 0, 200);
+	width: 13vw;
+	height: 5.5vh;
+	margin-top: 1.5vh;
+	margin-left: 1.2vw;
+	cursor: pointer;
+}
+.button b {
+	color: rgb(255, 255, 255);
+	position: absolute;
+	font-size: 1.8vw;
+	font-family: "Poppins", sans-serif;
+	margin-left: 2.3vw;
+	margin-top: 1vh;
+}
+.items {
+	position: relative;
+	display: inline-block;
+	width: 12vw;
+	height: 32vh;
+	background-color: rgb(49, 49, 49);
+	margin-left: 1vw;
+	border-radius: 1.5vw;
+	left: 0.6vw;
+	margin-top: 0.5vh;
+}
+.name {
+	position: absolute;
+	color: white;
+	font-family: "Bebas Neue", cursive;
+	letter-spacing: 0.2vw;
+	font-size: 2vw;
+	top: -7vw;
+	width: 225px;
+	background-color: rgba(255, 0, 0, 0);
+	left: 1px;
+	text-align: center;
+}
+.rechtseckks {
+	position: relative;
+	height: 120px;
+	background-color: rgba(29, 29, 29, 0.616);
+	width: 225px;
+	top: 55px;
+}
+.inputt {
+	border: none;
+	-webkit-appearance: none;
+
+	position: absolute;
+	left: 10%;
+	width: 180px;
+	color: white;
+	font-family: "Bebas Neue", cursive;
+	height: 55px;
+	text-align: center;
+	z-index: 29;
+	top: 180px;
+	font-size: 50px;
+	background-color: rgba(29, 29, 29, 0.774);
+	outline: none;
+}
+.inputt:hover {
+	box-shadow: 3px 3px 3px black;
+	background-color: rgba(20, 24, 36, 0.5);
+	transition: color 0.6 ease;
+}
+.inputt:focus::placeholder {
+	color: transparent;
+}
+.inputt::placeholder {
+	color: white;
+	transition: color 0.3s ease;
+}
+.submitbuttons {
+	position: absolute;
+	left: 1.1vw;
+	top: 23vh;
+	width: 9.7vw;
+	height: 6vh;
+	z-index: 29;
+	padding: 0.5vw;
+	font-size: 1.7vw;
+	background-color: rgba(28, 23, 29, 0.801);
+	outline: none;
+	cursor: pointer;
+	border: none;
+	border: none;
+	color: #646464;
+	outline: none;
+	z-index: 29;
+}
+.submitbuttons:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	background-color: rgba(20, 24, 36, 0.808);
+}
+.bild {
+	position: absolute;
+	width: 3.2vw;
+	left: 50vw;
+	top: 0vh;
+}
+#count {
+	position: absolute;
+	font-family: "Bebas Neue", cursive;
+	color: white;
+	font-size: 1.6vw;
+	left: 8.2vw;
+	top: 7.5vh;
+}
+.kaufcontainer {
+	position: relative;
+	display: inline-block;
+	width: 21vw;
+	height: 55vh;
+	left: 41vw;
+	top: 11.6vh;
+	background-color: rgba(27, 27, 27, 0.801);
+}
+#left {
+	position: absolute;
+	width: 5vw;
+	top: 10vh;
+	left: 36vw;
+	z-index: 2;
+	background-color: rgba(7, 7, 7, 0.89);
+	transform: skewY(20deg);
+}
+#right {
+	position: absolute;
+	width: 5vw;
+	top: 10vh;
+	left: 62vw;
+	z-index: 2;
+	background-color: rgba(7, 7, 7, 0.89);
+	transform: skewY(-20deg);
+}
+.obens {
+	position: relative;
+	width: 21vw;
+	top: 0vw;
+	text-align: center;
+	height: 7vh;
+	background-color: rgba(10, 0, 9, 0);
+	border-bottom: 0.2vw solid rgba(79, 0, 82, 0);
+}
+.textoben {
+	position: absolute;
+	font-family: "Bebas Neue", cursive;
+	color: white;
+	left: 4vw;
+	top: -2.2vh;
+	letter-spacing: 0.1vw;
+	font-size: 2.5vw;
+}
+.unten {
+	position: relative;
+	width: 20.5vw;
+	height: 45vh;
+	top: 1vh;
+	overflow-y: scroll;
+	background-color: rgba(255, 0, 0, 0);
+	left: 0.2vw;
+}
+.textniv {
+	position: relative;
+	color: white;
+	font-family: "Bebas Neue", cursive;
+	letter-spacing: 2px;
+	font-size: 2vw;
+	top: 10px;
+	left: 20px;
+}
+.beschreibungs {
+	font-family: "Shippori Antique", sans-serif;
+	font-size: 30px;
+}
+.submitbuttonsees {
+	position: relative;
+	left: 11vw;
+	top: -1.1vh;
+	width: 6.3vw;
+	height: 3.3vh;
+	z-index: 29;
+	padding: 0.5vw;
+	font-size: 0.75vw;
+	background-color: rgba(190, 0, 0, 0.808);
+	outline: none;
+	cursor: pointer;
+	border-radius: 1vw;
+	border: none;
+	border: none;
+	color: #ffffff;
+	border-radius: 0.4vw;
+	outline: none;
+	z-index: 29;
+}
+.submitbuttonsees:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	background-color: rgba(63, 0, 0, 0.808);
+}
+.close {
+	position: relative;
+	left: 2.4vw;
+	top: 0.1vh;
+	width: 2.5vw;
+	cursor: pointer;
+	z-index: 15;
+	transform: skewY(20deg);
+}
+.angebot {
+	position: relative;
+	width: 19.4vw;
+	height: 12vh;
+	left: 0.1vw;
+	cursor: pointer;
+	margin-top: 1.5vh;
+	border-radius: 1.5vw;
+	background-color: rgba(2, 2, 2, 0.479);
+}
+.unten::-webkit-scrollbar {
+	width: 0.7vw;
+	height: 2vw;
+}
+
+.unten::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background-color: rgba(255, 255, 255, 0.294);
+}
+
+.unten::-webkit-scrollbar-thumb {
+	background-color: #202020;
+	border-radius: 2vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.185) 0 3px 13px 1px;
+}
+.ids {
+	position: absolute;
+	color: white;
+	font-family: "Bebas Neue", cursive;
+	letter-spacing: 0.1vw;
+	top: -1.2vh;
+	font-size: 1.6vw;
+	left: 0.5vw;
+}
+.idspreis {
+	position: absolute;
+	color: white;
+	font-family: "Bebas Neue", cursive;
+	letter-spacing: 0.1vw;
+	font-size: 1.6vw;
+	top: 2vh;
+	left: 0.5vw;
+}
+.untense {
+	position: relative;
+	width: 19.4vw;
+	height: 4vh;
+	background-color: black;
+	top: 8vh;
+	border-top: 0.2vw solid rgb(119, 119, 119);
+	border-bottom-left-radius: 1vw;
+	border-bottom-right-radius: 1vw;
+}
+.marker {
+	position: relative;
+	width: 1.2vw;
+	left: 0.3vw;
+	cursor: pointer;
+	top: 0.2vh;
+}
+.text {
+	position: absolute;
+	color: white;
+	font-family: "Bebas Neue", cursive;
+	letter-spacing: 0.1vw;
+	font-size: 1.3vw;
+	top: -1vh;
+	left: 2vw;
+}
+
+.left-logistik {
+	position: absolute;
+	width: 13vw;
+	height: 55vh;
+	background-color: rgba(0, 0, 0, 0.794);
+	border-bottom-left-radius: 1vw;
+	border-top-left-radius: 1vw;
+}
+.unterordner {
+	position: relative;
+	width: 12.5vw;
+	left: 0.3vw;
+	cursor: pointer;
+	height: 7vh;
+	border-radius: 1vw;
+	top: 16vh;
+	margin-top: 1vh;
+	background-color: rgb(29, 29, 29);
+}
+.baustelle {
+	position: absolute;
+	width: 3vw;
+	left: 0vw;
+	top: 0.5vh;
+}
+.textes {
+	position: absolute;
+	font-family: "Bebas Neue", cursive;
+	color: white;
+	top: 0vh;
+	left: 3vw;
+	font-size: 1.5vw;
+}
+.elektro {
+	position: absolute;
+	width: 2.4vw;
+	left: 0.3vw;
+	top: 1.2vh;
+}
+.lebensmittel {
+	position: absolute;
+	width: 2.4vw;
+	left: 0.4vw;
+	top: 1.2vh;
+}
+.right-logistik {
+	position: absolute;
+	width: 44vw;
+	height: 55vh;
+	background-color: rgba(255, 0, 0, 0);
+	left: 12.95vw;
+}
+.right-top-logistik {
+	position: relative;
+	width: 44vw;
+	height: 5vh;
+	background-color: rgba(0, 0, 0, 0.698);
+	border-top-right-radius: 1vw;
+}
+.logos {
+	position: relative;
+	width: 10vw;
+	top: 0.3vh;
+	left: 0.3vw;
+}
+.texte {
+	position: absolute;
+	font-family: "Bebas Neue", cursive;
+	color: white;
+	top: 9.7vh;
+	left: 0.56vw;
+	letter-spacing: 0.1vw;
+	font-size: 1.8vw;
+}
+.closingse {
+	position: absolute;
+	width: 2.5vw;
+	top: 0.3vh;
+	cursor: pointer;
+	left: 41.4vw;
+}
+.logistik-lefts {
+	position: absolute;
+	font-family: "Bebas Neue", cursive;
+	color: white;
+	top: -1.2vw;
+	left: 14.1vw;
+	letter-spacing: 0.15vw;
+	font-size: 2vw;
+}
+.pos {
+	position: absolute;
+	height: 48.7vh;
+	overflow-y: scroll;
+	width: 43vw;
+	top: 5.6vh;
+	left: 0.4vw;
+	background-color: rgba(255, 0, 0, 0);
+}
+.pos::-webkit-scrollbar {
+	width: 0.7vw;
+	height: 15vh;
+}
+
+.pos::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background-color: rgba(255, 255, 255, 0.294);
+}
+
+.pos::-webkit-scrollbar-thumb {
+	background-color: #202020;
+	border-radius: 2vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.185) 0 3px 13px 1px;
+}
+.poss {
+	position: absolute;
+	height: 48.7vh;
+	overflow-y: scroll;
+	width: 43vw;
+	top: 5.6vh;
+	left: 0.4vw;
+	background-color: rgba(255, 0, 0, 0);
+}
+.poss::-webkit-scrollbar {
+	width: 0.7vw;
+	height: 15vh;
+}
+
+.poss::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background-color: rgba(255, 255, 255, 0.294);
+}
+
+.poss::-webkit-scrollbar-thumb {
+	background-color: #202020;
+	border-radius: 2vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.185) 0 3px 13px 1px;
+}
+.posss {
+	position: absolute;
+	height: 48.7vh;
+	overflow-y: scroll;
+	width: 43vw;
+	top: 5.6vh;
+	left: 0.4vw;
+	background-color: rgba(255, 0, 0, 0);
+}
+.posss::-webkit-scrollbar {
+	width: 0.7vw;
+	height: 15vh;
+}
+
+.posss::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background-color: rgba(255, 255, 255, 0.294);
+}
+
+.posss::-webkit-scrollbar-thumb {
+	background-color: #202020;
+	border-radius: 2vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.185) 0 3px 13px 1px;
+}
+.inventory {
+	position: relative;
+	width: 12vw;
+	height: 29vh;
+	background-color: rgb(44, 44, 44);
+	display: inline-block;
+	margin-left: 0.3vw;
+	border-radius: 1vw;
+	margin-top: 0.2vh;
+	box-shadow: 0.2vw 0.2vw black;
+}
+.name {
+	position: absolute;
+	color: white;
+	font-family: "Bebas Neue", cursive;
+	letter-spacing: 0.1vw;
+	font-size: 1.8vw;
+	top: -1.6vh;
+	width: 12vw;
+	background-color: rgba(255, 0, 0, 0);
+	left: 0vw;
+	text-align: center;
+}
+.rechtseckks {
+	position: relative;
+	height: 11vh;
+	background-color: rgba(29, 29, 29, 0.616);
+	width: 12vw;
+	top: 5vh;
+}
+
+.inputt {
+	border: none;
+	-webkit-appearance: none;
+	position: absolute;
+	left: 1.1vw;
+	width: 9.5vw;
+	color: white;
+	font-family: "Bebas Neue", cursive;
+	height: 5.5vh;
+	text-align: center;
+	z-index: 29;
+	top: 16.5vh;
+	font-size: 3.5vw;
+	background-color: rgba(29, 29, 29, 0.774);
+	outline: none;
+}
+.inputt:hover {
+	box-shadow: 0.2vw 0.2vw 0.2vw black;
+	background-color: rgba(20, 24, 36, 0.5);
+	transition: color 0.6 ease;
+}
+.inputt:focus::placeholder {
+	color: transparent;
+}
+.inputt::placeholder {
+	color: white;
+	transition: color 0.3s ease;
+}
+.submitbuttonsese {
+	position: absolute;
+	left: 1.1vw;
+	top: 23vh;
+	width: 9.8vw;
+	height: 5vh;
+	z-index: 29;
+	padding: 0.5vw;
+	font-size: 1.5vw;
+	background-color: rgba(31, 26, 29, 0.808);
+	outline: none;
+	cursor: pointer;
+	border: none;
+	border: none;
+	color: #646464;
+	outline: none;
+	z-index: 29;
+}
+.submitbuttonsese:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	background-color: rgba(20, 24, 36, 0.808);
+}
+#preis {
+	position: absolute;
+	font-family: "Bebas Neue", cursive;
+	color: white;
+	font-size: 1.6vw;
+	left: 0.4vw;
+	top: 7.5vh;
+}
+.left1 {
+	position: absolute;
+	left: 0vw;
+	top: 0vw;
+	height: 100%;
+	width: 100vw;
+	background: linear-gradient(
+		to right,
+		rgb(63, 0, 49),
+		rgba(0, 0, 255, 0) 90.71%
+	);
+}
+.right1 {
+	position: absolute;
+	right: 0vw;
+	top: 0vw;
+	height: 100%;
+	width: 100vw;
+	background: linear-gradient(
+		to left,
+		rgb(66, 1, 52),
+		rgba(0, 0, 255, 0) 90.71%
+	);
+}
+.text-rental {
+	position: absolute;
+	color: rgba(137, 137, 137, 0.408);
+	left: -14.8vw;
+	top: 40vh;
+	letter-spacing: 0.1vw;
+	font-size: 4.5vw;
+	transform: rotate(270deg);
+	font-family: "Goldman", cursive;
+}
+.container-info {
+	position: absolute;
+	width: 88vw;
+	z-index: 1;
+	height: 88vh;
+	overflow-y: scroll;
+	background-color: rgba(255, 0, 0, 0);
+	left: 9vw;
+	top: 10vh;
+}
+.container-info::-webkit-scrollbar {
+	width: 0.6vw;
+}
+
+.container-info::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background-color: rgba(255, 255, 255, 0.294);
+}
+
+.container-info::-webkit-scrollbar-thumb {
+	background-color: #202020;
+	border-radius: 2vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.185) 0 3px 13px 1px;
+}
+.container-information {
+	position: relative;
+	width: 27.5vw;
+	height: 30vh;
+	border-radius: 0.2vw;
+	margin-left: 1vw;
+	margin-top: 1vh;
+	background-color: rgba(29, 29, 29, 0.43);
+	display: inline-block;
+}
+.Item-Name-Logistik2 {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 1vw;
+	top: -0.6vh;
+	z-index: 1;
+	border-bottom: 0.2vw solid white;
+	letter-spacing: 0.1vw;
+	font-size: 1.5vw;
+	overflow: hidden;
+	text-align: left;
+	width: 25.5vw;
+	line-height: 4vh;
+	font-family: "Lato";
+}
+.Button-BuyShop {
+	position: absolute;
+	height: 5vh;
+	width: 25.5vw;
+	font-family: "Goldman", cursive;
+	font-size: 1.3vw;
+	left: -1vw;
+	top: 23.5vh;
+	margin-left: 2vw;
+	border: none;
+	outline: none;
+	z-index: 1;
+	color: white;
+	cursor: pointer;
+	background-color: rgb(164, 0, 167);
+	border-radius: 0.2vw;
+}
+
+.Button-BuyShop:hover {
+	transition: 1s all;
+	background-color: rgb(110, 0, 112);
+}
+.preistxt {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 1vw;
+	top: 4.5vh;
+	z-index: 1;
+
+	letter-spacing: 0.1vw;
+	font-size: 1.7vw;
+	overflow: hidden;
+	text-align: left;
+
+	font-family: "Lato";
+}
+.img-shopbuy {
+	position: absolute;
+	width: 3vw;
+	right: 0.3vw;
+}
+.locationtxt {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 1vw;
+	top: 9vh;
+	z-index: 1;
+
+	letter-spacing: 0.1vw;
+	font-size: 1.4vw;
+	overflow: hidden;
+	text-align: left;
+
+	font-family: "Lato";
+}
+.img-location {
+	position: absolute;
+	width: 13vw;
+	height: 7vh;
+	border-radius: 0.2vw;
+	top: 15vh;
+	left: 1vw;
+	cursor: pointer;
+}
+.preistxt2 {
+	position: absolute;
+	color: rgb(70, 209, 0);
+	left: 6.5vw;
+	top: 4.5vh;
+	z-index: 1;
+
+	letter-spacing: 0.1vw;
+	font-size: 1.7vw;
+	overflow: hidden;
+	text-align: right;
+	width: 20vw;
+	background-color: rgba(255, 0, 0, 0);
+
+	font-family: "Lato";
+}

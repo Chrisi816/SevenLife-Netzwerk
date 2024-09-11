@@ -1,0 +1,2471 @@
+@font-face {
+	font-family: "Abel";
+	src: url("text/Abel-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Aldrich";
+	src: url("text/Aldrich-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Roboto";
+	src: url("text/Roboto-MediumItalic.ttf");
+}
+@font-face {
+	font-family: "Khula";
+	src: url("text/Khula-Regular.ttf");
+}
+.Ipad {
+	position: absolute;
+	width: 60vw;
+	height: 65vh;
+	left: 22vw;
+	top: 13vh;
+	z-index: 10;
+	background-color: transparent !important;
+	pointer-events: none;
+	overflow: hidden;
+}
+.ipadbackground {
+	position: absolute;
+	width: 56vw;
+	height: 59vh;
+	left: 24vw;
+	top: 16vh;
+	border-radius: 2vw;
+	background: url("https://cdn.discordapp.com/attachments/954476483651461120/972600765233373304/csm_strombolisch_Indo2012_photovolcanica_f9e48308b8.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.greyipad {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 2vw;
+	background-color: rgba(39, 39, 39, 0.461);
+}
+.container-apps {
+	position: absolute;
+	width: 52vw;
+	height: 20vh;
+	background-color: rgba(147, 122, 122, 0);
+	top: 34vh;
+	left: 2vw;
+	z-index: 2;
+}
+.apps-ipad {
+	position: relative;
+	width: 11vw;
+	height: 18vh;
+	border-radius: 1vw;
+	display: inline-block;
+	margin-left: 1.4vw;
+	cursor: pointer;
+	background-color: rgba(86, 86, 86, 0.609);
+}
+.apps-ipad:hover {
+	transition: 1s all;
+	background-color: rgba(38, 38, 38, 0.609);
+}
+.uhrzeit {
+	position: absolute;
+	color: white;
+	font-family: "Abel";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 5.5vw;
+	left: 19vw;
+	top: -30vh;
+	line-height: 2vh;
+	text-align: center;
+}
+.datum {
+	position: absolute;
+	color: white;
+	font-family: "Abel";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.5vw;
+	left: 19vw;
+	top: -18vh;
+	line-height: 2vh;
+	text-align: center;
+}
+.text-ipad {
+	position: absolute;
+	color: white;
+	font-family: "Khula";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1.1vw;
+	top: 12vh;
+	text-align: center;
+	width: 11vw;
+	background-color: rgba(255, 0, 0, 0);
+	line-height: 2vh;
+	text-align: center;
+}
+.img-ipad {
+	position: absolute;
+	width: 5vw;
+	left: 3vw;
+	top: 3vh;
+}
+.ipad-loadingpage {
+	position: absolute;
+	width: 100%;
+	overflow: hidden;
+	height: 100%;
+	z-index: 2;
+	border-radius: 2vw;
+	background: linear-gradient(to bottom, rgb(11, 15, 16), rgb(47, 21, 42));
+}
+.lds-ripple {
+	display: inline-block;
+	position: relative;
+	top: 25vh;
+	left: 25vw;
+	width: 30vw;
+	height: 40vh;
+}
+.lds-ripple div {
+	position: absolute;
+	border: 0.2vw solid #fff;
+	opacity: 1;
+	border-radius: 50%;
+	animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+.lds-ripple div:nth-child(2) {
+	animation-delay: -0.5s;
+}
+@keyframes lds-ripple {
+	0% {
+		top: 0.1vw;
+		left: 0.1w;
+		width: 0;
+		height: 0;
+		opacity: 0;
+	}
+	4.9% {
+		top: 1vw;
+		left: 1vw;
+		width: 0;
+		height: 0;
+		opacity: 0;
+	}
+	5% {
+		top: 3vh;
+		left: 2vw;
+		width: 0;
+		height: 0;
+		opacity: 1;
+	}
+	100% {
+		top: 0px;
+		left: 0px;
+		width: 4vw;
+		height: 7vh;
+		opacity: 0;
+	}
+}
+.lspd-text {
+	position: absolute;
+	color: white;
+	font-family: "Abel";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 3.5vw;
+	left: 24.2vw;
+	top: 13vh;
+	line-height: 2vh;
+	text-align: center;
+}
+.background-raster {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: var(#000);
+	background-image: repeating-linear-gradient(
+			to right,
+			rgba(255, 20, 145, 0.381) 0,
+			rgba(255, 20, 145, 0.52) 0.03vh,
+			transparent 0.3vh,
+			transparent 12vw
+		),
+		repeating-linear-gradient(
+			to bottom,
+			rgba(255, 20, 145, 0.381) 0,
+			rgba(255, 20, 145, 0.52) 0.03vh,
+			transparent 0.3vh,
+			transparent 10vw
+		);
+	background-position: 1vw 0, 0 0;
+}
+.loading-text {
+	position: absolute;
+	color: white;
+	font-family: "Aldrich";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.5vw;
+	left: 24.2vw;
+	top: 35vh;
+	line-height: 2vh;
+	text-align: center;
+}
+.ipad-searchperson {
+	position: absolute;
+	width: 100%;
+	overflow: hidden;
+	height: 100%;
+	z-index: 2;
+	border-radius: 2vw;
+	background: linear-gradient(
+		to bottom,
+		rgb(24, 56, 64),
+		rgba(34, 15, 30, 1)
+	);
+}
+.barleft {
+	position: absolute;
+	width: 15vw;
+	height: 100%;
+	background-color: rgb(22, 22, 22);
+}
+.lspd-text1 {
+	position: absolute;
+	color: white;
+	font-family: "Abel";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 2.5vw;
+	left: 5.5vw;
+	top: 4vh;
+	line-height: 2vh;
+	text-align: center;
+}
+.inputtsearchplayer {
+	position: absolute;
+	top: 13.5vh;
+	left: 2vw;
+	height: 4vh;
+	width: 12vw;
+	font-family: "Khula";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1.4vw;
+	line-height: 1vh;
+	border-radius: 0.2vw;
+	background-color: #232425;
+	border: none;
+	color: white;
+	border: rgb(57, 57, 57) 0.1vw solid;
+	text-align: center;
+	-webkit-appearance: none;
+	padding-top: 0.3vh;
+	outline: none;
+}
+.inputtsearchplayer:hover {
+	transition: color 0.6 ease;
+}
+.inputtsearchplayer:focus::placeholder {
+	color: transparent;
+	border: none;
+}
+.inputtsearchplayer::placeholder {
+	color: rgb(255, 255, 255);
+	transition: color 0.3s ease;
+}
+.container-ipad-search {
+	position: absolute;
+	width: 12.4vw;
+	height: 34vh;
+	background-color: rgba(255, 0, 0, 0);
+	left: 2vw;
+	top: 20vh;
+}
+.container-ipad-search-container {
+	position: relative;
+	background-color: rgb(30, 30, 30);
+	height: 6vh;
+	width: 12.4vw;
+	border-radius: 0.3vw;
+	margin-top: 2vh;
+	cursor: pointer;
+}
+.container-ipad-search-container:hover {
+	transition: 1s all;
+	background-color: rgb(36, 36, 36);
+}
+.container-infos-container {
+	position: absolute;
+	color: white;
+	font-family: "Aldrich";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.1vw;
+	left: 3vw;
+	top: 0.8vh;
+	line-height: 2vh;
+	text-align: left;
+}
+.container-search-bild {
+	position: absolute;
+	width: 2vw;
+	top: 1.3vh;
+	left: 0.5vw;
+}
+.textuebersicht {
+	position: absolute;
+	color: white;
+	font-family: "Aldrich";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.5vw;
+	left: 16vw;
+	top: 2vh;
+	line-height: 2vh;
+	text-align: center;
+}
+
+.container-insertpersons {
+	position: absolute;
+	width: 38vw;
+	height: 48vh;
+	top: 8vh;
+	left: 16vw;
+	overflow-y: scroll;
+	background-color: rgba(255, 0, 0, 0);
+}
+.container-insertpersons::-webkit-scrollbar {
+	width: 0.3vw;
+}
+
+.container-insertpersons::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background-color: rgba(255, 255, 255, 0.094);
+}
+
+.container-insertpersons::-webkit-scrollbar-thumb {
+	background-color: #a6a6a6;
+	border-radius: 1vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.185) 0 3px 13px 1px;
+}
+.container-infoperson {
+	position: relative;
+	width: 37vw;
+	border-radius: 0.2vw;
+	background-color: rgb(26, 26, 26);
+	height: 6vh;
+	top: -1vh;
+	margin-top: 1vh;
+}
+.container-name-person {
+	position: absolute;
+	color: white;
+	font-family: "Aldrich";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.3vw;
+	left: 3.5vw;
+	top: -0vh;
+	width: 13.8vw;
+	height: 3vh;
+	overflow: hidden;
+	background-color: rgba(255, 0, 0, 0);
+	line-height: 3vh;
+	text-align: left;
+}
+.strich-abändern {
+	position: absolute;
+	width: 0.2vw;
+	height: 5vh;
+	left: 17vw;
+	top: 0.5vh;
+	background-color: rgb(58, 58, 58);
+}
+.strich-abändern3 {
+	position: absolute;
+	width: 0.2vw;
+	height: 5vh;
+	left: 5vw;
+	top: 0.5vh;
+	background-color: rgb(58, 58, 58);
+}
+.strich-abändern4 {
+	position: absolute;
+	width: 0.2vw;
+	height: 5vh;
+	left: 23vw;
+	top: 0.5vh;
+	background-color: rgb(58, 58, 58);
+}
+.person-container {
+	position: absolute;
+	width: 2.7vw;
+	top: 0.5vh;
+	left: 0.3vw;
+}
+.container-name-nummer {
+	position: absolute;
+	color: white;
+	font-family: "Aldrich";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.3vw;
+	left: 18vw;
+	top: -0vh;
+	width: 11vw;
+	height: 3vh;
+	overflow: hidden;
+	background-color: rgba(255, 0, 0, 0);
+	line-height: 3vh;
+	text-align: left;
+}
+.searchplayericon {
+	position: absolute;
+	right: 1vw;
+	top: 1vh;
+	width: 2.2vw;
+	cursor: pointer;
+}
+.button-addplayer {
+	position: absolute;
+	left: 40vw;
+	top: 3vh;
+	width: 11vw;
+	height: 4vh;
+	border-radius: 0.2vw;
+	z-index: 29;
+	padding: 0;
+	font-size: 1.4vw;
+	background-color: rgba(230, 20, 20, 0.287);
+	outline: none;
+	cursor: pointer;
+
+	border: none;
+	color: #ffffff;
+	font-family: "Aldrich";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.1vw;
+	letter-spacing: 0.1vw;
+	transform: translate(-1deg);
+	z-index: 29;
+}
+.button-addplayer:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	transition: 1s all;
+	background-color: rgba(64, 5, 38, 0.808);
+}
+.gohome {
+	position: absolute;
+	width: 2.5vw;
+	left: 51.5vw;
+	top: 2.7vh;
+}
+.inputt-url {
+	position: absolute;
+	top: 8.5vh;
+	left: 16vw;
+	height: 3.5vh;
+	width: 22vw;
+	font-family: "Khula";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1.1vw;
+	line-height: 1vh;
+	border-radius: 0.2vw;
+	background-color: #2324258a;
+	border: none;
+	color: white;
+	border: rgb(57, 57, 57) 0.1vw solid;
+	text-align: left;
+	-webkit-appearance: none;
+	padding-top: 0.5vh;
+	outline: none;
+	padding-left: 0.5vw;
+}
+.inputt-url:hover {
+	transition: color 0.6 ease;
+}
+.inputt-url:focus::placeholder {
+	color: transparent;
+	border: none;
+}
+.inputt-url::placeholder {
+	color: rgb(255, 255, 255);
+	transition: color 0.3s ease;
+}
+.goback {
+	position: absolute;
+	width: 2.5vw;
+	left: 51.5vw;
+	top: 2.7vh;
+	cursor: pointer;
+}
+.goback2 {
+	position: absolute;
+	width: 2.5vw;
+	left: 51.5vw;
+	top: 2.7vh;
+	cursor: pointer;
+}
+.goback3 {
+	position: absolute;
+	width: 2.5vw;
+	left: 51.5vw;
+	top: 2.7vh;
+	cursor: pointer;
+}
+.goback4 {
+	position: absolute;
+	width: 2.5vw;
+	left: 51.5vw;
+	top: 2.7vh;
+	cursor: pointer;
+}
+.goback5 {
+	position: absolute;
+	width: 2.5vw;
+	left: 51.5vw;
+	cursor: pointer;
+	top: 2.7vh;
+}
+.goback6 {
+	position: absolute;
+	width: 2.5vw;
+	left: 51.5vw;
+	cursor: pointer;
+	top: 2.7vh;
+}
+.inputt-vorname {
+	position: absolute;
+	top: 20.5vh;
+	left: 16vw;
+	height: 3.5vh;
+	width: 17vw;
+	font-family: "Khula";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1.1vw;
+	line-height: 1vh;
+	border-radius: 0.2vw;
+	background-color: #2324258a;
+	border: none;
+	color: white;
+	border: rgb(57, 57, 57) 0.1vw solid;
+	text-align: left;
+	-webkit-appearance: none;
+	padding-top: 0.5vh;
+	outline: none;
+	padding-left: 0.5vw;
+}
+.inputt-vorname:hover {
+	transition: color 0.6 ease;
+}
+.inputt-vorname:focus::placeholder {
+	color: transparent;
+	border: none;
+}
+.inputt-vorname::placeholder {
+	color: rgb(255, 255, 255);
+	transition: color 0.3s ease;
+}
+.inputt-nachname {
+	position: absolute;
+	top: 20.5vh;
+	left: 35vw;
+	height: 3.5vh;
+	width: 18vw;
+	font-family: "Khula";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1.1vw;
+	line-height: 1vh;
+	border-radius: 0.2vw;
+	background-color: #2324258a;
+	border: none;
+	color: white;
+	border: rgb(57, 57, 57) 0.1vw solid;
+	text-align: left;
+	-webkit-appearance: none;
+	padding-top: 0.5vh;
+	outline: none;
+	padding-left: 0.5vw;
+}
+.inputt-nachname:hover {
+	transition: color 0.6 ease;
+}
+.inputt-nachname:focus::placeholder {
+	color: transparent;
+	border: none;
+}
+.inputt-nachname::placeholder {
+	color: rgb(255, 255, 255);
+	transition: color 0.3s ease;
+}
+.textuebersicht2 {
+	position: absolute;
+	color: white;
+	font-family: "Aldrich";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.5vw;
+	left: 16vw;
+	top: 14vh;
+	line-height: 2vh;
+	text-align: center;
+}
+.textuebersicht3 {
+	position: absolute;
+	color: white;
+	font-family: "Aldrich";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.5vw;
+	left: 16vw;
+	top: 33vh;
+	line-height: 2vh;
+	text-align: center;
+}
+.textuebersicht4 {
+	position: absolute;
+	color: white;
+	font-family: "Aldrich";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1vw;
+	left: 16vw;
+	top: 53vh;
+	line-height: 2vh;
+	text-align: center;
+}
+
+.textuebersicht5 {
+	position: absolute;
+	color: white;
+	font-family: "Aldrich";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1vw;
+	left: 16vw;
+	top: 30vh;
+	line-height: 2vh;
+	text-align: center;
+}
+.inputt-nummer {
+	position: absolute;
+	top: 27.5vh;
+	left: 16vw;
+	height: 3.5vh;
+	width: 23vw;
+	font-family: "Khula";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1.1vw;
+	line-height: 1vh;
+	border-radius: 0.2vw;
+	background-color: #2324258a;
+	border: none;
+	color: white;
+	border: rgb(57, 57, 57) 0.1vw solid;
+	text-align: left;
+	-webkit-appearance: none;
+	padding-top: 0.5vh;
+	outline: none;
+	padding-left: 0.5vw;
+}
+.inputt-nummer:hover {
+	transition: color 0.6 ease;
+}
+.inputt-nummer:focus::placeholder {
+	color: transparent;
+	border: none;
+}
+.inputt-nummer::placeholder {
+	color: rgb(255, 255, 255);
+	transition: color 0.3s ease;
+}
+.inputt-desc {
+	border: none;
+	-webkit-appearance: none;
+	padding: 3px;
+	position: absolute;
+	left: 16vw;
+	width: 25vw;
+	top: 39vh;
+	background-color: #2324258a;
+	font-family: "Khula";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1.1vw;
+	height: 13vh;
+	resize: none;
+	z-index: 29;
+	padding-left: 0.5vw;
+	outline: none;
+	color: white;
+	border-radius: 0.3vw;
+	border: rgb(57, 57, 57) 0.1vw solid;
+}
+.inputt-desc:hover {
+	box-shadow: 3px 3px 3px black;
+	transition: color 0.6 ease;
+}
+.inputt-desc:focus::placeholder {
+	color: transparent;
+}
+.inputt-desc::placeholder {
+	color: white;
+	transition: color 0.3s ease;
+}
+.button-abschicken {
+	position: absolute;
+	left: 43vw;
+	top: 48vh;
+	width: 11vw;
+	height: 5vh;
+	border-radius: 0.2vw;
+	z-index: 29;
+	padding: 0;
+	font-size: 1.4vw;
+	background-color: rgba(230, 20, 20, 0.287);
+	outline: none;
+	cursor: pointer;
+
+	border: none;
+	color: #ffffff;
+	font-family: "Aldrich";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.1vw;
+	letter-spacing: 0.1vw;
+	transform: translate(-1deg);
+	z-index: 29;
+}
+.button-abschicken:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	transition: 1s all;
+	background-color: rgba(64, 5, 38, 0.808);
+}
+.img-bild-player {
+	position: absolute;
+	width: 6vw;
+	height: 10vh;
+	border-radius: 1vw;
+	background-color: rgba(255, 0, 0, 0);
+	left: 48vw;
+	background-image: url(https://cdn.discordapp.com/attachments/954476483651461120/1038558799562289182/13547334191038217.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	top: 8vh;
+}
+.img-bild-player2 {
+	position: absolute;
+	width: 10vw;
+	height: 16vh;
+	border-radius: 1vw;
+	background-color: rgba(255, 0, 0, 0);
+	left: 44vw;
+	background-image: url(https://cdn.discordapp.com/attachments/954476483651461120/1038558799562289182/13547334191038217.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	top: 8vh;
+}
+.Name-Übersicht {
+	position: absolute;
+	color: white;
+	font-family: "Aldrich";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.5vw;
+	left: 16vw;
+	top: 7vh;
+	line-height: 2vh;
+	text-align: center;
+}
+.Name-Übersicht2 {
+	position: absolute;
+	color: white;
+	font-family: "Abel";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.4vw;
+	left: 16vw;
+	top: 11vh;
+	line-height: 2vh;
+	text-align: center;
+}
+.Geburtsdatum-Übersicht {
+	position: absolute;
+	color: white;
+	font-family: "Aldrich";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.5vw;
+	left: 16vw;
+	top: 15.5vh;
+	line-height: 2vh;
+	text-align: center;
+}
+.Geburtsdatum-Datum {
+	position: absolute;
+	color: white;
+	font-family: "Aldrich";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.5vw;
+	left: 33vw;
+	top: 6.5vh;
+	line-height: 2vh;
+	text-align: center;
+}
+
+.Geburtsdatum-Datum2 {
+	position: absolute;
+	color: white;
+	font-family: "Abel";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.4vw;
+	left: 33vw;
+	top: 10.5vh;
+	line-height: 2vh;
+	text-align: center;
+}
+.Geburtsdatum-Haftstrafe {
+	position: absolute;
+	color: white;
+	font-family: "Aldrich";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.5vw;
+	left: 44vw;
+	top: 16.5vh;
+	line-height: 2vh;
+	text-align: center;
+}
+
+.Geburtsdatum-Haftstrafe2 {
+	position: absolute;
+	color: white;
+	font-family: "Abel";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.4vw;
+	left: 44vw;
+	top: 21vh;
+	line-height: 2vh;
+	text-align: center;
+}
+.Geburtsdatum-Übersicht2 {
+	position: absolute;
+	color: white;
+	font-family: "Abel";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.4vw;
+	left: 16vw;
+	top: 19.5vh;
+	line-height: 2vh;
+	text-align: center;
+}
+.Geburtsdatum-Nummer {
+	position: absolute;
+	color: white;
+	font-family: "Aldrich";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.5vw;
+	left: 16vw;
+	top: 23.5vh;
+	line-height: 2vh;
+	text-align: center;
+}
+.Geburtsdatum-Nummer2 {
+	position: absolute;
+	color: white;
+	font-family: "Abel";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.4vw;
+	left: 16vw;
+	top: 27.5vh;
+	line-height: 2vh;
+	text-align: center;
+}
+.Geburtsdatum-Akten {
+	position: absolute;
+	color: white;
+	font-family: "Aldrich";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 2vw;
+	left: 16vw;
+	top: 31.5vh;
+	line-height: 2vh;
+	text-align: center;
+}
+.container-akten {
+	position: absolute;
+	width: 38vw;
+	background-color: rgba(27, 27, 27, 0);
+	height: 18vh;
+	overflow-y: scroll;
+	left: 16vw;
+	top: 38vh;
+}
+.container-akten::-webkit-scrollbar {
+	width: 0.3vw;
+}
+
+.container-akten::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background-color: rgba(255, 255, 255, 0.094);
+}
+
+.container-akten::-webkit-scrollbar-thumb {
+	background-color: #a6a6a6;
+	border-radius: 1vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.185) 0 3px 13px 1px;
+}
+.Detail-idakten {
+	position: absolute;
+	color: white;
+	font-family: "Abel";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.4vw;
+	left: 1.6vw;
+	top: 0.35vh;
+	line-height: 2vh;
+	text-align: center;
+}
+.Detail-titel {
+	position: absolute;
+	color: white;
+	font-family: "Abel";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.4vw;
+	left: 5.6vw;
+	background-color: rgba(255, 0, 0, 0);
+	top: 0.35vh;
+	width: 17vw;
+	line-height: 2vh;
+	text-align: center;
+}
+.Detail-datum {
+	position: absolute;
+	color: white;
+	font-family: "Abel";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.1vw;
+	left: 23.6vw;
+	background-color: rgba(255, 0, 0, 0);
+	top: 0.55vh;
+	width: 14vw;
+	line-height: 2vh;
+	text-align: left;
+}
+.container-akten-dex {
+	position: relative;
+	height: 6vh;
+	background-color: rgba(44, 44, 44, 0.581);
+	width: 37vw;
+	border-radius: 0.3vw;
+	margin-top: 1vh;
+	top: -1vh;
+}
+.giveinfosakten {
+	position: absolute;
+	width: 2.5vw;
+	right: 0.6vw;
+	top: 0.5vh;
+	cursor: pointer;
+}
+.button-editplayer {
+	position: absolute;
+	left: 40vw;
+	top: 3vh;
+	width: 11vw;
+	height: 4vh;
+	border-radius: 0.2vw;
+	z-index: 29;
+	padding: 0;
+	font-size: 1.4vw;
+	background-color: rgba(230, 20, 20, 0.287);
+	outline: none;
+	cursor: pointer;
+
+	border: none;
+	color: #ffffff;
+	font-family: "Aldrich";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.1vw;
+	letter-spacing: 0.1vw;
+	transform: translate(-1deg);
+	z-index: 29;
+}
+.button-editplayer:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	transition: 1s all;
+	background-color: rgba(64, 5, 38, 0.808);
+}
+.button-updaten {
+	position: absolute;
+	left: 43vw;
+	top: 48vh;
+	width: 11vw;
+	height: 5vh;
+	border-radius: 0.2vw;
+	z-index: 29;
+	padding: 0;
+	font-size: 1.4vw;
+	background-color: rgba(230, 20, 20, 0.287);
+	outline: none;
+	cursor: pointer;
+
+	border: none;
+	color: #ffffff;
+	font-family: "Aldrich";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.1vw;
+	letter-spacing: 0.1vw;
+	transform: translate(-1deg);
+	z-index: 29;
+}
+.button-updaten:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	transition: 1s all;
+	background-color: rgba(64, 5, 38, 0.808);
+}
+.Geburtsdatum-Beschreibung {
+	position: absolute;
+	color: white;
+	font-family: "Aldrich";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.5vw;
+	left: 29vw;
+	top: 14.5vh;
+	line-height: 2vh;
+	text-align: right;
+}
+.Geburtsdatum-Beschreibung2 {
+	position: absolute;
+	color: white;
+	font-family: "Abel";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 0.8vw;
+	right: 2vw;
+	width: 25vw;
+	top: 18.5vh;
+
+	line-height: 2vh;
+	text-align: right;
+}
+.Geburtsdatum-Beschreibungtext {
+	position: absolute;
+	color: white;
+	font-family: "Aldrich";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.5vw;
+	left: 16vw;
+	top: 26.5vh;
+	line-height: 2vh;
+	text-align: right;
+}
+.Geburtsdatum-Beschreibungtext2 {
+	position: absolute;
+	color: white;
+	font-family: "Abel";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1vw;
+	overflow: hidden;
+	left: 16vw;
+	width: 38vw;
+	background-color: rgba(255, 0, 0, 0);
+	top: 31vh;
+	line-height: 2vh;
+	text-align: left;
+}
+.Geburtsdatum-Officer {
+	position: absolute;
+	color: white;
+	font-family: "Aldrich";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.5vw;
+	left: 16vw;
+	top: 16.5vh;
+	line-height: 2vh;
+	text-align: right;
+}
+.Geburtsdatum-Officer2 {
+	position: absolute;
+	color: white;
+	font-family: "Abel";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.4vw;
+	left: 16vw;
+	top: 21vh;
+	line-height: 2vh;
+	text-align: center;
+}
+.Geburtsdatum-GeldStrafe {
+	position: absolute;
+	color: white;
+	font-family: "Aldrich";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.5vw;
+	left: 33vw;
+	top: 16.5vh;
+	line-height: 2vh;
+	text-align: right;
+}
+.Geburtsdatum-GeldStrafe2 {
+	position: absolute;
+	color: white;
+	font-family: "Abel";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.4vw;
+	left: 33vw;
+	top: 21vh;
+	line-height: 2vh;
+	text-align: center;
+}
+.button-addakte {
+	position: absolute;
+	left: 43vw;
+	top: 33vh;
+	width: 11vw;
+	height: 4vh;
+	border-radius: 0.2vw;
+	z-index: 29;
+	padding: 0;
+	font-size: 1.2vw;
+	background-color: rgba(230, 20, 20, 0.287);
+	outline: none;
+	cursor: pointer;
+
+	border: none;
+	color: #ffffff;
+	font-family: "Aldrich";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 0.9vw;
+	letter-spacing: 0.1vw;
+	transform: translate(-1deg);
+	z-index: 29;
+}
+.button-addakte:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	transition: 1s all;
+	background-color: rgba(64, 5, 38, 0.808);
+}
+.inputt-titel {
+	position: absolute;
+	top: 8.5vh;
+	left: 16vw;
+	height: 3.5vh;
+	width: 25vw;
+	font-family: "Khula";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1.1vw;
+	line-height: 1vh;
+	border-radius: 0.2vw;
+	background-color: #2324258a;
+	border: none;
+	color: white;
+	border: rgb(57, 57, 57) 0.1vw solid;
+	text-align: left;
+	-webkit-appearance: none;
+	padding-top: 0.5vh;
+	outline: none;
+	padding-left: 0.5vw;
+}
+.inputt-titel:hover {
+	transition: color 0.6 ease;
+}
+.inputt-titel:focus::placeholder {
+	color: transparent;
+	border: none;
+}
+.inputt-titel::placeholder {
+	color: rgb(255, 255, 255);
+	transition: color 0.3s ease;
+}
+.inputt-beschreibungakte {
+	border: none;
+	-webkit-appearance: none;
+	padding: 3px;
+	position: absolute;
+	left: 16vw;
+	width: 30vw;
+	top: 16vh;
+	background-color: #2324258a;
+	font-family: "Khula";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1.1vw;
+	height: 13vh;
+	resize: none;
+	z-index: 29;
+	padding-left: 0.5vw;
+	outline: none;
+	color: white;
+	border-radius: 0.3vw;
+	border: rgb(57, 57, 57) 0.1vw solid;
+}
+.inputt-beschreibungakte:hover {
+	box-shadow: 3px 3px 3px black;
+	transition: color 0.6 ease;
+}
+.inputt-beschreibungakte:focus::placeholder {
+	color: transparent;
+}
+.inputt-beschreibungakte::placeholder {
+	color: white;
+	transition: color 0.3s ease;
+}
+.button-Hinzufügen {
+	position: absolute;
+	left: 16vw;
+	top: 50vh;
+	width: 15vw;
+	height: 5vh;
+	border-radius: 0.2vw;
+	z-index: 29;
+	padding: 0;
+	font-size: 1.4vw;
+	background-color: rgba(230, 20, 20, 0.287);
+	outline: none;
+	cursor: pointer;
+
+	border: none;
+	color: #ffffff;
+	font-family: "Aldrich";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.1vw;
+	letter-spacing: 0.1vw;
+	transform: translate(-1deg);
+	z-index: 29;
+}
+.button-Hinzufügen:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	transition: 1s all;
+	background-color: rgba(64, 5, 38, 0.808);
+}
+.inputt-geldstrafe {
+	position: absolute;
+	top: 35.5vh;
+	left: 16vw;
+	height: 3.5vh;
+	width: 20vw;
+	font-family: "Khula";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1.1vw;
+	line-height: 1vh;
+	border-radius: 0.2vw;
+	background-color: #2324258a;
+	border: none;
+	color: white;
+	border: rgb(57, 57, 57) 0.1vw solid;
+	text-align: left;
+	-webkit-appearance: none;
+	padding-top: 0.5vh;
+	outline: none;
+	padding-left: 0.5vw;
+}
+.inputt-geldstrafe:hover {
+	transition: color 0.6 ease;
+}
+.inputt-geldstrafe:focus::placeholder {
+	color: transparent;
+	border: none;
+}
+.inputt-geldstrafe::placeholder {
+	color: rgb(255, 255, 255);
+	transition: color 0.3s ease;
+}
+.inputt-haftstrafe {
+	position: absolute;
+	top: 42.5vh;
+	left: 16vw;
+	height: 3.5vh;
+	width: 20vw;
+	font-family: "Khula";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1.1vw;
+	line-height: 1vh;
+	border-radius: 0.2vw;
+	background-color: #2324258a;
+	border: none;
+	color: white;
+	border: rgb(57, 57, 57) 0.1vw solid;
+	text-align: left;
+	-webkit-appearance: none;
+	padding-top: 0.5vh;
+	outline: none;
+	padding-left: 0.5vw;
+}
+.inputt-haftstrafe:hover {
+	transition: color 0.6 ease;
+}
+.inputt-haftstrafe:focus::placeholder {
+	color: transparent;
+	border: none;
+}
+.inputt-haftstrafe::placeholder {
+	color: rgb(255, 255, 255);
+	transition: color 0.3s ease;
+}
+
+/*Garage*/
+.loadingpage-background {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+
+	background: url("https://cdn.discordapp.com/attachments/954476483651461120/1029782324071649351/abstract-flowing-neon-wave-background-min.jpg");
+	background-repeat: no-repeat;
+	z-index: 2;
+	border-radius: 1vw;
+	filter: brightness(70%);
+	filter: blur(0.3vw);
+	background-size: 100% 100%;
+}
+
+.lds-ellipsis {
+	display: inline-block;
+	position: relative;
+	width: 10vw;
+	left: 26vw;
+	z-index: 3;
+	filter: brightness(100%);
+	height: 10vh;
+}
+.lds-ellipsis div {
+	position: absolute;
+	top: 35.5vh;
+	width: 0.8vw;
+	height: 1.5vh;
+	filter: brightness(100%);
+	border-radius: 50%;
+	background: #fff;
+	animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+.lds-ellipsis div:nth-child(1) {
+	left: 0.1vw;
+	animation: lds-ellipsis1 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(2) {
+	left: 0.1vw;
+	animation: lds-ellipsis2 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(3) {
+	left: 1.5vw;
+	animation: lds-ellipsis2 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(4) {
+	left: 1vw;
+	animation: lds-ellipsis3 0.6s infinite;
+}
+@keyframes lds-ellipsis1 {
+	0% {
+		transform: scale(0);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+@keyframes lds-ellipsis3 {
+	0% {
+		transform: scale(1);
+	}
+	100% {
+		transform: scale(0);
+	}
+}
+@keyframes lds-ellipsis2 {
+	0% {
+		transform: translate(0, 0);
+	}
+	100% {
+		transform: translate(24px, 0);
+	}
+}
+.classautoapfragetext {
+	position: absolute;
+	color: white;
+	font-family: "Aldrich";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 2vw;
+	left: 21.5vw;
+	z-index: 3;
+	top: 26vh;
+	line-height: 2vh;
+	text-align: center;
+}
+.auto-class {
+	position: absolute;
+	width: 6vw;
+	left: 25vw;
+	top: 14vh;
+	z-index: 3;
+}
+.main-garagepagebackground {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+
+	background: url("https://cdn.discordapp.com/attachments/954476483651461120/1029782324071649351/abstract-flowing-neon-wave-background-min.jpg");
+	background-repeat: no-repeat;
+	z-index: 2;
+	border-radius: 1vw;
+	filter: brightness(70%);
+	filter: blur(0.3vw);
+	background-size: 100% 100%;
+}
+.box-container-car {
+	position: absolute;
+	width: 52.5vw;
+	height: 47vh;
+	top: 8vh;
+	left: 2vw;
+	z-index: 3;
+	overflow-y: scroll;
+	background-color: rgba(255, 0, 0, 0);
+}
+.box-container-car::-webkit-scrollbar {
+	width: 0.3vw;
+}
+
+.box-container-car::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background-color: rgba(255, 255, 255, 0.094);
+}
+
+.box-container-car::-webkit-scrollbar-thumb {
+	background-color: #a6a6a6;
+	border-radius: 1vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.185) 0 3px 13px 1px;
+}
+.inputt-garagesearch {
+	position: absolute;
+	border: none;
+	-webkit-appearance: none;
+	padding: 0.1vw 1vw;
+	font-family: "Abel";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 3vw;
+	line-height: 4vh;
+	left: 3vw;
+	border-radius: 0.2vw;
+	top: 3.5vh;
+	width: 20vw;
+	color: rgb(255, 255, 255);
+	height: 4vh;
+	text-align: left;
+	z-index: 29;
+	font-size: 1vw;
+	background-color: #282b31bf;
+	outline: none;
+}
+.inputt-garagesearch:hover {
+	background-color: #282b31;
+	transition: color 0.6 ease;
+}
+.inputt-garagesearch:focus::placeholder {
+	color: transparent;
+}
+.inputt-garagesearch::placeholder {
+	color: rgb(255, 255, 255);
+	transition: color 0.3s ease;
+}
+.backtomaingarage {
+	position: absolute;
+	width: 3vw;
+	z-index: 3;
+	left: 51.5vw;
+	top: 2.5vh;
+	cursor: pointer;
+}
+.container-garage-plate {
+	position: relative;
+	margin-top: 1vh;
+	background-color: rgba(50, 50, 50, 0.496);
+	width: 50.5vw;
+	left: 1vw;
+	height: 6vh;
+	border-radius: 0.5vw;
+}
+.Kennzeichen-liste {
+	position: absolute;
+	color: white;
+	font-family: "Abel";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.5vw;
+	left: 1vw;
+	z-index: 3;
+	background-color: rgba(255, 0, 0, 0);
+	top: 0.2vh;
+	line-height: 2vh;
+	text-align: center;
+}
+.Kennzeichen-owner {
+	position: absolute;
+	color: white;
+	font-family: "Abel";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.5vw;
+	left: 10vw;
+	width: 15vw;
+	z-index: 3;
+	background-color: rgba(255, 0, 0, 0);
+	top: 0.2vh;
+	line-height: 2vh;
+	text-align: center;
+}
+.Kennzeichen-Versicherung {
+	position: absolute;
+	color: white;
+	font-family: "Abel";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.5vw;
+	left: 24vw;
+	width: 26vw;
+	z-index: 3;
+	background-color: rgba(255, 0, 0, 0);
+	top: 0.2vh;
+	line-height: 2vh;
+	text-align: right;
+}
+.inputtwohnort {
+	position: absolute;
+	top: 13.5vh;
+	left: 2vw;
+	height: 4vh;
+	width: 12vw;
+	font-family: "Khula";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1.4vw;
+	line-height: 1vh;
+	border-radius: 0.2vw;
+	background-color: #232425;
+	border: none;
+	color: white;
+	border: rgb(57, 57, 57) 0.1vw solid;
+	text-align: center;
+	-webkit-appearance: none;
+	padding-top: 0.3vh;
+	outline: none;
+}
+.inputtwohnort:hover {
+	transition: color 0.6 ease;
+}
+.inputtwohnort:focus::placeholder {
+	color: transparent;
+	border: none;
+}
+.inputtwohnort::placeholder {
+	color: rgb(255, 255, 255);
+	transition: color 0.3s ease;
+}
+.inputtfahdung {
+	position: absolute;
+	top: 13.5vh;
+	left: 2vw;
+	height: 4vh;
+	width: 12vw;
+	font-family: "Khula";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1.4vw;
+	line-height: 1vh;
+	border-radius: 0.2vw;
+	background-color: #232425;
+	border: none;
+	color: white;
+	border: rgb(57, 57, 57) 0.1vw solid;
+	text-align: center;
+	-webkit-appearance: none;
+	padding-top: 0.3vh;
+	outline: none;
+}
+.inputtfahdung:hover {
+	transition: color 0.6 ease;
+}
+.inputtfahdung:focus::placeholder {
+	color: transparent;
+	border: none;
+}
+.inputtfahdung::placeholder {
+	color: rgb(255, 255, 255);
+	transition: color 0.3s ease;
+}
+.inputtlizenzen {
+	position: absolute;
+	top: 13.5vh;
+	left: 2vw;
+	height: 4vh;
+	width: 12vw;
+	font-family: "Khula";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1.4vw;
+	line-height: 1vh;
+	border-radius: 0.2vw;
+	background-color: #232425;
+	border: none;
+	color: white;
+	border: rgb(57, 57, 57) 0.1vw solid;
+	text-align: center;
+	-webkit-appearance: none;
+	padding-top: 0.3vh;
+	outline: none;
+}
+.inputtlizenzen:hover {
+	transition: color 0.6 ease;
+}
+.inputtlizenzen:focus::placeholder {
+	color: transparent;
+	border: none;
+}
+.inputtlizenzen::placeholder {
+	color: rgb(255, 255, 255);
+	transition: color 0.3s ease;
+}
+.container-ipad-linzenzen {
+	position: absolute;
+	width: 38vw;
+	height: 51vh;
+	top: 4vh;
+	left: 16vw;
+	overflow-y: scroll;
+	background-color: rgba(255, 0, 0, 0);
+}
+.container-ipad-linzenzen::-webkit-scrollbar {
+	width: 0.3vw;
+}
+
+.container-ipad-linzenzen::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background-color: rgba(255, 255, 255, 0.094);
+}
+
+.container-ipad-linzenzen::-webkit-scrollbar-thumb {
+	background-color: #a6a6a6;
+	border-radius: 1vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.185) 0 3px 13px 1px;
+}
+.container-ipad-lizenzen-inhalt {
+	position: relative;
+	width: 37vw;
+	height: 6vh;
+	border-radius: 0.5vw;
+	background-color: rgba(23, 23, 23, 0.688);
+	top: -1vh;
+	margin-top: 1vh;
+}
+.name-lizenzen-inhalt {
+	position: absolute;
+	color: white;
+	font-family: "Abel";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.5vw;
+	left: 4vw;
+	z-index: 3;
+	background-color: rgba(255, 0, 0, 0);
+	top: 0.2vh;
+	line-height: 2vh;
+	text-align: left;
+}
+.personwhite {
+	position: absolute;
+	width: 2.5vw;
+	left: 0.5vw;
+	top: 0.6vh;
+}
+.name-lizenzen-Id {
+	position: absolute;
+	color: white;
+	font-family: "Abel";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.4vw;
+	left: 19vw;
+	z-index: 3;
+	background-color: rgba(255, 0, 0, 0);
+	top: 0.4vh;
+	line-height: 2vh;
+	text-align: left;
+}
+.personwhite2 {
+	position: absolute;
+	width: 2.5vw;
+	right: 0.5vw;
+	cursor: pointer;
+	top: 0.6vh;
+}
+.Geburtsdatum-driverlicense {
+	position: absolute;
+	color: white;
+	font-family: "Aldrich";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.5vw;
+	left: 16vw;
+	top: 15vh;
+	line-height: 2vh;
+	text-align: right;
+}
+.Geburtsdatum-driverlicense2 {
+	position: absolute;
+	color: white;
+	font-family: "Abel";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.4vw;
+	left: 16vw;
+	top: 19vh;
+	line-height: 2vh;
+	text-align: center;
+}
+.Geburtsdatum-flylicense {
+	position: absolute;
+	color: white;
+	font-family: "Aldrich";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.5vw;
+	left: 16vw;
+	top: 23vh;
+	line-height: 2vh;
+	text-align: right;
+}
+.Geburtsdatum-flylicense2 {
+	position: absolute;
+	color: white;
+	font-family: "Abel";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.4vw;
+	left: 16vw;
+	top: 27vh;
+	line-height: 2vh;
+	text-align: center;
+}
+.Geburtsdatum-bootlicense {
+	position: absolute;
+	color: white;
+	font-family: "Aldrich";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.5vw;
+	left: 16vw;
+	top: 31vh;
+	line-height: 2vh;
+	text-align: right;
+}
+.Geburtsdatum-bootlicense2 {
+	position: absolute;
+	color: white;
+	font-family: "Abel";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.4vw;
+	left: 16vw;
+	top: 35vh;
+	line-height: 2vh;
+	text-align: center;
+}
+.Geburtsdatum-lkwlicense {
+	position: absolute;
+	color: white;
+	font-family: "Aldrich";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.5vw;
+	left: 16vw;
+	top: 39vh;
+	line-height: 2vh;
+	text-align: right;
+}
+.Geburtsdatum-lkwlicense2 {
+	position: absolute;
+	color: white;
+	font-family: "Abel";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.4vw;
+	left: 16vw;
+	top: 43vh;
+	line-height: 2vh;
+	text-align: center;
+}
+.Geburtsdatum-motorlicense {
+	position: absolute;
+	color: white;
+	font-family: "Aldrich";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.5vw;
+	left: 16vw;
+	top: 47vh;
+	line-height: 2vh;
+	text-align: right;
+}
+.Geburtsdatum-motorlicense2 {
+	position: absolute;
+	color: white;
+	font-family: "Abel";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.4vw;
+	left: 16vw;
+	top: 51vh;
+	line-height: 2vh;
+	text-align: center;
+}
+.Geburtsdatum-lizenzlicense {
+	position: absolute;
+	color: white;
+	font-family: "Aldrich";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.5vw;
+	left: 38vw;
+	top: 39vh;
+	line-height: 2vh;
+	text-align: right;
+}
+.Geburtsdatum-lizenzlicense2 {
+	position: absolute;
+	color: white;
+	font-family: "Abel";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.4vw;
+	left: 38vw;
+	top: 43vh;
+	line-height: 2vh;
+	text-align: center;
+}
+.Geburtsdatum-jagdlicense {
+	position: absolute;
+	color: white;
+	font-family: "Aldrich";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.5vw;
+	left: 38vw;
+	top: 47vh;
+	line-height: 2vh;
+	text-align: right;
+}
+.Geburtsdatum-jagdlicense2 {
+	position: absolute;
+	color: white;
+	font-family: "Abel";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.4vw;
+	left: 38vw;
+	top: 51vh;
+	line-height: 2vh;
+	text-align: center;
+}
+
+.container-ipad-wohnort {
+	position: absolute;
+	width: 38vw;
+	height: 51vh;
+	top: 4vh;
+	left: 16vw;
+	overflow-y: scroll;
+	background-color: rgba(255, 0, 0, 0);
+}
+.container-ipad-wohnort::-webkit-scrollbar {
+	width: 0.3vw;
+}
+
+.container-ipad-wohnort::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background-color: rgba(255, 255, 255, 0.094);
+}
+
+.container-ipad-wohnort::-webkit-scrollbar-thumb {
+	background-color: #a6a6a6;
+	border-radius: 1vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.185) 0 3px 13px 1px;
+}
+.container-ipad-wohnort-inhalt {
+	position: relative;
+	width: 37vw;
+	height: 6vh;
+	border-radius: 0.5vw;
+	background-color: rgba(23, 23, 23, 0.688);
+	top: -1vh;
+	margin-top: 1vh;
+}
+.name-wohnort-inhalt {
+	position: absolute;
+	color: white;
+	font-family: "Abel";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.5vw;
+	left: 4vw;
+	z-index: 3;
+	background-color: rgba(255, 0, 0, 0);
+	top: 0.2vh;
+	line-height: 2vh;
+	text-align: left;
+}
+.personwhite {
+	position: absolute;
+	width: 2.5vw;
+	left: 0.5vw;
+	top: 0.6vh;
+}
+.name-wohnort-Id {
+	position: absolute;
+	color: white;
+	font-family: "Abel";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.4vw;
+	left: 19vw;
+	z-index: 3;
+	background-color: rgba(255, 0, 0, 0);
+	top: 0.4vh;
+	width: 16vw;
+	line-height: 2vh;
+	text-align: center;
+}
+.bigbarfahndungen {
+	position: absolute;
+	width: 38vw;
+	height: 5vh;
+	border-radius: 0.3vw;
+	background-color: rgba(147, 0, 0, 0.534);
+	left: 16vw;
+	top: 3vh;
+}
+.textfandungen {
+	position: absolute;
+	color: white;
+	font-family: "Aldrich";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.3vw;
+	left: 1vw;
+	top: 0vh;
+	line-height: 2vh;
+	text-align: center;
+}
+.anzahlfandungen {
+	position: absolute;
+	color: white;
+	font-family: "Aldrich";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.3vw;
+	width: 20vw;
+	left: 17vw;
+	top: 0vh;
+	background-color: rgba(0, 128, 0, 0);
+	line-height: 2vh;
+	text-align: right;
+}
+
+.container-ipad-fahndungen {
+	position: absolute;
+	width: 38vw;
+	height: 45vh;
+	top: 10vh;
+	left: 16vw;
+	overflow-y: scroll;
+	background-color: rgba(255, 0, 0, 0);
+}
+.container-ipad-fahndungen::-webkit-scrollbar {
+	width: 0.3vw;
+}
+
+.container-ipad-fahndungen::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background-color: rgba(255, 255, 255, 0.094);
+}
+
+.container-ipad-fahndungen::-webkit-scrollbar-thumb {
+	background-color: #a6a6a6;
+	border-radius: 1vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.185) 0 3px 13px 1px;
+}
+.interaktivfahndungen {
+	position: relative;
+	width: 37vw;
+	height: 13vh;
+	margin-top: 1vh;
+	border-radius: 0.4vw;
+	background-color: rgba(33, 33, 33, 0.706);
+}
+.button-deletefahndung {
+	position: absolute;
+	left: 1vw;
+	top: 7vh;
+	width: 15vw;
+	height: 4.5vh;
+	border-radius: 0.6vw;
+	z-index: 29;
+	padding: 0;
+	font-size: 1.4vw;
+	background-color: rgba(230, 20, 20, 0.287);
+	outline: none;
+	cursor: pointer;
+	border: none;
+	color: #ffffff;
+	font-family: "Aldrich";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.1vw;
+	letter-spacing: 0.1vw;
+	transform: translate(-1deg);
+	z-index: 29;
+}
+.button-deletefahndung:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	transition: 1s all;
+	background-color: rgba(64, 5, 38, 0.808);
+}
+.namefandung {
+	position: absolute;
+	color: white;
+	font-family: "Abel";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.4vw;
+	left: -0.3vw;
+	z-index: 3;
+	background-color: rgba(255, 0, 0, 0);
+	top: 0.4vh;
+	width: 16vw;
+	line-height: 2vh;
+	text-align: center;
+}
+.trennungslinie {
+	position: absolute;
+	width: 35vw;
+	height: 0.2vh;
+	background-color: white;
+	top: 5.5vh;
+	left: 1vw;
+}
+.wegenfandung {
+	position: absolute;
+	color: white;
+	font-family: "Abel";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.4vw;
+	left: 17vw;
+	z-index: 3;
+	background-color: rgba(255, 0, 0, 0);
+	top: 0.4vh;
+	width: 20vw;
+	line-height: 2vh;
+	text-align: left;
+}
+.checkbox-type {
+	position: absolute;
+	top: 36vh;
+	left: 40vw;
+
+	zoom: 1;
+	transform: scale(2);
+	accent-color: #9d0681;
+}
+.fahndungaktentext {
+	position: absolute;
+	color: white;
+	font-family: "Abel";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.3vw;
+	left: 42vw;
+	z-index: 3;
+	background-color: rgba(255, 0, 0, 0);
+	top: 34.4vh;
+	width: 16vw;
+	line-height: 2vh;
+	text-align: left;
+}
+.backtomainpagefrombusiness {
+	position: absolute;
+	width: 3vw;
+	z-index: 3;
+	left: 51.5vw;
+	top: 2.5vh;
+	cursor: pointer;
+}
+.leistellentext {
+	position: absolute;
+	color: white;
+	font-family: "Abel";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.5vw;
+	left: 2vw;
+	z-index: 3;
+	background-color: rgba(255, 0, 0, 0);
+	top: 6.5vh;
+	width: 52vw;
+	border-bottom: 0.1vh solid white;
+	line-height: 4vh;
+	text-align: left;
+}
+
+.button-MainPage {
+	position: absolute;
+	left: 2vw;
+	top: 3vh;
+	width: 14vw;
+	height: 4.5vh;
+	border-radius: 0.5vw;
+	z-index: 29;
+	padding: 0;
+	font-size: 1.4vw;
+	background-color: rgba(40, 16, 48, 0.919);
+	outline: none;
+	cursor: pointer;
+
+	border: none;
+	color: #ffffff;
+	font-family: "Aldrich";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1vw;
+	letter-spacing: 0.1vw;
+	transform: translate(-1deg);
+	z-index: 29;
+}
+.button-MainPage:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	transition: 1s all;
+	background-color: rgba(64, 5, 38, 0.808);
+}
+.button-Aktiv {
+	position: absolute;
+	left: 17vw;
+	top: 3vh;
+	width: 17vw;
+	height: 4.5vh;
+	border-radius: 0.5vw;
+	z-index: 29;
+	padding: 0;
+	font-size: 1.2vw;
+	background-color: rgba(40, 16, 48, 0.919);
+	outline: none;
+	cursor: pointer;
+
+	border: none;
+	color: #ffffff;
+	font-family: "Aldrich";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1vw;
+	letter-spacing: 0.1vw;
+	transform: translate(-1deg);
+	z-index: 29;
+}
+.button-Aktiv:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	transition: 1s all;
+	background-color: rgba(64, 5, 38, 0.808);
+}
+.button-newstreife {
+	position: absolute;
+	left: 44vw;
+	top: 7.7vh;
+	width: 10vw;
+	height: 3.7vh;
+	border-radius: 0.5vw;
+	z-index: 29;
+	padding: 0;
+	font-size: 1.2vw;
+	background-color: rgba(40, 16, 48, 0.919);
+	outline: none;
+	cursor: pointer;
+
+	border: none;
+	color: #ffffff;
+	font-family: "Aldrich";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1vw;
+	letter-spacing: 0.1vw;
+	transform: translate(-1deg);
+	z-index: 29;
+}
+.button-newstreife:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	transition: 1s all;
+	background-color: rgba(64, 5, 38, 0.808);
+}
+.box-container-streifedienst {
+	position: absolute;
+	width: 37vw;
+	height: 42vh;
+	top: 14vh;
+	left: 2vw;
+	z-index: 3;
+	overflow-y: scroll;
+	background-color: rgba(255, 0, 0, 0);
+}
+.box-container-streifedienst::-webkit-scrollbar {
+	width: 0.3vw;
+}
+
+.box-container-streifedienst::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background-color: rgba(255, 255, 255, 0.094);
+}
+
+.box-container-streifedienst::-webkit-scrollbar-thumb {
+	background-color: #a6a6a6;
+	border-radius: 1vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.185) 0 3px 13px 1px;
+}
+.container-playernotinstreife {
+	position: absolute;
+	background-color: rgba(228, 228, 206, 0.636);
+	height: 42vh;
+	width: 14vw;
+	left: 40vw;
+	z-index: 10;
+	border-radius: 0.3vw;
+	top: 14vh;
+}
+.abwesendtext {
+	position: absolute;
+	color: white;
+	font-family: "Abel";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.5vw;
+	left: 1vw;
+	z-index: 3;
+	background-color: rgba(255, 0, 0, 0);
+	top: -1vh;
+	width: 12vw;
+	line-height: 4vh;
+	text-align: center;
+	border-bottom: 0.1vh solid white;
+}
+.box-container-abwesend {
+	position: absolute;
+	width: 13.1vw;
+	height: 35vh;
+	top: 6vh;
+	left: 0.5vw;
+	z-index: 3;
+	overflow-y: scroll;
+	background-color: rgba(255, 0, 0, 0);
+}
+.box-container-abwesend::-webkit-scrollbar {
+	width: 0.3vw;
+}
+
+.box-container-abwesend::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background-color: rgba(21, 21, 21, 0.094);
+}
+
+.box-container-abwesend::-webkit-scrollbar-thumb {
+	background-color: #5a5a5a;
+	border-radius: 1vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.185) 0 3px 13px 1px;
+}
+.eingeteiltetexte {
+	position: relative;
+	color: white;
+	font-family: "Abel";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.3vw;
+	left: 0vw;
+	z-index: 3;
+	background-color: rgba(255, 0, 0, 0);
+	margin-top: -1.2vh;
+	top: 1.1vh;
+	width: 12.6vw;
+	text-align: center;
+}
+
+.box-people {
+	position: absolute;
+	width: 52vw;
+	height: 42vh;
+	background-color: rgba(255, 0, 0, 0);
+	top: 14vh;
+	left: 2vw;
+	overflow-y: scroll;
+	z-index: 10;
+}
+.box-people::-webkit-scrollbar {
+	width: 0.3vw;
+}
+
+.box-people::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background-color: rgba(21, 21, 21, 0.094);
+}
+
+.box-people::-webkit-scrollbar-thumb {
+	background-color: #5a5a5a;
+	border-radius: 1vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.185) 0 3px 13px 1px;
+}
+.container-box-people {
+	position: relative;
+	background-color: rgba(242, 0, 0, 0);
+	width: 17vw;
+	min-height: 5vh;
+	margin-top: 0vh;
+	display: inline-table;
+}
+.leistellentext2 {
+	margin-top: 0.5vh;
+
+	padding-right: 1vw;
+	color: white;
+	font-family: "Roboto", sans-serif;
+	font-size: 1.4vw;
+	top: 2vh;
+	flex: 1;
+}
+.detailnametext {
+	margin-top: -1vh;
+	padding-right: 1vw;
+	color: white;
+	font-family: "Abel";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.3vw;
+	top: 0vh;
+	flex: 1;
+}
+.streifenkarte {
+	position: relative;
+	height: 27vh;
+	margin-left: 1vw;
+	margin-top: 1vh;
+	width: 12vw;
+	border-radius: 0.4vw;
+	background-color: rgba(0, 128, 0, 0.362);
+}
+.streifentext {
+	position: absolute;
+	color: white;
+	font-family: "Abel";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.5vw;
+	left: 0.5vw;
+	z-index: 3;
+	background-color: rgba(255, 0, 0, 0);
+	top: -1.5vh;
+	width: 11vw;
+	line-height: 4vh;
+	text-align: center;
+	border-bottom: 0.1vh solid white;
+}
+.box-container-namestreifendienst {
+	position: absolute;
+	width: 11vw;
+	height: 16.5vh;
+	background-color: rgba(255, 0, 0, 0);
+	top: 5.5vh;
+	left: 0.5vw;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	z-index: 10;
+}
+.box-container-namestreifendienst::-webkit-scrollbar {
+	width: 0.3vw;
+}
+
+.box-container-namestreifendienst::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background-color: rgba(21, 21, 21, 0.094);
+}
+
+.box-container-namestreifendienst::-webkit-scrollbar-thumb {
+	background-color: #5a5a5a;
+	border-radius: 1vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.185) 0 3px 13px 1px;
+}
+.streifenname {
+	position: relative;
+	color: white;
+	font-family: "Abel";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.2vw;
+	margin-top: 0.8vh;
+	text-align: center;
+	z-index: 3;
+	background-color: rgba(120, 0, 0, 0);
+	top: -1.7vh;
+	line-height: 4vh;
+}
+.closestreife {
+	position: absolute;
+	top: 22vh;
+	z-index: 4;
+	left: 7vw;
+	cursor: pointer;
+	width: 2.5vw;
+}
+.openstreife {
+	position: absolute;
+	top: 22vh;
+	z-index: 4;
+	left: 2.5vw;
+	cursor: pointer;
+	width: 2.5vw;
+}

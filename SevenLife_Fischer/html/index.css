@@ -1,0 +1,283 @@
+@font-face {
+	font-family: "Unbounded";
+	src: url("fonts/Unbounded-ExtraLight.ttf");
+}
+@font-face {
+	font-family: "Lato";
+	src: url("fonts/Lato-Black.ttf");
+}
+@font-face {
+	font-family: "Montserrat";
+	src: url("fonts/Montserrat-Medium.ttf");
+}
+@font-face {
+	font-family: "Goldman";
+	src: url("fonts/Goldman-Regular.ttf");
+}
+@font-face {
+	font-family: "Abel";
+	src: url("fonts/Abel-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Aldrich";
+	src: url("fonts/Aldrich-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Roboto";
+	src: url("fonts/Roboto-MediumItalic.ttf");
+}
+@font-face {
+	font-family: "Khula";
+	src: url("fonts/Khula-Regular.ttf");
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+.container-warnung {
+	position: absolute;
+	width: 37vw;
+	height: 20vh;
+	left: 32vw;
+	top: 37vh;
+	border-radius: 0.4vw;
+	background-color: rgb(27, 27, 27);
+}
+.submitbuttonseedsf {
+	position: absolute;
+	left: 1vw;
+	bottom: 2vh;
+	width: 18vw;
+	height: 6vh;
+	z-index: 29;
+	padding: 0;
+	font-size: 1vw;
+	background-color: rgba(63, 63, 63, 0.287);
+	outline: none;
+	cursor: pointer;
+	border-radius: 0.2vw;
+	border: none;
+	color: #ffffff;
+	font-family: "Aldrich", cursive;
+	letter-spacing: 0.1vw;
+	transform: translate(-1deg);
+	z-index: 29;
+}
+.submitbuttonseedsf:hover {
+	color: #ffffff;
+	transition: 0.5s all;
+	background-color: rgba(198, 10, 164, 0.808);
+}
+.submitbuttonseeds {
+	position: absolute;
+	left: 19.5vw;
+	bottom: 2vh;
+	width: 16.5vw;
+	height: 6vh;
+	z-index: 29;
+	padding: 0;
+	font-size: 1vw;
+	background-color: rgba(63, 63, 63, 0.287);
+	outline: none;
+	cursor: pointer;
+	border-radius: 0.2vw;
+	border: none;
+	color: #ffffff;
+	font-family: "Aldrich", cursive;
+	letter-spacing: 0.1vw;
+	transform: translate(-1deg);
+	z-index: 29;
+}
+.submitbuttonseeds:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	background-color: rgba(198, 10, 164, 0.808);
+}
+.informationbild {
+	position: absolute;
+	width: 1.6vw;
+	top: 1.3vh;
+	left: 1.2vw;
+}
+.textinformation {
+	position: absolute;
+	color: #ffffff;
+	font-size: 1.3vw;
+	font-family: "Aldrich", cursive;
+	left: 3.5vw;
+	font-weight: 100;
+}
+.textdetailinformation {
+	position: absolute;
+	color: #ffffff;
+	font-size: 0.9vw;
+	font-family: "Aldrich", cursive;
+	left: 3.5vw;
+	width: 31vw;
+	top: 5vh;
+	font-weight: 100;
+}
+.logogta {
+	position: absolute;
+	width: 3.5vw;
+	left: 1vw;
+	top: 1.5vh;
+}
+.linielogo {
+	position: absolute;
+	width: 97%;
+	height: 0.2vh;
+	background-color: rgb(255, 255, 255);
+	left: 1vw;
+	top: 9vh;
+}
+.gradientlogo {
+	position: absolute;
+	top: 0vh;
+	width: 100%;
+	height: 15vh;
+	left: 0vw;
+	z-index: -1;
+	background: rgb(0, 0, 0);
+	background: linear-gradient(
+		180deg,
+		rgba(0, 0, 0, 0.702) 0%,
+		rgba(0, 212, 255, 0) 100%
+	);
+}
+.detailtextabout {
+	position: absolute;
+	color: #ffffff;
+	font-size: 1.2vw;
+	font-family: "Unbounded", cursive;
+	left: 5vw;
+	width: 31vw;
+	top: 2vh;
+	letter-spacing: 0.2vw;
+	font-weight: 1000;
+}
+.textüberischt {
+	position: absolute;
+	color: #ffffff;
+	font-size: 1.2vw;
+	font-family: "Unbounded", cursive;
+	left: 48vw;
+	width: 31vw;
+	top: 2vh;
+	letter-spacing: 0.2vw;
+	font-weight: 1000;
+}
+.loslegens {
+	position: absolute;
+	left: 1vw;
+	bottom: 2vh;
+	width: 20.5vw;
+	height: 6vh;
+	z-index: 29;
+	padding: 0;
+	font-size: 1vw;
+	background-color: rgba(63, 63, 63, 0.287);
+	outline: none;
+	cursor: pointer;
+	border-radius: 0.2vw;
+	border: none;
+	color: #ffffff;
+	font-family: "Aldrich", cursive;
+	letter-spacing: 0.1vw;
+	transform: translate(-1deg);
+	z-index: 29;
+}
+.loslegens:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	background-color: rgba(198, 10, 164, 0.808);
+}
+.container-info {
+	position: absolute;
+	width: 15vw;
+	height: 5vh;
+	border-radius: 0.2vw;
+	top: 26vh;
+	left: 1vw;
+	background-color: rgba(255, 255, 255, 0.578);
+}
+.jobgradetext {
+	position: absolute;
+	color: #000000;
+	font-size: 0.8vw;
+	font-family: "Unbounded", cursive;
+	left: 1vw;
+	width: 31vw;
+	top: 0.7vh;
+	letter-spacing: 0.2vw;
+	font-weight: 1000;
+}
+.textinformationve {
+	position: absolute;
+	color: #ffffff;
+	font-size: 1vw;
+	font-family: "Abel", cursive;
+	left: 1vw;
+	width: 21vw;
+	top: 11vh;
+	letter-spacing: 0.2vw;
+	font-weight: 1200;
+}
+.container-info2 {
+	position: absolute;
+	width: 20.5vw;
+	height: 10vh;
+	border-radius: 0.2vw;
+	top: 80vh;
+	left: 1vw;
+	background-color: rgba(255, 255, 255, 0.578);
+}
+.inputt {
+	position: absolute;
+	-webkit-appearance: none;
+	left: 2.1vw;
+	width: 16vw;
+	color: white;
+	font-family: "Bebas Neue", cursive;
+	height: 5.5vh;
+	text-align: center;
+	z-index: 29;
+	top: 2vh;
+	border-radius: 0.1vw;
+	font-size: 3vw;
+	border: none;
+	background-color: rgba(29, 29, 29, 0.185);
+	outline: none;
+}
+.inputt:hover {
+	background-color: rgba(20, 24, 36, 0.5);
+	transition: color 0.6 ease;
+}
+.inputt:focus::placeholder {
+	color: transparent;
+}
+.inputt::placeholder {
+	color: white;
+	transition: color 0.3s ease;
+}
+.textpeketmenge {
+	position: absolute;
+	color: #ffffff;
+	font-size: 1vw;
+	font-family: "Abel", cursive;
+	left: 1vw;
+	width: 21vw;
+	background-color: rgba(255, 0, 0, 0);
+	top: 84vh;
+	letter-spacing: 0.2vw;
+	font-weight: 1200;
+}
+.logoour {
+	position: absolute;
+	width: 5vw;
+	top: 0.6vh;
+	right: 0.7vw;
+}

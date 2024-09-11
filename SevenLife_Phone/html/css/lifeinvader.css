@@ -1,0 +1,496 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+.Lifeinvader {
+	position: absolute;
+	left: 0vw;
+	top: 0vh;
+	height: 81vh;
+	border-radius: 1vw;
+	width: 21.1vw;
+	z-index: 1;
+	background-color: rgb(27, 27, 27);
+}
+.leisteunten {
+	position: absolute;
+	height: 10vh;
+	width: 21vw;
+	background-color: rgb(43, 43, 43);
+	top: 67vh;
+}
+.submit-btnses {
+	position: relative;
+	top: 0vh;
+	left: 0vw;
+	height: 10vh;
+	border: none;
+	color: white;
+	outline: none;
+	background: #242424;
+	font-size: 1.2vw;
+	text-transform: uppercase;
+	letter-spacing: 0.1vw;
+	font-family: "Bebas Neue", cursive;
+	width: 6.8vw;
+	cursor: pointer;
+}
+.submit-btnses:hover {
+	background-color: rgb(73, 73, 73);
+}
+.obensleiste {
+	position: absolute;
+	background-color: rgb(34, 34, 34);
+	height: 9vh;
+	width: 21vw;
+}
+.logo {
+	position: absolute;
+	width: 2.3vw;
+	left: 1vw;
+	top: 4.4vh;
+}
+.logotext {
+	position: absolute;
+	display: flex;
+	align-items: center;
+	font-family: "Montserrat", sans-serif;
+	font-size: 1.8vw;
+	left: 3.7vw;
+	top: 4.5vh;
+	color: #fff;
+}
+.logoaccount {
+	position: absolute;
+	width: 2vw;
+	left: 18.5vw;
+	top: 4.6vh;
+	cursor: pointer;
+}
+.firstsseite {
+	position: absolute;
+	left: 0vw;
+	top: 9vh;
+	height: 59vh;
+	width: 21vw;
+	background-color: rgba(255, 0, 0, 0);
+}
+.firstseite {
+	position: absolute;
+	left: 0vw;
+	height: 52vh;
+	overflow-y: scroll;
+	width: 20.7vw;
+	top: 5vh;
+	background-color: rgba(0, 0, 0, 0);
+}
+.firstseite::-webkit-scrollbar {
+	width: 10px;
+	height: 15px;
+}
+
+.firstseite::-webkit-scrollbar-track {
+	border-radius: 10px;
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+.firstseite::-webkit-scrollbar-thumb {
+	background-color: #202020;
+	border-radius: 20px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.12) 0 3px 13px apps1px;
+}
+.werbungsfeedtext {
+	position: absolute;
+	color: rgb(155, 155, 155);
+	top: -2vh;
+	left: 1vw;
+	font-size: 1.5vw;
+	letter-spacing: 0.05vw;
+	font-family: "Poppins", sans-serif;
+}
+.lifeinvaderlogo {
+	position: absolute;
+	width: 5vw;
+	left: 7.6vw;
+	top: 6.3vh;
+}
+.erstelleeinenAccount {
+	position: absolute;
+	display: flex;
+	align-items: center;
+	font-family: "Montserrat", sans-serif;
+	font-size: 1.85vw;
+	left: 2.7vw;
+	top: 8vh;
+	color: #fff;
+}
+.inputtws {
+	border: none;
+	-webkit-appearance: none;
+	padding: 3px;
+	position: relative;
+	left: 2vw;
+	width: 17vw;
+	top: 30vh;
+	color: white;
+	font-family: "Bebas Neue", cursive;
+	height: 3.4vh;
+	text-align: center;
+	z-index: 29;
+	font-size: 1.7vw;
+	background-color: rgb(51, 51, 51);
+	outline: none;
+	border-radius: 0.6vw;
+}
+.inputtws:hover {
+	box-shadow: 3px 3px 3px black;
+	transition: color 0.6 ease;
+}
+.inputtws:focus::placeholder {
+	color: transparent;
+}
+.inputtws::placeholder {
+	color: white;
+	transition: color 0.3s ease;
+}
+.inputts {
+	border: none;
+	-webkit-appearance: none;
+	padding: 3px;
+	position: relative;
+	left: 2vw;
+	width: 17vw;
+	top: 32vh;
+	color: white;
+	font-family: "Bebas Neue", cursive;
+	height: 3.4vh;
+	text-align: center;
+	z-index: 29;
+	font-size: 1.7vw;
+	background-color: rgb(51, 51, 51);
+	outline: none;
+	border-radius: 0.6vw;
+}
+.inputts:hover {
+	box-shadow: 3px 3px 3px black;
+	transition: color 0.6 ease;
+}
+.inputts:focus::placeholder {
+	color: transparent;
+}
+.inputts::placeholder {
+	color: white;
+	transition: color 0.3s ease;
+}
+.inputtwse {
+	border: none;
+	-webkit-appearance: none;
+	padding: 3px;
+	position: relative;
+	left: 2vw;
+	width: 17vw;
+	top: 28vh;
+	color: white;
+	font-family: "Bebas Neue", cursive;
+	height: 3.4vh;
+	text-align: center;
+	z-index: 29;
+	font-size: 1.7vw;
+	background-color: rgb(51, 51, 51);
+	outline: none;
+	border-radius: 0.6vw;
+}
+.inputtwse:hover {
+	box-shadow: 3px 3px 3px black;
+	transition: color 0.6 ease;
+}
+.inputtwse:focus::placeholder {
+	color: transparent;
+}
+.inputtwse::placeholder {
+	color: white;
+	transition: color 0.3s ease;
+}
+.profilbild {
+	position: absolute;
+	width: 5.5vw;
+	top: 16vh;
+	cursor: pointer;
+	left: 7.8vw;
+}
+.profilbild:hover {
+	filter: brightness(20%);
+}
+.backs {
+	position: absolute;
+	left: 18.6vw;
+	top: 4.6vh;
+	cursor: pointer;
+	width: 2vw;
+}
+.submitbuttonseesesess {
+	position: absolute;
+	left: 1.2vw;
+	top: 48vh;
+	width: 19vw;
+	height: 5vh;
+	z-index: 29;
+	display: inline-block;
+	font-size: 1.3vw;
+	background-color: rgb(66, 66, 66);
+	outline: none;
+	cursor: pointer;
+	border-radius: 0.6vw;
+	color: #ffffff;
+	border: none;
+	border-radius: 5px;
+	outline: none;
+	z-index: 29;
+}
+.submitbuttonseesesess:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	background-color: rgba(87, 87, 87, 0.808);
+}
+
+.calloutuntenses {
+	position: absolute;
+	width: 15vw;
+	top: 78.5vh;
+	left: 3.5vw;
+	border-radius: 20vw;
+	height: 1vh;
+	z-index: 2;
+	cursor: pointer;
+	background-color: rgb(206, 206, 206);
+}
+.calloutuntenses:hover {
+	animation: untenline-nachoben;
+	animation-duration: 1.5s;
+}
+.calloutuntensess {
+	position: absolute;
+	width: 15vw;
+	top: 78.5vh;
+	left: 3.5vw;
+	border-radius: 20vw;
+	height: 1vh;
+	z-index: 2;
+	cursor: pointer;
+	background-color: rgb(206, 206, 206);
+}
+.calloutuntensess:hover {
+	animation: untenline-nachoben;
+	animation-duration: 1.5s;
+}
+.liveinvadertop {
+	position: absolute;
+	left: 0vw;
+	height: 52vh;
+	overflow-y: scroll;
+	width: 20.7vw;
+	top: 5vh;
+	background-color: rgba(0, 0, 0, 0);
+}
+.top-liveinvader {
+	position: absolute;
+	left: 0vw;
+	top: 9vh;
+	height: 59vh;
+	width: 21vw;
+	background-color: rgba(255, 0, 0, 0);
+}
+.liveinvadertop::-webkit-scrollbar {
+	width: 10px;
+	height: 15px;
+}
+
+.liveinvadertop::-webkit-scrollbar-track {
+	border-radius: 10px;
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+.liveinvadertop::-webkit-scrollbar-thumb {
+	background-color: #202020;
+	border-radius: 20px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.12) 0 3px 13px apps1px;
+}
+.werbungschalten {
+	position: absolute;
+	left: 0vw;
+	height: 56vh;
+	width: 20.7vw;
+	top: 10vh;
+	background-color: rgba(255, 0, 0, 0);
+}
+.normalewerbung {
+	position: relative;
+	height: 16vh;
+	width: 18.5vw;
+	top: 0vh;
+	left: 1vw;
+	background-color: rgb(59, 59, 59);
+	margin-top: 1vh;
+	border-radius: 1vw;
+}
+.titelwerbung {
+	position: absolute;
+	color: white;
+	top: -2vh;
+	left: 0.7vw;
+	font-size: 1.7vw;
+	letter-spacing: 0.05vw;
+	width: 17.4vw;
+	background-color: rgba(255, 0, 0, 0);
+	overflow: hidden;
+	font-family: "Poppins", sans-serif;
+}
+.nachrichtwerbung {
+	position: absolute;
+	color: white;
+	top: 4vh;
+	left: 0.8vw;
+	width: 17.4vw;
+	height: 9.2vh;
+	background-color: rgba(255, 0, 0, 0);
+	font-size: 1.1vw;
+	letter-spacing: 0.05vw;
+	overflow: hidden;
+	font-family: "Poppins", sans-serif;
+}
+.nachrichtensender {
+	position: absolute;
+	color: white;
+	top: 11.5vh;
+	left: 0.8vw;
+	width: 17.4vw;
+	height: 9.2vh;
+	background-color: rgba(255, 0, 0, 0);
+	font-size: 1vw;
+	letter-spacing: 0.05vw;
+	overflow: hidden;
+	font-family: "Poppins", sans-serif;
+}
+.inputtwasdse {
+	border: none;
+	-webkit-appearance: none;
+	padding: 3px;
+	position: relative;
+	left: 1vw;
+	width: 19vw;
+	top: 14vh;
+	color: rgba(255, 255, 255, 0.397);
+	font-family: "Bebas Neue", cursive;
+	height: 22vh;
+	resize: none;
+	z-index: 29;
+	font-size: 1.7vw;
+	background-color: rgb(51, 51, 51);
+	outline: none;
+	border-radius: 0.6vw;
+}
+.inputtwasdse:hover {
+	box-shadow: 3px 3px 3px black;
+	transition: color 0.6 ease;
+}
+.inputtwasdse:focus::placeholder {
+	color: transparent;
+}
+.inputtwasdse::placeholder {
+	color: white;
+	transition: color 0.3s ease;
+}
+.inputtwasdsee {
+	border: none;
+	-webkit-appearance: none;
+	padding: 3px;
+	position: absolute;
+	left: 1vw;
+	width: 19vw;
+	top: 5.5vh;
+	color: rgba(255, 255, 255, 0.397);
+	font-family: "Bebas Neue", cursive;
+	height: 6vh;
+	resize: none;
+	z-index: 29;
+	font-size: 1.7vw;
+	background-color: rgb(51, 51, 51);
+	outline: none;
+	border-radius: 0.6vw;
+}
+.inputtwasdsee:hover {
+	box-shadow: 3px 3px 3px black;
+	transition: color 0.6 ease;
+}
+.inputtwasdsee:focus::placeholder {
+	color: transparent;
+}
+.inputtwasdsee::placeholder {
+	color: white;
+	transition: color 0.3s ease;
+}
+.buttons-container {
+	position: absolute;
+	left: 0vw;
+	height: 11vh;
+	width: 21.1vw;
+	top: 38vh;
+	border-radius: 0.5vw;
+	border: 1px solid rgb(70, 0, 41);
+	overflow: hidden;
+	background-color: rgba(15, 15, 15, 0.356);
+}
+.buttonses {
+	position: absolute;
+	width: 11.5vw;
+	height: 11vh;
+	cursor: pointer;
+	display: inline-table;
+	transition: 2s;
+	background-color: rgba(15, 15, 15, 0.356);
+}
+.buttonse {
+	position: absolute;
+	width: 11.5vw;
+	height: 11vh;
+	cursor: pointer;
+	left: 11.51vw;
+	transition: 2s;
+	display: inline-table;
+	background-color: rgba(15, 15, 15, 0.356);
+}
+
+.names {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	font-size: 1.7vw;
+	letter-spacing: 0.1vw;
+	left: 1.5vw;
+	top: 1.6vh;
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+}
+.submitbuttonseesesesse {
+	position: absolute;
+	left: 1.2vw;
+	top: 50.5vh;
+	width: 19vw;
+	height: 5vh;
+	z-index: 29;
+	display: inline-block;
+	font-size: 1.3vw;
+	background-color: rgb(66, 66, 66);
+	outline: none;
+	cursor: pointer;
+	border-radius: 0.6vw;
+	color: #ffffff;
+	border: none;
+	border-radius: 5px;
+	outline: none;
+	z-index: 29;
+}
+.submitbuttonseesesesse:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	background-color: rgba(87, 87, 87, 0.808);
+}

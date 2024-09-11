@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+		<link rel="stylesheet" href="index.css" />
+	</head>
+	<body>
+		<div class="container-shop">
+			<div class="left"></div>
+			<div class="right"></div>
+			<div class="left-line"></div>
+			<h1 class="textwaschanlage">Baumarkt</h1>
+			<div class="container-left">
+				<div class="container-item" id="item1">
+					<h1 class="informationname">Spaten</h1>
+					<div class="obenrechtsitem">
+						<h1 class="preis">50.00 $</h1>
+					</div>
+					<img src="src/spaten.png" class="img-item" alt="" />
+					<div class="obenrechtsuntenitem">
+						<h1 class="kg">1.0KG</h1>
+						<h1 class="munition">K. Munition</h1>
+					</div>
+				</div>
+				<div class="container-item" id="item2">
+					<h1 class="informationname">Spitzhacke</h1>
+					<div class="obenrechtsitem">
+						<h1 class="preis">100.00 $</h1>
+					</div>
+					<img
+						src="src/pickaxe.png"
+						class="img-item"
+						id="img-itemdiv"
+						alt=""
+					/>
+					<div class="obenrechtsuntenitem">
+						<h1 class="kg">1.0KG</h1>
+						<h1 class="munition">K. Munition</h1>
+					</div>
+				</div>
+				<div class="container-item" id="item3">
+					<h1 class="informationname">Behälter</h1>
+					<div class="obenrechtsitem">
+						<h1 class="preis">100.00 $</h1>
+					</div>
+					<img
+						src="src/behealter.png"
+						class="img-item"
+						id="img-item2"
+						alt=""
+					/>
+					<div class="obenrechtsuntenitem">
+						<h1 class="kg">1.0KG</h1>
+						<h1 class="munition">K. Munition</h1>
+					</div>
+				</div>
+			</div>
+			<div class="container-detail"></div>
+			<div class="preis-lineie"></div>
+			<div class="preis-lineie2"></div>
+
+			<div class="preis-lineie4"></div>
+			<div class="container-money"></div>
+
+			<h1 class="esctext">Drücke ESC um zu verlassen</h1>
+		</div>
+		<div class="Karrote-Farming">
+			<img class="Bleatterbild" src="src/bleater.png" alt="" />
+			<img class="Basket" src="src/basket.png" alt="" />
+			<div class="left1"></div>
+			<h1 class="MainText">Sammel Karotten</h1>
+			<h2 class="smalltext">
+				Ziehen sie die Karotten aus der Erde um sie zu sammeln
+			</h2>
+			<div class="right1"></div>
+			<div class="container-droppebel"></div>
+			<div class="container-farming">
+				<img
+					src="src/karotten.png"
+					class="karotte"
+					id="karotte1"
+					name="karotte1"
+					alt=""
+				/>
+				<img
+					src="src/karotten.png"
+					class="karotte"
+					id="karotte2"
+					name="karotte2"
+					alt=""
+				/>
+				<img
+					src="src/karotten.png"
+					class="karotte"
+					id="karotte3"
+					name="karotte3"
+					alt=""
+				/>
+
+				<img src="src/Boden.png" class="boden" alt="" />
+			</div>
+			<img
+				src="src/karotten.png"
+				class="karotte1"
+				id="karotte4"
+				name="karotte4"
+				alt=""
+			/><img
+				src="src/karotten.png"
+				class="karotte1"
+				id="karotte5"
+				name="karotte5"
+				alt=""
+			/>
+		</div>
+		<div class="KastenLoadingVerarbeiter">
+			<h1 class="info-text">FARMEN</h1>
+			<div class="bar-out">
+				<div class="bar-in" id="bar-in"></div>
+			</div>
+		</div>
+		<div class="KastenLoadingVerarbeiter2">
+			<h1 class="info-text">VERARBEITEN</h1>
+			<div class="bar-out2">
+				<div class="bar-in2" id="bar-in2"></div>
+			</div>
+		</div>
+		<div class="verarbeiter-container">
+			<div class="lefts"></div>
+			<div class="rights"></div>
+			<div class="mittelcontainer">
+				<div class="leftse">
+					<div class="container-auswahl karotten" id="karotten">
+						<h1 class="nameses">Karotten Saft</h1>
+						<span class="Zeit"> Zeit: 30 Sec. </span>
+						<p class="fail">Fail Rate: 0%</p>
+					</div>
+					<div class="container-auswahl kartoffel" id="kartoffel">
+						<h1 class="nameses">Kartoffelsalat</h1>
+						<span class="Zeit"> Zeit: 40 Sec. </span>
+						<p class="fail">Fail Rate: 10%</p>
+					</div>
+
+					<div class="container-auswahl leder" id="leder">
+						<h1 class="nameses">Leder</h1>
+						<span class="Zeit"> Zeit: 50 Sec. </span>
+						<p class="fail">Fail Rate: 10%</p>
+					</div>
+				</div>
+				<div class="rechtsses">
+					<div class="hauptmenu">
+						<div class="obenleiste">
+							<h1 class="nameverarbeiter">Billies Verarbeiter</h1>
+						</div>
+						<img
+							src="src/Hillbillies-1.png"
+							class="billie"
+							alt=""
+						/>
+						<span class="spannotify">
+							Du willst deine gefarmten Sachen verarbeiten, damit
+							du diese gegen Geld eintauschen kannst?
+						</span>
+						<p2 class="spannotify1">
+							Dann bist du bei Billi's Verarbeiter Stube ganz
+							richtig.
+						</p2>
+					</div>
+					<div class="karottenmenu">
+						<div class="obenleiste">
+							<h1 class="nameverarbeiter maney">
+								Karotten Saft Herstellen
+							</h1>
+						</div>
+						<div class="mittelegende">
+							<div class="listemitte">
+								<h1 class="listeanressourcen">Ressourcen:</h1>
+								<img
+									src="src/gleaschen.png"
+									class="gleaschens"
+									alt=""
+								/>
+								<img
+									src="src/karotte.png"
+									class="karottenss"
+									alt=""
+								/>
+								<h2 class="glasinfos">= 1x</h2>
+								<h2 class="glasinf2s">= 30x</h2>
+							</div>
+							<div class="button1 karottense">
+								<button
+									class="btn btn2"
+									id="karottenverarbeiten"
+								>
+									Verarbeiten Starten
+								</button>
+							</div>
+						</div>
+						<div class="rightlegende">
+							<div class="container-bild">
+								<img src="src/glass.png" class="glas" alt="" />
+							</div>
+							<div class="box-legende">
+								<h1 class="legende">Legende:</h1>
+								<img
+									src="src/gleaschen.png"
+									class="gleaschen"
+									alt=""
+								/>
+								<img
+									src="img/karotte.png"
+									class="karottens"
+									alt=""
+								/>
+								<h2 class="glasinfo">1x Glas</h2>
+								<h2 class="glasinf2">1x Karotte</h2>
+							</div>
+						</div>
+					</div>
+					<div class="kartoffelmenu">
+						<div class="obenleiste">
+							<h1 class="nameverarbeiter maney">
+								Kartoffelsalat Herstellen
+							</h1>
+						</div>
+						<div class="mittelegende">
+							<div class="listemitte">
+								<h1 class="listeanressourcen">Ressourcen:</h1>
+								<img
+									src="src/gleaschen.png"
+									class="gleaschens"
+									alt=""
+								/>
+								<img
+									src="src/potato.png"
+									class="karottenss"
+									alt=""
+								/>
+								<h2 class="glasinfos">= 1x</h2>
+								<h2 class="glasinf2s">= 20x</h2>
+							</div>
+							<div class="button1">
+								<button
+									class="btn btn2 kartoffelss"
+									id="kartoffelverarbeiten"
+								>
+									Verarbeiten Starten
+								</button>
+							</div>
+						</div>
+						<div class="rightlegende">
+							<div class="container-bild">
+								<img src="src/salat.png" class="glas" alt="" />
+							</div>
+							<div class="box-legende">
+								<h1 class="legende">Legende:</h1>
+								<img
+									src="src/gleaschen.png"
+									class="gleaschen"
+									alt=""
+								/>
+								<img
+									src="src/potato.png"
+									class="karottens"
+									alt=""
+								/>
+								<h2 class="glasinfo">1x Glas</h2>
+								<h2 class="glasinf2">1x Kartoffel</h2>
+							</div>
+						</div>
+					</div>
+					<div class="kürbismenu">
+						<div class="obenleiste">
+							<h1 class="nameverarbeiter maney">
+								Kürbiskuchen Herstellen
+							</h1>
+						</div>
+						<div class="mittelegende">
+							<div class="listemitte">
+								<h1 class="listeanressourcen">Ressourcen:</h1>
+								<img
+									src="src/gleaschen.png"
+									class="gleaschens"
+									alt=""
+								/>
+								<img
+									src="src/closeing.png"
+									class="karottenss"
+									alt=""
+								/>
+								<h2 class="glasinfos">= 1x</h2>
+								<h2 class="glasinf2s">= 30x</h2>
+							</div>
+							<div class="button1">
+								<button class="btn btn2" id="kürbisverarbeiten">
+									Verarbeiten Starten
+								</button>
+							</div>
+						</div>
+						<div class="rightlegende">
+							<div class="container-bild">
+								<img
+									src="src/closeing.png"
+									class="glas"
+									alt=""
+								/>
+							</div>
+							<div class="box-legende">
+								<h1 class="legende">Legende:</h1>
+								<img
+									src="src/gleaschen.png"
+									class="gleaschen"
+									alt=""
+								/>
+								<img
+									src="src/closeing.png"
+									class="karottens"
+									alt=""
+								/>
+								<h2 class="glasinfo">1x Glas</h2>
+								<h2 class="glasinf2">1x Kürbis</h2>
+							</div>
+						</div>
+					</div>
+					<div class="ledermenu">
+						<div class="obenleiste">
+							<h1 class="nameverarbeiter maney">
+								Leder Herstellen
+							</h1>
+						</div>
+						<div class="mittelegende">
+							<div class="listemitte">
+								<h1 class="listeanressourcen">Ressourcen:</h1>
+								<img
+									src="src/leatherschlecht.png"
+									class="gleaschens2"
+									alt=""
+								/>
+								<img
+									src="src/leatherschlecht.png"
+									class="karottenss"
+									alt=""
+								/>
+								<h2 class="glasinfos">= 20x</h2>
+								<h2 class="glasinf2s">= 20x</h2>
+							</div>
+							<div class="button1">
+								<button class="btn btn2" id="leders">
+									Verarbeiten Starten
+								</button>
+							</div>
+						</div>
+						<div class="rightlegende">
+							<div class="container-bild">
+								<img
+									src="src/leatherschlecht.png"
+									class="glas"
+									alt=""
+								/>
+							</div>
+							<div class="box-legende">
+								<h1 class="legende">Legende:</h1>
+								<img
+									src="src/leatherschlecht.png"
+									class="karottens2"
+									alt=""
+								/>
+								<img
+									src="src/leatherschlecht.png"
+									class="karottens"
+									alt=""
+								/>
+								<h2 class="glasinfo">1x S.B.Leder</h2>
+								<h2 class="glasinf2">1x B.Leder</h2>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="KastenLoadingVerarbeiter3">
+			<h1 class="info-text">FARMEN</h1>
+			<div class="bar-out3">
+				<div class="bar-in3" id="bar-in3"></div>
+			</div>
+		</div>
+		<div class="orangenverarbeiter">
+			<div class="left"></div>
+			<div class="right"></div>
+			<img src="src/sand.png" class="untenlinksorange" alt="" />
+
+			<img src="src/sand.png" class="untenrechtssorange" alt="" />
+			<img src="src/bleater.png" class="Orangenorange" alt="" />
+			<h1 class="orangeverpackungmaintext">Sand Verarbeitungs</h1>
+			<h2 class="anlagentxt">- Anlage</h2>
+			<h2 class="slogentxt">Verarbeite deine Güter schnell und leicht</h2>
+			<div class="strichtxt"></div>
+			<div class="container-info">
+				<h1 class="orangenverarbeitentxt">Sand Verarbeiten</h1>
+				<h1 class="infotext">
+					Hier kannst du deine gesamelten Sand schnell und einfach
+					Verarbeiten um Glas herzustellen
+				</h1>
+				<div class="container-infos">
+					<h1 class="textinnen">Dauer: 30Sec</h1>
+				</div>
+				<div class="container-infos-man">
+					<h1 class="textinnen">Du Verbrauchst: 6 Sand</h1>
+				</div>
+				<div class="container-infos-man2">
+					<h1 class="textinnen">Du bekommst: 1. Glas</h1>
+				</div>
+
+				<button class="button-down">Verarbeiten (Starten)</button>
+			</div>
+		</div>
+		<div class="KastenLoadingVerarbeiter4">
+			<h1 class="info-text">VERARBEITEN</h1>
+			<div class="bar-out4">
+				<div class="bar-in4" id="bar-in4"></div>
+			</div>
+		</div>
+		<div class="Kartoffel-Farming">
+			<img class="Bleatterbild" src="src/bleater.png" alt="" />
+			<img class="Basket" src="src/basket.png" alt="" />
+			<div class="left1"></div>
+			<h1 class="MainText">Sammel Kartoffeln</h1>
+			<h2 class="smalltext">
+				Ziehen sie die Kartoffeln aus der Erde um sie zu sammeln
+			</h2>
+			<div class="right1"></div>
+			<div class="container-droppebel2"></div>
+			<div class="container-farming">
+				<img
+					src="src/kartoffel.png"
+					class="kartoffel"
+					id="kartoffel1"
+					name="kartoffel1"
+					alt=""
+				/>
+				<img
+					src="src/kartoffel.png"
+					class="kartoffel"
+					id="kartoffel2"
+					name="kartoffel2"
+					alt=""
+				/>
+				<img
+					src="src/kartoffel.png"
+					class="kartoffel"
+					id="kartoffel3"
+					name="kartoffel3"
+					alt=""
+				/>
+
+				<img src="src/Boden.png" class="boden" alt="" />
+			</div>
+			<img
+				src="src/kartoffel.png"
+				class="kartoffel1"
+				id="kartoffel4"
+				name="kartoffel4"
+				alt=""
+			/><img
+				src="src/kartoffel.png"
+				class="kartoffel1"
+				id="kartoffel5"
+				name="kartoffel5"
+				alt=""
+			/>
+		</div>
+	</body>
+	<script src="index.js"></script>
+</html>

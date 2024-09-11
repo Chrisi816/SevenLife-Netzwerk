@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="normalbank">
+      <div class="bankcard">
+         <img src="src/circle.png" class="circle" alt="">
+         <img src="src/circle.png" class="circle1" alt="">
+         <h1 class="name" id="name">Christian Espasito</h1>
+         <img src="src/debit.png" class="debit" alt="">
+         <img src="src/wifi.png" class="wifi" alt="">
+         <img src="src/bankAmerica.png" class="banklogo" alt="">
+      </div>
+      <div class="unterbankcard">
+         <h1 class="guthabentext">Ihr Guthaben</h1>
+         <img src="src/creditcard.png" class="creditcard" alt="">
+          <h1 class="sevencardtext">SevenCard</h1>
+          <h1 class="guthaben" id="guthaben">100000$</h1>
+           <div class="untenlinie">
+
+          </div>
+          <div class="kreis">
+             <h1 class="head">#</h1cla>
+          </div>
+          <h1 class="iban-text">Iban:</h1>
+          <h1 class="iban-nummer" id="iban-nummer">1111-1111</h1>
+          <div class="untenlinie1">
+
+          </div>
+          <div class="kreis1">
+            <h1 class="head1">?</h1cla>
+           </div>
+           <h1 class="zahlart-text">Zahlungsart:</h1>
+          <h1 class="zahlart-nummer">Debit</h1>
+        </div>
+        <div class="rechts">
+           <div class="oben">
+            <h1 class="bankautomattext">Bankautomat</h1>
+            <img src="src/bankAmerica.png" class="banklogo1" alt="">
+           </div>
+           <div class="links">
+              <div class="apteil-container">
+                 <div id="apteil" class="einzahlen">
+                    <div class="leftapteil">
+                        <h1 class="textapteil"> 
+                            Geld Einzahlen
+                        </h1>
+                    </div>
+                 </div>
+                 <div id="apteil" class="auszahlen">
+                    <div class="leftapteil">
+                        <h1 class="textapteil"> 
+                            Geld Auszahlen
+                        </h1>
+                    </div>
+                 </div>
+                 <div id="apteil" class="überweisungen">
+                    <div class="leftapteil">
+                        <h1 class="textapteil"> 
+                            Überweisungen
+                        </h1>
+                    </div>
+                    </div>
+                 </div>
+              </div>
+           </div>
+           <div class="rechts-einstellungen">
+                <div class="einzahlen-card">
+                    <h1 class="Geldeinzahlentext">
+                        Geld - Einzahlen
+                    </h1>
+                    <div class="input-field">
+                       <h1 class="geld-texteingeben">
+                        Geben sie ihren Betrag ein
+                       </h1>
+                       <img src="src/wallet.png" class="wallet" alt="">
+                       <input class="inputt" id="einzahlengeldinputt" placeholder="0$">
+                       <img src="src/circle.png" class="circle2" alt="">
+                       <img src="src/circle.png" class="circle3" alt="">
+                    </div>
+                    <h1 class="textsteuern" id="textsteuern">Transaktions Gebühren: 15%</h1>
+                    <img src="src/Info.png" class="infos" alt="">
+                    <h1 class="textinfo">Möglicherweise Sync der Geldes Fehlgeschlagen</h1>
+                    <button type="button" class="einzahlenbutton" id="submitbutton">Bestätigen</button>
+                </div>
+                <div class="auszahlen-card">
+                    <h1 class="Geldeinzahlentext">
+                        Geld - Auszahlen
+                    </h1>
+                    <div class="input-field">
+                       <h1 class="geld-texteingeben">
+                        Geben sie ihren Betrag ein
+                       </h1>
+                       <img src="src/wallet.png" class="wallet" alt="">
+                       <input class="inputt"  id="auszahlinputt" placeholder="0$">
+                       <img src="src/circle.png" class="circle2" alt="">
+                       <img src="src/circle.png" class="circle3" alt="">
+                    </div>
+                    <h1 class="textsteuern" id="textsteuern">Transaktions Gebühren: 15%</h1>
+                    <img src="src/Info.png" class="infos" alt="">
+                    <h1 class="textinfo">Möglicherweise Sync der Geldes Fehlgeschlagen</h1>
+                    <button type="button" class="auszahlbutton" id="submitbutton">Bestätigen</button>
+                </div>
+                <div class="überweisen-card">
+                    <h1 class="Geldeinzahlentext">
+                        Geld - Überweisen
+                    </h1>
+                    <div class="rechteck">
+                        <h1 class="rechtecktext">Um geld zu überweisen brauchst du die Iban der Person welcher du Geld zusenden willst. Beachte dabei das 5% an Transaktions - gebühren anfallen.</h1>
+                    </div>
+                    <input class="inputtee" id="inputtese"  placeholder="Iban">
+                    <input class="inputteeseses" id="inputteeseses"  placeholder="0$">
+                    <button type="button" id="submitbutton" class="submitbuttonsees">Accept</button>
+                    <div class="rechteck" id="zweiterrechteck">
+                        <h1 class="rechtecktext" id="zweitertext">Sobald sie auf den Button unten drückst, wird das Überweisen unumkehrbar gemacht.</h1>
+                    </div>
+                </div>
+           </div>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>

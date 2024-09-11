@@ -1,0 +1,501 @@
+@font-face {
+	font-family: "Lato";
+	src: url("text/Lato-Black.ttf");
+}
+@font-face {
+	font-family: "Goldman";
+	src: url("text/Goldman-Regular.ttf");
+}
+@font-face {
+	font-family: "Abel";
+	src: url("text/Abel-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Aldrich";
+	src: url("text/Aldrich-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Roboto";
+	src: url("text/Roboto-MediumItalic.ttf");
+}
+@font-face {
+	font-family: "Khula";
+	src: url("text/Khula-Regular.ttf");
+}
+body {
+	overflow: hidden;
+}
+.leftshop {
+	position: absolute;
+	width: 85vw;
+	height: 100%;
+	background: linear-gradient(
+		to right,
+		rgba(114, 0, 89),
+		rgba(0, 0, 255, 0) 95.71%
+	);
+}
+.rightshop {
+	position: absolute;
+	width: 85vw;
+	height: 100%;
+	right: 0vw;
+	background: linear-gradient(
+		to left,
+		rgba(114, 0, 89),
+		rgba(0, 0, 255, 0) 95.71%
+	);
+}
+.text-shop {
+	position: absolute;
+	color: rgba(137, 137, 137, 0.408);
+	left: -15.5vw;
+	top: 41vh;
+	letter-spacing: 0.1vw;
+	font-size: 4.5vw;
+	transform: rotate(270deg);
+	font-family: "Goldman", cursive;
+}
+.container-rechnungdetails {
+	position: absolute;
+	height: 85vh;
+	width: 20vw;
+	background-color: rgba(43, 43, 43, 0.521);
+	top: 10vh;
+	left: 8vw;
+	border-radius: 0.2vw;
+}
+.line-unter3 {
+	position: absolute;
+	width: 89.3vw;
+	height: 0.2vh;
+	top: 6.8vh;
+	left: 8vw;
+	border-top-right-radius: 1vw;
+	border-bottom-right-radius: 1vw;
+	background-color: rgb(185, 32, 86);
+}
+.text-impounder3 {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 8vw;
+	top: -0.3vh;
+	letter-spacing: 0.1vw;
+	font-size: 2vw;
+
+	font-family: "Lato";
+}
+.Button-Buy-Shop {
+	position: absolute;
+	height: 5vh;
+	width: 18vw;
+	font-family: "Goldman", cursive;
+	font-size: 1.3vw;
+	left: -1vw;
+	top: 78vh;
+	margin-left: 2vw;
+	border: none;
+	outline: none;
+	z-index: 1;
+	color: white;
+	cursor: pointer;
+	background-color: rgb(164, 0, 167);
+	border-radius: 0.2vw;
+}
+
+.Button-Buy-Shop:hover {
+	transition: 1s all;
+	background-color: rgb(110, 0, 112);
+}
+.container-rechnungsdetails {
+	position: absolute;
+	width: 100%;
+	height: 13vh;
+	background-color: rgba(63, 63, 63, 0.421);
+	top: 60vh;
+}
+.line-unter4 {
+	position: absolute;
+	width: 20vw;
+	height: 0.2vh;
+	top: 76vh;
+	left: 0vw;
+	border-top-right-radius: 1vw;
+	border-bottom-right-radius: 1vw;
+	background-color: rgb(185, 32, 86);
+}
+.idkaufdetails {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 1vw;
+	top: -0.3vh;
+	width: 20vw;
+	background-color: rgba(255, 0, 0, 0);
+	letter-spacing: 0.1vw;
+	font-size: 1.5vw;
+	font-family: "Lato", cursive;
+}
+.line-unter5 {
+	position: absolute;
+	width: 20vw;
+	height: 0.2vh;
+	top: 6vh;
+	left: 0vw;
+	border-top-right-radius: 1vw;
+	border-bottom-right-radius: 1vw;
+	background-color: rgb(185, 32, 86);
+}
+.container-rechnungsdetails2 {
+	position: absolute;
+	width: 16vw;
+	height: 11vh;
+	border-radius: 1vw;
+	background-color: rgba(0, 0, 0, 0.234);
+	top: 61vh;
+	left: 2vw;
+}
+.idkaufdetails2 {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 1vw;
+	top: 51.5vh;
+	width: 20vw;
+	background-color: rgba(255, 0, 0, 0);
+	letter-spacing: 0.1vw;
+	font-size: 1.3vw;
+	font-family: "Lato", cursive;
+}
+.line-unter6 {
+	position: absolute;
+	width: 20vw;
+	height: 0.2vh;
+	top: 57vh;
+	left: 0vw;
+	border-top-right-radius: 1vw;
+	border-bottom-right-radius: 1vw;
+	background-color: rgb(185, 32, 86);
+}
+.warenkorb-shop {
+	position: absolute;
+	width: 18vw;
+	z-index: 1;
+	height: 41vh;
+	overflow-y: scroll;
+	background-color: rgba(255, 0, 0, 0);
+	left: 1vw;
+	top: 11vh;
+}
+.warenkorb-shop::-webkit-scrollbar {
+	width: 0.6vw;
+}
+
+.warenkorb-shop::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background-color: rgba(255, 255, 255, 0.294);
+}
+
+.warenkorb-shop::-webkit-scrollbar-thumb {
+	background-color: #202020;
+	border-radius: 2vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.185) 0 3px 13px 1px;
+}
+.idkaufdetails3 {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 1vw;
+	top: 5.5vh;
+	width: 20vw;
+	background-color: rgba(255, 0, 0, 0);
+	letter-spacing: 0.1vw;
+	font-size: 1.3vw;
+	font-family: "Lato", cursive;
+}
+.steuern {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 1vw;
+	top: 0.3vh;
+
+	background-color: rgba(255, 0, 0, 0);
+	letter-spacing: 0.1vw;
+	font-size: 1.3vw;
+	font-family: "Lato", cursive;
+}
+.preis {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 1vw;
+	top: 4.8vh;
+
+	background-color: rgba(255, 0, 0, 0);
+	letter-spacing: 0.1vw;
+	font-size: 1.3vw;
+	font-family: "Lato", cursive;
+}
+.line-unter7 {
+	position: absolute;
+	width: 14vw;
+	height: 0.2vh;
+	top: 5.5vh;
+	left: 1vw;
+	border-top-right-radius: 1vw;
+	border-bottom-right-radius: 1vw;
+	background-color: rgb(185, 32, 86);
+}
+.steuern-nummer {
+	position: absolute;
+	color: rgb(139, 0, 0);
+	left: 8vw;
+	top: 0.3vh;
+
+	width: 7vw;
+	text-align: right;
+	background-color: rgba(255, 0, 0, 0);
+
+	letter-spacing: 0.1vw;
+	font-size: 1.3vw;
+	font-family: "Lato", cursive;
+}
+.preis-nummer {
+	position: absolute;
+	color: rgb(8, 232, 0);
+	left: 8vw;
+	top: 4.8vh;
+	width: 7vw;
+	text-align: right;
+	background-color: rgba(255, 0, 0, 0);
+	letter-spacing: 0.1vw;
+	font-size: 1.3vw;
+	font-family: "Lato", cursive;
+}
+.container-right-line {
+	position: absolute;
+	width: 40vw;
+	height: 40vh;
+	background-color: rgba(255, 0, 0, 0);
+	left: 57vw;
+	top: 52.7vh;
+	border-bottom: 0.3vh solid white;
+	border-right: 0.3vh solid white;
+}
+.insert-container-shop {
+	position: absolute;
+	width: 67.6vw;
+	z-index: 1;
+	height: 81.5vh;
+	overflow-y: scroll;
+	background-color: rgba(255, 0, 0, 0);
+	left: 29vw;
+	top: 10vh;
+}
+.insert-container-shop::-webkit-scrollbar {
+	width: 0.6vw;
+}
+
+.insert-container-shop::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background-color: rgba(255, 255, 255, 0.294);
+}
+
+.insert-container-shop::-webkit-scrollbar-thumb {
+	background-color: #202020;
+	border-radius: 2vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.185) 0 3px 13px 1px;
+}
+.container-container-warnekorb {
+	position: relative;
+	margin-top: 1vh;
+	background-color: rgba(27, 27, 27, 0.477);
+	border-radius: 0.2vw;
+	width: 97%;
+	top: -1vh;
+	height: 8vh;
+}
+.img-warenkorb {
+	position: absolute;
+	width: 3vw;
+	top: 1.3vh;
+	left: 0.5vw;
+}
+.line-unter8 {
+	position: absolute;
+	width: 12vw;
+	height: 0.2vh;
+	top: 4vh;
+	left: 4vw;
+	border-top-right-radius: 1vw;
+	border-bottom-right-radius: 1vw;
+	background-color: rgb(185, 32, 86);
+}
+.name-warenkorb {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 4vw;
+	top: -0.8vh;
+	background-color: rgba(255, 0, 0, 0);
+	width: 12vw;
+	letter-spacing: 0.1vw;
+	font-size: 1.3vw;
+	font-family: "Lato", cursive;
+}
+.name-preis {
+	position: absolute;
+	color: rgb(8, 232, 0);
+	left: 4vw;
+	top: 2.8vh;
+	background-color: rgba(106, 255, 0, 0);
+	width: 12vw;
+	letter-spacing: 0.1vw;
+	font-size: 1.3vw;
+	font-family: "Lato", cursive;
+}
+.name-anzahl {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 12vw;
+	top: 2.8vh;
+	background-color: rgba(255, 0, 0, 0);
+	width: 4vw;
+	text-align: right;
+	letter-spacing: 0.1vw;
+	font-size: 1.3vw;
+	font-family: "Lato", cursive;
+}
+.container-item {
+	position: relative;
+	margin-top: 1vh;
+	margin-left: 1vh;
+	background-color: rgba(43, 43, 43, 0.521);
+	width: 16vw;
+	display: inline-block;
+	top: -1vh;
+	height: 30vh;
+}
+.Button-addtocard {
+	position: absolute;
+	height: 5vh;
+	width: 9vw;
+	font-family: "Goldman", cursive;
+	font-size: 1.2vw;
+	left: 4vw;
+	top: 23vh;
+	margin-left: 2vw;
+	border: none;
+	outline: none;
+	z-index: 1;
+	color: white;
+	cursor: pointer;
+	background-color: rgb(164, 0, 167);
+	border-radius: 0.2vw;
+}
+.Button-addtocard {
+	transition: 1s all;
+	background-color: rgb(110, 0, 112);
+}
+.Inputt-Shop {
+	position: absolute;
+	border: none;
+	-webkit-appearance: none;
+	padding: 0.1vw 1vw;
+
+	left: 0.9vw;
+	border-radius: 0.1vw;
+	top: 23vh;
+	width: 2vw;
+	color: rgb(225, 225, 225);
+	font-family: "Poppins", sans-serif;
+	height: 4.5vh;
+	text-align: left;
+	z-index: 29;
+	font-size: 1.3vw;
+	background-color: rgba(34, 31, 31, 0.483);
+	outline: none;
+	border: 0.01vh solid rgb(82, 82, 82);
+	text-align: center;
+}
+.Inputt-Shop:hover {
+	background-color: rgba(40, 40, 40, 0.454);
+	transition: color 0.6 ease;
+}
+.Inputt-Shop:focus::placeholder {
+	color: transparent;
+}
+.Inputt-Shop::placeholder {
+	color: rgb(218, 218, 218);
+	transition: color 0.3s ease;
+}
+.container-bild-waren {
+	position: absolute;
+	width: 15vw;
+	left: 0.5vw;
+	top: 1vh;
+	border-radius: 0.2vw;
+	background-color: rgba(27, 27, 27, 0.477);
+	height: 12vh;
+}
+.line-unter9 {
+	position: absolute;
+	width: 14vw;
+	height: 0.2vh;
+	top: 18.2vh;
+	left: 1vw;
+	border-top-right-radius: 1vw;
+	border-bottom-right-radius: 1vw;
+	background-color: rgb(185, 32, 86);
+}
+.steuern-nummer2 {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 8vw;
+	top: 13vh;
+
+	width: 7vw;
+	text-align: right;
+	background-color: rgba(255, 0, 0, 0);
+
+	letter-spacing: 0.1vw;
+	font-size: 1.3vw;
+	font-family: "Lato", cursive;
+}
+.preis-nummer2 {
+	position: absolute;
+	color: rgb(8, 232, 0);
+	left: 8vw;
+	top: 17.3vh;
+	width: 7vw;
+	text-align: right;
+	background-color: rgba(255, 0, 0, 0);
+	letter-spacing: 0.1vw;
+	font-size: 1.3vw;
+	font-family: "Lato", cursive;
+}
+.steuern2 {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 1vw;
+	top: 13vh;
+
+	background-color: rgba(255, 0, 0, 0);
+	letter-spacing: 0.1vw;
+	font-size: 1.3vw;
+	font-family: "Lato", cursive;
+}
+.preis2 {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 1vw;
+	top: 17.4vh;
+
+	background-color: rgba(255, 0, 0, 0);
+	letter-spacing: 0.1vw;
+	font-size: 1.3vw;
+	font-family: "Lato", cursive;
+}
+.img-ware {
+	position: absolute;
+	width: 7vw;
+	left: 3.7vw;
+	top: -0.5vh;
+}

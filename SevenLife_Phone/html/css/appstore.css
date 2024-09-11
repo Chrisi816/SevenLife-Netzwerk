@@ -1,0 +1,497 @@
+@font-face {
+	font-family: "Abel";
+	src: url("../text/Abel-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Aldrich";
+	src: url("../text/Aldrich-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Roboto";
+	src: url("../text/Roboto-MediumItalic.ttf");
+}
+@font-face {
+	font-family: "Khula";
+	src: url("../text/Khula-Regular.ttf");
+}
+.appstore {
+	position: absolute;
+	left: 0vw;
+	top: 0vh;
+	height: 81vh;
+	border-radius: 1vw;
+	width: 21.1vw;
+	z-index: 154;
+	background-color: #222831;
+}
+.topbar {
+	position: absolute;
+	height: 5vh;
+	background-color: #393e46;
+	width: 100%;
+}
+
+.textfivemstore {
+	position: absolute;
+	width: 16vw;
+	left: 2.6vw;
+	top: 5vh;
+
+	font-family: "Abel";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 2vw;
+	line-height: 4vh;
+	text-align: center;
+	color: #ffffff;
+}
+.imgsevenlife {
+	position: absolute;
+	bottom: 4vh;
+	width: 3vw;
+	left: 3vw;
+}
+.copyright-text {
+	position: absolute;
+	width: 14vw;
+	left: 5.2vw;
+	bottom: 4.5vh;
+
+	font-family: "Abel";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1vw;
+	line-height: 20px;
+	text-align: center;
+
+	color: #ffffff;
+}
+.middelcornerinfo {
+	position: absolute;
+	width: 16.2vw;
+	height: 44vh;
+	left: 2.8vw;
+	top: 21vh;
+	background: #393e46;
+	border-radius: 2vw;
+}
+.middelbild {
+	position: absolute;
+	width: 4vw;
+	left: 5.9vw;
+	top: 1.7vh;
+}
+.middeltext {
+	position: absolute;
+	width: 13vw;
+	left: 1.7vw;
+	top: 9vh;
+
+	font-family: "Abel";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.5vw;
+	line-height: 3.2vh;
+	text-align: center;
+
+	color: #ffffff;
+}
+.button-submit-middel {
+	position: absolute;
+	width: 12.6vw;
+	height: 6vh;
+	left: 2vw;
+	top: 35vh;
+	border-radius: 0.5vw;
+	text-align: center;
+	color: #ffffff;
+	font-family: "Abel";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.5vw;
+	cursor: pointer;
+	line-height: 4vh;
+	border: none;
+	background: #00adb5;
+}
+.topbarhaupt {
+	position: absolute;
+	height: 11vh;
+	background-color: #393e46;
+	width: 100%;
+}
+.inputt-searchapp {
+	position: absolute;
+	border: none;
+	-webkit-appearance: none;
+	padding: 0.1vw 1vw;
+	font-family: "Abel";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 3vw;
+	line-height: 4vh;
+	left: 3vw;
+	border-radius: 0.6vw;
+	top: 5.5vh;
+	width: 15vw;
+	color: rgb(255, 255, 255);
+	height: 4vh;
+	text-align: left;
+	z-index: 29;
+	font-size: 1vw;
+	background-color: #282b31;
+	outline: none;
+}
+.inputt-searchapp:hover {
+	background-color: #282b31;
+	transition: color 0.6 ease;
+}
+.inputt-searchapp:focus::placeholder {
+	color: transparent;
+}
+.inputt-searchapp::placeholder {
+	color: rgb(255, 255, 255);
+	transition: color 0.3s ease;
+}
+.barunten {
+	position: absolute;
+	width: 100%;
+	height: 8vh;
+	left: 0px;
+	bottom: 0vh;
+	overflow: hidden;
+	background: #393e46;
+	border-radius: 2vw 2vw 0px 0px;
+}
+.search-img {
+	position: absolute;
+	z-index: 31;
+	right: 1.9vw;
+	width: 1.8vw;
+	top: 6vh;
+}
+.img-featured-1 {
+	position: absolute;
+	width: 2vw;
+	height: 3.5vh;
+	left: 2.7vw;
+	bottom: 3.3vh;
+	cursor: none;
+}
+.img-featured-2 {
+	position: absolute;
+	width: 2vw;
+	height: 3.5vh;
+	left: 9.45vw;
+	bottom: 3.3vh;
+	cursor: none;
+}
+.img-featured-3 {
+	position: absolute;
+	width: 2vw;
+	height: 3.5vh;
+	left: 16.5vw;
+	bottom: 3.3vh;
+	cursor: none;
+}
+.img-featured-1-text {
+	position: absolute;
+	width: 7.5vw;
+	left: 0vw;
+	bottom: -0.3vh;
+
+	font-family: "Abel";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 0.9vw;
+	line-height: 1vw;
+	text-align: center;
+	cursor: none;
+	color: #ffffff;
+}
+.img-featured-2-text {
+	position: absolute;
+	width: 7.5vw;
+	left: 6.6vw;
+	bottom: -0.3vh;
+	cursor: none;
+	font-family: "Abel";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 0.9vw;
+	line-height: 1vw;
+	text-align: center;
+
+	color: #ffffff;
+}
+.img-featured-3-text {
+	position: absolute;
+	width: 7.5vw;
+	left: 13.8vw;
+	bottom: -0.3vh;
+	cursor: none;
+	font-family: "Abel";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 0.9vw;
+	line-height: 1vw;
+	text-align: center;
+
+	color: #ffffff;
+}
+.section {
+	position: relative;
+	width: 6.88vw;
+	background-color: rgba(255, 0, 0, 0);
+	height: 8vh;
+	margin: 0vw;
+
+	display: inline-block;
+	cursor: pointer;
+}
+.section:hover {
+	background: #2f3238;
+	transition: 1s all;
+}
+.featured-1 {
+	position: absolute;
+
+	width: 17.7vw;
+	height: 20vh;
+	left: 1.8vw;
+	top: 17vh;
+	overflow: hidden;
+	background: #282b31;
+	border-radius: 1vw;
+}
+.vorschlagentext {
+	position: absolute;
+	width: 12vw;
+
+	left: 1.7vw;
+	top: 11.3vh;
+
+	font-family: "Aldrich";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.5vw;
+	line-height: 2vh;
+	text-align: center;
+
+	color: #ffffff;
+}
+.vorschlagentext1 {
+	position: absolute;
+	width: 12vw;
+
+	left: 1.7vw;
+	top: 11.3vh;
+
+	font-family: "Aldrich";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.5vw;
+	line-height: 2vh;
+
+	color: #ffffff;
+}
+.featured-2 {
+	position: absolute;
+
+	width: 17.7vw;
+	height: 20vh;
+	left: 1.8vw;
+	top: 39vh;
+	overflow: hidden;
+	background: #282b31;
+	border-radius: 1vw;
+}
+.twitterlogo {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+}
+.back-appstore {
+	position: absolute;
+	width: 2vw;
+	top: 5.9vh;
+	cursor: pointer;
+	left: 0.5vw;
+}
+
+.container-appdownload {
+	position: absolute;
+	left: 1.8vw;
+	height: 54vh;
+	overflow-y: scroll;
+	width: 18.5vw;
+	top: 17vh;
+	background-color: rgba(255, 0, 0, 0);
+}
+.container-appdownload::-webkit-scrollbar {
+	width: 0.4vw;
+	height: 1vw;
+}
+
+.container-appdownload::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+.container-appdownload::-webkit-scrollbar-thumb {
+	background-color: #202020;
+	border-radius: 20px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.12) 0 3px 13px 1px;
+}
+.container-appdownload2 {
+	position: absolute;
+	left: 1.8vw;
+	height: 54vh;
+	overflow-y: scroll;
+	width: 18.5vw;
+	top: 17vh;
+	background-color: rgba(255, 0, 0, 0);
+}
+.container-appdownload2::-webkit-scrollbar {
+	width: 0.4vw;
+	height: 1vw;
+}
+
+.container-appdownload2::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+.container-appdownload2::-webkit-scrollbar-thumb {
+	background-color: #202020;
+	border-radius: 20px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.12) 0 3px 13px 1px;
+}
+.container-appcontainerdownload {
+	position: relative;
+	width: 17.5vw;
+	height: 8vh;
+	margin-top: 1vh;
+	left: 0vw;
+	top: 0vh;
+	background: #282b31;
+	border-radius: 0.8vh;
+}
+.container-appcontainerdownload2 {
+	position: relative;
+	width: 17.5vw;
+	height: 8vh;
+	margin-top: 1vh;
+	left: 0vw;
+	top: 0vh;
+	background: #282b31;
+	border-radius: 3vh;
+}
+.twitter-container-text {
+	position: absolute;
+	width: 10vw;
+	background-color: rgba(255, 0, 0, 0);
+	left: 5.1vw;
+	top: 0.2vh;
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.5vw;
+	line-height: 4vh;
+	color: #ffffff;
+}
+.twitter-container-text1 {
+	position: absolute;
+	width: 10vw;
+	background-color: rgba(255, 0, 0, 0);
+	left: 4.7vw;
+	top: 0.2vh;
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.5vw;
+	line-height: 4vh;
+	color: #ffffff;
+}
+.logo-container-app {
+	position: absolute;
+	width: 4vw;
+	top: 1vh;
+	height: 6vh;
+	left: 0.5vw;
+	border-radius: 1vh;
+}
+.logo-container-app1 {
+	position: absolute;
+	width: 3.5vw;
+	top: 1vh;
+	height: 6vh;
+	left: 0.5vw;
+	border-radius: 3vw;
+}
+.container-downloadbutton {
+	position: absolute;
+	width: 4vw;
+	height: 3vh;
+	left: 13vw;
+	z-index: 156;
+	top: 2.4vh;
+	cursor: pointer;
+
+	background: #00adb5;
+	border-radius: 62px;
+}
+.download-img {
+	position: absolute;
+	width: 1.5vw;
+	left: 1.25vw;
+	top: 0.1vh;
+}
+.container-downloadbutton:hover {
+	transition: 1s all;
+	background: #00787e;
+}
+.container-downloadbutton1 {
+	position: absolute;
+	width: 4vw;
+	height: 3vh;
+	left: 13vw;
+	z-index: 156;
+	top: 2.4vh;
+	cursor: pointer;
+
+	background: #00adb5;
+	border-radius: 62px;
+}
+.download-img1 {
+	position: absolute;
+	width: 1.5vw;
+	left: 1.25vw;
+	top: 0.1vh;
+}
+.container-downloadbutton1:hover {
+	transition: 1s all;
+	background: #00787e;
+}
+.sync {
+	position: absolute;
+	width: 1.75vw;
+	right: 1.6vw;
+	top: 2.3vh;
+	z-index: 155;
+	animation-name: rotate;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes rotate {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}

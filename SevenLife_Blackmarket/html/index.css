@@ -1,0 +1,261 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+body {
+	padding: 0;
+	margin: 0;
+}
+.firstcontainer {
+	width: 24vw;
+	height: 70vh;
+	background: #1a1a1a00;
+	position: relative;
+	left: 6vw;
+	top: 12vh;
+	display: inline-block;
+	margin-left: 5.5vw;
+}
+
+.blidcontainer {
+	width: 15vw;
+	height: 25vh;
+	background-color: rgb(26, 26, 26);
+	position: relative;
+	margin-left: 2.5vw;
+	top: 2vh;
+	border-radius: 1.4vw;
+}
+.bilderrahmen {
+	width: 13vw;
+	height: 16.5vh;
+	background-color: rgba(49, 49, 49, 0.575);
+	position: relative;
+	left: 1vw;
+	top: 2.5vh;
+	border-radius: 1vw;
+}
+.preiscontainerak {
+	width: 15vw;
+	height: 5.5vh;
+	position: relative;
+	top: 4vh;
+	left: 2.5vw;
+	border-radius: 1vw;
+	background-color: rgba(26, 26, 26, 0.753);
+}
+.staats {
+	width: 15vw;
+	height: 15.5vh;
+	position: relative;
+	top: 6vh;
+	left: 2.5vw;
+	border-radius: 1.1vw;
+	background-color: rgb(26, 26, 26);
+}
+.akbild {
+	position: absolute;
+	width: 13vw;
+	left: 0vw;
+	top: 2.2vh;
+	transform: rotate(335deg);
+}
+
+.text h1 {
+	position: absolute;
+	color: white;
+	left: 0vw;
+	text-align: center;
+	width: 15vw;
+	top: 16.9vh;
+	font-size: 2vw;
+	font-family: "Bebas Neue", cursive;
+}
+.texte {
+	position: absolute;
+	color: white;
+	font-size: 1.3vw;
+	font-family: "Bebas Neue", cursive;
+	left: 2vw;
+	width: 15vw;
+	background-color: rgba(102, 51, 153, 0);
+	text-align: center;
+	top: 0vh;
+}
+.preiscontainerpistol {
+	width: 15vw;
+	height: 5vh;
+	position: relative;
+	top: 4vh;
+	left: 2.5vw;
+	border-radius: 1.1vw;
+	background-color: rgba(26, 26, 26, 0.753);
+}
+.preiscontainerschwere {
+	width: 15vw;
+	height: 5vh;
+	position: relative;
+	top: 4vh;
+	left: 2.5vw;
+	border-radius: 1.1vw;
+	background-color: rgba(26, 26, 26, 0.753);
+}
+.texte {
+	position: absolute;
+	color: white;
+	font-size: 35px;
+	font-family: "Bebas Neue", cursive;
+	left: 20px;
+	width: 250px;
+	text-align: center;
+	top: 5px;
+}
+.texte {
+	position: absolute;
+	color: white;
+	font-size: 2vw;
+	font-family: "Bebas Neue", cursive;
+	left: 0vw;
+	width: 15vw;
+	background-color: rgba(255, 0, 0, 0);
+	text-align: center;
+	top: 0vw;
+}
+.buybutton {
+	position: absolute;
+	width: 15vw;
+	height: 5.5vh;
+	outline: none;
+	z-index: 29;
+	background-color: rgba(26, 26, 26, 0.753);
+	cursor: pointer;
+	font-family: "Bebas Neue", cursive;
+	border: none;
+	font-size: 1.8vw;
+	color: #f8f8f8;
+	top: 53vh;
+	left: 2.5vw;
+	border-radius: 1.2vw;
+}
+.buybutton:hover {
+	background-color: rgb(31, 31, 31);
+}
+.pistole {
+	position: absolute;
+	width: 8.5vw;
+	left: 3.5vw;
+	top: 3.2vh;
+	transform: rotate(335deg);
+}
+.schwerepistole {
+	position: absolute;
+	width: 8vw;
+	left: 3.2vw;
+	top: 3vh;
+	transform: rotate(335deg);
+}
+.staats h1 {
+	position: absolute;
+	color: white;
+	font-size: 1.4vw;
+	font-family: "Bebas Neue", cursive;
+	left: 0.5vw;
+	top: -1vh;
+}
+.staats h2 {
+	position: absolute;
+	color: white;
+	font-size: 1.4vw;
+	font-family: "Bebas Neue", cursive;
+	left: 0.5vw;
+	top: 2vh;
+}
+.staats h3 {
+	position: absolute;
+	color: white;
+	font-size:1.4vw;
+	font-family: "Bebas Neue", cursive;
+	left: 0.5vw;
+	top: 5vh;
+}
+.staats h4 {
+	position: absolute;
+	color: white;
+	font-size: 1.4vw;
+	font-family: "Bebas Neue", cursive;
+	left: 0.5vw;
+	top: 7.5vh;
+}
+.balken {
+	background: rgba(0, 0, 0, 0);
+	width: 9vw;
+	height: 15vh;
+	left: 7.2vw;
+	position: absolute;
+}
+.balen {
+	position: relative;
+	background: rgb(75, 1, 1);
+	width: 7.2vw;
+	height: 2vh;
+	margin-top: 1.2vh;
+	display: inline-block;
+}
+.pistelschaden {
+	background: rgb(200, 0, 0);
+	width: 2.5vw;
+	height: 2vh;
+}
+.pistelfeuerrate {
+	background: rgb(200, 0, 0);
+	width: 3vw;
+	height: 2vh;
+}
+.pistelgenauigkeit {
+	background: rgb(200, 0, 0);
+	width: 2.8vw;
+	height: 2vh;
+}
+.pistelschussweite {
+	background: rgb(200, 0, 0);
+	width: 2vw;
+	height: 2vh;
+}
+.schwerepistelschaden {
+	background: rgb(200, 0, 0);
+	width: 3vw;
+	height: 2vh;
+}
+.schwerepistelfeuerrate {
+	background: rgb(200, 0, 0);
+	width: 3.1vw;
+	height: 2vh;
+}
+.schwerepistelgenauigkeit {
+	background: rgb(200, 0, 0);
+	width: 3.8vw;
+	height: 2vh;
+}
+.schwerepistelschussweite {
+	background: rgb(200, 0, 0);
+	width: 3.3vw;
+	height: 2vh;
+}
+.akschaden {
+	background: rgb(200, 0, 0);
+	width: 3vw;
+	height: 2vh;
+}
+.akfeuerrate {
+	background: rgb(200, 0, 0);
+	width: 5vw;
+	height: 2vh;
+}
+.akgenauigkeit {
+	background: rgb(200, 0, 0);
+	width: 4vw;
+	height: 2vh;
+}
+.akschussweite {
+	background: rgb(200, 0, 0);
+	width: 3.5vw;
+	height: 2vh;
+}

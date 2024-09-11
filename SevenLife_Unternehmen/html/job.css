@@ -1,0 +1,249 @@
+.container-jobs {
+	position: absolute;
+	width: 30vw;
+	height: 70vh;
+	background: rgb(231, 12, 154);
+	background: linear-gradient(
+		90deg,
+		rgba(231, 12, 154, 1) 0%,
+		rgb(77, 0, 68) 100%
+	);
+	left: 35vw;
+	top: 12vh;
+	border-radius: 0.2vw;
+}
+.strichinfo {
+	position: absolute;
+	width: 28vw;
+	height: 0.1vh;
+	background-color: white;
+	top: 6vh;
+	left: 1vw;
+}
+.textaktivejobs {
+	color: rgb(255, 255, 255);
+	position: absolute;
+	font-size: 1.5vw;
+	z-index: 2;
+	width: 25vw;
+	text-align: left;
+	top: 0vh;
+	background-color: rgba(14, 0, 53, 0);
+	left: 1vw;
+	font-family: "Khula", sans-serif;
+}
+.closejobs {
+	position: absolute;
+	right: 1vw;
+	width: 2.1vw;
+	cursor: pointer;
+	top: 1.2vh;
+}
+.scroll-container-jobs {
+	position: absolute;
+	width: 28vw;
+	z-index: 1;
+	height: 61vh;
+	overflow-y: scroll;
+	background-color: rgba(255, 0, 0, 0);
+	left: 1vw;
+	top: 7vh;
+}
+.scroll-container-jobs::-webkit-scrollbar {
+	width: 0.4vw;
+}
+
+.scroll-container-jobs::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background-color: rgba(255, 255, 255, 0.294);
+}
+
+.scroll-container-jobs::-webkit-scrollbar-thumb {
+	background-color: #202020;
+	border-radius: 2vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.185) 0 3px 13px 1px;
+}
+.container-detail-job {
+	position: relative;
+	width: 27.4vw;
+	height: 6vh;
+	border-radius: 0.2vw;
+	background-color: rgba(25, 25, 25, 0.503);
+}
+.textdetailjob {
+	color: rgb(255, 255, 255);
+	position: absolute;
+	font-size: 1.2vw;
+	z-index: 2;
+
+	text-align: left;
+	top: -0.3vh;
+	background-color: rgba(14, 0, 53, 0);
+	left: 0.5vw;
+	font-family: "Khula", sans-serif;
+}
+.strichtxtjob {
+	position: absolute;
+	width: 19vw;
+	left: 0.5vw;
+	height: 0.2vh;
+	top: 4.5vh;
+	background-color: white;
+}
+.Button-Annehmen {
+	position: absolute;
+	height: 5vh;
+	width: 7vw;
+	font-family: "Goldman", cursive;
+	font-size: 1vw;
+	right: 0.5vw;
+	top: -0.5vh;
+	margin-top: 1vh;
+	margin-left: 0.5vw;
+	border: none;
+	outline: none;
+	z-index: 1;
+	color: white;
+	cursor: pointer;
+	background-color: rgba(164, 0, 167, 0.617);
+	border-radius: 0.1vw;
+}
+.Button-Annehmen:hover {
+	transition: 1s all;
+	background-color: rgb(110, 0, 112);
+}
+.GeldFürAuftrag {
+	color: rgb(255, 255, 255);
+	position: absolute;
+	font-size: 1.2vw;
+	z-index: 2;
+	width: 6vw;
+
+	text-align: center;
+	top: -0.3vh;
+	background-color: rgba(255, 0, 0, 0);
+	left: 13.5vw;
+	font-family: "Khula", sans-serif;
+}
+.strichaussen4 {
+	position: absolute;
+	width: 20vw;
+	height: 35vh;
+	left: 15vw;
+	top: 8vh;
+	border-left: 0.2vw solid white;
+	border-top: 0.4vh solid white;
+}
+.strichinnen4 {
+	position: absolute;
+	width: 20vw;
+	height: 35vh;
+	left: 53.5vw;
+	top: 35vh;
+	border-bottom: 0.2vw solid white;
+	border-right: 0.4vh solid white;
+}
+
+.scrollinnenline {
+	position: absolute;
+	width: 57.5vw;
+	z-index: 1;
+	height: 60.5vh;
+	overflow-y: scroll;
+	background-color: rgba(255, 0, 0, 0);
+	left: 15.5vw;
+	top: 9vh;
+}
+.scrollinnenline::-webkit-scrollbar {
+	width: 0.4vw;
+}
+
+.scrollinnenline::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background-color: rgba(255, 255, 255, 0.294);
+}
+
+.scrollinnenline::-webkit-scrollbar-thumb {
+	background-color: #202020;
+	border-radius: 2vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.185) 0 3px 13px 1px;
+}
+.container-car-line {
+	position: relative;
+	width: 18.1vw;
+	margin-left: 0.5vw;
+	display: inline-block;
+	height: 34vh;
+	top: 1vh;
+	border-radius: 0.2vw;
+	background-color: rgba(29, 29, 29, 0.55);
+}
+.container-picture {
+	position: absolute;
+	width: 17.1vw;
+	margin-left: 0.5vw;
+	display: inline-block;
+	height: 20vh;
+	top: 1vh;
+	border-radius: 0.2vw;
+	background-color: rgba(29, 29, 29, 0.307);
+}
+.container-car-line-text {
+	color: rgb(255, 255, 255);
+	position: absolute;
+	font-size: 1.3vw;
+	z-index: 2;
+	width: 17vw;
+	background-color: rgba(255, 0, 0, 0);
+	text-align: left;
+	top: 20.8vh;
+	left: 0.5vw;
+	font-family: "Khula", sans-serif;
+}
+.container-car-line-textline {
+	position: absolute;
+	width: 17vw;
+	height: 0.2vh;
+	background-color: white;
+	top: 26vh;
+	left: 0.5vw;
+}
+.container-car-line-price {
+	color: rgb(255, 255, 255);
+	position: absolute;
+	font-size: 1.3vw;
+	z-index: 2;
+	width: 7vw;
+	background-color: rgba(255, 0, 0, 0);
+	text-align: right;
+	top: 20.8vh;
+	left: 10.5vw;
+	font-family: "Khula", sans-serif;
+}
+.Button-Buy-Car {
+	position: absolute;
+	height: 5vh;
+	width: 17vw;
+	font-family: "Goldman", cursive;
+	font-size: 1.3vw;
+	left: -1.5vw;
+	top: 27.5vh;
+	margin-left: 2vw;
+	border: none;
+	outline: none;
+	z-index: 1;
+	color: white;
+	cursor: pointer;
+	background-color: rgb(164, 0, 167);
+	border-radius: 0.2vw;
+}
+
+.Button-Buy-Car:hover {
+	transition: 1s all;
+	background-color: rgb(110, 0, 112);
+}
+.imgpicture {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}

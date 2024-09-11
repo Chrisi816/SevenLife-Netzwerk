@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="index.css" />
+	</head>
+	<body>
+		<div class="progress-bar-zwei" data-label="Verarbeiten..."></div>
+		<div class="progress-bar-drei" data-label="Sammeln..."></div>
+		<div class="progress-bar-vier" data-label="Verarbeiten..."></div>
+		<div class="progress-bar-fuenf" data-label="Verarbeiten..."></div>
+
+		<div class="container-shop">
+			<div class="left"></div>
+			<div class="right"></div>
+			<div class="left-line"></div>
+			<h1 class="textwaschanlage">Baumarkt</h1>
+			<div class="container-left">
+				<div class="container-item" id="item1">
+					<h1 class="informationname">Spaten</h1>
+					<div class="obenrechtsitem">
+						<h1 class="preis">50.00 $</h1>
+					</div>
+					<img src="img/spaten.png" class="img-item" alt="" />
+					<div class="obenrechtsuntenitem">
+						<h1 class="kg">1.0KG</h1>
+						<h1 class="munition">K. Munition</h1>
+					</div>
+				</div>
+				<div class="container-item" id="item2">
+					<h1 class="informationname">Spitzhacke</h1>
+					<div class="obenrechtsitem">
+						<h1 class="preis">100.00 $</h1>
+					</div>
+					<img
+						src="img/pickaxe.png"
+						class="img-item"
+						id="img-itemdiv"
+						alt=""
+					/>
+					<div class="obenrechtsuntenitem">
+						<h1 class="kg">1.0KG</h1>
+						<h1 class="munition">K. Munition</h1>
+					</div>
+				</div>
+				<div class="container-item" id="item3">
+					<h1 class="informationname">Behälter</h1>
+					<div class="obenrechtsitem">
+						<h1 class="preis">100.00 $</h1>
+					</div>
+					<img
+						src="img/behealter.png"
+						class="img-item"
+						id="img-item2"
+						alt=""
+					/>
+					<div class="obenrechtsuntenitem">
+						<h1 class="kg">1.0KG</h1>
+						<h1 class="munition">K. Munition</h1>
+					</div>
+				</div>
+			</div>
+			<div class="container-detail"></div>
+			<div class="preis-lineie"></div>
+			<div class="preis-lineie2"></div>
+
+			<div class="preis-lineie4"></div>
+			<div class="container-money"></div>
+
+			<h1 class="esctext">Drücke ESC um zu verlassen</h1>
+		</div>
+		<div class="verarbeiter-container">
+			<div class="lefts"></div>
+			<div class="rights"></div>
+			<div class="mittelcontainer">
+				<div class="leftse">
+					<div class="container-auswahl karotten" id="karotten">
+						<h1 class="nameses">Karotten Saft</h1>
+						<span class="Zeit"> Zeit: 30 Sec. </span>
+						<p class="fail">Fail Rate: 0%</p>
+					</div>
+					<div class="container-auswahl kartoffel" id="kartoffel">
+						<h1 class="nameses">Kartoffelsalat</h1>
+						<span class="Zeit"> Zeit: 40 Sec. </span>
+						<p class="fail">Fail Rate: 10%</p>
+					</div>
+					<div class="container-auswahl kürbis" id="kürbis">
+						<h1 class="nameses">Kürbiskuchen</h1>
+						<span class="Zeit"> Zeit: 50 Sec. </span>
+						<p class="fail">Fail Rate: 40%</p>
+					</div>
+					<div class="container-auswahl leder" id="leder">
+						<h1 class="nameses">Leder</h1>
+						<span class="Zeit"> Zeit: 50 Sec. </span>
+						<p class="fail">Fail Rate: 10%</p>
+					</div>
+				</div>
+				<div class="rechtsses">
+					<div class="hauptmenu">
+						<div class="obenleiste">
+							<h1 class="nameverarbeiter">Billies Verarbeiter</h1>
+						</div>
+						<img
+							src="img/Hillbillies-1.png"
+							class="billie"
+							alt=""
+						/>
+						<span class="spannotify">
+							Du willst deine gefarmten Sachen verarbeiten, damit
+							du diese gegen Geld eintauschen kannst?
+						</span>
+						<p2 class="spannotify1">
+							Dann bist du bei Billi's Verarbeiter Stube ganz
+							richtig.
+						</p2>
+					</div>
+					<div class="karottenmenu">
+						<div class="obenleiste">
+							<h1 class="nameverarbeiter maney">
+								Karotten Saft Herstellen
+							</h1>
+						</div>
+						<div class="mittelegende">
+							<div class="listemitte">
+								<h1 class="listeanressourcen">Ressourcen:</h1>
+								<img
+									src="img/gleaschen.png"
+									class="gleaschens"
+									alt=""
+								/>
+								<img
+									src="img/karotte.png"
+									class="karottenss"
+									alt=""
+								/>
+								<h2 class="glasinfos">= 1x</h2>
+								<h2 class="glasinf2s">= 30x</h2>
+							</div>
+							<div class="button1 karottense">
+								<button
+									class="btn btn2"
+									id="karottenverarbeiten"
+								>
+									Verarbeiten Starten
+								</button>
+							</div>
+						</div>
+						<div class="rightlegende">
+							<div class="container-bild">
+								<img src="img/glass.png" class="glas" alt="" />
+							</div>
+							<div class="box-legende">
+								<h1 class="legende">Legende:</h1>
+								<img
+									src="img/gleaschen.png"
+									class="gleaschen"
+									alt=""
+								/>
+								<img
+									src="img/karotte.png"
+									class="karottens"
+									alt=""
+								/>
+								<h2 class="glasinfo">1x Glas</h2>
+								<h2 class="glasinf2">1x Karotte</h2>
+							</div>
+						</div>
+					</div>
+					<div class="kartoffelmenu">
+						<div class="obenleiste">
+							<h1 class="nameverarbeiter maney">
+								Kartoffelsalat Herstellen
+							</h1>
+						</div>
+						<div class="mittelegende">
+							<div class="listemitte">
+								<h1 class="listeanressourcen">Ressourcen:</h1>
+								<img
+									src="img/gleaschen.png"
+									class="gleaschens"
+									alt=""
+								/>
+								<img
+									src="img/potato.png"
+									class="karottenss"
+									alt=""
+								/>
+								<h2 class="glasinfos">= 1x</h2>
+								<h2 class="glasinf2s">= 20x</h2>
+							</div>
+							<div class="button1">
+								<button
+									class="btn btn2 kartoffelss"
+									id="kartoffelverarbeiten"
+								>
+									Verarbeiten Starten
+								</button>
+							</div>
+						</div>
+						<div class="rightlegende">
+							<div class="container-bild">
+								<img src="img/salat.png" class="glas" alt="" />
+							</div>
+							<div class="box-legende">
+								<h1 class="legende">Legende:</h1>
+								<img
+									src="img/gleaschen.png"
+									class="gleaschen"
+									alt=""
+								/>
+								<img
+									src="img/potato.png"
+									class="karottens"
+									alt=""
+								/>
+								<h2 class="glasinfo">1x Glas</h2>
+								<h2 class="glasinf2">1x Kartoffel</h2>
+							</div>
+						</div>
+					</div>
+					<div class="kürbismenu">
+						<div class="obenleiste">
+							<h1 class="nameverarbeiter maney">
+								Kürbiskuchen Herstellen
+							</h1>
+						</div>
+						<div class="mittelegende">
+							<div class="listemitte">
+								<h1 class="listeanressourcen">Ressourcen:</h1>
+								<img
+									src="img/gleaschen.png"
+									class="gleaschens"
+									alt=""
+								/>
+								<img
+									src="img/closeing.png"
+									class="karottenss"
+									alt=""
+								/>
+								<h2 class="glasinfos">= 1x</h2>
+								<h2 class="glasinf2s">= 30x</h2>
+							</div>
+							<div class="button1">
+								<button class="btn btn2" id="kürbisverarbeiten">
+									Verarbeiten Starten
+								</button>
+							</div>
+						</div>
+						<div class="rightlegende">
+							<div class="container-bild">
+								<img
+									src="img/closeing.png"
+									class="glas"
+									alt=""
+								/>
+							</div>
+							<div class="box-legende">
+								<h1 class="legende">Legende:</h1>
+								<img
+									src="img/gleaschen.png"
+									class="gleaschen"
+									alt=""
+								/>
+								<img
+									src="img/closeing.png"
+									class="karottens"
+									alt=""
+								/>
+								<h2 class="glasinfo">1x Glas</h2>
+								<h2 class="glasinf2">1x Kürbis</h2>
+							</div>
+						</div>
+					</div>
+					<div class="ledermenu">
+						<div class="obenleiste">
+							<h1 class="nameverarbeiter maney">
+								Leder Herstellen
+							</h1>
+						</div>
+						<div class="mittelegende">
+							<div class="listemitte">
+								<h1 class="listeanressourcen">Ressourcen:</h1>
+								<img
+									src="img/leatherschlecht.png"
+									class="gleaschens2"
+									alt=""
+								/>
+								<img
+									src="img/leatherschlecht.png"
+									class="karottenss"
+									alt=""
+								/>
+								<h2 class="glasinfos">= 20x</h2>
+								<h2 class="glasinf2s">= 20x</h2>
+							</div>
+							<div class="button1">
+								<button class="btn btn2" id="leders">
+									Verarbeiten Starten
+								</button>
+							</div>
+						</div>
+						<div class="rightlegende">
+							<div class="container-bild">
+								<img
+									src="img/leatherschlecht.png"
+									class="glas"
+									alt=""
+								/>
+							</div>
+							<div class="box-legende">
+								<h1 class="legende">Legende:</h1>
+								<img
+									src="img/leatherschlecht.png"
+									class="karottens2"
+									alt=""
+								/>
+								<img
+									src="img/leatherschlecht.png"
+									class="karottens"
+									alt=""
+								/>
+								<h2 class="glasinfo">1x S.B.Leder</h2>
+								<h2 class="glasinf2">1x B.Leder</h2>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="index.js"></script>
+</html>

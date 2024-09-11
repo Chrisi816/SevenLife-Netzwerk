@@ -1,0 +1,293 @@
+@font-face {
+	font-family: "NotoSansMiao";
+	src: url("text/NotoSansMiao-Regular.ttf");
+}
+@font-face {
+	font-family: "Kanit";
+	src: url("text/Kanit-Regular.ttf");
+}
+@font-face {
+	font-family: "Lato";
+	src: url(text/Lato-Black.ttf);
+}
+.container-image {
+	position: absolute;
+	width: 18vw;
+	height: 100%;
+	background-color: rgba(255, 0, 0, 0);
+}
+.imagecontainer {
+	position: absolute;
+	width: 100%;
+	z-index: 1;
+	height: 100%;
+}
+.fadeinimage {
+	position: absolute;
+	z-index: 2;
+	height: 100%;
+	width: 100.04%;
+	background: rgb(27, 29, 31);
+	background: rgb(27, 29, 31);
+	background: rgb(27, 29, 31);
+	background: linear-gradient(
+		to top,
+		rgba(27, 29, 31, 1) 0%,
+		rgba(29, 31, 33, 0.9458158263305322) 21%,
+		rgba(52, 53, 54, 0) 100%
+	);
+}
+.frauimage {
+	position: absolute;
+	width: 25vw;
+	z-index: 4;
+	top: 16.7vh;
+	left: -4.5vw;
+}
+.headlinetext1 {
+	position: absolute;
+	font-size: 1.5vw;
+	letter-spacing: 0.1vw;
+	left: 5.3vw;
+	z-index: 3;
+	top: 5.3vh;
+	font-family: "NotoSansMiao", sans-serif;
+	color: rgb(212, 0, 195);
+	font-weight: 1000;
+}
+.headlinetext2 {
+	position: absolute;
+	font-size: 1.5vw;
+	letter-spacing: 0.1vw;
+	left: 9.8vw;
+	z-index: 3;
+	top: 5.3vh;
+	font-family: "NotoSansMiao", sans-serif;
+	color: rgb(255, 255, 255);
+	font-weight: 1000;
+}
+.textlogin {
+	position: absolute;
+	font-size: 0.8vw;
+	letter-spacing: 0.1vw;
+	left: 5.9vw;
+	top: 10.5vh;
+	z-index: 3;
+	font-family: "NotoSansMiao", sans-serif;
+	color: rgb(255, 255, 255);
+	font-weight: 1000;
+}
+.imgbiglabel {
+	position: absolute;
+	width: 4vw;
+	top: 1.5vh;
+	z-index: 5;
+	left: 7.3vw;
+}
+.submit-btn {
+	position: absolute;
+	top: 42vh;
+	left: 19.5vw;
+	height: 6vh;
+	margin-left: auto;
+	border: none;
+	color: white;
+	outline: none;
+
+	font-size: 0.7vw;
+	text-transform: uppercase;
+	letter-spacing: 0.1vw;
+	font-family: "NotoSansMiao", sans-serif;
+	width: 18vw;
+	padding: 10px 10px;
+	background-color: rgb(156, 0, 143);
+	border-radius: 5px;
+	cursor: pointer;
+	font-weight: 1000;
+}
+.submit-btn:hover {
+	transition: 0.4s all;
+	background-color: rgb(212, 0, 195);
+}
+.textinfo {
+	position: absolute;
+	font-size: 0.8vw;
+	letter-spacing: 0.1vw;
+	left: 19.5vw;
+	top: 5.5vh;
+	z-index: 3;
+	font-family: "NotoSansMiao", sans-serif;
+	color: rgb(151, 151, 151);
+	font-weight: 1000;
+}
+.headlineinfo {
+	position: absolute;
+	font-size: 1vw;
+	letter-spacing: 0.1vw;
+	left: 19.5vw;
+	top: 1.5vh;
+	z-index: 3;
+	font-family: "NotoSansMiao", sans-serif;
+	color: rgb(255, 255, 255);
+	font-weight: 1000;
+}
+.backtolight {
+	position: absolute;
+	width: 2.2vw;
+	right: 2.5vw;
+	z-index: 5;
+	top: 2vh;
+	cursor: pointer;
+}
+
+.loginUser {
+	position: absolute;
+	border: none;
+	-webkit-appearance: none;
+
+	padding-bottom: 0.4vh;
+	left: 19.5vw;
+	border-radius: 0.1vw;
+	top: 20.5vh;
+	width: 17.5vw;
+	color: rgb(88, 88, 88);
+	font-family: "NotoSansMiao", sans-serif;
+	height: 5.5vh;
+	text-align: left;
+	z-index: 29;
+	font-size: 0.8vw;
+	border-radius: 0.2vw;
+	background-color: rgba(56, 53, 53, 0.231);
+	outline: none;
+
+	text-align: center;
+}
+.loginUser:hover {
+	background-color: rgba(40, 40, 40, 0.454);
+	transition: color 1.6 ease;
+	border: 0.1vh solid rgb(212, 0, 195);
+}
+.loginUser:focus::placeholder {
+	color: transparent;
+}
+.loginUser::placeholder {
+	padding-left: 4vw;
+	color: rgb(88, 88, 88);
+	transition: color 0.3s ease;
+}
+.loginPassword {
+	position: absolute;
+	border: none;
+	-webkit-appearance: none;
+
+	padding-bottom: 0.4vh;
+	left: 19.5vw;
+	border-radius: 0.1vw;
+	top: 33vh;
+	width: 17.5vw;
+	color: rgb(88, 88, 88);
+	font-family: "NotoSansMiao", sans-serif;
+	height: 5.5vh;
+
+	z-index: 29;
+	font-size: 0.8vw;
+	border-radius: 0.2vw;
+	background-color: rgba(56, 53, 53, 0.231);
+	outline: none;
+
+	text-align: center;
+}
+.loginPassword:hover {
+	background-color: rgba(40, 40, 40, 0.454);
+	transition: color 1.6 ease;
+	border: 0.1vh solid rgb(212, 0, 195);
+}
+.loginPassword:focus::placeholder {
+	color: transparent;
+}
+.loginPassword::placeholder {
+	color: rgb(88, 88, 88);
+	padding-left: 1vw;
+	transition: color 0.3s ease;
+}
+.detaillabel {
+	position: absolute;
+	font-size: 0.8vw;
+	letter-spacing: 0.1vw;
+	left: 19.5vw;
+	top: 15.2vh;
+	z-index: 3;
+	font-family: "NotoSansMiao", sans-serif;
+	color: rgb(255, 255, 255);
+	font-weight: 1000;
+}
+.detaillabel2 {
+	position: absolute;
+	font-size: 0.8vw;
+	letter-spacing: 0.1vw;
+	left: 19.5vw;
+	top: 27.5vh;
+	z-index: 3;
+	font-family: "NotoSansMiao", sans-serif;
+	color: rgb(255, 255, 255);
+	font-weight: 1000;
+}
+.benutzernamefoto {
+	position: absolute;
+	width: 1.8vw;
+	top: 21.8vh;
+	left: 20.5vw;
+	z-index: 5;
+}
+.keyfoto {
+	position: absolute;
+	width: 1.8vw;
+	top: 34.3vh;
+	left: 20.5vw;
+	z-index: 5;
+}
+.backtolightzwei {
+	position: absolute;
+	width: 2.2vw;
+	right: 2.5vw;
+	z-index: 5;
+	top: 2vh;
+	cursor: pointer;
+}
+
+.submit-btns {
+	position: absolute;
+	top: 42vh;
+	left: 19.5vw;
+	height: 6vh;
+	margin-left: auto;
+	border: none;
+	color: white;
+	outline: none;
+
+	font-size: 0.7vw;
+	text-transform: uppercase;
+	letter-spacing: 0.1vw;
+	font-family: "NotoSansMiao", sans-serif;
+	width: 18vw;
+	padding: 10px 10px;
+	background-color: rgb(156, 0, 143);
+	border-radius: 5px;
+	cursor: pointer;
+	font-weight: 1000;
+}
+.submit-btns:hover {
+	transition: 0.4s all;
+	background-color: rgb(212, 0, 195);
+}
+.textlogin2 {
+	position: absolute;
+	font-size: 0.8vw;
+	letter-spacing: 0.1vw;
+	left: 6.5vw;
+	top: 10.5vh;
+	z-index: 3;
+	font-family: "NotoSansMiao", sans-serif;
+	color: rgb(255, 255, 255);
+	font-weight: 1000;
+}

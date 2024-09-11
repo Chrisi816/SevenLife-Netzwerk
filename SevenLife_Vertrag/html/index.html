@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="index.css" />
+	</head>
+	<body>
+		<div class="seveninfo">
+			<div class="kaufvertrag-body">
+				<div class="kaufvertrag-card">
+					<h1 class="überschrift"></h1>
+					<textarea
+						maxlength="30"
+						autofocus
+						rows="1"
+						id="iputt-titel"
+						class="iputt-titel"
+						name="Description Dispatch"
+						placeholder="Titel deines Vertrags"
+					></textarea>
+					<div class="information-card">
+						<textarea
+							maxlength="700"
+							autofocus
+							id="iputt-beschreibung"
+							class="iputt-beschreibung"
+							name="Description Dispatch"
+							placeholder="Beschreibung deines Vertrags"
+						></textarea>
+						<input
+							class="inputttitelunterschrift1"
+							maxlength="20"
+							id="inputttitelunterschrift1"
+							placeholder="Unterschrift"
+						/>
+						<input
+							class="inputttitelunterschrift2"
+							maxlength="20"
+							readonly
+							id="inputttitelunterschrift2"
+							placeholder="Unterschrift"
+						/>
+						<h1 class="textunterunterschrift">VERFASSER</h1>
+						<h1 class="textunterunterschrift2">ENTGEGENNEHMER</h1>
+						<button type="button" class="btn" id="übergeben">
+							Vertrag übergeben
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="seveninfoentegennehmer">
+			<div class="kaufvertrag-body">
+				<div class="kaufvertrag-card">
+					<h1 class="überschrift"></h1>
+					<textarea
+						maxlength="30"
+						autofocus
+						readonly
+						rows="1"
+						id="iputt-titelentgegennehmer"
+						class="iputt-titel"
+						name="Description Dispatch"
+						placeholder="Titel deines Vertrags"
+					></textarea>
+					<div class="information-card">
+						<textarea
+							maxlength="700"
+							autofocus
+							readonly
+							id="iputt-beschreibungentgegennehmer"
+							class="iputt-beschreibung"
+							name="Description Dispatch"
+							placeholder="Beschreibung deines Vertrags"
+						></textarea>
+						<input
+							class="inputttitelunterschrift1entegennehmer"
+							maxlength="20"
+							id="inputttitelunterschrift1entegennehmer"
+							readonly
+							placeholder="Unterschrift"
+						/>
+						<input
+							class="inputttitelunterschrift2entgegennehmer"
+							maxlength="20"
+							id="inputttitelunterschrift2entgegennehmer"
+							placeholder="Unterschrift"
+						/>
+						<h1 class="textunterunterschrift">VERFASSER</h1>
+						<h1 class="textunterunterschrift2">ENTGEGENNEHMER</h1>
+						<button type="button" class="btn" id="akzeptieren">
+							Akzeptieren
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="aktenkoffer">
+			<div class="leftlogistik"></div>
+			<div class="rightlogistik"></div>
+			<h1 class="text-impounder2">Akten - Sehen</h1>
+			<div class="line-unter"></div>
+			<div class="streifen"></div>
+			<h1 class="text-impounder">Akten - Koffer</h1>
+			<h1 class="esctext">Drücke ESC um zu verlassen</h1>
+
+			<div class="insert-container">
+				<div class="insert-container-result">
+					<h1 class="Item-Name-Logistik">Vertrag von Cosa Nostra</h1>
+					<img
+						src="src/baseline_category_white_48dp.png"
+						class="Item-Picture"
+						alt=""
+					/>
+
+					<button class="Button-Buy" name="">Anschauen</button>
+					<button class="Button-Buy2" name="">Geben</button>
+				</div>
+			</div>
+			<div class="lines"></div>
+			<div class="lines2"></div>
+		</div>
+		<div class="seveninfokoffer">
+			<div class="kaufvertrag-body">
+				<div class="kaufvertrag-card">
+					<h1 class="überschrift"></h1>
+					<textarea
+						maxlength="30"
+						autofocus
+						readonly
+						rows="1"
+						id="iputt-titelkoffer"
+						class="iputt-titel"
+						name="Description Dispatch"
+						placeholder="Titel deines Vertrags"
+					></textarea>
+					<div class="information-card">
+						<textarea
+							maxlength="700"
+							autofocus
+							readonly
+							id="iputt-beschreibungkoffer"
+							class="iputt-beschreibung"
+							name="Description Dispatch"
+							placeholder="Beschreibung deines Vertrags"
+						></textarea>
+						<input
+							class="inputttitelunterschrift1entegennehmer"
+							maxlength="20"
+							id="inputttitelunterschrift1koffer"
+							readonly
+							placeholder="Unterschrift"
+						/>
+						<input
+							class="inputttitelunterschrift2entgegennehmer"
+							maxlength="20"
+							readonly
+							id="inputttitelunterschrift2koffer"
+							placeholder="Unterschrift"
+						/>
+						<h1 class="textunterunterschrift">VERFASSER</h1>
+						<h1 class="textunterunterschrift2">ENTGEGENNEHMER</h1>
+						<button type="button" class="btn" id="verlassen">
+							Verlassen
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="index.js"></script>
+</html>

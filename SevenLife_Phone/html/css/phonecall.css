@@ -1,0 +1,832 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Goldman&family=Radio+Canada&display=swap");
+.callapp {
+	position: absolute;
+	left: 0vw;
+	top: 0vh;
+	height: 81vh;
+	border-radius: 1vw;
+	width: 21.1vw;
+	z-index: 1;
+	background-color: rgb(27, 27, 27);
+}
+.calloutunten {
+	position: absolute;
+	width: 15vw;
+	top: 78.5vh;
+	left: 3.5vw;
+	border-radius: 20vw;
+	height: 1vh;
+	z-index: 2;
+	cursor: pointer;
+	background-color: rgb(206, 206, 206);
+}
+.calloutunten:hover {
+	animation: untenline-nachoben;
+	animation-duration: 1.5s;
+}
+.calloutuntens {
+	position: absolute;
+	width: 15vw;
+	top: 78.5vh;
+	left: 3.5vw;
+	border-radius: 20vw;
+	height: 1vh;
+	z-index: 2;
+	cursor: pointer;
+	background-color: rgb(206, 206, 206);
+}
+.calloutuntens:hover {
+	animation: untenline-nachoben;
+	animation-duration: 1.5s;
+}
+.texttelefon {
+	position: absolute;
+	color: white;
+	top: 2.9vh;
+	left: 1vw;
+	font-size: 1.6vw;
+	letter-spacing: 0.05vw;
+	font-family: "Poppins", sans-serif;
+}
+.containerunten {
+	position: relative;
+	height: 51vh;
+	top: 10vh;
+	width: 21vw;
+	background-color: rgb(10, 10, 10);
+}
+.containeruntens {
+	position: relative;
+	height: 71vh;
+	top: 10vh;
+	width: 21vw;
+	background-color: rgb(26, 26, 26);
+}
+.containernummer {
+	position: relative;
+	height: 20vh;
+	width: 21vw;
+	top: 10vh;
+	background-color: rgb(29, 29, 29);
+}
+.containerunteninfos {
+	position: absolute;
+	height: 7vh;
+	width: 21vw;
+	top: 41vh;
+	background-color: rgba(255, 0, 0, 0);
+}
+.containerunteninfoss {
+	position: absolute;
+	height: 7vh;
+	width: 21vw;
+	top: 61vh;
+	background-color: rgba(49, 49, 49, 0);
+}
+.buttonnumber {
+	position: relative;
+	left: 1vw;
+	top: 20vh;
+	width: 3.5vw;
+	height: 3.5vw;
+	z-index: 29;
+	display: inline-block;
+	margin-left: 2vw;
+	font-size: 2vw;
+	margin-top: 1vh;
+	background-color: rgb(22, 22, 22);
+	outline: none;
+	cursor: pointer;
+	border-radius: 0.6vw;
+	color: #ffffff;
+	border: none;
+	border-radius: 10vw;
+	outline: none;
+	z-index: 29;
+}
+.buttonnumber:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	background-color: rgba(87, 87, 87, 0.808);
+}
+.bin {
+	position: relative;
+	top: 0.4vh;
+	width: 2vw;
+	left: 0vw;
+}
+#calls {
+	background-color: green;
+}
+.calling {
+	position: relative;
+	top: 0.5vh;
+	width: 2.5vw;
+	pointer-events: none;
+	left: 0.1vw;
+}
+.back {
+	position: relative;
+	top: 0.4vh;
+	width: 2vw;
+	left: -0.1vw;
+}
+.nummer {
+	position: absolute;
+	color: white;
+	font-size: 3.5vw;
+	width: 21vw;
+	background-color: rgba(255, 0, 0, 0);
+	top: 5vh;
+	left: 0vw;
+	text-align: center;
+	font-family: "Bebas Neue", cursive;
+}
+.auswahl {
+	position: relative;
+	color: white;
+	font-size: 1vw;
+	left: 1.2vw;
+	top: 2vh;
+	margin-left: 2vw;
+	cursor: pointer;
+	font-family: "Poppins", sans-serif;
+}
+.auswahl:hover {
+	border-bottom: 2px solid green;
+	color: green;
+}
+.kontaktes {
+	position: absolute;
+	left: 0vw;
+	top: 0vh;
+	height: 81vh;
+	border-radius: 1vw;
+	width: 21.1vw;
+	z-index: 1;
+	background-color: rgb(27, 27, 27);
+}
+.eigenenummerstrich {
+	position: absolute;
+	height: 0.2vh;
+	background-color: rgb(46, 46, 46);
+	top: 3vh;
+	left: 1vw;
+	width: 18.7vw;
+}
+.eigenenummertext {
+	position: absolute;
+	color: white;
+	font-size: 1.2vw;
+	top: -1.2vh;
+	left: 1vw;
+}
+.eigenenummercontainer {
+	position: absolute;
+	border-radius: 1vw;
+	width: 18.7vw;
+	height: 7vh;
+	top: 4vh;
+	left: 1vw;
+	background-color: rgb(31, 31, 31);
+}
+.contactbild {
+	position: absolute;
+	width: 2.2vw;
+	left: 0.5vw;
+	top: 1.5vh;
+}
+.nummerse {
+	position: absolute;
+	font-size: 1.4vw;
+	left: 3.5vw;
+	top: -0.5vh;
+	color: white;
+	font-family: "Poppins", sans-serif;
+}
+.scroll {
+	position: absolute;
+	background-color: rgba(255, 0, 0, 0);
+	height: 62vh;
+	width: 20.6vw;
+	overflow-y: scroll;
+	left: 0vw;
+}
+.scroll::-webkit-scrollbar {
+	width: 0.4vw;
+	height: 5vh;
+}
+
+.scroll::-webkit-scrollbar-track {
+	border-radius: 10vw;
+	background-color: rgba(255, 255, 255, 0.294);
+}
+
+.scroll::-webkit-scrollbar-thumb {
+	background-color: #202020;
+	border-radius: 20vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.185) 0 3px 13px 1px;
+}
+.viptext {
+	position: absolute;
+	color: white;
+	font-size: 1.2vw;
+	top: 0vh;
+	left: 1vw;
+}
+.VIPstrich {
+	position: absolute;
+	height: 0.2vh;
+	background-color: rgb(46, 46, 46);
+	top: 3.8vh;
+	left: 1vw;
+	width: 18.7vw;
+}
+.vipkasten {
+	position: relative;
+	height: 7.5vh;
+	width: 19vw;
+	left: 1vw;
+	margin-top: 0.5vh;
+	top: -1vh;
+	display: flex;
+	background-color: rgba(255, 0, 0, 0);
+	top: 4.5vh;
+}
+
+.vipcontainer {
+	position: relative;
+	border-radius: 0.4vw;
+	width: 18.7vw;
+	height: 7vh;
+	cursor: pointer;
+	top: 0vh;
+	left: 0vw;
+	background-color: rgb(31, 31, 31);
+}
+.vipcontainer:hover {
+	transition: 1s all;
+	background-color: rgb(44, 44, 44);
+}
+.vipkontakttext {
+	position: absolute;
+	font-size: 1.2vw;
+	left: 3.5vw;
+	top: 0vh;
+	color: white;
+	font-family: "Poppins", sans-serif;
+}
+.add {
+	position: absolute;
+	width: 2.4vw;
+	cursor: pointer;
+	left: 18vw;
+	top: 4.9vh;
+}
+.vipanzahl {
+	position: absolute;
+	font-size: 1.45vw;
+	left: 18.5vw;
+	top: 0.5vh;
+	color: white;
+	font-family: "Poppins", sans-serif;
+}
+.vips {
+	position: relative;
+	min-height: 1vh;
+	top: 10.5vh;
+	width: 20vw;
+	display: inline-block;
+	background-color: rgba(255, 0, 0, 0);
+}
+.Kontaktese {
+	position: relative;
+	display: flex;
+	margin-top: 11vh;
+	height: 11vh;
+	top: 5vh;
+	width: 20vw;
+	display: inline-block;
+	background-color: rgba(255, 0, 0, 0);
+}
+.kontaktetext {
+	position: absolute;
+	color: white;
+	font-size: 1.2vw;
+	top: -1vh;
+	left: 1vw;
+}
+.kontakestrich {
+	position: absolute;
+	height: 0.2vh;
+	background-color: rgb(46, 46, 46);
+	top: 2.8vh;
+	left: 1vw;
+	width: 18.7vw;
+}
+.kontaktname {
+	position: absolute;
+	font-size: 1.2vw;
+	left: 3.5vw;
+	top: 0.1vh;
+	color: white;
+	font-family: "Poppins", sans-serif;
+}
+.kontaktanzahl {
+	position: absolute;
+	font-size: 1.45vw;
+	left: 18.5vw;
+	top: -0.7vh;
+	color: white;
+	font-family: "Poppins", sans-serif;
+}
+.kontaktcontainer {
+	position: relative;
+	border-radius: 1vw;
+	width: 18.7vw;
+	height: 7vh;
+	top: 3vh;
+	cursor: pointer;
+	margin-top: 1vh;
+	left: 1vw;
+	background-color: rgb(31, 31, 31);
+}
+.kontaktcontainer:hover {
+	transition: 1s all;
+	background-color: rgb(44, 44, 44);
+}
+.letztese {
+	position: absolute;
+	left: 0vw;
+	top: 0vh;
+	height: 81vh;
+	border-radius: 1vw;
+	width: 21.1vw;
+	z-index: 1;
+	background-color: rgb(27, 27, 27);
+}
+.calloutuntense {
+	position: absolute;
+	width: 15vw;
+	top: 78.5vh;
+	left: 3.5vw;
+	border-radius: 20vw;
+	height: 1vh;
+	z-index: 2;
+	cursor: pointer;
+	background-color: rgb(206, 206, 206);
+}
+.calloutuntense:hover {
+	animation: untenline-nachoben;
+	animation-duration: 1.5s;
+}
+.containeruntense {
+	position: relative;
+	height: 71vh;
+	top: 10vh;
+	width: 21vw;
+	background-color: rgb(26, 26, 26);
+}
+.textkontaktemissed {
+	position: absolute;
+	color: white;
+	top: 2.9vh;
+	left: 1vw;
+	font-size: 1.6vw;
+	letter-spacing: 0.05vw;
+	font-family: "Poppins", sans-serif;
+}
+.containerunteninfose {
+	position: absolute;
+	height: 7vh;
+	width: 21vw;
+	top: 61vh;
+	background-color: rgba(255, 0, 0, 0);
+}
+
+.left12 {
+	position: absolute;
+	left: 0vw;
+	top: 0vw;
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+	background: linear-gradient(
+		to right,
+		rgba(114, 0, 0, 0.389),
+		rgba(0, 0, 255, 0) 80.71%
+	);
+}
+.right12 {
+	position: absolute;
+	right: 0vw;
+	top: 0vw;
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+	background: linear-gradient(
+		to left,
+		rgba(114, 0, 89, 0.389),
+		rgba(0, 0, 255, 0) 80.71%
+	);
+}
+.dropair {
+	position: absolute;
+	width: 2.1vw;
+	right: 0.8vw;
+	top: 1.5vh;
+	cursor: pointer;
+}
+.einspeichern {
+	position: absolute;
+	z-index: 20;
+	width: 100%;
+	height: 100%;
+	top: 0vh;
+	border-radius: 1vw;
+	left: 0vw;
+	background-color: rgb(31, 31, 31);
+}
+.einspeicher.active {
+	animation-name: fadeOutRight;
+	animation-duration: 1s;
+}
+
+.backtomain {
+	position: absolute;
+	width: 2.4vw;
+	transform: rotate(45deg);
+	z-index: 31;
+	top: 2.5vw;
+	cursor: pointer;
+	right: 0.9vw;
+}
+.backtomainzwei {
+	position: absolute;
+	width: 2.4vw;
+	transform: rotate(45deg);
+	z-index: 31;
+	top: 0.35vh;
+	cursor: pointer;
+	right: 0.9vw;
+}
+.neuerkontakt {
+	position: absolute;
+	font-family: "Poppins", sans-serif;
+	left: 1.3vw;
+
+	top: 3.2vh;
+	font-size: 1.4vw;
+	color: rgb(255, 255, 255);
+}
+.textbio {
+	position: absolute;
+	font-family: "Courier New", Courier, monospace;
+	left: 1.3vw;
+
+	top: 35.5vh;
+	font-size: 1.1vw;
+	color: rgb(255, 255, 255);
+}
+.firstcontainer {
+	position: absolute;
+	width: 12vw;
+	height: 12vh;
+	background-color: rgba(124, 124, 124, 0.123);
+	top: 11vh;
+	left: 4.5vw;
+	border-radius: 1vw;
+}
+.topdiv {
+	position: absolute;
+	width: 100%;
+	height: 9vh;
+	border-top-left-radius: 1vw;
+	border-top-right-radius: 1vw;
+	background-color: rgba(23, 23, 23, 0.608);
+}
+.container-profilbild {
+	position: absolute;
+	width: 100%;
+	height: 13vh;
+	top: 9vh;
+	background-color: rgba(59, 59, 59, 0.606);
+}
+.profilbildcall {
+	position: absolute;
+	width: 5vw;
+	top: 1.5vh;
+	cursor: pointer;
+	left: 3.5vw;
+}
+.profilbildcall:hover {
+	transition: 1s all;
+	filter: brightness(20%);
+}
+.inputtname {
+	border: none;
+	-webkit-appearance: none;
+	padding: 3px;
+	position: relative;
+	left: 2vw;
+	width: 17vw;
+	top: 7vh;
+	color: white;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+		"Lucida Sans", Arial, sans-serif;
+	height: 4vh;
+	text-align: center;
+	z-index: 29;
+	font-size: 1.1vw;
+	background-color: rgba(82, 82, 82, 0.469);
+	outline: none;
+	border-radius: 0.3vw;
+}
+.inputtname:hover {
+	transition: color 0.6 ease;
+}
+.inputtname:focus::placeholder {
+	color: transparent;
+}
+.inputtname::placeholder {
+	color: white;
+	transition: color 0.3s ease;
+}
+.Inputtnummer {
+	border: none;
+	-webkit-appearance: none;
+	padding: 3px;
+	position: relative;
+	left: 2vw;
+	width: 17vw;
+	top: 9vh;
+	color: white;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+		"Lucida Sans", Arial, sans-serif;
+	height: 4vh;
+	text-align: center;
+	z-index: 29;
+	font-size: 1.1vw;
+	background-color: rgba(82, 82, 82, 0.469);
+	outline: none;
+	border-radius: 0.3vw;
+}
+.Inputtnummer:hover {
+	transition: color 0.6 ease;
+}
+.Inputtnummer:focus::placeholder {
+	color: transparent;
+}
+.Inputtnummer::placeholder {
+	color: white;
+	transition: color 0.3s ease;
+}
+.SubmitNummer {
+	position: absolute;
+	left: 2.2vw;
+	bottom: 4.5vh;
+	width: 17vw;
+	height: 5vh;
+	z-index: 29;
+	display: inline-block;
+	font-size: 1.3vw;
+	background-color: rgba(186, 26, 175, 0.378);
+	outline: none;
+	cursor: pointer;
+	border-radius: 0.2vw;
+	color: #ffffff;
+	border: none;
+	outline: none;
+	z-index: 29;
+}
+.SubmitNummer:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	transition: 1s;
+	background-color: rgba(87, 87, 87, 0.808);
+}
+.SubmitGalarie {
+	position: absolute;
+	left: 1.1vw;
+	top: 1.5vh;
+	width: 17vw;
+	height: 4.2vh;
+	z-index: 29;
+	display: inline-block;
+	font-size: 1.3vw;
+	background-color: rgba(61, 61, 61, 0.132);
+	outline: none;
+	cursor: pointer;
+	border-radius: 0.2vw;
+	color: #00eeff;
+	border: none;
+	outline: none;
+	z-index: 29;
+}
+.SubmitGalarie:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	transition: 1s;
+	background-color: rgba(87, 87, 87, 0.808);
+}
+.SubmitURL {
+	position: absolute;
+	left: 1.1vw;
+	bottom: 1vh;
+	width: 17vw;
+	height: 4.2vh;
+	z-index: 29;
+	display: inline-block;
+	font-size: 1.2vw;
+	background-color: rgba(186, 26, 175, 0.075);
+	outline: none;
+	cursor: pointer;
+	border-radius: 0.2vw;
+	color: #ffffff;
+	border: none;
+	outline: none;
+	z-index: 29;
+}
+.SubmitURL:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	transition: 1s;
+	background-color: rgba(87, 87, 87, 0.808);
+}
+.Inputtfield {
+	border: none;
+	-webkit-appearance: none;
+	padding: 3px;
+	position: absolute;
+	left: 2vw;
+	width: 17vw;
+	top: 25vh;
+	color: rgba(255, 255, 255, 0.397);
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+		"Lucida Sans", Arial, sans-serif;
+	height: 18vh;
+	resize: none;
+	z-index: 29;
+	font-size: 1.5vw;
+	background-color: rgb(51, 51, 51);
+	outline: none;
+	border-radius: 0.6vw;
+}
+.Inputtfield:hover {
+	transition: color 0.6 ease;
+}
+.Inputtfield:focus::placeholder {
+	color: transparent;
+}
+.Inputtfield::placeholder {
+	color: white;
+	transition: color 0.3s ease;
+}
+.container-bottom {
+	position: absolute;
+	width: 100%;
+	height: 55vh;
+	background-color: rgba(124, 124, 124, 0.123);
+	border-radius: 1vw;
+	bottom: 0.1vh;
+}
+.textinformation {
+	position: absolute;
+	font-family: "Poppins", sans-serif;
+	left: 2.5vw;
+
+	top: -1vh;
+	width: 16vw;
+	text-align: center;
+	font-size: 1.4vw;
+	border-bottom: 0.2vh solid white;
+	color: rgb(255, 255, 255);
+}
+.biotext {
+	position: absolute;
+	font-family: "Poppins", sans-serif;
+	left: 2.5vw;
+
+	top: 17.7vh;
+	width: 16vw;
+	text-align: center;
+	font-size: 1.3vw;
+	border-bottom: 0.2vh solid white;
+	color: rgb(255, 255, 255);
+}
+.container-talephoto {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.332);
+	z-index: 166;
+}
+.container-downloko {
+	position: absolute;
+	z-index: 160;
+	width: 90%;
+	height: 20vh;
+	bottom: 6vh;
+	border-radius: 1vw;
+	left: 1.25vw;
+	background-color: rgb(52, 52, 52);
+}
+.strich-downloko {
+	position: absolute;
+	width: 17vw;
+	height: 0.3vh;
+	background-color: white;
+	top: 7.3vh;
+	left: 1vw;
+}
+.InputtURL {
+	border: none;
+	-webkit-appearance: none;
+	padding: 3px;
+	position: absolute;
+	left: 1vw;
+	width: 16.8vw;
+	top: 9vh;
+	color: white;
+	font-family: "Bebas Neue", cursive;
+	height: 4vh;
+	text-align: center;
+	z-index: 29;
+	font-size: 1.4vw;
+	background-color: rgba(20, 20, 20, 0.224);
+	outline: none;
+	border-radius: 0.3vw;
+}
+.InputtURL:hover {
+	transition: color 0.6 ease;
+}
+.InputtURL:focus::placeholder {
+	color: transparent;
+}
+.InputtURL::placeholder {
+	color: white;
+	transition: color 0.3s ease;
+}
+@keyframes fadeOutRight {
+	0% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+	100% {
+		opacity: 0;
+		transform: translateX(20vw);
+	}
+}
+
+@keyframes fadeOutRights {
+	0% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+	100% {
+		opacity: 0;
+		transform: translateX(4vw);
+	}
+}
+@keyframes fadeInRight {
+	0% {
+		opacity: 0;
+		transform: translateX(20vw);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0vw);
+	}
+}
+@keyframes fadeInBottom {
+	0% {
+		opacity: 0;
+		transform: translateY(50vw);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0vw);
+	}
+}
+@keyframes fadeOutBottom {
+	0% {
+		opacity: 1;
+		transform: translateY(0vw);
+	}
+	100% {
+		opacity: 0;
+		transform: translateY(50vw);
+	}
+}
+@keyframes fadeOut {
+	0% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}

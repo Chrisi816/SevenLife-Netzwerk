@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script
+			src="https://kit.fontawesome.com/b54aaf805f.js"
+			crossorigin="anonymous"
+		></script>
+		<link rel="stylesheet" href="index.css" />
+	</head>
+	<body>
+		<div class="container">
+			<div class="left"></div>
+			<div class="middle">
+				<div class="hauptseite">
+					<div class="leftside">
+						<h1 class="accountname" id="name">Chrisi Espasito</h1>
+						<span class="status" id="status"> Status: Owner </span>
+						<span class="vip" id="vip"> VIP </span>
+						<h2 class="warns" id="warns">(0) Warns</h2>
+						<span class="skillbaumlevel"> Skillbaum Level: </span>
+						<span class="skillbaumlevelxp"> Skillbaum XP: </span>
+						<span class="skillbaumlevelpoints">
+							Skillbaum Points:
+						</span>
+						<span class="skillbaumlevel2" id="skillbaumlevel2">
+							0 Level
+						</span>
+						<span class="skillbaumlevelxp2" id="skillbaumlevelxp2">
+							0 XP
+						</span>
+						<span
+							class="skillbaumlevelpoints2"
+							id="skillbaumlevelpoints2"
+						>
+							0 P.
+						</span>
+						<div class="visainfo">
+							<h1 class="visastufeinfo">Visum Stufe:</h1>
+							<div class="loader">
+								<div class="loader-bg">
+									<div class="text">0%</div>
+									<h1 class="stufe" id="stufe">1</h1>
+								</div>
+
+								<div class="spiner-holder-one animate-0-25-a">
+									<div
+										class="spiner-holder-two animate-0-25-b"
+									>
+										<div
+											class="loader-spiner"
+											style=""
+										></div>
+									</div>
+								</div>
+								<div class="spiner-holder-one animate-25-50-a">
+									<div
+										class="spiner-holder-two animate-25-50-b"
+									>
+										<div class="loader-spiner"></div>
+									</div>
+								</div>
+								<div class="spiner-holder-one animate-50-75-a">
+									<div
+										class="spiner-holder-two animate-50-75-b"
+									>
+										<div class="loader-spiner"></div>
+									</div>
+								</div>
+								<div class="spiner-holder-one animate-75-100-a">
+									<div
+										class="spiner-holder-two animate-75-100-b"
+									>
+										<div class="loader-spiner"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="rightside">
+						<h1 class="übersichttext">Übersicht:</h1>
+						<div class="strich-übersicht"></div>
+						<div class="container-infos">
+							<div class="container-infos-ifno">
+								<img
+									src="src/outline_home_white_48dp.png"
+									class="homeimg"
+									alt=""
+								/>
+								<h1 class="text-infos">
+									Du Wohnst momentan im:
+								</h1>
+								<h2 class="arbeitsname" id="wohnungssituation">
+									- Hotel
+								</h2>
+								<h1 class="text-unten">Wohnungen</h1>
+							</div>
+							<div class="container-infos-ifno">
+								<img
+									src="src/outline_apartment_white_36dp.png"
+									class="homeimg"
+									alt=""
+								/>
+								<h1 class="text-infos">Angemeldete Firma:</h1>
+								<h2 class="arbeitsname" id="wohnungssituation">
+									- Keine Firma
+								</h2>
+								<h1 class="text-unten">Firma</h1>
+							</div>
+							<div class="container-infos-ifno">
+								<h1 class="text-infos">
+									Du Arbeitest momentan als:
+								</h1>
+								<h2 class="arbeitsname" id="jobstatus">
+									- Unemployed ffg sf dsfdd sf
+								</h2>
+								<img
+									src="src/outline_mood_white_36dp.png"
+									class="homeimg"
+									alt=""
+								/>
+								<h1 class="text-unten">Arbeit</h1>
+							</div>
+							<div class="container-infos-ifno">
+								<h1 class="text-infos">Du bist momentan in:</h1>
+								<h2 class="arbeitsname" id="orgastatus">
+									- Keiner Orga
+								</h2>
+								<img
+									src="src/outline_work_outline_white_36dp.png"
+									class="homeimg"
+									alt=""
+								/>
+								<h1 class="text-unten">Orga</h1>
+							</div>
+						</div>
+						<div class="strich-übersicht2"></div>
+						<div class="GreenCard">
+							<img
+								src="src/goldbarren.png"
+								class="goldbarren"
+								alt=""
+							/>
+							<h1 class="infobelohnung" id="infobelohnung">
+								Du musst noch 60 Min aktiv spielen um deine
+								Belohnung zu bekommen
+							</h1>
+						</div>
+						<div class="informationen">
+							<div class="container-id-information">
+								<span class="spieleridtext">Spieler ID:</span>
+								<h1 class="spieleridtextid" id="spielerid">
+									0
+								</h1>
+							</div>
+							<div class="container-id-information2">
+								<span class="spieleridtext"
+									>Aktuelle Spieler:</span
+								>
+								<h1 class="spieleridtextid" id="spieleractive">
+									0 / 10
+								</h1>
+							</div>
+							<div class="container-id-information3">
+								<span class="spieleridtext"
+									>Conntected um:</span
+								>
+								<h1 class="spieleridtextid" id="connected">
+									0
+								</h1>
+							</div>
+						</div>
+						<div class="activatecode">
+							<img src="src/juwelen.png" class="juwelen" alt="" />
+							<h1 class="Belohnungaktiviern">
+								Willst du einen Code aktivieren denn du von
+								einem Teamler bekommen hast?
+							</h1>
+							<input
+								class="inputt-sendcommand"
+								id="inputt-sendcommand"
+								placeholder="Code [Enter]"
+							/>
+						</div>
+						<div class="drittecard">
+							<img src="src/money.png" class="money" alt="" />
+							<h1 class="Belohnungaktiviern">
+								Willst du einen Creator Code von deinem
+								Lieblings Streamer eingeben?
+							</h1>
+							<input
+								class="inputt-sendcommand2"
+								id="inputt-sendcommand2"
+								placeholder="Code [Enter]"
+							/>
+						</div>
+					</div>
+				</div>
+				<div class="ranking-container">
+					<div class="leftside">
+						<h1 class="kategorien">Kategorien</h1>
+						<div class="container-kategorien visa-rank">
+							<img
+								src="src/baseline_featured_play_list_white_48dp.png"
+								class="img-kategorien"
+								alt=""
+							/>
+							<h1 class="text-container-kato">Visa - Ranking</h1>
+						</div>
+						<div class="container-kategorien onlineplayer">
+							<img
+								src="src/baseline_person_white_48dp.png"
+								class="img-kategorien"
+								alt=""
+							/>
+							<h1 class="text-container-kato">
+								Online - Spieler
+							</h1>
+						</div>
+						<div class="container-kategorien ban">
+							<img
+								src="src/outline_reorder_white_36dp.png"
+								class="img-kategorien"
+								alt=""
+							/>
+							<h1 class="text-container-kato">Bann - Ranking</h1>
+						</div>
+					</div>
+
+					<div class="spielerliste">
+						<div class="rightside">
+							<div class="normalsite">
+								<h1 class="text-spieler-ranking">ID</h1>
+								<h1 class="text-spieler-Name">Name</h1>
+								<h1 class="text-spieler-Status">Status</h1>
+								<h1 class="text-spieler-visastufe">
+									Visastufe
+								</h1>
+								<div
+									class="container-spieler-infos"
+									id="ranking"
+								></div>
+							</div>
+						</div>
+					</div>
+					<div class="banlist">
+						<div class="rightside">
+							<div class="normalsite">
+								<h1 class="text-spieler-ranking">ID</h1>
+								<h1 class="text-spieler-Name">Bann Grund</h1>
+								<h1 class="text-spieler-visastufe">Dauer</h1>
+								<div
+									class="container-ban-infos"
+									id="rankings"
+								></div>
+							</div>
+						</div>
+					</div>
+					<div class="onlineplayerranking">
+						<div class="rightside">
+							<div class="normalsite">
+								<div class="balkenbackground">
+									<img
+										src="src/1f468-1f527.png"
+										class="emoji1"
+										alt=""
+									/>
+									<img
+										src="src/1f46e-1f3fb.png"
+										class="emoji2"
+										alt=""
+									/>
+									<img
+										src="src/1f468-2695.png"
+										class="emoji3"
+										alt=""
+									/>
+									<img
+										src="src/1f9d1-1f3fb.png"
+										class="emoji4"
+										alt=""
+									/>
+									<h1
+										class="onlinelist-tier1"
+										id="werkstattpl"
+									>
+										10
+									</h1>
+									<h1 class="onlinelist-tier2" id="policepl">
+										10
+									</h1>
+									<h1 class="onlinelist-tier3" id="medicpl">
+										10
+									</h1>
+									<h1 class="onlinelist-tier4" id="playlist">
+										10
+									</h1>
+								</div>
+
+								<h1 class="text-ospieler-ranking">ID</h1>
+								<h1 class="text-ospieler-Name">
+									Name + Nachname
+								</h1>
+								<h1 class="text-ospieler-visastufe">Ping</h1>
+								<div
+									class="container-online-infos"
+									id="rankings"
+								></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="Shops"></div>
+				<div class="statistiks">
+					<h1 class="statistik">Statistik</h1>
+					<h2 class="name-stats" id="name-stats">Chrisi Espasito</h2>
+					<div class="loaders">
+						<div class="loader-bg">
+							<div class="texts">0%</div>
+							<h1 class="stufe" id="stufes">1</h1>
+						</div>
+						<div class="spiner-holder-one animate-0-25-a">
+							<div class="spiner-holder-two animate-0-25-bs">
+								<div class="loader-spiner" style=""></div>
+							</div>
+						</div>
+						<div class="spiner-holder-one animate-25-50-a">
+							<div class="spiner-holder-two animate-25-50-bs">
+								<div class="loader-spiner"></div>
+							</div>
+						</div>
+						<div class="spiner-holder-one animate-50-75-a">
+							<div class="spiner-holder-two animate-50-75-bs">
+								<div class="loader-spiner"></div>
+							</div>
+						</div>
+						<div class="spiner-holder-one animate-75-100-a">
+							<div class="spiner-holder-two animate-75-100-bs">
+								<div class="loader-spiner"></div>
+							</div>
+						</div>
+					</div>
+					<div class="untenbox">
+						<div class="killbox">
+							<h1 class="gambostats">Gambo - Statistik:</h1>
+							<h1 class="kills">Tötungen</h1>
+							<span class="killsanzahl" id="kills"> 0 </span>
+							<h2 class="tode">Tode</h2>
+							<span class="todeanzahl" id="deaths"> 0 </span>
+							<h2 class="kd">K / D</h2>
+							<span class="kdanzahl" id="kds"> 0.00 </span>
+						</div>
+						<div class="zeitbox">
+							<h1 class="gambostats">Allgemein - Statistik:</h1>
+							<h1 class="accountcreating">Einreise - Datum</h1>
+							<h1 class="accountcreatingstats" id="einreisedatum">
+								02.20202.202 2.2.2.
+							</h1>
+							<h1 class="spielzeit">Spielzeit:</h1>
+							<h1 class="spielzeitstats" id="spielzeit">2h 2m</h1>
+						</div>
+					</div>
+				</div>
+				<div class="tickets">
+					<div class="hauptseite-ticket">
+						<h1 class="ticket-text">Ticket - Erstellen</h1>
+						<button class="button" id="TicketShow">
+							Bestehende Tickets
+						</button>
+						<div class="container-ticket-auswahl">
+							<div class="dreicontainer-report bugmelden">
+								<h1 class="inhalt">Bug Melden</h1>
+								<span class="infotextzuminhalt">
+									Hier kannst du Bugs melden, welche dein
+									Spiele Erlebnis verschlechtern
+								</span>
+							</div>
+							<div class="dreicontainer-report frage">
+								<h1 class="inhalt">Fragen</h1>
+								<span class="infotextzuminhalt">
+									Hier kannst du Fragen stellen, diese werden
+									so schnell wie möglich beantwortet
+								</span>
+							</div>
+							<div class="dreicontainer-report spielers">
+								<h1 class="inhalt">Spieler Melden</h1>
+								<span class="infotextzuminhalt">
+									Hier kannst du Spieler melden welche einen
+									oder mehrere Regelbrüche begangen haben
+								</span>
+							</div>
+						</div>
+					</div>
+					<div class="bestehendetickets">
+						<h1 class="ticket-Aktiv">Ticket - Aktiv</h1>
+						<button class="button1" id="TicketErstellen">
+							Ticket Erstellen
+						</button>
+						<div class="rechts-tickes">
+							<div class="linierechts"></div>
+							<div class="linielinks"></div>
+							<h1 class="iddisplay">ID</h1>
+							<h1 class="namedisplay">Titel</h1>
+							<h1 class="Bereichdisplay">Bereich</h1>
+							<div class="container-aktiveticket">
+								<div class="ticket-aktive-display">
+									<h1 class="ticketid">1</h1>
+									<h1 class="tickettitel">Gayddddd</h1>
+									<h1 class="bereichticket">Bug</h1>
+									<button class="button2" id="">+</button>
+									<button class="button3" id="">/</button>
+								</div>
+								<div class="ticket-aktive-display"></div>
+							</div>
+						</div>
+
+						<div class="linkticket">
+							<div class="linksdatail">
+								<div class="bereichse"></div>
+								<div class="scrollbereich" id="scrollbereich">
+									<h1
+										class="anfangstext"
+										id="anfangstext"
+									></h1>
+								</div>
+								<input
+									class="inputt"
+									id="inputtnachricht"
+									placeholder="Nachricht eingeben"
+								/>
+							</div>
+						</div>
+					</div>
+					<div class="bug-melden">
+						<h1 class="ticket-text">Ticket - Bugs</h1>
+						<h2 class="bettref">Bettref:</h2>
+						<input
+							class="Inputt-Wallet seveninput1"
+							id="inputts"
+							maxlength="15"
+							placeholder=""
+						/>
+						<h2 class="Beschreibung">Beschreibung:</h2>
+						<h2 class="Beschreibungs">Max 200 Zeichen</h2>
+						<textarea
+							maxlength="200"
+							autofocus
+							id="inputtwasdsese"
+							class="inputtwasdsee"
+							name="description"
+						>
+						</textarea>
+
+						<div class="rights">
+							<h1 class="danke">Vielen Dank für deine Meldung</h1>
+							<h2 class="missbrauch">
+								Missbrauch kann mit einem Bann geahndet werden
+							</h2>
+							<button class="buttons bug-button">Absenden</button>
+						</div>
+					</div>
+					<div class="frage-melden">
+						<h1 class="ticket-text">Ticket - Frage Stellen</h1>
+						<h2 class="bettref">Bettref:</h2>
+						<input
+							class="Inputt-Wallet seveninput1"
+							id="inputtss"
+							maxlength="15"
+							placeholder=""
+						/>
+						<h2 class="Beschreibung">Beschreibung:</h2>
+						<h2 class="Beschreibungs">Max 200 Zeichen</h2>
+						<textarea
+							maxlength="200"
+							autofocus
+							id="inputtwasdseses"
+							class="inputtwasdsee"
+							name="description"
+						>
+						</textarea>
+
+						<div class="rights">
+							<h1 class="danke">Vielen Dank für deine Meldung</h1>
+							<h2 class="missbrauch">
+								Missbrauch kann mit einem Bann geahndet werden
+							</h2>
+							<button class="buttons frage-button">
+								Absenden
+							</button>
+						</div>
+					</div>
+					<div class="Spieler-melden">
+						<h1 class="ticket-text">Ticket - Spieler Melden</h1>
+						<h2 class="bettref">Bettref:</h2>
+						<input
+							class="Inputt-Wallet seveninput1"
+							id="inputtsss"
+							maxlength="15"
+							placeholder=""
+						/>
+						<h2 class="Beschreibung">Beschreibung:</h2>
+						<h2 class="Beschreibungs">Max 200 Zeichen</h2>
+						<textarea
+							maxlength="200"
+							autofocus
+							id="inputtwasdsesess"
+							class="inputtwasdsee"
+							name="description"
+						>
+						</textarea>
+
+						<div class="rights">
+							<h1 class="danke">Vielen Dank für deine Meldung</h1>
+							<h2 class="missbrauch">
+								Missbrauch kann mit einem Bann geahndet werden
+							</h2>
+							<button class="buttons melden-button">
+								Absenden
+							</button>
+						</div>
+					</div>
+				</div>
+				<div class="faq-bereich">
+					<div class="leftside">
+						<h1 class="kategorien">Themen</h1>
+						<div class="scroll-container">
+							<div class="container-hilfe familie">
+								<h1 class="punkt">.</h1>
+								<h1 class="thema">
+									Wo kann ich eine Familie / Fraktion gründen?
+								</h1>
+							</div>
+							<div class="container-hilfe visas">
+								<h1 class="punkt">.</h1>
+								<h1 class="thema">
+									Was bringt mir meine Visa Stufe?
+								</h1>
+							</div>
+							<div class="container-hilfe import">
+								<h1 class="punkt">.</h1>
+								<h1 class="thema">
+									Wie kann ich Import Wägen kaufen?
+								</h1>
+							</div>
+							<div class="container-hilfe gang">
+								<h1 class="punkt">.</h1>
+								<h1 class="thema">
+									Wird es ein Gang War geben?
+								</h1>
+							</div>
+							<div class="container-hilfe vipse">
+								<h1 class="punkt">.</h1>
+								<h1 class="thema">
+									Wie bekomme ich VIP und wofür steht es?
+								</h1>
+							</div>
+							<div class="container-hilfe tankstelle">
+								<h1 class="punkt">.</h1>
+								<h1 class="thema">
+									Wie kann ich auf meine Tankstelle zugreifen?
+								</h1>
+							</div>
+						</div>
+					</div>
+					<div class="rightside">
+						<div class="frageeins">
+							<div class="Headline">
+								Wo kann ich eine Familie / Fraktion gründen?
+							</div>
+							<h1 class="text-faq">
+								Als aller erstes musst du abwägen ob du eine
+								Familie oder Fraktion gründen willst.
+								Grundsätzlich müssen Familien
+								<span class="groß">nicht</span> angemeldet
+								werden, da diese Inoffiziel gegeben sind (Kein
+								Job etc), jedoch können diese Familien als UG
+								(Untergruppierungen) mit einer Fraktion zusammen
+								arbeiten. Solltest du aber in betracht ziehen
+								eine Fraktion zu gründen dann musst du eine
+								Bewerbung im SevenLife Discord Verfassen, in der
+								ihr euch Vorstellt etc. (Mehr Informationen im
+								Discord Ticket). Bei einer Gründung von einer
+								Fraktion muss der Gründer schon eine Gruppierung
+								aus min. 3 besitzen, um die Fraktion überhaupt
+								zu beantragen. Eine Offizielle Fraktion kann bis
+								zu 16 Personen gleichzeitig aufnehmen, UG,
+								Farming Gruppen sind davon ausgenommen. Mehr
+								Infos => Ticket
+							</h1>
+						</div>
+						<div class="fragezwei">
+							<div class="Headline">
+								Was bringt mir meine Visa Stufe?
+							</div>
+							<h1 class="text-faq zweis">
+								Mit deiner Visa Stufe können andere Spieler
+								sehen wie lange du schon auf dem Server spiels,
+								ausserdem ist es ein guter Aspekt eine hohe Visa
+								Stufe zu haben, da im zweifelfall dir mehr
+								geglaubt wird da du schon seit einiger Zeit auf
+								unserem Server spielst. Grundsützlich sind das
+								jedoch nur ausnahmen und in echt brenzlichen
+								Situationen zu begutachten. Ausserdem werden in
+								näherer Zukunft für bestimmte Visa Stufen
+								Belohnungen ausgezahlt, um den welche Aktiv auf
+								unserem Server zocken etwas wieder zu geben.
+							</h1>
+						</div>
+						<div class="fragedrei">
+							<div class="Headline">
+								Wie kann ich Import Wägen kaufen?
+							</div>
+							<h1 class="text-faq zweis">
+								Grundsätzlich gilt das wenn du ein Auto kaufen
+								willst, ein Ticket im Discord öffnen musst,
+								jedoch beachte das, dass als eine Spende zu
+								betrachten ist, in welcher du das Projekt
+								unterstützen willst, die Import wägen kommen nur
+								als kleines Dankeschön zurück. Ausserdem hat man
+								durch Import wägen keine Vorteile gegenüber den
+								Leuten die keine haben. Diese Autos darf man
+								auch nicht weiter Verkaufen, sollte man das
+								Versuchen so wird man vom Script instant 1 Tag
+								Gebannt. Um die Autos zu testen welche wir im
+								gegenzug zu einer Spende herausgeben, kannst du
+								ganz einfach in unseren Shop gehen und diese
+								dann Spawnen.
+							</h1>
+						</div>
+						<div class="fragevier">
+							<div class="Headline">
+								Wird es ein Gang War geben?
+							</div>
+							<h1 class="text-faq zweis">
+								Nein. Gegebenfalls könnte man ein Paint Ball
+								System etablieren. Jedoch ist ein Gangwar
+								<span class="groß">nicht</span> in Planung
+							</h1>
+						</div>
+						<div class="fragefünf">
+							<div class="Headline">
+								Wie bekomme ich VIP und wofür steht es?
+							</div>
+							<h1 class="text-faq zweis">
+								Das abzeichen VIP bekommen nur engste Vertraute
+								des Teams. Den VIP Satus kann man grundsätzlich
+								mit dem Team-Freund Rang im Discord vergleichen.
+							</h1>
+						</div>
+						<div class="fragesechs">
+							<div class="Headline">
+								Wie kann ich auf meine Tankstelle zugreifen?
+							</div>
+							<h1 class="text-faq">
+								Auf deine Business Immobilien kannst du in
+								deinem Gewerbe zugreifen, um genau zu sein in
+								dem Computer, dort kannst du alle Gebäuder,
+								Geschäft etc. Managen, und ggef. Personen
+								einstellen, welche dir bei deiner Arbeit helfen.
+							</h1>
+						</div>
+					</div>
+				</div>
+
+				<div class="seasonpassreiter">
+					<div class="seasonpass">
+						<div class="farbeeinsthema"></div>
+						<div class="farbeeinsthema2"></div>
+						<h1 class="infotextoben">SOMMER</h1>
+						<h1 class="infodetail">ÜBERBRÜCKEN</h1>
+						<img
+							src="src/sun-gf0bea23b0_1280.png"
+							class="imgsunn"
+							alt=""
+						/><img
+							src="src/sun-gf0bea23b0_1280.png"
+							class="imgsunn3"
+							alt=""
+						/><img
+							src="src/sun-gf0bea23b0_1280.png"
+							class="imgsunn4"
+							alt=""
+						/>
+						<img src="src/asea.png" class="imgcar" alt="" />
+						<img
+							src="src/sun-gf0bea23b0_1280.png"
+							class="imgsunn2"
+							alt=""
+						/>
+						<h1 class="detailtext">
+							Erlebe den aufregenden Sommer mit dem Season Pass!
+							Hol dir exklusive Inhalte für mehr Spaß und
+							Abenteuer. Sei bereit für den Sommer!
+						</h1>
+						<div class="container-duration">
+							<h1 class="textdetailhowmanydays">
+								Season Pass endet in:
+								<h1 class="passed" id="passed">20 Tagen</h1>
+							</h1>
+						</div>
+						<div class="container-abholen">
+							<h1 class="textdetailhowmany">60min = 10</h1>
+							<img
+								src="src/SevenCoin2.png"
+								class="imgsevencoin"
+								alt=""
+							/>
+						</div>
+						<button class="button-abhoilen">
+							Abholen 10
+							<img
+								src="src/SevenCoin2.png"
+								class="imgsevencoin"
+								alt=""
+							/>
+						</button>
+						<h1 class="infolevel2" id="infolevel2">Level 1</h1>
+						<div class="container-howmanycoins">
+							<h1 class="coinsid" id="coinsid">0 / 200</h1>
+							<img
+								src="src/SevenCoin2.png"
+								class="sevencoinmini"
+								alt=""
+							/>
+						</div>
+						<div class="container-progressbar">
+							<div
+								class="progressbarinen"
+								id="progressbarinen"
+							></div>
+						</div>
+						<div class="seasonpass">
+							<div class="scrollseasonpass">
+								<div class="barinfofree">
+									<h1 class="textwhichpass">Normal</h1>
+									<div class="container-freepasshacken">
+										<img
+											src="src/outline_done_white_48dp.png"
+											class="hackeninit"
+											alt=""
+										/>
+									</div>
+								</div>
+								<div class="barinfopremium">
+									<h1 class="textwhichpass">Premium</h1>
+								</div>
+								<div class="normalpass">
+									<div class="container-normalerpass">
+										<div class="container-rare">
+											<h1 class="textrare">Grau</h1>
+										</div>
+										<div class="container-bild">
+											<img
+												src="src/ticket-gda9b61cf7_1280.png"
+												class="gewinnbild"
+												alt=""
+											/>
+										</div>
+										<h1 class="infolevel">Level 1</h1>
+										<h1 class="gewinndetail">1000$</h1>
+									</div>
+									<div class="container-normalerpass"></div>
+									<div class="container-normalerpass"></div>
+									<div class="container-normalerpass"></div>
+									<div class="container-normalerpass"></div>
+									<div class="container-normalerpass"></div>
+									<div class="container-normalerpass"></div>
+									<div class="container-normalerpass"></div>
+									<div class="container-normalerpass"></div>
+									<div class="container-normalerpass"></div>
+									<div class="container-normalerpass"></div>
+									<div class="container-normalerpass"></div>
+									<div class="container-normalerpass"></div>
+									<div class="container-normalerpass"></div>
+									<div class="container-normalerpass"></div>
+									<div class="container-normalerpass"></div>
+									<div class="container-normalerpass"></div>
+									<div class="container-normalerpass"></div>
+									<div class="container-normalerpass"></div>
+									<div class="container-normalerpass"></div>
+									<div class="container-normalerpass"></div>
+									<div class="container-normalerpass"></div>
+									<div class="container-normalerpass"></div>
+									<div class="container-normalerpass"></div>
+									<div class="container-normalerpass"></div>
+									<div class="container-normalerpass"></div>
+								</div>
+								<div class="permiumpass">
+									<div class="container-premiumpass"></div>
+									<div class="container-premiumpass"></div>
+									<div class="container-premiumpass"></div>
+									<div class="container-premiumpass"></div>
+									<div class="container-premiumpass"></div>
+									<div class="container-premiumpass"></div>
+									<div class="container-premiumpass"></div>
+									<div class="container-premiumpass"></div>
+									<div class="container-premiumpass"></div>
+									<div class="container-premiumpass"></div>
+									<div class="container-premiumpass"></div>
+									<div class="container-premiumpass"></div>
+									<div class="container-premiumpass"></div>
+									<div class="container-premiumpass"></div>
+									<div class="container-premiumpass"></div>
+									<div class="container-premiumpass"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="right"></div>
+			<div class="unten">
+				<div class="option profil" id="profil">
+					<img
+						src="src/outline_account_circle_white_36dp.png"
+						class="img-circle"
+						alt=""
+					/>
+					<h1 class="text-auswahl">Dein Profil</h1>
+				</div>
+				<div class="option spieler" id="spieler">
+					<img
+						src="src/outline_reorder_white_36dp.png"
+						class="img-circle"
+						alt=""
+					/>
+					<h1 class="text-auswahl">Spieler</h1>
+				</div>
+				<div class="option shops" id="seasonpass">
+					<img
+						src="src/baseline_dashboard_white_48dp.png"
+						class="img-circle"
+						alt=""
+					/>
+					<h1 class="text-auswahl">Season Pass</h1>
+				</div>
+				<div class="option faq" id="faq">
+					<img
+						src="src/outline_help_outline_white_36dp.png"
+						class="img-circle"
+						alt=""
+					/>
+					<h1 class="text-auswahl">FAQ</h1>
+				</div>
+				<div class="option stats" id="stats">
+					<img
+						src="src/outline_trending_up_white_36dp.png"
+						class="img-circle"
+						alt=""
+					/>
+					<h1 class="text-auswahl">Statistik</h1>
+				</div>
+				<div class="option ticket" id="ticket">
+					<img
+						src="src/outline_book_online_white_36dp.png"
+						class="img-circle"
+						alt=""
+					/>
+					<h1 class="text-auswahl">Ticket</h1>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="index.js"></script>
+</html>

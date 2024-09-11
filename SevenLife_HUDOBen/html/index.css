@@ -1,0 +1,329 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Estonia&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Radio+Canada&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hurricane&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Goldman&family=Radio+Canada&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
+body {
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+.hud-container {
+	position: absolute;
+	left: 79vw;
+	top: 1vh;
+	width: 20vw;
+	height: 25vh;
+}
+
+#essen {
+	position: absolute;
+	width: 2.9vw;
+	height: 4.7vh;
+	overflow: hidden;
+	background: rgba(34, 34, 34, 0.523);
+	border-radius: 0.2vw;
+
+	left: 17vw;
+	top: 4vh;
+}
+#essen i {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 0.65vw;
+	top: 0.9vh;
+	font-size: 1.6vw;
+}
+#trinken {
+	position: absolute;
+	width: 2.9vw;
+	height: 4.7vh;
+	overflow: hidden;
+	background: rgba(34, 34, 34, 0.523);
+	border-radius: 0.2vw;
+
+	left: 13vw;
+	top: 4vh;
+}
+#trinken i {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 0.9vw;
+	top: 1vh;
+	font-size: 1.6vw;
+}
+
+.container-talk {
+	position: absolute;
+	width: 4vw;
+	height: 6vh;
+	left: 16.5vw;
+	border-radius: 0.5vw;
+	background-color: rgb(56, 0, 61);
+}
+.container-cash {
+	position: absolute;
+	width: 13vw;
+	height: 6vh;
+	left: 3vw;
+	border-top-right-radius: 0.5vw;
+	border-bottom-right-radius: 0.5vw;
+	background: linear-gradient(
+		to left,
+		rgb(56, 0, 61),
+		rgba(255, 255, 255, 0)
+	);
+}
+.imgcash {
+	position: absolute;
+	left: 10.3vw;
+	top: 0.3vh;
+	width: 3vw;
+}
+.micbild {
+	position: absolute;
+	width: 2.6vw;
+	left: 0.7vw;
+	top: 0.8vh;
+}
+.cash {
+	position: absolute;
+	width: 11vw;
+	overflow: hidden;
+	height: 5vh;
+	color: white;
+	left: -0.5vw;
+	text-align: right;
+	top: -1vh;
+	background-color: rgba(255, 0, 0, 0);
+	font-size: 1.8vw;
+	letter-spacing: 0.01vw;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+		sans-serif;
+}
+.rechts {
+	position: absolute;
+	width: 13vw;
+	right: 0vw;
+	height: 40vh;
+	top: 35vh;
+}
+.rechts-bild {
+	position: absolute;
+	background: linear-gradient(
+		270deg,
+		rgba(31, 31, 31, 0.63),
+		rgba(0, 255, 0, 0) 60.71%
+	);
+	filter: blur(15px);
+	width: 13vw;
+	right: 0vw;
+	height: 25vh;
+	top: 0vh;
+}
+.picture {
+	position: relative;
+	display: block;
+	margin-top: 2.2vh;
+	left: 10.5vw;
+	z-index: 4;
+	color: white;
+	text-align: right;
+	width: 2vw;
+	top: 0vh;
+}
+.texte-rechts {
+	position: relative;
+	display: block;
+	margin-top: 3.4vh;
+	left: 8vw;
+	z-index: 4;
+	color: white;
+	text-align: right;
+	width: 2vw;
+	top: -23.4vh;
+	font-size: 1.1vw;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+		sans-serif;
+}
+.playerranking {
+	position: absolute;
+	width: 20vw;
+	height: 3vh;
+	border-radius: 0.2vw;
+	background-color: rgba(9, 9, 9, 0.353);
+}
+.people {
+	position: absolute;
+	left: 0.5vw;
+	top: 0.4vh;
+	width: 1.3vw;
+}
+.playercount {
+	position: absolute;
+	overflow: hidden;
+	height: 5vh;
+	color: white;
+	left: 2.7vw;
+	top: -0.6vh;
+	background-color: rgba(255, 0, 0, 0);
+	font-weight: 100;
+	font-size: 0.9vw;
+	letter-spacing: 0.01vw;
+	font-family: "Goldman", cursive;
+	letter-spacing: 0.2vw;
+}
+.rechtse {
+	position: absolute;
+	right: 0vw;
+	width: 2.2vw;
+	height: 3vh;
+	border-radius: 0vw;
+	border-top-right-radius: 0.2vw;
+	border-bottom-right-radius: 0.2vw;
+	background: linear-gradient(
+			rgba(114, 0, 89, 0.527),
+			rgba(153, 0, 120, 0.013) 100%
+		),
+		linear-gradient(0deg, rgba(45, 0, 49, 0.614), rgba(43, 0, 35, 0));
+}
+.sevenlife {
+	position: absolute;
+	left: 0.3vw;
+	top: 0vh;
+	width: 1.7vw;
+}
+.date {
+	position: absolute;
+	overflow: hidden;
+	height: 2.5vh;
+	color: white;
+	left: 7.5vw;
+	width: 9vw;
+	text-align: center;
+	top: -0.8vh;
+	background-color: rgba(255, 0, 0, 0);
+	font-size: 1vw;
+	font-weight: 100;
+	font-family: "Goldman", cursive;
+	letter-spacing: 0.1vw;
+}
+.speaker {
+	position: absolute;
+	width: 3.5vw;
+	height: 6vh;
+	left: 16.5vw;
+	top: 4vh;
+	border-radius: 1vw;
+	background-color: rgba(9, 9, 9, 0.597);
+}
+.mic {
+	position: absolute;
+	width: 2.2vw;
+	left: 0.7vw;
+	top: 1vh;
+	z-index: 1;
+}
+.oben-bild {
+	position: absolute;
+	background: linear-gradient(
+		260deg,
+		rgba(31, 31, 31, 0.834),
+		rgba(23, 23, 23, 0) 100.71%
+	);
+	filter: blur(15px);
+	width: 30vw;
+	z-index: -1;
+	right: -9vw;
+	height: 25vh;
+	top: -8vh;
+}
+.container-cash {
+	position: absolute;
+	width: 13vw;
+	height: 6vh;
+	left: 3vw;
+	top: 4vh;
+	border-top-right-radius: 0.7vw;
+	border-bottom-right-radius: 0.7vw;
+	background: linear-gradient(
+		to left,
+		rgba(31, 31, 31, 0.63),
+		rgba(255, 255, 255, 0)
+	);
+}
+.cash {
+	position: absolute;
+	width: 13.5vw;
+	overflow: hidden;
+	height: 3vh;
+	color: white;
+	left: 5.5vw;
+	text-align: right;
+	top: 8.1vh;
+	background-color: rgba(255, 0, 0, 0);
+	font-size: 1.3vw;
+	letter-spacing: 0.1vw;
+	z-index: 1;
+
+	font-family: "Roboto", sans-serif;
+}
+.showprogrssessen {
+	position: relative;
+	height: 0%;
+	bottom: 0vh;
+	margin-top: 4.7vh;
+
+	transform-origin: top;
+	transform: rotatex(180deg);
+	width: 100%;
+	background-color: rgb(56, 0, 61);
+}
+.showprogresstrinken {
+	position: relative;
+	height: 0%;
+	bottom: 0vh;
+	margin-top: 4.7vh;
+
+	transform-origin: top;
+	transform: rotatex(180deg);
+	width: 100%;
+	background-color: rgb(56, 0, 61);
+}
+.img-essen {
+	position: absolute;
+	width: 1.5vw;
+	left: 0.6vw;
+	top: 1vh;
+	z-index: 2;
+}
+.img-trinken {
+	position: absolute;
+	width: 1.5vw;
+	left: 0.65vw;
+	top: 1vh;
+	z-index: 2;
+}
+.moneytext {
+	position: absolute;
+	width: 1.5vw;
+	right: -0.3vw;
+	top: 9.7vh;
+	z-index: 2;
+}

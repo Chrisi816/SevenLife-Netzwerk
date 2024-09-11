@@ -1,0 +1,1346 @@
+.KategorieTicket {
+	position: relative;
+	height: 5vh;
+	border-radius: 0.2vw;
+	width: 24vw;
+	top: -1vh;
+	margin-top: 1vh;
+	background-color: rgba(32, 32, 32, 0.322);
+}
+.KategorieTicket:hover {
+	transition: all 0.5s;
+	cursor: pointer;
+	background-color: rgba(32, 32, 32, 0.693);
+}
+
+.RightSideDetail {
+	position: absolute;
+	left: 51vw;
+	width: 47vw;
+	height: 80vh;
+
+	border-radius: 0.4vw;
+	top: 17vh;
+	background-color: rgba(32, 32, 32, 0.322);
+}
+.line-unter4 {
+	position: absolute;
+	width: 45vw;
+	height: 0.2vh;
+	top: 6vh;
+	left: 1vw;
+	border-top-right-radius: 1vw;
+	border-bottom-right-radius: 1vw;
+	background-color: rgb(185, 32, 86);
+}
+.MainText {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 1vw;
+	width: 35vw;
+	top: -0vh;
+	letter-spacing: 0.1vw;
+	font-size: 1.5vw;
+	transform: rotate(0deg);
+	font-family: "Khula", sans-serif;
+}
+.Button-Interaktionen10 {
+	position: relative;
+	height: 4vh;
+	width: 8vw;
+	font-family: "Goldman", cursive;
+	font-size: 1vw;
+	left: 0vw;
+	display: inline-block;
+	top: 11.5vh;
+	margin-left: 1vw;
+	border: none;
+	outline: none;
+	background-color: rgba(102, 51, 153, 0);
+	z-index: 1;
+	color: white;
+	cursor: pointer;
+	border: 0.2vw solid rgb(162, 0, 164);
+
+	border-radius: 0.2vw;
+}
+
+.Button-Interaktionen10:hover {
+	transition: 1s all;
+	background-color: rgb(110, 0, 112);
+}
+.DescText {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 1vw;
+	width: 35vw;
+	top: 6vh;
+	letter-spacing: 0.1vw;
+	font-size: 1.2vw;
+	transform: rotate(0deg);
+	font-family: "Khula", sans-serif;
+}
+.scroll-tickets2 {
+	position: absolute;
+	width: 24.5vw;
+	height: 80vh;
+	overflow: scroll;
+	background-color: rgba(255, 0, 0, 0);
+	left: 25.5vw;
+	overflow-x: hidden;
+	top: 17vh;
+}
+.scroll-tickets2::-webkit-scrollbar {
+	width: 0.3vw;
+	height: 15px;
+}
+
+.scroll-tickets2::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+.scroll-tickets2::-webkit-scrollbar-thumb {
+	background-color: #202020;
+	border-radius: 2vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.12) 0 3px 13px 1px;
+}
+.titel-ticket2 {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 0.6vw;
+
+	top: -0.4vh;
+	width: 18.4vw;
+	overflow: hidden;
+	background-color: rgba(255, 0, 0, 0);
+	letter-spacing: 0.1vw;
+	font-size: 1.2vw;
+
+	font-family: "Khula", sans-serif;
+}
+.inputtannounce {
+	position: absolute;
+	border: none;
+	-webkit-appearance: none;
+	padding: 0.1vw 1vw;
+
+	left: 1vw;
+	border-radius: 0.2vw;
+	top: 11.5vh;
+	width: 42.9vw;
+	color: rgb(202, 202, 202);
+	font-family: "Poppins", sans-serif;
+	height: 4vh;
+	text-align: left;
+	z-index: 29;
+	font-size: 1vw;
+	background-color: rgba(41, 41, 41, 0.406);
+	outline: none;
+	border: 0.1vh solid rgba(82, 82, 82, 0.481);
+}
+.inputtannounce:hover {
+	background-color: rgba(40, 40, 40, 0.454);
+	transition: color 0.6 ease;
+}
+.inputtannounce:focus::placeholder {
+	color: transparent;
+}
+.inputtannounce::placeholder {
+	color: rgb(155, 155, 155);
+	transition: color 0.3s ease;
+}
+.inputtannouncedetail {
+	position: absolute;
+	border: none;
+	-webkit-appearance: none;
+	padding: 0.1vw 1vw;
+
+	left: 1vw;
+	border-radius: 0.2vw;
+	top: 17.5vh;
+	width: 42.9vw;
+	color: rgb(202, 202, 202);
+	font-family: "Poppins", sans-serif;
+	height: 4vh;
+	text-align: left;
+	z-index: 29;
+	font-size: 1vw;
+	background-color: rgba(41, 41, 41, 0.406);
+	outline: none;
+	border: 0.1vh solid rgba(82, 82, 82, 0.481);
+}
+.inputtannouncedetail:hover {
+	background-color: rgba(40, 40, 40, 0.454);
+	transition: color 0.6 ease;
+}
+.inputtannouncedetail:focus::placeholder {
+	color: transparent;
+}
+.inputtannouncedetail::placeholder {
+	color: rgb(155, 155, 155);
+	transition: color 0.3s ease;
+}
+.inputtid {
+	position: absolute;
+	border: none;
+	-webkit-appearance: none;
+	padding: 0.1vw 1vw;
+
+	left: 1vw;
+	border-radius: 0.2vw;
+	top: 23.7vh;
+	width: 17.9vw;
+	color: rgb(202, 202, 202);
+	font-family: "Poppins", sans-serif;
+	height: 4vh;
+	text-align: left;
+	z-index: 29;
+	font-size: 1vw;
+	background-color: rgba(41, 41, 41, 0.406);
+	outline: none;
+	border: 0.1vh solid rgba(82, 82, 82, 0.481);
+}
+.inputtid:hover {
+	background-color: rgba(40, 40, 40, 0.454);
+	transition: color 0.6 ease;
+}
+.inputtid:focus::placeholder {
+	color: transparent;
+}
+.inputtid::placeholder {
+	color: rgb(155, 155, 155);
+	transition: color 0.3s ease;
+}
+.Button-Absenden {
+	position: absolute;
+	height: 5.5vh;
+	width: 45vw;
+	font-family: "Goldman", cursive;
+	font-size: 1vw;
+	left: -0.9vw;
+	padding-top: 0.2vh;
+	top: 30vh;
+	margin-left: 2vw;
+	border: none;
+	outline: none;
+	z-index: 1;
+	color: white;
+	cursor: pointer;
+	background-color: rgb(162, 0, 164);
+	border-radius: 0.2vw;
+}
+
+.Button-Absenden:hover {
+	transition: 1s all;
+	background-color: rgb(110, 0, 112);
+}
+.inputtpedname {
+	position: absolute;
+	border: none;
+	-webkit-appearance: none;
+	padding: 0.1vw 1vw;
+
+	left: 1vw;
+	border-radius: 0.2vw;
+	top: 11.5vh;
+	width: 42.9vw;
+	color: rgb(202, 202, 202);
+	font-family: "Poppins", sans-serif;
+	height: 4vh;
+	text-align: left;
+	z-index: 29;
+	font-size: 1vw;
+	background-color: rgba(41, 41, 41, 0.406);
+	outline: none;
+	border: 0.1vh solid rgba(82, 82, 82, 0.481);
+}
+.inputtpedname:hover {
+	background-color: rgba(40, 40, 40, 0.454);
+	transition: color 0.6 ease;
+}
+.inputtpedname:focus::placeholder {
+	color: transparent;
+}
+.inputtpedname::placeholder {
+	color: rgb(155, 155, 155);
+	transition: color 0.3s ease;
+}
+.inputtid2 {
+	position: absolute;
+	border: none;
+	-webkit-appearance: none;
+	padding: 0.1vw 1vw;
+
+	left: 1vw;
+	border-radius: 0.2vw;
+	top: 17.7vh;
+	width: 17.9vw;
+	color: rgb(202, 202, 202);
+	font-family: "Poppins", sans-serif;
+	height: 4vh;
+	text-align: left;
+	z-index: 29;
+	font-size: 1vw;
+	background-color: rgba(41, 41, 41, 0.406);
+	outline: none;
+	border: 0.1vh solid rgba(82, 82, 82, 0.481);
+}
+.inputtid2:hover {
+	background-color: rgba(40, 40, 40, 0.454);
+	transition: color 0.6 ease;
+}
+.inputtid2:focus::placeholder {
+	color: transparent;
+}
+.inputtid2::placeholder {
+	color: rgb(155, 155, 155);
+	transition: color 0.3s ease;
+}
+.Button-AbsendenPed {
+	position: absolute;
+	height: 5.5vh;
+	width: 45vw;
+	font-family: "Goldman", cursive;
+	font-size: 1vw;
+	left: -0.9vw;
+	padding-top: 0.2vh;
+	top: 25vh;
+	margin-left: 2vw;
+	border: none;
+	outline: none;
+	z-index: 1;
+	color: white;
+	cursor: pointer;
+	background-color: rgb(162, 0, 164);
+	border-radius: 0.2vw;
+}
+
+.Button-AbsendenPed:hover {
+	transition: 1s all;
+	background-color: rgb(110, 0, 112);
+}
+.infotextped {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 1vw;
+	width: 40vw;
+	top: 31vh;
+	letter-spacing: 0.1vw;
+	font-size: 1vw;
+	transform: rotate(0deg);
+	font-family: "Khula", sans-serif;
+}
+.DescText2 {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 1vw;
+	width: 35vw;
+	top: 38vh;
+	letter-spacing: 0.1vw;
+	font-size: 1.2vw;
+	transform: rotate(0deg);
+	font-family: "Khula", sans-serif;
+}
+.Button-Interaktionen11 {
+	position: relative;
+	height: 4vh;
+	width: 8vw;
+	font-family: "Goldman", cursive;
+	font-size: 1vw;
+	left: 0vw;
+	display: inline-block;
+	top: 43.5vh;
+	margin-left: 1vw;
+	border: none;
+	outline: none;
+	background-color: rgba(102, 51, 153, 0);
+	z-index: 1;
+	color: white;
+	cursor: pointer;
+	border: 0.2vw solid rgb(162, 0, 164);
+
+	border-radius: 0.2vw;
+}
+
+.Button-Interaktionen11:hover {
+	transition: 1s all;
+	background-color: rgb(110, 0, 112);
+}
+.DescText3 {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 1vw;
+	width: 35vw;
+	top: 47.5vh;
+	letter-spacing: 0.1vw;
+	font-size: 1.2vw;
+	transform: rotate(0deg);
+	font-family: "Khula", sans-serif;
+}
+.Button-Interaktionen12 {
+	position: relative;
+	height: 4vh;
+	width: 8vw;
+	font-family: "Goldman", cursive;
+	font-size: 1vw;
+	left: -18.4vw;
+	display: inline-block;
+	top: 53.5vh;
+	margin-left: 1vw;
+	border: none;
+	outline: none;
+	background-color: rgba(102, 51, 153, 0);
+	z-index: 1;
+	color: white;
+	cursor: pointer;
+	border: 0.2vw solid rgb(162, 0, 164);
+
+	border-radius: 0.2vw;
+}
+
+.Button-Interaktionen12:hover {
+	transition: 1s all;
+	background-color: rgb(110, 0, 112);
+}
+.inputtautoname {
+	position: absolute;
+	border: none;
+	-webkit-appearance: none;
+	padding: 0.1vw 1vw;
+
+	left: 1vw;
+	border-radius: 0.2vw;
+	top: 11.5vh;
+	width: 42.9vw;
+	color: rgb(202, 202, 202);
+	font-family: "Poppins", sans-serif;
+	height: 4vh;
+	text-align: left;
+	z-index: 29;
+	font-size: 1vw;
+	background-color: rgba(41, 41, 41, 0.406);
+	outline: none;
+	border: 0.1vh solid rgba(82, 82, 82, 0.481);
+}
+.inputtautoname:hover {
+	background-color: rgba(40, 40, 40, 0.454);
+	transition: color 0.6 ease;
+}
+.inputtautoname:focus::placeholder {
+	color: transparent;
+}
+.inputtautoname::placeholder {
+	color: rgb(155, 155, 155);
+	transition: color 0.3s ease;
+}
+
+.Button-AbsendenAuto {
+	position: absolute;
+	height: 5.5vh;
+	width: 45vw;
+	font-family: "Goldman", cursive;
+	font-size: 1vw;
+	left: -0.9vw;
+	padding-top: 0.2vh;
+	top: 18vh;
+	margin-left: 2vw;
+	border: none;
+	outline: none;
+	z-index: 1;
+	color: white;
+	cursor: pointer;
+	background-color: rgb(162, 0, 164);
+	border-radius: 0.2vw;
+}
+
+.Button-AbsendenAuto:hover {
+	transition: 1s all;
+	background-color: rgb(110, 0, 112);
+}
+.Button-Interaktionen13 {
+	position: relative;
+	height: 4vh;
+	width: 14.2vw;
+	font-family: "Goldman", cursive;
+	font-size: 1vw;
+	left: 0.3vw;
+	display: inline-block;
+	top: 29vh;
+	margin-left: 1vw;
+	border: none;
+	outline: none;
+	background-color: rgba(102, 51, 153, 0);
+	z-index: 1;
+	color: white;
+	cursor: pointer;
+	border: 0.2vw solid rgb(162, 0, 164);
+
+	border-radius: 0.2vw;
+}
+
+.Button-Interaktionen13:hover {
+	transition: 1s all;
+	background-color: rgb(110, 0, 112);
+}
+.DescText4 {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 1.2vw;
+	width: 35vw;
+	top: 23.5vh;
+	letter-spacing: 0.1vw;
+	font-size: 1.2vw;
+	transform: rotate(0deg);
+	font-family: "Khula", sans-serif;
+}
+.inputtmoneyammount {
+	position: absolute;
+	border: none;
+	-webkit-appearance: none;
+	padding: 0.1vw 1vw;
+
+	left: 1vw;
+	border-radius: 0.2vw;
+	top: 11.5vh;
+	width: 42.9vw;
+	color: rgb(202, 202, 202);
+	font-family: "Poppins", sans-serif;
+	height: 4vh;
+	text-align: left;
+	z-index: 29;
+	font-size: 1vw;
+	background-color: rgba(41, 41, 41, 0.406);
+	outline: none;
+	border: 0.1vh solid rgba(82, 82, 82, 0.481);
+}
+.inputtmoneyammount:hover {
+	background-color: rgba(40, 40, 40, 0.454);
+	transition: color 0.6 ease;
+}
+.inputtmoneyammount:focus::placeholder {
+	color: transparent;
+}
+.inputtmoneyammount::placeholder {
+	color: rgb(155, 155, 155);
+	transition: color 0.3s ease;
+}
+.inputtid3 {
+	position: absolute;
+	border: none;
+	-webkit-appearance: none;
+	padding: 0.1vw 1vw;
+
+	left: 1vw;
+	border-radius: 0.2vw;
+	top: 17.7vh;
+	width: 17.9vw;
+	color: rgb(202, 202, 202);
+	font-family: "Poppins", sans-serif;
+	height: 4vh;
+	text-align: left;
+	z-index: 29;
+	font-size: 1vw;
+	background-color: rgba(41, 41, 41, 0.406);
+	outline: none;
+	border: 0.1vh solid rgba(82, 82, 82, 0.481);
+}
+.inputtid3:hover {
+	background-color: rgba(40, 40, 40, 0.454);
+	transition: color 0.6 ease;
+}
+.inputtid3:focus::placeholder {
+	color: transparent;
+}
+.inputtid3::placeholder {
+	color: rgb(155, 155, 155);
+	transition: color 0.3s ease;
+}
+.DescText5 {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 1.2vw;
+	width: 35vw;
+	top: 31vh;
+	letter-spacing: 0.1vw;
+	font-size: 1.2vw;
+	transform: rotate(0deg);
+	font-family: "Khula", sans-serif;
+}
+.inputtmoneyammount2 {
+	position: absolute;
+	border: none;
+	-webkit-appearance: none;
+	padding: 0.1vw 1vw;
+
+	left: 1vw;
+	border-radius: 0.2vw;
+	top: 36.5vh;
+	width: 42.9vw;
+	color: rgb(202, 202, 202);
+	font-family: "Poppins", sans-serif;
+	height: 4vh;
+	text-align: left;
+	z-index: 29;
+	font-size: 1vw;
+	background-color: rgba(41, 41, 41, 0.406);
+	outline: none;
+	border: 0.1vh solid rgba(82, 82, 82, 0.481);
+}
+.inputtmoneyammount2:hover {
+	background-color: rgba(40, 40, 40, 0.454);
+	transition: color 0.6 ease;
+}
+.inputtmoneyammount2:focus::placeholder {
+	color: transparent;
+}
+.inputtmoneyammount2::placeholder {
+	color: rgb(155, 155, 155);
+	transition: color 0.3s ease;
+}
+.inputtid4 {
+	position: absolute;
+	border: none;
+	-webkit-appearance: none;
+	padding: 0.1vw 1vw;
+
+	left: 1vw;
+	border-radius: 0.2vw;
+	top: 43vh;
+	width: 17.9vw;
+	color: rgb(202, 202, 202);
+	font-family: "Poppins", sans-serif;
+	height: 4vh;
+	text-align: left;
+	z-index: 29;
+	font-size: 1vw;
+	background-color: rgba(41, 41, 41, 0.406);
+	outline: none;
+	border: 0.1vh solid rgba(82, 82, 82, 0.481);
+}
+.inputtid4:hover {
+	background-color: rgba(40, 40, 40, 0.454);
+	transition: color 0.6 ease;
+}
+.inputtid4:focus::placeholder {
+	color: transparent;
+}
+.inputtid4::placeholder {
+	color: rgb(155, 155, 155);
+	transition: color 0.3s ease;
+}
+.Button-AbsendenPed2 {
+	position: absolute;
+	height: 5.5vh;
+	width: 45vw;
+	font-family: "Goldman", cursive;
+	font-size: 1vw;
+	left: -0.9vw;
+	padding-top: 0.2vh;
+	top: 49.6vh;
+	margin-left: 2vw;
+	border: none;
+	outline: none;
+	z-index: 1;
+	color: white;
+	cursor: pointer;
+	background-color: rgb(162, 0, 164);
+	border-radius: 0.2vw;
+}
+
+.Button-AbsendenPed2:hover {
+	transition: 1s all;
+	background-color: rgb(110, 0, 112);
+}
+.DescText6 {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 1.2vw;
+	width: 35vw;
+	top: 55.3vh;
+	letter-spacing: 0.1vw;
+	font-size: 1.2vw;
+	transform: rotate(0deg);
+	font-family: "Khula", sans-serif;
+}
+.inputtmoneyammount3 {
+	position: absolute;
+	border: none;
+	-webkit-appearance: none;
+	padding: 0.1vw 1vw;
+
+	left: 1vw;
+	border-radius: 0.2vw;
+	top: 60.5vh;
+	width: 42.9vw;
+	color: rgb(202, 202, 202);
+	font-family: "Poppins", sans-serif;
+	height: 4vh;
+	text-align: left;
+	z-index: 29;
+	font-size: 1vw;
+	background-color: rgba(41, 41, 41, 0.406);
+	outline: none;
+	border: 0.1vh solid rgba(82, 82, 82, 0.481);
+}
+.inputtmoneyammount3:hover {
+	background-color: rgba(40, 40, 40, 0.454);
+	transition: color 0.6 ease;
+}
+.inputtmoneyammount3:focus::placeholder {
+	color: transparent;
+}
+.inputtmoneyammount3::placeholder {
+	color: rgb(155, 155, 155);
+	transition: color 0.3s ease;
+}
+.inputtid5 {
+	position: absolute;
+	border: none;
+	-webkit-appearance: none;
+	padding: 0.1vw 1vw;
+
+	left: 1vw;
+	border-radius: 0.2vw;
+	top: 66.5vh;
+	width: 17.9vw;
+	color: rgb(202, 202, 202);
+	font-family: "Poppins", sans-serif;
+	height: 4vh;
+	text-align: left;
+	z-index: 29;
+	font-size: 1vw;
+	background-color: rgba(41, 41, 41, 0.406);
+	outline: none;
+	border: 0.1vh solid rgba(82, 82, 82, 0.481);
+}
+.inputtid5:hover {
+	background-color: rgba(40, 40, 40, 0.454);
+	transition: color 0.6 ease;
+}
+.inputtid5:focus::placeholder {
+	color: transparent;
+}
+.inputtid5::placeholder {
+	color: rgb(155, 155, 155);
+	transition: color 0.3s ease;
+}
+.Button-AbsendenPed3 {
+	position: absolute;
+	height: 5.5vh;
+	width: 45vw;
+	font-family: "Goldman", cursive;
+	font-size: 1vw;
+	left: -0.9vw;
+	padding-top: 0.2vh;
+	top: 73vh;
+	margin-left: 2vw;
+	border: none;
+	outline: none;
+	z-index: 1;
+	color: white;
+	cursor: pointer;
+	background-color: rgb(162, 0, 164);
+	border-radius: 0.2vw;
+}
+
+.Button-AbsendenPed3:hover {
+	transition: 1s all;
+	background-color: rgb(110, 0, 112);
+}
+.inputtid7 {
+	position: absolute;
+	border: none;
+	-webkit-appearance: none;
+	padding: 0.1vw 1vw;
+
+	left: 1vw;
+	border-radius: 0.2vw;
+	top: 18.5vh;
+	width: 17.9vw;
+	color: rgb(202, 202, 202);
+	font-family: "Poppins", sans-serif;
+	height: 4vh;
+	text-align: left;
+	z-index: 29;
+	font-size: 1vw;
+	background-color: rgba(41, 41, 41, 0.406);
+	outline: none;
+	border: 0.1vh solid rgba(82, 82, 82, 0.481);
+}
+.inputtid7:hover {
+	background-color: rgba(40, 40, 40, 0.454);
+	transition: color 0.6 ease;
+}
+.inputtid7:focus::placeholder {
+	color: transparent;
+}
+.inputtid7::placeholder {
+	color: rgb(155, 155, 155);
+	transition: color 0.3s ease;
+}
+.inputtweaponammount {
+	position: absolute;
+	border: none;
+	-webkit-appearance: none;
+	padding: 0.1vw 1vw;
+
+	left: 1vw;
+	border-radius: 0.2vw;
+	top: 12vh;
+	width: 42.9vw;
+	color: rgb(202, 202, 202);
+	font-family: "Poppins", sans-serif;
+	height: 4vh;
+	text-align: left;
+	z-index: 29;
+	font-size: 1vw;
+	background-color: rgba(41, 41, 41, 0.406);
+	outline: none;
+	border: 0.1vh solid rgba(82, 82, 82, 0.481);
+}
+.inputtweaponammount:hover {
+	background-color: rgba(40, 40, 40, 0.454);
+	transition: color 0.6 ease;
+}
+.inputtweaponammount:focus::placeholder {
+	color: transparent;
+}
+.inputtweaponammount::placeholder {
+	color: rgb(155, 155, 155);
+	transition: color 0.3s ease;
+}
+.inputtid6 {
+	position: absolute;
+	border: none;
+	-webkit-appearance: none;
+	padding: 0.1vw 1vw;
+
+	left: 1vw;
+	border-radius: 0.2vw;
+	top: 36.8vh;
+	width: 17.9vw;
+	color: rgb(202, 202, 202);
+	font-family: "Poppins", sans-serif;
+	height: 4vh;
+	text-align: left;
+	z-index: 29;
+	font-size: 1vw;
+	background-color: rgba(41, 41, 41, 0.406);
+	outline: none;
+	border: 0.1vh solid rgba(82, 82, 82, 0.481);
+}
+.inputtid6:hover {
+	background-color: rgba(40, 40, 40, 0.454);
+	transition: color 0.6 ease;
+}
+.inputtid6:focus::placeholder {
+	color: transparent;
+}
+.inputtid6::placeholder {
+	color: rgb(155, 155, 155);
+	transition: color 0.3s ease;
+}
+.Button-Interaktionen15 {
+	position: relative;
+	height: 4vh;
+	width: 13vw;
+	font-family: "Goldman", cursive;
+	font-size: 1vw;
+	left: 0vw;
+	display: inline-block;
+	top: 43.5vh;
+	margin-left: 1vw;
+	border: none;
+	outline: none;
+	background-color: rgba(102, 51, 153, 0);
+	z-index: 1;
+	color: white;
+	cursor: pointer;
+	border: 0.2vw solid rgb(162, 0, 164);
+
+	border-radius: 0.2vw;
+}
+
+.Button-Interaktionen15:hover {
+	transition: 1s all;
+	background-color: rgb(110, 0, 112);
+}
+.Button-Interaktionen16 {
+	position: relative;
+	height: 4vh;
+	width: 11vw;
+	font-family: "Goldman", cursive;
+	font-size: 1vw;
+	left: -0vw;
+	display: inline-block;
+	top: 13.5vh;
+	margin-left: 1vw;
+	border: none;
+	outline: none;
+	background-color: rgba(102, 51, 153, 0);
+	z-index: 1;
+	color: white;
+	cursor: pointer;
+	border: 0.2vw solid rgb(162, 0, 164);
+
+	border-radius: 0.2vw;
+}
+
+.Button-Interaktionen16:hover {
+	transition: 1s all;
+	background-color: rgb(110, 0, 112);
+}
+.scroll-tickets4 {
+	position: absolute;
+	width: 24.5vw;
+	height: 76vh;
+	overflow: scroll;
+	background-color: rgba(255, 0, 0, 0);
+	right: 1.5vw;
+	overflow-x: hidden;
+	top: 22vh;
+}
+.scroll-tickets4::-webkit-scrollbar {
+	width: 0.3vw;
+	height: 15px;
+}
+
+.scroll-tickets4::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+.scroll-tickets4::-webkit-scrollbar-thumb {
+	background-color: #202020;
+	border-radius: 2vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.12) 0 3px 13px 1px;
+}
+.line-unter5 {
+	position: absolute;
+	width: 24.5vw;
+	height: 0.2vh;
+	top: 20.5vh;
+	right: 1.5vw;
+	border-top-right-radius: 1vw;
+	border-bottom-right-radius: 1vw;
+	background-color: rgb(185, 32, 86);
+}
+.tickettxt6 {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	right: 1.5vw;
+	width: 24.4vw;
+	text-align: left;
+	top: 15vh;
+	letter-spacing: 0.1vw;
+	font-size: 1.4vw;
+	transform: rotate(0deg);
+	font-family: "Khula", sans-serif;
+}
+.titel-ticket4 {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 0.6vw;
+
+	top: -0.4vh;
+	width: 18.4vw;
+	overflow: hidden;
+	background-color: rgba(255, 0, 0, 0);
+	letter-spacing: 0.1vw;
+	font-size: 1.2vw;
+
+	font-family: "Khula", sans-serif;
+}
+.RightSideDetail2 {
+	position: absolute;
+	left: 26vw;
+	width: 47vw;
+	height: 80vh;
+
+	border-radius: 0.2vw;
+	top: 17vh;
+	background-color: rgba(32, 32, 32, 0.322);
+}
+.container-informatione {
+	position: relative;
+	width: 10vw;
+	height: 6vh;
+	margin-left: 1.45vw;
+	background-color: rgba(33, 33, 33, 0.388);
+	top: 8vh;
+	border-radius: 0.2vw;
+	display: inline-block;
+	left: -0.5vw;
+}
+.txtionformationen {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 0.5vw;
+
+	text-align: left;
+	top: -0.5vh;
+	letter-spacing: 0.1vw;
+	font-size: 0.8vw;
+	transform: rotate(0deg);
+	font-family: "Khula", sans-serif;
+}
+.classinformation {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 0.5vw;
+
+	text-align: left;
+	top: -0.3vh;
+	letter-spacing: 0.1vw;
+	font-size: 1.8vw;
+	transform: rotate(0deg);
+	font-family: "Khula", sans-serif;
+}
+.container-maininformationen {
+	position: relative;
+	width: 21.6vw;
+	height: 6vh;
+	margin-left: 1.45vw;
+	background-color: rgba(33, 33, 33, 0.388);
+	top: 10vh;
+	border-radius: 0.2vw;
+	display: inline-block;
+	left: -0.5vw;
+}
+.txtionformationen2 {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 0.5vw;
+
+	text-align: left;
+	top: -0.5vh;
+	letter-spacing: 0.1vw;
+	font-size: 0.8vw;
+	transform: rotate(0deg);
+	font-family: "Khula", sans-serif;
+}
+.classinformation2 {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 0.5vw;
+
+	text-align: left;
+	top: 0vh;
+	letter-spacing: 0.1vw;
+	font-size: 1.6vw;
+	transform: rotate(0deg);
+	font-family: "Khula", sans-serif;
+}
+.container-black {
+	position: relative;
+	width: 73vw;
+	height: 82vh;
+	margin-left: 1.45vw;
+	background-color: rgba(37, 37, 37, 0.388);
+	top: 16vh;
+	border-radius: 0.2vw;
+	display: inline-block;
+	left: 24vw;
+}
+.line-unter7 {
+	position: absolute;
+	width: 24vw;
+	height: 0.2vh;
+	top: 21vh;
+	left: 26vw;
+	border-top-right-radius: 1vw;
+	border-bottom-right-radius: 1vw;
+	background-color: rgb(185, 32, 86);
+}
+.tickettxt7 {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 26vw;
+	width: 24.4vw;
+	text-align: left;
+	top: 15.5vh;
+	letter-spacing: 0.1vw;
+	font-size: 1.4vw;
+	transform: rotate(0deg);
+	font-family: "Khula", sans-serif;
+}
+.container-scroll-einstellungen {
+	position: absolute;
+	width: 72vw;
+	height: 75vh;
+	overflow: scroll;
+	background-color: rgba(255, 0, 0, 0);
+	left: 26vw;
+	overflow-x: hidden;
+	top: 22vh;
+}
+.container-scroll-einstellungen::-webkit-scrollbar {
+	width: 0.3vw;
+	height: 15px;
+}
+
+.container-scroll-einstellungen::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+.container-scroll-einstellungen::-webkit-scrollbar-thumb {
+	background-color: #202020;
+	border-radius: 2vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.12) 0 3px 13px 1px;
+}
+.container-scroll-einstellungenoptionen {
+	position: relative;
+	width: 71.5vw;
+	height: 6vh;
+	border-radius: 0.2vw;
+
+	background-color: rgba(27, 27, 27, 0.324);
+	left: 0vw;
+	overflow-x: hidden;
+	top: 0vh;
+}
+.optionetxt {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 0.5vw;
+	width: 24.4vw;
+	text-align: left;
+	top: -0.8vh;
+	letter-spacing: 0.1vw;
+	font-size: 1.2vw;
+	transform: rotate(0deg);
+	font-family: "Aldrich", sans-serif;
+}
+.descoptionentxt {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 0.5vw;
+	width: 64.4vw;
+	text-align: left;
+	top: 2.4vh;
+	letter-spacing: 0.1vw;
+	font-size: 0.8vw;
+	transform: rotate(0deg);
+	font-family: "Unbounded", sans-serif;
+}
+.switch {
+	position: relative;
+	display: inline-block;
+	width: 3.4vw;
+	height: 3.2vh;
+	left: 67vw;
+	top: 1.3vh;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+
+/* The slider */
+.slider {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #cccccc43;
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
+}
+
+.slider:before {
+	position: absolute;
+	content: "";
+	height: 2.4vh;
+	width: 1.3vw;
+	left: 0.3vw;
+	bottom: 0.4vh;
+	background-color: white;
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
+}
+
+input:checked + .slider {
+	background-color: rgb(185, 32, 86);
+}
+
+input:focus + .slider {
+	background-color: rgb(185, 32, 86);
+}
+
+input:checked + .slider:before {
+	-webkit-transform: translateX(26px);
+	-ms-transform: translateX(26px);
+	transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+	border-radius: 1vw;
+}
+
+.slider.round:before {
+	border-radius: 50%;
+}
+.container-itemlist {
+	position: absolute;
+	width: 45vw;
+	height: 66vh;
+	overflow: scroll;
+	background-color: rgba(255, 0, 0, 0);
+	left: 1vw;
+	overflow-x: hidden;
+	top: 12vh;
+}
+.container-itemlist::-webkit-scrollbar {
+	width: 0.3vw;
+	height: 15px;
+}
+
+.container-itemlist::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+.container-itemlist::-webkit-scrollbar-thumb {
+	background-color: #202020;
+	border-radius: 2vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.12) 0 3px 13px 1px;
+}
+.Button-Giveitem {
+	position: relative;
+	height: 4vh;
+	width: 12vw;
+	font-family: "Goldman", cursive;
+	font-size: 0.8vw;
+	left: -1.2vw;
+	top: 1vh;
+	margin-left: 2.5vw;
+	border: none;
+	outline: none;
+	background-color: rgba(102, 51, 153, 0);
+	z-index: 1;
+	color: white;
+	cursor: pointer;
+	border: 0.2vw solid rgb(162, 0, 164);
+	margin-top: 1vh;
+	border-radius: 0.2vw;
+}
+
+.Button-Giveitem:hover {
+	transition: 1s all;
+	background-color: rgb(110, 0, 112);
+}
+.nameofitem {
+	position: absolute;
+	top: -1vh;
+	width: 100%;
+	left: 0vw;
+	top: -0.2vh;
+	text-align: center;
+	background-color: rgba(255, 0, 0, 0);
+	font-family: "Goldman", cursive;
+	font-size: 0.8vw;
+	font-weight: 100;
+}
+.DescText15 {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 1.2vw;
+	width: 35vw;
+	top: 33.5vh;
+	letter-spacing: 0.1vw;
+	font-size: 1.2vw;
+	transform: rotate(0deg);
+	font-family: "Khula", sans-serif;
+}
+.Button-Interaktionen18 {
+	position: relative;
+	height: 4vh;
+	width: 14.2vw;
+	font-family: "Goldman", cursive;
+	font-size: 1vw;
+	left: 0.3vw;
+	display: inline-block;
+	top: 35.3vh;
+	margin-left: 1vw;
+	border: none;
+	outline: none;
+	background-color: rgba(102, 51, 153, 0);
+	z-index: 1;
+	color: white;
+	cursor: pointer;
+	border: 0.2vw solid rgb(162, 0, 164);
+
+	border-radius: 0.2vw;
+}
+
+.Button-Interaktionen18:hover {
+	transition: 1s all;
+	background-color: rgb(110, 0, 112);
+}
+.Button-recordoption {
+	position: relative;
+	height: 4vh;
+	width: 12vw;
+	font-family: "Goldman", cursive;
+	font-size: 0.8vw;
+	left: 0vw;
+	top: 10.5vh;
+	margin-left: 1vw;
+	border: none;
+	outline: none;
+	background-color: rgba(102, 51, 153, 0);
+	z-index: 1;
+	color: white;
+	cursor: pointer;
+	border: 0.2vw solid rgb(162, 0, 164);
+	margin-top: 1vh;
+	border-radius: 0.2vw;
+}
+
+.Button-recordoption:hover {
+	transition: 1s all;
+	background-color: rgb(110, 0, 112);
+}
+.DescTextRockstar {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 1vw;
+	width: 35vw;
+	top: 16vh;
+	letter-spacing: 0.1vw;
+	font-size: 1.2vw;
+	transform: rotate(0deg);
+	font-family: "Khula", sans-serif;
+}
+.Button-recordoptionrockstar {
+	position: absolute;
+	height: 4vh;
+	width: 12vw;
+	font-family: "Goldman", cursive;
+	font-size: 0.8vw;
+	left: 0vw;
+	top: 20.8vh;
+	margin-left: 1vw;
+	border: none;
+	outline: none;
+	background-color: rgba(102, 51, 153, 0);
+	z-index: 1;
+	color: white;
+	cursor: pointer;
+	border: 0.2vw solid rgb(162, 0, 164);
+	margin-top: 1vh;
+	border-radius: 0.2vw;
+}
+
+.Button-recordoptionrockstar:hover {
+	transition: 1s all;
+	background-color: rgb(110, 0, 112);
+}

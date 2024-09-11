@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<title>Document</title>
+		<link rel="stylesheet" href="index.css" />
+		<link rel="stylesheet" href="pedoptionen.css" />
+	</head>
+	<body>
+		<div class="container-adminpanel">
+			<div class="left"></div>
+			<div class="right"></div>
+			<div class="leftnavbar">
+				<img src="src/sevenlife.png" class="imgbild" alt="" />
+				<h1 class="textheading">
+					SevenLife - Admin Panel @Made With Love
+				</h1>
+				<div class="container-buttonholder">
+					<div class="button">
+						<div class="outline-emoji">
+							<img src="src/home.png" class="img-bild" alt="" />
+						</div>
+						<div class="fadeoutstirch" id="homestrich">
+							<h1 class="einstellungbild">Home - Optionen</h1>
+						</div>
+					</div>
+					<div class="button">
+						<div class="outline-emoji">
+							<img src="src/player.png" class="img-bild" alt="" />
+						</div>
+						<div class="fadeoutstirch" id="spieleroptionen">
+							<h1 class="einstellungbild">Spieler - Optionen</h1>
+						</div>
+					</div>
+					<div class="button">
+						<div class="outline-emoji">
+							<img src="src/ped.png" class="img-bild" alt="" />
+						</div>
+						<div class="fadeoutstirch" id="optioenped">
+							<h1 class="einstellungbild">Ped - Optionen</h1>
+						</div>
+					</div>
+					<div class="button">
+						<div class="outline-emoji">
+							<img src="src/ticket.png" class="img-bild" alt="" />
+						</div>
+						<div class="fadeoutstirch" id="getticket">
+							<h1 class="einstellungbild">Ticket - Optionen</h1>
+						</div>
+					</div>
+					<div class="button">
+						<div class="outline-emoji">
+							<img
+								src="src/einstellungen.png"
+								class="img-bild"
+								alt=""
+							/>
+						</div>
+						<div class="fadeoutstirch" id="einstellungenoptionen">
+							<h1 class="einstellungbild">
+								Einstellungen - Optionen
+							</h1>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="main">
+				<div class="line-unter3"></div>
+				<div class="lineleft"></div>
+				<div class="lineright"></div>
+			</div>
+			<div class="Haupseite"></div>
+			<div class="ticketseite">
+				<h1 class="tickettxt">Ticket - Admin Optionen</h1>
+				<div class="scroll-tickets">
+					<div class="ticketout">
+						<h1 class="titel-id">#1</h1>
+						<h1 class="titel-ticket">TestTitelYaKalb</h1>
+						<button class="Button-Open-Details" name="">></button>
+					</div>
+					<div class="ticketout"></div>
+					<div class="ticketout"></div>
+					<div class="ticketout"></div>
+					<div class="ticketout"></div>
+					<div class="ticketout"></div>
+					<div class="ticketout"></div>
+					<div class="ticketout"></div>
+					<div class="ticketout"></div>
+					<div class="ticketout"></div>
+					<div class="ticketout"></div>
+					<div class="ticketout"></div>
+					<div class="ticketout"></div>
+					<div class="ticketout"></div>
+					<div class="ticketout"></div>
+					<div class="ticketout"></div>
+					<div class="ticketout"></div>
+					<div class="ticketout"></div>
+					<div class="ticketout"></div>
+					<div class="ticketout"></div>
+					<div class="ticketout"></div>
+					<div class="ticketout"></div>
+					<div class="ticketout"></div>
+					<div class="ticketout"></div>
+					<div class="ticketout"></div>
+				</div>
+				<div class="rightsidetickes">
+					<h1 class="nameofspieler" id="nameofspieler">
+						Name: Chrisi
+					</h1>
+					<button class="Button-Open-TP" id="tpzumspieler" name="">
+						Zum Spieler TP
+					</button>
+					<button class="Button-Open-TP2" id="tpspielerzumir" name="">
+						Spieler zu mir</button
+					><button
+						class="Button-Open-Löschen"
+						id="ticketlöschen"
+						name=""
+					>
+						Ticket Löschen
+					</button>
+					<div class="line-unter"></div>
+					<div class="linksdatail">
+						<div class="bereichse"></div>
+						<div class="scrollbereich" id="scrollbereich">
+							<h1 class="anfangstext" id="anfangstext"></h1>
+							<div class="nachrichtcontainer">
+								<h1 class="textinnencontainernachtricht">
+									${item.nachricht}
+								</h1>
+								<h1 class="werhatgesendetamena">
+									Absender: ${item.absender}
+								</h1>
+							</div>
+						</div>
+						<input
+							class="inputt"
+							id="inputtnachricht"
+							maxlength="250"
+							placeholder="Nachricht eingeben"
+						/>
+					</div>
+				</div>
+			</div>
+			<div class="spielerseite">
+				<h1 class="tickettxt">Online Spieler - Admin Optionen</h1>
+				<div class="container-auswahl">
+					<div class="container-player">
+						<img
+							src="src/foodprint.png"
+							class="img-bildfoodprint"
+							alt=""
+						/>
+						<h1 class="nameofplayer">[1] Chrisi</h1>
+					</div>
+				</div>
+				<div class="heraustehendesmenuüberspieler">
+					<div class="background-spieler"></div>
+					<div class="container-middle-interact">
+						<h1 class="nameofplayer2">[1] Chrisi</h1>
+						<img src="src/close.png" class="closepage" alt="" />
+						<div class="linie-interact"></div>
+						<div class="linie-interact2"></div>
+						<button
+							class="Button-Interaktionen"
+							id="Aktionen"
+							name=""
+						>
+							Aktionen
+						</button>
+						<button class="Button-Interaktionen1" id="Info" name="">
+							Info
+						</button>
+						<button
+							class="Button-Interaktionen2"
+							id="idplace"
+							name=""
+						>
+							IDs
+						</button>
+						<button class="Button-Interaktionen3" id="ban" name="">
+							Ban / Temp
+						</button>
+					</div>
+					<div class="frontpage-interaktionen">
+						<h1 class="frontpagetext1">Spieler Aktionen</h1>
+						<h1 class="frontpagetext2">Moderation</h1>
+						<h1 class="frontpagetext3">Interaktion</h1>
+						<h1 class="frontpagetext4">Trollin</h1>
+						<button
+							class="Button-Interaktionenfrontpage verwahrnen"
+							id="verwahrnen"
+							name=""
+						>
+							Verwahrnen
+						</button>
+						<button class="kicken" id="kicken" name="">
+							Kicken
+						</button>
+
+						<button
+							class="Button-Interaktionenfrontpage3 heilen"
+							id="heilen"
+							name=""
+						>
+							Heilen
+						</button>
+						<button
+							class="Button-Interaktionenfrontpage4 tpzumspieleradmin"
+							id="tpzumspieleradmin"
+							name=""
+						>
+							Tp zum Spieler
+						</button>
+						<button
+							class="Button-Interaktionenfrontpage5 tpspielerzumiradmin"
+							id="tpspielerzumiradmin"
+							name=""
+						>
+							Tp zu mir</button
+						><button
+							class="Button-Interaktionenfrontpage6 zuschauen"
+							id="zuschauen"
+							name=""
+						>
+							Beobachten
+						</button>
+						<button
+							class="Button-Interaktionenfrontpage7 betrunkenmachen"
+							id="betrunkenmachen"
+							name=""
+						>
+							Betrunken machen
+						</button>
+						<button
+							class="Button-Interaktionenfrontpage8 anzünden"
+							id="anzünden"
+							name=""
+						>
+							Anzünden
+						</button>
+						<button
+							class="Button-Interaktionenfrontpage9 crash"
+							id="crash"
+							name=""
+						>
+							Crashen
+						</button>
+					</div>
+					<div class="ids">
+						<div class="container-id">
+							<h1 class="nameofid" id="steam">
+								discord: hehdhasdhdhasdhsah dhsah
+							</h1>
+						</div>
+						<div class="container-id">
+							<h1 class="nameofid" id="license">
+								discord: hehdhasdhdhasdhsah dhsah
+							</h1>
+						</div>
+						<div class="container-id">
+							<h1 class="nameofid" id="live">
+								discord: hehdhasdhdhasdhsah dhsah
+							</h1>
+						</div>
+						<div class="container-id">
+							<h1 class="nameofid" id="discord">
+								discord: hehdhasdhdhasdhsah dhsah
+							</h1>
+						</div>
+						<div class="container-id">
+							<h1 class="nameofid" id="fivem">
+								discord: hehdhasdhdhasdhsah dhsah
+							</h1>
+						</div>
+					</div>
+					<div class="notizen">
+						<h1 class="spieleraktionentext">
+							Spieler Informationen
+						</h1>
+						<h1 class="spieleraktionentext2">
+							Hier kannst du informationen über diesen spieler
+							herausfinden!
+						</h1>
+						<div class="container-aktionentext">
+							<h1
+								class="spieleraktionentext4"
+								id="spieleraktionentext4"
+							>
+								Warns: 0
+							</h1>
+							<h1
+								class="spieleraktionentext3"
+								id="spieleraktionentext3"
+							>
+								Spielzeit: 2D 2H 1Min
+							</h1>
+							<h1
+								class="spieleraktionentext5"
+								id="spieleraktionentext5"
+							>
+								Kills: 2D 2H 1Min
+							</h1>
+							<h1
+								class="spieleraktionentext6"
+								id="spieleraktionentext6"
+							>
+								Tode: 2D 2H 1Min
+							</h1>
+							<h1 class="spieleraktionentext7">
+								Notiz zum Spieler (Mit Enter bestätigen)
+							</h1>
+							<input
+								class="inputt-informationen"
+								id="inputtinformationen"
+								maxlength="250"
+								placeholder="Notiz eingeben"
+							/>
+						</div>
+					</div>
+					<div class="bann">
+						<h1 class="spieleraktionentext">Spieler Bannen</h1>
+						<input
+							class="inputtgrund"
+							id="inputtgrund"
+							maxlength="250"
+							placeholder="Grund eingeben"
+						/>
+						<input
+							class="inputtstunde"
+							id="inputtstunde"
+							maxlength="250"
+							placeholder="Dauer eingeben (h, p = Perm)"
+						/>
+						<button class="Button-BannPlayer" id="bannen" name="">
+							Bestätigen
+						</button>
+					</div>
+				</div>
+			</div>
+			<div class="pedoptionen">
+				<h1 class="tickettxt">Ped Optionen - Admin Optionen</h1>
+				<div class="scroll-tickets2">
+					<div class="KategorieTicket" id="PedOptionen">
+						<h1 class="titel-ticket2">Ped Optionen</h1>
+					</div>
+					<div class="KategorieTicket" id="AussehnOptionen">
+						<h1 class="titel-ticket2">Aussehen Optionen</h1>
+					</div>
+					<div class="KategorieTicket" id="AnnounceOptionen">
+						<h1 class="titel-ticket2">Announce Optionen</h1>
+					</div>
+					<div class="KategorieTicket" id="AutoOptionen">
+						<h1 class="titel-ticket2">Auto Optionen</h1>
+					</div>
+					<div class="KategorieTicket" id="WirtschaftsOptionen">
+						<h1 class="titel-ticket2">Wirtschafts Optionen</h1>
+					</div>
+					<div class="KategorieTicket" id="WaffenOptionen">
+						<h1 class="titel-ticket2">Waffen Optionen</h1>
+					</div>
+					<div class="KategorieTicket" id="ItemsOptionen">
+						<h1 class="titel-ticket2">Items Optionen</h1>
+					</div>
+					<div class="KategorieTicket" id="RecordingOptionen">
+						<h1 class="titel-ticket2">Recording Optionen</h1>
+					</div>
+				</div>
+
+				<div class="RightSideDetail">
+					<div class="line-unter4"></div>
+					<div class="ButtonsPedOptionen">
+						<h1 class="MainText">Admin - Ped Optionen</h1>
+						<h1 class="DescText">Allgemein:</h1>
+						<button
+							class="Button-Interaktionen10"
+							id="Aduty"
+							name=""
+						>
+							Aduty
+						</button>
+						<button
+							class="Button-Interaktionen10"
+							id="NoClip"
+							name=""
+						>
+							NoClip
+						</button>
+						<button
+							class="Button-Interaktionen10"
+							id="Namen"
+							name=""
+						>
+							Namen
+						</button>
+						<button
+							class="Button-Interaktionen10"
+							id="GodMode"
+							name=""
+						>
+							Godmode
+						</button>
+						<button
+							class="Button-Interaktionen16"
+							id="Strokes"
+							name=""
+						>
+							Strokes anzeigen
+						</button>
+					</div>
+					<div class="ButtonAnnounce">
+						<h1 class="MainText">Admin - Announce Optionen</h1>
+						<h1 class="DescText">Nachricht:</h1>
+						<input
+							class="inputtannounce"
+							id="inputtannounce"
+							maxlength="250"
+							placeholder="Headline eingeben"
+						/>
+						<input
+							class="inputtannouncedetail"
+							id="inputtannouncedetail"
+							maxlength="250"
+							placeholder="Nachricht eingeben"
+						/>
+						<input
+							class="inputtid"
+							id="inputtid"
+							maxlength="250"
+							placeholder="Id eingeben (-1 wenn Global)"
+						/>
+						<button class="Button-Absenden" id="Announce" name="">
+							Bestätigen (Absenden)
+						</button>
+					</div>
+					<div class="ButtonAussehen">
+						<h1 class="MainText">Admin - Aussehen Optionen</h1>
+						<h1 class="DescText">Aussehen ändern:</h1>
+						<input
+							class="inputtpedname"
+							id="inputtpedname"
+							maxlength="250"
+							placeholder="Ped name eingeben"
+						/>
+						<input
+							class="inputtid2"
+							id="inputtid2"
+							maxlength="250"
+							placeholder="Id eingeben"
+						/>
+						<button
+							class="Button-AbsendenPed"
+							id="AbsendenPed"
+							name=""
+						>
+							Bestätigen (Absenden)
+						</button>
+						<h1 class="infotextped">
+							Peds kannst du unter
+							"https://docs.fivem.net/docs/game-references/ped-models/"
+							finden
+						</h1>
+						<h1 class="DescText2">Ped ändern - Geschlecht:</h1>
+						<button
+							class="Button-Interaktionen11"
+							id="Mann"
+							name=""
+						>
+							Mann
+						</button>
+						<button
+							class="Button-Interaktionen11"
+							id="Frau"
+							name=""
+						>
+							Frau
+						</button>
+						<h1 class="DescText3">Ped ändern - Reset:</h1>
+						<button
+							class="Button-Interaktionen12"
+							id="Reset"
+							name=""
+						>
+							Reset
+						</button>
+					</div>
+					<div class="ButtonAuto">
+						<h1 class="MainText">Admin - Auto Optionen</h1>
+						<h1 class="DescText">Auto Spawnen:</h1>
+						<input
+							class="inputtautoname"
+							id="inputtautoname"
+							maxlength="250"
+							placeholder="Auto name einsetzen"
+						/>
+
+						<button class="Button-AbsendenAuto" id="Auto" name="">
+							Bestätigen (Absenden)
+						</button>
+						<h1 class="DescText4">Auto - Despawn:</h1>
+						<button
+							class="Button-Interaktionen13"
+							id="NextCar"
+							name=""
+						>
+							Despawn nahe Autos
+						</button>
+						<button
+							class="Button-Interaktionen13"
+							id="10MinRadius"
+							name=""
+						>
+							Despawn 10 Radius</button
+						><button
+							class="Button-Interaktionen13"
+							id="DespawnAllCars"
+							name=""
+						>
+							Despawn All Cars
+						</button>
+						<h1 class="DescText15">Auto - Optionen:</h1>
+						<button
+							class="Button-Interaktionen18"
+							id="repair"
+							name=""
+						>
+							Auto repair
+						</button>
+						<button
+							class="Button-Interaktionen18"
+							id="sauber"
+							name=""
+						>
+							Auto sauber machen
+						</button>
+					</div>
+					<div class="ButtonWirtschaft">
+						<h1 class="MainText">Admin - Auto Optionen</h1>
+						<h1 class="DescText">Geld geben:</h1>
+						<input
+							class="inputtmoneyammount"
+							id="inputtmoneyammount"
+							maxlength="250"
+							placeholder="Geld anzahl eingeben"
+						/>
+						<input
+							class="inputtid3"
+							id="inputtid3"
+							maxlength="250"
+							placeholder="Id eingeben"
+						/>
+						<button
+							class="Button-AbsendenPed"
+							id="SendenGeld"
+							name=""
+						>
+							Bestätigen (Absenden)
+						</button>
+						<h1 class="DescText5">Geld setzen:</h1>
+						<input
+							class="inputtmoneyammount2"
+							id="inputtmoneyammount2"
+							maxlength="250"
+							placeholder="Geld anzahl eingeben"
+						/>
+						<input
+							class="inputtid4"
+							id="inputtid4"
+							maxlength="250"
+							placeholder="Id eingeben"
+						/>
+						<button
+							class="Button-AbsendenPed2"
+							id="GeldSetzen"
+							name=""
+						>
+							Bestätigen (Absenden)
+						</button>
+						<h1 class="DescText6">Geld nehmen:</h1>
+						<input
+							class="inputtmoneyammount3"
+							id="inputtmoneyammount3"
+							maxlength="250"
+							placeholder="Geld anzahl eingeben"
+						/>
+						<input
+							class="inputtid5"
+							id="inputtid5"
+							maxlength="250"
+							placeholder="Id eingeben"
+						/>
+						<button
+							class="Button-AbsendenPed3"
+							id="Geldnehmen"
+							name=""
+						>
+							Bestätigen (Absenden)
+						</button>
+					</div>
+					<div class="ButtonWaffeOptionen">
+						<h1 class="MainText">Admin - Waffen Optionen</h1>
+						<h1 class="DescText">Waffen geben:</h1>
+						<input
+							class="inputtweaponammount"
+							id="inputtweaponammount"
+							maxlength="250"
+							placeholder="Waffen ID eingeben"
+						/>
+						<input
+							class="inputtid7"
+							id="inputtid7"
+							maxlength="250"
+							placeholder="Id eingeben"
+						/>
+						<button
+							class="Button-AbsendenPed"
+							id="WeaponGeben"
+							name=""
+						>
+							Bestätigen (Absenden)
+						</button>
+						<h1 class="DescText5">Waffen ersetzen:</h1>
+						<input
+							class="inputtid6"
+							id="inputtid6"
+							maxlength="250"
+							placeholder="Id eingeben"
+						/>
+						<button
+							class="Button-Interaktionen15"
+							id="ResetWaffen"
+							name=""
+						>
+							Waffen Reseten
+						</button>
+					</div>
+					<div class="ButtonItemsOptionen">
+						<h1 class="MainText">Admin - Items Optionen</h1>
+						<h1 class="DescText">Items geben:</h1>
+						<input
+							class="inputt-searchplayer"
+							id="inputts-searchplayer"
+							placeholder="Suche nach Items"
+							onkeyup="searchanimasauslager()"
+						/>
+						<div class="container-itemlist">
+							<button
+								class="Button-Giveitem"
+								id="Button-Giveitem"
+								name=""
+							>
+								Zum Spieler TP</button
+							><button
+								class="Button-Giveitem"
+								id="Button-Giveitem"
+								name=""
+							>
+								Zum Spieler TP</button
+							><button
+								class="Button-Giveitem"
+								id="Button-Giveitem"
+								name=""
+							>
+								Zum Spieler TP</button
+							><button
+								class="Button-Giveitem"
+								id="Button-Giveitem"
+								name=""
+							>
+								Zum Spieler TP</button
+							><button
+								class="Button-Giveitem"
+								id="Button-Giveitem"
+								name=""
+							>
+								Zum Spieler TP
+							</button>
+						</div>
+					</div>
+					<div class="ButtonItemRecord">
+						<h1 class="MainText">Admin - Recording Optionen</h1>
+						<h1 class="DescText">Aufnehmen:</h1>
+
+						<button
+							class="Button-recordoption"
+							id="Button-aufnamestarten"
+							name=""
+						>
+							Aufname starten
+						</button>
+						<button
+							class="Button-recordoption"
+							id="Button-aufnamestoppen"
+							name=""
+						>
+							Aufname Stoppen</button
+						><button
+							class="Button-recordoption"
+							id="Button-aufnameabbrechen"
+							name=""
+						>
+							Aufname Abbrechen
+						</button>
+						<h1 class="DescTextRockstar">Rockstar Editor:</h1>
+						<button
+							class="Button-recordoptionrockstar"
+							id="recordoptionrockstar"
+							name=""
+						>
+							Rockstar Editor
+						</button>
+					</div>
+				</div>
+			</div>
+			<div class="hauptmenu">
+				<h1 class="tickettxt">Ticket - Home Übersicht</h1>
+				<div class="line-unter5"></div>
+				<h1 class="tickettxt6">Admins - Online Admins</h1>
+				<div class="scroll-tickets4">
+					<div class="ticketout">
+						<h1 class="titel-ticket4">[Admin] TestTitelYaKalb</h1>
+					</div>
+				</div>
+				<div class="RightSideDetail2">
+					<div class="line-unter4"></div>
+					<h1 class="MainText">Admin - Allgemeine Informationen</h1>
+					<div class="container-informatione">
+						<h1 class="txtionformationen">Totale Spieler:</h1>
+						<h1 class="classinformation" id="playercount">0</h1>
+					</div>
+					<div class="container-informatione">
+						<h1 class="txtionformationen">Totale Spielzeit:</h1>
+						<h1 class="classinformation" id="playtime">0</h1>
+					</div>
+					<div class="container-informatione">
+						<h1 class="txtionformationen">Warns:</h1>
+						<h1 class="classinformation" id="warns">0</h1>
+					</div>
+					<div class="container-informatione">
+						<h1 class="txtionformationen">Bans:</h1>
+						<h1 class="classinformation" id="bans">0</h1>
+					</div>
+					<div class="container-maininformationen">
+						<h1 class="txtionformationen2">
+							Aktive Tickets (Intergration):
+						</h1>
+						<h1 class="classinformation2" id="ticketsactiv">
+							0 Tickets Aktiv
+						</h1>
+					</div>
+					<div class="container-maininformationen">
+						<h1 class="txtionformationen2">Aktive Admins:</h1>
+						<h1 class="classinformation2" id="adminsactiv">
+							0 Admins
+						</h1>
+					</div>
+				</div>
+			</div>
+			<div class="Einstellungen">
+				<h1 class="tickettxt">Admin - Einstellungen Übersicht</h1>
+				<div class="container-black"></div>
+				<div class="line-unter7"></div>
+				<h1 class="tickettxt7">Admin - Optionen</h1>
+				<div class="container-scroll-einstellungen">
+					<div class="container-scroll-einstellungenoptionen">
+						<h1 class="optionetxt">Chat Nachricht aktivieren</h1>
+						<h1 class="descoptionentxt">
+							Nachrichten welche bei Satus meldungen im Chat
+							abgespielt werden!
+						</h1>
+						<label class="switch">
+							<input type="checkbox" id="togBtn" />
+							<span class="slider round"></span>
+						</label>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="index.js"></script>
+</html>

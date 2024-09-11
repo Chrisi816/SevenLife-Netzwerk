@@ -1,0 +1,1491 @@
+@font-face {
+	font-family: "Open Sans";
+	src: url("fonts/OpenSans-VariableFont_wdth\,wght.ttf");
+}
+@font-face {
+	font-family: "Nunito Sans";
+	src: url("fonts/NunitoSans-Regular.ttf");
+}
+@font-face {
+	font-family: "Khula";
+	src: url("fonts/Khula-Regular.ttf");
+}
+@font-face {
+	font-family: "Lato";
+	src: url("fonts/Lato-Black.ttf");
+}
+@font-face {
+	font-family: "Goldman";
+	src: url("fonts/Goldman-Regular.ttf");
+}
+@font-face {
+	font-family: "Abel";
+	src: url("fonts/Abel-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Aldrich";
+	src: url("fonts/Aldrich-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Roboto";
+	src: url("fonts/Roboto-MediumItalic.ttf");
+}
+@font-face {
+	font-family: "Khula";
+	src: url("fonts/Khula-Regular.ttf");
+}
+body {
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+.left {
+	position: absolute;
+	width: 85vw;
+	height: 100%;
+	background: linear-gradient(
+		to right,
+		rgba(114, 0, 89),
+		rgba(0, 0, 255, 0) 95.71%
+	);
+}
+.right {
+	position: absolute;
+	width: 85vw;
+	height: 100%;
+	right: 0vw;
+	background: linear-gradient(
+		to left,
+		rgba(114, 0, 89),
+		rgba(0, 0, 255, 0) 95.71%
+	);
+}
+.saveoutifit1 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	z-index: 30;
+}
+.outfitspeicherntext1 {
+	position: absolute;
+	color: #ffffff;
+	font-family: "Nunito Sans", sans-serif;
+	left: 43.5vw;
+	font-size: 2.1vw;
+	text-align: center;
+	z-index: 10;
+	top: 24vh;
+	background-color: rgba(255, 0, 0, 0);
+}
+.buttonabbrechen1 {
+	position: absolute;
+	left: 37.4vw;
+	top: 58.5vh;
+	width: 12vw;
+	height: 7.4vh;
+	z-index: 29;
+	font-size: 1.2vw;
+	background-color: rgba(233, 7, 56, 0.696);
+	outline: none;
+	cursor: pointer;
+	border-radius: 0.2vw;
+	color: #ffffff;
+	border: none;
+	border: 0.1vw solid white;
+	outline: none;
+	z-index: 29;
+}
+.buttonabbrechen1:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	transition: 1s all;
+	border: 0.1vw solid rgba(221, 77, 119, 255);
+	background-color: rgba(21, 21, 21, 0.746);
+}
+
+.strichlinksoben {
+	position: absolute;
+	width: 10vw;
+	height: 44vh;
+	border-left: 0.1vh solid white;
+	border-top: 0.1vh solid white;
+	left: 36vw;
+	z-index: 2;
+	top: 24.5vh;
+}
+.strichrechtsunten {
+	position: absolute;
+	width: 10vw;
+	height: 44vh;
+	border-right: 0.1vh solid white;
+	border-bottom: 0.1vh solid white;
+	left: 54vw;
+	z-index: 2;
+	top: 24.5vh;
+}
+.boxinnen {
+	position: absolute;
+	width: 32vw;
+	height: 49vh;
+	background-color: rgba(33, 33, 33, 0.258);
+	left: 34vw;
+	z-index: 1;
+	top: 22vh;
+}
+.saveoutifit {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	z-index: 30;
+}
+.strichdrunterspeichern {
+	position: absolute;
+	width: 21vw;
+	height: 0.4vh;
+	background-color: rgba(221, 77, 119, 255);
+	left: 39.5vw;
+	top: 32.5vh;
+	z-index: 10;
+	border-radius: 1vw;
+}
+.outfitspeicherntextifno {
+	position: absolute;
+	color: #ffffff;
+	font-family: "Open Sans", sans-serif;
+	left: 39.5vw;
+	font-size: 1.2vw;
+	text-align: left;
+	z-index: 10;
+	width: 22vw;
+	top: 33vh;
+	background-color: rgba(255, 0, 0, 0);
+}
+.container1 {
+	position: absolute;
+	width: 10vw;
+	height: 5vh;
+	background-image: linear-gradient(
+		to right,
+		#d475e384,
+		#a7529a77,
+		#73365c71,
+		#3c1e2c7a,
+		#00000084
+	);
+	border-radius: 1vw;
+	bottom: 1.5vh;
+	right: 1vw;
+}
+
+.KeyHinweis {
+	position: absolute;
+	color: #ffffff9c;
+	font-family: "Open Sans", sans-serif;
+	left: 1.1vw;
+	font-size: 1.4vw;
+	text-align: center;
+	z-index: 10;
+	top: -1vh;
+	background-color: rgba(255, 0, 0, 0);
+}
+.KeyHinweisInfo {
+	position: absolute;
+	color: #ffffff;
+	font-family: "Khula", sans-serif;
+	left: 3vw;
+	font-size: 0.9vw;
+	text-align: center;
+	z-index: 10;
+	width: 7vw;
+	top: 0.2vh;
+	background-color: rgba(255, 0, 0, 0);
+}
+.container2 {
+	position: absolute;
+	width: 10vw;
+	height: 5vh;
+	background-image: linear-gradient(
+		to right,
+		#d475e384,
+		#a7529a77,
+		#73365c71,
+		#3c1e2c7a,
+		#00000084
+	);
+	border-radius: 1vw;
+	bottom: 1.5vh;
+	right: 12vw;
+}
+.container3 {
+	position: absolute;
+	width: 10vw;
+	height: 5vh;
+	background-image: linear-gradient(
+		to right,
+		#d475e384,
+		#a7529a77,
+		#73365c71,
+		#3c1e2c7a,
+		#00000084
+	);
+	border-radius: 1vw;
+	bottom: 1.5vh;
+	right: 23vw;
+}
+.container4 {
+	position: absolute;
+	width: 10vw;
+	height: 5vh;
+	background-image: linear-gradient(
+		to right,
+		#d475e384,
+		#a7529a77,
+		#73365c71,
+		#3c1e2c7a,
+		#00000084
+	);
+	border-radius: 1vw;
+	bottom: 1.5vh;
+	right: 34vw;
+}
+.container5 {
+	position: absolute;
+	width: 10vw;
+	height: 5vh;
+	background-image: linear-gradient(
+		to right,
+		#d475e384,
+		#a7529a77,
+		#73365c71,
+		#3c1e2c7a,
+		#00000084
+	);
+	border-radius: 1vw;
+	bottom: 1.5vh;
+	right: 45vw;
+}
+.esctext {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	right: 3vw;
+	top: 2.5vh;
+	letter-spacing: 0.1vw;
+	font-size: 1.1vw;
+	transform: rotate(0deg);
+	font-family: "Lato", sans-serif;
+}
+.inputt {
+	position: absolute;
+	border: none;
+	-webkit-appearance: none;
+	padding: 0.1vw 1vw;
+
+	left: 39.5vw;
+	border-radius: 0.1vw;
+	top: 40vh;
+	width: 20vw;
+	color: rgb(225, 225, 225);
+	font-family: "Poppins", sans-serif;
+	height: 4.5vh;
+	text-align: left;
+	z-index: 29;
+	font-size: 1vw;
+	background-color: rgba(34, 31, 31, 0.483);
+	outline: none;
+	border: 0.1vh solid rgb(82, 82, 82);
+	text-align: center;
+}
+.inputt:hover {
+	background-color: rgba(40, 40, 40, 0.454);
+	transition: color 0.6 ease;
+}
+.inputt:focus::placeholder {
+	color: transparent;
+}
+.inputt::placeholder {
+	color: rgb(218, 218, 218);
+	transition: color 0.3s ease;
+}
+.outfitspeicherntextifno2 {
+	position: absolute;
+	color: #ffffff;
+	font-family: "Open Sans", sans-serif;
+	left: 39.5vw;
+	font-size: 1.2vw;
+	text-align: center;
+	z-index: 10;
+	width: 22vw;
+	top: 47vh;
+	background-color: rgba(255, 0, 0, 0);
+}
+
+.buttonkaufenchips {
+	position: absolute;
+	left: 50vw;
+	top: 58.5vh;
+	width: 12.8vw;
+	height: 7.4vh;
+	z-index: 29;
+	font-size: 1.2vw;
+	background-color: rgba(34, 31, 31, 0.476);
+	outline: none;
+	cursor: pointer;
+	border-radius: 0.2vw;
+	color: #ffffff;
+	border: none;
+	border: 0.1vw solid white;
+	outline: none;
+	z-index: 29;
+}
+.buttonkaufenchips:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	transition: 1s all;
+	border: 0.1vw solid rgba(221, 77, 119, 255);
+	background-color: rgba(21, 21, 21, 0.746);
+}
+.outfitspeicherntext2 {
+	position: absolute;
+	color: #ffffff;
+	font-family: "Nunito Sans", sans-serif;
+	left: 42.5vw;
+	font-size: 2.1vw;
+	text-align: center;
+	z-index: 10;
+	top: 24vh;
+	background-color: rgba(255, 0, 0, 0);
+}
+.buttonverkaufenchips {
+	position: absolute;
+	left: 50vw;
+	top: 58.5vh;
+	width: 12.8vw;
+	height: 7.4vh;
+	z-index: 29;
+	font-size: 1.2vw;
+	background-color: rgba(34, 31, 31, 0.476);
+	outline: none;
+	cursor: pointer;
+	border-radius: 0.2vw;
+	color: #ffffff;
+	border: none;
+	border: 0.1vw solid white;
+	outline: none;
+	z-index: 29;
+}
+.buttonverkaufenchips:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	transition: 1s all;
+	border: 0.1vw solid rgba(221, 77, 119, 255);
+	background-color: rgba(21, 21, 21, 0.746);
+}
+.buttonkaufen {
+	position: absolute;
+	left: 37.4vw;
+	top: 58.5vh;
+	width: 12vw;
+	height: 7.4vh;
+	z-index: 29;
+	font-size: 1.2vw;
+	background-color: rgba(233, 7, 56, 0.696);
+	outline: none;
+	cursor: pointer;
+	border-radius: 0.2vw;
+	color: #ffffff;
+	border: none;
+	border: 0.1vw solid white;
+	outline: none;
+	z-index: 29;
+}
+.buttonkaufen:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	transition: 1s all;
+	border: 0.1vw solid rgba(221, 77, 119, 255);
+	background-color: rgba(21, 21, 21, 0.746);
+}
+
+.leftshop {
+	position: absolute;
+	width: 85vw;
+	height: 100%;
+	background: linear-gradient(
+		to right,
+		rgba(114, 0, 89),
+		rgba(0, 0, 255, 0) 95.71%
+	);
+}
+.rightshop {
+	position: absolute;
+	width: 85vw;
+	height: 100%;
+	right: 0vw;
+	background: linear-gradient(
+		to left,
+		rgba(114, 0, 89),
+		rgba(0, 0, 255, 0) 95.71%
+	);
+}
+.text-shop {
+	position: absolute;
+	color: rgba(137, 137, 137, 0.408);
+	left: -15.5vw;
+	top: 41vh;
+	letter-spacing: 0.1vw;
+	font-size: 4.5vw;
+	transform: rotate(270deg);
+	font-family: "Goldman", cursive;
+}
+.container-rechnungdetails {
+	position: absolute;
+	height: 85vh;
+	width: 20vw;
+	background-color: rgba(43, 43, 43, 0.521);
+	top: 10vh;
+	left: 8vw;
+	border-radius: 0.2vw;
+}
+.line-unter3 {
+	position: absolute;
+	width: 89.3vw;
+	height: 0.2vh;
+	top: 6.8vh;
+	left: 8vw;
+	border-top-right-radius: 1vw;
+	border-bottom-right-radius: 1vw;
+	background-color: rgb(185, 32, 86);
+}
+.text-impounder3 {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 8vw;
+	top: -0.3vh;
+	letter-spacing: 0.1vw;
+	font-size: 2vw;
+
+	font-family: "Lato";
+}
+.Button-Buy-Shop {
+	position: absolute;
+	height: 5vh;
+	width: 18vw;
+	font-family: "Goldman", cursive;
+	font-size: 1.3vw;
+	left: -1vw;
+	top: 78vh;
+	margin-left: 2vw;
+	border: none;
+	outline: none;
+	z-index: 1;
+	color: white;
+	cursor: pointer;
+	background-color: rgb(164, 0, 167);
+	border-radius: 0.2vw;
+}
+
+.Button-Buy-Shop:hover {
+	transition: 1s all;
+	background-color: rgb(110, 0, 112);
+}
+.container-rechnungsdetails {
+	position: absolute;
+	width: 100%;
+	height: 13vh;
+	background-color: rgba(63, 63, 63, 0.421);
+	top: 60vh;
+}
+.line-unter4 {
+	position: absolute;
+	width: 20vw;
+	height: 0.2vh;
+	top: 76vh;
+	left: 0vw;
+	border-top-right-radius: 1vw;
+	border-bottom-right-radius: 1vw;
+	background-color: rgb(185, 32, 86);
+}
+.idkaufdetails {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 1vw;
+	top: -0.3vh;
+	width: 20vw;
+	background-color: rgba(255, 0, 0, 0);
+	letter-spacing: 0.1vw;
+	font-size: 1.5vw;
+	font-family: "Lato", cursive;
+}
+.line-unter5 {
+	position: absolute;
+	width: 20vw;
+	height: 0.2vh;
+	top: 6vh;
+	left: 0vw;
+	border-top-right-radius: 1vw;
+	border-bottom-right-radius: 1vw;
+	background-color: rgb(185, 32, 86);
+}
+.container-rechnungsdetails2 {
+	position: absolute;
+	width: 16vw;
+	height: 11vh;
+	border-radius: 1vw;
+	background-color: rgba(0, 0, 0, 0.234);
+	top: 61vh;
+	left: 2vw;
+}
+.idkaufdetails2 {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 1vw;
+	top: 51.5vh;
+	width: 20vw;
+	background-color: rgba(255, 0, 0, 0);
+	letter-spacing: 0.1vw;
+	font-size: 1.3vw;
+	font-family: "Lato", cursive;
+}
+.line-unter6 {
+	position: absolute;
+	width: 20vw;
+	height: 0.2vh;
+	top: 57vh;
+	left: 0vw;
+	border-top-right-radius: 1vw;
+	border-bottom-right-radius: 1vw;
+	background-color: rgb(185, 32, 86);
+}
+.warenkorb-shop {
+	position: absolute;
+	width: 18vw;
+	z-index: 1;
+	height: 41vh;
+	overflow-y: scroll;
+	background-color: rgba(255, 0, 0, 0);
+	left: 1vw;
+	top: 11vh;
+}
+.warenkorb-shop::-webkit-scrollbar {
+	width: 0.6vw;
+}
+
+.warenkorb-shop::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background-color: rgba(255, 255, 255, 0.294);
+}
+
+.warenkorb-shop::-webkit-scrollbar-thumb {
+	background-color: #202020;
+	border-radius: 2vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.185) 0 3px 13px 1px;
+}
+.idkaufdetails3 {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 1vw;
+	top: 5.5vh;
+	width: 20vw;
+	background-color: rgba(255, 0, 0, 0);
+	letter-spacing: 0.1vw;
+	font-size: 1.3vw;
+	font-family: "Lato", cursive;
+}
+.steuern {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 1vw;
+	top: 0.3vh;
+
+	background-color: rgba(255, 0, 0, 0);
+	letter-spacing: 0.1vw;
+	font-size: 1.3vw;
+	font-family: "Lato", cursive;
+}
+.preis {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 1vw;
+	top: 4.8vh;
+
+	background-color: rgba(255, 0, 0, 0);
+	letter-spacing: 0.1vw;
+	font-size: 1.3vw;
+	font-family: "Lato", cursive;
+}
+.line-unter7 {
+	position: absolute;
+	width: 14vw;
+	height: 0.2vh;
+	top: 5.5vh;
+	left: 1vw;
+	border-top-right-radius: 1vw;
+	border-bottom-right-radius: 1vw;
+	background-color: rgb(185, 32, 86);
+}
+.steuern-nummer {
+	position: absolute;
+	color: rgb(139, 0, 0);
+	left: 8vw;
+	top: 0.3vh;
+
+	width: 7vw;
+	text-align: right;
+	background-color: rgba(255, 0, 0, 0);
+
+	letter-spacing: 0.1vw;
+	font-size: 1.3vw;
+	font-family: "Lato", cursive;
+}
+.preis-nummer {
+	position: absolute;
+	color: rgb(8, 232, 0);
+	left: 8vw;
+	top: 4.8vh;
+	width: 7vw;
+	text-align: right;
+	background-color: rgba(255, 0, 0, 0);
+	letter-spacing: 0.1vw;
+	font-size: 1.3vw;
+	font-family: "Lato", cursive;
+}
+.container-right-line {
+	position: absolute;
+	width: 40vw;
+	height: 40vh;
+	background-color: rgba(255, 0, 0, 0);
+	left: 57vw;
+	top: 52.7vh;
+	border-bottom: 0.3vh solid white;
+	border-right: 0.3vh solid white;
+}
+.insert-container-shop {
+	position: absolute;
+	width: 67.6vw;
+	z-index: 1;
+	height: 81.5vh;
+	overflow-y: scroll;
+	background-color: rgba(255, 0, 0, 0);
+	left: 29vw;
+	top: 10vh;
+}
+.insert-container-shop::-webkit-scrollbar {
+	width: 0.6vw;
+}
+
+.insert-container-shop::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background-color: rgba(255, 255, 255, 0.294);
+}
+
+.insert-container-shop::-webkit-scrollbar-thumb {
+	background-color: #202020;
+	border-radius: 2vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.185) 0 3px 13px 1px;
+}
+.container-container-warnekorb {
+	position: relative;
+	margin-top: 1vh;
+	background-color: rgba(27, 27, 27, 0.477);
+	border-radius: 0.2vw;
+	width: 97%;
+	top: -1vh;
+	height: 8vh;
+}
+.img-warenkorb {
+	position: absolute;
+	width: 3vw;
+	top: 1.3vh;
+	left: 0.5vw;
+}
+.line-unter8 {
+	position: absolute;
+	width: 12vw;
+	height: 0.2vh;
+	top: 4vh;
+	left: 4vw;
+	border-top-right-radius: 1vw;
+	border-bottom-right-radius: 1vw;
+	background-color: rgb(185, 32, 86);
+}
+.name-warenkorb {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 4vw;
+	top: -0.8vh;
+	background-color: rgba(255, 0, 0, 0);
+	width: 12vw;
+	letter-spacing: 0.1vw;
+	font-size: 1.3vw;
+	font-family: "Lato", cursive;
+}
+.name-preis {
+	position: absolute;
+	color: rgb(8, 232, 0);
+	left: 4vw;
+	top: 2.8vh;
+	background-color: rgba(106, 255, 0, 0);
+	width: 12vw;
+	letter-spacing: 0.1vw;
+	font-size: 1.3vw;
+	font-family: "Lato", cursive;
+}
+.name-anzahl {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 12vw;
+	top: 2.8vh;
+	background-color: rgba(255, 0, 0, 0);
+	width: 4vw;
+	text-align: right;
+	letter-spacing: 0.1vw;
+	font-size: 1.3vw;
+	font-family: "Lato", cursive;
+}
+.container-item {
+	position: relative;
+	margin-top: 1vh;
+	margin-left: 1vh;
+	background-color: rgba(43, 43, 43, 0.521);
+	width: 16vw;
+	display: inline-block;
+	top: -1vh;
+	height: 30vh;
+}
+.Button-addtocard {
+	position: absolute;
+	height: 5vh;
+	width: 9vw;
+	font-family: "Goldman", cursive;
+	font-size: 1.2vw;
+	left: 4vw;
+	top: 23vh;
+	margin-left: 2vw;
+	border: none;
+	outline: none;
+	z-index: 1;
+	color: white;
+	cursor: pointer;
+	background-color: rgb(164, 0, 167);
+	border-radius: 0.2vw;
+}
+.Button-addtocard {
+	transition: 1s all;
+	background-color: rgb(110, 0, 112);
+}
+.Inputt-Shop {
+	position: absolute;
+	border: none;
+	-webkit-appearance: none;
+	padding: 0.1vw 1vw;
+
+	left: 0.9vw;
+	border-radius: 0.1vw;
+	top: 23vh;
+	width: 2vw;
+	color: rgb(225, 225, 225);
+	font-family: "Poppins", sans-serif;
+	height: 4.5vh;
+	text-align: left;
+	z-index: 29;
+	font-size: 1.3vw;
+	background-color: rgba(34, 31, 31, 0.483);
+	outline: none;
+	border: 0.01vh solid rgb(82, 82, 82);
+	text-align: center;
+}
+.Inputt-Shop:hover {
+	background-color: rgba(40, 40, 40, 0.454);
+	transition: color 0.6 ease;
+}
+.Inputt-Shop:focus::placeholder {
+	color: transparent;
+}
+.Inputt-Shop::placeholder {
+	color: rgb(218, 218, 218);
+	transition: color 0.3s ease;
+}
+.container-bild-waren {
+	position: absolute;
+	width: 15vw;
+	left: 0.5vw;
+	top: 1vh;
+	border-radius: 0.2vw;
+	background-color: rgba(27, 27, 27, 0.477);
+	height: 12vh;
+}
+.line-unter9 {
+	position: absolute;
+	width: 14vw;
+	height: 0.2vh;
+	top: 18.2vh;
+	left: 1vw;
+	border-top-right-radius: 1vw;
+	border-bottom-right-radius: 1vw;
+	background-color: rgb(185, 32, 86);
+}
+.steuern-nummer2 {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 8vw;
+	top: 13vh;
+
+	width: 7vw;
+	text-align: right;
+	background-color: rgba(255, 0, 0, 0);
+
+	letter-spacing: 0.1vw;
+	font-size: 1.3vw;
+	font-family: "Lato", cursive;
+}
+.preis-nummer2 {
+	position: absolute;
+	color: rgb(8, 232, 0);
+	left: 8vw;
+	top: 17.3vh;
+	width: 7vw;
+	text-align: right;
+	background-color: rgba(255, 0, 0, 0);
+	letter-spacing: 0.1vw;
+	font-size: 1.3vw;
+	font-family: "Lato", cursive;
+}
+.steuern2 {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 1vw;
+	top: 13vh;
+
+	background-color: rgba(255, 0, 0, 0);
+	letter-spacing: 0.1vw;
+	font-size: 1.3vw;
+	font-family: "Lato", cursive;
+}
+.preis2 {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 1vw;
+	top: 17.4vh;
+
+	background-color: rgba(255, 0, 0, 0);
+	letter-spacing: 0.1vw;
+	font-size: 1.3vw;
+	font-family: "Lato", cursive;
+}
+.img-ware {
+	position: absolute;
+	width: 7vw;
+	left: 3.7vw;
+	top: -0.5vh;
+}
+.buttonabbrechen2 {
+	position: absolute;
+	left: 37.4vw;
+	top: 58.5vh;
+	width: 12vw;
+	height: 7.4vh;
+	z-index: 29;
+	font-size: 1.2vw;
+	background-color: rgba(233, 7, 56, 0.696);
+	outline: none;
+	cursor: pointer;
+	border-radius: 0.2vw;
+	color: #ffffff;
+	border: none;
+	border: 0.1vw solid white;
+	outline: none;
+	z-index: 29;
+}
+.buttonabbrechen2:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	transition: 1s all;
+	border: 0.1vw solid rgba(221, 77, 119, 255);
+	background-color: rgba(21, 21, 21, 0.746);
+}
+.buttonsetzenchips {
+	position: absolute;
+	left: 50vw;
+	top: 58.5vh;
+	width: 12.8vw;
+	height: 7.4vh;
+	z-index: 29;
+	font-size: 1.2vw;
+	background-color: rgba(34, 31, 31, 0.476);
+	outline: none;
+	cursor: pointer;
+	border-radius: 0.2vw;
+	color: #ffffff;
+	border: none;
+	border: 0.1vw solid white;
+	outline: none;
+	z-index: 29;
+}
+.buttonsetzenchips:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	transition: 1s all;
+	border: 0.1vw solid rgba(221, 77, 119, 255);
+	background-color: rgba(21, 21, 21, 0.746);
+}
+.container1 {
+	position: absolute;
+	width: 10vw;
+	height: 5vh;
+	background-image: linear-gradient(
+		to right,
+		#d475e384,
+		#a7529a77,
+		#73365c71,
+		#3c1e2c7a,
+		#00000084
+	);
+	border-radius: 0.2vw;
+	bottom: 1.5vh;
+	right: 1vw;
+}
+.container-innen {
+	position: absolute;
+	width: 3vw;
+	height: 5vh;
+	background-image: linear-gradient(
+		to right,
+		#d475e384,
+		#a7529a77,
+		#73365c71,
+		#3c1e2c7a,
+		#00000084
+	);
+	border-radius: 0.2vw;
+	left: 0vw;
+}
+.container-innen {
+	position: absolute;
+	width: 3vw;
+	height: 5vh;
+	background-image: linear-gradient(
+		to right,
+		#d475e384,
+		#a7529a77,
+		#73365c71,
+		#3c1e2c7a,
+		#00000084
+	);
+	border-radius: 0.2vw;
+	left: 0vw;
+}
+.KeyHinweis {
+	position: absolute;
+	color: #ffffff9c;
+	font-family: "Open Sans", sans-serif;
+	left: 1.1vw;
+	font-size: 1.4vw;
+	text-align: center;
+	z-index: 10;
+	top: -1vh;
+	background-color: rgba(255, 0, 0, 0);
+}
+.KeyHinweis1 {
+	position: absolute;
+	color: #ffffff9c;
+	font-family: "Open Sans", sans-serif;
+	left: 0.2vw;
+	font-size: 1.4vw;
+	text-align: center;
+	z-index: 10;
+	top: -1vh;
+	background-color: rgba(255, 0, 0, 0);
+}
+.KeyHinweis2 {
+	position: absolute;
+	color: #ffffff9c;
+	font-family: "Open Sans", sans-serif;
+	left: 0.2vw;
+	font-size: 0.9vw;
+	text-align: center;
+	z-index: 10;
+	top: 0.2vh;
+	background-color: rgba(255, 0, 0, 0);
+}
+.KeyHinweis4 {
+	position: absolute;
+	color: #ffffff9c;
+	font-family: "Open Sans", sans-serif;
+	left: 0.6vw;
+	font-size: 1.9vw;
+	text-align: center;
+	z-index: 10;
+	top: -2vh;
+	background-color: rgba(255, 0, 0, 0);
+}
+.KeyHinweis3 {
+	position: absolute;
+	color: #ffffff9c;
+	font-family: "Open Sans", sans-serif;
+	left: 0.2vw;
+	font-size: 0.9vw;
+	text-align: center;
+	z-index: 10;
+	top: 0.2vh;
+	background-color: rgba(255, 0, 0, 0);
+}
+.KeyHinweisInfo {
+	position: absolute;
+	color: #ffffff;
+	font-family: "Khula", sans-serif;
+	left: 3vw;
+	font-size: 0.9vw;
+	text-align: center;
+	z-index: 10;
+	width: 7vw;
+	top: 0.2vh;
+	background-color: rgba(255, 0, 0, 0);
+}
+.container2 {
+	position: absolute;
+	width: 10vw;
+	height: 5vh;
+	background-image: linear-gradient(
+		to right,
+		#d475e384,
+		#a7529a77,
+		#73365c71,
+		#3c1e2c7a,
+		#00000084
+	);
+	border-radius: 0.2vw;
+	bottom: 1.5vh;
+	right: 12vw;
+}
+.container3 {
+	position: absolute;
+	width: 10vw;
+	height: 5vh;
+	background-image: linear-gradient(
+		to right,
+		#d475e384,
+		#a7529a77,
+		#73365c71,
+		#3c1e2c7a,
+		#00000084
+	);
+	border-radius: 0.2vw;
+	bottom: 1.5vh;
+	right: 23vw;
+}
+.container4 {
+	position: absolute;
+	width: 10vw;
+	height: 5vh;
+	background-image: linear-gradient(
+		to right,
+		#d475e384,
+		#a7529a77,
+		#73365c71,
+		#3c1e2c7a,
+		#00000084
+	);
+	border-radius: 0.2vw;
+	bottom: 1.5vh;
+	right: 34vw;
+}
+.container5 {
+	position: absolute;
+	width: 10vw;
+	height: 5vh;
+	background-image: linear-gradient(
+		to right,
+		#d475e384,
+		#a7529a77,
+		#73365c71,
+		#3c1e2c7a,
+		#00000084
+	);
+	border-radius: 0.2vw;
+	bottom: 1.5vh;
+	right: 45vw;
+}
+.container6 {
+	position: absolute;
+	width: 15vw;
+	height: 5vh;
+	background-image: linear-gradient(
+		to right,
+		#d475e384,
+		#a7529a77,
+		#73365c71,
+		#3c1e2c7a,
+		#00000084
+	);
+	border-radius: 0.2vw;
+	bottom: 1.5vh;
+	right: 56vw;
+}
+.container-innen2 {
+	position: absolute;
+	width: 7vw;
+	height: 5vh;
+	background-image: linear-gradient(
+		to right,
+		#d475e384,
+		#a7529a77,
+		#73365c71,
+		#3c1e2c7a,
+		#00000084
+	);
+	border-radius: 0.2vw;
+	left: 0vw;
+}
+.KeyHinweis5 {
+	position: absolute;
+	color: #ffffff9c;
+	font-family: "Open Sans", sans-serif;
+	left: 0.4vw;
+	font-size: 0.9vw;
+	text-align: center;
+	z-index: 10;
+	top: 0.2vh;
+	background-color: rgba(255, 0, 0, 0);
+}
+.KeyHinweisInfo2 {
+	position: absolute;
+	color: #ffffff;
+	font-family: "Khula", sans-serif;
+	left: 7vw;
+	font-size: 1.3vw;
+	text-align: center;
+	z-index: 10;
+	background-color: rgba(255, 0, 0, 0);
+	width: 7vw;
+	top: -0.7vh;
+}
+.top-fade {
+	position: absolute;
+	width: 100%;
+	height: 30vh;
+	background: linear-gradient(
+		to bottom,
+		rgba(114, 0, 89),
+		rgba(0, 0, 255, 0) 95.71%
+	);
+}
+.left-fade {
+	position: absolute;
+	width: 25vw;
+	height: 100%;
+	background: linear-gradient(
+		to right,
+		rgba(114, 0, 89),
+		rgba(0, 0, 255, 0) 95.71%
+	);
+}
+.bottom-fade {
+	position: absolute;
+	width: 100%;
+	height: 30vh;
+	bottom: 0;
+	background: linear-gradient(
+		to top,
+		rgba(114, 0, 89),
+		rgba(0, 0, 255, 0) 95.71%
+	);
+}
+.right-fade {
+	position: absolute;
+	width: 25vw;
+	height: 100%;
+	right: 0vw;
+	background: linear-gradient(
+		to left,
+		rgba(114, 0, 89),
+		rgba(0, 0, 255, 0) 95.71%
+	);
+}
+.slottext {
+	position: absolute;
+	color: #ffffff;
+	font-family: "Aldrich", sans-serif;
+	left: -1.1vw;
+	font-size: 2.2vw;
+	text-align: center;
+	z-index: 10;
+	background-color: rgba(255, 0, 0, 0);
+	width: 10vw;
+	top: -1vh;
+}
+.strichunterslot {
+	position: absolute;
+	width: 10vw;
+	height: 1vh;
+	background-color: rgb(185, 1, 192);
+	top: 7vh;
+	border-radius: 1vw;
+	left: 1vw;
+}
+.container-multi1 {
+	position: relative;
+	width: 4vw;
+	top: -1vh;
+	left: 0.2vw;
+	margin-top: 2vh;
+	height: 4vh;
+	border-radius: 0.2vw;
+	background-color: rgb(185, 1, 192);
+}
+.container-maxim {
+	position: absolute;
+	background-color: rgba(255, 0, 0, 0);
+	width: 20vw;
+	top: 9vh;
+
+	left: 1vw;
+}
+.textmulti {
+	position: absolute;
+	color: #ffffff;
+	font-family: "Aldrich", sans-serif;
+	left: 1.1vw;
+	font-size: 1.2vw;
+	text-align: center;
+	z-index: 10;
+	background-color: rgba(255, 0, 0, 0);
+
+	top: -0.7vh;
+}
+.strich-multi {
+	position: absolute;
+	width: 15vw;
+	height: 0.2vh;
+	top: 37vh;
+	background-color: grey;
+}
+.container-multi2 {
+	position: relative;
+	width: 4vw;
+	top: 1vh;
+	left: 0.2vw;
+	margin-top: 2vh;
+	height: 4vh;
+	border-radius: 0.2vw;
+	background-color: rgb(185, 1, 192);
+}
+.container-multi3 {
+	position: relative;
+	width: 7.5vw;
+	top: 1vh;
+	left: 0.2vw;
+	margin-top: 2vh;
+	height: 4vh;
+	border-radius: 0.2vw;
+	background-color: rgb(185, 1, 192);
+}
+.textgewinn {
+	position: relative;
+	color: #ffffff;
+	font-family: "Aldrich", sans-serif;
+	left: 5.1vw;
+	font-size: 1.2vw;
+	text-align: left;
+	margin-top: 3.4vh;
+	z-index: 10;
+	background-color: rgba(255, 0, 0, 0);
+
+	top: -79.7vh;
+}
+.textgewinn2 {
+	position: relative;
+	color: #ffffff;
+	font-family: "Aldrich", sans-serif;
+	left: 5.1vw;
+	font-size: 1.2vw;
+	text-align: left;
+	margin-top: 3.4vh;
+	z-index: 10;
+	background-color: rgba(255, 0, 0, 0);
+
+	top: -77.5vh;
+}
+.textgewinn3 {
+	position: absolute;
+	color: #ffffff;
+	font-family: "Aldrich", sans-serif;
+	left: 8.7vw;
+	font-size: 1.2vw;
+	text-align: left;
+	margin-top: 3.4vh;
+	z-index: 10;
+	background-color: rgba(255, 0, 0, 0);
+
+	top: 72.2vh;
+}
+.key-container {
+	position: absolute;
+	background-color: rgba(255, 0, 0, 0);
+	width: 71.2vw;
+	height: 8vh;
+	top: 90vh;
+	left: 1vw;
+}
+.container12 {
+	position: absolute;
+	width: 10vw;
+	height: 5vh;
+	background-image: linear-gradient(
+		to right,
+		#d475e384,
+		#a7529a77,
+		#73365c71,
+		#3c1e2c7a,
+		#00000084
+	);
+	border-radius: 0.2vw;
+	bottom: 1.5vh;
+	right: 12vw;
+}
+.container22 {
+	position: absolute;
+	width: 10vw;
+	height: 5vh;
+	background-image: linear-gradient(
+		to right,
+		#d475e384,
+		#a7529a77,
+		#73365c71,
+		#3c1e2c7a,
+		#00000084
+	);
+	border-radius: 0.2vw;
+	bottom: 1.5vh;
+	right: 12vw;
+}
+.container32 {
+	position: absolute;
+	width: 10vw;
+	height: 5vh;
+	background-image: linear-gradient(
+		to right,
+		#d475e384,
+		#a7529a77,
+		#73365c71,
+		#3c1e2c7a,
+		#00000084
+	);
+	border-radius: 0.2vw;
+	bottom: 1.5vh;
+	right: 23vw;
+}
+.container42 {
+	position: absolute;
+	width: 10vw;
+	height: 5vh;
+	background-image: linear-gradient(
+		to right,
+		#d475e384,
+		#a7529a77,
+		#73365c71,
+		#3c1e2c7a,
+		#00000084
+	);
+	border-radius: 0.2vw;
+	bottom: 1.5vh;
+	right: 34vw;
+}
+.container52 {
+	position: absolute;
+	width: 10vw;
+	height: 5vh;
+	background-image: linear-gradient(
+		to right,
+		#d475e384,
+		#a7529a77,
+		#73365c71,
+		#3c1e2c7a,
+		#00000084
+	);
+	border-radius: 0.2vw;
+	bottom: 1.5vh;
+	right: 45vw;
+}
+.container62 {
+	position: absolute;
+	width: 15vw;
+	height: 5vh;
+	background-image: linear-gradient(
+		to right,
+		#d475e384,
+		#a7529a77,
+		#73365c71,
+		#3c1e2c7a,
+		#00000084
+	);
+	border-radius: 0.2vw;
+	bottom: 1.5vh;
+	right: 56vw;
+}
+.KeyHinweis12 {
+	position: absolute;
+	color: #ffffff9c;
+	font-family: "Open Sans", sans-serif;
+	left: 1vw;
+	font-size: 1.4vw;
+	text-align: center;
+	z-index: 10;
+	top: -1vh;
+	background-color: rgba(255, 0, 0, 0);
+}
+.leftcontainer {
+	position: absolute;
+	width: 10vw;
+	height: 5vh;
+	left: 1vw;
+	background-image: linear-gradient(
+		to right,
+		#d475e384,
+		#a7529a77,
+		#73365c71,
+		#3c1e2c7a,
+		#00000084
+	);
+	border-radius: 0.1vw;
+	bottom: 1.5vh;
+	right: 45vw;
+}
+.CurrentZeit {
+	position: absolute;
+	color: #ffffffe1;
+	font-family: "Open Sans", sans-serif;
+	left: 0vw;
+	font-size: 1.6vw;
+	text-align: center;
+	z-index: 10;
+	width: 10vw;
+	top: -1.48vh;
+	background-color: rgba(255, 0, 221, 0);
+}
+.KeyHinweis123 {
+	position: absolute;
+	color: #ffffff9c;
+	font-family: "Open Sans", sans-serif;
+	left: 1vw;
+	font-size: 1.4vw;
+	text-align: center;
+	z-index: 10;
+	top: -1vh;
+	background-color: rgba(255, 0, 0, 0);
+}
+.KeyHinweis122 {
+	position: absolute;
+	color: #ffffff9c;
+	font-family: "Open Sans", sans-serif;
+	left: 0vw;
+	font-size: 0.9vw;
+	width: 2.8vw;
+	text-align: center;
+	z-index: 10;
+	top: -0.7vh;
+	background-color: rgba(255, 0, 0, 0);
+}

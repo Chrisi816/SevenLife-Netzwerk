@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="kaufvertrag-body">
+       <div class="kaufvertrag-card">
+            <h1 class="überschrift">
+                  Auto Verkauf
+            </h>
+            <div class="information-card">
+                <h1 class="text1">
+                    Dieser Kaufvertrag wird zwischen dem Verkäufer <span id="verkäufer"></span> und Käufer  <span id="käufer"></span> errichtet, welches den Verkauf vom  <span id="car"></span>  mit der Kennzeichen  <span id="plate"></span> platebeinhaltet.
+                </h1>
+                <h2 class="text2">
+                  Dieser Kaufvertrag entstand am <span id="date"></span> . Der Käufer akzeptiert die Summe für dieses Produkt welcher in Höche von  <span id="kosten"></span>$ liegt. Ausserdem übernimmt der Käufer auch alle Kosten welche beim Transfer Anfallen.
+                </h2>
+                <h1 class="namekauf">
+                   Chrisi
+                  </h1>
+                <div class="kauf">
+                Käufers Unterschrift
+                </div>
+                <h1 class="nameverkauf">
+                  Chrisi
+                </h1>
+                <div class="verkauf">
+                 Verkäufers Unterschrift
+                </div>
+                <button type="button" id="aktivecontract" class="btn"  data-bs-dismiss="modal"><i class="fas fa-user-minus"></i> Ablehnen</button>
+                <button type="button" id="aktivecontract" class="btns"  data-bs-dismiss="modal"><i class="fas fa-handshake"></i> annehmen</button>
+            </div>
+       </div>
+    </div>
+    <div class="abfrage">
+       <div class="abfrage-body">
+            <h1 class="überschrifts">
+              Auto Verkauf
+            </h>
+            <h1 class="text3">
+                Preis:
+            </h1>
+            <input class="inputtesese" id="inputteauszahlennormal" placeholder="0$">
+            <button type="button" id="aktivecontract" class="btnse"  data-bs-dismiss="modal">Weiter?</button>
+       </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>

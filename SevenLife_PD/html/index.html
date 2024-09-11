@@ -1,0 +1,1821 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<title>Document</title>
+		<link rel="stylesheet" href="ipad.css" />
+		<link rel="stylesheet" href="index.css" />
+		<link rel="stylesheet" href="pc.css" />
+	</head>
+	<body>
+		<div class="Josie-Container">
+			<div class="left">
+				<div class="strich">
+					<h1 class="text">Dienstwärter</h1>
+				</div>
+			</div>
+			<div class="right">
+				<div class="infobox">
+					<h1 class="text-infobox">
+						Hey, willst du jetzt In oder Aus deinem Polizei Dienst
+						gehen? Melde deine Entscheidung hier unten
+					</h1>
+				</div>
+				<button
+					type="button"
+					id="submitbuttonsesse"
+					class="submitbuttonseedsf"
+				>
+					In den Polizei Dienst gehen!
+				</button>
+				<button
+					type="button"
+					id="submitbuttonsesse"
+					class="submitbuttonseeds"
+				>
+					Aus den Polizei Dient zu gehen!
+				</button>
+			</div>
+		</div>
+		<div class="kleidungsladen">
+			<img src="Screenshot_354.png" class="background" alt="" />
+			<div class="lefts"></div>
+			<div class="rights"></div>
+			<div class="streifenoben"></div>
+			<div class="streifen"></div>
+			<div class="streifenunten"></div>
+			<div class="mainpage">
+				<h1 class="textkleidungsladen">Kleidungsladen</h1>
+				<div class="strichdrunter"></div>
+				<div class="container-kategorie">
+					<div class="box-auswahl" id="hut">
+						<img src="src/hat.svg" class="images" alt="" />
+					</div>
+					<div class="box-auswahl" id="torso">
+						<img src="src/jacket.svg" class="images" alt="" />
+					</div>
+					<div class="box-auswahl" id="shirt">
+						<img src="src/shirt.svg" class="images" alt="" />
+					</div>
+					<div class="box-auswahl" id="hose">
+						<img src="src/pants.svg" class="images" alt="" />
+					</div>
+					<div class="box-auswahl" id="schuhe">
+						<img src="src/shoes.svg" class="images" alt="" />
+					</div>
+				</div>
+				<button type="button" id="buttonoutfits" class="buttonoutfits">
+					Outfits
+				</button>
+				<div class="container-zahlen">
+					<h1 class="ganzerpreitstext">Ganzer Preis:</h1>
+					<h2 class="preistotal" id="preistotal" data-value="0">
+						$0
+					</h2>
+					<div class="listofitems"></div>
+				</div>
+				<button type="button" id="buttonkaufen" class="buttonkaufen">
+					Kaufen
+				</button>
+				<button
+					type="button"
+					id="buttonspeichern"
+					class="buttonspeichern"
+				>
+					Speichern
+				</button>
+			</div>
+			<div class="hut">
+				<div class="streifenoben1"></div>
+				<div class="streifen1"></div>
+				<div class="streifenunten1"></div>
+				<h1 class="textkleidungsladen1">Kopfbedeckung</h1>
+				<div class="strichdrunter1"></div>
+				<div class="auswahlfirst">
+					<h1 class="textinfo">Kopfbedeckung - Auswahl</h1>
+					<div class="strichdrunter2"></div>
+					<h1 class="artikelnummer">Artikel Nummer</h1>
+					<div class="infonummerlist1">
+						<h1 class="infornummernummer1" id="artikelnummerhut1">
+							0
+						</h1>
+					</div>
+					<button
+						type="button"
+						class="button-lagerleft3"
+						id="buttonhutleft1"
+					>
+						<
+					</button>
+					<button
+						type="button"
+						class="button-lagerright3"
+						id="buttonhutright1"
+					>
+						>
+					</button>
+					<h1 class="artikelnummer5">Kosten: 100$</h1>
+				</div>
+				<div class="auswahlscond">
+					<h1 class="textinfo">Kopfbedeckung - Varriante</h1>
+					<div class="strichdrunter2"></div>
+					<h1 class="artikelnummer">Artikel Nummer</h1>
+					<div class="infonummerlist1">
+						<h1 class="infornummernummer1" id="artikelnummerhut2">
+							0
+						</h1>
+					</div>
+					<button
+						type="button"
+						class="button-lagerleft3"
+						id="buttonhutleft2"
+					>
+						<
+					</button>
+					<button
+						type="button"
+						class="button-lagerright3"
+						id="buttonhutright2"
+					>
+						>
+					</button>
+					<h1 class="artikelnummer5">Kosten: 100$</h1>
+				</div>
+				<button
+					type="button"
+					id="buttonanwendenhut"
+					class="buttonanwenden"
+				>
+					Anwenden
+				</button>
+			</div>
+			<div class="torso">
+				<div class="streifenoben1"></div>
+				<div class="streifen1"></div>
+				<div class="streifenunten1"></div>
+				<h1 class="textkleidungsladen1">Torso</h1>
+				<div class="strichdrunter1"></div>
+				<div class="auswahlfirst">
+					<h1 class="textinfo">Torso - Auswahl</h1>
+					<div class="strichdrunter2"></div>
+					<h1 class="artikelnummer">Artikel Nummer</h1>
+					<div class="infonummerlist1">
+						<h1 class="infornummernummer1" id="artikelnummertorso1">
+							0
+						</h1>
+					</div>
+					<button
+						type="button"
+						class="button-lagerleft3"
+						id="buttontorsoleft1"
+					>
+						<
+					</button>
+					<button
+						type="button"
+						class="button-lagerright3"
+						id="buttontorsoright1"
+					>
+						>
+					</button>
+					<h1 class="artikelnummer5">Kosten: 100$</h1>
+				</div>
+				<div class="auswahlscond">
+					<h1 class="textinfo">Torso - Varriante</h1>
+					<div class="strichdrunter2"></div>
+					<h1 class="artikelnummer">Artikel Nummer</h1>
+					<div class="infonummerlist1">
+						<h1 class="infornummernummer1" id="artikelnummertorso2">
+							0
+						</h1>
+					</div>
+					<button
+						type="button"
+						class="button-lagerleft3"
+						id="buttontorsoleft2"
+					>
+						<
+					</button>
+					<button
+						type="button"
+						class="button-lagerright3"
+						id="buttontorsoright2"
+					>
+						>
+					</button>
+					<h1 class="artikelnummer5">Kosten: 100$</h1>
+				</div>
+				<button
+					type="button"
+					id="buttonanwendentorso"
+					class="buttonanwenden"
+				>
+					Anwenden
+				</button>
+			</div>
+			<div class="shirt">
+				<div class="streifenoben1"></div>
+				<div class="streifen1"></div>
+				<div class="streifenunten1"></div>
+				<h1 class="textkleidungsladen1">T - Shirt</h1>
+				<div class="strichdrunter1"></div>
+				<div class="auswahlfirst">
+					<h1 class="textinfo">T - Shirt - Auswahl</h1>
+					<div class="strichdrunter2"></div>
+					<h1 class="artikelnummer">Artikel Nummer</h1>
+					<div class="infonummerlist1">
+						<h1 class="infornummernummer1" id="artikelnummershirt1">
+							0
+						</h1>
+					</div>
+					<button
+						type="button"
+						class="button-lagerleft3"
+						id="buttonshirtleft1"
+					>
+						<
+					</button>
+					<button
+						type="button"
+						class="button-lagerright3"
+						id="buttonshirtright1"
+					>
+						>
+					</button>
+					<h1 class="artikelnummer5">Kosten: 100$</h1>
+				</div>
+				<div class="auswahlscond">
+					<h1 class="textinfo">T - Shirt - Varriante</h1>
+					<div class="strichdrunter2"></div>
+					<h1 class="artikelnummer">Artikel Nummer</h1>
+					<div class="infonummerlist1">
+						<h1 class="infornummernummer1" id="artikelnummershirt2">
+							0
+						</h1>
+					</div>
+					<button
+						type="button"
+						class="button-lagerleft3"
+						id="buttonshirtleft2"
+					>
+						<
+					</button>
+					<button
+						type="button"
+						class="button-lagerright3"
+						id="buttonshirtright2"
+					>
+						>
+					</button>
+					<h1 class="artikelnummer5">Kosten: 100$</h1>
+				</div>
+				<button
+					type="button"
+					id="buttonanwendenshirt"
+					class="buttonanwenden"
+				>
+					Anwenden
+				</button>
+			</div>
+			<div class="pants">
+				<div class="streifenoben1"></div>
+				<div class="streifen1"></div>
+				<div class="streifenunten1"></div>
+				<h1 class="textkleidungsladen1">Hose</h1>
+				<div class="strichdrunter1"></div>
+				<div class="auswahlfirst">
+					<h1 class="textinfo">Hose - Auswahl</h1>
+					<div class="strichdrunter2"></div>
+					<h1 class="artikelnummer">Artikel Nummer</h1>
+					<div class="infonummerlist1">
+						<h1 class="infornummernummer1" id="artikelnummerhose1">
+							0
+						</h1>
+					</div>
+					<button
+						type="button"
+						class="button-lagerleft3"
+						id="buttonhoseleft1"
+					>
+						<
+					</button>
+					<button
+						type="button"
+						class="button-lagerright3"
+						id="buttonhoseright1"
+					>
+						>
+					</button>
+					<h1 class="artikelnummer5">Kosten: 100$</h1>
+				</div>
+				<div class="auswahlscond">
+					<h1 class="textinfo">Hose - Varriante</h1>
+					<div class="strichdrunter2"></div>
+					<h1 class="artikelnummer">Artikel Nummer</h1>
+					<div class="infonummerlist1">
+						<h1 class="infornummernummer1" id="artikelnummerhose2">
+							0
+						</h1>
+					</div>
+					<button
+						type="button"
+						class="button-lagerleft3"
+						id="buttonhoseleft2"
+					>
+						<
+					</button>
+					<button
+						type="button"
+						class="button-lagerright3"
+						id="buttonhoseright2"
+					>
+						>
+					</button>
+					<h1 class="artikelnummer5">Kosten: 100$</h1>
+				</div>
+				<button
+					type="button"
+					id="buttonanwendenhose"
+					class="buttonanwenden"
+				>
+					Anwenden
+				</button>
+			</div>
+			<div class="shoes">
+				<div class="streifenoben1"></div>
+				<div class="streifen1"></div>
+				<div class="streifenunten1"></div>
+				<h1 class="textkleidungsladen1">Schuhe</h1>
+				<div class="strichdrunter1"></div>
+				<div class="auswahlfirst">
+					<h1 class="textinfo">Schuhe - Auswahl</h1>
+					<div class="strichdrunter2"></div>
+					<h1 class="artikelnummer">Artikel Nummer</h1>
+					<div class="infonummerlist1">
+						<h1
+							class="infornummernummer1"
+							id="artikelnummerschuhe1"
+						>
+							0
+						</h1>
+					</div>
+					<button
+						type="button"
+						class="button-lagerleft3"
+						id="buttonschuheleft1"
+					>
+						<
+					</button>
+					<button
+						type="button"
+						class="button-lagerright3"
+						id="buttonschuheright1"
+					>
+						>
+					</button>
+					<h1 class="artikelnummer5">Kosten: 100$</h1>
+				</div>
+				<div class="auswahlscond">
+					<h1 class="textinfo">Schuhe - Varriante</h1>
+					<div class="strichdrunter2"></div>
+					<h1 class="artikelnummer">Artikel Nummer</h1>
+					<div class="infonummerlist1">
+						<h1
+							class="infornummernummer1"
+							id="artikelnummerschuhe2"
+						>
+							0
+						</h1>
+					</div>
+					<button
+						type="button"
+						class="button-lagerleft3"
+						id="buttonschuheleft2"
+					>
+						<
+					</button>
+					<button
+						type="button"
+						class="button-lagerright3"
+						id="buttonschuheright2"
+					>
+						>
+					</button>
+					<h1 class="artikelnummer5">Kosten: 100$</h1>
+				</div>
+				<button
+					type="button"
+					id="buttonanwendenschuhe"
+					class="buttonanwenden"
+				>
+					Anwenden
+				</button>
+			</div>
+			<div class="saveoutifit" id="focus">
+				<div class="strichlinksoben"></div>
+				<div class="strichrechtsunten"></div>
+				<div class="boxinnen"></div>
+
+				<h1 class="outfitspeicherntext">Outfit - Speichern</h1>
+				<div class="strichdrunterspeichern"></div>
+				<h1 class="outfitspeicherntextifno">
+					Du brauchst für dein Outfit einen Namen damit man diese
+					Unterscheiden kann
+				</h1>
+				<input
+					class="inputt"
+					id="inputtsoutfit"
+					placeholder="Name des Outfits"
+				/>
+				<button
+					type="button"
+					id="buttonspeichern2"
+					class="buttonspeichern2"
+				>
+					Speichern
+				</button>
+				<button
+					type="button"
+					id="buttonabbrechen"
+					class="buttonabbrechen"
+				>
+					Abbrechen
+				</button>
+			</div>
+			<div class="outfitpage">
+				<h1 class="textkleidungsladen2">Outfit - Auswahl</h1>
+				<div class="strichdrunter"></div>
+				<div class="container-outfit">
+					<div class="container-innerercontainer">
+						<h1 class="outfittext">Outfit #1</h1>
+						<button
+							type="button"
+							id="buttondelete"
+							class="buttondelete"
+						>
+							<img
+								src="src/outline_delete_white_36dp.png"
+								class="bildimgage"
+								alt=""
+							/>
+						</button>
+					</div>
+				</div>
+				<button type="button" id="buttonzurück" class="buttonzurück">
+					Zurück
+				</button>
+			</div>
+		</div>
+		<div class="interaktionsmenu">
+			<div class="leftinter">
+				<div class="hauptseite">
+					<h1 class="textpolizeiinteraktion">Polizei</h1>
+					<h1 class="discriptioninteraktionen">
+						Interaktionen - Schrank
+					</h1>
+					<div class="divbreite"></div>
+					<div class="boxinter">
+						<div class="boxcontainer" typeofaction="1">
+							<h1 class="text-boxcontainer">Weste Anziehen</h1>
+						</div>
+						<div class="boxcontainer" typeofaction="2">
+							<h1 class="text-boxcontainer">GPS Gerät nehmen</h1>
+						</div>
+						<div class="boxcontainer" typeofaction="3">
+							<h1 class="text-boxcontainer"></h1>
+						</div>
+						<div class="boxcontainer" typeofaction="4">
+							<h1 class="text-boxcontainer"></h1>
+						</div>
+						<div class="boxcontainer" typeofaction="5">
+							<h1 class="text-boxcontainer"></h1>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-garage">
+			<div class="mainpage">
+				<h1 class="garagescrift">POLIZEI</h1>
+				<h1 class="infoschrift">Wähle deinen nächsten Schritt</h1>
+				<div class="linie"></div>
+				<div class="background-ausparken">
+					<h1 class="autoausparkentext">FAHRZEUG - AUSPARKEN</h1>
+				</div>
+				<div class="background-kaufen">
+					<h1 class="autokaufentext">FAHRZEUG - KAUFEN</h1>
+				</div>
+				<h1 class="texteinfose">
+					Manage deine Fahrzeuge in der Polizeiwache!
+				</h1>
+				<h1 class="texteinfosew">
+					Kaufe neue Fahrzeuge für deine Polizeiwache!
+				</h1>
+				<div class="placeeins"></div>
+				<div class="pacezwei"></div>
+			</div>
+			<div class="kaufenpage">
+				<div class="backtomain">
+					<img src="" alt="" />
+				</div>
+				<h1 class="garagescrift">Polizei</h1>
+				<h1 class="infoschrift">Kaufe deine Autos</h1>
+				<div class="autos-liste"></div>
+			</div>
+			<div class="garagepage">
+				<h1 class="garagescrift">Polizei</h1>
+				<h1 class="infoschrift">Parke deine Werkstatt Autos aus</h1>
+				<div class="autos-listes"></div>
+			</div>
+			<img src="src/dreick.png" class="dreickbildeins" alt="" />
+			<img src="src/dreick.png" class="dreickbildzwei" alt="" />
+			<img src="src/dreick.png" class="dreickbilddrei" alt="" />
+			<img src="src/dreick.png" class="dreickbilvier" alt="" />
+			<img src="src/dreick.png" class="dreickbildfuenf" alt="" />
+			<img src="src/dreick.png" class="dreickbildsechs" alt="" />
+			<div class="leftunten"></div>
+			<div class="rightunten"></div>
+			<div class="lignsobenleft">
+				<div class="einsline"></div>
+				<div class="zweiline"></div>
+				<div class="dreiline"></div>
+			</div>
+			<div class="rechtsobenleft">
+				<div class="einseline"></div>
+				<div class="zweieline"></div>
+				<div class="dreieline"></div>
+			</div>
+		</div>
+		<div class="container-garage-heli">
+			<div class="mainpage-heli">
+				<h1 class="garagescrift">POLIZEI</h1>
+				<h1 class="infoschrift">Wähle deinen nächsten Schritt</h1>
+				<div class="linie"></div>
+				<div class="background-ausparken">
+					<h1 class="autoausparkentext">Helikopter - AUSPARKEN</h1>
+				</div>
+				<div class="background-kaufen">
+					<h1 class="autokaufentext">Helikopter - KAUFEN</h1>
+				</div>
+				<h1 class="texteinfose">
+					Manage deine Fahrzeuge in der Polizeiwache!
+				</h1>
+				<h1 class="texteinfosew">
+					Kaufe neue Fahrzeuge für deine Polizeiwache!
+				</h1>
+				<div class="placeeinsheli"></div>
+				<div class="pacezweiheli"></div>
+			</div>
+			<div class="kaufenpageheli">
+				<div class="backtomain">
+					<img src="" alt="" />
+				</div>
+				<h1 class="garagescrift">Polizei</h1>
+				<h1 class="infoschrift">Kaufe deine Helis</h1>
+				<div class="helis-liste"></div>
+			</div>
+			<div class="garagepageheli">
+				<h1 class="garagescrift">Polizei</h1>
+				<h1 class="infoschrift">Parke deine Helis aus</h1>
+				<div class="helis-listes"></div>
+			</div>
+			<img src="src/dreick.png" class="dreickbildeins" alt="" />
+			<img src="src/dreick.png" class="dreickbildzwei" alt="" />
+			<img src="src/dreick.png" class="dreickbilddrei" alt="" />
+			<img src="src/dreick.png" class="dreickbilvier" alt="" />
+			<img src="src/dreick.png" class="dreickbildfuenf" alt="" />
+			<img src="src/dreick.png" class="dreickbildsechs" alt="" />
+			<div class="leftunten"></div>
+			<div class="rightunten"></div>
+			<div class="lignsobenleft">
+				<div class="einsline"></div>
+				<div class="zweiline"></div>
+				<div class="dreiline"></div>
+			</div>
+			<div class="rechtsobenleft">
+				<div class="einseline"></div>
+				<div class="zweieline"></div>
+				<div class="dreieline"></div>
+			</div>
+		</div>
+		<div class="container-ipad">
+			<img
+				src="src/ipad-pro-2018-icon-quer-removebg-preview-removebg-preview.png"
+				class="Ipad"
+				alt=""
+			/>
+			<div class="ipadbackground">
+				<div class="ipad-frontpage">
+					<div class="greyipad"></div>
+					<div class="container-apps">
+						<h1 class="uhrzeit" id="uhrzeit">13:00</h1>
+						<h1 class="datum" id="datum">Donnerstag 2 September</h1>
+						<div class="apps-ipad" id="searchperson">
+							<img
+								src="src/baseline_search_white_48dp.png"
+								class="img-ipad"
+								alt=""
+							/>
+							<h1 class="text-ipad">Personen abfrage</h1>
+						</div>
+						<div class="apps-ipad" id="searchcar">
+							<h1 class="text-ipad">Auto Abfrage</h1>
+							<img
+								src="src/baseline_local_shipping_white_48dp.png"
+								class="img-ipad"
+								alt=""
+							/>
+						</div>
+						<div class="apps-ipad" id="businessid">
+							<h1 class="text-ipad">Business</h1>
+							<img
+								src="src/baseline_featured_play_list_white_48dp.png"
+								class="img-ipad"
+								alt=""
+							/>
+						</div>
+						<div class="apps-ipad">
+							<h1 class="text-ipad">Strafkatalog</h1>
+							<img
+								src="src/baseline_apps_white_48dp.png"
+								class="img-ipad"
+								alt=""
+							/>
+						</div>
+					</div>
+				</div>
+				<div class="ipad-loadingpage">
+					<div class="background-raster"></div>
+					<h1 class="lspd-text">LSPD</h1>
+					<div class="lds-ripple">
+						<div></div>
+						<div></div>
+					</div>
+					<h1 class="loading-text">Loading...</h1>
+				</div>
+				<div class="ipad-searchperson">
+					<div class="barleft">
+						<h1 class="lspd-text1">LSPD</h1>
+						<input
+							class="inputtsearchplayer"
+							maxlength="20"
+							id="inputtsearchplayer"
+							placeholder="Name"
+							onkeyup="searchnames()"
+						/>
+						<input
+							class="inputtwohnort"
+							maxlength="20"
+							id="inputtwohnort"
+							placeholder="Name"
+							onkeyup="searchwohnort()"
+						/>
+						<input
+							class="inputtfahdung"
+							maxlength="20"
+							id="inputtfahdung"
+							placeholder="Name"
+							onkeyup="searchfahndung()"
+						/>
+						<input
+							class="inputtlizenzen"
+							maxlength="20"
+							id="inputtlizenzen"
+							placeholder="Name"
+							onkeyup="searchlizenzen()"
+						/>
+						<div class="container-ipad-search">
+							<div
+								class="container-ipad-search-container"
+								id="searchpersonbutton"
+							>
+								<img
+									src="src/baseline_search_white_48dp.png"
+									alt=""
+									class="container-search-bild"
+								/>
+								<h1 class="container-infos-container">
+									Person Suchen
+								</h1>
+							</div>
+							<div
+								class="container-ipad-search-container"
+								id="searchwohnort"
+							>
+								<img
+									src="src/baseline_featured_play_list_white_48dp.png"
+									alt=""
+									class="container-search-bild"
+								/>
+								<h1 class="container-infos-container">
+									Wohnort
+								</h1>
+							</div>
+							<div
+								class="container-ipad-search-container"
+								id="searchfahdungbutton"
+							>
+								<img
+									src="src/baseline_featured_play_list_white_48dp.png"
+									alt=""
+									class="container-search-bild"
+								/>
+								<h1 class="container-infos-container">
+									Fahndungen
+								</h1>
+							</div>
+							<div
+								class="container-ipad-search-container"
+								id="searchlizenzenbutton"
+							>
+								<img
+									src="src/baseline_featured_play_list_white_48dp.png"
+									alt=""
+									class="container-search-bild"
+								/>
+								<h1 class="container-infos-container">
+									Lizenzen
+								</h1>
+							</div>
+						</div>
+					</div>
+					<div class="personsuchen">
+						<h1 class="textuebersicht">Übersicht:</h1>
+						<div class="container-insertpersons">
+							<div class="container-infoperson">
+								<img
+									src="src/baseline_person_white_48dp.png"
+									class="person-container"
+									alt=""
+								/>
+								<h1 class="container-name-person">
+									Chrisi Espasito
+								</h1>
+								<div class="strich-abändern"></div>
+								<h1 class="container-name-nummer">
+									2305-994393
+								</h1>
+								<img
+									src="src/baseline_search_white_48dp.png"
+									class="searchplayericon"
+									alt=""
+								/>
+							</div>
+						</div>
+						<img
+							src="src/outline_clear_white_48dp.png"
+							class="gohome"
+							alt=""
+						/>
+						<button class="button-addplayer">Hinzufügen</button>
+					</div>
+					<div class="personhinzufügen">
+						<h1 class="textuebersicht">Person Hinzufügen:</h1>
+						<input
+							class="inputt-url"
+							id="inputturl"
+							placeholder="Foto (URL)"
+						/>
+						<h1 class="textuebersicht2">Person Informationen:</h1>
+						<input
+							class="inputt-vorname"
+							id="inputtvorname"
+							placeholder="Vorname"
+						/>
+						<input
+							class="inputt-nachname"
+							id="inputtnachname"
+							placeholder="Nachname"
+						/>
+						<input
+							class="inputt-nummer"
+							id="inputtnumber"
+							placeholder="Telefon Nummer"
+						/>
+						<h1 class="textuebersicht3">
+							Beschreibung der Person:
+						</h1>
+						<h1 class="textuebersicht4">Max. 500 Zeichen</h1>
+						<textarea
+							maxlength="150"
+							autofocus
+							id="inputt-desc"
+							class="inputt-desc"
+							name="description"
+							placeholder="Beschreibung"
+						></textarea>
+						<button class="button-abschicken">Absenden</button>
+						<img
+							src="src/baseline_keyboard_return_white_48dp.png"
+							class="goback"
+							alt=""
+						/>
+					</div>
+					<div class="seeperson">
+						<h1 class="textuebersicht">Person Informationen:</h1>
+						<button
+							class="button-editplayer"
+							id="button-editplayer"
+						>
+							Editieren
+						</button>
+						<div class="img-bild-player"></div>
+						<img
+							src="src/baseline_keyboard_return_white_48dp.png"
+							class="goback2"
+							alt=""
+						/>
+						<h1 class="Name-Übersicht">Name:</h1>
+						<h1 class="Name-Übersicht2" id="name-person">
+							Chrisi Espasito
+						</h1>
+						<h1 class="Geburtsdatum-Übersicht">Geburtstag:</h1>
+						<h1 class="Geburtsdatum-Übersicht2" id="Birthdate">
+							20/20/20
+						</h1>
+						<h1 class="Geburtsdatum-Nummer">Nummer:</h1>
+						<h1 class="Geburtsdatum-Nummer2" id="PersoNummer">
+							2391q939219329
+						</h1>
+						<h1 class="Geburtsdatum-Beschreibung">Beschreibung:</h1>
+						<h1
+							class="Geburtsdatum-Beschreibung2"
+							id="beschreibunghinzufügen"
+						>
+							Lorem ipsum dolor sit amet, consetetur sadipscing
+							elitr, sed diam nonumy eirmod tempor invidunt ut
+							labore et dolore magna aliquyam erat, sed diam
+							voluptua. At vero eos et accusam et justo duo
+							dolores et ea rebum. Stet clita kasd gubergren, no
+							sea takimata sanctus est Lorem ipsum dolor sit amet.
+							Lorem ipsum dolor sit amet, consetetur sadipscing
+							elitr, sed diam nonumy eirmod tempor invidunt ut
+							labore et dolore magna aliquyam erat, sed diam
+						</h1>
+						<button class="button-addakte" id="aktehinzufügen">
+							Akte Hinzufügen
+						</button>
+						<h1 class="Geburtsdatum-Akten">Akten:</h1>
+						<div class="container-akten">
+							<div class="container-akten-dex">
+								<h1 class="Detail-idakten">#1</h1>
+								<div class="strich-abändern3"></div>
+								<h1 class="Detail-titel">
+									Schware Kriminalität
+								</h1>
+								<div class="strich-abändern4"></div>
+								<h1 class="Detail-datum">01.12.2020</h1>
+								<img
+									src="src/baseline_search_white_48dp.png"
+									class="giveinfosakten"
+									alt=""
+								/>
+							</div>
+						</div>
+					</div>
+					<div class="editplayer">
+						<h1 class="textuebersicht">Person Hinzufügen:</h1>
+						<input
+							class="inputt-url"
+							id="inputturledit"
+							placeholder="Foto (URL)"
+						/>
+						<h1 class="textuebersicht2">Person Informationen:</h1>
+						<input
+							class="inputt-vorname"
+							id="inputtvornameedit"
+							placeholder="Vorname"
+						/>
+						<input
+							class="inputt-nachname"
+							id="inputtnachnameedit"
+							placeholder="Nachname"
+						/>
+						<input
+							class="inputt-nummer"
+							id="inputtnumberedit"
+							placeholder="Telefon Nummer"
+						/>
+						<h1 class="textuebersicht3">
+							Beschreibung der Person:
+						</h1>
+						<h1 class="textuebersicht4">Max. 500 Zeichen</h1>
+						<textarea
+							maxlength="150"
+							autofocus
+							id="inputt-descedit"
+							class="inputt-desc"
+							name="description"
+							placeholder="Beschreibung"
+						></textarea>
+						<button class="button-updaten" id="button-updaten">
+							Updaten
+						</button>
+						<img
+							src="src/baseline_keyboard_return_white_48dp.png"
+							class="goback3"
+							alt=""
+						/>
+					</div>
+					<div class="giveakte">
+						<h1 class="textuebersicht">Akte Hinzufügen:</h1>
+						<input
+							class="inputt-titel"
+							id="inputtitel"
+							placeholder="Titel"
+						/>
+
+						<textarea
+							maxlength="150"
+							autofocus
+							id="inputt-beschreibungakte"
+							class="inputt-beschreibungakte"
+							name="description"
+							placeholder="Beschreibung"
+						></textarea>
+						<h1 class="textuebersicht5">Max. 500 Zeichen</h1>
+						<input
+							class="inputt-geldstrafe"
+							id="inputtgeldstrafe"
+							placeholder="Geld Strafe (Muss nicht Belegt sein)"
+						/>
+						<input
+							class="inputt-haftstrafe"
+							id="inputthaftstrafe"
+							placeholder="Haft Strafe (Muss nicht Belegt sein)"
+						/>
+						<input class="checkbox-type" type="checkbox" />
+						<h1 class="fahndungaktentext">Akte als Fahndung</h1>
+						<button
+							class="button-Hinzufügen"
+							id="button-Hinzufügen"
+						>
+							Hinzufügen
+						</button>
+						<img
+							src="src/baseline_keyboard_return_white_48dp.png"
+							class="goback4"
+							alt=""
+						/>
+					</div>
+					<div class="showakte">
+						<h1 class="textuebersicht">Akte Informationen:</h1>
+
+						<img
+							src="src/baseline_keyboard_return_white_48dp.png"
+							class="goback5"
+							alt=""
+						/>
+						<h1 class="Name-Übersicht">Titel:</h1>
+						<h1 class="Name-Übersicht2" id="titelofverbrechen">
+							Schwerer Eingriff
+						</h1>
+						<h1 class="Geburtsdatum-Datum">Datum:</h1>
+						<h1 class="Geburtsdatum-Datum2" id="datumofverbrechen">
+							20.10.2022
+						</h1>
+						<h1 class="Geburtsdatum-Officer">Officer:</h1>
+						<h1 class="Geburtsdatum-Officer2" id="officername">
+							2391q939219329
+						</h1>
+						<h1 class="Geburtsdatum-GeldStrafe">Geldstrafe:</h1>
+						<h1
+							class="Geburtsdatum-GeldStrafe2"
+							id="geldstrafehöhe"
+						>
+							100$
+						</h1>
+						<h1 class="Geburtsdatum-Haftstrafe">Haftstrafe:</h1>
+						<h1
+							class="Geburtsdatum-Haftstrafe2"
+							id="haftstrafehöhe"
+						>
+							100$
+						</h1>
+						<h1 class="Geburtsdatum-Beschreibungtext">
+							Beschreibung:
+						</h1>
+						<h1
+							class="Geburtsdatum-Beschreibungtext2"
+							id="beschreibungoftat"
+						></h1>
+					</div>
+					<div class="lizenzenbild">
+						<div
+							class="container-ipad-linzenzen"
+							id="container-ipad-linzenzen"
+						></div>
+					</div>
+					<div class="lizenzendetails">
+						<h1 class="textuebersicht">
+							Alle Lizenzen der Person:
+						</h1>
+						<img
+							src="src/baseline_keyboard_return_white_48dp.png"
+							class="goback6"
+							alt=""
+						/>
+						<div class="img-bild-player2"></div>
+						<h1 class="Name-Übersicht">Name:</h1>
+						<h1 class="Name-Übersicht2" id="nameoflizenzen">
+							Christian Espasito
+						</h1>
+
+						<h1 class="Geburtsdatum-driverlicense">
+							Auto Führerschein:
+						</h1>
+						<h1
+							class="Geburtsdatum-driverlicense2"
+							id="autolizenze"
+						>
+							Vorhanden
+						</h1>
+						<h1 class="Geburtsdatum-flylicense">
+							Flugzeug Führerschein:
+						</h1>
+						<h1
+							class="Geburtsdatum-flylicense2"
+							id="flugzeuglizenze"
+						>
+							Vorhanden
+						</h1>
+						<h1 class="Geburtsdatum-bootlicense">
+							Boot Führerschein:
+						</h1>
+						<h1 class="Geburtsdatum-bootlicense2" id="bootlizenze">
+							Vorhanden
+						</h1>
+						<h1 class="Geburtsdatum-lkwlicense">
+							LKW Führerschein:
+						</h1>
+						<h1 class="Geburtsdatum-lkwlicense2" id="lkwlizenze">
+							Vorhanden
+						</h1>
+						<h1 class="Geburtsdatum-motorlicense">
+							Motor Führerschein:
+						</h1>
+						<h1
+							class="Geburtsdatum-motorlicense2"
+							id="motorlizenze"
+						>
+							Vorhanden
+						</h1>
+						<h1 class="Geburtsdatum-lizenzlicense">
+							Waffen Lizenz:
+						</h1>
+						<h1
+							class="Geburtsdatum-lizenzlicense2"
+							id="waffenlizenz"
+						>
+							Vorhanden
+						</h1>
+						<h1 class="Geburtsdatum-jagdlicense">Jagd Lizenz:</h1>
+						<h1 class="Geburtsdatum-jagdlicense2" id="jagdlizenze">
+							Vorhanden
+						</h1>
+						<h1
+							class="Geburtsdatum-Beschreibungtext2"
+							id="beschreibungoftat"
+						></h1>
+					</div>
+					<div class="ipad-wohnortsearch">
+						<div
+							class="container-ipad-wohnort"
+							id="container-ipad-wohnort"
+						></div>
+					</div>
+					<div class="fahndungenausschreiben">
+						<div class="bigbarfahndungen">
+							<h1 class="textfandungen">Aktive Fahndungen:</h1>
+							<h1 class="anzahlfandungen" id="anzahlfandungen">
+								Anzahl der Fahdungen: 0
+							</h1>
+						</div>
+						<div
+							class="container-ipad-fahndungen"
+							id="container-ipad-fahndungen"
+						>
+							<div class="interaktivfahndungen">
+								<h1 class="namefandung">
+									Name: Christian Espasito
+								</h1>
+								<h1 class="wegenfandung">
+									Wegen: Fortnite Spieler Ausgeraubt
+								</h1>
+								<div class="trennungslinie"></div>
+								<button
+									class="button-deletefahndung"
+									id="button-deletefahndung"
+								>
+									Fahndung Einstellen
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="ipad-autoabfrage">
+					<div class="loadingpage-garage">
+						<div class="loadingpage-background"></div>
+						<div class="loadingpage-content">
+							<h1 class="classautoapfragetext">Auto Abfrage</h1>
+							<img
+								src="src/outline_directions_car_filled_white_36dp.png"
+								alt=""
+								class="auto-class"
+							/>
+							<div class="lds-ellipsis">
+								<div></div>
+								<div></div>
+								<div></div>
+								<div></div>
+							</div>
+						</div>
+					</div>
+					<div class="main-garageseepage">
+						<img
+							src="src/outline_clear_white_48dp.png"
+							class="backtomaingarage"
+							alt=""
+						/>
+						<div class="main-garagepagebackground"></div>
+						<div
+							class="box-container-car"
+							id="box-container-car"
+						></div>
+						<input
+							class="inputt-garagesearch"
+							id="inputt-garagesearch"
+							placeholder="Kennzeichen eingeben"
+							onkeyup="searchthroughautos()"
+						/>
+					</div>
+				</div>
+				<div class="ipad-business">
+					<div class="main-garagepagebackground"></div>
+					<button class="button-MainPage" id="button-MainPage">
+						Streifen Übersicht
+					</button>
+					<button class="button-Aktiv" id="button-Aktiv">
+						Aktiver Streifendienst
+					</button>
+					<div class="mainpage-business">
+						<img
+							src="src/outline_clear_white_48dp.png"
+							class="backtomainpagefrombusiness"
+							alt=""
+						/>
+						<h1 class="leistellentext">Streifen Übersicht:</h1>
+
+						<button
+							class="button-newstreife"
+							id="button-newstreife"
+						>
+							Neue Streife
+						</button>
+						<div
+							class="box-container-streifedienst"
+							id="box-container-streifedienst"
+						>
+							<div class="streifenkarte" id="erstestreife">
+								<h1 class="streifentext">Streife #1</h1>
+								<div
+									class="box-container-namestreifendienst"
+									id="streifeeins"
+								></div>
+								<img
+									src="src/outline_clear_white_48dp.png"
+									alt=""
+									class="closestreife"
+									id="erstestreifeclose"
+								/>
+								<img
+									src="src/baseline_person_white_48dp.png"
+									alt=""
+									class="openstreife"
+									id="erstestreifeopen"
+								/>
+							</div>
+						</div>
+						<div class="container-playernotinstreife">
+							<h1 class="abwesendtext">Nicht eingeteilt:</h1>
+							<div
+								class="box-container-abwesend"
+								id="box-container-abwesend"
+							></div>
+						</div>
+					</div>
+					<div class="mainpage-business-seeingpeople">
+						<img
+							src="src/outline_clear_white_48dp.png"
+							class="backtomainpagefrombusiness"
+							alt=""
+						/>
+						<h1 class="leistellentext">Verfügbare Personen:</h1>
+						<div class="box-people">
+							<div
+								class="container-box-people"
+								id="chiefofdepartment"
+							>
+								<h1 class="leistellentext2">
+									- Chief of Department
+								</h1>
+							</div>
+							<div
+								class="container-box-people"
+								id="assistanchief"
+							>
+								<h1 class="leistellentext2">
+									- Assistant Chief
+								</h1>
+							</div>
+							<div class="container-box-people" id="deputychief">
+								<h1 class="leistellentext2">- Deputy Chief</h1>
+							</div>
+							<div class="container-box-people" id="inspector">
+								<h1 class="leistellentext2">- Inspector</h1>
+							</div>
+							<div class="container-box-people" id="captain">
+								<h1 class="leistellentext2">- Captain</h1>
+							</div>
+							<div class="container-box-people" id="agent">
+								<h1 class="leistellentext2">- Agent</h1>
+							</div>
+							<div class="container-box-people" id="leutnant">
+								<h1 class="leistellentext2">- Leutnant</h1>
+							</div>
+							<div class="container-box-people" id="sergeant">
+								<h1 class="leistellentext2">- Sergeant</h1>
+							</div>
+							<div class="container-box-people" id="detective">
+								<h1 class="leistellentext2">- Detective</h1>
+							</div>
+							<div
+								class="container-box-people"
+								id="policeofficer"
+							>
+								<h1 class="leistellentext2">
+									- Police Officer
+								</h1>
+							</div>
+							<div
+								class="container-box-people"
+								id="rekrutofficer"
+							>
+								<h1 class="leistellentext2">
+									- Rekrut Officer
+								</h1>
+							</div>
+							<div class="container-box-people" id="kadett">
+								<h1 class="leistellentext2">- Kadett</h1>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-pc">
+			<img src="src/computer_frame.png" class="framepc" alt="" />
+			<img src="src/windows.png" class="backgroundpc" alt="" />
+			<div class="frontpage-windows">
+				<img
+					src="src/2022-10-21-ts3_thumbs-829.png"
+					class="apppc1"
+					alt=""
+				/>
+				<h1 class="managetextapp">Managen</h1>
+				<div class="leisteunten">
+					<div class="windows-containerzeichen">
+						<img
+							src="src/windowsbild.png"
+							class="windowsbild"
+							alt=""
+						/>
+					</div>
+				</div>
+			</div>
+			<div class="managenapp">
+				<div class="container-app-manage">
+					<div class="topleiste">
+						<h1 class="nameofapp">
+							Polizei - Managen der wichtigen Dinge
+						</h1>
+						<div class="right-x-symbol-container">
+							<img
+								src="src/schliesen.png"
+								class="closeappwindows"
+								alt=""
+							/>
+						</div>
+					</div>
+					<div class="rechtsleisteapp">
+						<h1 class="lspd-text2">LSPD</h1>
+						<div class="container-buttons-lspdtable">
+							<div class="button-lspdtable" id="angestellte">
+								<h1 class="button-lspdtable-text">
+									Angestellte
+								</h1>
+							</div>
+							<div class="button-lspdtable" id="paycheck">
+								<h1 class="button-lspdtable-text">PayChecks</h1>
+							</div>
+						</div>
+						<h1 class="lspd-text3">Copyright by Chrisi</h1>
+					</div>
+					<div class="angestellteseite">
+						<h1 class="angestelltetext">Angestellte Personen:</h1>
+						<div class="container-showallpeople">
+							<div class="container-allowpeopleshow">
+								<img
+									src="src/baseline_person_white_48dp.png"
+									class="personbild"
+									alt=""
+								/>
+								<h1 class="nametext">Christian Espasito</h1>
+								<h1 class="angestelltedatum">
+									Seit: 02.20.2000
+								</h1>
+								<h1 class="angestellterang">Rang: Lutenent</h1>
+								<button
+									class="button-befördern"
+									id="button-befördern"
+								>
+									Befördern
+								</button>
+								<button
+									class="button-feuern"
+									id="button-feuern"
+								>
+									Down Ranken
+								</button>
+							</div>
+							<div class="container-allowpeopleshow"></div>
+							<div class="container-allowpeopleshow"></div>
+							<div class="container-allowpeopleshow"></div>
+							<div class="container-allowpeopleshow"></div>
+							<div class="container-allowpeopleshow"></div>
+						</div>
+					</div>
+					<div class="paycheckseite">
+						<h1 class="angestelltetext">Paychecks der Personen:</h1>
+						<div class="container-paycheck">
+							<div class="container-paycheck-persons">
+								<div class="container-money">
+									<img
+										src="src/baseline_apps_white_48dp.png"
+										alt=""
+										class="money-container"
+									/>
+								</div>
+								<h1 class="container-paycheck-persons-text">
+									Kadett
+								</h1>
+								<input
+									class="inputtmoneyplayer"
+									maxlength="20"
+									id="inputtmoneyplayer"
+									placeholder="Pay Check"
+								/>
+
+								<button
+									class="button-apply"
+									id="button-aplly"
+									name="kadett"
+								>
+									Akzeptieren
+								</button>
+							</div>
+							<div class="container-paycheck-persons">
+								<div class="container-money">
+									<img
+										src="src/baseline_apps_white_48dp.png"
+										alt=""
+										class="money-container"
+									/>
+								</div>
+								<h1 class="container-paycheck-persons-text">
+									Rekrut Officer
+								</h1>
+								<input
+									class="inputtmoneyplayer"
+									maxlength="20"
+									id="inputtmoneyplayer"
+									placeholder="Pay Check"
+								/>
+
+								<button
+									class="button-apply"
+									id="button-aplly"
+									name="rekrutofficer"
+								>
+									Akzeptieren
+								</button>
+							</div>
+							<div class="container-paycheck-persons">
+								<div class="container-money">
+									<img
+										src="src/baseline_apps_white_48dp.png"
+										alt=""
+										class="money-container"
+									/>
+								</div>
+								<h1 class="container-paycheck-persons-text">
+									Police Officer
+								</h1>
+								<input
+									class="inputtmoneyplayer"
+									maxlength="20"
+									id="inputtmoneyplayer"
+									placeholder="Pay Check"
+								/>
+
+								<button
+									class="button-apply"
+									id="button-aplly"
+									name="policeofficer"
+								>
+									Akzeptieren
+								</button>
+							</div>
+							<div class="container-paycheck-persons">
+								<div class="container-money">
+									<img
+										src="src/baseline_apps_white_48dp.png"
+										alt=""
+										class="money-container"
+									/>
+								</div>
+								<h1 class="container-paycheck-persons-text">
+									Detective
+								</h1>
+								<input
+									class="inputtmoneyplayer"
+									maxlength="20"
+									id="inputtmoneyplayer"
+									placeholder="Pay Check"
+								/>
+
+								<button
+									class="button-apply"
+									id="button-aplly"
+									name="detective"
+								>
+									Akzeptieren
+								</button>
+							</div>
+							<div class="container-paycheck-persons">
+								<div class="container-money">
+									<img
+										src="src/baseline_apps_white_48dp.png"
+										alt=""
+										class="money-container"
+									/>
+								</div>
+								<h1 class="container-paycheck-persons-text">
+									Sergeant
+								</h1>
+								<input
+									class="inputtmoneyplayer"
+									maxlength="20"
+									id="inputtmoneyplayer"
+									placeholder="Pay Check"
+								/>
+
+								<button
+									class="button-apply"
+									id="button-aplly"
+									name="sergeant"
+								>
+									Akzeptieren
+								</button>
+							</div>
+							<div class="container-paycheck-persons">
+								<div class="container-money">
+									<img
+										src="src/baseline_apps_white_48dp.png"
+										alt=""
+										class="money-container"
+									/>
+								</div>
+								<h1 class="container-paycheck-persons-text">
+									Leutnant
+								</h1>
+								<input
+									class="inputtmoneyplayer"
+									maxlength="20"
+									id="inputtmoneyplayer"
+									placeholder="Pay Check"
+								/>
+
+								<button
+									class="button-apply"
+									id="button-aplly"
+									name="leutnant"
+								>
+									Akzeptieren
+								</button>
+							</div>
+							<div class="container-paycheck-persons">
+								<div class="container-money">
+									<img
+										src="src/baseline_apps_white_48dp.png"
+										alt=""
+										class="money-container"
+									/>
+								</div>
+								<h1 class="container-paycheck-persons-text">
+									Agent
+								</h1>
+								<input
+									class="inputtmoneyplayer"
+									maxlength="20"
+									id="inputtmoneyplayer"
+									placeholder="Pay Check"
+								/>
+
+								<button
+									class="button-apply"
+									id="button-aplly"
+									name="agent"
+								>
+									Akzeptieren
+								</button>
+							</div>
+							<div class="container-paycheck-persons">
+								<div class="container-money">
+									<img
+										src="src/baseline_apps_white_48dp.png"
+										alt=""
+										class="money-container"
+									/>
+								</div>
+								<h1 class="container-paycheck-persons-text">
+									Captain
+								</h1>
+								<input
+									class="inputtmoneyplayer"
+									maxlength="20"
+									id="inputtmoneyplayer"
+									placeholder="Pay Check"
+								/>
+
+								<button
+									class="button-apply"
+									id="button-aplly"
+									name="captain"
+								>
+									Akzeptieren
+								</button>
+							</div>
+							<div class="container-paycheck-persons">
+								<div class="container-money">
+									<img
+										src="src/baseline_apps_white_48dp.png"
+										alt=""
+										class="money-container"
+									/>
+								</div>
+								<h1 class="container-paycheck-persons-text">
+									Inspector
+								</h1>
+								<input
+									class="inputtmoneyplayer"
+									maxlength="20"
+									id="inputtmoneyplayer"
+									placeholder="Pay Check"
+								/>
+
+								<button
+									class="button-apply"
+									id="button-aplly"
+									name="inspector"
+								>
+									Akzeptieren
+								</button>
+							</div>
+							<div class="container-paycheck-persons">
+								<div class="container-money">
+									<img
+										src="src/baseline_apps_white_48dp.png"
+										alt=""
+										class="money-container"
+									/>
+								</div>
+								<h1 class="container-paycheck-persons-text">
+									Deputy Chief
+								</h1>
+								<input
+									class="inputtmoneyplayer"
+									maxlength="20"
+									id="inputtmoneyplayer"
+									placeholder="Pay Check"
+								/>
+
+								<button
+									class="button-apply"
+									id="button-aplly"
+									name="deputyChief"
+								>
+									Akzeptieren
+								</button>
+							</div>
+							<div class="container-paycheck-persons">
+								<div class="container-money">
+									<img
+										src="src/baseline_apps_white_48dp.png"
+										alt=""
+										class="money-container"
+									/>
+								</div>
+								<h1 class="container-paycheck-persons-text">
+									Assistant Chief
+								</h1>
+								<input
+									class="inputtmoneyplayer"
+									maxlength="20"
+									id="inputtmoneyplayer"
+									placeholder="Pay Check"
+								/>
+
+								<button
+									class="button-apply"
+									id="button-aplly"
+									name="assistantChief"
+								>
+									Akzeptieren
+								</button>
+							</div>
+							<div class="container-paycheck-persons">
+								<div class="container-money">
+									<img
+										src="src/baseline_apps_white_48dp.png"
+										alt=""
+										class="money-container"
+									/>
+								</div>
+								<h1 class="container-paycheck-persons-text">
+									Chief of Department
+								</h1>
+								<input
+									class="inputtmoneyplayer"
+									maxlength="20"
+									id="inputtmoneyplayer"
+									placeholder="Pay Check"
+								/>
+
+								<button
+									class="button-apply"
+									id="button-aplly"
+									name="chiefofdepartment"
+								>
+									Akzeptieren
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="inputt-timejail">
+			<div class="saveoutifit1">
+				<div class="strichlinksoben"></div>
+				<div class="strichrechtsunten"></div>
+				<div class="boxinnen"></div>
+
+				<h1 class="outfitspeicherntext1">Gefängnis - Zeit</h1>
+				<div class="strichdrunterspeichern"></div>
+				<h1 class="outfitspeicherntextifno">
+					Hier kannst du angeben wie lange die Person im Gefängnis
+					bleiben soll. 1 = 1Min = 1 Monat
+				</h1>
+				<input
+					class="inputt-zeit"
+					id="inputt-zeit"
+					placeholder="Zeit"
+				/>
+				<button
+					type="button"
+					id="buttonspeichernjailtime"
+					class="buttonspeichernjailtime"
+				>
+					Vollführen
+				</button>
+				<button
+					type="button"
+					id="buttonabbrechen1"
+					class="buttonabbrechen1"
+				>
+					Abbrechen
+				</button>
+			</div>
+		</div>
+		<div class="esseninteraktionsmenu">
+			<div class="leftinter">
+				<div class="hauptseite">
+					<h1 class="textpolizeiinteraktion">Gefängnis</h1>
+					<h1 class="discriptioninteraktionen">
+						Lebensmittel - Laden
+					</h1>
+					<div class="divbreite"></div>
+					<div class="boxinter2">
+						<div class="boxcontainer" typeofaction="1">
+							<h1 class="text-boxcontainer">Burger Kaufen</h1>
+							<h1 class="money-essen">3$</h1>
+						</div>
+						<div class="boxcontainer" typeofaction="2">
+							<h1 class="text-boxcontainer">Wasser Kaufen</h1>
+							<h1 class="money-essen">2$</h1>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="besucheninteraktionsmenu">
+			<div class="leftinter">
+				<div class="hauptseite">
+					<h1 class="textpolizeiinteraktion">Gefängnis</h1>
+					<h1 class="discriptioninteraktionen">
+						Spieler - Ineraktion
+					</h1>
+					<div class="divbreite"></div>
+					<div class="boxinter3">
+						<div class="boxcontainer" typeofaction="1">
+							<h1 class="text-boxcontainer">Insassen Besuchen</h1>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="cctvinteraktionsmenu">
+			<div class="leftinter">
+				<div class="hauptseite">
+					<h1 class="textpolizeiinteraktion">Polizei</h1>
+					<h1 class="discriptioninteraktionen">CCTV - Ineraktion</h1>
+					<div class="divbreite"></div>
+					<div class="boxinter4" id="boxinter4" tabindex="-1">
+						<div class="boxcontainer" typeofaction="1">
+							<h1 class="text-boxcontainer">Insassen Besuchen</h1>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="radar">
+			<div class="radarlinks"></div>
+
+			<div class="platefront">
+				<h1 class="textfront" id="textfront">000</h1>
+			</div>
+			<div class="plateback">
+				<h1 class="textback" id="textback">000</h1>
+			</div>
+
+			<img src="src/plate.png" class="einsplate" alt="" />
+			<h1 class="platetext1" id="platetext1">85FVO051</h1>
+			<img
+				src="src/baseline_videocam_white_48dp.png"
+				class="cam1"
+				alt=""
+			/>
+			<img
+				src="src/baseline_videocam_white_48dp.png"
+				class="cam2"
+				alt=""
+			/>
+		</div>
+		<div class="Josie-Container2">
+			<div class="left2">
+				<div class="strich2">
+					<h1 class="text2">Josie</h1>
+				</div>
+			</div>
+			<div class="right">
+				<h1 class="name-anfang2">Josie - AnfängerGuide</h1>
+				<div class="barname2"></div>
+				<div class="infobox2">
+					<h1 class="text-infobox2">
+						Hey, hier kannst du Events auswählen welche Global sind.
+						Jeder spieler bekommt von den Events mit
+					</h1>
+				</div>
+				<h1 class="esctext2">Drücke ESC um zu verlassen</h1>
+				<button
+					type="button"
+					id="submitbuttonsesse2"
+					class="submitbuttonseedsf2"
+				>
+					Konvoi starten?
+				</button>
+			</div>
+		</div>
+		<div class="KastenLoadingVerarbeiter">
+			<h1 class="info-text">HOLEN</h1>
+			<div class="bar-out">
+				<div class="bar-in" id="bar-in"></div>
+			</div>
+		</div>
+	</body>
+	<script src="index.js"></script>
+</html>

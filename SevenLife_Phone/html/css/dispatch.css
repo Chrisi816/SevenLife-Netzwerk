@@ -1,0 +1,604 @@
+@font-face {
+	font-family: "Abel";
+	src: url("../text/Abel-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Aldrich";
+	src: url("../text/Aldrich-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Roboto";
+	src: url("../text/Roboto-MediumItalic.ttf");
+}
+.dispatchapp {
+	position: absolute;
+	left: 0vw;
+	top: 0vh;
+	height: 81vh;
+	border-radius: 1vw;
+	width: 21.1vw;
+	z-index: 154;
+	background: linear-gradient(to bottom, #0c2341, #0d141e 80.71%);
+}
+.dispatchuntenbox {
+	position: absolute;
+	width: 100%;
+	background-color: rgba(255, 0, 0, 0);
+	height: 7vh;
+	overflow: hidden;
+	bottom: 0vh;
+}
+.dispatchuntenbox {
+	position: absolute;
+	width: 100%;
+	height: 10vh;
+	bottom: 0vh;
+	background-color: #0f1b2b;
+}
+.dispachbarunten {
+	position: absolute;
+	width: 15vw;
+	bottom: 1.5vh;
+	z-index: 50;
+	left: 3.5vw;
+	border-radius: 20vw;
+	height: 1vh;
+	z-index: 155;
+	cursor: pointer;
+	background-color: rgb(206, 206, 206);
+}
+.dispachbarunten:hover {
+	animation: untenline-nachobens;
+	animation-duration: 1.5s;
+}
+.großkreismitte1 {
+	position: absolute;
+	width: 5vw;
+	border-radius: 20vw;
+	background-color: #0d141e;
+	bottom: 6vh;
+	height: 9vh;
+	left: 8.4vw;
+}
+.großkreismitte2 {
+	position: absolute;
+	width: 4vw;
+	border-radius: 20vw;
+	z-index: 1;
+	background: linear-gradient(to left, rgb(85, 0, 128), rgb(29, 0, 132));
+	box-shadow: 0vw 0vw 1vw 0.5vw rgba(85, 0, 128, 0.807);
+	bottom: 7vh;
+	height: 7vh;
+	left: 8.9vw;
+	cursor: pointer;
+}
+.dispatchplus {
+	position: absolute;
+	left: 0.67vw;
+	top: 1.3vh;
+	pointer-events: none;
+}
+.topbardispatch {
+	position: absolute;
+	height: 5vh;
+	background-color: #0f1b2b;
+	width: 100%;
+	z-index: 156;
+}
+.firstdispatchbox {
+	position: absolute;
+	background-color: rgba(26, 23, 23, 0);
+	width: 10.8vw;
+	cursor: pointer;
+	height: 10vh;
+}
+.sekonddispatchbox {
+	position: absolute;
+	background-color: rgba(255, 0, 0, 0);
+	width: 10.2vw;
+	height: 10vh;
+	cursor: pointer;
+	right: 0vw;
+}
+.text-dispatch1 {
+	position: absolute;
+	width: 7.5vw;
+	left: 0vw;
+	bottom: 3vh;
+
+	font-family: "Abel";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.1vw;
+	line-height: 1vw;
+	text-align: center;
+	cursor: none;
+	color: #ffffff;
+	pointer-events: none;
+}
+.text-dispatch2 {
+	position: absolute;
+	width: 7.5vw;
+	right: 0vw;
+	bottom: 3vh;
+
+	font-family: "Abel";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.1vw;
+	line-height: 1vw;
+	text-align: center;
+	cursor: none;
+	color: #ffffff;
+	pointer-events: none;
+}
+.dispatchappbild {
+	position: absolute;
+	width: 2vw;
+	top: 0.1vh;
+	left: 2.5vw;
+
+	rotate: 90deg;
+	cursor: pointer;
+}
+.dispatchappbild2 {
+	position: absolute;
+	width: 2vw;
+	top: 0.1vh;
+	right: 3vw;
+	pointer-events: none;
+}
+.dispatches-text {
+	position: absolute;
+	width: 13.5vw;
+	left: 0.8vw;
+	top: 5.5vh;
+	font-family: "Abel";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.6vw;
+	line-height: 1vw;
+	text-align: left;
+	cursor: none;
+	color: #ffffff;
+	pointer-events: none;
+}
+.dispatch-barunten {
+	position: absolute;
+	width: 10vw;
+	height: 0.3vh;
+	background-color: rgb(255, 255, 255);
+	top: 10vh;
+	left: 0.9vw;
+}
+
+.scroll-dispatch {
+	position: absolute;
+	left: 1vw;
+	height: 58.9vh;
+	overflow-y: scroll;
+	width: 19.5vw;
+	top: 12vh;
+	background-color: rgba(255, 0, 0, 0);
+}
+.scroll-dispatch::-webkit-scrollbar {
+	width: 0.4vw;
+	height: 1vw;
+}
+
+.scroll-dispatch::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+.scroll-dispatch::-webkit-scrollbar-thumb {
+	background-color: #202020;
+	border-radius: 20px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.12) 0 3px 13px 1px;
+}
+.container-dispatchstatus {
+	position: relative;
+	width: 18.5vw;
+	height: 24vh;
+	top: -1vh;
+	border-radius: 0.5vw;
+	background-color: #162842;
+	margin-top: 2vh;
+}
+.titeltext {
+	position: absolute;
+	width: 17vw;
+	left: 0.7vw;
+	top: -1vh;
+	font-family: "Abel";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1.6vw;
+	background-color: rgba(255, 0, 0, 0);
+	line-height: 2vw;
+	text-align: center;
+	overflow: hidden;
+	cursor: none;
+	height: 4vh;
+	color: #ffffff;
+	pointer-events: none;
+}
+.dispatch-baruntentitel {
+	position: absolute;
+	width: 17vw;
+	height: 0.1vh;
+	background-color: rgb(255, 255, 255);
+	top: 4.5vh;
+	left: 0.7vw;
+}
+.submitdispatch {
+	position: relative;
+	left: 4%;
+	top: 19vh;
+	width: 91%;
+	height: 4vh;
+	z-index: 29;
+
+	font-size: 1vw;
+	background-color: rgba(150, 2, 2, 0.47);
+	outline: none;
+	cursor: pointer;
+	border-radius: 0.6vw;
+	color: #ffffff;
+	border: none;
+	border-radius: 5px;
+	outline: none;
+	z-index: 29;
+}
+.submitdispatch:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	background-color: rgba(87, 87, 87, 0.808);
+}
+.dispatch-baruntenuntentitel {
+	position: absolute;
+	width: 17vw;
+	height: 0.1vh;
+	background-color: rgb(255, 255, 255);
+	top: 18vh;
+	left: 0.7vw;
+}
+.textbeschreibung {
+	position: absolute;
+	width: 17vw;
+	left: 0.7vw;
+	top: 3.5vh;
+	font-family: "Abel";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1.1vw;
+	background-color: rgba(255, 0, 0, 0);
+	line-height: 1.44vw;
+	text-align: center;
+	overflow: hidden;
+	cursor: none;
+	height: 12vh;
+	color: #ffffff;
+	pointer-events: none;
+}
+.box-container-info {
+	position: absolute;
+	width: 4vw;
+	height: 7vh;
+	border-radius: 1vw;
+	left: 0.5vw;
+	top: -1vh;
+	background-color: #47a0e97e;
+}
+.infozeichen {
+	position: absolute;
+	width: 2.5vw;
+	left: 0.7vw;
+	top: 1.3vh;
+}
+.text-dispach {
+	position: absolute;
+	width: 13vw;
+	left: 5.3vw;
+	top: 0.4vh;
+	font-family: "Khula";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1.5vw;
+	background-color: rgba(255, 0, 0, 0);
+	line-height: 1.64vw;
+	text-align: left;
+	overflow: hidden;
+	cursor: none;
+	height: 4vh;
+	color: #ffffff;
+	pointer-events: none;
+}
+.infotextdispatch {
+	position: absolute;
+	width: 17.4vw;
+	left: 0.7vw;
+	top: 6vh;
+	font-family: "Khula";
+	font-style: normal;
+	font-weight: 300;
+	font-size: 0.9vw;
+	background-color: rgba(255, 0, 0, 0);
+	line-height: 1.14vw;
+	text-align: left;
+	overflow: hidden;
+
+	color: #ffffff;
+	pointer-events: none;
+}
+
+.statustext2 {
+	position: absolute;
+	left: 0.7vw;
+	bottom: 0vh;
+	font-family: "Khula";
+	font-style: normal;
+	font-weight: 300;
+	font-size: 1.1vw;
+	background-color: rgba(255, 0, 0, 0);
+	line-height: 1.64vw;
+	text-align: left;
+	overflow: hidden;
+	color: #ffffff;
+	pointer-events: none;
+}
+.InfoFraktion {
+	position: absolute;
+	right: 1.2vw;
+	bottom: -0.4vh;
+	font-family: "Khula";
+	font-style: normal;
+	font-weight: 300;
+	font-size: 1.5vw;
+	line-height: 1.64vw;
+	text-align: left;
+	overflow: hidden;
+	color: #444444;
+	pointer-events: none;
+}
+/*Write a DisPatch*/
+
+.writeadispatch {
+	position: absolute;
+	left: 0vw;
+	top: 0vh;
+	height: 81vh;
+	border-radius: 1vw;
+	width: 21.1vw;
+	z-index: 155;
+	background: linear-gradient(to bottom, #0c2341, #0d141e 80.71%);
+}
+.button-senddispatch {
+	position: absolute;
+	left: 1.5vw;
+	bottom: 2vh;
+	width: 18.25vw;
+	height: 6.5vh;
+	padding: 3px;
+	z-index: 29;
+	display: inline-block;
+	font-size: 1.3vw;
+	background-color: #369bed;
+	outline: none;
+	cursor: pointer;
+	font-family: "Khula";
+	font-style: normal;
+	font-weight: 300;
+	font-size: 1.2vw;
+	padding-top: 0.9vh;
+	border-radius: 0.6vw;
+	color: #ffffff;
+	border: none;
+	border-radius: 1vw;
+	outline: none;
+	z-index: 29;
+}
+.backdispatchhaupt {
+	position: absolute;
+	top: 6.5vh;
+	left: 1vw;
+	width: 2.2vw;
+	cursor: pointer;
+	rotate: 180deg;
+}
+.dispatchsendentext {
+	position: absolute;
+	right: 5.6vw;
+	top: 5.7vh;
+	font-family: "Khula";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1.3vw;
+	line-height: 1.64vw;
+	text-align: left;
+	overflow: hidden;
+	color: #ffffff;
+	pointer-events: none;
+}
+.inputttiteldispatch {
+	position: absolute;
+	top: 23.5vh;
+	left: 1.5vw;
+	height: 6vh;
+	width: 17.3vw;
+	font-family: "Khula";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1.6vw;
+	line-height: 1vh;
+	border-radius: 1vw;
+	background-color: #182945;
+	border: none;
+	color: white;
+	text-align: left;
+	-webkit-appearance: none;
+	padding-top: 0.5vh;
+	outline: none;
+	padding-left: 0.7vw;
+}
+.inputttiteldispatch:hover {
+	transition: color 0.6 ease;
+	border: 0.1vw solid #3393df;
+}
+.inputttiteldispatch:focus::placeholder {
+	color: transparent;
+	border: none;
+}
+.inputttiteldispatch::placeholder {
+	color: rgb(255, 255, 255);
+	transition: color 0.3s ease;
+}
+
+.iputt-descriptiondispatch {
+	border: none;
+	-webkit-appearance: none;
+	position: absolute;
+	left: 1.5vw;
+	height: 31vh;
+	width: 17.3vw;
+	top: 34vh;
+	padding-top: 1vh;
+	color: rgb(255, 255, 255);
+	font-family: "Khula";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1.3vw;
+	padding-left: 0.7vw;
+	line-height: 3vh;
+	padding-top: 1.5vh;
+	border-radius: 1vw;
+	resize: none;
+	z-index: 29;
+	background-color: #182945;
+	outline: none;
+	border-radius: 0.6vw;
+}
+.iputt-descriptiondispatch:hover {
+	transition: color 0.6 ease;
+	border: 0.1vw solid #3393df;
+}
+.iputt-descriptiondispatch:focus::placeholder {
+	color: transparent;
+}
+.iputt-descriptiondispatch::placeholder {
+	color: white;
+	transition: color 0.3s ease;
+}
+.selectfraktion {
+	border: none;
+	-webkit-appearance: none;
+	position: absolute;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	left: 1.5vw;
+	height: 6.8vh;
+	width: 18vw;
+	top: 13.5vh;
+	padding-top: 1vh;
+	color: rgb(255, 255, 255);
+	font-family: "Khula";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1.3vw;
+	padding-left: 0.5vw;
+	line-height: 3vh;
+	border-radius: 1vw;
+	cursor: pointer;
+	resize: none;
+	z-index: 29;
+	background-color: #182945;
+	outline: none;
+}
+.selectfraktion select {
+	background-color: #182945;
+}
+.dispatches-text2 {
+	position: absolute;
+	width: 15.5vw;
+	left: 0.8vw;
+	background-color: rgba(255, 0, 0, 0);
+	top: 5.5vh;
+	font-family: "Abel";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.6vw;
+	line-height: 1vw;
+	text-align: left;
+	cursor: none;
+	color: #ffffff;
+	pointer-events: none;
+}
+.dispatch-barunten2 {
+	position: absolute;
+	width: 15vw;
+	height: 0.3vh;
+	background-color: rgb(255, 255, 255);
+	top: 10vh;
+	left: 0.9vw;
+}
+.pageinnen-dispatch {
+	position: absolute;
+	background-color: #1728428e;
+	height: 23.5vh;
+	width: 19vw;
+	top: 13vh;
+	left: 1vw;
+	border-radius: 1vw;
+}
+.box-container-info2 {
+	position: relative;
+	width: 3vw;
+	height: 5vh;
+	border-radius: 1vw;
+	left: 0.8vw;
+	margin-top: 2vh;
+	top: 0vh;
+	background-color: #47a0e97e;
+}
+.infozeichen2 {
+	position: absolute;
+	width: 1.5vw;
+	left: 0.7vw;
+	top: 1.3vh;
+}
+.textfraktion-dispatch {
+	position: relative;
+	width: 15.5vw;
+	left: 4.7vw;
+	background-color: rgba(255, 0, 0, 0);
+	top: -23.2vh;
+	font-family: "Abel";
+	margin-top: 5.5vh;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.6vw;
+	line-height: 1vw;
+	text-align: left;
+	cursor: none;
+	color: #ffffff;
+	pointer-events: none;
+}
+.textfraktion-dispatchnummer {
+	position: relative;
+	width: 15.5vw;
+	left: 15vw;
+	background-color: rgba(255, 0, 0, 0);
+	top: -45vh;
+	font-family: "Abel";
+	margin-top: 5.5vh;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.6vw;
+	line-height: 1vw;
+	text-align: left;
+	cursor: none;
+	color: #ffffff;
+	pointer-events: none;
+}

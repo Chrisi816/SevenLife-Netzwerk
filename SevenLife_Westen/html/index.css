@@ -1,0 +1,482 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Estonia&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Radio+Canada&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hurricane&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Goldman&family=Radio+Canada&display=swap");
+body {
+	padding: 0;
+	overflow: hidden;
+	margin: 0;
+}
+.normalerframe {
+	position: relative;
+	left: 350px;
+	top: 75px;
+	width: 1200px;
+	height: 800px;
+	background-color: rgb(26, 26, 32);
+	border-radius: 12px;
+}
+
+.progress-bar {
+	position: absolute;
+	width: 400px;
+	height: 2.5em;
+	top: 73%;
+	left: 40%;
+	background-color: rgb(46, 46, 46);
+	border-radius: 1.5em;
+	color: white;
+	display: block;
+}
+
+.progress-bar::before {
+	content: attr(data-label);
+	display: flex;
+	align-items: center;
+	position: absolute;
+	left: 0.5em;
+	top: 0.5em;
+	bottom: 0.5em;
+	width: calc(var(--width, 0) * 1%);
+	min-width: 0.5rem;
+	max-width: calc(96% - 1em);
+	background-color: rgb(234, 0, 122);
+	border-radius: 1em;
+	padding: 0.5em;
+}
+#design {
+	position: absolute;
+	width: 400px;
+	height: 2.5em;
+	top: 73%;
+	left: 40%;
+	background-color: rgb(46, 46, 46);
+	border-radius: 1.5em;
+	color: white;
+	display: block;
+}
+
+#design::before {
+	content: attr(data-label);
+	display: flex;
+	align-items: center;
+	position: absolute;
+	left: 0.5em;
+	top: 0.5em;
+	bottom: 0.5em;
+	width: calc(var(--width, 0) * 1%);
+	min-width: 0.5rem;
+	max-width: calc(96% - 1em);
+	background-color: rgb(234, 0, 122);
+	border-radius: 1em;
+	padding: 0.5em;
+}
+.progress-barzwei {
+	position: absolute;
+	width: 400px;
+	height: 2.5em;
+	top: 73%;
+	left: 40%;
+	background-color: rgb(46, 46, 46);
+	border-radius: 1.5em;
+	color: white;
+	display: block;
+}
+
+.progress-barzwei::before {
+	content: attr(data-label);
+	display: flex;
+	align-items: center;
+	position: absolute;
+	left: 0.5em;
+	top: 0.5em;
+	bottom: 0.5em;
+	width: calc(var(--width, 0) * 1%);
+	min-width: 0.5rem;
+	max-width: calc(96% - 1em);
+	background-color: rgb(234, 0, 122);
+	border-radius: 1em;
+	padding: 0.5em;
+}
+.progress-bardrei {
+	position: absolute;
+	width: 400px;
+	height: 2.5em;
+	top: 73%;
+	left: 40%;
+	background-color: rgb(46, 46, 46);
+	border-radius: 1.5em;
+	color: white;
+	font-family: "Bebas Neue", cursive;
+	display: block;
+}
+.progress-bardrei::before {
+	content: attr(data-label);
+	display: flex;
+	align-items: center;
+	position: absolute;
+	left: 0.5em;
+	top: 0.5em;
+	bottom: 0.5em;
+	width: calc(var(--width, 0) * 1%);
+	min-width: 0.5rem;
+	max-width: calc(96% - 1em);
+	background-color: rgb(234, 0, 122);
+	border-radius: 1em;
+	padding: 0.5em;
+}
+
+.westen-container {
+	width: 100%;
+	height: 100%;
+}
+.left {
+	position: absolute;
+	width: 65vw;
+	height: 100%;
+	background: linear-gradient(
+		to right,
+		rgba(114, 0, 89),
+		rgba(0, 0, 255, 0) 95.71%
+	);
+}
+.right {
+	position: absolute;
+	width: 65vw;
+	height: 100%;
+	right: 0vw;
+	background: linear-gradient(
+		to left,
+		rgba(114, 0, 89),
+		rgba(0, 0, 255, 0) 95.71%
+	);
+}
+.middle {
+	position: absolute;
+	width: 65vw;
+	left: 20vw;
+	height: 100%;
+	background-color: rgba(255, 0, 0, 0);
+}
+.symbol {
+	position: absolute;
+	width: 4.7vw;
+	height: 8vh;
+	background-color: rgba(255, 0, 0, 0);
+	top: 6vh;
+}
+.logo {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.textcraften {
+	position: absolute;
+	left: 4.5vw;
+	top: 3.9vh;
+	letter-spacing: 0.1vw;
+	font-size: 2.7vw;
+	transform: rotate(0deg);
+	color: white;
+	font-family: "Goldman", cursive;
+}
+.middlelinie {
+	position: absolute;
+	height: 85%;
+	top: 7vh;
+	left: 27vw;
+	width: 0.2vw;
+	background-color: white;
+}
+.left-auswählen {
+	position: absolute;
+	left: 1vw;
+	top: 15vh;
+	height: 77vh;
+	width: 25vw;
+	background-color: rgba(255, 0, 0, 0);
+}
+.auswahl {
+	position: relative;
+	margin-top: 1vh;
+	width: 23vw;
+	height: 7vh;
+	border-radius: 0.6vw;
+	cursor: pointer;
+	background-color: rgba(7, 7, 7, 0.096);
+}
+.auswahl:hover {
+	transition: 1s;
+	background-color: rgba(7, 7, 7, 0.555);
+}
+.innerebild {
+	position: absolute;
+	width: 3vw;
+	left: 0.6vw;
+	top: 0.5vh;
+	height: 6vh;
+	border-radius: 1vw;
+	background-color: rgba(3, 3, 3, 0.199);
+}
+.protect {
+	position: absolute;
+	width: 70%;
+	left: 0.45vw;
+	top: 1vh;
+	height: 70%;
+}
+.Text {
+	position: absolute;
+	left: 5vw;
+	top: 0.35vh;
+	color: white;
+	font-size: 1.3vw;
+	font-family: "Radio Canada", sans-serif;
+}
+.right-aus {
+	position: absolute;
+	left: 28vw;
+	top: 7vh;
+	height: 85vh;
+	width: 40vw;
+	background-color: rgba(255, 0, 0, 0);
+}
+.textweste {
+	position: absolute;
+	left: 4.5vw;
+	top: -4vh;
+	letter-spacing: 0.1vw;
+	font-size: 2.7vw;
+	transform: rotate(0deg);
+	color: white;
+	font-family: "Goldman", cursive;
+}
+.auswahl-container {
+	position: absolute;
+	left: 3vw;
+	top: 7vh;
+	height: 77vh;
+	width: 30vw;
+	background-color: rgba(255, 0, 0, 0);
+}
+.auswahls {
+	position: relative;
+	margin-top: 1vh;
+	width: 32vw;
+	height: 7vh;
+	border-radius: 0.6vw;
+	cursor: pointer;
+	background-color: rgba(7, 7, 7, 0.096);
+}
+.auswahls:hover {
+	transition: 1s;
+	background-color: rgba(7, 7, 7, 0.555);
+}
+.innerebilds {
+	position: absolute;
+	width: 3vw;
+	left: 0.6vw;
+	top: 0.5vh;
+	height: 6vh;
+	border-radius: 1vw;
+	background-color: rgba(3, 3, 3, 0.199);
+}
+.schutzweste {
+	position: absolute;
+	width: 70%;
+	left: 0.45vw;
+	top: 1vh;
+	height: 70%;
+}
+.unten-rechts {
+	position: absolute;
+	left: 28vw;
+	top: 63vh;
+	height: 32vh;
+	width: 50vw;
+	background-color: rgba(255, 0, 0, 0);
+}
+.unten-rechts-linie {
+	position: absolute;
+	left: 0vw;
+	height: 0.3vh;
+	width: 42vw;
+	background-color: white;
+}
+.receipt {
+	position: absolute;
+	height: 28vh;
+	width: 42vw;
+	top: 1vh;
+	background-color: rgba(2, 2, 2, 0.329);
+	border-radius: 1vw;
+}
+.zutaten {
+	position: absolute;
+	left: 1vw;
+	top: -3vh;
+	letter-spacing: 0.1vw;
+	font-size: 2.2vw;
+	transform: rotate(0deg);
+	color: white;
+	font-family: "Goldman", cursive;
+}
+.zutaten-box {
+	position: absolute;
+	height: 15vh;
+	width: 21vw;
+	background-color: rgba(255, 255, 255, 0);
+	top: 5vh;
+	left: 1vw;
+}
+.zutaten-echte {
+	position: relative;
+	left: 0vw;
+	top: 0vh;
+	letter-spacing: 0.1vw;
+	font-size: 1.5vw;
+	display: inline-block;
+	color: white;
+	font-family: "Radio Canada", sans-serif;
+}
+.button {
+	position: absolute;
+	height: 6vh;
+	width: 20vw;
+	left: 1vw;
+	top: 20vh;
+	background-color: rgba(0, 0, 0, 0.596);
+	border-radius: 1vw;
+	cursor: pointer;
+}
+.button:hover {
+	transition: 0.5s;
+	background-color: rgba(36, 36, 36, 0.719);
+}
+.textinbutton {
+	position: absolute;
+	left: 2.8vw;
+	top: -0.6vh;
+	letter-spacing: 0.1vw;
+	font-size: 1.4vw;
+	transform: rotate(0deg);
+	color: white;
+	font-family: "Goldman", cursive;
+}
+.progress-bar {
+	position: absolute;
+	width: 400px;
+	height: 2.5em;
+	top: 73%;
+	left: 40%;
+	background-color: rgb(46, 46, 46);
+	border-radius: 1.5em;
+	color: white;
+	display: block;
+}
+
+.progress-bar::before {
+	content: attr(data-label);
+	display: flex;
+	align-items: center;
+	position: absolute;
+	left: 0.5em;
+	top: 0.5em;
+	bottom: 0.5em;
+	width: calc(var(--width, 0) * 1%);
+	min-width: 0.5rem;
+	max-width: calc(96% - 1em);
+	background-color: rgb(234, 0, 122);
+	border-radius: 1em;
+	padding: 0.5em;
+}
+.progress-bar-zwei {
+	position: absolute;
+	width: 400px;
+	height: 2.5em;
+	top: 73%;
+	left: 40%;
+	background-color: rgb(46, 46, 46);
+	border-radius: 1.5em;
+	color: white;
+	display: block;
+}
+
+.progress-bar-zwei::before {
+	content: attr(data-label);
+	display: flex;
+	align-items: center;
+	position: absolute;
+	left: 0.5em;
+	top: 0.5em;
+	bottom: 0.5em;
+	width: calc(var(--width, 0) * 1%);
+	min-width: 0.5rem;
+	max-width: calc(96% - 1em);
+	background-color: rgb(234, 0, 122);
+	border-radius: 1em;
+	padding: 0.5em;
+}
+.progress-bar-drei {
+	position: absolute;
+	width: 400px;
+	height: 2.5em;
+	top: 73%;
+	left: 40%;
+	background-color: rgb(46, 46, 46);
+	border-radius: 1.5em;
+	color: white;
+	display: block;
+}
+
+.progress-bar-drei::before {
+	content: attr(data-label);
+	display: flex;
+	align-items: center;
+	position: absolute;
+	left: 0.5em;
+	top: 0.5em;
+	bottom: 0.5em;
+	width: calc(var(--width, 0) * 1%);
+	min-width: 0.5rem;
+	max-width: calc(96% - 1em);
+	background-color: rgb(234, 0, 122);
+	border-radius: 1em;
+	padding: 0.5em;
+}
+.progress-bar-vier {
+	position: absolute;
+	width: 400px;
+	height: 2.5em;
+	top: 73%;
+	left: 40%;
+	background-color: rgb(46, 46, 46);
+	border-radius: 1.5em;
+	color: white;
+	display: block;
+}
+
+.progress-bar-vier::before {
+	content: attr(data-label);
+	display: flex;
+	align-items: center;
+	position: absolute;
+	left: 0.5em;
+	top: 0.5em;
+	bottom: 0.5em;
+	width: calc(var(--width, 0) * 1%);
+	min-width: 0.5rem;
+	max-width: calc(96% - 1em);
+	background-color: rgb(234, 0, 122);
+	border-radius: 1em;
+	padding: 0.5em;
+}

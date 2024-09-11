@@ -1,0 +1,915 @@
+@import url("https://fonts.googleapis.com/css2?family=Commissioner:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Goldman&family=Radio+Canada&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	position: absolute;
+	position: absolute;
+	left: 0vw;
+
+	top: 0vh;
+	height: 100%;
+	border-radius: 1vw;
+	width: 100%;
+	z-index: 0;
+	overflow: hidden;
+}
+
+.backgroundteil {
+	position: absolute;
+	width: 110%;
+	height: 115%;
+	overflow: hidden;
+	left: -3vw;
+	top: -5vh;
+	filter: blur(2vw);
+}
+.name {
+	position: absolute;
+	width: 20vw;
+	background-color: rgba(255, 0, 0, 0);
+	height: 5vh;
+	left: 71.5vw;
+	color: white;
+	top: 2vh;
+	font-size: 1.6vw;
+	text-align: right;
+	font-family: "Commissioner", sans-serif;
+}
+.info {
+	position: absolute;
+	width: 20vw;
+	background-color: rgba(255, 0, 0, 0);
+	height: 5vh;
+	left: 71.4vw;
+	color: rgb(180, 180, 180);
+	top: 10vh;
+	font-size: 1.2vw;
+	text-align: right;
+	font-family: "Times New Roman", Times, serif;
+}
+.showprofil {
+	position: absolute;
+	width: 5.5vw;
+	right: 1.5vw;
+	top: 2.6vh;
+}
+.infolvel {
+	position: absolute;
+	width: 20vw;
+	background-color: rgba(255, 0, 0, 0);
+	height: 5vh;
+	left: 71.4vw;
+	color: rgb(255, 255, 255);
+	top: 6.3vh;
+	font-size: 1.4vw;
+	text-align: right;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.star {
+	position: absolute;
+	width: 2vw;
+	left: 0.75vw;
+	top: 1.2vh;
+	rotate: 0deg;
+}
+.skillpunktetext {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	font-size: 2vw;
+	text-align: right;
+	background-color: rgba(255, 0, 0, 0);
+	left: 0.8vw;
+	background-color: rgba(255, 0, 0, 0);
+	top: 1.2vh;
+	font-family: "Goldman", cursive;
+}
+.skillpunktenumber {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	font-size: 4vw;
+	text-align: left;
+	background-color: rgba(255, 0, 0, 0);
+	left: 0.8vw;
+	top: 4.5vh;
+	width: 10vw;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.middletree {
+	position: absolute;
+	width: 3.5vw;
+	background-color: rgb(89, 0, 70);
+	height: 6vh;
+	cursor: pointer;
+	left: 50vw;
+	z-index: 10;
+	top: 45vh;
+	border-radius: 100vw;
+}
+
+.middletree:hover {
+	animation: animation 1s linear infinite;
+	cursor: pointer;
+}
+
+.infokasten {
+	position: absolute;
+	background-color: rgba(255, 0, 0, 0);
+	width: 30vw;
+	height: 20vh;
+	top: 13vh;
+	left: 1vw;
+}
+.titelinfokastne {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	font-size: 2.5vw;
+	text-align: left;
+	background-color: rgba(255, 0, 0, 0);
+	left: 0vw;
+	top: 3vh;
+	width: 33vw;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.detailtext {
+	position: absolute;
+	width: 29vw;
+	background-color: rgba(255, 0, 0, 0);
+	height: 5vh;
+	left: 0vw;
+	color: rgb(180, 180, 180);
+	top: 9vh;
+
+	font-size: 1.2vw;
+	text-align: left;
+	font-family: "Times New Roman", Times, serif;
+}
+.obenstrich {
+	position: absolute;
+	height: 14vh;
+	width: 0.7vw;
+	background-color: rgba(251, 0, 255, 0.107);
+
+	left: 51.49vw;
+	top: 32.6vh;
+}
+.untenlinksstrich {
+	position: absolute;
+	height: 14vh;
+	width: 0.7vw;
+	background-color: rgba(251, 0, 255, 0.107);
+
+	left: 47.49vw;
+	rotate: 50deg;
+	top: 46.9vh;
+}
+.untenrechtsstrich {
+	position: absolute;
+	height: 14vh;
+	width: 0.7vw;
+	background-color: rgba(251, 0, 255, 0.107);
+	left: 55vw;
+	rotate: -50deg;
+	top: 46.9vh;
+}
+
+.dotoben1 {
+	position: absolute;
+	width: 3.5vw;
+	background-color: rgb(89, 0, 70);
+	height: 6vh;
+	cursor: pointer;
+	left: 50vw;
+	z-index: 10;
+	top: 28vh;
+	border-radius: 100vw;
+}
+
+.dotoben1:hover {
+	animation: animation 1s linear infinite;
+	cursor: pointer;
+}
+
+.dotuntenlinks1 {
+	position: absolute;
+	width: 3.5vw;
+	background-color: rgb(89, 0, 70);
+	height: 6vh;
+	cursor: pointer;
+	left: 42.5vw;
+	z-index: 10;
+	top: 56vh;
+	border-radius: 100vw;
+}
+
+.dotuntenlinks1:hover {
+	animation: animation 1s linear infinite;
+	cursor: pointer;
+}
+
+.dotuntenrechts1 {
+	position: absolute;
+	width: 3.5vw;
+	background-color: rgb(89, 0, 70);
+	height: 6vh;
+	cursor: pointer;
+	left: 56.5vw;
+	z-index: 10;
+	top: 56vh;
+	border-radius: 100vw;
+}
+
+.dotuntenrechts1:hover {
+	animation: animation 1s linear infinite;
+	cursor: pointer;
+}
+
+.obenstrichext1 {
+	position: absolute;
+	height: 17vh;
+	width: 0.7vw;
+	background-color: rgba(251, 0, 255, 0.107);
+
+	left: 57.49vw;
+	rotate: 70deg;
+	top: 18.6vh;
+}
+
+.obenstrichext2 {
+	position: absolute;
+	height: 17vh;
+	width: 0.7vw;
+	background-color: rgba(251, 0, 255, 0.107);
+
+	left: 51.49vw;
+	top: 12.6vh;
+}
+
+.obenstrichext3 {
+	position: absolute;
+	height: 17vh;
+	width: 0.7vw;
+	background-color: rgba(251, 0, 255, 0.107);
+	left: 45.49vw;
+
+	rotate: -70deg;
+	top: 18.6vh;
+}
+
+.dotoben2 {
+	position: absolute;
+	width: 3.5vw;
+	background-color: rgb(89, 0, 70);
+
+	height: 6vh;
+	cursor: pointer;
+	left: 50vw;
+	z-index: 10;
+	top: 8.5vh;
+	border-radius: 100vw;
+}
+
+.dotoben2:hover {
+	animation: animation 1s linear infinite;
+	cursor: pointer;
+}
+
+.dotoben3 {
+	position: absolute;
+	width: 3.5vw;
+	background-color: rgb(89, 0, 70);
+	height: 6vh;
+	cursor: pointer;
+
+	left: 61vw;
+	z-index: 10;
+	top: 21.5vh;
+	border-radius: 100vw;
+}
+
+.dotoben3:hover {
+	animation: animation 1s linear infinite;
+	cursor: pointer;
+}
+
+.dotoben4 {
+	position: absolute;
+	width: 3.5vw;
+	background-color: rgb(89, 0, 70);
+	height: 6vh;
+
+	cursor: pointer;
+	left: 39.5vw;
+	z-index: 10;
+	top: 21.5vh;
+	border-radius: 100vw;
+}
+
+.dotoben4:hover {
+	animation: animation 1s linear infinite;
+	cursor: pointer;
+}
+
+.dotoben5 {
+	position: absolute;
+	width: 3.5vw;
+	background-color: rgb(89, 0, 70);
+	height: 6vh;
+	cursor: pointer;
+	left: 32.5vw;
+	z-index: 10;
+	top: 6.5vh;
+	border-radius: 100vw;
+}
+
+.dotoben5:hover {
+	animation: animation 1s linear infinite;
+	cursor: pointer;
+}
+
+.dotoben6 {
+	position: absolute;
+	width: 3.5vw;
+	background-color: rgb(89, 0, 70);
+	height: 6vh;
+	cursor: pointer;
+	left: 68vw;
+	z-index: 10;
+	top: 6.5vh;
+	border-radius: 100vw;
+}
+
+.dotoben6:hover {
+	animation: animation 1s linear infinite;
+	cursor: pointer;
+}
+
+.untenlinksstrichext1 {
+	position: absolute;
+	height: 17vh;
+	width: 0.7vw;
+	background-color: rgba(251, 0, 255, 0.107);
+
+	left: 45.4vw;
+	rotate: 170deg;
+	top: 59.6vh;
+}
+
+.untenlinkstrichext2 {
+	position: absolute;
+	height: 17vh;
+	width: 0.7vw;
+	background-color: rgba(251, 0, 255, 0.107);
+
+	left: 39.49vw;
+	top: 57.6vh;
+	rotate: 50deg;
+}
+
+.untenlinksstrichext3 {
+	position: absolute;
+	height: 17vh;
+	width: 0.7vw;
+	background-color: rgba(251, 0, 255, 0.107);
+	left: 40.49vw;
+
+	rotate: -60deg;
+	top: 46.6vh;
+}
+
+.untenrechtsstrichext1 {
+	position: absolute;
+	height: 17vh;
+	width: 0.7vw;
+
+	background-color: rgba(251, 0, 255, 0.107);
+	left: 55.7vw;
+	rotate: 20deg;
+	top: 59.6vh;
+}
+
+.untenrechtstrichext2 {
+	position: absolute;
+	height: 17vh;
+	width: 0.7vw;
+
+	background-color: rgba(251, 0, 255, 0.107);
+
+	left: 61.49vw;
+	top: 57.6vh;
+	rotate: -40deg;
+}
+
+.untenrechtsstrichext3 {
+	position: absolute;
+	height: 17vh;
+	width: 0.7vw;
+	background-color: rgba(251, 0, 255, 0.107);
+
+	left: 62.49vw;
+	rotate: 70deg;
+	top: 46.6vh;
+}
+
+.untenrechtsstrichext4 {
+	position: absolute;
+	height: 17vh;
+	width: 0.7vw;
+
+	background-color: rgba(251, 0, 255, 0.107);
+
+	left: 73.49vw;
+	rotate: 70deg;
+	top: 39.6vh;
+}
+
+.untenrechtsstrichext45 {
+	position: absolute;
+	height: 17vh;
+	width: 0.7vw;
+	background-color: rgba(251, 0, 255, 0.107);
+	left: 72.49vw;
+
+	rotate: 110deg;
+	top: 46.6vh;
+}
+
+.untenrechtsstrichext5 {
+	position: absolute;
+	height: 17vh;
+	width: 0.7vw;
+	background-color: rgba(251, 0, 255, 0.107);
+	left: 70.49vw;
+
+	rotate: 90deg;
+	top: 64.6vh;
+}
+
+.untenrechtsstrichext55 {
+	position: absolute;
+	height: 17vh;
+	width: 0.7vw;
+	background-color: rgba(251, 0, 255, 0.107);
+	left: 67.49vw;
+
+	rotate: 150deg;
+	top: 73.6vh;
+}
+
+.untenrechtsstrichext6 {
+	position: absolute;
+	height: 17vh;
+	width: 0.7vw;
+	background-color: rgba(251, 0, 255, 0.107);
+	left: 57.49vw;
+	rotate: -40deg;
+	top: 76.6vh;
+}
+
+.dotuntenlinks2 {
+	position: absolute;
+	width: 3.5vw;
+	background-color: rgb(89, 0, 70);
+
+	height: 6vh;
+	cursor: pointer;
+	left: 44.8vw;
+	z-index: 10;
+	top: 74.5vh;
+	border-radius: 100vw;
+}
+
+.dotuntenlinks2:hover {
+	animation: animation 1s linear infinite;
+	cursor: pointer;
+}
+
+.dotuntenlinks3 {
+	position: absolute;
+	width: 3.5vw;
+	background-color: rgb(89, 0, 70);
+	height: 6vh;
+
+	cursor: pointer;
+	left: 34vw;
+	z-index: 10;
+	top: 68.5vh;
+	border-radius: 100vw;
+}
+
+.dotuntenlinks3:hover {
+	animation: animation 1s linear infinite;
+	cursor: pointer;
+}
+
+.dotuntenlinks4 {
+	position: absolute;
+	width: 3.5vw;
+	background-color: rgb(89, 0, 70);
+	height: 6vh;
+	cursor: pointer;
+
+	left: 34.5vw;
+	z-index: 10;
+	top: 47.5vh;
+	border-radius: 100vw;
+}
+
+.dotuntenlinks4:hover {
+	animation: animation 1s linear infinite;
+	cursor: pointer;
+}
+
+.dotuntenrechts2 {
+	position: absolute;
+	width: 3.5vw;
+	background-color: rgb(89, 0, 70);
+	height: 6vh;
+	cursor: pointer;
+
+	left: 52.8vw;
+	z-index: 10;
+	top: 74.5vh;
+	border-radius: 100vw;
+}
+
+.dotuntenrechts2:hover {
+	animation: animation 1s linear infinite;
+	cursor: pointer;
+}
+
+.dotuntenrechts3 {
+	position: absolute;
+	width: 3.5vw;
+	background-color: rgb(89, 0, 70);
+
+	height: 6vh;
+	cursor: pointer;
+	left: 63.5vw;
+	z-index: 10;
+	top: 70vh;
+	border-radius: 100vw;
+}
+
+.dotuntenrechts3:hover {
+	animation: animation 1s linear infinite;
+	cursor: pointer;
+}
+
+.dotuntenrechts4 {
+	position: absolute;
+	width: 3.5vw;
+	background-color: rgb(89, 0, 70);
+	height: 6vh;
+	cursor: pointer;
+
+	left: 66.5vw;
+	z-index: 10;
+	top: 48.9vh;
+	border-radius: 100vw;
+}
+
+.dotuntenrechts4:hover {
+	animation: animation 1s linear infinite;
+	cursor: pointer;
+}
+
+.obenstrichext4 {
+	position: absolute;
+	height: 17vh;
+	width: 0.7vw;
+	background-color: rgba(251, 0, 255, 0.107);
+
+	left: 37.49vw;
+	rotate: -40deg;
+	top: 8.6vh;
+}
+
+.obenstrichext5 {
+	position: absolute;
+	height: 17vh;
+	width: 0.7vw;
+	background-color: rgba(251, 0, 255, 0.107);
+
+	left: 66vw;
+	rotate: 40deg;
+	top: 8.6vh;
+}
+
+.dotuntenrechts5 {
+	position: absolute;
+	width: 3.5vw;
+	background-color: rgb(89, 0, 70);
+	height: 6vh;
+
+	cursor: pointer;
+	left: 77vw;
+	z-index: 10;
+	top: 55.9vh;
+	border-radius: 100vw;
+}
+
+.dotuntenrechts5:hover {
+	animation: animation 1s linear infinite;
+	cursor: pointer;
+}
+
+.dotuntenrechts6 {
+	position: absolute;
+	width: 3.5vw;
+	background-color: rgb(89, 0, 70);
+	height: 6vh;
+	cursor: pointer;
+	left: 77vw;
+
+	z-index: 10;
+	top: 42vh;
+	border-radius: 100vw;
+}
+
+.dotuntenrechts6:hover {
+	animation: animation 1s linear infinite;
+	cursor: pointer;
+}
+
+.dotuntenrechts7 {
+	position: absolute;
+	width: 3.5vw;
+	background-color: rgb(89, 0, 70);
+	height: 6vh;
+	cursor: pointer;
+	left: 75vw;
+	z-index: 10;
+	top: 70vh;
+	border-radius: 100vw;
+}
+
+.dotuntenrechts7:hover {
+	animation: animation 1s linear infinite;
+	cursor: pointer;
+}
+
+.dotuntenrechts8 {
+	position: absolute;
+	width: 3.5vw;
+	background-color: rgb(89, 0, 70);
+	height: 6vh;
+	cursor: pointer;
+	left: 69vw;
+	z-index: 10;
+	top: 87vh;
+	border-radius: 100vw;
+}
+
+.dotuntenrechts8:hover {
+	animation: animation 1s linear infinite;
+	cursor: pointer;
+}
+
+.dotuntenrechts9 {
+	position: absolute;
+	width: 3.5vw;
+	background-color: rgb(89, 0, 70);
+	height: 6vh;
+	cursor: pointer;
+	left: 59vw;
+	z-index: 10;
+
+	top: 89vh;
+	border-radius: 100vw;
+}
+
+.dotuntenrechts9:hover {
+	animation: animation 1s linear infinite;
+	cursor: pointer;
+}
+
+.untenlinksstrichext4 {
+	position: absolute;
+	height: 17vh;
+	width: 0.7vw;
+	background-color: rgba(251, 0, 255, 0.107);
+
+	left: 30vw;
+	rotate: -100deg;
+	top: 43.4vh;
+}
+
+.untenlinkstrichext5 {
+	position: absolute;
+	height: 17vh;
+	width: 0.7vw;
+
+	background-color: rgba(251, 0, 255, 0.107);
+
+	left: 30vw;
+	rotate: -80deg;
+	top: 61.4vh;
+}
+
+.untenlinksstrichext6 {
+	position: absolute;
+	height: 17vh;
+	width: 0.7vw;
+	background-color: rgba(251, 0, 255, 0.107);
+
+	left: 33vw;
+	rotate: 30deg;
+	top: 71.4vh;
+}
+
+.untenlinksstrichext7 {
+	position: absolute;
+	height: 17vh;
+	width: 0.7vw;
+	background-color: rgba(251, 0, 255, 0.107);
+
+	left: 44vw;
+	rotate: 30deg;
+
+	top: 77.4vh;
+}
+
+.dotuntenlinks5 {
+	position: absolute;
+	width: 3.5vw;
+	background-color: rgb(89, 0, 70);
+	height: 6vh;
+	cursor: pointer;
+	left: 23.5vw;
+	z-index: 10;
+	top: 50.5vh;
+	border-radius: 100vw;
+}
+
+.dotuntenlinks5:hover {
+	animation: animation 1s linear infinite;
+	cursor: pointer;
+}
+.dotuntenlinks6 {
+	position: absolute;
+	width: 3.5vw;
+	background-color: rgb(89, 0, 70);
+	height: 6vh;
+
+	cursor: pointer;
+	left: 23.5vw;
+	z-index: 10;
+	top: 65.5vh;
+	border-radius: 100vw;
+}
+
+.dotuntenlinks6:hover {
+	animation: animation 1s linear infinite;
+	cursor: pointer;
+}
+
+.dotuntenlinks7 {
+	position: absolute;
+	width: 3.5vw;
+	background-color: rgb(89, 0, 70);
+
+	height: 6vh;
+	cursor: pointer;
+	left: 29.5vw;
+	z-index: 10;
+	top: 84.5vh;
+	border-radius: 100vw;
+}
+
+.dotuntenlinks7:hover {
+	animation: animation 1s linear infinite;
+	cursor: pointer;
+}
+
+.dotuntenlinks8 {
+	position: absolute;
+	width: 3.5vw;
+	background-color: rgb(89, 0, 70);
+	height: 6vh;
+	cursor: pointer;
+	left: 40.5vw;
+	z-index: 10;
+
+	top: 89.5vh;
+	border-radius: 100vw;
+}
+
+.dotuntenlinks8:hover {
+	animation: animation 1s linear infinite;
+	cursor: pointer;
+}
+
+@keyframes animation {
+	0% {
+		box-shadow: 0 0 0 0 rgba(89, 0, 70, 0.7);
+	}
+	40% {
+		box-shadow: 0 0 0 2vw rgba(89, 0, 70, 0);
+	}
+	80% {
+		box-shadow: 0 0 0 2vw rgba(89, 0, 70, 0);
+	}
+	100% {
+		box-shadow: 0 0 0 0.5vw rgba(89, 0, 70, 0);
+	}
+}
+
+.leveltext {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	font-size: 6vw;
+	left: 46.5vw;
+	text-align: center;
+	top: -0.2vh;
+	width: 10vw;
+	font-family: "Oswald", sans-serif;
+}
+
+.leveltext.addclass {
+	animation: fadeInDown 2s linear;
+}
+
+.skillpointtexte {
+	position: absolute;
+	width: 20vw;
+	background-color: rgba(255, 0, 0, 0);
+	height: 5vh;
+	left: 41.4vw;
+	width: 7vw;
+	color: rgb(255, 255, 255);
+	top: 6.5vh;
+	font-size: 1.2vw;
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+}
+
+.skillpointtexte.addclasse {
+	animation: fadeInDown 3s linear;
+}
+
+.leveluptexte {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	font-size: 1.4vw;
+	text-align: right;
+	background-color: rgba(255, 0, 0, 0);
+	left: 48.2vw;
+	background-color: rgba(255, 0, 0, 0);
+	top: 14vh;
+	font-family: "Goldman", cursive;
+}
+
+.leveluptexte.addclasses {
+	animation: fadeInDown 4s linear;
+}
+
+.infotexte {
+	position: absolute;
+	width: 20vw;
+	background-color: rgba(255, 0, 0, 0);
+	height: 5vh;
+	left: 54.9vw;
+	width: 7vw;
+	color: rgb(255, 255, 255);
+	top: 6.5vh;
+	font-size: 1.2vw;
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+}
+
+.infotexte.addclasseese {
+	animation: fadeInDown 3s linear;
+}
+
+.oben-bild {
+	position: absolute;
+	background: linear-gradient(
+		270deg,
+		rgba(0, 0, 0, 0.63),
+		rgba(0, 255, 0, 0) 90.71%
+	);
+	filter: blur(15px);
+	width: 20vw;
+	left: 42vw;
+	rotate: -90deg;
+	height: 40vh;
+	top: -5vh;
+}
+
+@keyframes fadeInDown {
+	0% {
+		opacity: 0;
+		transform: translateY(-50px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}

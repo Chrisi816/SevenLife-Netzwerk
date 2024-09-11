@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="index.css" />
+	</head>
+	<body>
+		<div class="startmatch">
+			<div class="saveoutifit1">
+				<div class="left"></div>
+				<div class="right"></div>
+				<div class="strichlinksoben"></div>
+				<div class="strichrechtsunten"></div>
+				<div class="boxinnen"></div>
+				<h1 class="outfitspeicherntext1">Chips Kaufen</h1>
+				<div class="strichdrunterspeichern"></div>
+				<h1 class="outfitspeicherntextifno">Chip Anzahl:</h1>
+				<input
+					class="inputt"
+					id="inputts"
+					oninput="check()"
+					placeholder="Chips"
+				/>
+				<h1
+					class="outfitspeicherntextifno2"
+					id="outfitspeicherntextifno2"
+				>
+					Dadurch das du 1 Chip kaufen willst, macht es einen Endpreis
+					von 10$
+				</h1>
+
+				<button type="button" id="startmatch" class="buttonkaufenchips">
+					Kaufen
+				</button>
+				<button type="button" id="cancelstart" class="buttonabbrechen1">
+					Chips verkaufen
+				</button>
+				<h1 class="esctext">Drücke ESC um zu verlassen</h1>
+			</div>
+		</div>
+		<div class="startmatch2">
+			<div class="saveoutifit1">
+				<div class="left"></div>
+				<div class="right"></div>
+				<div class="strichlinksoben"></div>
+				<div class="strichrechtsunten"></div>
+				<div class="boxinnen"></div>
+				<h1 class="outfitspeicherntext2">Chips Verkaufen</h1>
+				<div class="strichdrunterspeichern"></div>
+				<h1 class="outfitspeicherntextifno">Chip Anzahl:</h1>
+				<input
+					class="inputt"
+					id="inputtse"
+					oninput="checks()"
+					placeholder="Chips"
+				/>
+				<h1
+					class="outfitspeicherntextifno2"
+					id="outfitspeicherntextifno3"
+				>
+					Dadurch das du 1 Chip verkaufen willst, macht es eine
+					vergütung von 10$
+				</h1>
+
+				<button
+					type="button"
+					id="startmatch"
+					class="buttonverkaufenchips"
+				>
+					Verkaufen
+				</button>
+				<button type="button" id="cancelstart" class="buttonkaufen">
+					Chips kaufen
+				</button>
+				<h1 class="esctext">Drücke ESC um zu verlassen</h1>
+			</div>
+		</div>
+		<div class="container-shop">
+			<div class="leftshop"></div>
+			<div class="rightshop"></div>
+			<h1 class="text-impounder3" id="shopnamepers">Cocktail Bar</h1>
+			<div class="line-unter3"></div>
+			<div class="streifen"></div>
+			<h1 class="text-shop">Shop - Zentrum</h1>
+			<h1 class="esctext">Drücke ESC um zu verlassen</h1>
+
+			<div class="container-rechnungdetails">
+				<h1 class="idkaufdetails">Ihre Kaufdetails:</h1>
+				<div class="line-unter5"></div>
+				<h1 class="idkaufdetails2">Informationen:</h1>
+				<div class="line-unter6"></div>
+				<div class="warenkorb-shop"></div>
+				<h1 class="idkaufdetails3">Warenkorb:</h1>
+				<div class="container-rechnungsdetails2">
+					<h1 class="steuern">Steuern:</h1>
+					<h1 class="steuern-nummer">2%</h1>
+					<div class="line-unter7"></div>
+					<h1 class="preis">Preis:</h1>
+					<h1 class="preis-nummer" id="warenkorb-2" data-value="0">
+						0$
+					</h1>
+				</div>
+				<div class="line-unter4"></div>
+				<button class="Button-Buy-Shop" name="">Kaufen</button>
+			</div>
+			<div class="container-right-line"></div>
+			<div class="insert-container-shop">
+				<div class="container-item">
+					<div class="container-bild-waren">
+						<img
+							src="src/${item.src}.png"
+							class="img-ware"
+							alt=""
+						/>
+					</div>
+
+					<h1 class="steuern2">Name:</h1>
+					<h1 class="steuern-nummer2">Vodka</h1>
+					<div class="line-unter9"></div>
+					<h1 class="preis2">Preis:</h1>
+					<h1 class="preis-nummer2" id="preis-nummer2">10$</h1>
+					<div class="untens">
+						<input
+							class="Inputt-Shop"
+							id="Inputt-Shop"
+							placeholder="0"
+						/>
+						<button
+							class="Button-addtocard"
+							name="Vodka"
+							item="casino_vodka"
+							names="10"
+							count="10000"
+							src="${item.src}"
+						>
+							Hinzufügen
+						</button>
+					</div>
+				</div>
+				<div class="container-item">
+					<div class="container-bild-waren">
+						<img
+							src="src/${item.src}.png"
+							class="img-ware"
+							alt=""
+						/>
+					</div>
+
+					<h1 class="steuern2">Name:</h1>
+					<h1 class="steuern-nummer2">Wein</h1>
+					<div class="line-unter9"></div>
+					<h1 class="preis2">Preis:</h1>
+					<h1 class="preis-nummer2" id="preis-nummer2">10$</h1>
+					<div class="untens">
+						<input
+							class="Inputt-Shop"
+							id="Inputt-Shop"
+							placeholder="0"
+						/>
+						<button
+							class="Button-addtocard"
+							name="Wein"
+							item="casino_wein"
+							names="10"
+							count="10000"
+							src="${item.src}"
+						>
+							Hinzufügen
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="startmatch3">
+			<div class="saveoutifit1">
+				<div class="left"></div>
+				<div class="right"></div>
+				<div class="strichlinksoben"></div>
+				<div class="strichrechtsunten"></div>
+				<div class="boxinnen"></div>
+				<h1 class="outfitspeicherntext1">Chips setzen</h1>
+				<div class="strichdrunterspeichern"></div>
+				<h1 class="outfitspeicherntextifno">Chip Anzahl:</h1>
+				<input
+					class="inputt"
+					id="inputtssetzen"
+					oninput="checksetzen()"
+					placeholder="Chips"
+				/>
+				<h1
+					class="outfitspeicherntextifno2"
+					id="outfitspeicherntextifno4"
+				>
+					Willst du wirklich 1 Chips setzen? Das macht einen Wert von
+					10$
+				</h1>
+
+				<button type="button" id="startmatch" class="buttonsetzenchips">
+					Setzen
+				</button>
+				<button type="button" id="cancelstart" class="buttonabbrechen2">
+					Abbrechen
+				</button>
+				<h1 class="esctext">Drücke ESC um zu verlassen</h1>
+			</div>
+		</div>
+		<div class="container-hilfe">
+			<div class="bottom-fade"></div>
+			<div class="container1">
+				<div class="container-innen">
+					<h1 class="KeyHinweis1">ESC</h1>
+				</div>
+				<h1 class="KeyHinweisInfo">Verlassen</h1>
+			</div>
+			<div class="container2">
+				<div class="container-innen">
+					<h1 class="KeyHinweis2">Space</h1>
+				</div>
+				<h1 class="KeyHinweisInfo">Chips setzen</h1>
+			</div>
+			<div class="container3">
+				<div class="container-innen">
+					<h1 class="KeyHinweis3">Enter</h1>
+				</div>
+				<h1 class="KeyHinweisInfo">Bestätigen</h1>
+			</div>
+			<div class="container4">
+				<div class="container-innen">
+					<h1 class="KeyHinweis4">▲</h1>
+				</div>
+				<h1 class="KeyHinweisInfo">Mehr wetten</h1>
+			</div>
+			<div class="container5">
+				<div class="container-innen">
+					<h1 class="KeyHinweis4">▼</h1>
+				</div>
+				<h1 class="KeyHinweisInfo">Weniger Wetten</h1>
+			</div>
+			<div class="container6">
+				<div class="container-innen2">
+					<h1 class="KeyHinweis5">Deine Wette:</h1>
+				</div>
+				<h1 class="KeyHinweisInfo2" id="chipswetten">100 Chips</h1>
+			</div>
+			<div class="leftcontainer">
+				<h1 class="CurrentZeit" id="CurrentZeit">0:00</h1>
+			</div>
+		</div>
+		<div class="container-hilfe2Fold">
+			<div class="bottom-fade"></div>
+			<div class="container1">
+				<div class="container-innen">
+					<h1 class="KeyHinweis122">DEL -ETE</h1>
+				</div>
+				<h1 class="KeyHinweisInfo">Folden</h1>
+			</div>
+			<div class="container2">
+				<div class="container-innen">
+					<h1 class="KeyHinweis123">E</h1>
+				</div>
+				<h1 class="KeyHinweisInfo">Spielen</h1>
+			</div>
+
+			<div class="leftcontainer">
+				<h1 class="CurrentZeit" id="CurrentZeit2">0:00</h1>
+			</div>
+		</div>
+		<div class="container-slots">
+			<div class="top-fade"></div>
+			<div class="left-fade"></div>
+			<div class="bottom-fade"></div>
+			<div class="right-fade"></div>
+			<h1 class="slottext">Slots</h1>
+			<div class="strichunterslot"></div>
+			<div class="container-maxim">
+				<div class="multi">
+					<div class="container-multi1">
+						<h1 class="textmulti">X2</h1>
+					</div>
+					<div class="container-multi1">
+						<h1 class="textmulti">X2</h1>
+					</div>
+					<div class="container-multi1">
+						<h1 class="textmulti">X2</h1>
+					</div>
+					<div class="container-multi1">
+						<h1 class="textmulti">X3</h1>
+					</div>
+					<div class="container-multi1">
+						<h1 class="textmulti">X3</h1>
+					</div>
+					<div class="container-multi1">
+						<h1 class="textmulti">X3</h1>
+					</div>
+					<div class="strich-multi"></div>
+					<div class="container-multi2">
+						<h1 class="textmulti">X4</h1>
+					</div>
+					<div class="container-multi2">
+						<h1 class="textmulti">X4</h1>
+					</div>
+					<div class="container-multi2">
+						<h1 class="textmulti">X5</h1>
+					</div>
+					<div class="container-multi2">
+						<h1 class="textmulti">X5</h1>
+					</div>
+					<div class="container-multi2">
+						<h1 class="textmulti">X5</h1>
+					</div>
+					<div class="container-multi2">
+						<h1 class="textmulti">X5</h1>
+					</div>
+					<div class="container-multi3">
+						<h1 class="textmulti">Jackpot</h1>
+					</div>
+				</div>
+				<div class="schrift">
+					<h1 class="textgewinn">2 Pflaumen</h1>
+					<h1 class="textgewinn">2 Kirschen</h1>
+					<h1 class="textgewinn">2 Wassermelonen</h1>
+					<h1 class="textgewinn">2 Diamant</h1>
+					<h1 class="textgewinn">2 Diamant - Platzierer</h1>
+					<h1 class="textgewinn">2 Glocken</h1>
+					<h1 class="textgewinn2">3 Pflaumen</h1>
+					<h1 class="textgewinn2">3 Kirschen</h1>
+					<h1 class="textgewinn2">3 Wassermelonen</h1>
+					<h1 class="textgewinn2">3 Diamant</h1>
+					<h1 class="textgewinn2">3 Diamant - Platzierer</h1>
+					<h1 class="textgewinn2">3 Glocken</h1>
+					<h1 class="textgewinn3">3 mal 7</h1>
+				</div>
+			</div>
+
+			<div class="key-container">
+				<div class="container12">
+					<div class="container-innen">
+						<h1 class="KeyHinweis1">ESC</h1>
+					</div>
+					<h1 class="KeyHinweisInfo">Verlassen</h1>
+				</div>
+
+				<div class="container32">
+					<div class="container-innen">
+						<h1 class="KeyHinweis3">Enter</h1>
+					</div>
+					<h1 class="KeyHinweisInfo">Bestätigen</h1>
+				</div>
+				<div class="container42">
+					<div class="container-innen">
+						<h1 class="KeyHinweis4">▲</h1>
+					</div>
+					<h1 class="KeyHinweisInfo">Mehr wetten</h1>
+				</div>
+				<div class="container52">
+					<div class="container-innen">
+						<h1 class="KeyHinweis4">▼</h1>
+					</div>
+					<h1 class="KeyHinweisInfo">Weniger Wetten</h1>
+				</div>
+				<div class="container62">
+					<div class="container-innen2">
+						<h1 class="KeyHinweis5">Deine Wette:</h1>
+					</div>
+					<h1 class="KeyHinweisInfo2" id="chipswetten2">0 Chips</h1>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script>
+		function check() {
+			var inputt = document.getElementById("inputts").value;
+			var endpreis = inputt * price;
+			document.getElementById("outfitspeicherntextifno2").innerHTML =
+				"Dadurch das du " +
+				inputt +
+				" Chips kaufen willst, macht es einen Endpreis von " +
+				endpreis +
+				"$";
+		}
+		function checks() {
+			var inputt = document.getElementById("inputtse").value;
+			var endpreis = inputt * price;
+			document.getElementById("outfitspeicherntextifno3").innerHTML =
+				"Dadurch das du " +
+				inputt +
+				" Chips verkaufen willst, macht es einen vergütungs preis von " +
+				endpreis +
+				"$";
+		}
+		function checksetzen() {
+			var inputt = document.getElementById("inputtssetzen").value;
+			var endpreis = inputt * price;
+			document.getElementById("outfitspeicherntextifno2").innerHTML =
+				"Willst du wirklich " +
+				inputt +
+				" Chips setzen? Das macht einen Wert von" +
+				endpreis +
+				"$ ";
+		}
+	</script>
+
+	<script src="index.js"></script>
+</html>

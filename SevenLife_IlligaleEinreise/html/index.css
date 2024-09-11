@@ -1,0 +1,566 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Estonia&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hurricane&display=swap");
+
+body {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+.left {
+	position: absolute;
+	left: 0vw;
+	top: 0vw;
+	height: 100%;
+	width: 42vw;
+	background: linear-gradient(
+		to right,
+		rgba(114, 0, 89),
+		rgba(0, 0, 255, 0) 90.71%
+	);
+}
+.right {
+	position: absolute;
+	right: 0vw;
+	top: 0vw;
+	height: 100%;
+	width: 42vw;
+	background: linear-gradient(
+		to left,
+		rgba(114, 0, 89),
+		rgba(0, 0, 255, 0) 90.71%
+	);
+}
+.strich {
+	position: absolute;
+	width: 0.1vw;
+	height: 100vh;
+	background-color: white;
+	left: 4.5vw;
+}
+.text {
+	position: absolute;
+	color: white;
+	font-size: 4vw;
+	left: -21.7vw;
+	top: 30vh;
+	width: 40vw;
+	text-align: right;
+	background-color: rgba(255, 0, 0, 0);
+	transform: rotate(270deg);
+	font-family: "Bebas Neue", cursive;
+	letter-spacing: 0.4vw;
+}
+.infobox {
+	position: absolute;
+	width: 25vw;
+	height: 12vh;
+	background-color: rgba(105, 105, 105, 0.705);
+	top: 61vh;
+	left: 15vw;
+	transform: rotate(-1.5deg);
+	border-top-left-radius: 1vw;
+	border-bottom-right-radius: 1vw;
+}
+.text-infobox {
+	position: absolute;
+	color: white;
+	font-size: 1vw;
+	left: 0.5vw;
+	font-family: "Roboto", sans-serif;
+}
+.submitbuttonseedsf {
+	position: absolute;
+	left: 15vw;
+	top: 75vh;
+	width: 13vw;
+	height: 10vh;
+	z-index: 29;
+	padding: 0;
+	font-size: 1.4vw;
+	background-color: rgba(31, 31, 31, 0.287);
+	outline: none;
+	cursor: pointer;
+	border-bottom-left-radius: 1vw;
+	border-top-right-radius: 1vw;
+	border: none;
+	color: #ffffff;
+	font-family: "Bebas Neue", cursive;
+	letter-spacing: 0.1vw;
+	transform: translate(-1deg);
+	border: 0.2vw solid rgb(255, 255, 255);
+	z-index: 29;
+}
+.submitbuttonseedsf:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	background-color: rgba(94, 94, 94, 0.808);
+}
+.submitbuttonseeds {
+	position: relative;
+	left: 28.5vw;
+	top: 75vh;
+	width: 12vw;
+	height: 10vh;
+	z-index: 29;
+	padding: 0;
+
+	font-size: 1.4vw;
+	background-color: rgba(31, 31, 31, 0.287);
+	outline: none;
+	cursor: pointer;
+	border-top-left-radius: 1vw;
+	border-bottom-right-radius: 1vw;
+	border: none;
+	color: #ffffff;
+	outline: none;
+	font-family: "Bebas Neue", cursive;
+	letter-spacing: 0.1vw;
+	border: 0.2vw solid rgb(255, 255, 255);
+	z-index: 29;
+}
+.submitbuttonseeds:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	background-color: rgba(23, 23, 23, 0.808);
+}
+.kaufvertrag-body {
+	position: absolute;
+	left: 38vw;
+	height: 70vh;
+	background-color: #ffffff00;
+	width: 25vw;
+	top: 10vh;
+}
+.kaufvertrag-card {
+	height: 100%;
+	width: 100%;
+	background-color: white;
+	box-shadow: 0vw 0vw 0.6vw 0vw black;
+}
+.kaufvertrag-card:before,
+.kaufvertrag-card:after {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	box-shadow: 0vw 0vw 0.9vw black;
+	background-color: white;
+}
+.kaufvertrag-card:before {
+	transform: rotate(3deg);
+}
+.überschrift {
+	font-family: "DM Mono", monospace;
+	position: absolute;
+	left: 1.5vw;
+	top: -1vh;
+	font-size: 1.6vw;
+	width: 22vw;
+
+	text-align: center;
+	color: rgb(145, 145, 145);
+	border-bottom: solid 0.1vw rgb(83, 83, 83);
+}
+.überschrifts {
+	font-family: "DM Mono", monospace;
+	position: absolute;
+	left: 6.7vw;
+	top: 19vh;
+	font-size: 1.2vw;
+	width: 15vw;
+
+	text-align: center;
+	color: rgb(145, 145, 145);
+	border-bottom: solid 0.1vw rgb(83, 83, 83);
+}
+.überschrifts1 {
+	font-family: "DM Mono", monospace;
+	position: absolute;
+	left: 6.7vw;
+	top: 37vh;
+	font-size: 1.2vw;
+	width: 15vw;
+
+	text-align: center;
+	color: rgb(145, 145, 145);
+	border-bottom: solid 0.1vw rgb(83, 83, 83);
+}
+.information-card {
+	position: absolute;
+	width: 21vw;
+	height: 40vh;
+	top: 1vh;
+	background-color: rgba(255, 0, 0, 0);
+	left: -2vw;
+}
+.text1 {
+	position: absolute;
+	font-family: "DM Mono", monospace;
+	font-size: 0.85vw;
+	top: 4vh;
+	left: 4.5vw;
+	width: 20vw;
+	background-color: rgba(255, 0, 0, 0);
+	color: black;
+	text-align: center;
+}
+.text2 {
+	position: absolute;
+	font-family: "DM Mono", monospace;
+	font-size: 0.85vw;
+	top: 24vh;
+	left: 4.5vw;
+	width: 20vw;
+	color: black;
+	text-align: center;
+}
+.text3 {
+	position: absolute;
+	font-family: "DM Mono", monospace;
+	font-size: 0.85vw;
+	top: 43vh;
+	left: 4.5vw;
+	width: 20vw;
+	color: black;
+	text-align: center;
+}
+.kauf {
+	position: absolute;
+	font-family: "DM Mono", monospace;
+	font-size: 0.8vw;
+	top: 37vh;
+	width: 12vw;
+	left: 5.5vw;
+	color: black;
+	text-align: center;
+	margin-top: 5px;
+	border-top: 1px solid #2f3037;
+}
+.verkauf {
+	position: absolute;
+	font-family: "DM Mono", monospace;
+	font-size: 0.8vw;
+	top: 45vh;
+	width: 12vw;
+	left: 5.5vw;
+	color: black;
+	text-align: center;
+	margin-top: 5px;
+	border-top: 1px solid #2f3037;
+}
+.nameverkauf {
+	position: absolute;
+	font-family: "Square Peg", cursive;
+	font-size: 1.7vw;
+	top: 40vh;
+	width: 12vw;
+	left: 5.5vw;
+	color: black;
+	text-align: center;
+}
+.namekauf {
+	position: absolute;
+	font-family: "Square Peg", cursive;
+	font-size: 1.7vw;
+	top: 31.8vh;
+	width: 12vw;
+	left: 5.5vw;
+	color: black;
+	text-align: center;
+}
+.btn {
+	position: absolute;
+	top: 61vh;
+	left: 4vw;
+	width: 21vw;
+	height: 5vh;
+	background-color: rgba(68, 68, 68, 0.52);
+	border-radius: 0.2vw;
+	font-size: 1vw;
+	padding: 13px 17px;
+	border: none;
+	cursor: pointer;
+	color: white;
+	transition: color 0.2s linear, background-color 0.2s linear;
+	letter-spacing: 0.2px;
+}
+.btn1 {
+	position: absolute;
+	top: 61vh;
+	left: 4vw;
+	width: 21vw;
+	height: 5vh;
+	background-color: rgba(68, 68, 68, 0.52);
+	border-radius: 0.2vw;
+	font-size: 1vw;
+	padding: 13px 17px;
+	border: none;
+	cursor: pointer;
+	color: white;
+	transition: color 0.2s linear, background-color 0.2s linear;
+	letter-spacing: 0.2px;
+}
+.seveninfo {
+	width: 100%;
+	height: 100%;
+	background-color: red;
+}
+@font-face {
+	font-family: "Unbounded";
+	src: url("fonts/Unbounded-ExtraLight.ttf");
+}
+@font-face {
+	font-family: "Lato";
+	src: url("fonts/Lato-Black.ttf");
+}
+@font-face {
+	font-family: "Montserrat";
+	src: url("fonts/Montserrat-Medium.ttf");
+}
+@font-face {
+	font-family: "Goldman";
+	src: url("fonts/Goldman-Regular.ttf");
+}
+@font-face {
+	font-family: "Abel";
+	src: url("fonts/Abel-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Aldrich";
+	src: url("fonts/Aldrich-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Roboto";
+	src: url("fonts/Roboto-MediumItalic.ttf");
+}
+@font-face {
+	font-family: "Khula";
+	src: url("fonts/Khula-Regular.ttf");
+}
+
+.left1 {
+	position: absolute;
+	left: 0vw;
+	top: 0vw;
+	height: 100%;
+	width: 42vw;
+	background: linear-gradient(
+		to right,
+		rgba(114, 0, 89),
+		rgba(0, 0, 255, 0) 90.71%
+	);
+}
+.right1 {
+	position: absolute;
+	right: 0vw;
+	top: 0vw;
+	height: 100%;
+	width: 42vw;
+	background: linear-gradient(
+		to left,
+		rgba(114, 0, 89),
+		rgba(0, 0, 255, 0) 90.71%
+	);
+}
+.strich1 {
+	position: absolute;
+	width: 0.1vw;
+	height: 100vh;
+	background-color: white;
+	left: 4.5vw;
+}
+.text1 {
+	position: absolute;
+	color: white;
+	font-size: 4vw;
+	left: -21.7vw;
+	top: 30vh;
+	width: 40vw;
+	text-align: right;
+	background-color: rgba(255, 0, 0, 0);
+	transform: rotate(270deg);
+	font-family: "Goldman", cursive;
+	letter-spacing: 0.4vw;
+}
+.infobox1 {
+	position: absolute;
+	width: 40vw;
+	height: 8vh;
+	background-color: rgba(211, 5, 215, 0.391);
+	top: 70vh;
+	left: -26vw;
+	border-radius: 0.1vw;
+}
+.text-infobox1 {
+	position: absolute;
+	color: white;
+	font-size: 1.1vw;
+	left: 0.7vw;
+	top: 0.4vh;
+	font-family: "Aldrich", sans-serif;
+}
+.submitbuttonseedsf1 {
+	position: absolute;
+	left: -26vw;
+	top: 79vh;
+	width: 20vw;
+	height: 6vh;
+	z-index: 29;
+	padding: 0;
+	font-size: 1vw;
+	background-color: rgba(31, 31, 31, 0.287);
+	outline: none;
+	cursor: pointer;
+	border-radius: 0.2vw;
+	border: none;
+	color: #ffffff;
+	font-family: "Aldrich", cursive;
+	letter-spacing: 0.1vw;
+	transform: translate(-1deg);
+	z-index: 29;
+}
+.submitbuttonseedsf1:hover {
+	color: #ffffff;
+	transition: 0.5s all;
+	background-color: rgba(198, 10, 164, 0.808);
+}
+.submitbuttonseeds1 {
+	position: absolute;
+	left: -5.5vw;
+	top: 79vh;
+	width: 19.5vw;
+	height: 6vh;
+	z-index: 29;
+	padding: 0;
+	font-size: 1.1vw;
+	background-color: rgba(31, 31, 31, 0.287);
+	outline: none;
+	cursor: pointer;
+	border-radius: 0.2vw;
+	border: none;
+	color: #ffffff;
+	font-family: "Aldrich", cursive;
+	letter-spacing: 0.1vw;
+	transform: translate(-1deg);
+	z-index: 29;
+}
+.submitbuttonseeds1:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	background-color: rgba(23, 23, 23, 0.808);
+}
+.barname1 {
+	position: absolute;
+	width: 30vw;
+	height: 0.1vh;
+	background-color: rgba(36, 36, 36, 0.436);
+	top: 69vh;
+	left: -26vw;
+}
+.name-anfang1 {
+	position: absolute;
+	color: white;
+	font-size: 1.5vw;
+	left: -25.7vw;
+	top: 63.5vh;
+
+	text-align: right;
+
+	background-color: rgba(255, 0, 0, 0);
+	font-family: "Goldman", cursive;
+	letter-spacing: 0.4vw;
+}
+.esctext1 {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	right: 3vw;
+	top: 2.5vh;
+	letter-spacing: 0.1vw;
+	font-size: 1.2vw;
+	transform: rotate(0deg);
+	font-family: "Lato", sans-serif;
+}
+.container-quests1 {
+	position: absolute;
+	width: 23vw;
+	right: 0vw;
+	height: 8vh;
+	background: linear-gradient(
+		to left,
+		rgba(114, 0, 89, 0.52),
+		rgba(0, 0, 255, 0) 90.71%
+	);
+	top: 16vh;
+}
+.TitelTextQuests1 {
+	position: absolute;
+	color: white;
+	font-size: 0.9vw;
+	right: 3.4vw;
+	top: -0.3vh;
+	z-index: 1;
+	letter-spacing: 0.08vw;
+	font-family: "Montserrat", sans-serif;
+}
+.DescTextQuests1 {
+	position: absolute;
+	color: white;
+	letter-spacing: 0.05vw;
+	font-size: 0.7vw;
+	text-align: right;
+	right: 0.7vw;
+	background-color: rgba(255, 0, 0, 0);
+	top: 2.9vh;
+	width: 15vw;
+	font-family: "Montserrat", sans-serif;
+}
+.neulingsquest1 {
+	position: absolute;
+	color: white;
+	font-size: 0.8vw;
+	left: 0.7vw;
+	top: 3vh;
+	z-index: 1;
+	font-family: "Montserrat", sans-serif;
+}
+.bottomtop1 {
+	position: absolute;
+	left: 0vw;
+	top: -2vh;
+	height: 9vh;
+	width: 100%;
+	border-bottom: 0.2vh solid rgb(217, 1, 177);
+	background: linear-gradient(
+		to top,
+		rgba(114, 0, 89, 0.744),
+		rgba(0, 0, 255, 0) 90.71%
+	);
+}
+.container-check1 {
+	position: absolute;
+	width: 1.3vw;
+	height: 2vh;
+	top: 12vh;
+	left: 0.7vw;
+	background-color: rgba(128, 128, 128, 0.395);
+}
+.zahlindex1 {
+	position: absolute;
+	color: white;
+	font-size: 0.9vw;
+	right: 1vw;
+	top: -0.3vh;
+	z-index: 1;
+	font-family: "Montserrat", sans-serif;
+}

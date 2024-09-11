@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Estonia&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hurricane&display=swap");
+
+body {
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+      pointer-events: none;
+}
+.video {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+}
+.recheck {
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.267);
+	height: 90vh;
+	width: 94vw;
+	z-index: 1;
+	left: 3vw;
+	border: 1px solid white;
+	top: 4.5vh;
+}
+.textmitte {
+	position: absolute;
+	color: rgb(185, 185, 185);
+	z-index: 2;
+	top: 69vh;
+	font-size: 1.6vw;
+	left: 36.5vw;
+	font-family: "Bebas Neue", cursive;
+	letter-spacing: 0.1vw;
+}
+.slogan {
+	position: absolute;
+	color: rgb(251, 251, 251);
+	font-size: 2vw;
+	left: 39.4vw;
+	letter-spacing: 0.1vw;
+	top: 27vh;
+	font-family: "Hurricane", cursive;
+}
+.mitteltext {
+	position: absolute;
+	color: rgb(251, 251, 251);
+	font-size: 4.7vw;
+	letter-spacing: 0.2vw;
+	left: 37vw;
+	top: 27.5vh;
+	font-family: "Nanum Myeongjo", serif;
+}
+.roleplay {
+	position: absolute;
+	color: rgb(251, 251, 251);
+	font-size: 1.7vw;
+	letter-spacing: 0.1vw;
+	left: 38vw;
+	top: 45vh;
+	font-family: "Nanum Myeongjo", serif;
+}

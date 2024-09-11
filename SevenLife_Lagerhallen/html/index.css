@@ -1,0 +1,1234 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Estonia&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Radio+Canada&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hurricane&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Goldman&family=Radio+Canada&display=swap");
+@font-face {
+	font-family: "Kanit";
+	src: url("text/Kanit-Regular.ttf");
+}
+@font-face {
+	font-family: "Lato";
+	src: url(text/Lato-Black.ttf);
+}
+body {
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+}
+.kaufcontainer {
+	position: relative;
+	display: inline-block;
+	width: 21vw;
+	height: 55vh;
+	left: 41vw;
+	top: 11.6vh;
+	background-color: rgba(27, 27, 27, 0.801);
+}
+#left {
+	position: absolute;
+	width: 5vw;
+	top: 10vh;
+	left: 36vw;
+	z-index: 2;
+	background-color: rgba(7, 7, 7, 0.89);
+	transform: skewY(20deg);
+}
+#right {
+	position: absolute;
+	width: 5vw;
+	top: 10vh;
+	left: 62vw;
+	z-index: 2;
+	background-color: rgba(7, 7, 7, 0.89);
+	transform: skewY(-20deg);
+}
+.obens {
+	position: relative;
+	width: 21vw;
+	top: 0vw;
+	text-align: center;
+	height: 7vh;
+	background-color: rgba(10, 0, 9, 0);
+	border-bottom: 0.2vw solid rgba(79, 0, 82, 0);
+}
+.textoben {
+	position: absolute;
+	font-family: "Bebas Neue", cursive;
+	color: white;
+	left: 4vw;
+	top: -2.2vh;
+	letter-spacing: 0.1vw;
+	font-size: 2.5vw;
+}
+.unten {
+	position: absolute;
+	width: 18vw;
+	height: 22vh;
+	top: 9vh;
+	background-color: rgba(31, 31, 31, 0.726);
+	box-shadow: 2px 2px 2px black;
+	left: 1.5vw;
+}
+.textniv {
+	position: relative;
+	color: white;
+	font-family: "Bebas Neue", cursive;
+	letter-spacing: 0.1vw;
+	font-size: 1.8vw;
+	top: 0vw;
+	left: 1vw;
+}
+.beschreibungs {
+	font-family: "Shippori Antique", sans-serif;
+	font-size: 1.5vw;
+}
+.submitbuttonsees {
+	position: relative;
+	left: 1vw;
+	top: 40vh;
+	width: 19vw;
+	height: 6vh;
+	z-index: 29;
+	padding: 0.5vw;
+	font-size: 1.7vw;
+	background-color: rgba(14, 14, 14, 0.808);
+	outline: none;
+	cursor: pointer;
+	border-radius: 10vh;
+	border: none;
+	color: #ffffff;
+	border-radius: 5px;
+	outline: none;
+	z-index: 29;
+}
+.submitbuttonsees:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	background-color: rgba(104, 0, 90, 0.808);
+}
+.close {
+	position: relative;
+	left: 2vw;
+	top: 0.5vh;
+	width: 3vw;
+	cursor: pointer;
+	z-index: 15;
+	transform: skewY(20deg);
+}
+
+.background {
+	width: 100%;
+	height: 100%;
+}
+.left {
+	position: absolute;
+	width: 75vw;
+	height: 100%;
+	background: linear-gradient(
+		to right,
+		rgba(114, 0, 89),
+		rgba(0, 0, 255, 0) 95.71%
+	);
+}
+.right {
+	position: absolute;
+	width: 75vw;
+	height: 100%;
+	right: 0vw;
+	background: linear-gradient(
+		to left,
+		rgba(114, 0, 89),
+		rgba(0, 0, 255, 0) 95.71%
+	);
+}
+.middle {
+	position: absolute;
+	width: 70vw;
+	left: 18vw;
+	top: 5vh;
+	height: 85vh;
+	background-color: rgba(255, 0, 0, 0);
+}
+.middle-strich {
+	position: absolute;
+	width: 0.3vw;
+	height: 75vh;
+	top: 5vh;
+	left: 23vw;
+	background-color: white;
+}
+.bilds {
+	position: absolute;
+	width: 13vw;
+	left: 4.5vw;
+	top: 5vh;
+}
+.buttons {
+	position: absolute;
+	width: 22vw;
+	height: 45vh;
+	background-color: rgba(255, 0, 0, 0);
+	top: 35vh;
+}
+.butten-container {
+	position: relative;
+	border-radius: 1vw;
+	width: 22vw;
+	margin-top: 1vh;
+	cursor: pointer;
+	height: 8vh;
+	background-color: rgba(71, 71, 71, 0.514);
+}
+.butten-container:hover {
+	background-color: rgba(36, 36, 36, 0.514);
+	transition: 1s;
+}
+.text {
+	position: absolute;
+	left: 0.5vw;
+	width: 20vw;
+	top: 26vh;
+	background-color: rgba(255, 0, 0, 0);
+	font-size: 2.4vw;
+	color: white;
+	font-family: "Goldman", cursive;
+}
+.picture {
+	position: absolute;
+	left: 0.6vw;
+	top: 1vh;
+	width: 3vw;
+}
+.text-container {
+	position: absolute;
+	left: 4.5vw;
+	width: 20vw;
+	top: -1.5vh;
+	background-color: rgba(255, 0, 0, 0);
+	font-size: 2.4vw;
+	color: white;
+	font-family: "Goldman", cursive;
+}
+.text-einlagern {
+	position: absolute;
+	left: 26vw;
+	top: -4.5vh;
+	background-color: rgba(255, 0, 0, 0);
+	font-size: 4.4vw;
+	color: white;
+	font-family: "Goldman", cursive;
+}
+.trapez-oben {
+	position: absolute;
+	width: 70vw;
+	left: 17vw;
+	top: 6vw;
+	border-bottom: 0.2vw solid white;
+}
+.trapez-unten {
+	position: absolute;
+	width: 70vw;
+	left: 17vw;
+	top: 50vw;
+	border-top: 0.2vw solid white;
+}
+.trapez-left {
+	position: absolute;
+	width: 10vw;
+	left: -8.7vw;
+	top: 5.3vh;
+	transform: rotate(-40deg);
+	border-bottom: 0.2vw solid white;
+}
+.trapez-rechts {
+	position: absolute;
+	width: 10vw;
+	left: 68.6vw;
+	top: 5.3vh;
+	transform: rotate(40deg);
+	border-bottom: 0.2vw solid white;
+}
+.trapez-left2 {
+	position: absolute;
+	width: 10vw;
+	left: -8.7vw;
+	top: -5.7vh;
+	transform: rotate(40deg);
+	border-bottom: 0.2vw solid white;
+}
+.trapez-rechts2 {
+	position: absolute;
+	width: 10vw;
+	left: 68.8vw;
+	top: -5.6vh;
+	transform: rotate(-40deg);
+	border-bottom: 0.2vw solid white;
+}
+.einlager-container {
+	position: absolute;
+	width: 55vw;
+	height: 70vh;
+	border-radius: 2vw;
+	top: 15vh;
+	left: 25vw;
+	background-color: rgba(7, 7, 7, 0.486);
+}
+.space-text {
+	position: absolute;
+	left: 66vw;
+	top: 10vh;
+	text-align: center;
+	width: 14vw;
+	background-color: rgba(255, 0, 0, 0);
+	font-size: 1.4vw;
+	color: white;
+	font-family: "Goldman", cursive;
+}
+.text-space {
+	position: absolute;
+	left: 26vw;
+	top: 9.5vh;
+	background-color: rgba(255, 0, 0, 0);
+	font-size: 1.6vw;
+	color: white;
+	font-family: "Goldman", cursive;
+}
+.item-container {
+	position: relative;
+	width: 15vw;
+	left: 0.2vw;
+	top: 1vh;
+	display: inline-block;
+	border-radius: 1.5vw;
+	height: 30vh;
+	margin-top: 1vh;
+	margin-left: 2vw;
+	background-color: rgba(32, 32, 32, 0.616);
+}
+
+.einlagern-container-bar {
+	position: relative;
+	height: 67vh;
+	overflow-x: hidden;
+	width: 54vw;
+	overflow-y: scroll;
+	background-color: rgba(14, 0, 206, 0);
+	left: 0.2vw;
+	top: 1vh;
+}
+.einlagern-container-bar::-webkit-scrollbar {
+	width: 0.6vw;
+}
+
+.einlagern-container-bar::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background-color: rgba(255, 255, 255, 0.294);
+}
+
+.einlagern-container-bar::-webkit-scrollbar-thumb {
+	background-color: #202020;
+	border-radius: 2vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.185) 0 3px 13px 1px;
+}
+.rechteck-bild {
+	position: absolute;
+	width: 13vw;
+	left: 1vw;
+	top: 1vh;
+	border-radius: 1vw;
+	height: 15vh;
+	background-color: rgba(34, 34, 34, 0.596);
+}
+.inputt {
+	position: absolute;
+	-webkit-appearance: none;
+	left: 1.1vw;
+	width: 12.3vw;
+	color: white;
+	font-family: "Bebas Neue", cursive;
+	height: 5.5vh;
+	text-align: center;
+	z-index: 29;
+	top: 17vh;
+	border-radius: 0.5vw;
+	font-size: 3vw;
+	border: none;
+	background-color: rgba(29, 29, 29, 0.774);
+	outline: none;
+}
+.inputt:hover {
+	background-color: rgba(20, 24, 36, 0.5);
+	transition: color 0.6 ease;
+}
+.inputt:focus::placeholder {
+	color: transparent;
+}
+.inputt::placeholder {
+	color: white;
+	transition: color 0.3s ease;
+}
+.submitbuttons {
+	position: absolute;
+	left: 1.1vw;
+	top: 23vh;
+	width: 12.5vw;
+	height: 5vh;
+	z-index: 29;
+	padding: 0.5vw;
+	font-size: 1.5vw;
+	background-color: rgba(31, 26, 29, 0.808);
+	outline: none;
+	cursor: pointer;
+	border: none;
+	border-radius: 0.5vw;
+	color: #646464;
+	outline: none;
+	z-index: 29;
+}
+.submitbuttons:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	background-color: rgba(20, 24, 36, 0.808);
+}
+.imgframe {
+	position: absolute;
+	width: 8vw;
+	left: 2.5vw;
+	top: -0.5vh;
+	height: 13vh;
+	background-color: rgba(228, 0, 0, 0);
+}
+.picturse {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+#count {
+	position: absolute;
+	font-family: "Goldman", cursive;
+	color: white;
+	font-size: 1.6vw;
+	left: 11vw;
+	top: 0vh;
+}
+.itemname {
+	position: absolute;
+	font-family: "Goldman", cursive;
+	background-color: rgba(255, 0, 0, 0);
+	text-align: center;
+	width: 13vw;
+	overflow: hidden;
+	color: white;
+	top: 9vh;
+}
+.return {
+	position: absolute;
+	left: 1vw;
+	width: 5vw;
+	cursor: pointer;
+}
+.infos-right {
+	position: absolute;
+	background-color: rgba(255, 0, 0, 0);
+	width: 40vw;
+	height: 75vh;
+	left: 24vw;
+	top: 5vh;
+}
+.dashboard {
+	position: absolute;
+	font-family: "Goldman", cursive;
+
+	font-size: 3.5vw;
+	overflow: hidden;
+	color: white;
+	top: -5vh;
+	left: 1vw;
+}
+.LagerPlatz {
+	position: absolute;
+	font-family: "Goldman", cursive;
+
+	font-size: 2vw;
+	overflow: hidden;
+	color: white;
+	top: 7vh;
+	left: 1vw;
+}
+.lagerplatz-number {
+	position: absolute;
+	font-family: "Goldman", cursive;
+	font-size: 2vw;
+	overflow: hidden;
+	color: white;
+	top: 7vh;
+	width: 20vw;
+	text-align: center;
+	background-color: rgba(255, 0, 0, 0);
+	left: 23vw;
+}
+.info-line {
+	position: absolute;
+	font-family: "Goldman", cursive;
+
+	font-size: 2.4vw;
+	overflow: hidden;
+	color: white;
+	top: 10vh;
+	left: 1vw;
+}
+.text-containers {
+	position: absolute;
+	background-color: rgba(255, 0, 0, 0);
+	width: 15vw;
+	top: 19vh;
+	left: 1vw;
+	height: 30vh;
+}
+.upgrade {
+	position: relative;
+	margin-top: 4vh;
+	font-family: "Goldman", cursive;
+	width: 5vw;
+	height: 10vh;
+	color: white;
+	font-size: 2vw;
+	background-color: rgba(255, 0, 0, 0);
+}
+.container-zwei {
+	position: absolute;
+	left: 28vw;
+	top: 19vh;
+	height: 10vh;
+	width: 15vw;
+	font-family: "Goldman", cursive;
+	background-color: rgba(255, 0, 0, 0);
+	color: white;
+}
+.mode-level {
+	position: relative;
+	margin-top: 0vh;
+	font-family: "Goldman", cursive;
+	width: 17vw;
+	display: block;
+	color: white;
+	font-size: 2vw;
+}
+.cryptoteyt {
+	position: relative;
+	font-family: "Goldman", cursive;
+	color: white;
+	top: 26vh;
+	left: 1vw;
+	font-size: 2.4vw;
+}
+.crypto-container {
+	position: relative;
+	width: 18.5vw;
+	margin-left: 1vw;
+	height: 22vh;
+	display: inline-block;
+	border-radius: 1vw;
+	background-color: rgba(34, 34, 34, 0.582);
+}
+.bild-crypto {
+	position: absolute;
+	left: 6vw;
+	width: 6vw;
+}
+.aktuellcrypto {
+	position: absolute;
+	font-family: "Goldman", cursive;
+	width: 18vw;
+	left: 1.5vw;
+	top: 13vh;
+	background-color: rgba(255, 0, 0, 0);
+	color: white;
+	font-size: 2.7vw;
+}
+.crypto-containers {
+	position: absolute;
+	top: 36vh;
+	width: 40vw;
+	background-color: rgba(255, 0, 0, 0);
+}
+.esx {
+	left: 20.5vw;
+}
+.container-modi {
+	position: absolute;
+	height: 70vh;
+	width: 70vw;
+	top: 13vh;
+	left: 17vw;
+	background-color: rgba(255, 0, 0, 0);
+}
+.containerupdate {
+	position: relative;
+	height: 70vh;
+	display: inline-block;
+	margin-left: 1.5vw;
+	left: 1.5vw;
+	width: 20vw;
+	background-color: rgba(32, 32, 32, 0.527);
+	border-radius: 1vw;
+}
+.container-oben {
+	position: absolute;
+	height: 23vh;
+	border-top-left-radius: 1vw;
+	border-top-right-radius: 1vw;
+	width: 20vw;
+	background-color: rgba(32, 32, 32, 0.301);
+}
+.picturese {
+	position: absolute;
+	width: 8vw;
+	left: 5.5vw;
+	top: 1vh;
+}
+.Upgreade {
+	position: relative;
+	font-family: "Goldman", cursive;
+	color: white;
+	top: 14vh;
+	left: 1.5vw;
+	font-size: 2.4vw;
+}
+.kosten-text {
+	position: absolute;
+	font-family: "Goldman", cursive;
+	color: white;
+	top: 21vh;
+	left: 1vw;
+	font-size: 2vw;
+}
+.container-kosten {
+	position: absolute;
+	height: 15vh;
+	top: 28vh;
+	width: 20vw;
+
+	background-color: rgba(255, 0, 0, 0);
+}
+.text-container-kosten {
+	position: relative;
+	font-family: "Goldman", cursive;
+	color: white;
+	top: 0vh;
+	margin-top: vh;
+	display: block;
+	left: 1vw;
+	font-size: 2vw;
+}
+.Vorteile {
+	position: absolute;
+	font-family: "Goldman", cursive;
+	color: white;
+	top: 43vh;
+	margin-top: vh;
+	display: block;
+	left: 1vw;
+	font-size: 2vw;
+}
+.vorteilinfos {
+	position: absolute;
+	font-family: "Goldman", cursive;
+	color: white;
+	top: 50vh;
+	margin-top: vh;
+	display: block;
+	left: 1vw;
+	font-size: 1.7vw;
+}
+.submitbuttonss {
+	position: absolute;
+	left: 1.1vw;
+	top: 59vh;
+	width: 18vw;
+	height: 7vh;
+	z-index: 29;
+	padding: 0.5vw;
+	font-size: 1.5vw;
+	background-color: rgba(31, 26, 29, 0.808);
+	outline: none;
+	cursor: pointer;
+	border: none;
+	border-radius: 0.5vw;
+	color: #646464;
+	outline: none;
+	z-index: 29;
+}
+.submitbuttonss:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	background-color: rgba(20, 24, 36, 0.808);
+}
+.extroa {
+	left: 0.2vw;
+}
+.container-mining {
+	position: absolute;
+	width: 40vw;
+	height: 60vh;
+	border-radius: 0.4vw;
+	background-color: rgba(255, 0, 0, 0);
+	left: 35vw;
+	top: 18vh;
+}
+.leftsidemining {
+	position: absolute;
+	width: 68%;
+	border-top-left-radius: 0.4vw;
+	border-bottom-left-radius: 0.4vw;
+	height: 100%;
+	background: rgb(94, 0, 80);
+	background: linear-gradient(
+		180deg,
+		rgba(94, 0, 80, 0.7945553221288515) 0%,
+		rgba(173, 0, 168, 0.788953081232493) 100%
+	);
+}
+.containerherausragend {
+	position: absolute;
+	top: -3vh;
+	border-radius: 0.4vw;
+	width: 22vw;
+	left: 2.8vw;
+	background-color: rgb(177, 0, 153);
+	height: 8vh;
+}
+.rechteseitemining {
+	position: absolute;
+	right: 0vw;
+	width: 32%;
+	height: 100%;
+	background-color: rgba(22, 22, 22, 0.49);
+	border-top-right-radius: 0.4vw;
+	border-bottom-right-radius: 0.4vw;
+}
+.kastenmitinfos {
+	position: absolute;
+	width: 93%;
+	left: 1vw;
+	top: 10vh;
+	height: 40vh;
+	background-color: rgba(255, 0, 0, 0);
+}
+.kastenmitdetails {
+	position: relative;
+	width: 99%;
+	height: 6.5vh;
+	border-radius: 0.2vw;
+	margin-top: 0.6vh;
+	background-color: rgba(255, 255, 255, 0.16);
+}
+.submitauszahlen {
+	position: absolute;
+	right: 0.3vw;
+	top: 0.5vh;
+	width: 8vw;
+	height: 7vh;
+	z-index: 29;
+	padding-bottom: 0.1vw;
+	font-size: 1.3vw;
+	background-color: rgba(224, 23, 217, 0.578);
+	outline: none;
+	cursor: pointer;
+	border-radius: 10vh;
+	font-family: "Kanit";
+
+	font-weight: 100;
+	border: none;
+	color: #ffffff;
+	border-radius: 5px;
+	outline: none;
+	z-index: 29;
+}
+.submitauszahlen:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	transition: 0.4s all;
+	background-color: rgba(104, 0, 90, 0.808);
+}
+.miningmoney {
+	position: absolute;
+	font-family: "Kanit", cursive;
+	color: white;
+	top: -0.4vh;
+	width: 12.1vw;
+	background-color: rgba(255, 0, 0, 0);
+	left: 0.2vw;
+	text-align: left;
+
+	left: 1vw;
+	font-size: 1.7vw;
+}
+.linie2 {
+	position: absolute;
+	width: 7vw;
+	height: 0.1vh;
+	background-color: grey;
+	left: 1vw;
+	top: 7.5vh;
+}
+.linie3 {
+	position: absolute;
+	width: 7vw;
+	height: 0.1vh;
+	background-color: grey;
+	right: 1vw;
+	top: 7.5vh;
+}
+.informationtext {
+	position: absolute;
+	font-family: "Kanit", cursive;
+	color: white;
+	background-color: rgba(255, 0, 0, 0);
+	left: 9.4vw;
+	top: 4.3vh;
+	text-align: left;
+	font-weight: 100;
+
+	font-size: 1.2vw;
+}
+.lefttextminingdetails {
+	position: absolute;
+	font-family: "Kanit", cursive;
+	color: white;
+	letter-spacing: 0.1vw;
+	background-color: rgba(255, 0, 0, 0);
+	left: 0.9vw;
+	top: 0.2vh;
+	text-align: left;
+	font-weight: 100;
+
+	font-size: 1.2vw;
+}
+.rechtstextminingdetails {
+	position: absolute;
+	font-family: "Kanit", cursive;
+	color: white;
+	letter-spacing: 0.1vw;
+	background-color: rgba(255, 0, 0, 0);
+	right: 0.9vw;
+	top: 0.2vh;
+	text-align: right;
+	font-weight: 100;
+
+	font-size: 1.2vw;
+}
+.credits {
+	position: absolute;
+	font-family: "Kanit", cursive;
+	color: white;
+	background-color: rgba(255, 0, 0, 0);
+	left: 9.4vw;
+	top: 54vh;
+	text-align: center;
+	font-weight: 100;
+
+	font-size: 1.2vw;
+}
+.container-ram {
+	position: absolute;
+	width: 11vw;
+	height: 18vh;
+	border-radius: 0.2vw;
+	background-color: rgba(35, 35, 35, 0.293);
+	left: 0.9vw;
+	top: 2vh;
+}
+.container-gpu {
+	position: absolute;
+	width: 11vw;
+	height: 18vh;
+	border-radius: 0.2vw;
+	background-color: rgba(35, 35, 35, 0.293);
+	left: 0.9vw;
+	top: 21vh;
+}
+.container-cpu {
+	position: absolute;
+	width: 11vw;
+	height: 18vh;
+	border-radius: 0.2vw;
+	background-color: rgba(35, 35, 35, 0.293);
+	left: 0.9vw;
+	top: 40vh;
+}
+.teilname {
+	position: absolute;
+	font-family: "Kanit", cursive;
+	color: white;
+	background-color: rgba(255, 0, 0, 0);
+	left: 0.6vw;
+	top: -1vh;
+	text-align: center;
+	font-weight: 100;
+
+	font-size: 1.2vw;
+}
+.imagedetasil {
+	position: absolute;
+	width: 60%;
+	height: 10vh;
+	top: 4vh;
+	left: 2vw;
+	background-color: rgba(44, 0, 0, 0);
+}
+.container-items {
+	position: absolute;
+	left: 0vw;
+	top: 1vh;
+	width: 10vw;
+	height: 98%;
+	overflow-y: scroll;
+}
+.container-items::-webkit-scrollbar {
+	width: 0.2vw;
+}
+
+.container-items::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background-color: rgba(255, 255, 255, 0.294);
+}
+
+.container-items::-webkit-scrollbar-thumb {
+	background-color: #202020;
+	border-radius: 2vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.185) 0 3px 13px 1px;
+}
+.item-box-kofferaum {
+	display: inline-flex;
+	width: 13vh;
+	height: 13vh;
+	margin-left: 1.4vw;
+	z-index: 3;
+
+	background-color: rgba(23, 23, 23, 0.533);
+	border-radius: 0.2vw;
+	transform: rotate(-90deg);
+	justify-content: center;
+	place-items: center;
+	margin-top: 1vh;
+}
+
+.item-box-kofferaum:before {
+	content: "";
+	height: 20%;
+	position: absolute;
+	right: 0;
+}
+.item-box-kofferaum:after {
+	content: "";
+	height: 20%;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.item-box-kofferaum * {
+	transform: rotate(90deg);
+}
+.item-box-kofferaum:before {
+	bottom: 0;
+	height: 50%;
+}
+.item-box-kofferaum img {
+	position: absolute;
+	left: 4vh;
+	width: 50%;
+	height: 50%;
+}
+.item-amount {
+	position: absolute;
+	left: 9.5vh;
+	font-size: 1.5vh;
+	width: 4.3vh;
+	top: 1.5vh;
+	transform: rotate(90deg);
+	color: white;
+	height: 2vh;
+	background-color: rgba(255, 0, 0, 0);
+	overflow: hidden;
+}
+.returntomain {
+	position: absolute;
+	width: 6vw;
+	height: 9vh;
+	cursor: pointer;
+	top: 2vh;
+	right: 1vw;
+}
+.item-name {
+	position: absolute;
+	left: -4.4vh;
+	font-size: 1.2vh;
+	width: 13.1vh;
+	top: 5vh;
+	transform: rotate(90deg);
+	color: white;
+	text-align: center;
+	height: 3vh;
+	background-color: rgba(255, 0, 0, 0);
+	overflow: hidden;
+	font-family: "Goldman", cursive;
+}
+.item-name2 {
+	position: absolute;
+	left: 0.2vh;
+	font-size: 1.5vh;
+	width: 19.1vh;
+	top: 15.3vh;
+	color: white;
+	text-align: center;
+	height: 3vh;
+	background-color: rgba(255, 0, 0, 0);
+	overflow: hidden;
+	font-family: "Goldman", cursive;
+}
+@font-face {
+	font-family: "Open Sans";
+	src: url("text/OpenSans-VariableFont_wdth\,wght.ttf");
+}
+@font-face {
+	font-family: "Nunito Sans";
+	src: url("text/NunitoSans-Regular.ttf");
+}
+@font-face {
+	font-family: "Khula";
+	src: url("text/Khula-Regular.ttf");
+}
+@font-face {
+	font-family: "Lato";
+	src: url("text/Lato-Black.ttf");
+}
+@font-face {
+	font-family: "Goldman";
+	src: url("text/Goldman-Regular.ttf");
+}
+@font-face {
+	font-family: "Abel";
+	src: url("text/Abel-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Aldrich";
+	src: url("text/Aldrich-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Roboto";
+	src: url("text/Roboto-MediumItalic.ttf");
+}
+@font-face {
+	font-family: "Khula";
+	src: url("text/Khula-Regular.ttf");
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+.container-bauern {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgb(231, 12, 154);
+	background: linear-gradient(
+		90deg,
+		rgba(231, 12, 154, 1) 0%,
+		rgba(0, 0, 0, 1) 100%
+	);
+}
+.lokalerbauertext {
+	position: absolute;
+	color: white;
+	left: 2vw;
+	top: -1vh;
+	height: 1vh;
+	font-size: 2.5vw;
+	font-family: Khula;
+}
+.strichunterbauer {
+	position: absolute;
+	width: 40vw;
+	height: 0.2vh;
+	background-color: white;
+	top: 8.5vh;
+	left: 2.1vw;
+}
+.detailsbauern {
+	position: absolute;
+	color: white;
+	left: 2vw;
+
+	height: 1vh;
+	font-size: 1.2vw;
+	width: 35vw;
+	top: 9vh;
+	font-family: Aldrich;
+}
+.corner-white {
+	position: absolute;
+	width: 40vw;
+	height: 75vh;
+	top: 21vh;
+	left: 2vw;
+	border-left: 0.2vw solid white;
+	border-top: 0.3vh solid white;
+}
+.corner-white2 {
+	position: absolute;
+	width: 30vw;
+	height: 75vh;
+	top: 21vh;
+	right: 2vw;
+	border-right: 0.2vw solid white;
+	border-bottom: 0.3vh solid white;
+}
+.box-money {
+	position: absolute;
+	width: 12vw;
+	height: 5vh;
+	top: 2.3vh;
+	background-color: rgba(38, 38, 38, 0.478);
+	left: 30vw;
+	border-radius: 0.2vw;
+}
+.esctext {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	right: 2.1vw;
+	top: 2.5vh;
+	letter-spacing: 0.1vw;
+	font-size: 1.1vw;
+	transform: rotate(0deg);
+	font-family: "Lato", sans-serif;
+}
+.moneytext {
+	position: absolute;
+	color: white;
+	left: 0vw;
+	top: -0.1vh;
+	height: 1vh;
+	font-size: 1.2vw;
+	width: 12vw;
+	text-align: center;
+	background-color: rgba(255, 0, 0, 0);
+	font-family: Aldrich;
+}
+.boxbuying {
+	position: absolute;
+	width: 95vw;
+	background-color: rgba(255, 0, 0, 0);
+	height: 73vh;
+	top: 22vh;
+	left: 2.5vw;
+}
+.container-item {
+	position: relative;
+	display: inline-block;
+	width: 18vw;
+	height: 33vh;
+	margin-left: 0.5vw;
+	margin-top: 1vh;
+	border-radius: 0.2vw;
+	background-color: rgba(57, 57, 57, 0.531);
+}
+.container-item-preis {
+	position: absolute;
+	width: 7vw;
+	background-color: rgba(33, 33, 33, 0.381);
+	height: 4vh;
+	right: 0vw;
+	border-bottom-left-radius: 0.2vw;
+	border-bottom-right-radius: 0.2vw;
+}
+.Preis-Bauern {
+	position: absolute;
+	color: white;
+	left: 0vw;
+	top: -0.45vh;
+	height: 1vh;
+	font-size: 1.1vw;
+	width: 7vw;
+	text-align: center;
+	letter-spacing: 0.1vw;
+	background-color: rgba(255, 0, 0, 0);
+	font-family: Aldrich;
+}
+.Bauer-Item {
+	position: absolute;
+	color: white;
+
+	width: 11vw;
+	background-color: rgba(255, 0, 0, 0);
+	top: -0.9vh;
+	text-align: center;
+	height: 1vh;
+	font-size: 1.1vw;
+	font-family: Khula;
+}
+.img-container {
+	position: absolute;
+	width: 16vw;
+	height: 18vh;
+	background-color: rgba(28, 28, 28, 0.494);
+	top: 6vh;
+	left: 1vw;
+}
+.strich-item {
+	position: absolute;
+	width: 11vw;
+	height: 0.1vh;
+	top: 3.8vh;
+	background-color: rgb(255, 255, 255);
+}
+.button-down {
+	position: absolute;
+	height: 5.5vh;
+	width: 16vw;
+	font-family: "Goldman", cursive;
+	font-size: 1.3vw;
+	left: 1vw;
+	bottom: 2vh;
+	border: none;
+	outline: none;
+	z-index: 1;
+	color: white;
+	cursor: pointer;
+	background-color: rgb(164, 0, 167);
+	border-radius: 0.2vw;
+}
+
+.button-down:hover {
+	transition: 1s all;
+	background-color: rgb(110, 0, 112);
+}
+.imgbild {
+	position: absolute;
+	width: 7vw;
+	width: 10vw;
+	left: 3vw;
+	height: 18vh;
+	background-color: rgba(255, 0, 0, 0);
+}

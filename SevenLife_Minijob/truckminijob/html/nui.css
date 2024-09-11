@@ -1,0 +1,935 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Estonia&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hurricane&display=swap");
+
+.progress-bar {
+	position: absolute;
+	width: 400px;
+	height: 2.5em;
+	top: 73%;
+	left: 40%;
+	background-color: rgb(46, 46, 46);
+	border-radius: 1.5em;
+	color: white;
+	display: block;
+}
+
+.progress-bar::before {
+	content: attr(data-label);
+	display: flex;
+	align-items: center;
+	position: absolute;
+	left: 0.5em;
+	top: 0.5em;
+	bottom: 0.5em;
+	width: calc(var(--width, 0) * 1%);
+	min-width: 0.5rem;
+	max-width: calc(96% - 1em);
+	background-color: rgb(234, 0, 122);
+	border-radius: 1em;
+	padding: 0.5em;
+}
+
+.progress-barver {
+	position: absolute;
+	width: 400px;
+	height: 2.5em;
+	top: 73%;
+	left: 40%;
+	background-color: rgb(46, 46, 46);
+	border-radius: 1.5em;
+	color: white;
+	display: block;
+}
+
+.progress-barver::before {
+	content: attr(data-label);
+	display: flex;
+	align-items: center;
+	position: absolute;
+	left: 0.5em;
+	top: 0.5em;
+	bottom: 0.5em;
+	width: calc(var(--width, 0) * 1%);
+	min-width: 0.5rem;
+	max-width: calc(96% - 1em);
+	background-color: rgb(234, 0, 122);
+	border-radius: 1em;
+	padding: 0.5em;
+}
+.sammeln-nui {
+	position: absolute;
+	top: 18vh;
+	left: 30vw;
+	width: 44vw;
+	height: 56.5vh;
+	background: linear-gradient(200deg, rgb(0, 0, 0), rgba(255, 0, 0, 0) 100%),
+	linear-gradient(6deg, rgba(114, 0, 89), rgba(153, 0, 120, 0.013) 100%);
+	border-radius: 1vw;
+}
+.linkerflügel {
+	position: relative;
+	width: 13vw;
+	height: 56.5vh;
+	background-color: rgba(19, 19, 19, 0.297);
+	border-top-left-radius: 1vw;
+	border-bottom-left-radius: 1vw;
+	display: inline-block;
+	float: left;
+}
+#apteil {
+	position: relative;
+	top: 8vh;
+	left: 1vw;
+	background-color: rgba(31, 31, 31, 0);
+	width: 11vw;
+	height: 10vh;
+	text-align: center;
+	margin-top: 2.5vh;
+	border: 0.15vw solid white;
+	cursor: pointer;
+}
+#apteil:hover {
+	background-color: rgba(31, 31, 31, 0.476);
+	box-shadow: 0.6vw 0.6vw 0.6vw black;
+}
+.über {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	font-size: 2vw;
+	left: 1vw;
+	letter-spacing: 0.1vw;
+	top: -1vh;
+	font-family: "Hurricane", cursive;
+}
+
+.apteil-1 h1 {
+	position: absolute;
+	left: 0.8vw;
+	color: rgb(255, 255, 255);
+	font-size: 1.1vw;
+	font-family: "Roboto", sans-serif;
+	letter-spacing: 0.1vw;
+	border-bottom: 0.13vw solid rgb(234, 0, 122);
+}
+
+.apteil-1 h2 {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	font-size: 0.8vw;
+	left: 0.75vw;
+	top: 4vh;
+	font-family: "Merriweather", serif;
+	letter-spacing: 0.1vw;
+}
+
+.apteil-1 h3 {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	font-size: 13px;
+	left: 0.8vw;
+	top: 6vh;
+	font-family: "Merriweather", serif;
+	letter-spacing: 0.1vw;
+}
+.button1 {
+	position: absolute;
+	top: 45vh;
+	left: 30.5vw;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+.btn {
+	
+	background-color: rgba(46, 46, 46, 0.555);
+	color: rgb(136, 136, 136);
+	border: 0.15vw solid rgb(234, 0, 122);
+	font-family: "montserrat", sans-serif;
+	text-transform: uppercase;
+	font-size: 0.8vw;
+	padding: 1.5vh 2vw;
+	min-width: 20vw;
+	cursor: pointer;
+	transition: color 0.4s linear;
+	position: absolute;
+	left: -12vw;
+	top: -10vh;
+}
+.btn:hover {
+	color: #fff;
+}
+.btn::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	z-index: -1;
+	transition: transform 0.5s;
+	transform-origin: 0 0;
+	transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
+}
+.btn1::before {
+	transform: scaleX(0);
+}
+.btn2::before {
+	transform: scaleY(0);
+}
+.btn1:hover::before {
+	transform: scaleX(1);
+}
+.btn2:hover::before {
+	transform: scaleY(1);
+}
+.textfarmennoraml h1 {
+	position: absolute;
+	color: white;
+	font-size: 2vw;
+	top: 1.2vh;
+	width: 20vw;
+	text-align: center;
+	left: 18.5vw;
+	font-family: "Merriweather", serif;
+	border-bottom: 2px solid rgb(255, 255, 255);
+}
+.textfarmennoraml h2 {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	font-size: 1.7vw;
+	left: 1vw;
+	top: -2vh;
+	font-family: "Roboto", sans-serif;
+	letter-spacing: 1px;
+}
+
+.textfarmennoraml h3 {
+	position: absolute;
+	width: 23vw;
+	color: white;
+	font-size:1vw;
+	top: 4vh;
+	left: 1vw;
+	margin-top: 10px;
+	font-family: "Merriweather", serif;
+}
+
+.hilfebox {
+	position: absolute;
+	width: 25vw;
+	height: 15vh;
+	background-color: rgba(33, 33, 33, 0.498);
+	top: 13vh;
+	left: 16vw;
+	border-radius: 7px;
+}
+.apteil-2 h1 {
+	position: absolute;
+	left: 0.5vw;
+	color: rgb(255, 255, 255);
+	font-size: 1vw;
+	font-family: "Roboto", sans-serif;
+	letter-spacing: 0.03vw;
+	border-bottom: 0.13vw solid rgb(234, 0, 122);
+}
+
+.apteil-2 h2 {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	font-size: 0.8vw;
+	left: 0.75vw;
+	top: 4vh;
+	font-family: "Merriweather", serif;
+	letter-spacing: 0.1vw;
+}
+
+.apteil-2 h3 {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	font-size: 0.8vw;
+	left: 0.75vw;
+	top: 5.5vh;
+	font-family: "Merriweather", serif;
+	letter-spacing: 0.1vw;
+}
+.button2 {
+	position: absolute;
+	top: 45vh;
+	left: 30.5vw;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+.btn3 {
+	
+	background-color: rgba(46, 46, 46, 0.555);
+	color: rgb(136, 136, 136);
+	border: 0.15vw solid rgb(234, 0, 122);
+	font-family: "montserrat", sans-serif;
+	text-transform: uppercase;
+	font-size: 0.8vw;
+	padding: 1.5vh 2vw;
+	min-width: 20vw;
+	cursor: pointer;
+	transition: color 0.4s linear;
+	position: absolute;
+	left: -12vw;
+	top: -10vh;
+}
+.btn3:hover {
+	color: #fff;
+}
+.btn3::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	z-index: -1;
+	transition: transform 0.5s;
+	transform-origin: 0 0;
+	transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
+}
+.btn3::before {
+	transform: scaleY(0);
+}
+.btn2::before {
+	transform: scaleY(0);
+}
+.btn3:hover::before {
+	transform: scaleY(1);
+}
+.btn2:hover::before {
+	transform: scaleY(1);
+}
+
+.tracktor h1 {
+	position: absolute;
+	color: white;
+	font-size: 2vw;
+	top: 1.2vh;
+	width: 20vw;
+	text-align: center;
+	left: 18.5vw;
+	font-family: "Merriweather", serif;
+	border-bottom: 2px solid rgb(255, 255, 255);
+}
+.tracktor h2 {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	font-size: 1.7vw;
+	left: 1vw;
+	top: -2vh;
+	font-family: "Roboto", sans-serif;
+	letter-spacing: 1px;
+}
+
+.tracktor h3 {
+	position: absolute;
+	width: 23vw;
+	color: white;
+	font-size:1vw;
+	top: 4vh;
+	left: 1vw;
+	margin-top: 10px;
+	font-family: "Merriweather", serif;
+}
+.apteil-3 h1 {
+	position: absolute;
+	left: 0.4vw;
+	color: rgb(255, 255, 255);
+	font-size: 1.1vw;
+	font-family: "Roboto", sans-serif;
+	letter-spacing: 0.1vw;
+	border-bottom: 0.13vw solid rgb(234, 0, 122);
+}
+
+.apteil-3 h2 {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	font-size: 0.8vw;
+	left: 0.75vw;
+	top: 4vh;
+	font-family: "Merriweather", serif;
+	letter-spacing: 0.1vw;
+}
+
+.apteil-3 h3 {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	font-size: 13px;
+	left: 0.8vw;
+	top: 6vh;
+	font-family: "Merriweather", serif;
+	letter-spacing: 0.1vw;
+}
+.ausliefer h1 {
+	position: absolute;
+	color: white;
+	font-size: 2vw;
+	top: 1.2vh;
+	width: 20vw;
+	text-align: center;
+	left: 18.5vw;
+	font-family: "Merriweather", serif;
+	border-bottom: 2px solid rgb(255, 255, 255);
+}
+.ausliefer h2 {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	font-size: 1.7vw;
+	left: 1vw;
+	top: -2vh;
+	font-family: "Roboto", sans-serif;
+	letter-spacing: 1px;
+}
+
+.ausliefer h3 {
+	position: absolute;
+	width: 23vw;
+	color: white;
+	font-size:1vw;
+	top: 4vh;
+	left: 1vw;
+	margin-top: 10px;
+	font-family: "Merriweather", serif;
+}
+.button3 {
+	position: absolute;
+	top: 45vh;
+	left: 30.5vw;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+.btn5 {
+	
+	background-color: rgba(46, 46, 46, 0.555);
+	color: rgb(136, 136, 136);
+	border: 0.15vw solid rgb(234, 0, 122);
+	font-family: "montserrat", sans-serif;
+	text-transform: uppercase;
+	font-size: 0.8vw;
+	padding: 1.5vh 2vw;
+	min-width: 20vw;
+	cursor: pointer;
+	transition: color 0.4s linear;
+	position: absolute;
+	left: -12vw;
+	top: -10vh;
+}
+.btn5:hover {
+	color: #fff;
+}
+.btn5::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	z-index: -1;
+	transition: transform 0.5s;
+	transform-origin: 0 0;
+	transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
+}
+.btn5::before {
+	transform: scaleY(0);
+}
+.btn5:hover::before {
+	transform: scaleY(1);
+}
+.box-hintergrund {
+	position: absolute;
+	top: 10%;
+	left: 25%;
+	background-color: #111;
+	width: 50%;
+	height: 60%;
+	border-radius: 30px;
+	box-sizing: border-box;
+}
+.verarbeitercontainer {
+	position: relative;
+	width: 1250px;
+	height: 600px;
+	margin-left: 350px;
+	margin-top: 120px;
+	background-color: rgba(37, 37, 37, 0.781);
+	border-radius: 12px;
+}
+.linkerflügelverarbeiten {
+	position: absolute;
+	width: 325px;
+	height: 600px;
+	background-color: rgba(37, 37, 37, 0.781);
+	border-top-left-radius: 12px;
+	border-bottom-left-radius: 12px;
+}
+#verarbeiter {
+	position: relative;
+	width: 250px;
+	height: 100px;
+	background-color: rgb(32, 32, 32);
+	margin-top: 30px;
+	margin-left: 20px;
+	cursor: pointer;
+}
+#verarbeiter:hover {
+	box-shadow: black 3px 3px 3px;
+}
+.text h1 {
+	position: absolute;
+	text-align: center;
+	color: white;
+	font-family: "montserrat", sans-serif;
+	border-bottom: 2px solid rgb(234, 0, 122);
+	width: 200px;
+	left: 20%;
+	top: 0%;
+	cursor: pointer;
+}
+.verarbeiterzeugs {
+	position: relative;
+	height: 420px;
+	width: 300px;
+	top: 13%;
+	left: 0%;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	display: inline-block;
+}
+
+.verarbeiterzeugs::-webkit-scrollbar {
+	width: 15px;
+	height: 25px;
+}
+
+.verarbeiterzeugs::-webkit-scrollbar-track {
+	border-radius: 10px;
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+.verarbeiterzeugs::-webkit-scrollbar-thumb {
+	background-color: #272727;
+	border-radius: 20px;
+	-webkit-box-shadow: rgba(32, 32, 32, 0.12) 0 3px 13px 1px;
+}
+.level-box {
+	position: relative;
+	width: 275px;
+	height: 65px;
+	top: 90px;
+	cursor: pointer;
+	box-shadow: black 1.5px 1.5px 1.5px;
+	left: 20px;
+	background-color: rgb(29, 29, 29);
+}
+.level-box:hover {
+	box-shadow: black 4px 4px 4px;
+}
+.leftbox {
+	position: absolute;
+	width: 5px;
+	height: 65px;
+	background-color: rgb(234, 0, 122);
+}
+.textinderlevelbox h1 {
+	position: absolute;
+	color: rgb(180, 178, 178);
+	left: 18%;
+	top: 2px;
+	font-size: 24px;
+	font-family: "montserrat", sans-serif;
+	letter-spacing: 1px;
+}
+#verarbeiter h1 {
+	position: absolute;
+	font-family: "montserrat", sans-serif;
+	font-size: 19px;
+	color: white;
+	width: 600px;
+	left: 10px;
+}
+#verarbeiter span {
+	position: absolute;
+	font-family: "montserrat", sans-serif;
+	font-size: 17px;
+	color: white;
+	width: 400px;
+	top: 70%;
+	left: 10px;
+}
+#verarbeiter p7 {
+	position: absolute;
+	font-family: "montserrat", sans-serif;
+	font-size: 17px;
+	color: white;
+	width: 400px;
+	top: 42%;
+	left: 10px;
+}
+#verarbeiter p8 {
+	position: absolute;
+	font-family: "montserrat", sans-serif;
+	font-size: 19px;
+	color: white;
+	width: 400px;
+	top: -10%;
+	left: 42%;
+	text-shadow: black 3px 3px 3px;
+}
+.main {
+	position: absolute;
+	background-color: rgba(37, 37, 37, 0);
+	width: 1000px;
+	left: 32.5%;
+	height: 600px;
+	border-top-right-radius: 12px;
+	border-bottom-right-radius: 12px;
+}
+.hillibild {
+	position: absolute;
+	width: 300px;
+	left: 54%;
+	top: 19.15%;
+}
+
+.maintext p {
+	position: absolute;
+	color: white;
+	font-family: "montserrat", sans-serif;
+	font-size: 22px;
+	width: 500px;
+	left: 2.5%;
+	text-align: center;
+	top: 15%;
+	border-bottom: 2px solid black;
+}
+.maintext p2 {
+	position: absolute;
+	color: white;
+	font-family: "Poppins", sans-serif;
+	font-size: 18px;
+	width: 420px;
+	text-align: center;
+	left: 6.5%;
+	top: 31%;
+	text-shadow: black 2px 2px 2px;
+}
+.maintextbox {
+	position: relative;
+	border-radius: 20px;
+	width: 350px;
+	height: 250px;
+	background-color: rgba(63, 63, 63, 0.822);
+	top: 28%;
+	margin-top: 250px;
+	left: 12%;
+}
+.maintext h2 {
+	position: absolute;
+	color: white;
+	font-family: "montserrat", sans-serif;
+	font-size: 30px;
+	width: 175px;
+	text-align: center;
+	left: 24%;
+	top: -5%;
+	border-bottom: 2px solid rgb(234, 0, 122);
+}
+.maintext p3 {
+	position: absolute;
+	color: white;
+	font-family: "Poppins", sans-serif;
+	font-size: 18px;
+	width: 280px;
+	left: 11%;
+	text-align: center;
+	top: 24%;
+}
+.maintext p4 {
+	position: absolute;
+	color: white;
+	font-family: "montserrat", sans-serif;
+	font-size: 15px;
+	width: 280px;
+	left: 12%;
+	text-align: center;
+	top: 80%;
+	text-shadow: black 2px 2px 2px;
+}
+#verarbeiter p6 {
+	position: absolute;
+	font-family: "montserrat", sans-serif;
+	font-size: 19px;
+	color: white;
+	width: 400px;
+	top: -10%;
+	left: 35%;
+	text-shadow: black 3px 3px 3px;
+}
+.close {
+	position: absolute;
+	width: 35px;
+	left: 97%;
+	top: 0.5%;
+	z-index: 4;
+	cursor: pointer;
+}
+.button4 {
+	position: absolute;
+	top: 85%;
+	left: 47%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.textverarbeiter h1 {
+	position: absolute;
+	color: white;
+	font-family: "montserrat", sans-serif;
+	font-size: 30px;
+	width: 305px;
+	text-align: center;
+	left: 35%;
+	top: 12%;
+	border-bottom: 2px solid rgb(234, 0, 122);
+}
+.boxoben {
+	position: relative;
+	width: 924px;
+	height: 75px;
+	left: -8.1%;
+	background-color: rgb(37, 37, 37);
+	border-top-right-radius: 12px;
+	border-bottom: 2px solid black;
+}
+.maintext h1 {
+	position: absolute;
+	color: white;
+	font-family: "montserrat", sans-serif;
+	font-size: 30px;
+	width: 923px;
+	top: 1%;
+	text-align: center;
+	border-bottom: 3px solid rgb(234, 0, 122);
+}
+.boxoben h1 {
+	position: absolute;
+	color: white;
+	font-family: "montserrat", sans-serif;
+	font-size: 30px;
+	width: 923px;
+	top: 1%;
+	text-align: center;
+	border-bottom: 3px solid rgb(234, 0, 122);
+}
+#flex {
+	position: relative;
+	left: 26%;
+}
+.verarbeitermodulle {
+	width: 400px;
+	height: 350px;
+	position: relative;
+	left: 68%;
+	top: 2%;
+	background-color: rgb(41, 41, 41);
+}
+.legende {
+	position: relative;
+	width: 400px;
+	height: 173px;
+	left: 68%;
+	background-color: rgb(29, 29, 29);
+	border-bottom-right-radius: 12px;
+}
+.verarbeitermodulle img {
+	position: absolute;
+	width: 150px;
+	left: 21%;
+	top: 7%;
+}
+.boxallround {
+	position: relative;
+	width: 250px;
+	height: 250px;
+	background-color: rgb(51, 51, 51);
+	margin-left: 80px;
+	top: 5%;
+	box-shadow: black 8px 8px 8px;
+	border-radius: 2px;
+	border-width: 2px;
+	border-style: solid;
+	border-image: linear-gradient(to bottom, rgb(234, 0, 122), rgba(0, 0, 0, 0))
+		1 100%;
+}
+.textoverbox h1 {
+	position: absolute;
+	color: white;
+	font-family: "montserrat", sans-serif;
+	font-size: 30px;
+	top: 75%;
+	letter-spacing: 1px;
+	left: 27%;
+}
+.legendentext h1 {
+	position: absolute;
+	color: white;
+	font-family: "montserrat", sans-serif;
+	font-size: 30px;
+	top: -8%;
+	letter-spacing: 1px;
+	left: 0%;
+	width: 400px;
+	text-align: center;
+	border-bottom: 2px solid rgb(234, 0, 122);
+}
+.karotten {
+	width: 50px;
+	position: absolute;
+	left: 5%;
+	top: 30%;
+}
+.glass {
+	width: 30px;
+	position: absolute;
+	left: 5%;
+	top: 60%;
+}
+.textederlegende h1 {
+	position: absolute;
+	color: white;
+	left: 30%;
+	top: 20%;
+}
+.textederlegende p {
+	position: absolute;
+	color: white;
+	left: 20%;
+	font-size: 36px;
+	top: 11%;
+}
+.textederlegende h2 {
+	position: absolute;
+	color: white;
+	left: 30%;
+	top: 54%;
+	font-size: 33px;
+}
+.textederlegende p1 {
+	position: absolute;
+	color: white;
+	left: 20%;
+	font-size: 36px;
+	top: 67%;
+}
+.listeallerdinge {
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	box-shadow: black 3px 3px 3px;
+	left: 35%;
+	top: 24%;
+	background-color: rgb(51, 51, 51);
+}
+.listeallerdinge h1 {
+	position: absolute;
+	color: white;
+	left: 0%;
+	font-size: 26px;
+	top: -2%;
+	text-align: center;
+	border-bottom: 2px solid rgb(234, 0, 122);
+}
+.mengederdinge h3 {
+	position: absolute;
+	color: white;
+	left: 30%;
+	font-size: 36px;
+	text-shadow: black 5px 5px 5px;
+	top: 20%;
+	font-family: "montserrat", sans-serif;
+}
+.mengederdinge h2 {
+	position: absolute;
+	color: white;
+	left: 30%;
+	text-shadow: black 5px 5px 5px;
+	font-size: 36px;
+	top: 55%;
+	font-family: "montserrat", sans-serif;
+}
+#kartoffel h1 {
+	position: absolute;
+	color: white;
+	font-family: "montserrat", sans-serif;
+	font-size: 30px;
+	width: 405px;
+	text-align: center;
+	left: 31%;
+	top: 12%;
+	border-bottom: 2px solid rgb(234, 0, 122);
+}
+.boxallround1 {
+	position: relative;
+	width: 250px;
+	height: 250px;
+	background-color: rgb(51, 51, 51);
+	margin-left: 80px;
+	top: 5%;
+	box-shadow: black 8px 8px 8px;
+	border-radius: 2px;
+	border-width: 2px;
+	border-style: solid;
+	border-image: linear-gradient(to bottom, rgb(234, 0, 122), rgba(0, 0, 0, 0))
+		1 100%;
+}
+.boxallround1 img {
+	position: absolute;
+	width: 225px;
+	left: 4%;
+	top: 17%;
+}
+.progress-barververarbeiten {
+	position: absolute;
+	width: 400px;
+	height: 2.5em;
+	top: 83%;
+	left: 32%;
+	background-color: rgb(46, 46, 46);
+	border-radius: 1.5em;
+	color: white;
+	display: block;
+}
+.progress-barververarbeiten::before {
+	content: attr(data-label);
+	display: flex;
+	align-items: center;
+	position: absolute;
+	left: 0.5em;
+	top: 0.5em;
+	bottom: 0.5em;
+	width: calc(var(--width, 0) * 1%);
+	min-width: 0.5rem;
+	max-width: calc(96% - 1em);
+	background-color: rgb(234, 0, 122);
+	border-radius: 1em;
+	padding: 0.5em;
+}
+.close {
+	position: absolute;
+	left: 41.5vw;
+	width: 2.5vw;
+	cursor: pointer;
+}

@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="index.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	</head>
+	<body>
+		<div class="inventory">
+			<div class="background">
+				<div class="left"></div>
+				<div class="right"></div>
+			</div>
+			<div class="lignsobenleft">
+				<div class="einsline"></div>
+				<div class="zweiline"></div>
+				<div class="dreiline"></div>
+			</div>
+			<div class="lignsuntenleft">
+				<div class="einslines"></div>
+				<div class="zweilines"></div>
+				<div class="dreilines"></div>
+			</div>
+			<div class="weight">
+				<div class="kreis"></div>
+				<div class="inventoryweight" id="inventoryweight">
+					80.0 /<span> 120.0</span>
+				</div>
+				<img
+					src="src/outline_scale_white_48dp.png"
+					class="weights"
+					alt=""
+				/>
+			</div>
+			<div class="essentials"></div>
+			<div class="essentialss"></div>
+			<div data-inventory="player" class="inventory-items">
+				<div class="design"></div>
+				<img
+					src="src/outline_backpack_white_24dp.png"
+					class="backpack"
+					alt=""
+				/>
+				<h1 class="rucksackschriftt">RUCKSACK:</h1>
+				<div class="playeritems" id="playeritems">
+					<div data-slot="${i}" class="item-box">
+						<img class="img-am" src="items/bread.png" />
+						<div class="item-amount">${v.count}</div>
+						<div class="action"></div>
+					</div>
+				</div>
+			</div>
+			<div class="esent" id="box"></div>
+			<div class="designs"></div>
+			<div class="nearplayer"></div>
+			<div class="container-nearplayer">
+				<div class="container-player">
+					<h1 class="nameofplayer">Christian Espasito</h1>
+					<div class="designundername"></div>
+					<h1 class="distanz">Distanz: 1m</h1>
+					<h1 class="idthing">ID: 1</h1>
+				</div>
+
+				<div class="container-player"></div>
+				<div class="container-player"></div>
+				<div class="container-player"></div>
+				<div class="container-player"></div>
+				<div class="container-player"></div>
+			</div>
+			<input
+				class="inputt-mainraum"
+				id="inputt-mainraum"
+				placeholder="Anzahl"
+				pattern="\d*"
+				maxlength="1"
+			/>
+			<h1 class="rucksacksschriftt">SPIELER:</h1>
+			<img
+				src="src/outline_transfer_within_a_station_white_24dp.png"
+				class="backpacksee"
+				alt=""
+			/>
+			<div class="use-button">
+				<h1 class="useschrift">BENUTZEN</h1>
+			</div>
+			<div class="droprange">
+				<img
+					src="src/baseline_delete_white_48dp.png"
+					class="imgbasd"
+					alt=""
+				/>
+			</div>
+		</div>
+		<div class="inventoryTrunk">
+			<div class="background">
+				<div class="left"></div>
+				<div class="right"></div>
+			</div>
+			<div class="lignsobenleft">
+				<div class="einsline"></div>
+				<div class="zweiline"></div>
+				<div class="dreiline"></div>
+			</div>
+			<div class="lignsuntenleft">
+				<div class="einslines"></div>
+				<div class="zweilines"></div>
+				<div class="dreilines"></div>
+			</div>
+			<div class="weight">
+				<div class="kreis"></div>
+				<div class="inventoryweight" id="inventoryweighttrunk">
+					80.0 /<span> 120.0</span>
+				</div>
+				<img
+					src="src/outline_scale_white_48dp.png"
+					class="weights"
+					alt=""
+				/>
+			</div>
+			<div class="essentials"></div>
+			<div class="essentialss"></div>
+			<div data-inventory="player" class="inventory-items-trunk">
+				<div class="design"></div>
+				<img
+					src="src/outline_backpack_white_24dp.png"
+					class="backpack"
+					alt=""
+				/>
+				<h1 class="rucksackschriftt">RUCKSACK:</h1>
+				<div class="playeritems" id="playeritems">
+					<div data-slot="${i}" class="item-box">
+						<img class="img-am" src="items/bread.png" />
+						<div class="item-amount">${v.count}</div>
+						<div class="action"></div>
+					</div>
+				</div>
+			</div>
+			<div class="esent" id="box"></div>
+			<div class="designs"></div>
+			<div class="kofferaum">
+				<div data-slot="${i}" class="item-box-kofferaum">
+					<img class="img-am" src="items/bread.png" />
+					<div class="item-amount">${v.count}</div>
+					<div class="action"></div>
+				</div>
+				<div data-slot="${i}" class="item-box-kofferaum">
+					<img class="img-am" src="items/bread.png" />
+					<div class="item-amount">${v.count}</div>
+					<div class="action"></div>
+				</div>
+				<div data-slot="${i}" class="item-box-kofferaum">
+					<img class="img-am" src="items/bread.png" />
+					<div class="item-amount">${v.count}</div>
+					<div class="action"></div>
+				</div>
+			</div>
+			<input
+				class="inputt-kofferrum"
+				id="inputt-kofferraum"
+				placeholder="Anzahl"
+				pattern="\d*"
+				maxlength="1"
+			/>
+			<h1 class="rucksacksschriftt">Kofferraum:</h1>
+			<img
+				src="src/baseline_local_shipping_white_24dp.png"
+				class="cardown"
+				alt=""
+			/>
+		</div>
+		<div class="inventoryGlove">
+			<div class="background">
+				<div class="left"></div>
+				<div class="right"></div>
+			</div>
+			<div class="lignsobenleft">
+				<div class="einsline"></div>
+				<div class="zweiline"></div>
+				<div class="dreiline"></div>
+			</div>
+			<div class="lignsuntenleft">
+				<div class="einslines"></div>
+				<div class="zweilines"></div>
+				<div class="dreilines"></div>
+			</div>
+			<div class="weight">
+				<div class="kreis"></div>
+				<div class="inventoryweight" id="inventoryweightgloves">
+					80.0 /<span> 120.0</span>
+				</div>
+				<img
+					src="src/outline_scale_white_48dp.png"
+					class="weights"
+					alt=""
+				/>
+			</div>
+			<div class="essentials"></div>
+			<div class="essentialss"></div>
+			<div data-inventory="player" class="inventory-items-gloves">
+				<div class="design"></div>
+				<img
+					src="src/outline_backpack_white_24dp.png"
+					class="backpack"
+					alt=""
+				/>
+				<h1 class="rucksackschriftt">RUCKSACK:</h1>
+				<div class="playeritems" id="playeritems">
+					<div data-slot="${i}" class="item-box">
+						<img class="img-am" src="items/bread.png" />
+						<div class="item-amount">${v.count}</div>
+						<div class="action"></div>
+					</div>
+				</div>
+			</div>
+			<div class="esent" id="box"></div>
+			<div class="designs"></div>
+			<div class="glovesbox">
+				<div data-slot="${i}" class="item-box-gloves">
+					<img class="img-am" src="items/bread.png" />
+					<div class="item-amount">${v.count}</div>
+					<div class="action"></div>
+				</div>
+				<div data-slot="${i}" class="item-box-kofferaum">
+					<img class="img-am" src="items/bread.png" />
+					<div class="item-amount">${v.count}</div>
+					<div class="action"></div>
+				</div>
+				<div data-slot="${i}" class="item-box-kofferaum">
+					<img class="img-am" src="items/bread.png" />
+					<div class="item-amount">${v.count}</div>
+					<div class="action"></div>
+				</div>
+			</div>
+			<input
+				class="inputt-kofferrum"
+				id="inputt-glovesraum"
+				placeholder="Anzahl"
+				pattern="\d*"
+				maxlength="1"
+			/>
+			<h1 class="rucksacksschriftt">Handschuhfach:</h1>
+			<img
+				src="src/baseline_local_shipping_white_24dp.png"
+				class="cardown"
+				alt=""
+			/>
+		</div>
+		<div class="inventoryWaffenschrank">
+			<div class="background">
+				<div class="left"></div>
+				<div class="right"></div>
+			</div>
+			<div class="lignsobenleft">
+				<div class="einsline"></div>
+				<div class="zweiline"></div>
+				<div class="dreiline"></div>
+			</div>
+			<div class="lignsuntenleft">
+				<div class="einslines"></div>
+				<div class="zweilines"></div>
+				<div class="dreilines"></div>
+			</div>
+			<div class="weight">
+				<div class="kreis"></div>
+				<div class="inventoryweight" id="inventoryweightwaffenschrank">
+					80.0 /<span> 120.0</span>
+				</div>
+				<img
+					src="src/outline_scale_white_48dp.png"
+					class="weights"
+					alt=""
+				/>
+			</div>
+			<div class="essentials"></div>
+			<div class="essentialss"></div>
+			<div data-inventory="player" class="inventory-items-waffenschrank">
+				<div class="design"></div>
+				<img
+					src="src/outline_backpack_white_24dp.png"
+					class="backpack"
+					alt=""
+				/>
+				<h1 class="rucksackschriftt">RUCKSACK:</h1>
+				<div class="playeritems" id="playeritems">
+					<div data-slot="${i}" class="item-box">
+						<img class="img-am" src="items/bread.png" />
+						<div class="item-amount">${v.count}</div>
+						<div class="action"></div>
+					</div>
+				</div>
+			</div>
+			<div class="esent" id="box"></div>
+			<div class="designs"></div>
+			<div class="waffenschrank">
+				<div data-slot="${i}" class="item-box-gloves">
+					<img class="img-am" src="items/bread.png" />
+					<div class="item-amount">${v.count}</div>
+					<div class="action"></div>
+				</div>
+				<div data-slot="${i}" class="item-box-kofferaum">
+					<img class="img-am" src="items/bread.png" />
+					<div class="item-amount">${v.count}</div>
+					<div class="action"></div>
+				</div>
+				<div data-slot="${i}" class="item-box-kofferaum">
+					<img class="img-am" src="items/bread.png" />
+					<div class="item-amount">${v.count}</div>
+					<div class="action"></div>
+				</div>
+			</div>
+			<input
+				class="inputt-kofferrum"
+				id="inputt-waffenschrank"
+				placeholder="Anzahl"
+				pattern="\d*"
+				maxlength="1"
+			/>
+			<h1 class="rucksacksschriftt">Waffenschrank:</h1>
+			<img
+				src="src/baseline_local_shipping_white_24dp.png"
+				class="cardown"
+				alt=""
+			/>
+		</div>
+		<div class="inventoryDurchsuchen">
+			<div class="background">
+				<div class="left"></div>
+				<div class="right"></div>
+			</div>
+			<div class="lignsobenleft">
+				<div class="einsline"></div>
+				<div class="zweiline"></div>
+				<div class="dreiline"></div>
+			</div>
+			<div class="lignsuntenleft">
+				<div class="einslines"></div>
+				<div class="zweilines"></div>
+				<div class="dreilines"></div>
+			</div>
+			<div class="weight">
+				<div class="kreis"></div>
+				<div class="inventoryweight" id="inventoryweightgloves">
+					80.0 /<span> 120.0</span>
+				</div>
+				<img
+					src="src/outline_scale_white_48dp.png"
+					class="weights"
+					alt=""
+				/>
+			</div>
+			<div class="essentials"></div>
+			<div class="essentialss"></div>
+			<div data-inventory="player" class="inventory-items-durchsuchen">
+				<div class="design"></div>
+				<img
+					src="src/outline_backpack_white_24dp.png"
+					class="backpack"
+					alt=""
+				/>
+				<h1 class="rucksackschriftt">RUCKSACK:</h1>
+				<div class="playeritems" id="playeritems">
+					<div data-slot="${i}" class="item-box">
+						<img class="img-am" src="items/bread.png" />
+						<div class="item-amount">${v.count}</div>
+						<div class="action"></div>
+					</div>
+				</div>
+			</div>
+			<div class="esent" id="box"></div>
+			<div class="designs"></div>
+			<div class="durchsuchen">
+				<div data-slot="${i}" class="item-box-gloves">
+					<img class="img-am" src="items/bread.png" />
+					<div class="item-amount">${v.count}</div>
+					<div class="action"></div>
+				</div>
+				<div data-slot="${i}" class="item-box-kofferaum">
+					<img class="img-am" src="items/bread.png" />
+					<div class="item-amount">${v.count}</div>
+					<div class="action"></div>
+				</div>
+				<div data-slot="${i}" class="item-box-kofferaum">
+					<img class="img-am" src="items/bread.png" />
+					<div class="item-amount">${v.count}</div>
+					<div class="action"></div>
+				</div>
+			</div>
+			<input
+				class="inputt-kofferrum"
+				id="inputt-glovesraum"
+				placeholder="Anzahl"
+				pattern="\d*"
+				maxlength="1"
+			/>
+			<h1 class="rucksacksschriftt">Handschuhfach:</h1>
+			<img
+				src="src/baseline_local_shipping_white_24dp.png"
+				class="cardown"
+				alt=""
+			/>
+		</div>
+	</body>
+	<script src="index.js"></script>
+</html>

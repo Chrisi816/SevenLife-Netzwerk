@@ -1,0 +1,3493 @@
+@import url("https://fonts.googleapis.com/css2?family=Goldman&family=Radio+Canada&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Commissioner:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@font-face {
+	font-family: "Unbounded";
+	src: url("fonts/Unbounded-ExtraLight.ttf");
+}
+@font-face {
+	font-family: "Lato";
+	src: url("fonts/Lato-Black.ttf");
+}
+@font-face {
+	font-family: "Goldman";
+	src: url("fonts/Goldman-Regular.ttf");
+}
+@font-face {
+	font-family: "Abel";
+	src: url("fonts/Abel-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Aldrich";
+	src: url("fonts/Aldrich-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Roboto";
+	src: url("fonts/Roboto-MediumItalic.ttf");
+}
+@font-face {
+	font-family: "Khula";
+	src: url("fonts/Khula-Regular.ttf");
+}
+@font-face {
+	font-family: "Open Sans";
+	src: url("fonts/OpenSans-VariableFont_wdth\,wght.ttf");
+}
+@font-face {
+	font-family: "Nunito Sans";
+	src: url("fonts/NunitoSans-Regular.ttf");
+}
+@font-face {
+	font-family: "Khula";
+	src: url("fonts/Khula-Regular.ttf");
+}
+@font-face {
+	font-family: "Lato";
+	src: url("fonts/Lato-Black.ttf");
+}
+@font-face {
+	font-family: "Goldman";
+	src: url("fonts/Goldman-Regular.ttf");
+}
+@font-face {
+	font-family: "Abel";
+	src: url("fonts/Abel-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Aldrich";
+	src: url("fonts/Aldrich-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Roboto";
+	src: url("fonts/Roboto-MediumItalic.ttf");
+}
+@font-face {
+	font-family: "Khula";
+	src: url("fonts/Khula-Regular.ttf");
+}
+body {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	overflow: hidden;
+}
+.HaveUnternehmen {
+	display: none;
+}
+.besuchen {
+	display: none;
+}
+.leavedach {
+	display: none;
+}
+.gointohotel {
+	display: none;
+}
+.gofromgarage {
+	display: none;
+}
+.WeisserStreichherum {
+	position: absolute;
+	width: 50vw;
+	height: 40vh;
+	top: 20vh;
+	left: 27vw;
+	border: 0.2vh solid white;
+	background-color: rgba(30, 30, 30, 0.637);
+}
+.hotelpng {
+	position: absolute;
+	width: 20vw;
+	top: 16vh;
+	height: 19.2vh;
+	left: 52vw;
+	z-index: 2;
+	filter: brightness(60%);
+}
+.hoteltext {
+	color: rgb(255, 255, 255);
+	position: absolute;
+	font-size: 2.7vw;
+	width: 28vw;
+	z-index: 2;
+	top: 3.4vh;
+	text-align: left;
+	background-color: rgba(255, 0, 0, 0);
+	left: 32vw;
+	font-family: "Commissioner", sans-serif;
+}
+.hoteltext2 {
+	color: rgb(255, 255, 255);
+	position: absolute;
+	font-size: 1.1vw;
+	z-index: 2;
+	top: 11.4vh;
+	text-align: left;
+	background-color: rgba(255, 0, 0, 0);
+	left: 32vw;
+	font-family: "Roboto", sans-serif;
+}
+.background {
+	width: 100%;
+	filter: brightness(50%);
+	height: 100%;
+}
+.left {
+	position: absolute;
+	left: 0vw;
+	top: 0vw;
+	height: 100%;
+	width: 100vw;
+	z-index: 1;
+	background: linear-gradient(
+		to right,
+		rgba(114, 0, 0, 0.245),
+		rgba(0, 0, 255, 0) 80.71%
+	);
+}
+.right {
+	position: absolute;
+	right: 0vw;
+	top: 0vw;
+	height: 100%;
+	width: 100vw;
+	z-index: 1;
+	background: linear-gradient(
+		to left,
+		rgba(114, 0, 89, 0.367),
+		rgba(0, 0, 255, 0) 80.71%
+	);
+}
+.left1 {
+	position: absolute;
+	left: 0vw;
+	top: 0vw;
+	height: 100%;
+	width: 100vw;
+	z-index: 1;
+	background: linear-gradient(
+		to right,
+		rgba(114, 0, 0, 0.637),
+		rgba(0, 0, 255, 0) 80.71%
+	);
+}
+.right1 {
+	position: absolute;
+	right: 0vw;
+	top: 0vw;
+	height: 100%;
+	width: 100vw;
+	z-index: 1;
+	background: linear-gradient(
+		to left,
+		rgba(114, 0, 89, 0.73),
+		rgba(0, 0, 255, 0) 80.71%
+	);
+}
+.esctext {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	right: 4vw;
+	top: 7.5vh;
+	z-index: 2;
+	letter-spacing: 0.1vw;
+	font-size: 1.1vw;
+	transform: rotate(0deg);
+	font-family: "Lato", sans-serif;
+}
+
+.interaktionen {
+	position: absolute;
+	border: 0.1vh solid rgb(89, 89, 89);
+	width: 19.8vw;
+	top: 37vh;
+	background-color: rgba(42, 42, 42, 0.059);
+	border-radius: 0.1vw;
+	left: 52vw;
+	height: 35vh;
+	z-index: 2;
+}
+
+.wert {
+	position: absolute;
+	border: 0.1vh solid rgb(89, 89, 89);
+	width: 18.8vw;
+	top: 16vh;
+	background-color: rgba(42, 42, 42, 0.059);
+	border-radius: 0.1vw;
+	left: 32vw;
+	height: 19.3vh;
+	z-index: 2;
+}
+.information {
+	position: absolute;
+	border: 0.1vh solid rgb(89, 89, 89);
+	width: 18.8vw;
+	top: 37vh;
+	background-color: rgba(42, 42, 42, 0.059);
+	border-radius: 0.1vw;
+	left: 32vw;
+	height: 57vh;
+	z-index: 2;
+}
+.verwalten {
+	position: absolute;
+	border: 0.1vh solid rgb(89, 89, 89);
+	width: 19.8vw;
+	top: 74vh;
+	background-color: rgba(42, 42, 42, 0.059);
+	border-radius: 0.1vw;
+	left: 52vw;
+	height: 20vh;
+	z-index: 2;
+}
+.aktionen {
+	color: rgb(208, 208, 208);
+	position: absolute;
+	font-size: 1.3vw;
+	width: 15vw;
+	z-index: 2;
+	top: 1vh;
+	text-align: left;
+	background-color: rgba(255, 0, 0, 0);
+	left: 2vw;
+	letter-spacing: 0.1vw;
+	font-family: "Roboto", sans-serif;
+}
+.aktionentext {
+	color: rgb(144, 144, 144);
+	position: absolute;
+	font-size: 0.95vw;
+	width: 15vw;
+	z-index: 2;
+	top: 5vh;
+	text-align: left;
+	background-color: rgba(255, 0, 0, 0);
+	left: 2vw;
+	letter-spacing: 0.1vw;
+	font-family: "Roboto", sans-serif;
+}
+.verwaltens {
+	color: rgb(208, 208, 208);
+	position: absolute;
+	font-size: 1.3vw;
+	width: 15vw;
+	z-index: 2;
+	top: 1vh;
+	text-align: left;
+	background-color: rgba(255, 0, 0, 0);
+	left: 2vw;
+	letter-spacing: 0.1vw;
+	font-family: "Roboto", sans-serif;
+}
+.verwaltentext {
+	color: rgb(144, 144, 144);
+	position: absolute;
+	font-size: 0.95vw;
+	width: 15vw;
+	z-index: 2;
+	top: 5vh;
+	text-align: left;
+	background-color: rgba(255, 0, 0, 0);
+	left: 2vw;
+	letter-spacing: 0.1vw;
+	font-family: "Roboto", sans-serif;
+}
+.werts {
+	color: rgb(208, 208, 208);
+	position: absolute;
+	font-size: 1.3vw;
+	width: 15vw;
+	z-index: 2;
+	top: 1vh;
+	text-align: left;
+	background-color: rgba(255, 0, 0, 0);
+	left: 2vw;
+	letter-spacing: 0.1vw;
+	font-family: "Roboto", sans-serif;
+}
+.werttext {
+	color: rgb(144, 144, 144);
+	position: absolute;
+	font-size: 0.95vw;
+	width: 15vw;
+	z-index: 2;
+	top: 5vh;
+	text-align: left;
+	background-color: rgba(255, 0, 0, 0);
+	left: 2vw;
+	letter-spacing: 0.1vw;
+	font-family: "Roboto", sans-serif;
+}
+.informations {
+	color: rgb(208, 208, 208);
+	position: absolute;
+	font-size: 1.3vw;
+	width: 15vw;
+	z-index: 2;
+	top: 1vh;
+	text-align: left;
+	background-color: rgba(255, 0, 0, 0);
+	left: 2vw;
+	letter-spacing: 0.1vw;
+	font-family: "Roboto", sans-serif;
+}
+.informationtext {
+	color: rgb(144, 144, 144);
+	position: absolute;
+	font-size: 0.95vw;
+	width: 15vw;
+	z-index: 2;
+	top: 5vh;
+	text-align: left;
+	background-color: rgba(255, 0, 0, 0);
+	left: 2vw;
+	letter-spacing: 0.1vw;
+	font-family: "Roboto", sans-serif;
+}
+.button-verwalten {
+	position: absolute;
+	width: 16vw;
+	height: 6vh;
+	font-family: "Roboto", sans-serif;
+	font-size: 1.1vw;
+	left: 1.5vw;
+	top: 10vh;
+	border: none;
+	letter-spacing: 0.1vw;
+	outline: none;
+	z-index: 1;
+	color: white;
+	cursor: pointer;
+	background-color: rgba(165, 0, 77, 0.402);
+}
+.button-verwalten:hover {
+	transition: 1s all;
+	background-color: rgb(110, 0, 112);
+}
+.button-betreten {
+	position: absolute;
+	width: 15vw;
+	height: 6vh;
+	font-family: "Commissioner", sans-serif;
+	font-size: 1.1vw;
+	left: 2vw;
+	top: 26vh;
+	border: none;
+	letter-spacing: 0.1vw;
+	outline: none;
+	z-index: 1;
+	color: rgb(173, 173, 173);
+	cursor: pointer;
+	border-radius: 0.1vw;
+	border: solid 0.1vh rgb(55, 55, 55);
+	background-color: rgba(75, 75, 75, 0.629);
+}
+.button-betreten:hover {
+	transition: 1s all;
+	background-color: rgba(21, 21, 21, 0.567);
+}
+.button-betreten2 {
+	position: absolute;
+	width: 15vw;
+	height: 6vh;
+	font-family: "Commissioner", sans-serif;
+	font-size: 1.1vw;
+	left: 2vw;
+	top: 12vh;
+	border: none;
+	letter-spacing: 0.1vw;
+	outline: none;
+	z-index: 1;
+	color: rgb(173, 173, 173);
+	cursor: pointer;
+	border-radius: 0.1vw;
+	border: solid 0.1vh rgb(55, 55, 55);
+	background-color: rgba(75, 75, 75, 0.629);
+}
+.button-betreten2:hover {
+	transition: 1s all;
+	background-color: rgba(21, 21, 21, 0.567);
+}
+.button-betreten3 {
+	position: absolute;
+	width: 15vw;
+	height: 6vh;
+	font-family: "Commissioner", sans-serif;
+	font-size: 1.1vw;
+	left: 2vw;
+	top: 19vh;
+	border: none;
+	letter-spacing: 0.1vw;
+	outline: none;
+	z-index: 1;
+	color: rgb(173, 173, 173);
+	cursor: pointer;
+	border-radius: 0.1vw;
+	border: solid 0.1vh rgb(55, 55, 55);
+	background-color: rgba(75, 75, 75, 0.629);
+}
+.button-betreten3:hover {
+	transition: 1s all;
+	background-color: rgba(21, 21, 21, 0.567);
+}
+.kosten {
+	position: absolute;
+	color: rgb(22, 135, 22);
+	font-size: 1.8vw;
+	width: 15vw;
+	z-index: 2;
+	top: 9.4vh;
+	text-align: left;
+	background-color: rgba(255, 0, 0, 0);
+	left: 5.5vw;
+	letter-spacing: 0.2vw;
+	font-family: "Goldman", cursive;
+}
+.card {
+	position: absolute;
+	width: 3vw;
+	left: 1.7vw;
+	top: 11vh;
+}
+.container-info {
+	position: absolute;
+	background-color: rgba(255, 0, 0, 0);
+	width: 15vw;
+	height: 43vh;
+	top: 11vh;
+	left: 2vw;
+}
+.container-infos {
+	position: relative;
+	width: 15vw;
+	height: 6vh;
+	border: solid 0.1vh rgb(109, 109, 109);
+	background-color: rgba(89, 89, 89, 0.514);
+	margin-top: 1vh;
+	border-radius: 0.1vw;
+}
+.containerinfotext {
+	color: rgb(208, 208, 208);
+	position: absolute;
+	font-size: 1vw;
+
+	z-index: 2;
+	top: 0.7vh;
+	text-align: left;
+	background-color: rgba(255, 0, 0, 0);
+	left: 1vw;
+	letter-spacing: 0.1vw;
+	font-family: "Goldman", cursive;
+}
+.informationright {
+	color: rgb(208, 208, 208);
+	position: absolute;
+	font-size: 1vw;
+	width: 7vw;
+	z-index: 2;
+	top: 0.6vh;
+	height: 2vh;
+	text-align: right;
+	background-color: rgba(255, 0, 0, 0);
+	right: 1vw;
+	overflow: hidden;
+	letter-spacing: 0.1vw;
+	font-family: "Goldman", cursive;
+}
+.interaktionen1 {
+	position: absolute;
+	border: 0.1vh solid rgb(89, 89, 89);
+	width: 19.8vw;
+	top: 31vh;
+	background-color: rgba(42, 42, 42, 0.059);
+	border-radius: 0.1vw;
+	left: 40vw;
+	height: 35vh;
+	z-index: 2;
+}
+.aktionen1 {
+	color: rgb(208, 208, 208);
+	position: absolute;
+	font-size: 1.3vw;
+	width: 15vw;
+	z-index: 2;
+	top: 1vh;
+	text-align: left;
+	background-color: rgba(255, 0, 0, 0);
+	left: 2vw;
+	letter-spacing: 0.1vw;
+	font-family: "Roboto", sans-serif;
+}
+.aktionentext1 {
+	color: rgb(144, 144, 144);
+	position: absolute;
+	font-size: 0.95vw;
+	width: 15vw;
+	z-index: 2;
+	top: 5vh;
+	text-align: left;
+	background-color: rgba(255, 0, 0, 0);
+	left: 2vw;
+	letter-spacing: 0.1vw;
+	font-family: "Roboto", sans-serif;
+}
+.aktionentext12 {
+	color: rgb(144, 144, 144);
+	position: absolute;
+	font-size: 0.95vw;
+	width: 15vw;
+	z-index: 2;
+	top: 6vh;
+	text-align: left;
+	background-color: rgba(255, 0, 0, 0);
+	left: 2vw;
+	letter-spacing: 0.1vw;
+	font-family: "Roboto", sans-serif;
+}
+.button-betreten1 {
+	position: absolute;
+	width: 15vw;
+	height: 6.5vh;
+	font-family: "Commissioner", sans-serif;
+	font-size: 1.1vw;
+	left: 2vw;
+	top: 13vh;
+	border: none;
+	letter-spacing: 0.1vw;
+	outline: none;
+	z-index: 1;
+	color: rgb(173, 173, 173);
+	cursor: pointer;
+	border-radius: 0.1vw;
+	border: solid 0.1vh rgb(55, 55, 55);
+	background-color: rgba(75, 75, 75, 0.629);
+}
+.button-betreten1:hover {
+	transition: 1s all;
+	background-color: rgba(21, 21, 21, 0.567);
+}
+.button-verwalten1 {
+	position: absolute;
+	width: 15vw;
+	height: 6.5vh;
+	font-family: "Roboto", sans-serif;
+	font-size: 1.1vw;
+	left: 2vw;
+	top: 22vh;
+	border: none;
+	letter-spacing: 0.1vw;
+	outline: none;
+	z-index: 1;
+	color: rgb(173, 173, 173);
+	cursor: pointer;
+	border: solid 0.1vh rgb(55, 55, 55);
+	background-color: rgba(165, 0, 77, 0.402);
+}
+.button-verwalten1:hover {
+	transition: 1s all;
+	background-color: rgb(110, 0, 112);
+}
+.hausnummer {
+	color: rgb(208, 208, 208);
+	position: absolute;
+	font-size: 1.3vw;
+
+	z-index: 2;
+	top: 1vh;
+	text-align: left;
+	background-color: rgba(255, 0, 0, 0);
+	right: 3vw;
+	letter-spacing: 0.1vw;
+	font-family: "Roboto", sans-serif;
+}
+.button-betreten12 {
+	position: absolute;
+	width: 15vw;
+	height: 6.5vh;
+	font-family: "Commissioner", sans-serif;
+	font-size: 1.1vw;
+	left: 2vw;
+	top: 25vh;
+	border: none;
+	letter-spacing: 0.1vw;
+	outline: none;
+	z-index: 1;
+	color: rgb(173, 173, 173);
+	cursor: pointer;
+	border-radius: 0.1vw;
+	border: solid 0.1vh rgb(55, 55, 55);
+	background-color: rgba(75, 75, 75, 0.629);
+}
+.button-betreten12:hover {
+	transition: 1s all;
+	background-color: rgba(21, 21, 21, 0.567);
+}
+.button-betreten11 {
+	position: absolute;
+	width: 15vw;
+	height: 6.5vh;
+	font-family: "Commissioner", sans-serif;
+	font-size: 1.1vw;
+	left: 2vw;
+	top: 27vh;
+	border: none;
+	letter-spacing: 0.1vw;
+	outline: none;
+	z-index: 1;
+	color: rgb(173, 173, 173);
+	cursor: pointer;
+	border-radius: 0.1vw;
+	border: solid 0.1vh rgb(55, 55, 55);
+	background-color: rgba(75, 75, 75, 0.629);
+}
+.button-betreten11:hover {
+	transition: 1s all;
+	background-color: rgba(21, 21, 21, 0.567);
+}
+.Inputt-Shop {
+	position: absolute;
+	border: none;
+	-webkit-appearance: none;
+	padding: 0.1vw 1vw;
+
+	left: 2vw;
+	border-radius: 0.1vw;
+	top: 18vh;
+	width: 12.9vw;
+	color: rgb(225, 225, 225);
+	font-family: "Poppins", sans-serif;
+	height: 5.5vh;
+	text-align: left;
+	z-index: 29;
+	font-size: 1.5vw;
+	background-color: rgba(75, 75, 75, 0.629);
+	outline: none;
+	border: solid 0.1vh rgb(55, 55, 55);
+	text-align: center;
+}
+.Inputt-Shop:hover {
+	background-color: rgba(40, 40, 40, 0.454);
+	transition: color 0.6 ease;
+}
+.Inputt-Shop:focus::placeholder {
+	color: transparent;
+}
+.Inputt-Shop::placeholder {
+	color: rgb(218, 218, 218);
+	transition: color 0.3s ease;
+}
+.button-betreten13 {
+	position: absolute;
+	width: 15vw;
+	height: 6.5vh;
+	font-family: "Commissioner", sans-serif;
+	font-size: 1.1vw;
+	left: 2vw;
+	top: 12vh;
+	border: none;
+	letter-spacing: 0.1vw;
+	outline: none;
+	z-index: 1;
+	color: rgb(173, 173, 173);
+	cursor: pointer;
+	border-radius: 0.1vw;
+	border: solid 0.1vh rgb(55, 55, 55);
+	background-color: rgba(75, 75, 75, 0.629);
+}
+.button-betreten13:hover {
+	transition: 1s all;
+	background-color: rgba(21, 21, 21, 0.567);
+}
+.button-betreten14 {
+	position: absolute;
+	width: 15vw;
+	height: 6.5vh;
+	font-family: "Commissioner", sans-serif;
+	font-size: 1.1vw;
+	left: 2vw;
+	top: 19.5vh;
+	border: none;
+	letter-spacing: 0.1vw;
+	outline: none;
+	z-index: 1;
+	color: rgb(173, 173, 173);
+	cursor: pointer;
+	border-radius: 0.1vw;
+	border: solid 0.1vh rgb(55, 55, 55);
+	background-color: rgba(75, 75, 75, 0.629);
+}
+.button-betreten14:hover {
+	transition: 1s all;
+	background-color: rgba(21, 21, 21, 0.567);
+}
+.Computer-Bild {
+	position: absolute;
+	width: 78vw;
+	top: 3vh;
+	left: 10vw;
+	pointer-events: none;
+	z-index: 1;
+}
+.Img-BackGroundPC {
+	position: absolute;
+	left: 11vw;
+	z-index: 0;
+	width: 76vw;
+	height: 75vh;
+	filter: blur(11px);
+	top: 5vh;
+}
+.LeftComputerBar {
+	position: absolute;
+	width: 14vw;
+	height: 75vh;
+	background-color: rgba(29, 29, 29, 0.85);
+}
+.Computer-Frame {
+	position: absolute;
+	left: 11vw;
+	z-index: 0;
+
+	width: 76vw;
+	height: 75vh;
+	top: 5vh;
+}
+.business {
+	position: absolute;
+	left: 4.5vw;
+	width: 5vw;
+	top: 3vh;
+}
+.deinunternehmentext {
+	color: rgb(162, 162, 162);
+	position: absolute;
+	font-size: 1.7vw;
+	width: 13vw;
+
+	z-index: 2;
+	top: 10.4vh;
+	text-align: center;
+	background-color: rgba(255, 0, 0, 0);
+	left: 1vw;
+	font-family: "Commissioner", sans-serif;
+}
+.StartSeiteTXT {
+	color: rgb(80, 80, 80);
+	position: absolute;
+	font-size: 1.2vw;
+
+	z-index: 2;
+	top: 20.4vh;
+
+	background-color: rgba(255, 0, 0, 0);
+	left: 3.5vw;
+	font-family: "Aldrich", sans-serif;
+}
+
+.ErsteButton-Table {
+	position: absolute;
+	width: 13.5vw;
+	z-index: 1;
+
+	height: 10vh;
+
+	background-color: rgba(255, 0, 0, 0);
+	left: 0.5vw;
+	top: 24.5vh;
+}
+.Button-Table {
+	position: relative;
+	font-size: 1.2vw;
+	background-color: rgba(255, 0, 0, 0);
+	margin-top: 1vh;
+	text-align: left;
+	padding-left: 0.9vw;
+	padding-top: 0vh;
+	color: rgb(255, 255, 255);
+	font-family: "Aldrich", sans-serif;
+	background: linear-gradient(
+		to right,
+		rgba(154, 0, 162, 0.419) 50%,
+		transparent 0
+	);
+	background-size: 200% 100%;
+	background-position: right;
+}
+.Button-Table:hover {
+	animation: makeItfadeIn 1s forwards;
+	cursor: pointer;
+}
+
+@keyframes makeItfadeIn {
+	100% {
+		background-position: left;
+	}
+}
+.right-img {
+	position: absolute;
+	width: 1.4vw;
+	right: 0.5vw;
+}
+.Allgemeintxt {
+	color: rgb(80, 80, 80);
+	position: absolute;
+	font-size: 1.2vw;
+
+	z-index: 2;
+	top: 31.4vh;
+
+	background-color: rgba(255, 0, 0, 0);
+	left: 3.5vw;
+	font-family: "Aldrich", sans-serif;
+}
+.ZweiteButton-Table {
+	position: absolute;
+	width: 13.5vw;
+	z-index: 1;
+
+	height: 20vh;
+
+	background-color: rgba(255, 0, 0, 0);
+	left: 0.5vw;
+	top: 35.3vh;
+}
+.Einstellungstxt {
+	color: rgb(80, 80, 80);
+	position: absolute;
+	font-size: 1.2vw;
+
+	z-index: 2;
+	top: 53vh;
+
+	background-color: rgba(255, 0, 0, 0);
+	left: 2.2vw;
+	font-family: "Aldrich", sans-serif;
+}
+.DritteButton-Table {
+	position: absolute;
+	width: 13.5vw;
+	z-index: 1;
+
+	height: 16vh;
+
+	background-color: rgba(255, 0, 0, 0);
+	left: 0.5vw;
+	top: 57.5vh;
+}
+.TitelTXT {
+	color: rgb(255, 255, 255);
+	position: absolute;
+	font-size: 1.5vw;
+	z-index: 2;
+	top: 1.4vh;
+	background-color: rgba(255, 0, 0, 0);
+	left: 15vw;
+	font-family: "Aldrich", sans-serif;
+}
+
+.Frame-Übersicht {
+	position: absolute;
+	width: 59vw;
+	height: 65vh;
+	background-color: rgba(255, 0, 0, 0);
+	left: 15vw;
+	top: 7vh;
+}
+.Container-Umsatz {
+	position: absolute;
+	width: 20vw;
+	height: 15vh;
+	background-color: rgba(43, 43, 43, 0.463);
+	border: 0.1vw solid rgb(50, 50, 50);
+}
+.FirmenTXT {
+	color: rgb(255, 255, 255);
+	position: absolute;
+	font-size: 1.3vw;
+	z-index: 2;
+	top: -1vh;
+	background-color: rgba(255, 0, 0, 0);
+	left: 0.5vw;
+	font-family: "Khula", sans-serif;
+}
+.DetailTXT {
+	color: rgb(255, 255, 255);
+	position: absolute;
+	font-size: 0.9vw;
+	z-index: 2;
+	top: 8vh;
+	background-color: rgba(255, 0, 0, 0);
+	left: 0.5vw;
+	font-family: "Khula", sans-serif;
+}
+.UmsatzTXTGeld {
+	color: rgb(1, 150, 1);
+	position: absolute;
+	font-size: 2.2vw;
+	z-index: 2;
+	top: 0.8vh;
+	background-color: rgba(255, 0, 0, 0);
+	left: 0.5vw;
+	font-family: "Khula", sans-serif;
+}
+.Container-Autos {
+	position: absolute;
+	width: 19vw;
+	height: 15vh;
+	left: 21vw;
+	background-color: rgba(43, 43, 43, 0.463);
+	border: 0.1vw solid rgb(50, 50, 50);
+}
+.Container-Shops {
+	position: absolute;
+	width: 18vw;
+	height: 15vh;
+	left: 41vw;
+	background-color: rgba(43, 43, 43, 0.463);
+	border: 0.1vw solid rgb(50, 50, 50);
+}
+.AutosTXTGeld {
+	color: rgb(255, 255, 255);
+	position: absolute;
+	font-size: 2.2vw;
+	z-index: 2;
+	top: 0.8vh;
+	background-color: rgba(255, 0, 0, 0);
+	left: 0.5vw;
+	font-family: "Khula", sans-serif;
+}
+.Container-Tankstellen {
+	position: absolute;
+	width: 59vw;
+	height: 20vh;
+	top: 20vh;
+	left: 0vw;
+	background-color: rgba(43, 43, 43, 0.463);
+	border: 0.1vw solid rgb(50, 50, 50);
+}
+.FuelTXT {
+	color: rgb(255, 255, 255);
+	position: absolute;
+	font-size: 1.2vw;
+	z-index: 2;
+	top: -1vh;
+	background-color: rgba(255, 0, 0, 0);
+	left: 0.5vw;
+	font-family: "Khula", sans-serif;
+}
+.FirmenTXT2 {
+	color: rgb(255, 255, 255);
+	position: absolute;
+	font-size: 1.5vw;
+	z-index: 2;
+	top: -1.5vh;
+	background-color: rgba(255, 0, 0, 0);
+	left: 0.5vw;
+	font-family: "Khula", sans-serif;
+}
+.LiterTXTGeld {
+	color: rgb(255, 255, 255);
+	position: absolute;
+	font-size: 2vw;
+	z-index: 2;
+	top: 0.8vh;
+	background-color: rgba(255, 0, 0, 0);
+	left: 0.5vw;
+	font-family: "Khula", sans-serif;
+}
+.KleinereComntainer-Tankstellen {
+	position: absolute;
+	width: 18vw;
+	height: 13vh;
+	left: 0.5vw;
+	top: 5vh;
+	background-color: rgba(43, 43, 43, 0.463);
+	border: 0.1vw solid rgb(50, 50, 50);
+}
+.DetailTXT2 {
+	color: rgb(255, 255, 255);
+	position: absolute;
+	font-size: 0.9vw;
+	z-index: 2;
+	top: 6.6vh;
+	width: 17vw;
+	background-color: rgba(255, 0, 0, 0);
+	left: 0.5vw;
+	font-family: "Khula", sans-serif;
+}
+.KleinereComntainer-Tankstellen2 {
+	position: absolute;
+	width: 20vw;
+	height: 13vh;
+	left: 19.5vw;
+	top: 5vh;
+	background-color: rgba(43, 43, 43, 0.463);
+	border: 0.1vw solid rgb(50, 50, 50);
+}
+.KleinereComntainer-Tankstellen3 {
+	position: absolute;
+	width: 18vw;
+	height: 13vh;
+	left: 40.2vw;
+	top: 5vh;
+	background-color: rgba(43, 43, 43, 0.463);
+	border: 0.1vw solid rgb(50, 50, 50);
+}
+.LiterTXTGeld2 {
+	color: rgb(1, 150, 1);
+	position: absolute;
+	font-size: 2vw;
+	z-index: 2;
+	top: 0.8vh;
+	background-color: rgba(255, 0, 0, 0);
+	left: 0.5vw;
+	font-family: "Khula", sans-serif;
+}
+.Container-Herstellung {
+	position: absolute;
+	width: 20vw;
+	height: 15vh;
+	top: 45vh;
+	background-color: rgba(43, 43, 43, 0.463);
+	border: 0.1vw solid rgb(50, 50, 50);
+}
+.Container-Angestellte {
+	position: absolute;
+	width: 19vw;
+	height: 15vh;
+	left: 21vw;
+	top: 45vh;
+	background-color: rgba(43, 43, 43, 0.463);
+	border: 0.1vw solid rgb(50, 50, 50);
+}
+.Container-Löhne {
+	position: absolute;
+	width: 18vw;
+	height: 15vh;
+	left: 41vw;
+	top: 45vh;
+	background-color: rgba(43, 43, 43, 0.463);
+	border: 0.1vw solid rgb(50, 50, 50);
+}
+.DetailTXT3 {
+	color: rgb(255, 255, 255);
+	position: absolute;
+	font-size: 0.8vw;
+	z-index: 2;
+	top: 8vh;
+	background-color: rgba(255, 0, 0, 0);
+	left: 0.5vw;
+	font-family: "Khula", sans-serif;
+}
+.container-news {
+	position: absolute;
+	width: 59vw;
+	z-index: 1;
+	height: 65vh;
+	overflow-y: scroll;
+	background-color: rgba(255, 0, 0, 0);
+	left: 15vw;
+	top: 7vh;
+}
+.container-news::-webkit-scrollbar {
+	width: 0.6vw;
+}
+
+.container-news::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background-color: rgba(255, 255, 255, 0.294);
+}
+
+.container-news::-webkit-scrollbar-thumb {
+	background-color: #202020;
+	border-radius: 2vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.185) 0 3px 13px 1px;
+}
+.container-update {
+	position: relative;
+	height: 10vh;
+	width: 58vw;
+	background-color: rgba(43, 43, 43, 0.463);
+	border: 0.1vw solid rgb(50, 50, 50);
+}
+.linie {
+	position: absolute;
+	width: 57vw;
+	height: 0.2vh;
+	border-radius: 1vw;
+	background-color: white;
+	top: 4vh;
+	left: 0.5vw;
+}
+
+.infosunternehmensupdate {
+	color: rgb(255, 255, 255);
+	position: absolute;
+	font-size: 1.4vw;
+	z-index: 2;
+	top: -1vh;
+	background-color: rgba(255, 0, 0, 0);
+	left: 0.5vw;
+	font-family: "Aldrich", sans-serif;
+}
+.infounternehmensupdate {
+	color: rgb(255, 255, 255);
+	position: absolute;
+	font-size: 1vw;
+	z-index: 2;
+	top: 3.8vh;
+	background-color: rgba(255, 0, 0, 0);
+	left: 0.5vw;
+	font-family: "Aldrich", sans-serif;
+}
+.container-background-shops-auswahl {
+	position: absolute;
+	width: 59vw;
+	height: 6vh;
+	left: 15vw;
+	top: 8vh;
+	background-color: rgba(43, 43, 43, 0.463);
+	border: 0.1vw solid rgb(50, 50, 50);
+}
+.Button-Buy {
+	position: relative;
+	height: 4vh;
+	width: 7.75vw;
+	font-family: "Goldman", cursive;
+	font-size: 1.3vw;
+	left: 0vw;
+	top: 0.9vh;
+	margin-left: 0.5vw;
+	border: none;
+	outline: none;
+	z-index: 1;
+	color: white;
+	cursor: pointer;
+	background-color: rgb(164, 0, 167);
+	border-radius: 0.2vw;
+}
+.Button-Buy:hover {
+	transition: 1s all;
+	background-color: rgb(110, 0, 112);
+}
+.DescText {
+	color: rgb(255, 255, 255);
+	position: absolute;
+	font-size: 1.5vw;
+	z-index: 2;
+	top: 14.4vh;
+	background-color: rgba(255, 0, 0, 0);
+	left: 15vw;
+	font-family: "Aldrich", sans-serif;
+}
+.container-background-shops-informationen {
+	position: absolute;
+	width: 59vw;
+	height: 50vh;
+	left: 15vw;
+	top: 21vh;
+	background-color: rgba(43, 43, 43, 0.463);
+	border: 0.1vw solid rgb(50, 50, 50);
+}
+.container-background-shops-Interaktionen {
+	position: absolute;
+	width: 15vw;
+	height: 43vh;
+	left: 43.5vw;
+	top: 6vh;
+	background-color: rgba(43, 43, 43, 0.463);
+	border: 0.1vw solid rgb(50, 50, 50);
+}
+.DescText2 {
+	color: rgb(255, 255, 255);
+	position: absolute;
+	font-size: 1.4vw;
+	z-index: 2;
+	top: -0.8vh;
+	width: 15vw;
+	background-color: rgba(255, 0, 0, 0);
+	left: 43.5vw;
+	font-family: "Khula", sans-serif;
+	border-bottom: 0.1vh solid white;
+}
+.Button-Option {
+	position: relative;
+	height: 6vh;
+	width: 14vw;
+	font-family: "Goldman", cursive;
+	font-size: 1.3vw;
+	left: 0vw;
+	top: 7.5vh;
+	margin-top: 1vh;
+	margin-left: 0.5vw;
+	border: none;
+	outline: none;
+	z-index: 1;
+	color: white;
+	cursor: pointer;
+	background-color: rgba(164, 0, 167, 0.617);
+	border-radius: 0.1vw;
+}
+.Button-Option:hover {
+	transition: 1s all;
+	background-color: rgb(110, 0, 112);
+}
+.Button-Options {
+	position: relative;
+	height: 5vh;
+	width: 14vw;
+	font-family: "Goldman", cursive;
+	font-size: 1.2vw;
+	left: 0vw;
+	top: 8vh;
+	margin-top: 1vh;
+	margin-left: 0.5vw;
+	border: none;
+	outline: none;
+	z-index: 1;
+	color: white;
+	cursor: pointer;
+	background-color: rgba(167, 0, 33, 0.507);
+	border-radius: 0.1vw;
+}
+.Button-Options:hover {
+	transition: 1s all;
+	background-color: rgb(110, 0, 112);
+}
+.strichaussen {
+	position: absolute;
+	width: 20vw;
+	height: 35vh;
+	left: 15vw;
+	top: 8vh;
+	border-left: 0.2vw solid white;
+	border-top: 0.4vh solid white;
+}
+.strichinnen {
+	position: absolute;
+	width: 20vw;
+	height: 35vh;
+	left: 53.5vw;
+	top: 35vh;
+	border-bottom: 0.2vw solid white;
+	border-right: 0.4vh solid white;
+}
+.container-einlagern {
+	position: absolute;
+	width: 57.5vw;
+	height: 60vh;
+	left: 15.5vw;
+	top: 9vh;
+	overflow-y: scroll;
+	background-color: rgba(255, 0, 0, 0);
+}
+
+.container-einlagern::-webkit-scrollbar {
+	width: 0.6vw;
+}
+
+.container-einlagern::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background-color: rgba(255, 255, 255, 0.294);
+}
+
+.container-einlagern::-webkit-scrollbar-thumb {
+	background-color: #202020;
+	border-radius: 2vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.185) 0 3px 13px 1px;
+}
+.container-einlagern-root {
+	position: relative;
+	width: 13.5vw;
+	display: inline-block;
+	left: -0.5vw;
+	margin-top: 1vh;
+	height: 20vh;
+	margin-left: 0.5vw;
+	border-radius: 0.1vw;
+	background-color: rgba(39, 39, 39, 0.47);
+}
+.Button-Einlagern {
+	position: absolute;
+	height: 5vh;
+	width: 11.5vw;
+	font-family: "Goldman", cursive;
+	font-size: 1.3vw;
+	left: -1vw;
+	top: 13.5vh;
+	margin-left: 2vw;
+	border: none;
+	outline: none;
+	z-index: 1;
+	color: white;
+	cursor: pointer;
+	background-color: rgba(164, 0, 167, 0.539);
+	border-radius: 0.2vw;
+}
+
+.Button-Einlagern:hover {
+	transition: 1s all;
+	background-color: rgb(110, 0, 112);
+}
+.bildcontainer {
+	position: absolute;
+	background-color: rgba(39, 39, 39, 0.47);
+}
+.text_name {
+	position: absolute;
+	font-size: 1.2vw;
+	background-color: rgba(255, 0, 0, 0);
+	margin-top: 1vh;
+	text-align: center;
+
+	padding-top: 0vh;
+	width: 11.5vw;
+	left: 1vw;
+	color: rgb(255, 255, 255);
+	border-bottom: 0.2vh solid white;
+	font-family: "Aldrich", sans-serif;
+}
+.Inputt-item {
+	position: absolute;
+	border: none;
+	-webkit-appearance: none;
+	padding: 0.1vw 1vw;
+	left: 1vw;
+	border-radius: 0.1vw;
+	top: 6.5vh;
+	width: 9.5vw;
+	color: rgb(225, 225, 225);
+	font-family: "Poppins", sans-serif;
+	height: 4.5vh;
+	text-align: left;
+	z-index: 29;
+	font-size: 1.5vw;
+	background-color: rgba(75, 75, 75, 0.331);
+	outline: none;
+
+	text-align: center;
+}
+.Inputt-item:hover {
+	background-color: rgba(40, 40, 40, 0.454);
+	transition: color 0.6 ease;
+}
+.Inputt-item:focus::placeholder {
+	color: transparent;
+}
+.Inputt-item::placeholder {
+	color: rgb(218, 218, 218);
+	transition: color 0.3s ease;
+}
+.container-auslagern {
+	position: absolute;
+	width: 57.5vw;
+	height: 60vh;
+	left: 15.5vw;
+	top: 9vh;
+	overflow-y: scroll;
+	background-color: rgba(255, 0, 0, 0);
+}
+
+.container-auslagern::-webkit-scrollbar {
+	width: 0.6vw;
+}
+
+.container-auslagern::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background-color: rgba(255, 255, 255, 0.294);
+}
+
+.container-auslagern::-webkit-scrollbar-thumb {
+	background-color: #202020;
+	border-radius: 2vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.185) 0 3px 13px 1px;
+}
+.container-auslagern-root {
+	position: relative;
+	width: 13.5vw;
+	display: inline-block;
+	left: -0.5vw;
+	margin-top: 1vh;
+	height: 20vh;
+	margin-left: 0.5vw;
+	border-radius: 0.1vw;
+	background-color: rgba(39, 39, 39, 0.47);
+}
+.strichaussen2 {
+	position: absolute;
+	width: 20vw;
+	height: 32vh;
+	left: 30vw;
+	top: 15vh;
+	border-left: 0.2vw solid white;
+	border-top: 0.4vh solid white;
+}
+.strichinnen2 {
+	position: absolute;
+	width: 20vw;
+	height: 35vh;
+	left: 35.5vw;
+	top: 22vh;
+	border-bottom: 0.2vw solid white;
+	border-right: 0.4vh solid white;
+}
+.TitelTXT2 {
+	color: rgb(255, 255, 255);
+	position: absolute;
+	font-size: 1.5vw;
+	z-index: 2;
+	top: 9vh;
+	background-color: rgba(255, 0, 0, 0);
+	left: 30vw;
+	font-family: "Aldrich", sans-serif;
+}
+.TextDetails {
+	color: rgb(255, 255, 255);
+	position: absolute;
+	font-size: 1.1vw;
+	text-align: center;
+	z-index: 2;
+	top: 16vh;
+	width: 23.5vw;
+	background-color: rgba(255, 0, 0, 0);
+	left: 31vw;
+	font-family: "Aldrich", sans-serif;
+}
+.geld-abheben {
+	position: absolute;
+	height: 5.5vh;
+	width: 23.5vw;
+	font-family: "Goldman", cursive;
+	font-size: 1.3vw;
+	left: 31vw;
+	bottom: 20vh;
+	border: none;
+	outline: none;
+	z-index: 1;
+	color: white;
+	cursor: pointer;
+	background-color: rgb(164, 0, 167);
+	border-radius: 0.2vw;
+}
+
+.geld-abheben:hover {
+	transition: 1s all;
+	background-color: rgb(110, 0, 112);
+}
+.Inputt-Money {
+	position: absolute;
+	border: none;
+	-webkit-appearance: none;
+	padding: 0.1vw 1vw;
+
+	left: 33vw;
+	border-radius: 0.1vw;
+	top: 36vh;
+	width: 17vw;
+	color: rgb(225, 225, 225);
+	font-family: "Poppins", sans-serif;
+	height: 4.5vh;
+	text-align: left;
+	z-index: 29;
+	font-size: 1vw;
+	background-color: rgba(34, 31, 31, 0.483);
+	outline: none;
+	border: 0.1vh solid rgb(82, 82, 82);
+	text-align: center;
+}
+.Inputt-Money:hover {
+	background-color: rgba(40, 40, 40, 0.454);
+	transition: color 0.6 ease;
+}
+.Inputt-Money:focus::placeholder {
+	color: transparent;
+}
+.Inputt-Money::placeholder {
+	color: rgb(218, 218, 218);
+	transition: color 0.3s ease;
+}
+.backgeld {
+	position: absolute;
+	width: 3.5vw;
+	top: 9vh;
+	cursor: pointer;
+	right: 20vw;
+}
+.Container-ShopDetail {
+	position: absolute;
+	width: 21vw;
+	height: 15vh;
+	left: 15.5vw;
+	top: 22vh;
+	background-color: rgba(43, 43, 43, 0.463);
+	border: 0.1vw solid rgb(50, 50, 50);
+}
+.Container-ShopDetail2 {
+	position: absolute;
+	width: 20vw;
+	height: 15vh;
+	left: 37.5vw;
+	top: 22vh;
+	background-color: rgba(43, 43, 43, 0.463);
+	border: 0.1vw solid rgb(50, 50, 50);
+}
+
+.container-scroll-itemsellder {
+	position: absolute;
+	width: 42vw;
+
+	z-index: 1;
+	height: 26vh;
+	overflow-y: scroll;
+	background-color: rgba(32, 32, 32, 0.135);
+	left: 15.5vw;
+	top: 44vh;
+}
+.container-scroll-itemsellder::-webkit-scrollbar {
+	width: 0.6vw;
+}
+
+.container-scroll-itemsellder::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background-color: rgba(255, 255, 255, 0.294);
+}
+
+.container-scroll-itemsellder::-webkit-scrollbar-thumb {
+	background-color: #202020;
+	border-radius: 2vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.185) 0 3px 13px 1px;
+}
+.Detailtxte {
+	color: rgb(255, 255, 255);
+	position: absolute;
+	font-size: 1.3vw;
+	z-index: 2;
+	top: 36.5vh;
+	background-color: rgba(255, 0, 0, 0);
+	left: 15.5vw;
+	font-family: "Khula", sans-serif;
+}
+.line-unterdetail {
+	position: absolute;
+	width: 42vw;
+	height: 0.2vh;
+	background-color: white;
+	left: 15.5vw;
+	top: 41.7vh;
+}
+.containerhistory {
+	position: relative;
+	width: 40.5vw;
+	top: 0vh;
+	left: 0.5vw;
+	height: 6vh;
+	border-radius: 0.2vw;
+	margin-top: 1vh;
+	background-color: rgba(28, 27, 27, 0.516);
+}
+.itemandamount {
+	color: rgb(255, 255, 255);
+	position: absolute;
+	font-size: 1.3vw;
+	z-index: 2;
+	width: 16vw;
+
+	top: -0.2vh;
+	background-color: rgba(68, 0, 255, 0);
+	left: 0.7vw;
+	font-family: "Khula", sans-serif;
+}
+.strichabgrenzung {
+	position: absolute;
+	width: 0.1vw;
+	background-color: white;
+	height: 4vh;
+	left: 17vw;
+	top: 1vh;
+}
+.itemandamountmoney {
+	color: rgb(255, 255, 255);
+	position: absolute;
+	font-size: 1.3vw;
+	z-index: 2;
+	width: 7vw;
+	text-align: center;
+	top: -0.2vh;
+	background-color: rgba(14, 0, 53, 0);
+	left: 17.7vw;
+	font-family: "Khula", sans-serif;
+}
+.strichabgrenzung2 {
+	position: absolute;
+	width: 0.1vw;
+	background-color: white;
+	height: 4vh;
+	left: 25.5vw;
+	top: 1vh;
+}
+.itemandamountzeit {
+	color: rgb(255, 255, 255);
+	position: absolute;
+	font-size: 1.3vw;
+	z-index: 2;
+	width: 15vw;
+	text-align: center;
+	top: -0.2vh;
+	background-color: rgba(14, 0, 53, 0);
+	left: 25.5vw;
+	font-family: "Khula", sans-serif;
+}
+.Button-Auslagern {
+	position: absolute;
+	height: 5vh;
+	width: 11.5vw;
+	font-family: "Goldman", cursive;
+	font-size: 1.3vw;
+	left: -1vw;
+	top: 13.5vh;
+	margin-left: 2vw;
+	border: none;
+	outline: none;
+	z-index: 1;
+	color: white;
+	cursor: pointer;
+	background-color: rgba(164, 0, 167, 0.539);
+	border-radius: 0.2vw;
+}
+
+.Button-Auslagern:hover {
+	transition: 1s all;
+	background-color: rgb(110, 0, 112);
+}
+.container-preise {
+	position: absolute;
+	width: 57.5vw;
+	height: 60vh;
+	left: 15.5vw;
+	top: 9vh;
+	overflow-y: scroll;
+	background-color: rgba(255, 0, 0, 0);
+}
+
+.container-preise::-webkit-scrollbar {
+	width: 0.6vw;
+}
+
+.container-preise::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background-color: rgba(255, 255, 255, 0.294);
+}
+
+.container-preise::-webkit-scrollbar-thumb {
+	background-color: #202020;
+	border-radius: 2vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.185) 0 3px 13px 1px;
+}
+.container-itempreise {
+	position: relative;
+	width: 28vw;
+	display: inline-block;
+	background-color: rgba(40, 40, 40, 0.436);
+	height: 6vh;
+	border-radius: 0.2vw;
+}
+.nameofitempreis {
+	color: rgb(255, 255, 255);
+	position: absolute;
+	font-size: 1.3vw;
+	z-index: 2;
+	width: 15vw;
+	text-align: left;
+	top: -0.5vh;
+	background-color: rgba(14, 0, 53, 0);
+	left: 0.5vw;
+	font-family: "Khula", sans-serif;
+}
+.container-strich {
+	position: absolute;
+	width: 15vw;
+	height: 0.1vh;
+	background-color: white;
+	top: 2.5vw;
+	left: 0.5vw;
+}
+.Inputt-PreisEingeben {
+	position: absolute;
+	border: none;
+	-webkit-appearance: none;
+	padding: 0.1vw 1vw;
+
+	right: 6vw;
+	border-radius: 0.1vw;
+	top: 0.7vh;
+	width: 2.9vw;
+	color: rgb(225, 225, 225);
+	font-family: "Poppins", sans-serif;
+	height: 4vh;
+	text-align: left;
+	z-index: 29;
+	font-size: 1.5vw;
+	background-color: rgba(75, 75, 75, 0.267);
+	outline: none;
+	border: solid 0.1vh rgba(55, 55, 55, 0.18);
+	text-align: center;
+}
+.Inputt-PreisEingeben:hover {
+	background-color: rgba(40, 40, 40, 0.454);
+	transition: color 0.6 ease;
+}
+.Inputt-PreisEingeben:focus::placeholder {
+	color: transparent;
+}
+.Inputt-PreisEingeben::placeholder {
+	color: rgb(218, 218, 218);
+	transition: color 0.3s ease;
+}
+.Geld-Preismachen {
+	position: absolute;
+	height: 4.5vh;
+	width: 4.5vw;
+	font-family: "Goldman", cursive;
+	font-size: 1.3vw;
+	right: 0.8vw;
+	bottom: 0.8vh;
+	border: none;
+	outline: none;
+	z-index: 1;
+	color: white;
+	cursor: pointer;
+	background-color: rgb(206, 0, 209);
+	border-radius: 0.2vw;
+}
+
+.Geld-Preismachen:hover {
+	transition: 1s all;
+	background-color: rgb(110, 0, 112);
+}
+.akzept {
+	position: absolute;
+	width: 2vw;
+	top: 0.4vh;
+	right: 1.3vw;
+}
+.backgoing {
+	position: absolute;
+	width: 4vw;
+	cursor: pointer;
+	right: 2.5vw;
+	top: 1.5vh;
+}
+.backgoing5 {
+	position: absolute;
+	width: 4vw;
+	cursor: pointer;
+	right: 2.5vw;
+	top: 1.5vh;
+}
+.selectfraktion {
+	border: none;
+	-webkit-appearance: none;
+	position: absolute;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	left: 16vw;
+	height: 4vh;
+	width: 20.5vw;
+	top: 23vh;
+	padding-top: 0.6vh;
+	color: rgb(255, 255, 255);
+	font-family: "Khula";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1.1vw;
+	text-align: center;
+	padding-left: 0vw;
+	line-height: 3vh;
+	border-radius: 0.1vw;
+	cursor: pointer;
+	resize: none;
+	z-index: 29;
+	background-color: #26262662;
+	outline: none;
+}
+.selectfraktion select {
+	width: 21.5vw;
+	background-color: #262626;
+}
+.informationtextcontainer {
+	color: rgb(255, 255, 255);
+	position: absolute;
+	font-size: 1.1vw;
+	z-index: 2;
+	width: 28vw;
+	text-align: left;
+	top: 8.5vh;
+	background-color: rgba(14, 0, 53, 0);
+	left: 16vw;
+	font-family: "Khula", sans-serif;
+}
+.linieruntertinformation {
+	position: absolute;
+	width: 30vw;
+	height: 0.2vh;
+	left: 16vw;
+	top: 21vh;
+	background-color: white;
+}
+.selectfraktion2 {
+	border: none;
+	-webkit-appearance: none;
+	position: absolute;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	left: 16vw;
+	height: 4vh;
+	width: 20.5vw;
+	top: 28.8vh;
+	padding-top: 0.5vh;
+	color: rgb(255, 255, 255);
+	font-family: "Khula";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1.1vw;
+	text-align: center;
+	padding-left: 0vw;
+	line-height: 3vh;
+	border-radius: 0.1vw;
+	cursor: pointer;
+	resize: none;
+	z-index: 29;
+	background-color: #26262662;
+	outline: none;
+}
+.selectfraktion2 select {
+	width: 21.5vw;
+	background-color: #262626;
+}
+.Inputt-PaymentStart {
+	position: absolute;
+	border: none;
+	-webkit-appearance: none;
+	padding: 0.1vw 1vw;
+
+	left: 16vw;
+	border-radius: 0.1vw;
+	top: 34.8vh;
+	width: 18.5vw;
+	color: rgb(225, 225, 225);
+	font-family: "Poppins", sans-serif;
+	height: 3.7vh;
+	text-align: left;
+	z-index: 29;
+	font-size: 1vw;
+	background-color: rgba(34, 31, 31, 0.483);
+	outline: none;
+
+	text-align: center;
+}
+.Inputt-PaymentStart:hover {
+	background-color: rgba(40, 40, 40, 0.454);
+	transition: color 0.6 ease;
+}
+.Inputt-PaymentStart:focus::placeholder {
+	color: transparent;
+}
+.Inputt-PaymentStart::placeholder {
+	color: rgb(218, 218, 218);
+	transition: color 0.3s ease;
+}
+.linieruntertinformation2 {
+	position: absolute;
+	width: 30vw;
+	height: 0.2vh;
+	left: 16vw;
+	top: 41vh;
+	background-color: white;
+}
+.button-down2 {
+	position: absolute;
+	height: 5vh;
+	width: 30vw;
+	font-family: "Goldman", cursive;
+	font-size: 1.2vw;
+	left: 14vw;
+	bottom: 27vh;
+	margin-left: 2vw;
+	border: none;
+	outline: none;
+	z-index: 1;
+	color: white;
+	cursor: pointer;
+	background-color: rgba(164, 0, 167, 0.77);
+	border-radius: 0.2vw;
+}
+
+.button-down2:hover {
+	transition: 1s all;
+	background-color: rgb(110, 0, 112);
+}
+.linieruntertinformation3 {
+	position: absolute;
+	width: 30vw;
+	height: 0.2vh;
+	left: 16vw;
+	top: 50vh;
+	background-color: white;
+}
+.informationtextcontainer2 {
+	color: rgb(255, 255, 255);
+	position: absolute;
+	font-size: 1.1vw;
+	z-index: 2;
+	width: 28vw;
+	text-align: left;
+	top: 51.5vh;
+	background-color: rgba(14, 0, 53, 0);
+	left: 16vw;
+	font-family: "Khula", sans-serif;
+}
+.container-background-tankstellen-auswahl {
+	position: absolute;
+	width: 59vw;
+	height: 6vh;
+	left: 15vw;
+	top: 8vh;
+	background-color: rgba(43, 43, 43, 0.463);
+	border: 0.1vw solid rgb(50, 50, 50);
+}
+.Button-Options1 {
+	position: relative;
+	height: 5vh;
+	width: 14vw;
+	font-family: "Goldman", cursive;
+	font-size: 1.2vw;
+	left: 0vw;
+	top: 22vh;
+	margin-top: 1vh;
+	margin-left: 0.5vw;
+	border: none;
+	outline: none;
+	z-index: 1;
+	color: white;
+	cursor: pointer;
+	background-color: rgba(167, 0, 33, 0.507);
+	border-radius: 0.1vw;
+}
+.Button-Options1:hover {
+	transition: 1s all;
+	background-color: rgb(110, 0, 112);
+}
+.Button-Option1 {
+	position: relative;
+	height: 6vh;
+	width: 14vw;
+	font-family: "Goldman", cursive;
+	font-size: 1.3vw;
+	left: 0vw;
+	top: 21vh;
+	margin-top: 1vh;
+	margin-left: 0.5vw;
+	border: none;
+	outline: none;
+	z-index: 1;
+	color: white;
+	cursor: pointer;
+	background-color: rgba(164, 0, 167, 0.617);
+	border-radius: 0.1vw;
+}
+.Button-Option1:hover {
+	transition: 1s all;
+	background-color: rgb(110, 0, 112);
+}
+.Button-OpenTanke {
+	position: relative;
+	height: 4vh;
+	width: 7.75vw;
+	font-family: "Goldman", cursive;
+	font-size: 1.3vw;
+	left: 0vw;
+	top: 0.9vh;
+	margin-left: 0.5vw;
+	border: none;
+	outline: none;
+	z-index: 1;
+	color: white;
+	cursor: pointer;
+	background-color: rgb(164, 0, 167);
+	border-radius: 0.2vw;
+}
+.Button-OpenTanke:hover {
+	transition: 1s all;
+	background-color: rgb(110, 0, 112);
+}
+.container-scroll-itemselldertanke {
+	position: absolute;
+	width: 42vw;
+
+	z-index: 1;
+	height: 26vh;
+	overflow-y: scroll;
+	background-color: rgba(32, 32, 32, 0.135);
+	left: 15.5vw;
+	top: 44vh;
+}
+.container-scroll-itemselldertanke::-webkit-scrollbar {
+	width: 0.6vw;
+}
+
+.container-scroll-itemselldertanke::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background-color: rgba(255, 255, 255, 0.294);
+}
+
+.container-scroll-itemselldertanke::-webkit-scrollbar-thumb {
+	background-color: #202020;
+	border-radius: 2vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.185) 0 3px 13px 1px;
+}
+.backgeld2 {
+	position: absolute;
+	width: 3.5vw;
+	top: 9vh;
+	cursor: pointer;
+	right: 20vw;
+}
+.selectfraktion4 {
+	border: none;
+	-webkit-appearance: none;
+	position: absolute;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	left: 16vw;
+	height: 4vh;
+	width: 20.5vw;
+	top: 28.8vh;
+	padding-top: 0.5vh;
+	color: rgb(255, 255, 255);
+	font-family: "Khula";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1.1vw;
+	text-align: center;
+	padding-left: 0vw;
+	line-height: 3vh;
+	border-radius: 0.1vw;
+	cursor: pointer;
+	resize: none;
+	z-index: 29;
+	background-color: #26262662;
+	outline: none;
+}
+.selectfraktion4 select {
+	width: 21.5vw;
+	background-color: #262626;
+}
+.selectfraktion3 {
+	border: none;
+	-webkit-appearance: none;
+	position: absolute;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	left: 16vw;
+	height: 4vh;
+	width: 20.5vw;
+	top: 23vh;
+	padding-top: 0.6vh;
+	color: rgb(255, 255, 255);
+	font-family: "Khula";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1.1vw;
+	text-align: center;
+	padding-left: 0vw;
+	line-height: 3vh;
+	border-radius: 0.1vw;
+	cursor: pointer;
+	resize: none;
+	z-index: 29;
+	background-color: #26262662;
+	outline: none;
+}
+.selectfraktion3 select {
+	width: 21.5vw;
+	background-color: #262626;
+}
+.linieruntertinformation5 {
+	position: absolute;
+	width: 30vw;
+	height: 0.2vh;
+	left: 16vw;
+	top: 30vh;
+	background-color: white;
+}
+.mutter-text {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	font-size: 1.2vw;
+	letter-spacing: 0.1vw;
+	left: 16.3vw;
+	top: 20.8vh;
+	text-align: center;
+	font-family: "Aldrich", sans-serif;
+}
+.range-slider {
+	max-width: 40em;
+	margin: 8vw auto;
+	position: absolute;
+	top: 12vh;
+	left: 16.2vw;
+	display: flex;
+}
+.range-slider .slider {
+	-webkit-appearance: none;
+	width: 29.4vw;
+	height: 1.5vh;
+	outline: none;
+	border-radius: 0.5vw;
+	background-color: rgba(0, 0, 0, 0.558);
+}
+.range-slider .slider::-webkit-slider-thumb {
+	width: 1.7vw;
+	height: 1.2vh;
+	-webkit-appearance: none;
+	cursor: pointer;
+	z-index: 3;
+	position: relative;
+}
+.range-slider .slider-thumb {
+	position: absolute;
+	width: 1.3vw;
+	height: 2.3vh;
+	background: black;
+	border-radius: 10vw;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 2;
+	box-shadow: inset 0px 1px 2px black;
+}
+.range-slider .slider-thumb::before {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -60%);
+	width: 0.55vw;
+	height: 0.9vh;
+	background-color: #333;
+	border-radius: inherit;
+	transition: 0.3s;
+}
+.range-slider:hover .slider-thumb:before {
+	background: #6b006e;
+}
+.range-slider .progress {
+	width: 50%;
+	height: 0.6vh;
+	left: 0.4vw;
+	border-radius: 1vw;
+	background: linear-gradient(90deg, #33002f 0%, #2e0085 100%);
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	pointer-events: none;
+}
+.literauswählen {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	font-size: 1.2vw;
+	letter-spacing: 0.1vw;
+	left: 28.3vw;
+	top: 20.8vh;
+	width: 30vw;
+	background-color: rgba(255, 0, 0, 0);
+	text-align: left;
+	font-family: "Aldrich", sans-serif;
+}
+.map {
+	position: absolute;
+	width: 100%;
+}
+.linieruntertinformation6 {
+	position: absolute;
+	width: 30vw;
+	height: 0.2vh;
+	left: 16vw;
+	top: 60vh;
+	background-color: white;
+}
+.container-map {
+	position: absolute;
+	width: 30vw;
+	height: 28vh;
+
+	background-color: rgba(255, 0, 0, 0);
+	top: 31vh;
+	left: 16vw;
+}
+.pin1 {
+	position: absolute;
+	top: 15vh;
+	left: 10vw;
+	cursor: pointer;
+	border-radius: 50%;
+	border: 0.45vw solid #151515;
+	width: 0.4vw;
+	height: 0.8vh;
+}
+
+.pin1bottom {
+	position: absolute;
+	width: 0vw;
+	height: 0vw;
+	bottom: -1.5vw;
+	left: -0.35vw;
+	border: 0.55vw solid transparent;
+	border-top: 1.5vh solid #151515;
+}
+
+.pin2 {
+	position: absolute;
+	top: 13vh;
+	left: 8vw;
+	cursor: pointer;
+	border-radius: 50%;
+	border: 0.45vw solid #151515;
+	width: 0.4vw;
+	height: 0.8vh;
+}
+
+.pin2bottom {
+	position: absolute;
+
+	width: 0vw;
+	height: 0vw;
+	bottom: -1.5vw;
+	left: -0.3vw;
+	border: 0.55vw solid transparent;
+	border-top: 1.5vh solid #151515;
+}
+.pin3 {
+	position: absolute;
+	top: 11vh;
+	left: 11vw;
+	cursor: pointer;
+	border-radius: 50%;
+	border: 0.45vw solid #151515;
+	width: 0.4vw;
+	height: 0.8vh;
+}
+
+.pin3bottom {
+	position: absolute;
+
+	width: 0vw;
+	height: 0vw;
+	bottom: -1.5vw;
+	left: -0.31vw;
+	border: 0.55vw solid transparent;
+	border-top: 1.5vh solid #151515;
+}
+.pin4 {
+	position: absolute;
+	top: 14vh;
+	left: 12vw;
+	cursor: pointer;
+	border-radius: 50%;
+	border: 0.45vw solid #151515;
+	width: 0.4vw;
+	height: 0.8vh;
+}
+
+.pin4bottom {
+	position: absolute;
+
+	width: 0vw;
+	height: 0vw;
+	bottom: -1.5vw;
+	left: -0.31vw;
+	border: 0.55vw solid transparent;
+	border-top: 1.5vh solid #151515;
+}
+.button-down5 {
+	position: absolute;
+	height: 5vh;
+	width: 30vw;
+	font-family: "Goldman", cursive;
+	font-size: 1.2vw;
+	left: 14vw;
+	bottom: 8vh;
+	margin-left: 2vw;
+	border: none;
+	outline: none;
+	z-index: 1;
+	color: white;
+	cursor: pointer;
+	background-color: rgba(164, 0, 167, 0.77);
+	border-radius: 0.2vw;
+}
+
+.button-down5:hover {
+	transition: 1s all;
+	background-color: rgb(110, 0, 112);
+}
+.leftlogistik {
+	position: absolute;
+	width: 85vw;
+	height: 100%;
+	background: linear-gradient(
+		to right,
+		rgba(114, 0, 89),
+		rgba(0, 0, 255, 0) 95.71%
+	);
+}
+.rightlogistik {
+	position: absolute;
+	width: 85vw;
+	height: 100%;
+	right: 0vw;
+	background: linear-gradient(
+		to left,
+		rgba(114, 0, 89),
+		rgba(0, 0, 255, 0) 95.71%
+	);
+}
+.strichliniem {
+	position: absolute;
+	width: 30vw;
+	height: 0.1vh;
+	background-color: white;
+	left: 1vw;
+	top: 7vh;
+}
+.textbenzin {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	font-size: 2vw;
+	letter-spacing: 0.1vw;
+	left: 1vw;
+	top: 0vh;
+	width: 30vw;
+	background-color: rgba(255, 0, 0, 0);
+	text-align: left;
+	font-family: "Aldrich", sans-serif;
+}
+.detailtextbenzin {
+	color: rgb(255, 255, 255);
+	position: absolute;
+	font-size: 1.1vw;
+	z-index: 2;
+	width: 28vw;
+	text-align: left;
+	top: 6.7vh;
+	background-color: rgba(14, 0, 53, 0);
+	left: 1vw;
+	font-family: "Khula", sans-serif;
+}
+.circle {
+	width: 4.3vw;
+	height: 8vh;
+	top: 60vh;
+	left: 1vw;
+	transform: rotate(135deg);
+	position: absolute;
+	border-radius: 50%;
+	border: 0.8vw solid rgb(245, 245, 245);
+	border-top-color: transparent;
+	border-right-color: transparent;
+	transition: border-top-color 0.5s ease-in-out,
+		border-right-color 0.5s ease-in-out;
+}
+
+.circle:hover {
+	border-top-color: rgb(245, 245, 245);
+	border-right-color: rgb(245, 245, 245);
+	transition: border-top-color 0.5s ease-in-out 0.1s,
+		border-right-color 0.5s ease-in-out 0.4s;
+	animation: fillCircle 12s linear forwards;
+}
+.circle1 {
+	width: 4.3vw;
+	height: 8vh;
+	top: 60vh;
+	left: 8vw;
+	transform: rotate(135deg);
+	position: absolute;
+	border-radius: 50%;
+	border: 0.8vw solid rgb(245, 245, 245);
+	border-top-color: transparent;
+	border-right-color: transparent;
+	transition: border-top-color 0.5s ease-in-out,
+		border-right-color 0.5s ease-in-out;
+}
+
+.circle1:hover {
+	border-top-color: rgb(245, 245, 245);
+	border-right-color: rgb(245, 245, 245);
+	transition: border-top-color 0.5s ease-in-out 0.1s,
+		border-right-color 0.5s ease-in-out 0.4s;
+	animation: fillCircle 12s linear forwards;
+}
+.circle2 {
+	width: 4.3vw;
+	height: 8vh;
+	top: 60vh;
+	left: 15vw;
+	transform: rotate(135deg);
+	position: absolute;
+	border-radius: 50%;
+	border: 0.8vw solid rgb(245, 245, 245);
+	border-top-color: transparent;
+	border-right-color: transparent;
+	transition: border-top-color 0.5s ease-in-out,
+		border-right-color 0.5s ease-in-out;
+}
+
+.circle2:hover {
+	border-top-color: rgb(245, 245, 245);
+	border-right-color: rgb(245, 245, 245);
+	transition: border-top-color 0.5s ease-in-out 0.1s,
+		border-right-color 0.5s ease-in-out 0.4s;
+	animation: fillCircle 12s linear forwards;
+}
+.circle3 {
+	width: 4.3vw;
+	height: 8vh;
+	top: 60vh;
+	left: 22vw;
+	transform: rotate(135deg);
+	position: absolute;
+	border-radius: 50%;
+	border: 0.8vw solid rgb(245, 245, 245);
+	border-top-color: transparent;
+	border-right-color: transparent;
+	transition: border-top-color 0.5s ease-in-out,
+		border-right-color 0.5s ease-in-out;
+}
+
+.circle3:hover {
+	border-top-color: rgb(245, 245, 245);
+	border-right-color: rgb(245, 245, 245);
+	transition: border-top-color 5.5s ease-in-out 1.1s,
+		border-right-color 10.5s ease-in-out 0.4s;
+	animation: fillCircle 12s linear forwards;
+}
+
+@keyframes fillCircle {
+	from {
+		transform: rotate(0deg);
+		border-top-color: transparent;
+		border-right-color: transparent;
+	}
+	to {
+		transform: rotate(360deg);
+		border-top-color: rgb(245, 245, 245);
+		border-right-color: rgb(245, 245, 245);
+	}
+}
+.circle.filled {
+	border-top-color: rgb(245, 245, 245);
+	border-right-color: rgb(245, 245, 245);
+}
+.circle1.filled {
+	border-top-color: rgb(245, 245, 245);
+	border-right-color: rgb(245, 245, 245);
+}
+.circle2.filled {
+	border-top-color: rgb(245, 245, 245);
+	border-right-color: rgb(245, 245, 245);
+}
+.circle3.filled {
+	border-top-color: rgb(245, 245, 245);
+	border-right-color: rgb(245, 245, 245);
+}
+.rechteck1 {
+	position: absolute;
+	width: 1vw;
+	height: 22vh;
+	background-color: white;
+	left: 3.4vw;
+	top: 38.5vh;
+}
+.rechteck2 {
+	position: absolute;
+	width: 1vw;
+	height: 22vh;
+	background-color: white;
+	left: 10.4vw;
+	top: 38.5vh;
+}
+.rechteck3 {
+	position: absolute;
+	width: 1vw;
+	height: 22vh;
+	background-color: white;
+	left: 17.4vw;
+	top: 38.5vh;
+}
+.rechteck4 {
+	position: absolute;
+	width: 1vw;
+	height: 22vh;
+	background-color: white;
+	left: 24.4vw;
+	top: 38.5vh;
+}
+.rechteck5 {
+	position: absolute;
+	width: 5vw;
+	height: 1vh;
+	background-color: white;
+	left: 1.4vw;
+	top: 37.5vh;
+}
+.rechteck6 {
+	position: absolute;
+	width: 5vw;
+	height: 1vh;
+	background-color: white;
+	left: 15.4vw;
+	top: 37.5vh;
+}
+.rechteck7 {
+	position: absolute;
+	width: 5vw;
+	height: 1vh;
+	background-color: white;
+	left: 8.5vw;
+	top: 37.5vh;
+}
+.rechteck8 {
+	position: absolute;
+	width: 5vw;
+	height: 1vh;
+	background-color: white;
+	left: 22.45vw;
+	top: 37.5vh;
+}
+.barrel1 {
+	position: absolute;
+	width: 4vw;
+	left: 2vw;
+
+	top: 30vh;
+}
+.barrel2 {
+	position: absolute;
+	width: 4vw;
+	left: 9vw;
+
+	top: 30vh;
+}
+.barrel3 {
+	position: absolute;
+	width: 4vw;
+	left: 16vw;
+
+	top: 30vh;
+}
+.barrel4 {
+	position: absolute;
+	width: 4vw;
+	left: 22.9vw;
+
+	top: 30vh;
+}
+.leftshop {
+	position: absolute;
+	width: 85vw;
+	height: 100%;
+	background: linear-gradient(
+		to right,
+		rgba(114, 0, 89),
+		rgba(0, 0, 255, 0) 95.71%
+	);
+}
+.rightshop {
+	position: absolute;
+	width: 85vw;
+	height: 100%;
+	right: 0vw;
+	background: linear-gradient(
+		to left,
+		rgba(114, 0, 89),
+		rgba(0, 0, 255, 0) 95.71%
+	);
+}
+.text-shop {
+	position: absolute;
+	color: rgba(137, 137, 137, 0.408);
+	left: -15.5vw;
+	top: 41vh;
+	letter-spacing: 0.1vw;
+	font-size: 4.5vw;
+	transform: rotate(270deg);
+	font-family: "Goldman", cursive;
+}
+.container-rechnungdetails {
+	position: absolute;
+	height: 85vh;
+	width: 20vw;
+	background-color: rgba(43, 43, 43, 0.521);
+	top: 10vh;
+	left: 8vw;
+	border-radius: 0.2vw;
+}
+.line-unter3 {
+	position: absolute;
+	width: 89.3vw;
+	height: 0.2vh;
+	top: 6.8vh;
+	left: 8vw;
+	border-top-right-radius: 1vw;
+	border-bottom-right-radius: 1vw;
+	background-color: rgb(185, 32, 86);
+}
+.text-impounder3 {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 8vw;
+	top: -0.3vh;
+	letter-spacing: 0.1vw;
+	font-size: 2vw;
+
+	font-family: "Lato";
+}
+.Button-Buy-Shop {
+	position: absolute;
+	height: 5vh;
+	width: 18vw;
+	font-family: "Goldman", cursive;
+	font-size: 1.3vw;
+	left: -1vw;
+	top: 78vh;
+	margin-left: 2vw;
+	border: none;
+	outline: none;
+	z-index: 1;
+	color: white;
+	cursor: pointer;
+	background-color: rgb(164, 0, 167);
+	border-radius: 0.2vw;
+}
+
+.Button-Buy-Shop:hover {
+	transition: 1s all;
+	background-color: rgb(110, 0, 112);
+}
+.container-rechnungsdetails {
+	position: absolute;
+	width: 100%;
+	height: 13vh;
+	background-color: rgba(63, 63, 63, 0.421);
+	top: 60vh;
+}
+.line-unter4 {
+	position: absolute;
+	width: 20vw;
+	height: 0.2vh;
+	top: 76vh;
+	left: 0vw;
+	border-top-right-radius: 1vw;
+	border-bottom-right-radius: 1vw;
+	background-color: rgb(185, 32, 86);
+}
+.idkaufdetails {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 1vw;
+	top: -0.3vh;
+	width: 20vw;
+	background-color: rgba(255, 0, 0, 0);
+	letter-spacing: 0.1vw;
+	font-size: 1.5vw;
+	font-family: "Lato", cursive;
+}
+.line-unter5 {
+	position: absolute;
+	width: 20vw;
+	height: 0.2vh;
+	top: 6vh;
+	left: 0vw;
+	border-top-right-radius: 1vw;
+	border-bottom-right-radius: 1vw;
+	background-color: rgb(185, 32, 86);
+}
+.container-rechnungsdetails2 {
+	position: absolute;
+	width: 16vw;
+	height: 11vh;
+	border-radius: 1vw;
+	background-color: rgba(0, 0, 0, 0.234);
+	top: 61vh;
+	left: 2vw;
+}
+.idkaufdetails2 {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 1vw;
+	top: 51.5vh;
+	width: 20vw;
+	background-color: rgba(255, 0, 0, 0);
+	letter-spacing: 0.1vw;
+	font-size: 1.3vw;
+	font-family: "Lato", cursive;
+}
+.line-unter6 {
+	position: absolute;
+	width: 20vw;
+	height: 0.2vh;
+	top: 57vh;
+	left: 0vw;
+	border-top-right-radius: 1vw;
+	border-bottom-right-radius: 1vw;
+	background-color: rgb(185, 32, 86);
+}
+.warenkorb-shop {
+	position: absolute;
+	width: 18vw;
+	z-index: 1;
+	height: 41vh;
+	overflow-y: scroll;
+	background-color: rgba(255, 0, 0, 0);
+	left: 1vw;
+	top: 11vh;
+}
+.warenkorb-shop::-webkit-scrollbar {
+	width: 0.6vw;
+}
+
+.warenkorb-shop::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background-color: rgba(255, 255, 255, 0.294);
+}
+
+.warenkorb-shop::-webkit-scrollbar-thumb {
+	background-color: #202020;
+	border-radius: 2vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.185) 0 3px 13px 1px;
+}
+.idkaufdetails3 {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 1vw;
+	top: 5.5vh;
+	width: 20vw;
+	background-color: rgba(255, 0, 0, 0);
+	letter-spacing: 0.1vw;
+	font-size: 1.3vw;
+	font-family: "Lato", cursive;
+}
+.steuern {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 1vw;
+	top: 0.3vh;
+
+	background-color: rgba(255, 0, 0, 0);
+	letter-spacing: 0.1vw;
+	font-size: 1.3vw;
+	font-family: "Lato", cursive;
+}
+.preis {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 1vw;
+	top: 4.8vh;
+
+	background-color: rgba(255, 0, 0, 0);
+	letter-spacing: 0.1vw;
+	font-size: 1.3vw;
+	font-family: "Lato", cursive;
+}
+.line-unter7 {
+	position: absolute;
+	width: 14vw;
+	height: 0.2vh;
+	top: 5.5vh;
+	left: 1vw;
+	border-top-right-radius: 1vw;
+	border-bottom-right-radius: 1vw;
+	background-color: rgb(185, 32, 86);
+}
+.steuern-nummer {
+	position: absolute;
+	color: rgb(139, 0, 0);
+	left: 8vw;
+	top: 0.3vh;
+
+	width: 7vw;
+	text-align: right;
+	background-color: rgba(255, 0, 0, 0);
+
+	letter-spacing: 0.1vw;
+	font-size: 1.3vw;
+	font-family: "Lato", cursive;
+}
+.preis-nummer {
+	position: absolute;
+	color: rgb(8, 232, 0);
+	left: 8vw;
+	top: 4.8vh;
+	width: 7vw;
+	text-align: right;
+	background-color: rgba(255, 0, 0, 0);
+	letter-spacing: 0.1vw;
+	font-size: 1.3vw;
+	font-family: "Lato", cursive;
+}
+.container-right-line {
+	position: absolute;
+	width: 40vw;
+	height: 40vh;
+	background-color: rgba(255, 0, 0, 0);
+	left: 57vw;
+	top: 52.7vh;
+	border-bottom: 0.3vh solid white;
+	border-right: 0.3vh solid white;
+}
+.insert-container-shop {
+	position: absolute;
+	width: 67.6vw;
+	z-index: 1;
+	height: 81.5vh;
+	overflow-y: scroll;
+	background-color: rgba(255, 0, 0, 0);
+	left: 29vw;
+	top: 10vh;
+}
+.insert-container-shop::-webkit-scrollbar {
+	width: 0.6vw;
+}
+
+.insert-container-shop::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background-color: rgba(255, 255, 255, 0.294);
+}
+
+.insert-container-shop::-webkit-scrollbar-thumb {
+	background-color: #202020;
+	border-radius: 2vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.185) 0 3px 13px 1px;
+}
+.container-container-warnekorb {
+	position: relative;
+	margin-top: 1vh;
+	background-color: rgba(27, 27, 27, 0.477);
+	border-radius: 0.2vw;
+	width: 97%;
+	top: -1vh;
+	height: 8vh;
+}
+.img-warenkorb {
+	position: absolute;
+	width: 3vw;
+	top: 1.3vh;
+	left: 0.5vw;
+}
+.line-unter8 {
+	position: absolute;
+	width: 12vw;
+	height: 0.2vh;
+	top: 4vh;
+	left: 4vw;
+	border-top-right-radius: 1vw;
+	border-bottom-right-radius: 1vw;
+	background-color: rgb(185, 32, 86);
+}
+.name-warenkorb {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 4vw;
+	top: -0.8vh;
+	background-color: rgba(255, 0, 0, 0);
+	width: 12vw;
+	letter-spacing: 0.1vw;
+	font-size: 1.3vw;
+	font-family: "Lato", cursive;
+}
+.name-preis {
+	position: absolute;
+	color: rgb(8, 232, 0);
+	left: 4vw;
+	top: 2.8vh;
+	background-color: rgba(106, 255, 0, 0);
+	width: 12vw;
+	letter-spacing: 0.1vw;
+	font-size: 1.3vw;
+	font-family: "Lato", cursive;
+}
+.name-anzahl {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 12vw;
+	top: 2.8vh;
+	background-color: rgba(255, 0, 0, 0);
+	width: 4vw;
+	text-align: right;
+	letter-spacing: 0.1vw;
+	font-size: 1.3vw;
+	font-family: "Lato", cursive;
+}
+.container-item {
+	position: relative;
+	margin-top: 1vh;
+	margin-left: 1vh;
+	background-color: rgba(43, 43, 43, 0.521);
+	width: 16vw;
+	display: inline-block;
+	top: -1vh;
+	height: 30vh;
+}
+.Button-addtocard {
+	position: absolute;
+	height: 5vh;
+	width: 9vw;
+	font-family: "Goldman", cursive;
+	font-size: 1.2vw;
+	left: 4vw;
+	top: 23vh;
+	margin-left: 2vw;
+	border: none;
+	outline: none;
+	z-index: 1;
+	color: white;
+	cursor: pointer;
+	background-color: rgb(164, 0, 167);
+	border-radius: 0.2vw;
+}
+.Button-addtocard {
+	transition: 1s all;
+	background-color: rgb(110, 0, 112);
+}
+.Inputt-Shop {
+	position: absolute;
+	border: none;
+	-webkit-appearance: none;
+	padding: 0.1vw 1vw;
+
+	left: 0.9vw;
+	border-radius: 0.1vw;
+	top: 23vh;
+	width: 2vw;
+	color: rgb(225, 225, 225);
+	font-family: "Poppins", sans-serif;
+	height: 4.5vh;
+	text-align: left;
+	z-index: 29;
+	font-size: 1.3vw;
+	background-color: rgba(34, 31, 31, 0.483);
+	outline: none;
+	border: 0.01vh solid rgb(82, 82, 82);
+	text-align: center;
+}
+.Inputt-Shop:hover {
+	background-color: rgba(40, 40, 40, 0.454);
+	transition: color 0.6 ease;
+}
+.Inputt-Shop:focus::placeholder {
+	color: transparent;
+}
+.Inputt-Shop::placeholder {
+	color: rgb(218, 218, 218);
+	transition: color 0.3s ease;
+}
+.container-bild-waren {
+	position: absolute;
+	width: 15vw;
+	left: 0.5vw;
+	top: 1vh;
+	border-radius: 0.2vw;
+	background-color: rgba(27, 27, 27, 0.477);
+	height: 12vh;
+}
+.line-unter9 {
+	position: absolute;
+	width: 14vw;
+	height: 0.2vh;
+	top: 18.2vh;
+	left: 1vw;
+	border-top-right-radius: 1vw;
+	border-bottom-right-radius: 1vw;
+	background-color: rgb(185, 32, 86);
+}
+.steuern-nummer2 {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 8vw;
+	top: 13vh;
+
+	width: 7vw;
+	text-align: right;
+	background-color: rgba(255, 0, 0, 0);
+
+	letter-spacing: 0.1vw;
+	font-size: 1.3vw;
+	font-family: "Lato", cursive;
+}
+.preis-nummer2 {
+	position: absolute;
+	color: rgb(8, 232, 0);
+	left: 8vw;
+	top: 17.3vh;
+	width: 7vw;
+	text-align: right;
+	background-color: rgba(255, 0, 0, 0);
+	letter-spacing: 0.1vw;
+	font-size: 1.3vw;
+	font-family: "Lato", cursive;
+}
+.steuern2 {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 1vw;
+	top: 13vh;
+
+	background-color: rgba(255, 0, 0, 0);
+	letter-spacing: 0.1vw;
+	font-size: 1.3vw;
+	font-family: "Lato", cursive;
+}
+.preis2 {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 1vw;
+	top: 17.4vh;
+
+	background-color: rgba(255, 0, 0, 0);
+	letter-spacing: 0.1vw;
+	font-size: 1.3vw;
+	font-family: "Lato", cursive;
+}
+.img-ware {
+	position: absolute;
+	width: 7vw;
+	left: 3.7vw;
+	top: -0.5vh;
+}
+.buttonabbrechen2 {
+	position: absolute;
+	left: 37.4vw;
+	top: 58.5vh;
+	width: 12vw;
+	height: 7.4vh;
+	z-index: 29;
+	font-size: 1.2vw;
+	background-color: rgba(233, 7, 56, 0.696);
+	outline: none;
+	cursor: pointer;
+	border-radius: 0.2vw;
+	color: #ffffff;
+	border: none;
+	border: 0.1vw solid white;
+	outline: none;
+	z-index: 29;
+}
+.buttonabbrechen2:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	transition: 1s all;
+	border: 0.1vw solid rgba(221, 77, 119, 255);
+	background-color: rgba(21, 21, 21, 0.746);
+}
+.buttonsetzenchips {
+	position: absolute;
+	left: 50vw;
+	top: 58.5vh;
+	width: 12.8vw;
+	height: 7.4vh;
+	z-index: 29;
+	font-size: 1.2vw;
+	background-color: rgba(34, 31, 31, 0.476);
+	outline: none;
+	cursor: pointer;
+	border-radius: 0.2vw;
+	color: #ffffff;
+	border: none;
+	border: 0.1vw solid white;
+	outline: none;
+	z-index: 29;
+}
+.buttonsetzenchips:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	transition: 1s all;
+	border: 0.1vw solid rgba(221, 77, 119, 255);
+	background-color: rgba(21, 21, 21, 0.746);
+}
+.container1 {
+	position: absolute;
+	width: 10vw;
+	height: 5vh;
+	background-image: linear-gradient(
+		to right,
+		#d475e384,
+		#a7529a77,
+		#73365c71,
+		#3c1e2c7a,
+		#00000084
+	);
+	border-radius: 0.2vw;
+	bottom: 1.5vh;
+	right: 1vw;
+}
+.container-innen {
+	position: absolute;
+	width: 3vw;
+	height: 5vh;
+	background-image: linear-gradient(
+		to right,
+		#d475e384,
+		#a7529a77,
+		#73365c71,
+		#3c1e2c7a,
+		#00000084
+	);
+	border-radius: 0.2vw;
+	left: 0vw;
+}
+.container-innen {
+	position: absolute;
+	width: 3vw;
+	height: 5vh;
+	background-image: linear-gradient(
+		to right,
+		#d475e384,
+		#a7529a77,
+		#73365c71,
+		#3c1e2c7a,
+		#00000084
+	);
+	border-radius: 0.2vw;
+	left: 0vw;
+}
+.KeyHinweis {
+	position: absolute;
+	color: #ffffff9c;
+	font-family: "Open Sans", sans-serif;
+	left: 1.1vw;
+	font-size: 1.4vw;
+	text-align: center;
+	z-index: 10;
+	top: -1vh;
+	background-color: rgba(255, 0, 0, 0);
+}
+.KeyHinweis1 {
+	position: absolute;
+	color: #ffffff9c;
+	font-family: "Open Sans", sans-serif;
+	left: 0.2vw;
+	font-size: 1.4vw;
+	text-align: center;
+	z-index: 10;
+	top: -1vh;
+	background-color: rgba(255, 0, 0, 0);
+}
+.KeyHinweis2 {
+	position: absolute;
+	color: #ffffff9c;
+	font-family: "Open Sans", sans-serif;
+	left: 0.2vw;
+	font-size: 0.9vw;
+	text-align: center;
+	z-index: 10;
+	top: 0.2vh;
+	background-color: rgba(255, 0, 0, 0);
+}
+.left {
+	position: absolute;
+	left: 0vw;
+	top: 0vw;
+	height: 100%;
+	width: 42vw;
+	background: linear-gradient(
+		to right,
+		rgba(114, 0, 89),
+		rgba(0, 0, 255, 0) 90.71%
+	);
+}
+.right {
+	position: absolute;
+	right: 0vw;
+	top: 0vw;
+	height: 100%;
+	width: 42vw;
+	background: linear-gradient(
+		to left,
+		rgba(114, 0, 89),
+		rgba(0, 0, 255, 0) 90.71%
+	);
+}
+.strich {
+	position: absolute;
+	width: 0.1vw;
+	height: 100vh;
+	background-color: white;
+	left: 4.5vw;
+}
+.text {
+	position: absolute;
+	color: white;
+	font-size: 4vw;
+	left: -21.7vw;
+	top: 30vh;
+	width: 40vw;
+	text-align: right;
+	background-color: rgba(255, 0, 0, 0);
+	transform: rotate(270deg);
+	font-family: "Goldman", cursive;
+	letter-spacing: 0.4vw;
+}
+.infobox {
+	position: absolute;
+	width: 40vw;
+	height: 8vh;
+	background-color: rgba(211, 5, 215, 0.391);
+	top: 70vh;
+	left: -26vw;
+	border-radius: 0.1vw;
+}
+.text-infobox {
+	position: absolute;
+	color: white;
+	font-size: 1vw;
+	left: 0.5vw;
+	top: -0.4vh;
+	font-family: "Aldrich", sans-serif;
+}
+.submitbuttonseedsf {
+	position: absolute;
+	left: -26vw;
+	top: 79vh;
+	width: 20vw;
+	height: 6vh;
+	z-index: 29;
+	padding: 0;
+	font-size: 1vw;
+	background-color: rgba(31, 31, 31, 0.287);
+	outline: none;
+	cursor: pointer;
+	border-radius: 0.2vw;
+	border: none;
+	color: #ffffff;
+	font-family: "Aldrich", cursive;
+	letter-spacing: 0.1vw;
+	transform: translate(-1deg);
+	z-index: 29;
+}
+.submitbuttonseedsf:hover {
+	color: #ffffff;
+	transition: 0.5s all;
+	background-color: rgba(198, 10, 164, 0.808);
+}
+.submitjobs {
+	position: absolute;
+	left: -5.5vw;
+	top: 79vh;
+	width: 19.5vw;
+	height: 6vh;
+	z-index: 29;
+	padding: 0;
+	font-size: 1vw;
+	background-color: rgba(31, 31, 31, 0.287);
+	outline: none;
+	cursor: pointer;
+	border-radius: 0.2vw;
+	border: none;
+	color: #ffffff;
+	font-family: "Aldrich", cursive;
+	letter-spacing: 0.1vw;
+	transform: translate(-1deg);
+	z-index: 29;
+}
+.submitjobs:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	background-color: rgba(23, 23, 23, 0.808);
+}
+.barname {
+	position: absolute;
+	width: 30vw;
+	height: 0.1vh;
+	background-color: rgba(36, 36, 36, 0.436);
+	top: 69vh;
+	left: -26vw;
+}
+.name-anfang {
+	position: absolute;
+	color: white;
+	font-size: 1.5vw;
+	left: -25.7vw;
+	top: 63.5vh;
+
+	text-align: right;
+
+	background-color: rgba(255, 0, 0, 0);
+	font-family: "Goldman", cursive;
+	letter-spacing: 0.4vw;
+}
+.esctext {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	right: 3vw;
+	top: 2.5vh;
+	letter-spacing: 0.1vw;
+	font-size: 1.2vw;
+	transform: rotate(0deg);
+	font-family: "Lato", sans-serif;
+}
+.container-quests {
+	position: absolute;
+	width: 23vw;
+	right: 0vw;
+	height: 8vh;
+	background: linear-gradient(
+		to left,
+		rgba(114, 0, 89, 0.52),
+		rgba(0, 0, 255, 0) 90.71%
+	);
+	top: 16vh;
+}
+.TitelTextQuests {
+	position: absolute;
+	color: white;
+	font-size: 0.9vw;
+	right: 3.4vw;
+	top: -0.3vh;
+	z-index: 1;
+	letter-spacing: 0.08vw;
+	font-family: "Montserrat", sans-serif;
+}
+.DescTextQuests {
+	position: absolute;
+	color: white;
+	letter-spacing: 0.05vw;
+	font-size: 0.7vw;
+	text-align: right;
+	right: 0.7vw;
+	background-color: rgba(255, 0, 0, 0);
+	top: 2.9vh;
+	width: 15vw;
+	font-family: "Montserrat", sans-serif;
+}
+.neulingsquest {
+	position: absolute;
+	color: white;
+	font-size: 0.8vw;
+	left: 0.7vw;
+	top: 3vh;
+	z-index: 1;
+	font-family: "Montserrat", sans-serif;
+}
+.bottomtop {
+	position: absolute;
+	left: 0vw;
+	top: -2vh;
+	height: 9vh;
+	width: 100%;
+	border-bottom: 0.2vh solid rgb(217, 1, 177);
+	background: linear-gradient(
+		to top,
+		rgba(114, 0, 89, 0.744),
+		rgba(0, 0, 255, 0) 90.71%
+	);
+}
+.container-check {
+	position: absolute;
+	width: 1.3vw;
+	height: 2vh;
+	top: 12vh;
+	left: 0.7vw;
+	background-color: rgba(128, 128, 128, 0.395);
+}
+.zahlindex {
+	position: absolute;
+	color: white;
+	font-size: 0.9vw;
+	right: 1vw;
+	top: -0.3vh;
+	z-index: 1;
+	font-family: "Montserrat", sans-serif;
+}
+.bar-out2 {
+	position: absolute;
+	width: 12vw;
+	overflow: hidden;
+	height: 1vh;
+	background-color: rgba(38, 38, 95, 0.523);
+	top: 2vh;
+	left: 7.5vw;
+}
+.bar-in2 {
+	position: absolute;
+	width: 0vw;
+	overflow: hidden;
+	height: 1vh;
+	background-color: rgba(32, 103, 203, 0.523);
+}
+.info-text2 {
+	position: absolute;
+	color: #c0c0c0;
+	font-family: "Nunito Sans", sans-serif;
+	left: 0.7vw;
+	width: 15vw;
+	font-size: 0.8vw;
+	text-align: left;
+	z-index: 1;
+	top: 0.65vh;
+	background-color: rgba(255, 0, 0, 0);
+}
+.KastenLoadingSammeln {
+	position: absolute;
+	width: 20vw;
+	bottom: 3vh;
+	right: 1vw;
+	height: 5vh;
+	border-radius: 0.1vw;
+	background-color: rgba(40, 37, 37, 0.637);
+}
+
+.KastenLoadinVerarbeiten {
+	position: absolute;
+	width: 20vw;
+	bottom: 3vh;
+	right: 1vw;
+	height: 5vh;
+	border-radius: 0.1vw;
+	background-color: rgba(40, 37, 37, 0.637);
+}
+.bar-out3 {
+	position: absolute;
+	width: 12vw;
+	overflow: hidden;
+	height: 1vh;
+	background-color: rgba(38, 38, 95, 0.523);
+	top: 2vh;
+	left: 7.5vw;
+}
+.bar-in3 {
+	position: absolute;
+	width: 0vw;
+	overflow: hidden;
+	height: 1vh;
+	background-color: rgba(32, 103, 203, 0.523);
+}
+.info-text3 {
+	position: absolute;
+	color: #c0c0c0;
+	font-family: "Nunito Sans", sans-serif;
+	left: 0.7vw;
+	width: 15vw;
+	font-size: 0.8vw;
+	text-align: left;
+	z-index: 1;
+	top: 0.65vh;
+	background-color: rgba(255, 0, 0, 0);
+}

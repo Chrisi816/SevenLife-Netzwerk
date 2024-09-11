@@ -1,0 +1,185 @@
+@font-face {
+	font-family: "Lato";
+	src: url(text/Lato-Black.ttf);
+}
+@font-face {
+	font-family: "Goldman";
+	src: url(text/Goldman-Regular.ttf);
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+.left {
+	position: absolute;
+	width: 85vw;
+	height: 100%;
+	background: linear-gradient(
+		to right,
+		rgba(114, 0, 89),
+		rgba(0, 0, 255, 0) 95.71%
+	);
+}
+.right {
+	position: absolute;
+	width: 85vw;
+	height: 100%;
+	right: 0vw;
+	background: linear-gradient(
+		to left,
+		rgba(114, 0, 89),
+		rgba(0, 0, 255, 0) 95.71%
+	);
+}
+
+.esctext {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	right: 3vw;
+	top: 2.5vh;
+	letter-spacing: 0.1vw;
+	font-size: 1.1vw;
+	transform: rotate(0deg);
+	font-family: "Lato", sans-serif;
+}
+.streifen {
+	position: absolute;
+	width: 0.1vw;
+	height: 100%;
+	left: 6vw;
+	background-color: white;
+}
+.text-rental {
+	position: absolute;
+	color: rgba(137, 137, 137, 0.408);
+	left: -24.8vw;
+	top: 40vh;
+	letter-spacing: 0.1vw;
+	font-size: 4.5vw;
+	transform: rotate(270deg);
+	font-family: "Goldman", cursive;
+}
+
+.contaiener-middle {
+	position: absolute;
+	width: 88vw;
+	z-index: 1;
+	height: 88vh;
+	overflow-y: scroll;
+	background-color: rgba(255, 0, 0, 0);
+	left: 9vw;
+	top: 10vh;
+}
+.contaiener-middle::-webkit-scrollbar {
+	width: 0.6vw;
+}
+
+.contaiener-middle::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background-color: rgba(255, 255, 255, 0.294);
+}
+
+.contaiener-middle::-webkit-scrollbar-thumb {
+	background-color: #202020;
+	border-radius: 2vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.185) 0 3px 13px 1px;
+}
+.container-middle-fahrzeuglist {
+	position: relative;
+	width: 20vw;
+	height: 42.5vh;
+	display: inline-block;
+	margin-top: 1vh;
+	margin-left: 1.6vw;
+	left: -1vw;
+	top: -1vh;
+	background-color: rgba(46, 46, 46, 0.491);
+	border-radius: 1vw;
+}
+.img-container {
+	position: absolute;
+	width: 18vw;
+	border-radius: 1vw;
+	left: 1vw;
+	height: 14vh;
+	top: 2vh;
+}
+.carname {
+	position: absolute;
+	width: 15vw;
+	height: 4vh;
+	background-color: rgba(255, 0, 0, 0);
+	top: 15.5vh;
+	color: white;
+	left: 1.5vw;
+	letter-spacing: 0.1vw;
+	font-size: 2vw;
+	font-family: "Goldman", cursive;
+}
+.button-down {
+	position: absolute;
+	height: 5.5vh;
+	width: 18vw;
+	font-family: "Goldman", cursive;
+	font-size: 1.6vw;
+	left: 1vw;
+	bottom: 2vh;
+	border: none;
+	outline: none;
+	z-index: 1;
+	color: white;
+	cursor: pointer;
+	background-color: rgb(164, 0, 167);
+	border-radius: 0.2vw;
+}
+
+.button-down:hover {
+	transition: 1s all;
+	background-color: rgb(110, 0, 112);
+}
+.carpreis {
+	position: absolute;
+	width: 17vw;
+	height: 4vh;
+	background-color: rgba(255, 0, 0, 0);
+	top: 22vh;
+	color: white;
+	left: 1.5vw;
+	letter-spacing: 0.1vw;
+	font-size: 1.2vw;
+	font-family: "Goldman", cursive;
+}
+.inputt {
+	position: absolute;
+	border: none;
+	-webkit-appearance: none;
+	padding: 0.1vw 1vw;
+
+	right: 6.8vw;
+	border-radius: 0.1vw;
+	top: 28.4vh;
+	width: 10vw;
+	color: rgb(225, 225, 225);
+	font-family: "Poppins", sans-serif;
+	height: 4.5vh;
+	text-align: left;
+	z-index: 29;
+	font-size: 1vw;
+	background-color: rgba(34, 31, 31, 0.483);
+	outline: none;
+	border: 0.1vh solid rgb(82, 82, 82);
+	text-align: center;
+}
+.inputt:hover {
+	background-color: rgba(40, 40, 40, 0.454);
+	transition: color 0.6 ease;
+}
+.inputt:focus::placeholder {
+	color: transparent;
+}
+.inputt::placeholder {
+	color: rgb(218, 218, 218);
+	transition: color 0.3s ease;
+}

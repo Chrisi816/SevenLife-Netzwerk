@@ -1,0 +1,963 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+body {
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+.left {
+	position: absolute;
+	background-color: #16161a;
+	width: 25vw;
+	border-right: 0.2vw solid #e53170;
+	height: 100%;
+}
+.langstrich {
+	position: absolute;
+	background-color: #7f5af0;
+	background-color: #e53170;
+	width: 0.2vw;
+	left: 2vw;
+	top: 10vh;
+	height: 85vh;
+}
+.strichoben {
+	position: absolute;
+	background-color: #7f5af0;
+	background-color: #e53170;
+	width: 18.2vw;
+	left: 2.1vw;
+	top: 10vh;
+	height: 0.5vh;
+}
+.strichunten {
+	position: absolute;
+	background-color: #7f5af0;
+	background-color: #e53170;
+	width: 11.2vw;
+	left: 2.1vw;
+	bottom: 5vh;
+	height: 0.5vh;
+}
+.headline {
+	position: absolute;
+	color: #fffffe;
+	font-family: "Nunito Sans", sans-serif;
+	left: 2vw;
+	font-size: 2vw;
+	top: 0.5vh;
+}
+
+.maskenapteil {
+	position: absolute;
+	background-color: #222225;
+	width: 20vw;
+	height: 28.5vh;
+	border-radius: 0.3vw;
+	left: 6vh;
+	top: 18vh;
+}
+.maske1 {
+	position: absolute;
+	color: #94a1b2;
+	font-family: "Nunito Sans", sans-serif;
+	left: 3.4vw;
+	font-size: 1.5vw;
+	top: 11vh;
+}
+.maske2 {
+	position: absolute;
+	color: #94a1b2;
+	font-family: "Nunito Sans", sans-serif;
+	left: 3.4vw;
+	font-size: 1.5vw;
+	top: 47vh;
+}
+
+.maskenapteilvariation {
+	position: absolute;
+	background-color: #222225;
+	width: 20vw;
+	height: 28.5vh;
+	border-radius: 0.3vw;
+	left: 6vh;
+	top: 54.5vh;
+}
+
+.button-lager {
+	position: absolute;
+	width: 20vw;
+	height: 7.5vh;
+	font-family: "Nunito Sans", sans-serif;
+	font-size: 2vw;
+	left: 3.4vw;
+	top: 85vh;
+	border: none;
+	outline: none;
+	z-index: 1;
+	color: white;
+	cursor: pointer;
+
+	background-color: rgb(185, 32, 86);
+	border-radius: 0.4vw;
+}
+.button-lager:hover {
+	transition: all 1s;
+	background-color: #5e1931;
+}
+
+.infonummerlist {
+	position: absolute;
+	width: 18vw;
+	height: 7vh;
+	border-radius: 0.2vw;
+	left: 1vw;
+	top: 6vh;
+	background-color: #37373c;
+}
+.infornummernummer {
+	position: absolute;
+	color: #94a1b2;
+	font-family: "Nunito Sans", sans-serif;
+	left: 0.4vw;
+	width: 16.4vw;
+	font-size: 2.5vw;
+	background-color: rgba(255, 0, 0, 0);
+	height: 6vh;
+	text-align: center;
+	top: -2.6vh;
+}
+.maske3 {
+	position: absolute;
+	color: #94a1b2;
+	font-family: "Nunito Sans", sans-serif;
+	left: 1.4vw;
+	font-size: 1.4vw;
+	top: -0.2vh;
+}
+.maske4 {
+	position: absolute;
+	color: #94a1b2;
+	font-family: "Nunito Sans", sans-serif;
+	left: 4.8vw;
+	font-size: 1.4vw;
+	top: 22.2vh;
+}
+.button-lagerleft1 {
+	position: absolute;
+	width: 8vw;
+	height: 7.5vh;
+	font-family: "Nunito Sans", sans-serif;
+	font-size: 2vw;
+	left: 1.4vw;
+	top: 15vh;
+	border: none;
+	outline: none;
+	z-index: 1;
+	color: white;
+	cursor: pointer;
+	background-color: rgb(185, 32, 86);
+	border-top-left-radius: 1vw;
+	border-bottom-left-radius: 1vw;
+}
+.button-lagerleft1:hover {
+	transition: all 1s;
+	background-color: #5e1931;
+}
+.button-lagerright1 {
+	position: absolute;
+	width: 8.4vw;
+	height: 7.5vh;
+	font-family: "Nunito Sans", sans-serif;
+	font-size: 2vw;
+	left: 10.3vw;
+	top: 15vh;
+	border: none;
+	outline: none;
+	z-index: 1;
+	color: white;
+	cursor: pointer;
+	background-color: rgb(185, 32, 86);
+	border-top-right-radius: 1vw;
+	border-bottom-right-radius: 1vw;
+}
+.button-lagerright1:hover {
+	transition: all 1s;
+	background-color: #5e1931;
+}
+.button-lagerleft2 {
+	position: absolute;
+	width: 8vw;
+	height: 7.5vh;
+	font-family: "Nunito Sans", sans-serif;
+	font-size: 2vw;
+	left: 1.4vw;
+	top: 15vh;
+	border: none;
+	outline: none;
+	z-index: 1;
+	color: white;
+	cursor: pointer;
+	background-color: rgb(185, 32, 86);
+	border-top-left-radius: 1vw;
+	border-bottom-left-radius: 1vw;
+}
+.button-lagerleft2:hover {
+	transition: all 1s;
+	background-color: #5e1931;
+}
+.button-lagerright2 {
+	position: absolute;
+	width: 8.4vw;
+	height: 7.5vh;
+	font-family: "Nunito Sans", sans-serif;
+	font-size: 2vw;
+	left: 10.3vw;
+	top: 15vh;
+	border: none;
+	outline: none;
+	z-index: 1;
+	color: white;
+	cursor: pointer;
+	background-color: rgb(185, 32, 86);
+	border-top-right-radius: 1vw;
+	border-bottom-right-radius: 1vw;
+}
+.button-lagerright2:hover {
+	transition: all 1s;
+	background-color: #5e1931;
+}
+.background {
+	position: absolute;
+	z-index: -1;
+}
+.lefts {
+	position: absolute;
+	width: 25vw;
+	height: 100%;
+	background: linear-gradient(
+		to right,
+		rgba(114, 0, 89),
+		rgba(0, 0, 255, 0) 95.71%
+	);
+}
+.rights {
+	position: absolute;
+	width: 25vw;
+	height: 100%;
+	right: 0vw;
+	background: linear-gradient(
+		to left,
+		rgba(114, 0, 89),
+		rgba(0, 0, 255, 0) 95.71%
+	);
+}
+.textkleidungsladen {
+	position: absolute;
+	color: #ffffff;
+	font-family: "Open Sans", sans-serif;
+	left: 4.5vw;
+	font-size: 2.1vw;
+	width: 15vw;
+	text-align: center;
+	top: 4.3vh;
+	background-color: rgba(255, 0, 0, 0);
+}
+.strichdrunter {
+	position: absolute;
+	width: 14vw;
+	height: 0.6vh;
+	background-color: rgba(221, 77, 119, 255);
+	left: 5vw;
+	top: 13vh;
+	border-radius: 1vw;
+}
+.container-kategorie {
+	position: absolute;
+	width: 18vw;
+	height: 70vh;
+	background-color: rgba(255, 0, 0, 0);
+	left: 3.2vw;
+	top: 14.5vh;
+}
+.box-auswahl {
+	position: relative;
+	width: 7vw;
+	height: 12vh;
+	border-radius: 0.3vw;
+	border: 0.1vw solid rgba(221, 77, 119, 1);
+	background-color: rgba(51, 50, 46, 0.345);
+	display: inline-block;
+	margin-left: 1vw;
+	cursor: pointer;
+	margin-top: 1vh;
+}
+.box-auswahl:hover {
+	transition: 1s all;
+	background-color: rgba(221, 77, 118, 0.45);
+}
+.images {
+	position: absolute;
+	width: 3.5vw;
+	left: 1.65vw;
+	top: 2.6vh;
+}
+
+.container-klamotten {
+	position: relative;
+	width: 16.4vw;
+	height: 5vh;
+	top: -0.1vh;
+
+	margin-top: 0.1vh;
+	display: inline-block;
+	border: 0.1vh solid rgba(221, 77, 119, 1);
+	background: linear-gradient(
+		to right,
+		rgb(56, 0, 44),
+		rgba(56, 0, 44, 0.587) 100%
+	);
+}
+
+.streifen {
+	position: absolute;
+	width: 0.1vw;
+	height: 90%;
+	left: 3vw;
+	top: 5vh;
+	background-color: white;
+}
+.streifenoben {
+	position: absolute;
+	width: 18vw;
+	height: 0.2vh;
+	background-color: white;
+	left: 3vw;
+	top: 5vh;
+}
+.streifenunten {
+	position: absolute;
+	width: 18vw;
+	height: 0.2vh;
+	background-color: white;
+	left: 3vw;
+	top: 95vh;
+}
+.buttonoutfits {
+	position: relative;
+	left: 4vw;
+	top: 56.5vh;
+	width: 15.8vw;
+	height: 5.4vh;
+	z-index: 29;
+	font-size: 1.2vw;
+	background-color: rgba(34, 31, 31, 0.476);
+	outline: none;
+	cursor: pointer;
+	border-radius: 0.2vw;
+	color: #ffffff;
+	border: none;
+	border: 0.1vw solid white;
+	outline: none;
+	z-index: 29;
+}
+.buttonoutfits:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	transition: 1s all;
+	border: 0.1vw solid rgba(221, 77, 119, 255);
+	background-color: rgba(21, 21, 21, 0.746);
+}
+.container-zahlen {
+	position: absolute;
+	width: 15.7vw;
+	height: 24.5vh;
+	background-color: rgba(33, 33, 33, 0.61);
+	border: 0.1vh solid rgba(221, 77, 119, 1);
+	left: 4vw;
+	top: 63vh;
+}
+.buttonkaufen {
+	position: relative;
+	left: -12vw;
+	top: 88.5vh;
+	width: 7.8vw;
+	height: 5.4vh;
+	z-index: 29;
+	font-size: 1.2vw;
+	background-color: rgba(54, 0, 63, 0.476);
+	outline: none;
+	cursor: pointer;
+	border-radius: 0.2vw;
+	color: #ffffff;
+	border: none;
+	border: 0.1vw solid white;
+	outline: none;
+	z-index: 29;
+}
+.buttonkaufen:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	transition: 1s all;
+	border: 0.1vw solid rgba(221, 77, 119, 255);
+	background-color: rgba(21, 21, 21, 0.746);
+}
+.buttonspeichern {
+	position: relative;
+	left: -12vw;
+	top: 88.5vh;
+	width: 7.8vw;
+	height: 5.4vh;
+	z-index: 29;
+	font-size: 1.2vw;
+	background-color: rgba(34, 31, 31, 0.476);
+	outline: none;
+	cursor: pointer;
+	border-radius: 0.2vw;
+	color: #ffffff;
+	border: none;
+	border: 0.1vw solid white;
+	outline: none;
+	z-index: 29;
+}
+.buttonspeichern:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	transition: 1s all;
+	border: 0.1vw solid rgba(221, 77, 119, 255);
+	background-color: rgba(21, 21, 21, 0.746);
+}
+.ganzerpreitstext {
+	position: absolute;
+	color: #ffffff;
+	font-family: "Nunito Sans", sans-serif;
+	left: 1vw;
+
+	font-size: 1.3vw;
+	text-align: left;
+	top: -0.2vh;
+	letter-spacing: 0.1vw;
+	background-color: rgba(255, 0, 0, 0);
+}
+.preistotal {
+	position: absolute;
+	color: #00c400;
+	font-family: "Open Sans", sans-serif;
+	left: 1vw;
+	font-size: 1.7vw;
+	text-align: right;
+	top: 2.2vh;
+	letter-spacing: 0.05vw;
+	background-color: rgba(255, 0, 0, 0);
+}
+.listofitems {
+	position: absolute;
+	width: 14.5vw;
+	height: 15vh;
+	top: 9vh;
+	left: 0.6vw;
+	overflow-y: scroll;
+	background-color: rgba(255, 0, 0, 0);
+}
+.listofitems::-webkit-scrollbar {
+	width: 0.3vw;
+}
+
+.listofitems::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background-color: rgba(255, 255, 255, 0.094);
+}
+
+.listofitems::-webkit-scrollbar-thumb {
+	background-color: #a6a6a6;
+	border-radius: 1vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.185) 0 3px 13px 1px;
+}
+.container-item {
+	position: relative;
+	margin-top: 1vh;
+	background-color: rgba(255, 0, 0, 0);
+	border: 0.1vh solid rgba(221, 77, 119, 1);
+	width: 14vw;
+	height: 5vh;
+}
+.kleidungid {
+	position: absolute;
+	color: #ffffff;
+	font-family: "Nunito Sans", sans-serif;
+	left: 0.6vw;
+
+	font-size: 1.1vw;
+	text-align: left;
+	top: -0.2vh;
+	letter-spacing: 0.1vw;
+	background-color: rgba(255, 0, 0, 0);
+}
+.zahlen {
+	position: absolute;
+	color: #00c400;
+	font-family: "Nunito Sans", sans-serif;
+	right: 0.6vw;
+
+	font-size: 1.1vw;
+	text-align: right;
+	top: -0.2vh;
+	letter-spacing: 0.1vw;
+	background-color: rgba(255, 0, 0, 0);
+}
+.streifen1 {
+	position: absolute;
+	width: 0.1vw;
+	height: 90%;
+	right: 3vw;
+	top: 5vh;
+	background-color: white;
+}
+.streifenoben1 {
+	position: absolute;
+	width: 18vw;
+	height: 0.2vh;
+	background-color: white;
+	right: 3vw;
+	top: 5vh;
+}
+.streifenunten1 {
+	position: absolute;
+	width: 18vw;
+	height: 0.2vh;
+	background-color: white;
+	right: 3vw;
+	top: 95vh;
+}
+.textkleidungsladen1 {
+	position: absolute;
+	color: #ffffff;
+	font-family: "Open Sans", sans-serif;
+	right: 4.5vw;
+	font-size: 2.1vw;
+	width: 15vw;
+	text-align: center;
+	top: 4vh;
+	background-color: rgba(255, 0, 0, 0);
+}
+.strichdrunter1 {
+	position: absolute;
+	width: 14vw;
+	height: 0.6vh;
+	background-color: rgba(221, 77, 119, 255);
+	right: 5vw;
+	top: 13vh;
+	border-radius: 1vw;
+}
+.auswahlfirst {
+	position: absolute;
+	background-color: rgba(33, 33, 33, 0.61);
+	border: 0.1vh solid rgba(221, 77, 119, 1);
+	width: 17vw;
+	height: 33.5vh;
+	right: 3.8vw;
+	top: 16.3vh;
+	z-index: 11;
+}
+.auswahlscond {
+	position: absolute;
+	background-color: rgba(33, 33, 33, 0.61);
+	border: 0.1vh solid rgba(221, 77, 119, 1);
+	width: 17vw;
+	height: 33vh;
+	right: 3.8vw;
+	top: 52.5vh;
+	z-index: 11;
+}
+.buttonanwenden {
+	position: relative;
+	left: 79vw;
+	top: 82.5vh;
+	width: 17.2vw;
+	height: 5.4vh;
+	z-index: 29;
+	font-size: 1.2vw;
+	background-color: rgba(34, 31, 31, 0.476);
+	outline: none;
+	cursor: pointer;
+	border-radius: 0.2vw;
+	color: #ffffff;
+	border: none;
+	border: 0.1vw solid white;
+	outline: none;
+	z-index: 29;
+}
+.buttonanwenden:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	transition: 1s all;
+	border: 0.1vw solid rgba(221, 77, 119, 255);
+	background-color: rgba(21, 21, 21, 0.746);
+}
+.textinfo {
+	position: absolute;
+	color: #ffffff;
+	font-family: "Open Sans", sans-serif;
+	left: 0.5vw;
+	font-size: 1.1vw;
+	width: 16vw;
+	text-align: center;
+	top: 0.5vh;
+	background-color: rgba(255, 0, 0, 0);
+}
+.strichdrunter2 {
+	position: absolute;
+	width: 14vw;
+	height: 0.6vh;
+	background-color: rgba(221, 77, 119, 255);
+	left: 1.6vw;
+	top: 5.5vh;
+	border-radius: 1vw;
+}
+.artikelnummer {
+	position: absolute;
+	color: #ffffff;
+	font-family: "Nunito Sans", sans-serif;
+	left: 3.3vw;
+	font-size: 1.4vw;
+	top: 5.5vh;
+}
+.artikelnummer5 {
+	position: absolute;
+	color: #94a1b2;
+	font-family: "Nunito Sans", sans-serif;
+	left: 4.2vw;
+	font-size: 1.4vw;
+	top: 27vh;
+}
+.infonummerlist1 {
+	position: absolute;
+	width: 15vw;
+	height: 7vh;
+	border-radius: 0.2vw;
+	left: 1vw;
+	top: 12vh;
+	border: 0.1vh solid rgba(221, 77, 119, 1);
+	background-color: #37373c00;
+}
+.infornummernummer1 {
+	position: absolute;
+	color: #94a1b2;
+	font-family: "Nunito Sans", sans-serif;
+	left: 0.4vw;
+	width: 14.2vw;
+	font-size: 2.3vw;
+	background-color: rgba(255, 0, 0, 0);
+	height: 6vh;
+	text-align: center;
+	top: -2vh;
+}
+.button-lagerleft3 {
+	position: absolute;
+	width: 7vw;
+	height: 7.5vh;
+	font-family: "Nunito Sans", sans-serif;
+	font-size: 2vw;
+	left: 1.1vw;
+	top: 20.5vh;
+	border: none;
+	outline: none;
+	z-index: 1;
+	color: white;
+	cursor: pointer;
+	background-color: rgba(0, 0, 139, 0);
+	border: 0.1vh solid rgba(221, 77, 119, 1);
+	border-top-left-radius: 1vw;
+	border-bottom-left-radius: 1vw;
+}
+.button-lagerleft3:hover {
+	transition: all 1s;
+	background-color: #5e1931;
+}
+.button-lagerright3 {
+	position: absolute;
+	width: 7vw;
+	height: 7.5vh;
+	font-family: "Nunito Sans", sans-serif;
+	font-size: 2vw;
+	left: 9.1vw;
+	top: 20.5vh;
+	border: none;
+	outline: none;
+	z-index: 1;
+	color: white;
+	background-color: rgba(0, 0, 139, 0);
+	cursor: pointer;
+	border: 0.1vh solid rgba(221, 77, 119, 1);
+	border-top-right-radius: 1vw;
+	border-bottom-right-radius: 1vw;
+}
+.button-lagerright3:hover {
+	transition: all 1s;
+	background-color: #5e1931;
+}
+.strichlinksoben {
+	position: absolute;
+	width: 10vw;
+	height: 44vh;
+	border-left: 0.1vh solid white;
+	border-top: 0.1vh solid white;
+	left: 36vw;
+	z-index: 2;
+	top: 15vh;
+}
+.strichrechtsunten {
+	position: absolute;
+	width: 10vw;
+	height: 44vh;
+	border-right: 0.1vh solid white;
+	border-bottom: 0.1vh solid white;
+	left: 54vw;
+	z-index: 2;
+	top: 15vh;
+}
+.boxinnen {
+	position: absolute;
+	width: 32vw;
+	height: 49vh;
+	background-color: rgba(33, 33, 33, 0.61);
+	left: 34vw;
+	z-index: 1;
+	top: 12vh;
+}
+.saveoutifit {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	z-index: 30;
+}
+.buttonabbrechen {
+	position: absolute;
+	left: 37.5vw;
+	top: 49.5vh;
+	width: 12vw;
+	height: 7.4vh;
+	z-index: 29;
+	font-size: 1.2vw;
+	background-color: rgba(233, 7, 56, 0.696);
+	outline: none;
+	cursor: pointer;
+	border-radius: 0.2vw;
+	color: #ffffff;
+	border: none;
+	border: 0.1vw solid white;
+	outline: none;
+	z-index: 29;
+}
+.buttonabbrechen:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	transition: 1s all;
+	border: 0.1vw solid rgba(221, 77, 119, 255);
+	background-color: rgba(21, 21, 21, 0.746);
+}
+.buttonspeichern2 {
+	position: absolute;
+	left: 50.9vw;
+	top: 49.5vh;
+	width: 12vw;
+	height: 7.4vh;
+	z-index: 29;
+	font-size: 1.2vw;
+	background-color: rgba(150, 0, 176, 0.874);
+	outline: none;
+	cursor: pointer;
+	border-radius: 0.2vw;
+	color: #ffffff;
+	border: none;
+	border: 0.1vw solid white;
+	outline: none;
+	z-index: 29;
+}
+.buttonspeichern2:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	transition: 1s all;
+	border: 0.1vw solid rgba(221, 77, 119, 255);
+	background-color: rgba(21, 21, 21, 0.746);
+}
+.outfitspeicherntext {
+	position: absolute;
+	color: #ffffff;
+	font-family: "Open Sans", sans-serif;
+	left: 41vw;
+	font-size: 2.1vw;
+	text-align: center;
+	z-index: 10;
+	top: 14.5vh;
+	background-color: rgba(255, 0, 0, 0);
+}
+.strichdrunterspeichern {
+	position: absolute;
+	width: 21vw;
+	height: 0.6vh;
+	background-color: rgba(221, 77, 119, 255);
+	left: 39vw;
+	top: 23.5vh;
+	z-index: 10;
+	border-radius: 1vw;
+}
+.outfitspeicherntextifno {
+	position: absolute;
+	color: #ffffff;
+	font-family: "Open Sans", sans-serif;
+	left: 39.5vw;
+	font-size: 1.2vw;
+	text-align: center;
+	z-index: 10;
+	width: 20vw;
+	top: 24vh;
+	background-color: rgba(255, 0, 0, 0);
+}
+.inputt {
+	position: absolute;
+	border: none;
+	-webkit-appearance: none;
+	padding: 0.05vw 0vw;
+
+	left: 37.5vw;
+	border-radius: 0.6vw;
+	top: 38.5vh;
+	width: 25.3vw;
+	color: rgb(253, 253, 253);
+	font-family: "Nunito Sans", sans-serif;
+	height: 5vh;
+	z-index: 10;
+	text-align: center;
+
+	z-index: 29;
+	font-size: 1vw;
+	background-color: rgba(34, 31, 31, 0.483);
+	outline: none;
+	border: 0.1vh solid rgb(82, 82, 82);
+}
+.inputt:hover {
+	background-color: rgba(40, 40, 40, 0.454);
+	transition: color 0.6 ease;
+}
+.inputt:focus::placeholder {
+	color: transparent;
+}
+.inputt::placeholder {
+	color: rgb(215, 215, 215);
+	text-align: center;
+	transition: color 0.3s ease;
+}
+.textkleidungsladen2 {
+	position: absolute;
+	color: #ffffff;
+	font-family: "Open Sans", sans-serif;
+	left: 3.7vw;
+	font-size: 2.1vw;
+	width: 17vw;
+	text-align: center;
+	top: 4.3vh;
+	background-color: rgba(255, 0, 0, 0);
+}
+.container-outfit {
+	position: absolute;
+	width: 17vw;
+	height: 70vh;
+	background-color: rgba(255, 0, 0, 0);
+	overflow-y: scroll;
+	left: 4vw;
+	top: 16vh;
+}
+.container-outfit::-webkit-scrollbar {
+	width: 0.3vw;
+}
+
+.container-outfit::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background-color: rgba(255, 255, 255, 0.094);
+}
+
+.container-outfit::-webkit-scrollbar-thumb {
+	background-color: #a6a6a6;
+	border-radius: 1vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.185) 0 3px 13px 1px;
+}
+.buttonzurück {
+	position: relative;
+	left: 4vw;
+	top: 88.5vh;
+	width: 17vw;
+	height: 5.4vh;
+	z-index: 29;
+	font-size: 1.2vw;
+	background-color: rgba(54, 0, 63, 0.476);
+	outline: none;
+	cursor: pointer;
+	border-radius: 0.2vw;
+	color: #ffffff;
+	border: none;
+	border: 0.1vw solid white;
+	outline: none;
+	z-index: 29;
+}
+.buttonzurück:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	transition: 1s all;
+	border: 0.1vw solid rgba(221, 77, 119, 255);
+	background-color: rgba(21, 21, 21, 0.746);
+}
+.container-innerercontainer {
+	position: relative;
+	width: 16vw;
+	cursor: pointer;
+	height: 6vh;
+	margin-top: 0.7vh;
+	border: 0.1vh solid rgba(221, 77, 119, 1);
+	background-color: rgba(32, 32, 32, 0.674);
+}
+.outfittext {
+	position: absolute;
+	color: #ffffff;
+	font-family: "Nunito Sans", sans-serif;
+	left: 0.4vw;
+	width: 11.2vw;
+	font-size: 1.3vw;
+	background-color: rgba(255, 0, 0, 0);
+	text-align: left;
+	overflow: hidden;
+	top: -0.1vh;
+}
+.buttondelete {
+	position: relative;
+	left: 12.5vw;
+	top: 0.8vh;
+	width: 3vw;
+	height: 4.5vh;
+	z-index: 29;
+	font-size: 1.2vw;
+	background-color: rgba(255, 0, 47, 0.514);
+	outline: none;
+	cursor: pointer;
+	border-radius: 0.2vw;
+	color: #ffffff;
+	border: none;
+	outline: none;
+	z-index: 29;
+}
+.buttondelete:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	transition: 1s all;
+	border: 0.1vw solid rgba(221, 77, 119, 255);
+	background-color: rgba(21, 21, 21, 0.746);
+}
+.bildimgage {
+	position: absolute;
+	width: 2vw;
+	top: 0.45vh;
+	left: 0.5vw;
+}

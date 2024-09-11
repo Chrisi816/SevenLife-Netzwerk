@@ -1,0 +1,1160 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="index.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="background.css" />
+		<link rel="stylesheet" href="login.css" />
+	</head>
+	<body>
+		<div class="container-all">
+			<div class="container-firstframe">
+				<span class="slogan"> Wilkommen auf </span>
+				<h1 class="mitteltext">SevenLife</h1>
+				<span class="roleplay"> - R O L E P L A Y - </span>
+				<div class="left">
+					<div class="bild-container">
+						<img class="bild" src="src/play.png" alt="" />
+					</div>
+					<h1 class="text">- A N M E L D E N -</h1>
+				</div>
+				<div class="right">
+					<div class="bild-containers">
+						<img class="bild" src="src/plus.png" alt="" />
+					</div>
+					<h1 class="texts">- REGISTRIEREN -</h1>
+				</div>
+			</div>
+			<div class="registerier-container">
+				<div class="container">
+					<div class="container-image">
+						<h1 class="headlinetext1">SEVEN</h1>
+						<h1 class="headlinetext2">LIFE</h1>
+						<h1 class="textlogin">REGISTRIEREN</h1>
+						<img src="src/big.png" class="imgbiglabel" alt="" />
+						<img
+							src="src/GTA-5-city-at-night-purple-style-skyscrapers_1024x768.jpg"
+							class="imagecontainer"
+							alt=""
+						/>
+
+						<div class="fadeinimage"></div>
+						<img
+							src="src/29871688-gta-frau-2q0xfQGD4be9-removebg-preview.png"
+							class="frauimage"
+							alt=""
+						/>
+					</div>
+					<div class="labelinfos">
+						<h1 class="headlineinfo">INFORMATION</h1>
+						<img
+							src="src/outline_keyboard_backspace_white_24dp.png"
+							class="backtolight"
+							alt=""
+						/>
+						<h1 class="textinfo">
+							Gebe in alle Felder Daten an um ein Account zu
+							erstellen
+						</h1>
+						<h1 class="detaillabel">Benutername</h1>
+						<input
+							type="password"
+							name="loginUser"
+							id="loginUser"
+							placeholder="Gebe deinen Benutzernamen ein"
+							class="loginUser"
+							required
+						/>
+						<h1 class="detaillabel2">Passwort</h1>
+						<img
+							src="src/baseline_contact_mail_white_48dp.png"
+							class="benutzernamefoto"
+							alt=""
+						/><img
+							src="src/baseline_vpn_key_white_48dp.png"
+							class="keyfoto"
+							alt=""
+						/>
+						<input
+							type="password"
+							name="loginPassword"
+							id="loginPassword"
+							placeholder="Gebe dein Passwort ein"
+							class="loginPassword"
+							required
+						/>
+						<button id="submit-btn" class="submit-btn">
+							- Account Erstellen -
+						</button>
+					</div>
+				</div>
+			</div>
+			<div class="container-charcreator">
+				<div class="container-char">
+					<div class="container-left-char">
+						<div class="reisepass">
+							<h1 class="container-text">SevenLife Reisepass</h1>
+							<input
+								class="inputtses"
+								id="inputtes"
+								placeholder="Vorname"
+							/>
+							<input
+								class="inputtses"
+								id="inputtees"
+								placeholder="Nachname"
+							/>
+							<input
+								class="inputtses"
+								id="inputteees"
+								placeholder="Geburtsort"
+							/>
+							<h1 class="geburstag">Geburtstag:</h1>
+							<input
+								class="inputtses"
+								type="date"
+								id="birthday"
+								name="birthday"
+							/>
+							<button
+								type="button"
+								id="submitbuttonsesse"
+								class="submitbuttonse"
+							>
+								Weiter
+							</button>
+						</div>
+						<div class="charcreator">
+							<h1 class="headline">SevenLife RolePlay</h1>
+							<div class="rechts-container">
+								<div class="auswähl-container" id="geschelcht">
+									<img
+										src="src/baseline_person_white_24dp.png"
+										class="picture"
+										alt=""
+									/>
+								</div>
+								<div class="auswähl-container" id="face">
+									<img
+										src="src/baseline_face_white_24dp.png"
+										class="picture"
+										alt=""
+									/>
+								</div>
+								<div class="auswähl-container" id="haut">
+									<img
+										src="src/baseline_face_white_24dp.png"
+										class="picture"
+										alt=""
+									/>
+								</div>
+								<div
+									class="auswähl-container"
+									id="augenundhaare"
+								>
+									<img
+										src="src/baseline_face_white_24dp.png"
+										class="picture"
+										alt=""
+									/>
+								</div>
+								<div class="auswähl-container" id="kleidung">
+									<img
+										src="src/baseline_checkroom_white_24dp.png"
+										class="picture"
+										alt=""
+									/>
+								</div>
+								<div class="auswähl-container" id="juwell">
+									<img
+										src="src/outline_diamond_white_24dp.png"
+										class="picture"
+										alt=""
+									/>
+								</div>
+
+								<div
+									class="auswähl-container"
+									id="fertigundextras"
+								>
+									<img
+										src="src/plus.png"
+										class="picture"
+										alt=""
+									/>
+								</div>
+							</div>
+							<div class="left-container">
+								<div class="geschlecht">
+									<h1 class="Headlines">Geschlecht & Gene</h1>
+									<div class="buttons-container">
+										<div class="buttonses" id="männlich">
+											<h1 class="names">Männlich</h1>
+										</div>
+										<div class="buttonse" id="weiblich">
+											<h1 class="names">Weiblich</h1>
+										</div>
+									</div>
+									<h1 class="mutter-text">Mutter:</h1>
+									<div class="strichdrunters"></div>
+									<div class="range-slider">
+										<input
+											type="range"
+											min="0"
+											max="20"
+											value="0"
+											class="slider"
+										/>
+										<div class="slider-thumb"></div>
+										<div class="progress"></div>
+									</div>
+									<h1 class="Vater-text">Vater:</h1>
+									<div class="strichdrunters1"></div>
+									<div class="range-sliders">
+										<input
+											type="range"
+											min="0"
+											max="20"
+											value="0"
+											class="sliders"
+										/>
+										<div class="slider-thumbs"></div>
+										<div class="progresss"></div>
+									</div>
+									<h1 class="Mother-HautFarbe-text">
+										Mutter-Hautfarbe:
+									</h1>
+									<div class="strichdrunters2"></div>
+									<div class="range-sliderse">
+										<input
+											type="range"
+											min="0"
+											max="20"
+											value="0"
+											class="sliderse"
+										/>
+										<div class="slider-thumbse"></div>
+										<div class="progressss"></div>
+									</div>
+									<h1 class="Vater-HautFarbe-text">
+										Vater-Hautfarbe:
+									</h1>
+									<div class="strichdrunters3"></div>
+									<div class="range-sliderses">
+										<input
+											type="range"
+											min="0"
+											max="20"
+											value="0"
+											class="sliderses"
+										/>
+										<div class="slider-thumbses"></div>
+										<div class="progresssss"></div>
+									</div>
+								</div>
+								<div class="head">
+									<h1 class="Headlines">Kopf Aussehen</h1>
+									<h1 class="Nase-Breite-text">
+										Nase-Breite
+									</h1>
+									<div class="strichdrunters4"></div>
+									<div class="range-slidersese">
+										<input
+											type="range"
+											min="0"
+											max="20"
+											value="0"
+											class="slidersess"
+										/>
+										<div class="slider-thumbsesses"></div>
+										<div class="progressssss"></div>
+									</div>
+									<h1 class="Nase-Spitzenhöhe-text">
+										Spitzenhöhe
+									</h1>
+									<div class="strichdrunters5"></div>
+									<div class="range-sliderseses">
+										<input
+											type="range"
+											min="0"
+											max="20"
+											value="0"
+											class="slidersesss"
+										/>
+										<div class="slider-thumbsessess"></div>
+										<div class="progresssssss"></div>
+									</div>
+									<h1 class="Nase-Breite-länge-text">
+										Spitzenhöhe-Länge
+									</h1>
+									<div class="strichdrunters6"></div>
+									<div class="range-slidersesess">
+										<input
+											type="range"
+											min="0"
+											max="20"
+											value="0"
+											class="slidersessses"
+										/>
+										<div class="slider-thumbsessesse"></div>
+										<div class="progresssssssss"></div>
+									</div>
+									<h1 class="Nase-Spitzenhöhe-Knochen-text">
+										Spitzenhöhe-Knochen-höhe
+									</h1>
+									<div class="strichdrunters7"></div>
+									<div class="range-slidersesessse">
+										<input
+											type="range"
+											min="0"
+											max="20"
+											value="0"
+											class="slidersesssesse"
+										/>
+										<div
+											class="slider-thumbsessesses"
+										></div>
+										<div class="progressssssssss"></div>
+									</div>
+									<h1
+										class="Nase-Spitzenhöhe-Knochen-absenken-text"
+									>
+										Absenken der Nasenspitze
+									</h1>
+									<div class="strichdrunters8"></div>
+									<div class="range-slidersesessses">
+										<input
+											type="range"
+											min="0"
+											max="20"
+											value="0"
+											class="sliderssesssesse"
+										/>
+										<div
+											class="slider-thumbsessessses"
+										></div>
+										<div class="progresssssssssss"></div>
+									</div>
+									<h1 class="Nase-Nasenknochendrehung-text">
+										Nasenknochendrehung
+									</h1>
+									<div class="strichdrunters9"></div>
+									<div class="range-slidersesesssese">
+										<input
+											type="range"
+											min="0"
+											max="20"
+											value="0"
+											class="slidersesssessess"
+										/>
+										<div
+											class="slider-thumbsessesseses"
+										></div>
+										<div class="progresssssssssssss"></div>
+									</div>
+									<h1 class="Nase-Augenbrauen-höhe-text">
+										Augenbrauen Höhe
+									</h1>
+									<div class="strichdrunters10"></div>
+									<div class="range-slidersesessseseses">
+										<input
+											type="range"
+											min="0"
+											max="20"
+											value="0"
+											class="slidersesssessessess"
+										/>
+										<div
+											class="slider-thumbsessessesesse"
+										></div>
+										<div
+											class="progresssssssssssssssss"
+										></div>
+									</div>
+									<h1 class="Nase-Augenbrauenabteilung-text">
+										Augenbrauenabteilung
+									</h1>
+									<div class="strichdrunters11"></div>
+									<div class="range-slidersesesssesesesessse">
+										<input
+											type="range"
+											min="0"
+											max="20"
+											value="0"
+											class="slidersesssessesesss"
+										/>
+										<div
+											class="slider-thumbsessessesesses"
+										></div>
+										<div class="progressjdjdjd"></div>
+									</div>
+								</div>
+								<div class="hautprobleme">
+									<h1 class="Headlines">Kopf & Haut</h1>
+									<h1 class="Höhe-Wangenknochen-text">
+										Höhe der Wangenknochen
+									</h1>
+									<div class="strichdrunters12"></div>
+									<div
+										class="range-slidersesesssesesesessseses"
+									>
+										<input
+											type="range"
+											min="0"
+											max="20"
+											value="0"
+											class="slidersesssessssesesss"
+										/>
+										<div
+											class="slider-thumbsessesssesseses"
+										></div>
+										<div class="progressjssdjdjd"></div>
+									</div>
+									<h1 class="Breite-Wangenknochen-text">
+										Breite der Wangenknochen
+									</h1>
+									<div class="strichdrunters13"></div>
+									<div
+										class="range-slidersesesssesesesesssesese"
+									>
+										<input
+											type="range"
+											min="0"
+											max="20"
+											value="0"
+											class="slidersesssessssesesssesse"
+										/>
+										<div
+											class="slider-thumbsessessesessssses"
+										></div>
+										<div class="progressjssdjdjdse"></div>
+									</div>
+									<h1 class="HautProbleme-text">
+										Haut Probleme
+									</h1>
+									<div class="strichdrunters14"></div>
+									<div class="range-slidersesseff">
+										<input
+											type="range"
+											min="0"
+											max="20"
+											value="0"
+											class="slidersesesdd"
+										/>
+										<div class="slider-thumbseses"></div>
+										<div class="progressssedfss"></div>
+									</div>
+									<h1 class="HautProbleme-Varrieren-text">
+										Haut Probleme-Varrieren
+									</h1>
+									<div class="strichdrunters15"></div>
+									<div class="range-slidersesSseffsasdas">
+										<input
+											type="range"
+											min="0"
+											max="20"
+											value="0"
+											class="sasdlidersesesasdd"
+										/>
+										<div
+											class="slider-adsthumbsesadsaes"
+										></div>
+										<div class="progresssdassedfss"></div>
+									</div>
+									<h1 class="SommerSprossen-text">
+										SommerSprossen
+									</h1>
+									<div class="strichdrunters16"></div>
+									<div class="range-dddd">
+										<input
+											type="range"
+											min="0"
+											max="20"
+											value="0"
+											class="slideddrseses"
+										/>
+										<div class="slider-thumbsdeses"></div>
+										<div class="progresssdfss"></div>
+									</div>
+									<h1 class="SommerSprossen-Varrieren-text">
+										SommerSprossen-Varrieren
+									</h1>
+									<div class="strichdrunters17"></div>
+									<div class="range-ddddasda">
+										<input
+											type="range"
+											min="0"
+											max="20"
+											value="0"
+											class="dasdslideddrseses"
+										/>
+										<div
+											class="slider-thumdfsfsfasdeses"
+										></div>
+										<div class="asdaadsa"></div>
+									</div>
+									<h1 class="Wunden-text">Wunden</h1>
+									<div class="strichdrunters18"></div>
+									<div class="range-dedfds">
+										<input
+											type="range"
+											min="0"
+											max="20"
+											value="0"
+											class="slidersaddases"
+										/>
+										<div class="slider-dddadast"></div>
+										<div class="progresddasasdassss"></div>
+									</div>
+									<h1 class="Wunden-Varrieren-text">
+										Wunden-Varrieren
+									</h1>
+									<div class="strichdrunters19"></div>
+									<div class="range-dedfdadasdas">
+										<input
+											type="range"
+											min="0"
+											max="20"
+											value="0"
+											class="slideadasdrsaddaases"
+										/>
+										<div
+											class="slider-dddadasdsadast"
+										></div>
+										<div
+											class="progresdasdsadasasdassss"
+										></div>
+									</div>
+									<h1 class="Falten-text">
+										Falten + Variation
+									</h1>
+									<div class="strichdrunters20"></div>
+									<div class="range-dddasda">
+										<input
+											type="range"
+											min="0"
+											max="20"
+											value="0"
+											class="sliasdadderses"
+										/>
+										<div class="slider-thusadadmbses"></div>
+										<div class="progsadaresssss"></div>
+									</div>
+
+									<div class="range-dddassdasdAda">
+										<input
+											type="range"
+											min="0"
+											max="20"
+											value="0"
+											class="sliasadsdaddadsaerses"
+										/>
+										<div
+											class="slider-tadsadhusadadmbses"
+										></div>
+										<div
+											class="proadsadgsadaresasdassss"
+										></div>
+									</div>
+								</div>
+								<div class="HaareundAugen">
+									<h1 class="Headlines">Augen und Haare</h1>
+									<h1 class="Augen-Farbe-text">
+										Augen-Farbe
+									</h1>
+									<div class="strichdrunters21"></div>
+									<div class="rangadse-dedfdadasdas">
+										<input
+											type="range"
+											min="0"
+											max="20"
+											value="0"
+											class="slidedsfsadasdrsaddaases"
+										/>
+										<div
+											class="slider-dddaadsasddasdsadast"
+										></div>
+										<div class="dasdada"></div>
+									</div>
+									<h1 class="Augenbrauen-Farbe-text">
+										Augenbrauen + Dichte + Farbe
+									</h1>
+									<div class="strichdrunters22"></div>
+									<div class="rangadse-dedfdasadadasdas">
+										<input
+											type="range"
+											min="0"
+											max="30"
+											value="0"
+											class="sadaasdasdaAdsad"
+										/>
+										<div
+											class="slider-dddaadsasddasasdadsadast"
+										></div>
+										<div class="dasdadsadaada"></div>
+									</div>
+									<div
+										class="rangadse-dedfdasadaasdadqqdasdas"
+									>
+										<input
+											type="range"
+											min="0"
+											max="20"
+											value="0"
+											class="sadaaasdadqsdasdaAdsad"
+										/>
+										<div class="slider-asdqasadq"></div>
+										<div class="dasdadsasdaadaada"></div>
+									</div>
+
+									<div
+										class="rangadse-dedfdasadaasdaadsqetdqqdasdas"
+									>
+										<input
+											type="range"
+											min="0"
+											max="20"
+											value="0"
+											class="sadasadadaasdadqsdasdaAdsad"
+										/>
+										<div class="slider-asdawqeqgg"></div>
+										<div
+											class="dasdetgfadsasdaadaada"
+										></div>
+									</div>
+									<h1 class="Haare-text">
+										Haare + Variation
+									</h1>
+									<div class="strichdrunters23"></div>
+									<div
+										class="rangadse-dedfdasadaasdaadsqetdqqdasdasasadds"
+									>
+										<input
+											type="range"
+											min="0"
+											max="100"
+											value="0"
+											class="sadsadasadadaasdadqsdasdaAdsad"
+										/>
+										<div class="slider-asdasdawqeqgg"></div>
+										<div class="dssadasdsadwaqdw"></div>
+									</div>
+									<div
+										class="rangadse-dedfdasadaasdaadsqetdqqdasdasasd"
+									>
+										<input
+											type="range"
+											min="0"
+											max="100"
+											value="0"
+											class="sadasasada"
+										/>
+										<div
+											class="slider-asdasddasdawqeqgg"
+										></div>
+										<div
+											class="dasdetgfadcyxsasdaadaada"
+										></div>
+									</div>
+									<h1 class="Haare-Farbes-text">
+										Haare-Farbe + Variation
+									</h1>
+									<div class="strichdrunters24"></div>
+									<div
+										class="rangadse-dedfdasadaasdaaasdasddsqetdqqdasdas"
+									>
+										<input
+											type="range"
+											min="0"
+											max="20"
+											value="0"
+											class="sasda4adasadadaasdadqsdasdaAdsad"
+										/>
+										<div
+											class="slider-asd3432awqeqgg"
+										></div>
+										<div class="sadasdwae23s"></div>
+									</div>
+
+									<div
+										class="rangadse-dedfdasadaasdaaasdasadsasddsqetdqqdasdas"
+									>
+										<input
+											type="range"
+											min="0"
+											max="20"
+											value="0"
+											class="sasda4adasadadaasdadqadasdasdaAdsad"
+										/>
+										<div class="slider-adadaw32"></div>
+										<div class="sadasdwa32e23"></div>
+									</div>
+								</div>
+								<div class="Kleidung-LastSide">
+									<h1 class="Headlines">Kleidung</h1>
+									<h1 class="t-shit-text">
+										T-Shirt + Variation
+									</h1>
+									<div class="strichdrunters25"></div>
+									<div class="slider-style">
+										<input
+											type="range"
+											min="0"
+											max="20"
+											value="0"
+											class="input-slider"
+										/>
+										<div class="slider-list"></div>
+										<div class="endslider"></div>
+									</div>
+
+									<div class="slider-styles">
+										<input
+											type="range"
+											min="0"
+											max="20"
+											value="0"
+											class="input-sliders"
+										/>
+										<div class="slider-lists"></div>
+										<div class="endsliders"></div>
+									</div>
+									<h1 class="torso-text">
+										Torso + Variation
+									</h1>
+									<div class="strichdrunters26"></div>
+									<div class="slider-styless">
+										<input
+											type="range"
+											min="0"
+											max="20"
+											value="0"
+											class="input-sliderss"
+										/>
+										<div class="slider-listss"></div>
+										<div class="endsliderss"></div>
+									</div>
+
+									<div class="slider-stylesss">
+										<input
+											type="range"
+											min="0"
+											max="20"
+											value="0"
+											class="input-slidersss"
+										/>
+										<div class="slider-listsss"></div>
+										<div class="endslidersss"></div>
+									</div>
+									<h1 class="arme-text">Arme + Variation</h1>
+									<div class="strichdrunters27"></div>
+									<div class="slider-stylessss">
+										<input
+											type="range"
+											min="0"
+											max="20"
+											value="0"
+											class="input-sliderssss"
+										/>
+										<div class="slider-listssss"></div>
+										<div class="endsliderssss"></div>
+									</div>
+
+									<div class="slider-stylesssss">
+										<input
+											type="range"
+											min="0"
+											max="20"
+											value="0"
+											class="input-slidersssss"
+										/>
+										<div class="slider-listsssss"></div>
+										<div class="endslidersssss"></div>
+									</div>
+									<h1 class="Hose-text">Hose + Variation</h1>
+									<div class="strichdrunters28"></div>
+									<div class="slider-stylessssss">
+										<input
+											type="range"
+											min="0"
+											max="20"
+											value="0"
+											class="input-sliderssssss"
+										/>
+										<div class="slider-listssssss"></div>
+										<div class="endsliderssssss"></div>
+									</div>
+
+									<div class="slider-stylesssssss">
+										<input
+											type="range"
+											min="0"
+											max="20"
+											value="0"
+											class="input-slidersssssss"
+										/>
+										<div class="slider-listsssssss"></div>
+										<div class="endslidersssssss"></div>
+									</div>
+									<h1 class="Schuhe-text">
+										Schuhe + Variation
+									</h1>
+									<div class="strichdrunters29"></div>
+									<div class="slider-stylessssssss">
+										<input
+											type="range"
+											min="0"
+											max="20"
+											value="0"
+											class="input-sliderssssssss"
+										/>
+										<div class="slider-listssssssss"></div>
+										<div class="endsliderssssssss"></div>
+									</div>
+
+									<div class="slider-stylesssssssss">
+										<input
+											type="range"
+											min="0"
+											max="20"
+											value="0"
+											class="input-slidersssssssss"
+										/>
+										<div class="slider-listsssssssss"></div>
+										<div class="endslidersssssssss"></div>
+									</div>
+								</div>
+								<div class="juwell">
+									<h1 class="Headlines">Accessoires</h1>
+									<h1 class="Ketten-text">
+										Ketten - Auswahl
+									</h1>
+									<div class="strichdrunters30"></div>
+									<div class="slider-make">
+										<input
+											type="range"
+											min="0"
+											max="20"
+											value="0"
+											class="input-makd"
+										/>
+										<div class="slider-maky"></div>
+										<div class="makk"></div>
+									</div>
+									<h1 class="Brillen-text">
+										Brillen + Variation
+									</h1>
+									<div class="strichdrunters31"></div>
+									<div class="slider-makes">
+										<input
+											type="range"
+											min="0"
+											max="20"
+											value="0"
+											class="input-makds"
+										/>
+										<div class="slider-makys"></div>
+										<div class="makks"></div>
+									</div>
+
+									<div class="slider-makess">
+										<input
+											type="range"
+											min="0"
+											max="20"
+											value="0"
+											class="input-makdss"
+										/>
+										<div class="slider-makyss"></div>
+										<div class="makkss"></div>
+									</div>
+									<h1 class="Ohrringe-text">
+										Ohrringe + Variante
+									</h1>
+									<div class="strichdrunters32"></div>
+									<div class="slider-makesss">
+										<input
+											type="range"
+											min="0"
+											max="20"
+											value="0"
+											class="input-makdsss"
+										/>
+										<div class="slider-makysss"></div>
+										<div class="makksss"></div>
+									</div>
+
+									<div class="slider-makessss">
+										<input
+											type="range"
+											min="0"
+											max="20"
+											value="0"
+											class="input-makdssss"
+										/>
+										<div class="slider-makyssss"></div>
+										<div class="makkssss"></div>
+									</div>
+									<h1 class="Uhr-text">Uhr + Variante</h1>
+									<div class="strichdrunters33"></div>
+									<div class="slider-makesssss">
+										<input
+											type="range"
+											min="0"
+											max="20"
+											value="0"
+											class="input-makdsssss"
+										/>
+										<div class="slider-makysssss"></div>
+										<div class="makksssss"></div>
+									</div>
+
+									<div class="slider-makessssss">
+										<input
+											type="range"
+											min="0"
+											max="20"
+											value="0"
+											class="input-makdssssss"
+										/>
+										<div class="slider-makyssssss"></div>
+										<div class="makkssssss"></div>
+									</div>
+									<h1 class="Armband-text">
+										Armband + Variation
+									</h1>
+									<div class="strichdrunters34"></div>
+									<div class="slider-makesssssss">
+										<input
+											type="range"
+											min="0"
+											max="20"
+											value="0"
+											class="input-makdsssssss"
+										/>
+										<div class="slider-makysssssss"></div>
+										<div class="makksssssss"></div>
+									</div>
+
+									<div class="slider-makessssssss">
+										<input
+											type="range"
+											min="0"
+											max="20"
+											value="0"
+											class="input-makdssssssss"
+										/>
+										<div class="slider-makyssssssss"></div>
+										<div class="makkssssssss"></div>
+									</div>
+								</div>
+								<div class="lastside">
+									<h1 class="Hat-text">Hut</h1>
+									<div class="strichdrunters111"></div>
+									<div class="slider-makesssssssss">
+										<input
+											type="range"
+											min="0"
+											max="20"
+											value="0"
+											class="input-makdsssssssss"
+										/>
+										<div class="slider-makysssssssss"></div>
+										<div class="makksssssssss"></div>
+									</div>
+									<h1 class="Hat2-text">Hut - Variation</h1>
+									<div class="strichdrunters112"></div>
+									<div class="slider-makessssssssss">
+										<input
+											type="range"
+											min="0"
+											max="20"
+											value="0"
+											class="input-makdssssssssss"
+										/>
+										<div
+											class="slider-makyssssssssss"
+										></div>
+										<div class="makkssssssssss"></div>
+									</div>
+									<h1 class="Maske-text">Maske</h1>
+									<div class="strichdrunters113"></div>
+									<div class="slider-makesssssssssss">
+										<input
+											type="range"
+											min="0"
+											max="20"
+											value="0"
+											class="input-makdsssssssssss"
+										/>
+										<div
+											class="slider-makysssssssssss"
+										></div>
+										<div class="makksssssssssss"></div>
+									</div>
+									<h1 class="Maske2-text">
+										Maske - Variaton
+									</h1>
+									<div class="strichdrunters114"></div>
+									<div class="slider-makesssssssssssss">
+										<input
+											type="range"
+											min="0"
+											max="20"
+											value="0"
+											class="input-makdssssssssssssss"
+										/>
+										<div
+											class="slider-makyssssssssssssss"
+										></div>
+										<div class="makkssssssssssssss"></div>
+									</div>
+									<h1 class="Headlines">
+										Bestätigen und Extras
+									</h1>
+									<button
+										type="button"
+										id="submitbuttonsesse"
+										class="submitbuttonseedsf"
+									>
+										Reise Beginnen?
+									</button>
+								</div>
+								<div class="umschauen">
+									<h1 class="headtext">Umschauen</h1>
+									<h1 class="textpfeil">Tasten A + D</h1>
+									<div class="lefts">
+										<h1 class="beschreibung">A</h1>
+									</div>
+									<div class="rights">
+										<h1 class="beschreibung">D</h1>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="illegalorlegall">
+				<div class="illegal-background">
+					<img
+						src="src/clickwallpapers-grand-theft-auto-v-rockstar-games-wallpaper-1.png"
+						class="background-illegal"
+						alt=""
+					/>
+					<h1 class="bigtext">Wähle deinen Weg</h1>
+					<div class="cards-container">
+						<div class="card-links">
+							<img src="src/micha.png" class="michaabi" alt="" />
+							<h1 class="legaleeinreisetext">Legale Einreise?</h1>
+							<h2 class="beschreibunglegal">
+								Wenn du legal einreist, wirst du als normaler
+								Bürger behandelt und musst deine Pässe und
+								Personalausweise vorlegen. Du wirst auch in das
+								polizeiliche System eingetragen. Wenn du jedoch
+								den legalen Weg verlässt, gibt es keine
+								Möglichkeit, dich so zu verstecken wie bei einer
+								illegalen Einreise.
+							</h2>
+							<button class="einreisenlegal">
+								Legale Einreisen
+							</button>
+						</div>
+						<div class="card-rechts">
+							<img
+								src="src/random.png"
+								class="randomabi"
+								alt=""
+							/>
+							<h1 class="illegaleeinreisetext">
+								Illegal Einreise?
+							</h1>
+							<h2 class="beschreibungillegal">
+								Wenn du illegal einreist, wirst du nicht nur
+								Vorteile, sondern auch einige Nachteile spüren.
+								Durch die illegale Einreise wirst du für die
+								Behörden schwerer zu entdecken sein, jedoch
+								wirst du bei Entdeckung auch mit größeren
+								Strafen rechnen müssen. Du kannst jedoch immer
+								auf den legalen Weg zurückkehren, um wieder ein
+								normales Leben zu führen.
+							</h2>
+							<button class="einreisenillegal">
+								Illegal Einreisen
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="registeriers-container">
+				<div class="container">
+					<div class="container-image">
+						<h1 class="headlinetext1">SEVEN</h1>
+						<h1 class="headlinetext2">LIFE</h1>
+						<h1 class="textlogin2">ANMELDEN</h1>
+						<img src="src/big.png" class="imgbiglabel" alt="" />
+						<img
+							src="src/GTA-5-city-at-night-purple-style-skyscrapers_1024x768.jpg"
+							class="imagecontainer"
+							alt=""
+						/>
+
+						<div class="fadeinimage"></div>
+						<img
+							src="src/29871688-gta-frau-2q0xfQGD4be9-removebg-preview.png"
+							class="frauimage"
+							alt=""
+						/>
+					</div>
+					<div class="labelinfos">
+						<h1 class="headlineinfo">INFORMATION</h1>
+						<img
+							src="src/outline_keyboard_backspace_white_24dp.png"
+							class="backtolightzwei"
+							alt=""
+						/>
+						<h1 class="textinfo">
+							Gebe in alle Felder Daten an um in dein Account
+							anzumelden
+						</h1>
+						<h1 class="detaillabel">Benutername</h1>
+						<input
+							type="password"
+							name="loginUser"
+							id="loginUsers"
+							placeholder="Gebe deinen Benutzernamen ein"
+							class="loginUser"
+							required
+						/>
+						<h1 class="detaillabel2">Passwort</h1>
+						<img
+							src="src/baseline_contact_mail_white_48dp.png"
+							class="benutzernamefoto"
+							alt=""
+						/><img
+							src="src/baseline_vpn_key_white_48dp.png"
+							class="keyfoto"
+							alt=""
+						/>
+						<input
+							type="password"
+							name="loginPassword"
+							id="loginPasswords"
+							placeholder="Gebe dein Passwort ein"
+							class="loginPassword"
+							required
+						/>
+						<button id="submit-btns" class="submit-btns">
+							- Account Anmelden -
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="index.js"></script>
+</html>

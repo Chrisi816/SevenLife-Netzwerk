@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+		<title>Document</title>
+		<link rel="stylesheet" href="index.css" />
+	</head>
+	<body>
+		<div class="inventoryWaffenschrank">
+			<div class="background">
+				<div class="left"></div>
+				<div class="right"></div>
+			</div>
+			<div class="lignsobenleft">
+				<div class="einsline"></div>
+				<div class="zweiline"></div>
+				<div class="dreiline"></div>
+			</div>
+			<div class="lignsuntenleft">
+				<div class="einslines"></div>
+				<div class="zweilines"></div>
+				<div class="dreilines"></div>
+			</div>
+			<div class="weight">
+				<div class="kreis"></div>
+				<div class="inventoryweight" id="inventoryweightwaffenschrank">
+					80.0 /<span> 120.0</span>
+				</div>
+				<img
+					src="src/outline_scale_white_48dp.png"
+					class="weights"
+					alt=""
+				/>
+			</div>
+			<div class="essentials"></div>
+			<div class="essentialss"></div>
+			<div data-inventory="player" class="inventory-items-waffenschrank">
+				<div class="design"></div>
+				<img
+					src="src/outline_backpack_white_24dp.png"
+					class="backpack"
+					alt=""
+				/>
+				<h1 class="rucksackschriftt">RUCKSACK:</h1>
+				<div class="playeritems" id="playeritems">
+					<div data-slot="${i}" class="item-box">
+						<img class="img-am" src="items/bread.png" />
+						<div class="item-amount">${v.count}</div>
+						<div class="action"></div>
+					</div>
+				</div>
+			</div>
+			<div class="esent" id="box"></div>
+			<div class="designs"></div>
+			<div class="waffenschrank">
+				<div data-slot="${i}" class="item-box-gloves">
+					<img class="img-am" src="items/bread.png" />
+					<div class="item-amount">${v.count}</div>
+					<div class="action"></div>
+				</div>
+				<div data-slot="${i}" class="item-box-kofferaum">
+					<img class="img-am" src="items/bread.png" />
+					<div class="item-amount">${v.count}</div>
+					<div class="action"></div>
+				</div>
+				<div data-slot="${i}" class="item-box-kofferaum">
+					<img class="img-am" src="items/bread.png" />
+					<div class="item-amount">${v.count}</div>
+					<div class="action"></div>
+				</div>
+			</div>
+			<input
+				class="inputt-kofferrum"
+				id="inputt-waffenschrank"
+				placeholder="Anzahl"
+				pattern="\d*"
+				maxlength="1"
+			/>
+			<h1 class="rucksacksschriftt">Waffenschrank:</h1>
+			<img
+				src="src/baseline_local_shipping_white_24dp.png"
+				class="cardown"
+				alt=""
+			/>
+		</div>
+		<div class="frakmenu">
+			<div class="background">
+				<div class="left3" id="left3"></div>
+				<div class="right3" id="right3"></div>
+			</div>
+
+			<h1 class="familietext1" id="familietext1">DEINE</h1>
+			<h1 class="familietext2">FAMILIE</h1>
+			<div class="auswahllist">
+				<h1 class="auswahlbiobio informationen">Information</h1>
+				<h1 class="auswahlbiobio mitglieder">Mitglieder</h1>
+				<h1 class="auswahlbiobio aufgaben">Aufgaben</h1>
+				<h1 class="auswahlbiobio ratings">Rating</h1>
+			</div>
+			<div class="frakfrontside">
+				<div class="container-informationfrak">
+					<h1 class="frakname" id="frakname">La Cosa Nostra</h1>
+					<h1 class="frakinfohistory" id="frakinfohistory">
+						Als Amerikanische Cosa Nostra Bzw. La Cosa Nostra oder
+						Italienisch-Amerikanische Mafia wird der
+						Nordamerikanische Ableger der originären sizilianischen
+						Cosa Nostra Bzw. Mafia bezeichnet. Entstanden um 1900.
+						Werden dem begriff heute diverse organisierte banden
+						Italoamerikanischer Verbrecher zugeordnet.
+					</h1>
+					<div class="container-level">
+						<img
+							class="imgfrak"
+							src="src/outline_account_box_white_48dp.png"
+							alt=""
+						/>
+						<h1 class="levelinfo" id="levelnummero1">15</h1>
+						<h1 class="infolevel">Level</h1>
+					</div>
+				</div>
+				<div class="container-inforanking">
+					<h1 class="inforanghead">Rang:</h1>
+					<h1 class="ranginfo" id="ranginfo">TOP 20</h1>
+					<div class="container-inforanking2">
+						<img
+							class="celeb"
+							src="src/outline_celebration_white_48dp.png"
+							alt=""
+						/>
+					</div>
+				</div>
+				<div class="container-aktivesevent">
+					<img src="src/mission.jpg" class="imgüberfall" alt="" />
+					<div class="container-eventcurrent">
+						<h1 class="eventtext">Aktuelle Events:</h1>
+					</div>
+					<h1 class="titelevent" id="titelevent">
+						Überfall auf Jack
+					</h1>
+					<h1 class="infotitelevent">
+						Jack wurde auf dem Nachhauseweg von Max überfallen. Max
+						bedrohte ihn mit einem Messer und forderte Geld. Jack
+						gab ihm sein Portemonnaie und Max flüchtete. Jack war
+						schockiert und enttäuscht, als er später von der Polizei
+						erfuhr, dass Max der Täter war. Er konnte nicht glauben,
+						dass ein alter Freund zu so etwas fähig war.
+					</h1>
+					<div class="fadenachoben"></div>
+				</div>
+				<div class="container-infoonline">
+					<h1 class="onlineinfooben3">Online:</h1>
+					<h1 class="ranginfo3" id="ranginfo3">20 Personen</h1>
+					<div class="container-inforanking2">
+						<img
+							class="celeb"
+							src="src/outline_person_white_48dp.png"
+							alt=""
+						/>
+					</div>
+				</div>
+				<div class="container-leader">
+					<h1 class="onlineinfooben4">Anführer:</h1>
+					<h1 class="ranginfo4" id="leaderinfo">JACK LINE</h1>
+					<div class="container-inforanking2">
+						<img
+							class="celeb"
+							src="src/outline_leaderboard_white_48dp.png"
+							alt=""
+						/>
+					</div>
+				</div>
+				<div class="container-fraklevel">
+					<div class="container-levelanzeigen">
+						<h1 class="levelinfo3" id="levelnummero2">15</h1>
+						<h1 class="infolevel3">LEVEL</h1>
+					</div>
+					<div class="container-process">
+						<div class="process" id="process"></div>
+					</div>
+					<h1 class="familienentwicklung">Familien Entwicklung</h1>
+					<h1 class="textfamilieninfo">
+						Der Level einer Fraktion hängt von vielen Faktoren ab,
+						wie der Größe der aktiven Mitglieder, ihrer Organisation
+						und ihrem Beitrag zur Gemeinschaft. Ein höherer Level
+						bringt exklusive Vorteile und Belohnungen, die nur
+						Fraktionen mit hohem Level genießen können. Die Erhöhung
+						des Levels erfordert harte Arbeit und Zusammenarbeit,
+						indem Punkte durch Teilnahme an Events und Aufgaben
+						gesammelt werden, während jeder seine Stärken und
+						Fähigkeiten einsetzt.
+					</h1>
+					<h1 class="nächsteleveltext">Bis zum nächsten Level</h1>
+					<h1 class="xp" id="xpma">100</h1>
+					<h1 class="xptext">EXP</h1>
+				</div>
+				<div class="container-memebers">
+					<h1 class="onlineinfooben5">
+						Mitglieder in deiner Familie:
+					</h1>
+					<div class="container-inforanking3">
+						<img
+							class="celeb2"
+							src="src/baseline_groups_white_48dp.png"
+							alt=""
+						/>
+					</div>
+					<div class="container-personen">
+						<h1 class="ranginfo5" id="ranginfo5">20 Personen</h1>
+					</div>
+				</div>
+				<div class="container-addfrak">
+					<h1 class="onlineinfooben6">Reichtum deiner Familie:</h1>
+					<h1 class="geldfamilietext">
+						Das Geld einer Familie kann ein wichtiger Faktor für
+						ihre Lebensqualität sein und beeinflusst ihre
+						Entscheidungen und Möglichkeiten.
+					</h1>
+					<div class="container-inforanking3">
+						<img
+							class="celeb3"
+							src="src/baseline_local_atm_white_24dp.png"
+							alt=""
+						/>
+					</div>
+					<div class="container-personen2">
+						<h1 class="ranginfo5" id="reichtum">1000000000.20$</h1>
+					</div>
+				</div>
+			</div>
+			<div class="frakmitglieder">
+				<div class="container-infomemeber">
+					<div class="container-inforanking5">
+						<img
+							class="celeb5"
+							src="src/baseline_groups_white_48dp.png"
+							alt=""
+						/>
+					</div>
+					<h1 class="onlineinfooben7">
+						Mitglieder in deiner Familie:
+					</h1>
+					<input
+						class="inputt"
+						id="inputts"
+						placeholder="Suche nach Mitgliedern"
+						onkeyup="searchanimasauslager()"
+					/>
+					<h1
+						class="anzahlonlinemitglieder"
+						id="anzahlonlinemitglieder"
+					>
+						31
+					</h1>
+					<h1 class="mitgliedertext" id="mitgliedertext">20</h1>
+					<h1 class="geldfamilietext2">
+						Die Mitglieder einer Familie sind wichtig, da sie
+						emotionalen Halt und Unterstützung bieten, Werte und
+						Traditionen weitergeben und ein gemeinsames Zuhause
+						schaffen.
+					</h1>
+					<div class="onlinecircleout">
+						<div class="onlinecirclein"></div>
+					</div>
+				</div>
+				<div class="detaillist">
+					<h1 class="texte">STATUS</h1>
+					<h1 class="texte">NAME</h1>
+					<h1 class="texte">ID</h1>
+					<h1 class="texte">RANG</h1>
+					<h1 class="texte">STATISTIK</h1>
+					<h1 class="texte">DATA REG</h1>
+				</div>
+
+				<div class="container-scrollmember"></div>
+			</div>
+			<div class="tasks">
+				<div class="container-infomemeber">
+					<div class="container-inforanking5">
+						<img
+							class="celeb5"
+							src="src/baseline_task_white_48dp.png"
+							alt=""
+						/>
+					</div>
+					<h1 class="onlineinfooben7">Aufgaben:</h1>
+
+					<h1 class="geldfamilietext2">
+						Die Verteilung von Aufgaben innerhalb einer Gruppe ist
+						wichtig für Effizienz und Zusammenhalt, besonders in
+						einer Gemeinschaft mit gemeinsamen Zielen.
+					</h1>
+
+					<h1 class="textupdateaufgaben">
+						Update der Aufgaben folgt um:
+					</h1>
+					<h1 class="timeupdateaufgaben">04:00 UHR</h1>
+				</div>
+				<div class="containerforaufgaben">
+					<div class="container-aufgaben">
+						<h1 class="preisaufgaben">PREIS</h1>
+						<h1 class="preistotal">100 000$</h1>
+						<h1 class="textaufgaben">AUFGABEN</h1>
+						<div class="container-starmarker">
+							<img
+								src="src/outline_star_white_48dp.png"
+								class="star"
+								alt=""
+							/>
+						</div>
+						<h1 class="descaufgaben">
+							Die Aufgabe besteht darin, als Mitglied einer
+							kriminellen Familie in einem GTA RP-Server
+							verschiedene Verbrechen zu begehen und Aufträge
+							auszuführen.
+						</h1>
+					</div>
+					<div class="container-aufgaben">
+						<h1 class="preisaufgaben">PREIS</h1>
+						<h1 class="preistotal">100 000$</h1>
+						<h1 class="textaufgaben">AUFGABEN</h1>
+						<div class="container-starmarker">
+							<img
+								src="src/outline_star_white_48dp.png"
+								class="star"
+								alt=""
+							/>
+						</div>
+						<h1 class="descaufgaben">
+							Die Aufgabe besteht darin, als Mitglied einer
+							kriminellen Familie in einem GTA RP-Server
+							verschiedene Verbrechen zu begehen und Aufträge
+							auszuführen.
+						</h1>
+					</div>
+					<div class="container-aufgaben">
+						<h1 class="preisaufgaben">PREIS</h1>
+						<h1 class="preistotal">100 000$</h1>
+						<h1 class="textaufgaben">AUFGABEN</h1>
+						<div class="container-starmarker">
+							<img
+								src="src/outline_star_white_48dp.png"
+								class="star"
+								alt=""
+							/>
+						</div>
+						<h1 class="descaufgaben">
+							Die Aufgabe besteht darin, als Mitglied einer
+							kriminellen Familie in einem GTA RP-Server
+							verschiedene Verbrechen zu begehen und Aufträge
+							auszuführen.
+						</h1>
+					</div>
+					<div class="container-aufgaben">
+						<h1 class="preisaufgaben">PREIS</h1>
+						<h1 class="preistotal">100 000$</h1>
+						<h1 class="textaufgaben">AUFGABEN</h1>
+						<div class="container-starmarker">
+							<img
+								src="src/outline_star_white_48dp.png"
+								class="star"
+								alt=""
+							/>
+						</div>
+						<h1 class="descaufgaben">
+							Die Aufgabe besteht darin, als Mitglied einer
+							kriminellen Familie in einem GTA RP-Server
+							verschiedene Verbrechen zu begehen und Aufträge
+							auszuführen.
+						</h1>
+					</div>
+					<div class="container-aufgaben">
+						<h1 class="preisaufgaben">PREIS</h1>
+						<h1 class="preistotal">100 000$</h1>
+						<h1 class="textaufgaben">AUFGABEN</h1>
+						<div class="container-starmarker">
+							<img
+								src="src/outline_star_white_48dp.png"
+								class="star"
+								alt=""
+							/>
+						</div>
+						<h1 class="descaufgaben">
+							Die Aufgabe besteht darin, als Mitglied einer
+							kriminellen Familie in einem GTA RP-Server
+							verschiedene Verbrechen zu begehen und Aufträge
+							auszuführen.
+						</h1>
+					</div>
+					<div class="container-aufgaben">
+						<h1 class="preisaufgaben">PREIS</h1>
+						<h1 class="preistotal">100 000$</h1>
+						<h1 class="textaufgaben">AUFGABEN</h1>
+						<div class="container-starmarker">
+							<img
+								src="src/outline_star_white_48dp.png"
+								class="star"
+								alt=""
+							/>
+						</div>
+						<h1 class="descaufgaben">
+							Die Aufgabe besteht darin, als Mitglied einer
+							kriminellen Familie in einem GTA RP-Server
+							verschiedene Verbrechen zu begehen und Aufträge
+							auszuführen.
+						</h1>
+					</div>
+					<div class="container-aufgaben">
+						<h1 class="preisaufgaben">PREIS</h1>
+						<h1 class="preistotal">100 000$</h1>
+						<h1 class="textaufgaben">AUFGABEN</h1>
+						<div class="container-starmarker">
+							<img
+								src="src/outline_star_white_48dp.png"
+								class="star"
+								alt=""
+							/>
+						</div>
+						<h1 class="descaufgaben">
+							Die Aufgabe besteht darin, als Mitglied einer
+							kriminellen Familie in einem GTA RP-Server
+							verschiedene Verbrechen zu begehen und Aufträge
+							auszuführen.
+						</h1>
+					</div>
+					<div class="container-aufgaben">
+						<h1 class="preisaufgaben">PREIS</h1>
+						<h1 class="preistotal">100 000$</h1>
+						<h1 class="textaufgaben">AUFGABEN</h1>
+						<div class="container-starmarker">
+							<img
+								src="src/outline_star_white_48dp.png"
+								class="star"
+								alt=""
+							/>
+						</div>
+						<h1 class="descaufgaben">
+							Die Aufgabe besteht darin, als Mitglied einer
+							kriminellen Familie in einem GTA RP-Server
+							verschiedene Verbrechen zu begehen und Aufträge
+							auszuführen.
+						</h1>
+					</div>
+					<div class="container-aufgaben">
+						<h1 class="preisaufgaben">PREIS</h1>
+						<h1 class="preistotal">100 000$</h1>
+						<h1 class="textaufgaben">AUFGABEN</h1>
+						<div class="container-starmarker">
+							<img
+								src="src/outline_star_white_48dp.png"
+								class="star"
+								alt=""
+							/>
+						</div>
+						<h1 class="descaufgaben">
+							Die Aufgabe besteht darin, als Mitglied einer
+							kriminellen Familie in einem GTA RP-Server
+							verschiedene Verbrechen zu begehen und Aufträge
+							auszuführen.
+						</h1>
+					</div>
+				</div>
+			</div>
+			<div class="rating">
+				<div class="container-infomemeber2">
+					<div class="nummerofcontainer1">
+						<h1 class="nummerincontainer1">1</h1>
+					</div>
+					<h1 class="namedelafrak2" id="namedelafrak2nummer1">
+						La Cosa Nostra
+					</h1>
+					<div class="container-dreieck3"></div>
+					<div class="container-dreieck3"></div>
+					<div class="container-dreieck3"></div>
+					<h1 class="textbigges">GEBIET:</h1>
+					<h1 class="textbigges">Kriminelle Punkte:</h1>
+					<h1 class="textbigges">LEVEL:</h1>
+					<h1 class="howmanygebiet1" id="howmanygebiet1nummer1">
+						15 KM
+					</h1>
+					<h1 class="howmanycriminal1" id="howmanycriminalnummer1">
+						15 P.
+					</h1>
+					<h1 class="howmanylevel1" id="howmanylevelnummer1">15</h1>
+					<div class="fadeing"></div>
+					<img src="src/pokal.png" class="pokal" alt="" />
+				</div>
+				<div class="container-infomemeber3">
+					<div class="nummerofcontainer1">
+						<h1 class="nummerincontainer1">2</h1>
+					</div>
+					<h1 class="namedelafrak2" id="namedelafrak2nummer2">
+						La Cosa Nostra
+					</h1>
+					<div class="container-dreieck3"></div>
+					<div class="container-dreieck3"></div>
+					<div class="container-dreieck3"></div>
+					<h1 class="textbigges">GEBIET:</h1>
+					<h1 class="textbigges">Kriminelle Punkte:</h1>
+					<h1 class="textbigges">LEVEL:</h1>
+					<h1 class="howmanygebiet1" id="howmanygebiet1nummer2">
+						15 KM
+					</h1>
+					<h1 class="howmanycriminal1" id="howmanycriminalnummer2">
+						15 P.
+					</h1>
+					<h1 class="howmanylevel1" id="howmanylevelnummer2">15</h1>
+					<div class="fadeing2"></div>
+				</div>
+				<div class="container-infomemeber4">
+					<div class="nummerofcontainer1">
+						<h1 class="nummerincontainer1">3</h1>
+					</div>
+					<h1 class="namedelafrak2" id="namedelafrak2nummer3">
+						La Cosa Nostra
+					</h1>
+					<div class="container-dreieck3"></div>
+					<div class="container-dreieck3"></div>
+					<div class="container-dreieck3"></div>
+					<h1 class="textbigges">GEBIET:</h1>
+					<h1 class="textbigges">Kriminelle Punkte:</h1>
+					<h1 class="textbigges">LEVEL:</h1>
+					<h1 class="howmanygebiet1" id="howmanygebiet1nummer3">
+						15 KM
+					</h1>
+					<h1 class="howmanycriminal1" id="howmanycriminalnummer3">
+						15 P.
+					</h1>
+					<h1 class="howmanylevel1" id="howmanylevelnummer3">15</h1>
+					<div class="fadeing2"></div>
+				</div>
+				<div class="container-lastfraks">
+					<div class="container-frakname">
+						<div class="nummerofcontainer">
+							<h1 class="nummerincontainer">3</h1>
+						</div>
+						<h1 class="namedelafrak">La Cosa Nostra</h1>
+						<div class="container-dreieck"></div>
+						<h1 class="textgebiet">GEBIET:</h1>
+						<h1 class="howmanygebiet">15 KM</h1>
+						<div class="container-dreieck1"></div>
+						<h1 class="textcriminälepunke">Kriminelle Punkte:</h1>
+						<h1 class="howmanycriminal">15 P.</h1>
+						<div class="container-dreieck2"></div>
+						<h1 class="textlevel">LEVEL:</h1>
+						<h1 class="howmanylevel">15</h1>
+					</div>
+					<div class="container-frakname">
+						<div class="nummerofcontainer">
+							<h1 class="nummerincontainer">4</h1>
+						</div>
+						<h1 class="namedelafrak">La Cosa Nostra</h1>
+						<div class="container-dreieck"></div>
+						<h1 class="textgebiet">GEBIET:</h1>
+						<h1 class="howmanygebiet">15 KM</h1>
+						<div class="container-dreieck1"></div>
+						<h1 class="textcriminälepunke">Kriminelle Punkte:</h1>
+						<h1 class="howmanycriminal">15 P.</h1>
+						<div class="container-dreieck2"></div>
+						<h1 class="textlevel">LEVEL:</h1>
+						<h1 class="howmanylevel">15</h1>
+					</div>
+					<div class="container-frakname">
+						<div class="nummerofcontainer">
+							<h1 class="nummerincontainer">5</h1>
+						</div>
+						<h1 class="namedelafrak">La Cosa Nostra</h1>
+						<div class="container-dreieck"></div>
+						<h1 class="textgebiet">GEBIET:</h1>
+						<h1 class="howmanygebiet">15 KM</h1>
+						<div class="container-dreieck1"></div>
+						<h1 class="textcriminälepunke">Kriminelle Punkte:</h1>
+						<h1 class="howmanycriminal">15 P.</h1>
+						<div class="container-dreieck2"></div>
+						<h1 class="textlevel">LEVEL:</h1>
+						<h1 class="howmanylevel">15</h1>
+					</div>
+					<div class="container-frakname">
+						<div class="nummerofcontainer">
+							<h1 class="nummerincontainer">6</h1>
+						</div>
+						<h1 class="namedelafrak">La Cosa Nostra</h1>
+						<div class="container-dreieck"></div>
+						<h1 class="textgebiet">GEBIET:</h1>
+						<h1 class="howmanygebiet">15 KM</h1>
+						<div class="container-dreieck1"></div>
+						<h1 class="textcriminälepunke">Kriminelle Punkte:</h1>
+						<h1 class="howmanycriminal">15 P.</h1>
+						<div class="container-dreieck2"></div>
+						<h1 class="textlevel">LEVEL:</h1>
+						<h1 class="howmanylevel">15</h1>
+					</div>
+					<div class="container-frakname">
+						<div class="nummerofcontainer">
+							<h1 class="nummerincontainer">7</h1>
+						</div>
+						<h1 class="namedelafrak">La Cosa Nostra</h1>
+						<div class="container-dreieck"></div>
+						<h1 class="textgebiet">GEBIET:</h1>
+						<h1 class="howmanygebiet">15 KM</h1>
+						<div class="container-dreieck1"></div>
+						<h1 class="textcriminälepunke">Kriminelle Punkte:</h1>
+						<h1 class="howmanycriminal">15 P.</h1>
+						<div class="container-dreieck2"></div>
+						<h1 class="textlevel">LEVEL:</h1>
+						<h1 class="howmanylevel">15</h1>
+					</div>
+					<div class="container-frakname">
+						<div class="nummerofcontainer">
+							<h1 class="nummerincontainer">8</h1>
+						</div>
+						<h1 class="namedelafrak">La Cosa Nostra</h1>
+						<div class="container-dreieck"></div>
+						<h1 class="textgebiet">GEBIET:</h1>
+						<h1 class="howmanygebiet">15 KM</h1>
+						<div class="container-dreieck1"></div>
+						<h1 class="textcriminälepunke">Kriminelle Punkte:</h1>
+						<h1 class="howmanycriminal">15 P.</h1>
+						<div class="container-dreieck2"></div>
+						<h1 class="textlevel">LEVEL:</h1>
+						<h1 class="howmanylevel">15</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="invitemenu">
+			<div class="leftfrakinvite">
+				<h1 class="informationtext">SEVEN</h1>
+				<h1 class="informationtext2">LIFE</h1>
+				<h1 class="invitefrak">Fraktionsinvite</h1>
+				<div class="container-information">
+					<h1 class="texteinladung">EINLADUNG</h1>
+					<h1 class="textinfoeinladung" id="textinfoeinladung">
+						Der spieler Christian Espasito möchte dich in die
+						Fraktion LCN einladen. Willst du diese Einladenung
+						annehmen/ablehenen?
+					</h1>
+				</div>
+				<button class="Button-BuyShop" id="Annehmen" name="">
+					Annehmen</button
+				><button class="Button-BuyShop2" id="Ablehnen" name="">
+					Ablehnen
+				</button>
+			</div>
+		</div>
+		<div class="container-garage">
+			<div class="mainpage">
+				<h1 class="garagescrift">LCN</h1>
+				<h1 class="infoschrift">Wähle deinen nächsten Schritt</h1>
+				<div class="linie"></div>
+				<div class="background-ausparken">
+					<h1 class="autoausparkentext">FAHRZEUG - AUSPARKEN</h1>
+				</div>
+				<div class="background-kaufen">
+					<h1 class="autokaufentext">FAHRZEUG - KAUFEN</h1>
+				</div>
+				<h1 class="texteinfose">
+					Manage deine Fahrzeuge in deiner Familie!
+				</h1>
+				<h1 class="texteinfosew">
+					Kaufe neue Fahrzeuge für deine Familie!
+				</h1>
+				<div class="placeeins"></div>
+				<div class="pacezwei"></div>
+			</div>
+			<div class="kaufenpage">
+				<div class="backtomain">
+					<img src="" alt="" />
+				</div>
+				<h1 class="garagescrift">LCN</h1>
+				<h1 class="infoschrift">Kaufe deine Autos</h1>
+				<div class="autos-liste"></div>
+			</div>
+			<div class="garagepage">
+				<h1 class="garagescrift">LCN</h1>
+				<h1 class="infoschrift">Parke deine Familien Autos aus</h1>
+				<div class="autos-listes"></div>
+			</div>
+			<img src="src/dreick.png" class="dreickbildeins" alt="" />
+			<img src="src/dreick.png" class="dreickbildzwei" alt="" />
+			<img src="src/dreick.png" class="dreickbilddrei" alt="" />
+			<img src="src/dreick.png" class="dreickbilvier" alt="" />
+			<img src="src/dreick.png" class="dreickbildfuenf" alt="" />
+			<img src="src/dreick.png" class="dreickbildsechs" alt="" />
+			<div class="leftunten"></div>
+			<div class="rightunten"></div>
+			<div class="lignsobenleft">
+				<div class="einsline"></div>
+				<div class="zweiline"></div>
+				<div class="dreiline"></div>
+			</div>
+			<div class="rechtsobenleft">
+				<div class="einseline"></div>
+				<div class="zweieline"></div>
+				<div class="dreieline"></div>
+			</div>
+		</div>
+		<div class="container-bauern">
+			<h1 class="lokalerbauertext" id="lokalerbauertext"></h1>
+			<h1 class="esctext">Drücke ESC um zu verlassen</h1>
+			<div class="strichunterbauer"></div>
+			<h1 class="detailsbauern">
+				Kaufe items die nur für Leute mit einer Mitgliedschaft erhaltbar
+				sind. Diese Items dürfen nicht weiter verkauft werden. Ausserdem
+				können items auch nach Rängen sortiert werden!
+			</h1>
+			<div class="corner-white"></div>
+			<div class="corner-white2"></div>
+			<div class="box-money">
+				<h1 class="moneytext" id="moneytext">$1000000</h1>
+			</div>
+			<div class="boxbuying">
+				<div class="container-item">
+					<h1 class="Bauer-Item">Apfel</h1>
+					<div class="strich-item"></div>
+					<div class="container-item-preis">
+						<h1 class="Preis-Bauern">100$</h1>
+					</div>
+					<div class="img-container">
+						<img src="src/apfel.png" class="imgbild" alt="" />
+					</div>
+					<button class="button-down">Kaufen</button>
+				</div>
+			</div>
+		</div>
+		<div class="bos-menu-mechaniker">
+			<h1 class="mechaniker-bosstext">Dein Business</h1>
+			<div class="rec-boss"></div>
+			<div class="mainpage-boss">
+				<h1 class="guthaben-boss">Dein Guthaben:</h1>
+				<h1 class="geld-boss" id="geld-boss">1000000$</h1>
+
+				<div class="übersicht-boss">
+					<h1 class="text-übersichtboss" id="familienname">
+						Famlilien Name: LCN
+					</h1>
+					<h1 class="text-übersichtboss" id="standort">
+						Standort: Playboy Villa
+					</h1>
+					<h1 class="text-übersichtboss" id="businnes">
+						Business: Illigal
+					</h1>
+					<h1 class="text-übersichtboss"></h1>
+				</div>
+				<div class="activemembers">
+					<h1 class="activememberscount" id="membercount">1</h1>
+					<h1 class="text-bos" id="textbos2">Angstellte</h1>
+				</div>
+				<div class="offlinemembers">
+					<h1 class="offlinememberscount">1</h1>
+					<h1 class="text-bos">Business Owner</h1>
+				</div>
+
+				<div class="buttons-boss">
+					<div class="button-container-boss" id="angestellte">
+						<img
+							src="src/outline_people_white_36dp.png"
+							class="symbols-boss"
+							alt=""
+						/>
+						<h1 class="text-button-boss">Angestellte</h1>
+					</div>
+
+					<div class="button-container-boss" id="lohn">
+						<img
+							src="src/outline_attach_money_white_36dp.png"
+							class="symbols-boss"
+							alt=""
+						/>
+						<h1 class="text-button-boss">Lohn</h1>
+					</div>
+					<div class="button-container-boss" id="geld-bosstaken">
+						<img
+							src="src/outline_attach_money_white_36dp.png"
+							class="symbols-boss"
+							alt=""
+						/>
+						<h1 class="text-button-boss">Geld</h1>
+					</div>
+				</div>
+			</div>
+
+			<div class="lohnsite">
+				<h1 class="mechaniker-bosstext">Dein Business</h1>
+				<div class="rec-boss"></div>
+				<button type="button" class="buton-reset">Zurück</button>
+				<h1 class="aktiverechnungentext">Stelle deine Löhne ein:</h1>
+				<div class="container-lohn">
+					<div class="container-lohn-manage">
+						<h1 class="text-rängeübersichtlohn">5. Chef</h1>
+						<input
+							class="inputt-Iban"
+							id="cheflohn"
+							placeholder="Lohn"
+						/>
+						<button type="button" name="chef" class="buton-apply">
+							Bestätigen
+						</button>
+					</div>
+					<div class="container-lohn-manage">
+						<h1 class="text-rängeübersichtlohn">4. Meister</h1>
+						<input
+							class="inputt-Iban"
+							id="meisterlohn"
+							placeholder="Lohn"
+						/>
+						<button
+							type="button"
+							name="meister"
+							class="buton-apply"
+						>
+							Bestätigen
+						</button>
+					</div>
+					<div class="container-lohn-manage">
+						<h1 class="text-rängeübersichtlohn">3. Geselle</h1>
+						<input
+							class="inputt-Iban"
+							id="gesellelohn"
+							placeholder="Lohn"
+						/>
+						<button
+							type="button"
+							name="geselle"
+							class="buton-apply"
+						>
+							Bestätigen
+						</button>
+					</div>
+					<div class="container-lohn-manage">
+						<h1 class="text-rängeübersichtlohn">2. Lehrling</h1>
+						<input
+							class="inputt-Iban"
+							id="lehrlinglohn"
+							placeholder="Lohn"
+						/>
+						<button
+							type="button"
+							name="lehrling"
+							class="buton-apply"
+						>
+							Bestätigen
+						</button>
+					</div>
+					<div class="container-lohn-manage">
+						<h1 class="text-rängeübersichtlohn">1. Praktikant</h1>
+						<input
+							class="inputt-Iban"
+							id="praktilohn"
+							placeholder="Lohn"
+						/>
+						<button
+							type="button"
+							name="praktikant"
+							class="buton-apply"
+						>
+							Bestätigen
+						</button>
+					</div>
+				</div>
+			</div>
+			<div class="angestellte-list">
+				<h1 class="mechaniker-bosstext">Dein Business</h1>
+				<div class="rec-boss"></div>
+				<button type="button" class="buton-reset">Zurück</button>
+				<h1 class="aktiverechnungentext">Manage deine Angestellten:</h1>
+				<div class="container-angestellte">
+					<div class="container-angestellte-id">
+						<h1 class="name-manage">Chrisi Espasito</h1>
+						<h1 class="rank">Associates</h1>
+						<button type="button" class="button-rankup">
+							Uprank
+						</button>
+						<button type="button" class="button-rankdown">
+							Downrank
+						</button>
+						<button type="button" class="button-feuern">
+							Feuern
+						</button>
+					</div>
+					<div class="container-angestellte-id">
+						<h1 class="name-manage">Jack der Kek</h1>
+						<button type="button" class="button-rankup">
+							Uprank
+						</button>
+						<button type="button" class="button-rankdown">
+							Downrank</button
+						><button type="button" class="button-feuern">
+							Feuern
+						</button>
+					</div>
+					<div class="container-angestellte-id"></div>
+					<div class="container-angestellte-id"></div>
+					<div class="container-angestellte-id"></div>
+					<div class="container-angestellte-id"></div>
+				</div>
+			</div>
+			<div class="geld-taken">
+				<h1 class="mechaniker-bosstext">Dein Business</h1>
+				<div class="rec-boss"></div>
+				<button type="button" class="buton-reset">Zurück</button>
+				<h1 class="aktiverechnungentext">Manage dein Geld:</h1>
+				<div class="input-field">
+					<h1 class="geld-texteingeben">Betrag fürs Einzahlen</h1>
+					<img src="src/wallet.png" class="wallet" alt="" />
+					<input
+						class="inputt-businnes"
+						id="auszahlinputt1"
+						placeholder="0$"
+					/>
+					<img src="src/circle.png" class="circle2" alt="" />
+					<img src="src/circle.png" class="circle3" alt="" />
+				</div>
+				<button type="button" class="auszahlbutton1" id="submitbutton">
+					Bestätigen
+				</button>
+				<div class="input-field2">
+					<h1 class="geld-texteingeben2">Betrag fürs Auszahlen</h1>
+					<img src="src/wallet.png" class="wallet" alt="" />
+					<input
+						class="inputt-businnes"
+						id="auszahlinputt12"
+						placeholder="0$"
+					/>
+					<img src="src/circle.png" class="circle2" alt="" />
+					<img src="src/circle.png" class="circle3" alt="" />
+				</div>
+				<button
+					type="button"
+					class="auszahlbutton12"
+					id="submitbutton2"
+				>
+					Bestätigen
+				</button>
+			</div>
+		</div>
+	</body>
+	<script src="index.js"></script>
+</html>

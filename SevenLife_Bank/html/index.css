@@ -1,0 +1,1570 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Estonia&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Radio+Canada&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hurricane&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Goldman&family=Radio+Canada&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+.normalbank {
+	position: absolute;
+	width: 66vw;
+	height: 80vh;
+	left: 18vw;
+	top: 11vh;
+	background-color: rgba(255, 0, 0, 0);
+}
+.bankcard {
+	position: absolute;
+	width: 20vw;
+	height: 25vh;
+	border-radius: 1vw;
+	overflow: hidden;
+	background: linear-gradient(to right, rgb(127, 127, 127), rgb(56, 56, 56));
+}
+.circle {
+	position: absolute;
+	width: 15vw;
+	top: -10vh;
+	z-index: 1;
+	left: -3vw;
+}
+.circle1 {
+	position: absolute;
+	width: 15vw;
+	top: 10vh;
+	z-index: 1;
+	left: 10vw;
+}
+.name {
+	position: absolute;
+	font-family: "Goldman", cursive;
+	color: white;
+	top: 0.5vh;
+	z-index: 3;
+	display: block;
+	left: 1vw;
+	width: 18vw;
+	background-color: rgba(255, 0, 0, 0);
+	font-size: 1.6vw;
+}
+.debit {
+	position: absolute;
+	top: 7vh;
+	left: 1vw;
+	width: 3.5vw;
+}
+.wifi {
+	position: absolute;
+	top: 7.4vh;
+	left: 4.8vw;
+	width: 2.1vw;
+	transform: rotate(90deg);
+}
+.banklogo {
+	position: absolute;
+	bottom: 1vh;
+	right: 0.6vw;
+	width: 3.5vw;
+}
+.unterbankcard {
+	position: absolute;
+	width: 20vw;
+	height: 45vh;
+	top: 27vh;
+	left: 0vw;
+	border-radius: 0.1vw;
+	overflow: hidden;
+	background: rgba(9, 9, 9, 0.921);
+}
+.guthabentext {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 1vw;
+	top: 0vh;
+	width: 10.5vw;
+	height: 3.5vh;
+	background-color: rgba(255, 0, 0, 0);
+	overflow: hidden;
+	font-size: 1.6vw;
+	font-family: "Roboto", sans-serif;
+}
+.creditcard {
+	position: absolute;
+	top: 5.5vh;
+	left: 1vw;
+	width: 2.5vw;
+}
+.untenlinie {
+	position: absolute;
+	background-color: rgb(65, 65, 65);
+	height: 0.2vh;
+	width: 17vw;
+	left: 1vw;
+	top: 11vh;
+}
+.sevencardtext {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 4vw;
+	top: 4.9vh;
+	width: 10.5vw;
+	height: 3.5vh;
+	background-color: rgba(255, 0, 0, 0);
+	overflow: hidden;
+	font-size: 1.2vw;
+	font-family: "Roboto", sans-serif;
+}
+.guthaben {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 10.2vw;
+	top: 4.9vh;
+	width: 8vw;
+	height: 3.5vh;
+	background-color: rgba(255, 0, 0, 0);
+	overflow: hidden;
+	text-align: right;
+	font-size: 1.2vw;
+	font-family: "Roboto", sans-serif;
+}
+.kreis {
+	position: absolute;
+	width: 3.5vw;
+	border-radius: 5vw;
+	height: 6vh;
+	top: 13vh;
+	left: 1vw;
+	background-color: rgb(70, 70, 70);
+}
+.untenlinie1 {
+	position: absolute;
+	background-color: rgb(65, 65, 65);
+	height: 0.2vh;
+	width: 17vw;
+	left: 1vw;
+	top: 21vh;
+}
+.head {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 1.2vw;
+	top: -0.8vh;
+	width: 10.5vw;
+	height: 3.5vh;
+	background-color: rgba(255, 0, 0, 0);
+	overflow: hidden;
+	font-size: 1.6vw;
+	font-family: "Roboto", sans-serif;
+}
+.iban-nummer {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 10.2vw;
+	top: 13.4vh;
+	width: 8vw;
+	height: 3.5vh;
+	background-color: rgba(255, 0, 0, 0);
+	overflow: hidden;
+	text-align: right;
+	font-size: 1.2vw;
+	font-family: "Roboto", sans-serif;
+}
+.iban-text {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 0vw;
+	top: 13.4vh;
+	width: 8vw;
+	height: 3.5vh;
+	background-color: rgba(255, 0, 0, 0);
+	overflow: hidden;
+	text-align: right;
+	font-size: 1.2vw;
+	font-family: "Roboto", sans-serif;
+}
+.kreis1 {
+	position: absolute;
+	width: 3.5vw;
+	border-radius: 5vw;
+	height: 6vh;
+	top: 23vh;
+	left: 1vw;
+	background-color: rgb(70, 70, 70);
+}
+.head1 {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 1.35vw;
+	top: -0.8vh;
+	width: 10vw;
+	height: 3.5vh;
+	background-color: rgba(255, 0, 0, 0);
+	overflow: hidden;
+	font-size: 1.6vw;
+	font-family: "Roboto", sans-serif;
+}
+.zahlart-nummer {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	right: -3.2vw;
+	top: 23.4vh;
+	width: 8vw;
+	height: 3.5vh;
+	background-color: rgba(255, 0, 0, 0);
+	overflow: hidden;
+	font-size: 1.2vw;
+	font-family: "Roboto", sans-serif;
+}
+.zahlart-text {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 5.5vw;
+	top: 23.4vh;
+	width: 8vw;
+	height: 3.5vh;
+	background-color: rgba(255, 0, 0, 0);
+	overflow: hidden;
+	font-size: 1.2vw;
+	font-family: "Roboto", sans-serif;
+}
+
+.rechts {
+	position: absolute;
+	width: 48vw;
+	height: 72vh;
+	top: 0vh;
+	left: 21vw;
+	border-radius: 0.5vw;
+	overflow: hidden;
+	background: rgba(9, 9, 9, 0.921);
+}
+.oben {
+	position: absolute;
+	width: 48vw;
+	height: 8vh;
+	top: 0vh;
+	overflow: hidden;
+	border-bottom: 0.2vw solid black;
+	background: rgba(60, 60, 60, 0.921);
+}
+.banklogo1 {
+	position: absolute;
+	top: 0vh;
+	right: 0.8vw;
+	width: 4.6vw;
+}
+.bankautomattext {
+	position: absolute;
+	font-family: "Goldman", cursive;
+	color: white;
+	top: -0.5vh;
+	z-index: 3;
+	display: block;
+	left: 1vw;
+	width: 18vw;
+	background-color: rgba(255, 0, 0, 0);
+	font-size: 2vw;
+}
+.links {
+	position: absolute;
+	width: 14vw;
+	height: 63.6vh;
+	top: 8.4vh;
+	overflow: hidden;
+	background: rgba(46, 46, 46, 0.921);
+}
+.apteil-container {
+	position: absolute;
+	width: 14vw;
+	height: 63.6vh;
+	top: 0vh;
+	overflow: hidden;
+	background: rgba(255, 9, 9, 0);
+}
+#apteil {
+	position: relative;
+	width: 12.5vw;
+	display: inline-block;
+	left: 1vw;
+	margin-top: 1vh;
+	border-radius: 1vw;
+	cursor: pointer;
+	height: 7vh;
+	background-color: rgba(26, 25, 25, 0.664);
+}
+#apteil:hover {
+	background-color: rgb(54, 53, 53);
+}
+.textapteil {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 0.7vw;
+	top: 0.2vh;
+	height: 3.5vh;
+	background-color: rgba(255, 0, 0, 0);
+	overflow: hidden;
+	font-size: 1.4vw;
+	font-family: "Goldman", cursive;
+}
+
+.input-field {
+	position: absolute;
+	width: 31vw;
+	height: 25vh;
+	background-color: rgb(23, 23, 23);
+	left: 1vw;
+	top: 8vh;
+	overflow: hidden;
+	box-shadow: rgba(255, 255, 255, 0.153) 0.1vw 0.1vw 0.5vw 0.5vw;
+	border-radius: 1vw;
+}
+.geld-texteingeben {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 1vw;
+	top: -1vh;
+	background-color: rgba(255, 0, 0, 0);
+	overflow: hidden;
+	font-size: 1.7vw;
+	font-family: "Open Sans", sans-serif;
+}
+.wallet {
+	position: absolute;
+	top: 0.6vh;
+	right: 1vw;
+	width: 3vw;
+}
+.inputt {
+	border: none;
+	-webkit-appearance: none;
+	padding: 3px;
+	position: relative;
+	left: 1vw;
+	top: 8vh;
+	width: 28vw;
+	color: white;
+	font-family: "Bebas Neue", cursive;
+	height: 10vh;
+	text-align: center;
+	z-index: 29;
+	font-size: 3vw;
+	background-color: rgba(26, 26, 26, 0.67);
+	outline: none;
+}
+.inputt:hover {
+	transition: all 1s;
+	border-bottom: 0.1vw solid orange;
+}
+.circle3 {
+	position: absolute;
+	width: 15vw;
+	top: -8vh;
+	z-index: 1;
+	left: 23vw;
+}
+.textsteuern {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 2vw;
+	top: 26.8vh;
+	background-color: rgba(255, 0, 0, 0);
+	overflow: hidden;
+	font-size: 1.1vw;
+	font-family: "Open Sans", sans-serif;
+}
+.textsteuern2 {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 19.5vw;
+	top: 26.8vh;
+	background-color: rgba(255, 0, 0, 0);
+	overflow: hidden;
+	font-size: 1.1vw;
+	font-family: "Open Sans", sans-serif;
+}
+#submitbutton {
+	position: relative;
+	left: 1vw;
+	top: 41.5vh;
+	width: 15vw;
+	border: none;
+	height: 10vh;
+	z-index: 29;
+	font-size: 1.8vw;
+	background-color: rgb(127, 45, 0);
+	outline: none;
+	cursor: pointer;
+	color: #ffffff;
+	outline: none;
+	border-radius: 0.5vw;
+}
+#submitbutton:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	background-color: rgba(93, 58, 0, 0.808);
+}
+.infos {
+	position: absolute;
+	top: 35vh;
+	left: 1.1vw;
+	width: 2.5vw;
+}
+.textinfo {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 4.5vw;
+	top: 34.4vh;
+	background-color: rgba(255, 0, 0, 0);
+	overflow: hidden;
+	font-size: 1.1vw;
+	font-family: "Open Sans", sans-serif;
+}
+.Geldeinzahlentext {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 1vw;
+	top: -2vh;
+	background-color: rgba(255, 0, 0, 0);
+	overflow: hidden;
+	font-size: 2.4vw;
+	font-family: "Goldman", cursive;
+}
+.rechts-einstellungen {
+	position: absolute;
+	width: 33vw;
+	height: 56vh;
+	left: 35.5vw;
+	top: 9vh;
+	background-color: rgba(255, 0, 0, 0);
+}
+.rechteck {
+	position: relative;
+	transform: skew(20deg);
+	border-left: 2px solid rgb(143, 0, 124);
+	border-right: 2px solid rgb(143, 0, 124);
+	width: 29.5vw;
+	top: 6.5vh;
+	height: 9vh;
+	left: 1.5vw;
+	background-color: #252525;
+}
+.rechtecktext {
+	position: relative;
+	font-family: "Shippori Antique", sans-serif;
+	color: rgb(211, 211, 211);
+	top: 0.2vh;
+	background: none;
+	left: 2vw;
+	width: 28vw;
+	background-color: rgba(255, 0, 0, 0);
+
+	letter-spacing: 1px;
+	transform: skew(-20deg);
+	font-size: 1vw;
+}
+#zweiterrechteck {
+	top: 40vh;
+	transform: skew(-20deg);
+}
+#zweitertext {
+	transform: skew(20deg);
+	top: 1.5vh;
+	width: 28vw;
+	font-size: 1vw;
+}
+.submitbuttonsees {
+	position: absolute;
+	left: 2.3vw;
+	top: 41vh;
+	width: 29.5vw;
+	height: 8vh;
+	z-index: 29;
+	font-size: 4vh;
+	background-color: rgb(127, 45, 0);
+	outline: none;
+	cursor: pointer;
+	border-radius: 10vh;
+	border: none;
+	color: #ffffff;
+	font-family: "Goldman", cursive;
+	border-radius: 5px;
+	outline: none;
+	z-index: 29;
+}
+.submitbuttonsees:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	background-color: rgba(20, 24, 36, 0.808);
+}
+.inputtee {
+	border: none;
+	-webkit-appearance: none;
+	padding: 3px;
+	position: absolute;
+	left: 2.3vw;
+	top: 19vh;
+	width: 29.5vw;
+	color: white;
+	font-family: "Bebas Neue", cursive;
+	height: 8vh;
+	text-align: center;
+	z-index: 29;
+	font-size: 3vw;
+	background-color: rgba(26, 26, 26, 0.67);
+	outline: none;
+}
+.inputtee:hover {
+	box-shadow: 3px 3px 3px black;
+	background-color: rgba(20, 24, 36, 0.5);
+	transition: color 0.6 ease;
+}
+.inputtee:focus::placeholder {
+	color: transparent;
+}
+.inputtee::placeholder {
+	color: white;
+	transition: color 0.3s ease;
+}
+.inputteeseses {
+	border: none;
+	-webkit-appearance: none;
+	padding: 3px;
+	position: absolute;
+	left: 2.3vw;
+	top: 29.5vh;
+	width: 29.5vw;
+	color: white;
+	font-family: "Bebas Neue", cursive;
+	height: 8vh;
+	text-align: center;
+	z-index: 29;
+	font-size: 3vw;
+	background-color: rgba(26, 26, 26, 0.67);
+	outline: none;
+}
+.inputteeseses:hover {
+	box-shadow: 3px 3px 3px black;
+	background-color: rgba(20, 24, 36, 0.5);
+	transition: color 0.6 ease;
+}
+.inputteeseses:focus::placeholder {
+	color: transparent;
+}
+.inputteeseses::placeholder {
+	color: white;
+	transition: color 0.3s ease;
+}
+
+/* Anmelde Frame */
+.anmeldeframecontainer {
+	position: absolute;
+	width: 60vw;
+	left: 20vw;
+	top: 15vh;
+	height: 60vh;
+	background-color: rgb(24, 24, 24);
+	border-radius: 1vw;
+}
+.bankcard4 {
+	position: absolute;
+	width: 20vw;
+	height: 25vh;
+	top: 10vh;
+	left: 2vw;
+	border-radius: 1vw;
+	overflow: hidden;
+	background: linear-gradient(to right, rgb(127, 127, 127), rgb(56, 56, 56));
+}
+.texttitelanmelde {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 2vw;
+	top: 0vh;
+	background-color: rgba(255, 0, 0, 0);
+	overflow: hidden;
+	font-size: 2vw;
+	font-family: "Goldman", cursive;
+}
+.obenreiche {
+	position: absolute;
+	width: 60vw;
+	height: 8vh;
+	top: 0vh;
+	border-top-left-radius: 1vw;
+	border-top-right-radius: 1vw;
+	overflow: hidden;
+	border-bottom: 0.2vw solid black;
+	background: rgba(60, 60, 60, 0.921);
+}
+.infotext {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 2.1vw;
+	width: 19.9vw;
+
+	text-align: center;
+	top: 36.4vh;
+	background-color: rgba(255, 0, 0, 0);
+	overflow: hidden;
+	font-size: 1.4vw;
+	font-family: "Roboto", sans-serif;
+}
+.inputname {
+	border: none;
+	-webkit-appearance: none;
+	padding: 3px;
+	position: absolute;
+	left: 26.3vw;
+	top: 12vh;
+	width: 29.5vw;
+	color: white;
+	font-family: "Bebas Neue", cursive;
+	height: 8vh;
+	text-align: center;
+	z-index: 29;
+	font-size: 3vw;
+	background-color: rgba(48, 48, 48, 0.67);
+	outline: none;
+}
+.inputname:hover {
+	box-shadow: 3px 3px 3px black;
+	background-color: rgba(20, 24, 36, 0.5);
+	transition: color 0.6 ease;
+}
+.inputname:focus::placeholder {
+	color: transparent;
+}
+.inputname::placeholder {
+	color: white;
+	transition: color 0.3s ease;
+}
+.inputnachname {
+	border: none;
+	-webkit-appearance: none;
+	padding: 3px;
+	position: absolute;
+	left: 26.3vw;
+	top: 23vh;
+	width: 29.5vw;
+	color: white;
+	font-family: "Bebas Neue", cursive;
+	height: 8vh;
+	text-align: center;
+	z-index: 29;
+	font-size: 3vw;
+	background-color: rgba(48, 48, 48, 0.67);
+	outline: none;
+}
+.inputnachname:hover {
+	box-shadow: 3px 3px 3px black;
+	background-color: rgba(20, 24, 36, 0.5);
+	transition: color 0.6 ease;
+}
+.inputnachname:focus::placeholder {
+	color: transparent;
+}
+.inputnachname::placeholder {
+	color: white;
+	transition: color 0.3s ease;
+}
+
+.kontoanmeldebutton {
+	position: absolute;
+	left: 26.3vw;
+	top: 49vh;
+	width: 29.5vw;
+	height: 8vh;
+	z-index: 29;
+	font-size: 4vh;
+	background-color: rgb(127, 45, 0);
+	outline: none;
+	cursor: pointer;
+	border-radius: 10vh;
+	border: none;
+	color: #ffffff;
+	font-family: "Goldman", cursive;
+	border-radius: 5px;
+	outline: none;
+	z-index: 29;
+}
+.kontoanmeldebutton:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	background-color: rgba(20, 24, 36, 0.808);
+}
+.infose {
+	position: absolute;
+	top: 36vh;
+	left: 26.1vw;
+	width: 2.5vw;
+}
+.textinfoe {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 30vw;
+	top: 34.4vh;
+	width: 25vw;
+	background-color: rgba(255, 0, 0, 0);
+	overflow: hidden;
+	font-size: 1.1vw;
+	font-family: "Open Sans", sans-serif;
+}
+
+.mainbank {
+	position: absolute;
+	width: 66vw;
+	height: 80vh;
+	left: 18vw;
+	top: 11vh;
+	background-color: rgba(255, 0, 0, 0);
+}
+.box-karte-container {
+	position: absolute;
+	width: 31vw;
+	height: 53vh;
+	left: 1vw;
+	top: 8vh;
+	border-radius: 1vw;
+	background-color: rgb(58, 58, 58);
+}
+.bankcard1 {
+	position: absolute;
+	width: 12vw;
+	height: 13vh;
+	left: 1vw;
+	top: 2vh;
+	border-radius: 1vw;
+	overflow: hidden;
+	border: 0.1vw solid black;
+	background: linear-gradient(to right, rgb(127, 127, 127), rgb(56, 56, 56));
+}
+.bankcard2 {
+	position: absolute;
+	width: 12vw;
+	height: 13vh;
+	left: 1vw;
+	top: 20vh;
+	border-radius: 1vw;
+	overflow: hidden;
+	border: 0.1vw solid black;
+	background: linear-gradient(to right, rgb(92, 60, 0), rgb(214, 114, 0));
+}
+.bankcard3 {
+	position: absolute;
+	width: 12vw;
+	height: 13vh;
+	left: 1vw;
+	top: 37.5vh;
+	border-radius: 1vw;
+	overflow: hidden;
+	border: 0.1vw solid black;
+	background: linear-gradient(to right, rgb(114, 105, 0), rgb(228, 236, 0));
+}
+.name1 {
+	position: absolute;
+	font-family: "Goldman", cursive;
+	color: white;
+	top: 1vh;
+	z-index: 3;
+	display: block;
+	left: 1vw;
+	width: 18vw;
+	background-color: rgba(255, 0, 0, 0);
+	font-size: 1.1vw;
+}
+.name2 {
+	position: absolute;
+	font-family: "Goldman", cursive;
+	color: white;
+	top: 1vh;
+	z-index: 3;
+	display: block;
+	left: 1vw;
+	width: 18vw;
+	background-color: rgba(255, 0, 0, 0);
+	font-size: 1.1vw;
+}
+.name3 {
+	position: absolute;
+	font-family: "Goldman", cursive;
+	color: white;
+	top: 1vh;
+	z-index: 3;
+	display: block;
+	left: 1vw;
+	width: 18vw;
+	background-color: rgba(255, 0, 0, 0);
+	font-size: 1.1vw;
+}
+.textmain {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 8vw;
+	width: 20vw;
+
+	text-align: center;
+	top: -0.5vh;
+	background-color: rgba(255, 0, 0, 0);
+	overflow: hidden;
+	font-size: 1.4vw;
+	font-family: "Goldman", cursive;
+}
+.textmain1 {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 8.5vw;
+	width: 19.9vw;
+
+	text-align: center;
+	top: 17.5vh;
+	background-color: rgba(255, 0, 0, 0);
+	overflow: hidden;
+	font-size: 1.4vw;
+	font-family: "Goldman", cursive;
+}
+.textmain2 {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 8.5vw;
+	width: 19.9vw;
+
+	text-align: center;
+	top: 35vh;
+	background-color: rgba(255, 0, 0, 0);
+	overflow: hidden;
+	font-size: 1.4vw;
+	font-family: "Goldman", cursive;
+}
+.vorteil {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 14vw;
+	top: 3.48vh;
+	width: 25vw;
+	background-color: rgba(255, 0, 0, 0);
+	overflow: hidden;
+	font-size: 1.1vw;
+	font-family: "Open Sans", sans-serif;
+}
+.vorteil2 {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 14vw;
+	top: 21.2vh;
+	width: 25vw;
+	background-color: rgba(255, 0, 0, 0);
+	overflow: hidden;
+	font-size: 1.1vw;
+	font-family: "Open Sans", sans-serif;
+}
+.vorteil3 {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 14vw;
+	top: 38.9vh;
+	width: 25vw;
+	background-color: rgba(255, 0, 0, 0);
+	overflow: hidden;
+	font-size: 1.1vw;
+	font-family: "Open Sans", sans-serif;
+}
+.preises {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 14vw;
+	top: 7vh;
+	width: 8vw;
+	height: 3.5vh;
+	background-color: rgba(255, 0, 0, 0);
+	overflow: hidden;
+	font-size: 1.2vw;
+	font-family: "Roboto", sans-serif;
+}
+.preises1 {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 14vw;
+	top: 24.5vh;
+	width: 8vw;
+	height: 3.5vh;
+	background-color: rgba(255, 0, 0, 0);
+	overflow: hidden;
+	font-size: 1.2vw;
+	font-family: "Roboto", sans-serif;
+}
+.preises2 {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 14vw;
+	top: 42vh;
+	width: 8vw;
+	height: 3.5vh;
+	background-color: rgba(255, 0, 0, 0);
+	overflow: hidden;
+	font-size: 1.2vw;
+	font-family: "Roboto", sans-serif;
+}
+.sevencard {
+	position: absolute;
+	left: 14vw;
+	top: 11.8vh;
+	width: 14vw;
+	border: none;
+	height: 5vh;
+	z-index: 29;
+	font-size: 1.4vw;
+	background-color: rgb(127, 45, 0);
+	outline: none;
+	cursor: pointer;
+	color: #ffffff;
+	outline: none;
+	border-radius: 0.5vw;
+}
+.sevencard:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	background-color: rgba(93, 58, 0, 0.808);
+}
+.bronzecard {
+	position: absolute;
+	left: 14vw;
+	top: 29.1vh;
+	width: 14vw;
+	border: none;
+	height: 5vh;
+	z-index: 29;
+	font-size: 1.4vw;
+	background-color: rgb(127, 45, 0);
+	outline: none;
+	cursor: pointer;
+	color: #ffffff;
+	outline: none;
+	border-radius: 0.5vw;
+}
+.bronzecard:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	background-color: rgba(93, 58, 0, 0.808);
+}
+.goldecard {
+	position: absolute;
+	left: 14vw;
+	top: 47vh;
+	width: 14vw;
+	border: none;
+	height: 5vh;
+	z-index: 29;
+	font-size: 1.8vw;
+	background-color: rgb(127, 45, 0);
+	outline: none;
+	cursor: pointer;
+	color: #ffffff;
+	outline: none;
+	border-radius: 0.5vw;
+}
+.goldecard:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	background-color: rgba(93, 58, 0, 0.808);
+}
+.outframe {
+	position: absolute;
+	width: 100%;
+	height: 50vh;
+	background-color: rgb(65, 65, 65);
+	top: 13vh;
+	border-top-left-radius: 2vw;
+	border-top-right-radius: 2vw;
+	left: 0vw;
+}
+.inframe {
+	position: absolute;
+	width: 95%;
+	height: 45vh;
+	background-color: rgb(31, 31, 31);
+	top: 5vh;
+	border-top-left-radius: 2vw;
+	border-top-right-radius: 2vw;
+	left: 0.8vw;
+}
+
+.container-frame {
+	position: relative;
+	height: 43vh;
+	border-radius: 1vw;
+	overflow-x: hidden;
+	width: 30.5vw;
+	overflow-y: scroll;
+	background-color: rgba(14, 0, 206, 0);
+	left: 0.2vw;
+	top: 1.5vh;
+}
+.container-frame::-webkit-scrollbar {
+	width: 0.6vw;
+}
+
+.container-frame::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background-color: rgba(255, 255, 255, 0.294);
+}
+
+.container-frame::-webkit-scrollbar-thumb {
+	background-color: #202020;
+	border-radius: 2vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.185) 0 3px 13px 1px;
+}
+.infos3 {
+	position: absolute;
+	top: 7vh;
+	left: 1.1vw;
+	width: 2.5vw;
+}
+.textinfo3 {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 4.5vw;
+	top: 6.5vh;
+	background-color: rgba(255, 0, 0, 0);
+	overflow: hidden;
+	font-size: 1.1vw;
+	font-family: "Open Sans", sans-serif;
+}
+.transferapteil {
+	position: relative;
+	display: inline-block;
+	width: 29vw;
+	height: 7vh;
+	left: 0.5vw;
+	border-radius: 1vw;
+	background-color: rgb(23, 23, 23);
+}
+.bilde {
+	position: absolute;
+	width: 2.6vw;
+	left: 0.4vw;
+	top: 1vh;
+}
+.geldfluss {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 4vw;
+	width: 10vw;
+
+	top: -1.2vh;
+	text-align: left;
+	background-color: rgba(255, 0, 0, 0);
+	overflow: hidden;
+	font-size: 2vw;
+	font-family: "Goldman", cursive;
+}
+.banklogos {
+	position: absolute;
+	top: 0.2vh;
+	right: 0.6vw;
+	width: 3.5vw;
+}
+.ibanfluss {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 17vw;
+	width: 7vw;
+	top: -1.2vh;
+	text-align: left;
+	background-color: rgba(255, 0, 0, 0);
+	overflow: hidden;
+	font-size: 2vw;
+	font-family: "Goldman", cursive;
+}
+.types {
+	position: absolute;
+	top: 0.2vh;
+	left: 2.2vw;
+	width: 2.4vw;
+}
+.money {
+	position: absolute;
+	top: 0.2vh;
+	left: 7.5vw;
+	width: 2.4vw;
+}
+.plus {
+	position: absolute;
+	top: 0.2vh;
+	left: 18.6vw;
+	width: 2.4vw;
+}
+.inputbenutzer {
+	border: none;
+	-webkit-appearance: none;
+	padding: 3px;
+	position: absolute;
+	left: 4.6vw;
+	width: 23vw;
+	top: 22.5vh;
+	color: white;
+	font-family: "Bebas Neue", cursive;
+	height: 4.9vh;
+	text-align: center;
+	z-index: 29;
+	font-size: 1.7vw;
+	background-color: rgba(51, 51, 51, 0.192);
+	outline: none;
+	border-radius: 0.2vw;
+}
+.inputbenutzer:hover {
+	transition: color 0.6 ease;
+}
+.inputbenutzer:focus::placeholder {
+	color: transparent;
+}
+.inputbenutzer::placeholder {
+	color: white;
+	transition: color 0.3s ease;
+}
+.inputps {
+	border: none;
+	-webkit-appearance: none;
+	padding: 3px;
+	position: absolute;
+	left: 4.6vw;
+	width: 23vw;
+	top: 29.5vh;
+	color: white;
+	font-family: "Bebas Neue", cursive;
+	height: 4.9vh;
+	text-align: center;
+	z-index: 29;
+	font-size: 1.7vw;
+	background-color: rgba(51, 51, 51, 0.192);
+	outline: none;
+	border-radius: 0.2vw;
+}
+.inputps:hover {
+	transition: color 0.6 ease;
+}
+.inputps:focus::placeholder {
+	color: transparent;
+}
+.inputps::placeholder {
+	color: white;
+	transition: color 0.3s ease;
+}
+.SubmitbuttonLoginCrypto {
+	position: absolute;
+	left: 7.6vw;
+	top: 37.5vh;
+	width: 16.25vw;
+	height: 5vh;
+
+	padding: 3px;
+	z-index: 29;
+	display: inline-block;
+	font-size: 1.3vw;
+	background-color: rgba(66, 66, 66, 0.575);
+	outline: none;
+	cursor: pointer;
+	border-radius: 0.6vw;
+	color: #ffffff;
+	border: none;
+	border-radius: 5px;
+	outline: none;
+	z-index: 29;
+}
+.SubmitbuttonLoginCrypto:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	background-color: rgba(87, 87, 87, 0.808);
+}
+.CryptoBild {
+	position: absolute;
+	width: 7vw;
+	left: 12vw;
+	top: 2vh;
+}
+.powered {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 4vw;
+	top: 50.5vh;
+	background-color: rgba(255, 0, 0, 0);
+	overflow: hidden;
+	font-size: 1.6vw;
+	font-family: "Goldman", cursive;
+}
+.crypto-name {
+	position: absolute;
+	font-family: "Goldman", cursive;
+	color: white;
+	top: 14vh;
+	margin-top: vh;
+	z-index: 3;
+	display: block;
+	left: 10vw;
+	font-size: 1.7vw;
+}
+.Name-crypto {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 1vw;
+	top: -1vh;
+	background-color: rgba(255, 0, 0, 0);
+	overflow: hidden;
+	font-size: 2vw;
+	font-family: "Roboto", sans-serif;
+}
+.übersicht-crypto-text {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 1vw;
+	top: 3.3vh;
+	background-color: rgba(255, 0, 0, 0);
+	overflow: hidden;
+	font-size: 3vw;
+	font-family: "Goldman", cursive;
+}
+.slider-container {
+	position: absolute;
+	top: 15.5vh;
+	left: 3vw;
+	height: 20vh;
+	z-index: 1;
+	overflow-x: hidden;
+	width: 27vw;
+	background-color: rgba(255, 0, 0, 0);
+}
+.sliders {
+	z-index: 2;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	overflow: auto;
+	scroll-snap-type: x mandatory;
+	scroll-behavior: smooth;
+}
+.sliders::-webkit-scrollbar {
+	width: 0vw;
+	height: 0px;
+}
+
+.sliders::-webkit-scrollbar-track {
+	border-radius: 0vw;
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+.sliders::-webkit-scrollbar-thumb {
+	background-color: #202020;
+	border-radius: 2vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.12) 0 3px 13px 1px;
+}
+.sliders .element {
+	min-width: calc((150% - 05px) / 2);
+	border-radius: 1vw;
+	height: 17vh;
+	margin-right: 1vw;
+	scroll-snap-align: start;
+	background-color: rgba(5, 5, 5, 0.288);
+}
+.sliders .element:last-of-type {
+	margin-right: 0;
+}
+.slider-arrows-parent {
+	position: relative;
+	width: 100%;
+}
+.arrows {
+	position: absolute;
+	width: 1vw;
+	height: 1vh;
+	cursor: pointer;
+	font-size: 3.5vw;
+	font-family: "Goldman", cursive;
+	color: rgba(255, 255, 255, 0.212);
+	top: 4vh;
+}
+.arrows:hover {
+	color: white;
+}
+.arrows.left {
+	top: 20vh;
+	left: 0.1vw;
+}
+.arrows.right {
+	top: 20vh;
+	right: 1.5vw;
+}
+.text-kontostand {
+	position: absolute;
+	z-index: 1;
+	color: white;
+	font-size: 1.4vw;
+	top: 17.4vh;
+	text-align: center;
+	left: 1.1vw;
+	font-family: "Roboto", sans-serif;
+}
+.wallet-stand {
+	font-size: 2.8vw;
+	font-family: "Bebas Neue", cursive;
+	color: rgba(173, 173, 173, 0.753);
+	margin-top: -2.5vh;
+	width: 11vw;
+	margin-left: 1vw;
+	overflow: hidden;
+	background-color: rgba(255, 0, 0, 0);
+	letter-spacing: 0.2vw;
+}
+.coinname {
+	margin-top: 1vh;
+	margin-left: 1vw;
+	font-size: 2vw;
+	font-family: "Goldman", cursive;
+	color: rgb(255, 255, 255);
+}
+.name-coin {
+	margin-top: -10.2vh;
+	margin-left: 12.5vw;
+	font-size: 3vw;
+	font-family: "Goldman", cursive;
+	color: rgb(255, 255, 255);
+}
+
+.wachstum {
+	margin-top: -3vh;
+	margin-left: 1vw;
+	font-size: 2.1vw;
+	font-family: "Goldman", cursive;
+	color: rgb(255, 255, 255);
+}
+.markers {
+	margin-top: -8vh;
+	margin-left: 10vw;
+	font-size: 2.8vw;
+	cursor: pointer;
+	font-family: "Goldman", cursive;
+	color: rgb(255, 255, 255);
+}
+.kaufen {
+	margin-top: -8.3vh;
+	margin-left: 11.5vw;
+	font-size: 2.8vw;
+	cursor: pointer;
+	font-family: "Goldman", cursive;
+	color: rgb(255, 255, 255);
+}
+.verkaufen {
+	margin-top: -11vh;
+	margin-left: 17.5vw;
+	font-size: 2.8vw;
+	cursor: pointer;
+	font-family: "Goldman", cursive;
+	color: rgb(255, 255, 255);
+}
+.walletadress {
+	position: absolute;
+	z-index: 1;
+	color: white;
+	font-size: 1.4vw;
+	top: 41.4vh;
+	left: 1.1vw;
+	font-family: "Roboto", sans-serif;
+}
+.addres {
+	position: absolute;
+	z-index: 1;
+	color: white;
+	font-size: 1.4vw;
+	width: 20vw;
+	top: 44.4vh;
+	text-align: center;
+	left: 0.6vw;
+	background-color: rgba(255, 0, 0, 0);
+	overflow: hidden;
+	font-family: "Roboto", sans-serif;
+}
+.unten-container-crypto {
+	position: absolute;
+	width: 33vw;
+	height: 27vh;
+	border-radius: 1vw;
+	background-color: rgb(23, 23, 23);
+	bottom: -6vh;
+}
+.btc {
+	position: absolute;
+	width: 32vw;
+	height: 7vh;
+	top: 1vh;
+	background-color: rgba(12, 12, 12, 0.781);
+	border-radius: 1vw;
+	left: 0.4vw;
+}
+.eth {
+	position: absolute;
+	width: 32vw;
+	height: 7vh;
+	top: 10vh;
+	background-color: rgba(27, 27, 27, 0.919);
+	border-radius: 1vw;
+	left: 0.4vw;
+}
+.seven {
+	position: absolute;
+	width: 32vw;
+	height: 7vh;
+	top: 19vh;
+	background-color: rgba(12, 12, 12, 0.781);
+	border-radius: 1vw;
+	left: 0.4vw;
+}
+.img-crytpo {
+	position: absolute;
+	width: 3vw;
+	top: 0.5vh;
+}
+.img-crytpo1 {
+	position: absolute;
+	width: 3vw;
+	top: 0.8vh;
+}
+.img-crytpo2 {
+	position: absolute;
+	width: 3vw;
+	top: 0.8vh;
+}
+.CryptoBeschreibung {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 3.5vw;
+	top: -1.2vh;
+	text-align: left;
+	background-color: rgba(255, 0, 0, 0);
+	overflow: hidden;
+	font-size: 2vw;
+	font-family: "Goldman", cursive;
+}
+.kauf {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 10.5vw;
+	top: -1.2vh;
+	text-align: left;
+	background-color: rgba(255, 0, 0, 0);
+	overflow: hidden;
+	font-size: 2vw;
+	font-family: "Goldman", cursive;
+}
+.verkauf {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	left: 22.5vw;
+	top: -1.2vh;
+	text-align: left;
+	background-color: rgba(255, 0, 0, 0);
+	overflow: hidden;
+	font-size: 2vw;
+	font-family: "Goldman", cursive;
+}
+.linien-page {
+	position: absolute;
+	width: 19vw;
+	background-color: rgba(255, 0, 0, 0);
+	height: 50vh;
+	top: 10vh;
+	border-bottom: 0.5vh solid white;
+	border-left: 0.5vh solid white;
+}
+.linien-page2 {
+	position: absolute;
+	width: 19vw;
+	background-color: rgba(255, 0, 0, 0);
+	height: 50vh;
+	top: 10vh;
+	left: 13vw;
+	border-top: 0.5vh solid white;
+	border-right: 0.5vh solid white;
+}
+.textauszahlencrypto {
+	position: absolute;
+}
+.textauszahlencrypto {
+	position: absolute;
+	z-index: 1;
+	color: white;
+	font-size: 1.4vw;
+	top: 11vh;
+	width: 30vw;
+	text-align: center;
+	left: 1vw;
+	background-color: rgba(255, 0, 0, 0);
+	overflow: hidden;
+	font-family: "Roboto", sans-serif;
+}
+.inputtes {
+	border: none;
+	-webkit-appearance: none;
+	padding: 3px;
+	position: absolute;
+	left: 3vw;
+	top: 23vh;
+	width: 26vw;
+	color: white;
+	font-family: "Bebas Neue", cursive;
+	height: 7vh;
+	text-align: center;
+	z-index: 29;
+	font-size: 3vw;
+	border-radius: 1vw;
+	background-color: rgba(10, 10, 10, 0.67);
+	outline: none;
+}
+.inputtes:hover {
+	transition: all 1s;
+	border-bottom: 0.1vw solid orange;
+}
+.submitbuttonse {
+	position: relative;
+	left: 3vw;
+	top: 34.5vh;
+	width: 15vw;
+	border: none;
+	height: 10vh;
+	z-index: 29;
+	font-size: 1.8vw;
+	background-color: rgb(127, 45, 0);
+	outline: none;
+	cursor: pointer;
+	color: #ffffff;
+	outline: none;
+	border-radius: 0.5vw;
+}
+.submitbuttonse:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	background-color: rgba(93, 58, 0, 0.808);
+}
+.submitbuttonsees1 {
+	position: absolute;
+	left: 2.4vw;
+	top: 40vh;
+	width: 29.6vw;
+	border: none;
+	height: 7vh;
+	z-index: 29;
+	font-size: 1.8vw;
+	background-color: rgb(127, 45, 0);
+	outline: none;
+	cursor: pointer;
+	color: #ffffff;
+	outline: none;
+	border-radius: 0.5vw;
+}
+.submitbuttonsees1:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	background-color: rgba(93, 58, 0, 0.808);
+}

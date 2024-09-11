@@ -1,0 +1,1558 @@
+@font-face {
+	font-family: "Unbounded";
+	src: url("fonts/Unbounded-ExtraLight.ttf");
+}
+@font-face {
+	font-family: "Lato";
+	src: url("fonts/Lato-Black.ttf");
+}
+@font-face {
+	font-family: "Montserrat";
+	src: url("fonts/Montserrat-Medium.ttf");
+}
+@font-face {
+	font-family: "Goldman";
+	src: url("fonts/Goldman-Regular.ttf");
+}
+@font-face {
+	font-family: "Abel";
+	src: url("fonts/Abel-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Aldrich";
+	src: url("fonts/Aldrich-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Roboto";
+	src: url("fonts/Roboto-MediumItalic.ttf");
+}
+@font-face {
+	font-family: "Khula";
+	src: url("fonts/Khula-Regular.ttf");
+}
+body {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+.container-warnung {
+	position: absolute;
+	width: 20vw;
+	height: 24vh;
+	left: 42vw;
+	top: 30vh;
+	border-radius: 0.4vw;
+	background-color: rgb(27, 27, 27);
+}
+.submitbuttonseedsf {
+	position: absolute;
+	left: 1vw;
+	bottom: 2vh;
+	width: 18vw;
+	height: 6vh;
+	z-index: 29;
+	padding: 0;
+	font-size: 1vw;
+	background-color: rgba(63, 63, 63, 0.287);
+	outline: none;
+	cursor: pointer;
+	border-radius: 0.2vw;
+	border: none;
+	color: #ffffff;
+	font-family: "Aldrich", cursive;
+	letter-spacing: 0.1vw;
+	transform: translate(-1deg);
+	z-index: 29;
+}
+.submitbuttonseedsf:hover {
+	color: #ffffff;
+	transition: 0.5s all;
+	background-color: rgba(198, 10, 164, 0.808);
+}
+.submitbuttonseeds {
+	position: absolute;
+	left: 19.5vw;
+	bottom: 2vh;
+	width: 16.5vw;
+	height: 6vh;
+	z-index: 29;
+	padding: 0;
+	font-size: 1vw;
+	background-color: rgba(63, 63, 63, 0.287);
+	outline: none;
+	cursor: pointer;
+	border-radius: 0.2vw;
+	border: none;
+	color: #ffffff;
+	font-family: "Aldrich", cursive;
+	letter-spacing: 0.1vw;
+	transform: translate(-1deg);
+	z-index: 29;
+}
+.submitbuttonseeds:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	background-color: rgba(198, 10, 164, 0.808);
+}
+.informationbild {
+	position: absolute;
+	width: 1.6vw;
+	top: 1.3vh;
+	left: 1.2vw;
+}
+.textinformation {
+	position: absolute;
+	color: #ffffff;
+	font-size: 1.3vw;
+	font-family: "Aldrich", cursive;
+	text-align: center;
+	width: 100%;
+	background-color: rgba(255, 0, 0, 0);
+	top: 1vh;
+	font-weight: 100;
+}
+.textdetailinformation {
+	position: absolute;
+	color: #ffffff;
+	font-size: 0.9vw;
+	font-family: "Aldrich", cursive;
+	left: 3.5vw;
+	width: 31vw;
+	top: 5vh;
+	font-weight: 100;
+}
+.logogta {
+	position: absolute;
+	width: 3vw;
+	left: 1vw;
+	top: 1vh;
+}
+.linielogo {
+	position: absolute;
+	width: 97%;
+	height: 0.2vh;
+	background-color: rgb(255, 255, 255);
+	left: 1vw;
+	top: 9vh;
+}
+.gradientlogo {
+	position: absolute;
+	top: 0vh;
+	width: 100%;
+	height: 15vh;
+	left: 0vw;
+	z-index: -1;
+	background: rgb(0, 0, 0);
+	background: linear-gradient(
+		180deg,
+		rgba(0, 0, 0, 0.702) 0%,
+		rgba(0, 212, 255, 0) 100%
+	);
+}
+.detailtextabout {
+	position: absolute;
+	color: #ffffff;
+	font-size: 1.2vw;
+	font-family: "Unbounded", cursive;
+	left: 5vw;
+	width: 31vw;
+	top: 2vh;
+	letter-spacing: 0.2vw;
+	font-weight: 1000;
+}
+.textüberischt {
+	position: absolute;
+	color: #ffffff;
+	font-size: 1.2vw;
+	font-family: "Unbounded", cursive;
+	left: 48vw;
+	width: 31vw;
+	top: 2vh;
+	letter-spacing: 0.2vw;
+	font-weight: 1000;
+}
+.loslegens {
+	position: absolute;
+	left: 1vw;
+	bottom: 2vh;
+	width: 20.5vw;
+	height: 6vh;
+	z-index: 29;
+	padding: 0;
+	font-size: 1vw;
+	background-color: rgba(63, 63, 63, 0.287);
+	outline: none;
+	cursor: pointer;
+	border-radius: 0.2vw;
+	border: none;
+	color: #ffffff;
+	font-family: "Aldrich", cursive;
+	letter-spacing: 0.1vw;
+	transform: translate(-1deg);
+	z-index: 29;
+}
+.loslegens:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	background-color: rgba(198, 10, 164, 0.808);
+}
+.container-info {
+	position: absolute;
+	width: 15vw;
+	height: 5vh;
+	border-radius: 0.2vw;
+	top: 24vh;
+	left: 1vw;
+	background-color: rgba(255, 255, 255, 0.578);
+}
+.jobgradetext {
+	position: absolute;
+	color: #000000;
+	font-size: 0.8vw;
+	font-family: "Unbounded", cursive;
+	left: 1vw;
+	width: 31vw;
+	top: 0.7vh;
+	letter-spacing: 0.2vw;
+	font-weight: 1000;
+}
+.textinformationve {
+	position: absolute;
+	color: #ffffff;
+	font-size: 1vw;
+	font-family: "Abel", cursive;
+	left: 1vw;
+	width: 21vw;
+	top: 11vh;
+	letter-spacing: 0.2vw;
+	font-weight: 1200;
+}
+.container-info2 {
+	position: absolute;
+	width: 20.5vw;
+	height: 10vh;
+	border-radius: 0.2vw;
+	top: 80vh;
+	left: 1vw;
+	background-color: rgba(255, 255, 255, 0.578);
+}
+.inputt {
+	position: absolute;
+	-webkit-appearance: none;
+	left: 2.1vw;
+	width: 16vw;
+	color: white;
+	font-family: "Bebas Neue", cursive;
+	height: 5.5vh;
+	text-align: center;
+	z-index: 29;
+	top: 2vh;
+	border-radius: 0.1vw;
+	font-size: 3vw;
+	border: none;
+	background-color: rgba(29, 29, 29, 0.185);
+	outline: none;
+}
+.inputt:hover {
+	background-color: rgba(20, 24, 36, 0.5);
+	transition: color 0.6 ease;
+}
+.inputt:focus::placeholder {
+	color: transparent;
+}
+.inputt::placeholder {
+	color: white;
+	transition: color 0.3s ease;
+}
+.textpeketmenge {
+	position: absolute;
+	color: #ffffff;
+	font-size: 1vw;
+	font-family: "Abel", cursive;
+	left: 1vw;
+	width: 21vw;
+	top: 72vh;
+	letter-spacing: 0.2vw;
+	font-weight: 1200;
+}
+.logoour {
+	position: absolute;
+	width: 5vw;
+	top: 0.6vh;
+	right: 0.7vw;
+}
+.submitdienst {
+	position: absolute;
+	left: 1vw;
+	top: 7.5vh;
+	width: 18vw;
+	height: 6vh;
+	z-index: 29;
+	padding: 0;
+	font-size: 1vw;
+	background-color: rgba(93, 93, 93, 0.287);
+	outline: none;
+	cursor: pointer;
+	border-radius: 0.2vw;
+	border: none;
+	color: #ffffff;
+	font-family: "Aldrich", cursive;
+	letter-spacing: 0.1vw;
+	transform: translate(-1deg);
+	z-index: 29;
+}
+.submitdienst:hover {
+	color: #ffffff;
+	transition: 0.5s all;
+	background-color: rgba(198, 10, 164, 0.808);
+}
+.container-warnung2 {
+	position: absolute;
+	width: 20vw;
+	height: 31.5vh;
+	left: 42vw;
+	top: 28vh;
+	border-radius: 0.4vw;
+	background-color: rgb(27, 27, 27);
+}
+#submitdienst2 {
+	position: absolute;
+	left: 1vw;
+	top: 7.8vh;
+	width: 18vw;
+	height: 6vh;
+	z-index: 29;
+	padding: 0;
+	font-size: 1vw;
+	background-color: rgba(93, 93, 93, 0.287);
+	outline: none;
+	cursor: pointer;
+	border-radius: 0.2vw;
+	border: none;
+	color: #ffffff;
+	font-family: "Aldrich", cursive;
+	letter-spacing: 0.1vw;
+	transform: translate(-1deg);
+	z-index: 29;
+}
+#submitdienst2:hover {
+	color: #ffffff;
+	transition: 0.5s all;
+	background-color: rgba(198, 10, 164, 0.808);
+}
+#submitdienst3 {
+	position: absolute;
+	left: 1vw;
+	top: 15.5vh;
+	width: 18vw;
+	height: 6vh;
+	z-index: 29;
+	padding: 0;
+	font-size: 1vw;
+	background-color: rgba(93, 93, 93, 0.287);
+	outline: none;
+	cursor: pointer;
+	border-radius: 0.2vw;
+	border: none;
+	color: #ffffff;
+	font-family: "Aldrich", cursive;
+	letter-spacing: 0.1vw;
+	transform: translate(-1deg);
+	z-index: 29;
+}
+#submitdienst3:hover {
+	color: #ffffff;
+	transition: 0.5s all;
+	background-color: rgba(198, 10, 164, 0.808);
+}
+#submitdienst4 {
+	position: absolute;
+	left: 1vw;
+	top: 23.5vh;
+	width: 18vw;
+	height: 6vh;
+	z-index: 29;
+	padding: 0;
+	font-size: 1vw;
+	background-color: rgba(93, 93, 93, 0.287);
+	outline: none;
+	cursor: pointer;
+	border-radius: 0.2vw;
+	border: none;
+	color: #ffffff;
+	font-family: "Aldrich", cursive;
+	letter-spacing: 0.1vw;
+	transform: translate(-1deg);
+	z-index: 29;
+}
+#submitdienst4:hover {
+	color: #ffffff;
+	transition: 0.5s all;
+	background-color: rgba(198, 10, 164, 0.808);
+}
+.submitbuttonseedsf2 {
+	position: absolute;
+	left: 1vw;
+	bottom: 2vh;
+	width: 18vw;
+	height: 6vh;
+	z-index: 29;
+	padding: 0;
+	font-size: 1vw;
+	background-color: rgba(63, 63, 63, 0.287);
+	outline: none;
+	cursor: pointer;
+	border-radius: 0.2vw;
+	border: none;
+	color: #ffffff;
+	font-family: "Aldrich", cursive;
+	letter-spacing: 0.1vw;
+	transform: translate(-1deg);
+	z-index: 29;
+}
+.submitbuttonseedsf2:hover {
+	color: #ffffff;
+	transition: 0.5s all;
+	background-color: rgba(198, 10, 164, 0.808);
+}
+@import url("https://fonts.googleapis.com/css2?family=Commissioner:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Goldman&family=Radio+Canada&display=swap");
+
+.container-garage {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(33, 33, 33, 0.887);
+}
+
+.garagescrift {
+	color: rgb(168, 0, 115);
+	position: absolute;
+	font-size: 2.3vw;
+	width: 20vw;
+	top: -1vh;
+	text-align: center;
+	background-color: rgba(255, 0, 0, 0);
+	left: 41.2vw;
+	font-family: "Commissioner", sans-serif;
+}
+
+.infoschrift {
+	color: rgb(71, 71, 71);
+	position: absolute;
+	font-size: 1.4vw;
+	width: 10vw;
+	text-align: center;
+	left: 46.5vw;
+	top: 6vh;
+	font-family: "Roboto", sans-serif;
+}
+
+.linie {
+	position: absolute;
+	width: 0.1vw;
+	height: 80vh;
+	top: 16.5vh;
+	background-color: rgb(53, 53, 53);
+	left: 51.3vw;
+}
+
+.leftunten {
+	position: absolute;
+	width: 80vw;
+	height: 83vh;
+	left: -30vw;
+	top: 21vh;
+	background: linear-gradient(
+		40deg,
+		rgba(255, 0, 251, 0.8),
+		rgba(255, 0, 0, 0) 61.71%
+	);
+}
+.rightunten {
+	position: absolute;
+	width: 80vw;
+	height: 83vh;
+	right: -30vw;
+	top: 21vh;
+	background: linear-gradient(
+		320deg,
+		rgba(255, 0, 251, 0.8),
+		rgba(255, 0, 0, 0) 61.71%
+	);
+}
+
+.einsline {
+	position: absolute;
+	width: 0.4vw;
+	height: 80vh;
+	top: -10vh;
+	transform: rotate(40deg);
+	background-color: rgb(255, 0, 195);
+	left: -10vw;
+}
+
+.zweiline {
+	position: absolute;
+	width: 0.4vw;
+	height: 80vh;
+	top: -10vh;
+	transform: rotate(40deg);
+	background-color: rgb(255, 0, 195);
+	left: -6vw;
+}
+
+.dreiline {
+	position: absolute;
+	width: 0.4vw;
+	height: 80vh;
+	top: -10vh;
+	transform: rotate(40deg);
+	background-color: rgb(255, 0, 195);
+	left: -2vw;
+}
+
+.einseline {
+	position: absolute;
+	width: 0.4vw;
+	height: 80vh;
+	top: -10vh;
+	transform: rotate(320deg);
+	background-color: rgb(255, 0, 195);
+	right: -10vw;
+}
+
+.zweieline {
+	position: absolute;
+	width: 0.4vw;
+	height: 80vh;
+	top: -10vh;
+	transform: rotate(320deg);
+	background-color: rgb(255, 0, 195);
+	right: -6vw;
+}
+
+.dreieline {
+	position: absolute;
+	width: 0.4vw;
+	height: 80vh;
+	top: -10vh;
+	transform: rotate(320deg);
+	background-color: rgb(255, 0, 195);
+	right: -2vw;
+}
+
+.background-ausparken {
+	position: absolute;
+	width: 55vw;
+	height: 18vh;
+	background-color: rgba(13, 13, 13, 0.703);
+	left: -10vw;
+	top: 30vh;
+	border-radius: 0.2vw;
+	mask-image: linear-gradient(
+		to left,
+		#00000030,
+		black 20%,
+		black 80%,
+		#00000030 100%
+	);
+	-webkit-mask-image: linear-gradient(
+		to left,
+		#00000030,
+		black 20%,
+		black 80%,
+		#00000030 100%
+	);
+}
+
+.autoausparkentext {
+	color: rgb(168, 0, 115);
+	position: absolute;
+	font-size: 3.3vw;
+	top: 0vh;
+	background-color: rgba(255, 0, 0, 0);
+	left: 11vw;
+	font-family: "Commissioner", sans-serif;
+}
+
+.background-kaufen {
+	position: absolute;
+	width: 55vw;
+	height: 18vh;
+	background-color: rgba(13, 13, 13, 0.703);
+	right: -10vw;
+	top: 30vh;
+	border-radius: 0.2vw;
+	mask-image: linear-gradient(
+		to left,
+		#00000030,
+		black 20%,
+		black 80%,
+		#00000030 100%
+	);
+	-webkit-mask-image: linear-gradient(
+		to left,
+		#00000030,
+		black 20%,
+		black 80%,
+		#00000030 100%
+	);
+}
+
+.autokaufentext {
+	color: rgb(168, 0, 115);
+	position: absolute;
+	font-size: 3.3vw;
+	top: 0vh;
+	background-color: rgba(255, 0, 0, 0);
+	left: 8vw;
+	font-family: "Commissioner", sans-serif;
+}
+.texteinfose {
+	color: rgb(131, 131, 131);
+	position: absolute;
+	font-size: 1.4vw;
+	text-align: center;
+	left: 10vw;
+	top: 39vh;
+	z-index: 1;
+	font-family: "Lato", sans-serif;
+}
+.texteinfosew {
+	color: rgb(131, 131, 131);
+	position: absolute;
+	font-size: 1.4vw;
+	text-align: center;
+	left: 67vw;
+	top: 39vh;
+	z-index: 1;
+	font-family: "Lato", sans-serif;
+}
+
+.placeeins {
+	position: absolute;
+	width: 51vw;
+	background-color: rgba(255, 0, 0, 0);
+	height: 80vh;
+	cursor: pointer;
+	top: 28vh;
+	z-index: 2;
+}
+.placeeins:hover {
+	width: 68.3vw;
+	left: -17vw;
+	top: 30vh;
+	background: linear-gradient(
+		40deg,
+		rgba(255, 0, 251, 0.8),
+		rgba(255, 0, 0, 0) 70.71%
+	);
+}
+.pacezwei {
+	position: absolute;
+	width: 48vw;
+	background-color: rgba(255, 0, 0, 0);
+	height: 80vh;
+	cursor: pointer;
+	top: 28vh;
+	right: 0vw;
+	z-index: 2;
+}
+.pacezwei:hover {
+	width: 65.4vw;
+	right: -17vw;
+	top: 30vh;
+	background: linear-gradient(
+		320deg,
+		rgba(255, 0, 251, 0.8),
+		rgba(255, 0, 0, 0) 70.71%
+	);
+}
+.dreickbildeins {
+	position: absolute;
+	width: 60vw;
+	left: -24vw;
+	z-index: 1;
+	transform: rotate(30deg);
+	top: 60vh;
+}
+
+.dreickbildzwei {
+	position: absolute;
+	width: 60vw;
+	left: 1vw;
+	z-index: 1;
+	transform: rotate(330deg);
+	top: 50vh;
+}
+
+.dreickbilddrei {
+	position: absolute;
+	width: 60vw;
+	left: -15vw;
+	z-index: 1;
+	transform: rotate(530deg);
+	top: 36vh;
+}
+
+.dreickbilvier {
+	position: absolute;
+	width: 60vw;
+	right: -24vw;
+	z-index: 1;
+	transform: rotate(120deg);
+	top: 60vh;
+}
+
+.dreickbildfuenf {
+	position: absolute;
+	width: 60vw;
+	right: 1vw;
+	z-index: 1;
+	transform: rotate(330deg);
+	top: 50vh;
+}
+
+.dreickbildsechs {
+	position: absolute;
+	width: 60vw;
+	right: -15vw;
+	z-index: 1;
+	transform: rotate(530deg);
+	top: 36vh;
+}
+.autos-liste {
+	position: absolute;
+	width: 34vw;
+	height: 60vh;
+	background-color: rgba(255, 0, 0, 0);
+	left: 35vw;
+	top: 14vh;
+}
+
+.autoteil {
+	position: relative;
+	width: 34vw;
+	height: 7vh;
+	top: 0vh;
+	background-color: rgba(18, 18, 18, 0.861);
+	border-radius: 1vw;
+	margin-top: 2vh;
+	cursor: pointer;
+	z-index: 2;
+}
+
+.autoteil:hover {
+	background-color: rgba(255, 255, 255, 0.493);
+	transition: all 1s;
+}
+
+.leftautoteil {
+	position: absolute;
+	width: 4vw;
+	height: 7vh;
+	border-top-left-radius: 0.9vw;
+	border-bottom-left-radius: 0.9vw;
+	background-color: rgba(40, 40, 40, 0.808);
+}
+
+.car {
+	position: absolute;
+	width: 3vw;
+	left: 0.5vw;
+	top: 0.5vh;
+}
+
+.vehiclename {
+	color: rgb(168, 0, 115);
+	position: absolute;
+	font-size: 1.7vw;
+	width: 15vw;
+	top: -0.2vh;
+	text-align: left;
+	background-color: rgba(255, 0, 0, 0);
+	left: 5vw;
+	font-family: "Commissioner", sans-serif;
+}
+
+.preis {
+	color: rgb(238, 0, 255);
+	position: absolute;
+	font-size: 1.3vw;
+	width: 10vw;
+	text-align: right;
+	left: 23vw;
+	top: 0.4vh;
+	background-color: rgba(255, 0, 0, 0);
+	font-family: "Roboto", sans-serif;
+}
+.autos-listes {
+	position: absolute;
+	width: 38vw;
+	height: 60vh;
+	background-color: rgba(255, 0, 0, 0);
+	left: 33vw;
+	top: 15vh;
+}
+
+.autoteils {
+	position: relative;
+	width: 42vw;
+	height: 7vh;
+	background-color: rgba(18, 18, 18, 0.861);
+	border-radius: 1vw;
+	margin-top: 2vh;
+	cursor: pointer;
+	z-index: 2;
+}
+
+.autoteils:hover {
+	background-color: rgba(255, 255, 255, 0.493);
+	transition: all 1s;
+}
+.vehiclenames {
+	color: rgb(168, 0, 115);
+	position: absolute;
+	font-size: 1.7vw;
+	width: 15vw;
+	top: 1.4vh;
+	text-align: left;
+	background-color: rgba(255, 0, 0, 0);
+	left: 5vw;
+	font-family: "Commissioner", sans-serif;
+}
+.kennzeichepage {
+	position: absolute;
+	width: 10vw;
+	height: 7vh;
+	right: 0vw;
+	border-top-right-radius: 1vw;
+	border-bottom-right-radius: 1vw;
+	background-color: rgba(40, 40, 40, 0.808);
+}
+.kennzeichen {
+	color: rgb(238, 0, 255);
+	position: absolute;
+	font-size: 1.6vw;
+	width: 10vw;
+	text-align: center;
+	left: 0vw;
+	top: 1.7vh;
+	background-color: rgba(255, 0, 0, 0);
+	font-family: "Roboto", sans-serif;
+}
+@font-face {
+	font-family: "Open Sans";
+	src: url("text/OpenSans-VariableFont_wdth\,wght.ttf");
+}
+@font-face {
+	font-family: "Nunito Sans";
+	src: url("text/NunitoSans-Regular.ttf");
+}
+@font-face {
+	font-family: "Khula";
+	src: url("text/Khula-Regular.ttf");
+}
+@font-face {
+	font-family: "Lato";
+	src: url("text/Lato-Black.ttf");
+}
+@font-face {
+	font-family: "Goldman";
+	src: url("text/Goldman-Regular.ttf");
+}
+@font-face {
+	font-family: "Abel";
+	src: url("text/Abel-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Aldrich";
+	src: url("text/Aldrich-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Roboto";
+	src: url("text/Roboto-MediumItalic.ttf");
+}
+@font-face {
+	font-family: "Khula";
+	src: url("text/Khula-Regular.ttf");
+}
+
+.container-bauern {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgb(231, 12, 154);
+	background: linear-gradient(
+		90deg,
+		rgb(41, 25, 35) 0%,
+		rgba(0, 0, 0, 1) 100%
+	);
+}
+.lokalerbauertext {
+	position: absolute;
+	color: white;
+	left: 2vw;
+	top: -1vh;
+	height: 1vh;
+	font-size: 2.5vw;
+	font-family: Khula;
+}
+.strichunterbauer {
+	position: absolute;
+	width: 35vw;
+	height: 0.2vh;
+	background-color: white;
+	top: 8.5vh;
+	left: 2.1vw;
+}
+.detailsbauern {
+	position: absolute;
+	color: white;
+	left: 2vw;
+
+	height: 1vh;
+	font-size: 1.2vw;
+	width: 35vw;
+	top: 9vh;
+	font-family: Aldrich;
+}
+.corner-white {
+	position: absolute;
+	width: 30vw;
+	height: 75vh;
+	top: 21vh;
+	left: 2vw;
+	border-left: 0.2vw solid white;
+	border-top: 0.3vh solid white;
+}
+.corner-white2 {
+	position: absolute;
+	width: 30vw;
+	height: 75vh;
+	top: 21vh;
+	right: 2vw;
+	border-right: 0.2vw solid white;
+	border-bottom: 0.3vh solid white;
+}
+.box-money {
+	position: absolute;
+	width: 12vw;
+	height: 5vh;
+	top: 2.3vh;
+	background-color: rgba(38, 38, 38, 0.478);
+	left: 25vw;
+	border-radius: 0.2vw;
+}
+.esctext {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	right: 2.1vw;
+	top: 2.5vh;
+	letter-spacing: 0.1vw;
+	font-size: 1.1vw;
+	transform: rotate(0deg);
+	font-family: "Lato", sans-serif;
+}
+.moneytext {
+	position: absolute;
+	color: white;
+	left: 0vw;
+	top: -0.1vh;
+	height: 1vh;
+	font-size: 1.2vw;
+	width: 12vw;
+	text-align: center;
+	background-color: rgba(255, 0, 0, 0);
+	font-family: Aldrich;
+}
+.boxbuying {
+	position: absolute;
+	width: 95vw;
+	background-color: rgba(255, 0, 0, 0);
+	height: 73vh;
+	top: 22vh;
+	left: 2.5vw;
+}
+.container-item {
+	position: relative;
+	display: inline-block;
+	width: 18vw;
+	height: 33vh;
+	margin-left: 0.5vw;
+	margin-top: 1vh;
+	border-radius: 0.2vw;
+	background-color: rgba(57, 57, 57, 0.531);
+}
+.container-item-preis {
+	position: absolute;
+	width: 7vw;
+	background-color: rgba(33, 33, 33, 0.381);
+	height: 4vh;
+	right: 0vw;
+	border-bottom-left-radius: 0.2vw;
+	border-bottom-right-radius: 0.2vw;
+}
+.Preis-Bauern {
+	position: absolute;
+	color: white;
+	left: 0vw;
+	top: -0.45vh;
+	height: 1vh;
+	font-size: 1.1vw;
+	width: 7vw;
+	text-align: center;
+	letter-spacing: 0.1vw;
+	background-color: rgba(255, 0, 0, 0);
+	font-family: Aldrich;
+}
+.Bauer-Item {
+	position: absolute;
+	color: white;
+
+	width: 11vw;
+	background-color: rgba(255, 0, 0, 0);
+	top: -1.4vh;
+	text-align: center;
+	height: 1vh;
+	font-size: 1.3vw;
+	font-family: Khula;
+}
+.img-container {
+	position: absolute;
+	width: 16vw;
+	height: 18vh;
+	background-color: rgba(28, 28, 28, 0.494);
+	top: 6vh;
+	left: 1vw;
+}
+.strich-item {
+	position: absolute;
+	width: 11vw;
+	height: 0.1vh;
+	top: 3.8vh;
+	background-color: rgb(255, 255, 255);
+}
+.button-down {
+	position: absolute;
+	height: 5.5vh;
+	width: 16vw;
+	font-family: "Goldman", cursive;
+	font-size: 1.3vw;
+	left: 1vw;
+	bottom: 2vh;
+	border: none;
+	outline: none;
+	z-index: 1;
+	color: white;
+	cursor: pointer;
+	background-color: rgb(164, 0, 167);
+	border-radius: 0.2vw;
+}
+
+.button-down:hover {
+	transition: 1s all;
+	background-color: rgb(110, 0, 112);
+}
+.imgbild {
+	position: absolute;
+	width: 7vw;
+	width: 10vw;
+	left: 3vw;
+	height: 18vh;
+	background-color: rgba(255, 0, 0, 0);
+}
+.rechnung {
+	position: absolute;
+	width: 30vw;
+	height: 40vh;
+	background-color: rgba(60, 0, 31, 0.851);
+	left: 36vw;
+	border-radius: 1vw;
+	top: 23vh;
+}
+.rechnung-text {
+	position: absolute;
+	color: white;
+	font-size: 2.4vw;
+	left: 1.5vw;
+	z-index: 1;
+	top: 2vh;
+	font-family: "Goldman", cursive;
+}
+.buton-connect {
+	position: absolute;
+	width: 13vw;
+	height: 5.5vh;
+	font-family: "Goldman", cursive;
+	font-size: 1.7vw;
+	right: 15.5vw;
+	top: 32vh;
+	border: none;
+	outline: none;
+	z-index: 1;
+	color: white;
+	cursor: pointer;
+	background-color: rgb(191, 0, 166);
+	border-radius: 0.4vw;
+}
+
+.button-connect:hover {
+	background-color: rgb(110, 0, 112);
+}
+
+.buton-abbrechen {
+	position: absolute;
+	width: 13vw;
+	height: 5.5vh;
+	font-family: "Goldman", cursive;
+	font-size: 1.7vw;
+	right: 1.5vw;
+	top: 32vh;
+	border: none;
+	outline: none;
+	z-index: 1;
+	color: white;
+	cursor: pointer;
+	background-color: rgb(191, 0, 0);
+	border-radius: 0.4vw;
+}
+
+.button-abbrechen:hover {
+	background-color: rgb(110, 0, 112);
+}
+.walletimg {
+	position: absolute;
+	left: 26vw;
+	top: 1.7vh;
+	width: 3vw;
+}
+.inputt2 {
+	border: none;
+	-webkit-appearance: none;
+	padding: 3px;
+	position: relative;
+	left: 1.5vw;
+	top: 8.5vh;
+	width: 16vw;
+	color: white;
+	font-family: "Goldman", cursive;
+	height: 5vh;
+	border-radius: 0.2vw;
+	text-align: center;
+	z-index: 29;
+	font-size: 2vw;
+	background-color: rgba(26, 26, 26, 0.361);
+	outline: none;
+}
+.inputt2:hover {
+	transition: all 1s;
+	border-bottom: 0.1vw solid orange;
+}
+.inputt3 {
+	border: none;
+	-webkit-appearance: none;
+	padding: 3px;
+	position: relative;
+	left: 1.5vw;
+	top: 11vh;
+	width: 27vw;
+	color: white;
+	font-family: "Goldman", cursive;
+	height: 5vh;
+	border-radius: 0.2vw;
+	text-align: center;
+	z-index: 29;
+	font-size: 2vw;
+	background-color: rgba(26, 26, 26, 0.361);
+	outline: none;
+}
+.inputt3:hover {
+	transition: all 1s;
+	border-bottom: 0.1vw solid orange;
+}
+.inputt4 {
+	border: none;
+	-webkit-appearance: none;
+	padding: 3px;
+	position: relative;
+	left: 1.5vw;
+	top: 14vh;
+	width: 22vw;
+	color: white;
+	font-family: "Goldman", cursive;
+	height: 5vh;
+	border-radius: 0.2vw;
+	text-align: center;
+	z-index: 29;
+	font-size: 2vw;
+	background-color: rgba(26, 26, 26, 0.361);
+	outline: none;
+}
+.inputt4:hover {
+	transition: all 1s;
+	border-bottom: 0.1vw solid orange;
+}
+.left {
+	position: absolute;
+	width: 25vw;
+	height: 100%;
+	background: linear-gradient(
+		to right,
+		rgba(114, 0, 89),
+		rgba(0, 0, 255, 0) 95.71%
+	);
+}
+.bottom {
+	position: absolute;
+	width: 100%;
+	height: 23vh;
+	bottom: 0vh;
+	background: linear-gradient(
+		to top,
+		rgba(114, 0, 89),
+		rgba(0, 0, 255, 0) 95.71%
+	);
+}
+.tuning-container {
+	position: relative;
+	width: 19vw;
+	height: 6vh;
+	margin-top: 0.5vh;
+	border-radius: 0.1vw;
+	cursor: pointer;
+	background-color: rgba(26, 26, 26, 0.859);
+}
+.tuning-container:hover {
+	transition: 1s all;
+	background-color: rgba(14, 14, 14, 0.714);
+}
+.text-detail {
+	position: absolute;
+	color: white;
+	font-size: 1.8vw;
+	left: 4vw;
+	width: 14vw;
+	background-color: rgba(0, 128, 0, 0);
+	z-index: 1;
+	top: 1vh;
+	font-family: "Goldman", cursive;
+}
+.imgs {
+	position: absolute;
+	width: 3vw;
+	left: 0.5vw;
+}
+.container-tuning-teile {
+	position: absolute;
+	background-color: rgba(75, 135, 12, 0);
+	width: 63vw;
+	height: 15vh;
+	overflow: auto;
+	display: flex;
+	overflow-y: hidden;
+	bottom: 4vh;
+	left: 22vw;
+}
+.container-tuning-teile::-webkit-scrollbar {
+	width: 0.6vw;
+}
+
+.container-tuning-teile::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background-color: rgba(255, 255, 255, 0.294);
+}
+
+.container-tuning-teile::-webkit-scrollbar-thumb {
+	background-color: #20202074;
+	border-radius: 2vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.185) 0 3px 13px 1px;
+}
+.container-tuning-id {
+	position: relative;
+	margin-left: 1vw;
+	background-color: rgba(29, 29, 29, 0.758);
+	width: 15vw;
+	cursor: pointer;
+	border-radius: 0.1vw;
+	transform: skew(-10deg);
+	flex-shrink: 0;
+	left: -0.3vw;
+	height: 10vh;
+	top: 2vh;
+}
+.text-tunint-container {
+	position: absolute;
+	color: white;
+	font-size: 1.1vw;
+	left: 0.5vw;
+	text-align: center;
+	transform: skew(10deg);
+	width: 14vw;
+	background-color: rgba(0, 128, 0, 0);
+	z-index: 1;
+	top: 1vh;
+	font-family: "Goldman", cursive;
+}
+.costs {
+	position: absolute;
+	color: white;
+	font-size: 1.8vw;
+	left: 0.1vw;
+	text-align: center;
+	transform: skew(10deg);
+	width: 14vw;
+	background-color: rgba(0, 128, 0, 0);
+	z-index: 1;
+	top: 5vh;
+	font-family: "Goldman", cursive;
+}
+.button-feuern {
+	position: absolute;
+	width: 8vw;
+	height: 5vh;
+	font-family: "Goldman", cursive;
+	font-size: 1.3vw;
+	right: 17.5vw;
+	top: 1vh;
+	border: none;
+	outline: none;
+	z-index: 1;
+	color: white;
+	cursor: pointer;
+	background-color: rgb(167, 0, 0);
+	border-radius: 0.4vw;
+}
+.button-feuern:hover {
+	background-color: rgb(110, 0, 112);
+}
+@font-face {
+	font-family: "Open Sans";
+	src: url("text/OpenSans-VariableFont_wdth\,wght.ttf");
+}
+@font-face {
+	font-family: "Nunito Sans";
+	src: url("text/NunitoSans-Regular.ttf");
+}
+@font-face {
+	font-family: "Khula";
+	src: url("text/Khula-Regular.ttf");
+}
+@font-face {
+	font-family: "Lato";
+	src: url("text/Lato-Black.ttf");
+}
+@font-face {
+	font-family: "Goldman";
+	src: url("text/Goldman-Regular.ttf");
+}
+@font-face {
+	font-family: "Abel";
+	src: url("text/Abel-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Aldrich";
+	src: url("text/Aldrich-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Roboto";
+	src: url("text/Roboto-MediumItalic.ttf");
+}
+@font-face {
+	font-family: "Khula";
+	src: url("text/Khula-Regular.ttf");
+}
+
+.container-bauern {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgb(231, 12, 154);
+	background: linear-gradient(
+		90deg,
+		rgb(41, 25, 35) 0%,
+		rgba(0, 0, 0, 1) 100%
+	);
+}
+.lokalerbauertext {
+	position: absolute;
+	color: white;
+	left: 2vw;
+	top: -1vh;
+	height: 1vh;
+	font-size: 2.5vw;
+	font-family: Khula;
+}
+.strichunterbauer {
+	position: absolute;
+	width: 35vw;
+	height: 0.2vh;
+	background-color: white;
+	top: 8.5vh;
+	left: 2.1vw;
+}
+.detailsbauern {
+	position: absolute;
+	color: white;
+	left: 2vw;
+
+	height: 1vh;
+	font-size: 1.2vw;
+	width: 35vw;
+	top: 9vh;
+	font-family: Aldrich;
+}
+.corner-white {
+	position: absolute;
+	width: 30vw;
+	height: 75vh;
+	top: 21vh;
+	left: 2vw;
+	border-left: 0.2vw solid white;
+	border-top: 0.3vh solid white;
+}
+.corner-white2 {
+	position: absolute;
+	width: 30vw;
+	height: 75vh;
+	top: 21vh;
+	right: 2vw;
+	border-right: 0.2vw solid white;
+	border-bottom: 0.3vh solid white;
+}
+.box-money {
+	position: absolute;
+	width: 12vw;
+	height: 5vh;
+	top: 2.3vh;
+	background-color: rgba(38, 38, 38, 0.478);
+	left: 25vw;
+	border-radius: 0.2vw;
+}
+.esctext {
+	position: absolute;
+	color: rgb(255, 255, 255);
+	right: 2.1vw;
+	top: 2.5vh;
+	letter-spacing: 0.1vw;
+	font-size: 1.1vw;
+	transform: rotate(0deg);
+	font-family: "Lato", sans-serif;
+}
+.moneytext {
+	position: absolute;
+	color: white;
+	left: 0vw;
+	top: -0.1vh;
+	height: 1vh;
+	font-size: 1.2vw;
+	width: 12vw;
+	text-align: center;
+	background-color: rgba(255, 0, 0, 0);
+	font-family: Aldrich;
+}
+.boxbuying {
+	position: absolute;
+	width: 95vw;
+	background-color: rgba(255, 0, 0, 0);
+	height: 73vh;
+	top: 22vh;
+	left: 2.5vw;
+}
+.container-item {
+	position: relative;
+	display: inline-block;
+	width: 18vw;
+	height: 33vh;
+	margin-left: 0.5vw;
+	margin-top: 1vh;
+	border-radius: 0.2vw;
+	background-color: rgba(57, 57, 57, 0.531);
+}
+.container-item-preis {
+	position: absolute;
+	width: 7vw;
+	background-color: rgba(33, 33, 33, 0.381);
+	height: 4vh;
+	right: 0vw;
+	border-bottom-left-radius: 0.2vw;
+	border-bottom-right-radius: 0.2vw;
+}
+.Preis-Bauern {
+	position: absolute;
+	color: white;
+	left: 0vw;
+	top: -0.45vh;
+	height: 1vh;
+	font-size: 1.1vw;
+	width: 7vw;
+	text-align: center;
+	letter-spacing: 0.1vw;
+	background-color: rgba(255, 0, 0, 0);
+	font-family: Aldrich;
+}
+.Bauer-Item {
+	position: absolute;
+	color: white;
+
+	width: 11vw;
+	background-color: rgba(255, 0, 0, 0);
+	top: -1.4vh;
+	text-align: center;
+	height: 1vh;
+	font-size: 1.3vw;
+	font-family: Khula;
+}
+.img-container {
+	position: absolute;
+	width: 16vw;
+	height: 18vh;
+	background-color: rgba(28, 28, 28, 0.494);
+	top: 6vh;
+	left: 1vw;
+}
+.strich-item {
+	position: absolute;
+	width: 11vw;
+	height: 0.1vh;
+	top: 3.8vh;
+	background-color: rgb(255, 255, 255);
+}
+.button-down {
+	position: absolute;
+	height: 5.5vh;
+	width: 16vw;
+	font-family: "Goldman", cursive;
+	font-size: 1.3vw;
+	left: 1vw;
+	bottom: 2vh;
+	border: none;
+	outline: none;
+	z-index: 1;
+	color: white;
+	cursor: pointer;
+	background-color: rgb(164, 0, 167);
+	border-radius: 0.2vw;
+}
+
+.button-down:hover {
+	transition: 1s all;
+	background-color: rgb(110, 0, 112);
+}
+.imgbild {
+	position: absolute;
+	width: 7vw;
+	width: 10vw;
+	left: 3vw;
+	height: 18vh;
+	background-color: rgba(255, 0, 0, 0);
+}

@@ -1,0 +1,215 @@
+.funkapp {
+	position: absolute;
+	top: 0vh;
+	left: 0vw;
+	height: 100%;
+	width: 100%;
+	background: rgb(0, 0, 0);
+	background: linear-gradient(
+		to top,
+		rgba(0, 0, 0, 1) 0%,
+		rgba(52, 52, 52, 1) 100%
+	);
+}
+.funkappraus {
+	position: absolute;
+	width: 15vw;
+	bottom: 1.5vh;
+	z-index: 50;
+	left: 3.5vw;
+	border-radius: 20vw;
+	height: 1vh;
+	z-index: 155;
+	cursor: pointer;
+	background-color: rgb(206, 206, 206);
+}
+.inputt-funkid {
+	border: none;
+	-webkit-appearance: none;
+	position: absolute;
+	left: 2vw;
+	height: 4vh;
+	width: 16.8vw;
+	top: 15.5vh;
+	color: rgb(255, 255, 255);
+	font-family: "Khula";
+	font-style: normal;
+	padding-top: 0.5vh;
+	font-weight: 500;
+	font-size: 1vw;
+	padding-left: 0.4vw;
+	line-height: 3vh;
+	border-radius: 0.2vw;
+	resize: none;
+	z-index: 29;
+	text-align: center;
+	background-color: #202020;
+	outline: none;
+}
+.inputt-funkid:hover {
+	transition: color 0.6 ease;
+}
+.inputt-funkid:focus::placeholder {
+	color: transparent;
+}
+.inputt-funkid::placeholder {
+	color: rgb(255, 255, 255);
+	transition: color 0.3s ease;
+}
+.textradio {
+	position: absolute;
+	width: 15.5vw;
+	left: 3.5vw;
+	top: 4.5vh;
+	font-family: "RobotoLight";
+	font-style: normal;
+	font-weight: 1000;
+	letter-spacing: 0.1vw;
+	font-size: 1.8vw;
+
+	line-height: 1vw;
+	text-align: left;
+	cursor: none;
+	color: #ebebe3;
+	pointer-events: none;
+}
+.detailversion {
+	position: absolute;
+	width: 15.5vw;
+	left: 12vw;
+	top: 8.5vh;
+	font-family: "RobotoLight";
+	font-style: normal;
+	font-weight: 500;
+	letter-spacing: 0.1vw;
+	font-size: 1.2vw;
+
+	line-height: 1vw;
+	text-align: left;
+	cursor: none;
+	color: #ebebe3;
+	pointer-events: none;
+}
+.linietrennen {
+	position: absolute;
+	width: 10vw;
+	height: 0.1vh;
+	background-color: rgb(255, 255, 255);
+	top: 12.5vh;
+	left: 5.5vw;
+}
+.sumbmitfunk {
+	position: relative;
+	left: 2vw;
+	padding: 0.2vw;
+	top: 22vh;
+	width: 17.2vw;
+	height: 4.5vh;
+	z-index: 29;
+	font-family: "Aldrich", sans-serif;
+	font-size: 1vw;
+	background-color: rgb(196, 0, 186);
+	outline: none;
+	cursor: pointer;
+	border-radius: 0.6vw;
+	color: #ffffff;
+	border: none;
+	border-radius: 0.3vw;
+	outline: none;
+	z-index: 29;
+}
+.sumbmitfunk:hover {
+	filter: brightness(85%);
+	color: #ffffff;
+	background-color: rgba(87, 87, 87, 0.808);
+}
+
+.container-history {
+	position: absolute;
+	left: 1vw;
+	height: 45vh;
+	overflow-y: scroll;
+	width: 19.4vw;
+	top: 32vh;
+	background-color: rgba(255, 0, 0, 0);
+}
+.container-history::-webkit-scrollbar {
+	width: 0.4vw;
+	height: 1vw;
+}
+
+.container-history::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+.container-history::-webkit-scrollbar-thumb {
+	background-color: #202020;
+	border-radius: 20px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.12) 0 3px 13px 1px;
+}
+.textverlauf {
+	position: absolute;
+	width: 15.5vw;
+	left: 2vw;
+	top: 27.5vh;
+	font-family: "RobotoLight";
+	font-style: normal;
+	font-weight: 500;
+	letter-spacing: 0.1vw;
+	font-size: 1.2vw;
+
+	line-height: 1vw;
+	text-align: left;
+	cursor: none;
+	color: #ebebe3;
+	pointer-events: none;
+}
+.container-historyzusammengefasst {
+	position: relative;
+	width: 17.5vw;
+	background-color: rgb(39, 39, 39);
+	top: -0.5vh;
+	border-radius: 0.2vw;
+	left: 1vw;
+	margin-top: 1vh;
+	height: 5vh;
+}
+.container-historyzusammengefasst:hover {
+	transition: 0.2s all;
+	background-color: rgb(56, 56, 56);
+}
+.funknachricht {
+	position: absolute;
+	width: 15.5vw;
+	left: 0.7vw;
+	top: 0.4vh;
+	font-family: "RobotoLight";
+	font-style: normal;
+	font-weight: 500;
+	letter-spacing: 0vw;
+	font-size: 1vw;
+
+	line-height: 1vw;
+	text-align: left;
+	cursor: none;
+	color: #ebebe3;
+	pointer-events: none;
+}
+.textwann {
+	position: absolute;
+	width: 7.5vw;
+	right: 0.5vw;
+	top: -0.4vh;
+	font-family: "RobotoLight";
+	font-style: normal;
+	font-weight: 500;
+	letter-spacing: 0.01vw;
+	font-size: 1vw;
+	background-color: rgba(255, 0, 0, 0);
+	line-height: 1vw;
+	text-align: right;
+	cursor: none;
+	color: #ebebe3;
+	pointer-events: none;
+}

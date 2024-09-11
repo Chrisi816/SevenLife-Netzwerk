@@ -1,0 +1,635 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Estonia&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Radio+Canada&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hurricane&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Goldman&family=Radio+Canada&display=swap");
+
+@font-face {
+	font-family: "LatFiraSansBold";
+	src: url(src/text/FiraSansExtraCondensed-Bold.ttf);
+}
+@font-face {
+	font-family: "FiraSansMedium";
+	src: url(src/text/FiraSansExtraCondensed-Medium.ttf);
+}
+@font-face {
+	font-family: "FiraSansRegular";
+	src: url(src/text/FiraSansExtraCondensed-Regular.ttf);
+}
+@font-face {
+	font-family: "FiraSansSemiBold";
+	src: url(src/text/FiraSansExtraCondensed-SemiBold.ttf);
+}
+@font-face {
+	font-family: "Oswald";
+	src: url(src/font/Oswald-Regular.ttf);
+}
+* {
+	padding: 0px;
+	margin: 0px;
+}
+body {
+	display: inline-block;
+}
+.container {
+	position: relative;
+	background-color: rgba(15, 15, 15, 0.596);
+	border-top: 3px solid rgb(234, 0, 122);
+	left: 1vw;
+	top: 2vh;
+	width: 13.5vw;
+	height: 8vh;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+.text-container {
+	position: relative;
+	margin-left: 3.1vw;
+	width: 10vw;
+	background-color: rgba(255, 0, 0, 0);
+	margin-top: 0.4vh;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+		sans-serif;
+	color: rgb(165, 165, 165);
+	font-size: 0.79vw;
+	height: 4.8vh;
+}
+.text-container strong {
+	color: white;
+	position: relative;
+	width: 10px;
+}
+.einmeldung {
+	position: relative;
+	height: 20px;
+	background-color: rgba(255, 0, 0, 0);
+	width: 9vw;
+
+	margin-top: -5vh;
+	font-family: "Poppins", sans-serif;
+	margin-left: 60px;
+	color: rgb(224, 224, 224);
+	font-size: 0.9vw;
+}
+.icon i {
+	position: relative;
+	margin-left: 1vw;
+	margin-top: 2vh;
+	font-size: 2vw;
+	color: rgb(219, 219, 219);
+}
+.container-range {
+	position: absolute;
+	height: 30vh;
+	width: 20vw;
+	overflow: hidden;
+	background-color: rgba(89, 13, 212, 0);
+	top: 0vh;
+}
+.container-accept {
+	position: relative;
+	background-color: rgba(15, 15, 15, 0.739);
+	left: 0.5vw;
+	top: 1vh;
+	border-radius: 1vw;
+	width: 16vw;
+	height: 9vh;
+	margin-top: 1vh;
+}
+
+.container-accept:before,
+.container-accept:after,
+.container-accept > :first-child:before,
+.container-accept > :first-child:after {
+	position: absolute;
+	content: " ";
+	width: 3vw;
+	height: 4vh;
+
+	border-color: rgb(134, 0, 134); /* or whatever colour */
+	border-style: solid; /* or whatever style */
+}
+.container-accept:before {
+	top: 0;
+	left: 0;
+	border-width: 3px 0 0 3px;
+	border-top-left-radius: 1vw;
+}
+.container-accept:after {
+	top: 0;
+	right: 0;
+	border-top-right-radius: 1vw;
+	border-width: 3px 3px 0 0;
+}
+.container-accept > :first-child:before {
+	bottom: 0;
+	right: 0;
+	border-width: 0 1px 1px 0;
+}
+.container-accept > :first-child:after {
+	bottom: 0;
+	left: 0;
+	border-width: 0 0 1px 1px;
+}
+.container-accept-bild {
+	position: absolute;
+	top: 1vh;
+	border-radius: 20vw;
+	left: 0.4vw;
+	width: 4vw;
+	height: 6.5vh;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	font-size: 3em;
+	font-weight: bold;
+	font-style: italic;
+	letter-spacing: 0.1em;
+}
+.überschrift {
+	position: absolute;
+	height: 4vh;
+	background-color: rgba(255, 0, 0, 0);
+	width: 13vw;
+	top: -0.2vh;
+	left: 4.2vw;
+	font-family: "Bebas Neue", cursive;
+	letter-spacing: 0.1vw;
+	text-align: center;
+	color: rgb(0, 255, 0);
+	font-size: 1.9vw;
+}
+.container-accept-text {
+	position: relative;
+	left: 3.7vw;
+	top: 3.5vh;
+	text-align: center;
+	width: 13vw;
+	height: 7.4vh;
+	background-color: rgba(255, 0, 0, 0);
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+		sans-serif;
+	color: rgba(255, 255, 255, 0.692);
+	font-size: 1.1vw;
+}
+.container-fail {
+	position: relative;
+	background-color: rgba(15, 15, 15, 0.739);
+	left: 0.5vw;
+	top: 1vh;
+	border-radius: 1vw;
+	width: 16vw;
+	height: 9vh;
+	margin-top: 1vh;
+}
+.container-fail:before,
+.container-fail:after,
+.container-fail > :first-child:before,
+.container-fail > :first-child:after {
+	position: absolute;
+	content: " ";
+	width: 3vw;
+	height: 4vh;
+
+	border-color: rgb(134, 0, 134); /* or whatever colour */
+	border-style: solid; /* or whatever style */
+}
+.container-fail:before {
+	top: 0;
+	left: 0;
+	border-width: 3px 0 0 3px;
+	border-top-left-radius: 1vw;
+}
+.container-fail:after {
+	top: 0;
+	right: 0;
+	border-top-right-radius: 1vw;
+	border-width: 3px 3px 0 0;
+}
+.container-fail > :first-child:before {
+	bottom: 0;
+	right: 0;
+	border-width: 0 1px 1px 0;
+}
+.container-fail > :first-child:after {
+	bottom: 0;
+	left: 0;
+	border-width: 0 0 1px 1px;
+}
+.überschrifts {
+	position: absolute;
+	height: 4vh;
+	background-color: rgba(255, 0, 0, 0);
+	width: 13vw;
+	top: -0.2vh;
+	left: 4vw;
+	font-family: "Bebas Neue", cursive;
+	letter-spacing: 0.1vw;
+	text-align: center;
+	color: rgb(116, 0, 0);
+	font-size: 1.9vw;
+}
+.container-infos {
+	position: relative;
+	background-color: rgba(15, 15, 15, 0.739);
+	left: 0.5vw;
+	top: 1vh;
+	border-radius: 1vw;
+	width: 16vw;
+	height: 9vh;
+	margin-top: 1vh;
+}
+.überschriftse {
+	position: absolute;
+	height: 4vh;
+	background-color: rgba(255, 0, 0, 0);
+	width: 13vw;
+	top: -0.2vh;
+	left: 3.9vw;
+	font-family: "Bebas Neue", cursive;
+	letter-spacing: 0.1vw;
+	text-align: center;
+	color: rgb(229, 255, 0);
+	font-size: 1.9vw;
+}
+.container-infos:before,
+.container-infos:after,
+.container-infos > :first-child:before,
+.container-infos > :first-child:after {
+	position: absolute;
+	content: " ";
+	width: 3vw;
+	height: 4vh;
+
+	border-color: rgb(134, 0, 134); /* or whatever colour */
+	border-style: solid; /* or whatever style */
+}
+.container-infos:before {
+	top: 0;
+	left: 0;
+	border-width: 3px 0 0 3px;
+	border-top-left-radius: 1vw;
+}
+.container-infos:after {
+	top: 0;
+	right: 0;
+	border-top-right-radius: 1vw;
+	border-width: 3px 3px 0 0;
+}
+.container-infos > :first-child:before {
+	bottom: 0;
+	right: 0;
+	border-width: 0 1px 1px 0;
+}
+.container-infos > :first-child:after {
+	bottom: 0;
+	left: 0;
+	border-width: 0 0 1px 1px;
+}
+
+#container-notify {
+	position: absolute;
+	top: 30vh;
+	left: 0vw;
+	overflow: hidden;
+	height: 35vh;
+	width: 20vw;
+	background-color: rgba(255, 0, 0, 0);
+}
+.notify-container {
+	position: relative;
+	width: 11.5vw;
+	height: 7.5vh;
+	top: 0.1vh;
+	margin-top: 1vh;
+	left: 1vw;
+	background-color: rgba(15, 15, 15, 0.726);
+	border-left: 0.2vw solid rgb(234, 0, 122);
+}
+.nachrichtankündigung {
+	position: absolute;
+	color: white;
+	font-size: 1.3vw;
+	left: 0.5vw;
+	top: 0.2vh;
+	letter-spacing: 0.1vw;
+	font-family: "Goldman", cursive;
+}
+.infotextes {
+	font-family: "Poppins", sans-serif;
+	position: absolute;
+	color: white;
+	font-size: 0.7vw;
+	left: 0.6vw;
+	top: 2.8vh;
+	background-color: rgba(255, 0, 0, 0);
+	width: 11vw;
+	height: 5vh;
+}
+.container-clean-res {
+	position: absolute;
+	height: 40vh;
+	top: 35vh;
+	width: 18vw;
+	overflow: hidden;
+	background-color: rgba(255, 0, 0, 0);
+}
+.notify-containers {
+	position: relative;
+
+	background-color: rgba(24, 24, 24, 0.479);
+	width: 16vw;
+	border-radius: 0.2vw;
+	left: 1.5vw;
+	top: 1.2vh;
+	z-index: 3;
+
+	min-height: 10vh;
+	margin-top: 0vh;
+
+	display: flex;
+}
+.background-info {
+	position: relative;
+	z-index: 0;
+	width: 2.5vw;
+	height: 4.5vh;
+	background-color: rgb(255, 0, 255, 0.5);
+
+	left: 0.8vw;
+	top: 4vh;
+	border-radius: 0.6vw;
+}
+.titelss {
+	position: absolute;
+	margin-top: 1.2vh;
+	padding: 1.5vw;
+	padding-top: 0vh;
+	padding-left: 1vw;
+
+	color: white;
+	font-family: "FiraSansRegular", sans-serif;
+	font-size: 1vw;
+	background-color: rgba(255, 0, 0, 0);
+	flex: 1;
+}
+
+.info-bild {
+	position: absolute;
+	top: 0.5vh;
+	left: 12.2vw;
+	width: 1.5vw;
+}
+
+.nachrichttext {
+	margin-top: 1.2vh;
+	padding: 1.5vw;
+	padding-top: 5vh;
+	padding-left: 1vw;
+	color: white;
+	font-family: "FiraSansRegular", sans-serif;
+	font-size: 0.9vw;
+
+	flex: 1;
+}
+
+.infos-bild {
+	position: absolute;
+	left: 12.1vw;
+	top: 0.7vh;
+	height: 2.7vh;
+}
+.policenotify {
+	position: absolute;
+	margin-top: 1vh;
+	background: linear-gradient(
+		to left,
+		rgba(1, 98, 208, 0.555),
+		rgba(35, 35, 35, 0.171) 100.71%
+	);
+	width: 14vw;
+	min-height: 10vh;
+	margin-top: 2vh;
+	display: flex;
+
+	left: 1.5vw;
+	border-radius: 0.3vw;
+}
+.pdbild {
+	position: absolute;
+	width: 2.3vw;
+	left: 1vw;
+	top: -1.5vh;
+}
+.border-downline {
+	position: absolute;
+	width: 12.8vw;
+	height: 0.2vh;
+	background-color: white;
+	top: 4.3vh;
+	left: 0.6vw;
+}
+.policetext {
+	position: absolute;
+	color: white;
+	font-size: 1.2vw;
+	overflow: hidden;
+	top: 0.2vh;
+	width: 14vw;
+	left: 2.6vw;
+	letter-spacing: 0vw;
+	background-color: rgba(255, 0, 0, 0);
+	font-family: "Poppins", sans-serif;
+	font-family: "FiraSansRegular", sans-serif;
+}
+.nachrichtpd {
+	margin-top: 1vh;
+	padding-left: 1vw;
+	padding-bottom: 2vh;
+	background-color: rgba(255, 0, 0, 0);
+	padding-top: 2vh;
+	padding-right: 1vw;
+	color: white;
+	font-family: "Roboto", sans-serif;
+	font-size: 1vw;
+	top: 2vh;
+	flex: 1;
+}
+.paycheck {
+	position: relative;
+	margin-top: 1vh;
+	background: rgba(20, 20, 20, 0.624);
+	width: 14vw;
+	min-height: 10vh;
+	margin-top: 1vh;
+	display: flex;
+	overflow: hidden;
+	left: 1vw;
+	border-radius: 0.3vw;
+}
+.notify-img {
+	position: absolute;
+	width: 1.7vw;
+	top: 1vh;
+	left: 0.5vw;
+}
+.PayCheckText {
+	position: absolute;
+	color: rgb(192, 192, 192);
+	font-size: 1vw;
+	overflow: hidden;
+	top: 1.3vh;
+	text-align: left;
+	width: 11vw;
+	left: 2.9vw;
+	letter-spacing: 0.1vw;
+	background-color: rgba(255, 0, 0, 0);
+	font-family: "Roboto", sans-serif;
+}
+.PayCheckText2 {
+	margin-top: 0vh;
+	padding-left: 0.6vw;
+	padding-bottom: 2vh;
+	padding-top: 5vh;
+	padding-right: 1vw;
+	color: white;
+	font-family: "Roboto", sans-serif;
+	font-size: 0.9vw;
+	top: 1vh;
+	flex: 1;
+	font-family: "Poppins", sans-serif;
+}
+.background-info2 {
+	position: relative;
+	z-index: 0;
+	width: 2.5vw;
+	height: 4.5vh;
+	background: linear-gradient(
+		to left,
+		rgba(1, 98, 208, 0.555),
+		rgba(35, 35, 35, 0.171) 100.71%
+	);
+
+	left: 0.8vw;
+	top: 4.56vh;
+	border-radius: 0.6vw;
+}
+.imgpolice {
+	position: absolute;
+	width: 2vw;
+	top: 0.4vh;
+	left: 0.2vw;
+}
+.Policeoverall {
+	top: -12vh;
+	position: relative;
+	margin-top: 8.5vh;
+}
+.container-tankstellennotify {
+	position: relative;
+	width: 90%;
+	height: 16.5vh;
+	left: 1.5vw;
+	filter: blur(1px);
+	border-radius: 0.2vw;
+	border: 0.1vw solid rgba(244, 244, 244, 0.511);
+	background-color: rgba(44, 44, 44, 0.422);
+}
+.info-notify {
+	position: absolute;
+	width: 2.5vw;
+	top: 1vh;
+	left: 0.8vw;
+	height: 2.5vw;
+	border-radius: 0.2vw;
+	background-color: #4aa9ff;
+	box-shadow: 5px 7px 50px -8px #4aa9ff;
+}
+.info-notify2 {
+	position: absolute;
+	width: 2.5vw;
+	top: 1vh;
+	left: 0.8vw;
+	height: 2.5vw;
+	border-radius: 0.2vw;
+	background-color: #118c4f;
+	box-shadow: 5px 7px 50px -8px #118c4f;
+}
+.imageinit {
+	position: absolute;
+	width: 1.5vw;
+	left: 0.45vw;
+	top: 0.8vh;
+}
+.headeroftext {
+	position: absolute;
+
+	background-color: rgba(255, 0, 0, 0);
+	width: 30vw;
+	color: white;
+	background-color: rgba(255, 0, 0, 0);
+	font-family: "Oswald", sans-serif;
+	letter-spacing: 0.05vw;
+	font-size: 1.2vw;
+	top: 0.7vh;
+	font-weight: 100;
+	left: 3.2vw;
+}
+.descoftext {
+	position: absolute;
+
+	background-color: rgba(255, 0, 0, 0);
+	width: 30vw;
+	color: white;
+	background-color: rgba(255, 0, 0, 0);
+
+	letter-spacing: 0.05vw;
+	font-size: 0.8vw;
+	top: 5vh;
+	font-weight: 100;
+	left: 3.2vw;
+	font-family: "Roboto", sans-serif;
+}
+.container-tankstellennotify2 {
+	position: relative;
+	width: 90%;
+	height: 15.5vh;
+	left: 1.5vw;
+	filter: blur(1px);
+	border-radius: 0.2vw;
+	border: 0.1vw solid rgba(244, 244, 244, 0.511);
+	background-color: rgba(44, 44, 44, 0.422);
+}
+.descoftext2 {
+	position: absolute;
+
+	background-color: rgba(255, 0, 0, 0);
+	width: 14vw;
+	color: white;
+	background-color: rgba(255, 0, 0, 0);
+
+	letter-spacing: 0.05vw;
+	font-size: 0.8vw;
+	top: 5vh;
+	font-weight: 100;
+	left: 3.2vw;
+	font-family: "Roboto", sans-serif;
+}

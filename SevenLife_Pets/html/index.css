@@ -1,0 +1,303 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Estonia&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Radio+Canada&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hurricane&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Goldman&family=Radio+Canada&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap");
+body {
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+.left {
+	position: absolute;
+	width: 75vw;
+	height: 100%;
+	background: linear-gradient(
+		to right,
+		rgba(114, 0, 89),
+		rgba(0, 0, 255, 0) 95.71%
+	);
+}
+.right {
+	position: absolute;
+	width: 75vw;
+	height: 100%;
+	right: 0vw;
+	background: linear-gradient(
+		to left,
+		rgba(114, 0, 89),
+		rgba(0, 0, 255, 0) 95.71%
+	);
+}
+.zoohandlungtext {
+	position: absolute;
+	top: 4.2vh;
+	left: 40.5vw;
+	width: 17vw;
+	background-color: rgba(255, 0, 0, 0);
+	text-align: center;
+	font-size: 2.5vw;
+	letter-spacing: 0.3vw;
+	color: rgb(255, 255, 255);
+	font-family: "Nanum Myeongjo", serif;
+}
+.tiercontainer {
+	position: absolute;
+	width: 50vw;
+	height: 80vh;
+	background: rgba(255, 0, 0, 0);
+	left: 25vw;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	top: 15vh;
+}
+.tiercontainer::-webkit-scrollbar {
+	width: 0.5vw;
+	height: 10vh;
+}
+
+.tiercontainer::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+.tiercontainer::-webkit-scrollbar-thumb {
+	background-color: #202020;
+	border-radius: 1vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.12) 0 3px 13px 1px;
+}
+.container-buying {
+	position: absolute;
+	width: 22vw;
+	height: 80vh;
+	background-color: rgba(255, 0, 0, 0);
+	right: 2vw;
+	top: 15vh;
+}
+.container-buyanimal {
+	position: relative;
+	width: 12vw;
+	height: 30vh;
+	cursor: none;
+	display: inline-block;
+
+	margin-left: 0.1vw;
+	background-color: rgba(54, 54, 54, 0.553);
+	border-radius: 0.2vw;
+}
+
+.submitbutton {
+	position: absolute;
+	width: 14.1vw;
+	height: 6vh;
+	font-family: "Nunito Sans", sans-serif;
+	font-size: 1.5vw;
+	left: 1.6vw;
+	top: 17.5vh;
+	border: none;
+	outline: none;
+	z-index: 1;
+	padding: 0.3vh 2.5vw;
+	text-align: right;
+	color: white;
+	cursor: pointer;
+	background-color: rgb(221, 26, 0);
+}
+.submitbutton:hover {
+	transition: all 1s;
+	background-color: #5e1931;
+}
+.done {
+	position: absolute;
+	left: 2vw;
+	width: 2vw;
+	top: 1.3vh;
+}
+.inside-container {
+	position: absolute;
+	width: 11vw;
+	background-color: rgba(41, 41, 41, 0.571);
+	height: 18vh;
+	left: 0.5vw;
+	top: 1vh;
+	border-radius: 0.4vw;
+}
+.text-tier {
+	position: absolute;
+	top: 19vh;
+	left: 0vw;
+	width: 12vw;
+	background-color: rgba(255, 0, 0, 0);
+	text-align: center;
+	font-size: 1.2vw;
+	letter-spacing: 0.1vw;
+	color: rgb(204, 204, 204);
+	font-family: "Nunito Sans", sans-serif;
+}
+.text-zahlen {
+	position: absolute;
+	top: 22vh;
+	left: 0vw;
+	width: 12vw;
+	background-color: rgba(255, 0, 0, 0);
+	text-align: center;
+	font-size: 2vw;
+	letter-spacing: 0.1vw;
+	color: rgb(239, 239, 239);
+	font-family: "Nunito Sans", sans-serif;
+}
+.emoji {
+	position: absolute;
+	width: 9vw;
+	top: 1.5vh;
+	left: 1vw;
+
+	background-color: rgba(255, 0, 0, 0);
+}
+.container-buyanimal:hover {
+	transition: 1s all;
+	cursor: pointer;
+	background-color: rgba(27, 27, 27, 0.553);
+}
+.Shoppingcar {
+	position: absolute;
+	width: 3vw;
+	top: 26vh;
+	left: 1.5vw;
+}
+.warenkorb {
+	position: absolute;
+	top: 26vh;
+	left: 5vw;
+	background-color: rgba(255, 0, 0, 0);
+	text-align: center;
+	font-size: 1.4vw;
+	letter-spacing: 0.1vw;
+	color: rgb(255, 255, 255);
+	font-family: "Nunito Sans", sans-serif;
+}
+.warenkorb-container {
+	position: absolute;
+	width: 20vw;
+	height: 46.5vh;
+	background-color: rgba(255, 0, 0, 0);
+	top: 34vh;
+	left: 1.5vw;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+.warenkorb-container::-webkit-scrollbar {
+	width: 0.5vw;
+	height: 10vh;
+}
+
+.warenkorb-container::-webkit-scrollbar-track {
+	border-radius: 1vw;
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+.warenkorb-container::-webkit-scrollbar-thumb {
+	background-color: #202020;
+	border-radius: 1vw;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.12) 0 3px 13px 1px;
+}
+.container-warenkorb1 {
+	position: relative;
+	width: 19vw;
+	height: 10vh;
+	display: inline-block;
+	margin-left: 0.1vw;
+	background-color: rgba(54, 54, 54, 0.553);
+	border-radius: 0.2vw;
+}
+.inside-container-warenkorb {
+	position: absolute;
+	width: 5vw;
+	background-color: rgba(41, 41, 41, 0.571);
+	height: 8vh;
+	left: 0.5vw;
+	top: 1vh;
+	border-radius: 0.4vw;
+}
+.emoji-warenkorb {
+	position: absolute;
+	width: 5vw;
+
+	background-color: rgba(255, 0, 0, 0);
+}
+.text-warnekorb {
+	position: absolute;
+	top: 0.1vh;
+	left: 6.5vw;
+	width: 12vw;
+	background-color: rgba(255, 0, 0, 0);
+	text-align: left;
+	font-size: 1.6vw;
+	letter-spacing: 0.1vw;
+	color: rgb(204, 204, 204);
+	font-family: "Nunito Sans", sans-serif;
+}
+.text-stückanzahl {
+	position: absolute;
+	top: 4.5vh;
+	left: 6.5vw;
+	width: 12vw;
+	background-color: rgba(255, 0, 0, 0);
+	text-align: left;
+	font-size: 1.2vw;
+	letter-spacing: 0.1vw;
+	color: rgb(239, 239, 239);
+	font-family: "Nunito Sans", sans-serif;
+}
+.insgesamt {
+	position: absolute;
+	top: 4vh;
+	left: 0.5vw;
+	width: 12vw;
+	background-color: rgba(255, 0, 0, 0);
+	text-align: center;
+	font-size: 1.7vw;
+	letter-spacing: 0.1vw;
+	color: rgb(204, 204, 204);
+	font-family: "Nunito Sans", sans-serif;
+}
+.text-zahlense {
+	position: absolute;
+	top: 8.8vh;
+	left: 1.5vw;
+	width: 14vw;
+	background-color: rgba(255, 0, 0, 0);
+	text-align: left;
+	font-size: 2vw;
+	letter-spacing: 0.1vw;
+	color: rgb(239, 239, 239);
+	font-family: "Nunito Sans", sans-serif;
+}
+.information {
+	position: absolute;
+	top: -2.2vh;
+	left: 1.6vw;
+	background-color: rgba(255, 0, 0, 0);
+	text-align: center;
+	font-size: 2vw;
+	letter-spacing: 0.2vw;
+	color: rgb(255, 255, 255);
+	font-family: "Goldman", cursive;
+}
